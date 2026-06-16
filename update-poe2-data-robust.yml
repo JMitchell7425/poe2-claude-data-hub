@@ -12,6 +12,7 @@ jobs:
   update-data:
     name: Update data
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -43,6 +44,7 @@ jobs:
             local out="$2"
 
             echo "Downloading: $out"
+
             if curl -L --fail --retry 3 --retry-delay 2 -o "$out" "$url"; then
               echo "| OK | \`$out\` | $url |" >> "$SUMMARY"
               return 0
@@ -53,10 +55,8 @@ jobs:
             fi
           }
 
-          # GGG passive tree
           download_file "https://raw.githubusercontent.com/grindinggear/poe2-skilltree-export/main/data.json" "sources/ggg/passive_tree_data.json"
 
-          # RePoE PoE2 core data
           download_file "https://repoe-fork.github.io/poe2/skill_gems.json" "sources/repoe_poe2/skill_gems.json"
           download_file "https://repoe-fork.github.io/poe2/skills.json" "sources/repoe_poe2/skills.json"
           download_file "https://repoe-fork.github.io/poe2/gem_tags.json" "sources/repoe_poe2/gem_tags.json"
@@ -75,7 +75,6 @@ jobs:
           download_file "https://repoe-fork.github.io/poe2/stats_by_file.json" "sources/repoe_poe2/stats_by_file.json"
           download_file "https://repoe-fork.github.io/poe2/stat_value_handlers.json" "sources/repoe_poe2/stat_value_handlers.json"
 
-          # PoB-data PoE2
           download_file "https://repoe-fork.github.io/pob-data/poe2/Gems.json" "sources/pob_data_poe2/Gems.json"
           download_file "https://repoe-fork.github.io/pob-data/poe2/ModItem.json" "sources/pob_data_poe2/ModItem.json"
           download_file "https://repoe-fork.github.io/pob-data/poe2/ModRunes.json" "sources/pob_data_poe2/ModRunes.json"
