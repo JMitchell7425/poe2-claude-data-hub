@@ -1,0 +1,716 @@
+{
+  "CharmGainLifeOnUse1":{
+    "affix":"Herbal",
+    "group":"CharmGainLifeOnUse",
+    "level":1,
+    "modTags":["charm","resource","life"],
+    "statOrder":[926],
+    "tradeHashes":{
+      "2365392475":["Recover (8-12) Life when Used"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Recover (8-12) Life when Used"
+  },
+  "CharmGainLifeOnUse2":{
+    "affix":"Floral",
+    "group":"CharmGainLifeOnUse",
+    "level":14,
+    "modTags":["charm","resource","life"],
+    "statOrder":[926],
+    "tradeHashes":{
+      "2365392475":["Recover (35-52) Life when Used"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Recover (35-52) Life when Used"
+  },
+  "CharmGainLifeOnUse3":{
+    "affix":"Blooming",
+    "group":"CharmGainLifeOnUse",
+    "level":26,
+    "modTags":["charm","resource","life"],
+    "statOrder":[926],
+    "tradeHashes":{
+      "2365392475":["Recover (63-92) Life when Used"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Recover (63-92) Life when Used"
+  },
+  "CharmGainLifeOnUse4":{
+    "affix":"Sprouting",
+    "group":"CharmGainLifeOnUse",
+    "level":36,
+    "modTags":["charm","resource","life"],
+    "statOrder":[926],
+    "tradeHashes":{
+      "2365392475":["Recover (96-130) Life when Used"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Recover (96-130) Life when Used"
+  },
+  "CharmGainLifeOnUse5":{
+    "affix":"Petaled",
+    "group":"CharmGainLifeOnUse",
+    "level":47,
+    "modTags":["charm","resource","life"],
+    "statOrder":[926],
+    "tradeHashes":{
+      "2365392475":["Recover (134-180) Life when Used"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Recover (134-180) Life when Used"
+  },
+  "CharmGainLifeOnUse6":{
+    "affix":"Botanic",
+    "group":"CharmGainLifeOnUse",
+    "level":58,
+    "modTags":["charm","resource","life"],
+    "statOrder":[926],
+    "tradeHashes":{
+      "2365392475":["Recover (185-230) Life when Used"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Recover (185-230) Life when Used"
+  },
+  "CharmGainLifeOnUse7":{
+    "affix":"Natural",
+    "group":"CharmGainLifeOnUse",
+    "level":67,
+    "modTags":["charm","resource","life"],
+    "statOrder":[926],
+    "tradeHashes":{
+      "2365392475":["Recover (235-280) Life when Used"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Recover (235-280) Life when Used"
+  },
+  "CharmGainLifeOnUse8":{
+    "affix":"Evergreen",
+    "group":"CharmGainLifeOnUse",
+    "level":76,
+    "modTags":["charm","resource","life"],
+    "statOrder":[926],
+    "tradeHashes":{
+      "2365392475":["Recover (285-350) Life when Used"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Recover (285-350) Life when Used"
+  },
+  "CharmGainManaOnUse1":{
+    "affix":"Drizzling",
+    "group":"CharmGainManaOnUse",
+    "level":1,
+    "modTags":["charm","resource","mana"],
+    "statOrder":[927],
+    "tradeHashes":{
+      "1120862500":["Recover (16-24) Mana when Used"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Recover (16-24) Mana when Used"
+  },
+  "CharmGainManaOnUse2":{
+    "affix":"Soaked",
+    "group":"CharmGainManaOnUse",
+    "level":14,
+    "modTags":["charm","resource","mana"],
+    "statOrder":[927],
+    "tradeHashes":{
+      "1120862500":["Recover (33-50) Mana when Used"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Recover (33-50) Mana when Used"
+  },
+  "CharmGainManaOnUse3":{
+    "affix":"Mistbound",
+    "group":"CharmGainManaOnUse",
+    "level":26,
+    "modTags":["charm","resource","mana"],
+    "statOrder":[927],
+    "tradeHashes":{
+      "1120862500":["Recover (55-75) Mana when Used"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Recover (55-75) Mana when Used"
+  },
+  "CharmGainManaOnUse4":{
+    "affix":"Tidebound",
+    "group":"CharmGainManaOnUse",
+    "level":36,
+    "modTags":["charm","resource","mana"],
+    "statOrder":[927],
+    "tradeHashes":{
+      "1120862500":["Recover (80-110) Mana when Used"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Recover (80-110) Mana when Used"
+  },
+  "CharmGainManaOnUse5":{
+    "affix":"Aqueous",
+    "group":"CharmGainManaOnUse",
+    "level":47,
+    "modTags":["charm","resource","mana"],
+    "statOrder":[927],
+    "tradeHashes":{
+      "1120862500":["Recover (115-145) Mana when Used"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Recover (115-145) Mana when Used"
+  },
+  "CharmGainManaOnUse6":{
+    "affix":"Flooded",
+    "group":"CharmGainManaOnUse",
+    "level":58,
+    "modTags":["charm","resource","mana"],
+    "statOrder":[927],
+    "tradeHashes":{
+      "1120862500":["Recover (150-180) Mana when Used"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Recover (150-180) Mana when Used"
+  },
+  "CharmGainManaOnUse7":{
+    "affix":"Oceanic",
+    "group":"CharmGainManaOnUse",
+    "level":67,
+    "modTags":["charm","resource","mana"],
+    "statOrder":[927],
+    "tradeHashes":{
+      "1120862500":["Recover (185-225) Mana when Used"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Recover (185-225) Mana when Used"
+  },
+  "CharmGainManaOnUse8":{
+    "affix":"Raindancer's",
+    "group":"CharmGainManaOnUse",
+    "level":76,
+    "modTags":["charm","resource","mana"],
+    "statOrder":[927],
+    "tradeHashes":{
+      "1120862500":["Recover (230-300) Mana when Used"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Recover (230-300) Mana when Used"
+  },
+  "CharmGuardWhileActive1":{
+    "affix":"Sunny",
+    "group":"CharmGuardWhileActive",
+    "level":10,
+    "modTags":["charm"],
+    "statOrder":[925],
+    "tradeHashes":{
+      "2676834156":["Also grants (44-66) Guard"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Also grants (44-66) Guard"
+  },
+  "CharmGuardWhileActive2":{
+    "affix":"Dawnlit",
+    "group":"CharmGuardWhileActive",
+    "level":21,
+    "modTags":["charm"],
+    "statOrder":[925],
+    "tradeHashes":{
+      "2676834156":["Also grants (85-128) Guard"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Also grants (85-128) Guard"
+  },
+  "CharmGuardWhileActive3":{
+    "affix":"Bright",
+    "group":"CharmGuardWhileActive",
+    "level":36,
+    "modTags":["charm"],
+    "statOrder":[925],
+    "tradeHashes":{
+      "2676834156":["Also grants (148-200) Guard"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Also grants (148-200) Guard"
+  },
+  "CharmGuardWhileActive4":{
+    "affix":"Vibrant",
+    "group":"CharmGuardWhileActive",
+    "level":48,
+    "modTags":["charm"],
+    "statOrder":[925],
+    "tradeHashes":{
+      "2676834156":["Also grants (205-260) Guard"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Also grants (205-260) Guard"
+  },
+  "CharmGuardWhileActive5":{
+    "affix":"Lustrous",
+    "group":"CharmGuardWhileActive",
+    "level":60,
+    "modTags":["charm"],
+    "statOrder":[925],
+    "tradeHashes":{
+      "2676834156":["Also grants (265-350) Guard"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Also grants (265-350) Guard"
+  },
+  "CharmGuardWhileActive6":{
+    "affix":"Sunburst",
+    "group":"CharmGuardWhileActive",
+    "level":75,
+    "modTags":["charm"],
+    "statOrder":[925],
+    "tradeHashes":{
+      "2676834156":["Also grants (355-500) Guard"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"Also grants (355-500) Guard"
+  },
+  "CharmIncreasedDuration1":{
+    "affix":"Investigator's",
+    "group":"CharmIncreasedDuration",
+    "level":1,
+    "modTags":["charm"],
+    "statOrder":[928],
+    "tradeHashes":{
+      "2541588185":["(16-20)% increased Duration"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"(16-20)% increased Duration"
+  },
+  "CharmIncreasedDuration2":{
+    "affix":"Analyst's",
+    "group":"CharmIncreasedDuration",
+    "level":20,
+    "modTags":["charm"],
+    "statOrder":[928],
+    "tradeHashes":{
+      "2541588185":["(21-25)% increased Duration"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"(21-25)% increased Duration"
+  },
+  "CharmIncreasedDuration3":{
+    "affix":"Examiner's",
+    "group":"CharmIncreasedDuration",
+    "level":42,
+    "modTags":["charm"],
+    "statOrder":[928],
+    "tradeHashes":{
+      "2541588185":["(26-30)% increased Duration"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"(26-30)% increased Duration"
+  },
+  "CharmIncreasedDuration4":{
+    "affix":"Clinician's",
+    "group":"CharmIncreasedDuration",
+    "level":61,
+    "modTags":["charm"],
+    "statOrder":[928],
+    "tradeHashes":{
+      "2541588185":["(31-35)% increased Duration"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"(31-35)% increased Duration"
+  },
+  "CharmIncreasedDuration5":{
+    "affix":"Experimenter's",
+    "group":"CharmIncreasedDuration",
+    "level":78,
+    "modTags":["charm"],
+    "statOrder":[928],
+    "tradeHashes":{
+      "2541588185":["(36-40)% increased Duration"]
+    },
+    "type":"Prefix",
+    "weightKey":["utility_flask","default"],
+    "weightVal":[1,0],
+    "1":"(36-40)% increased Duration"
+  },
+  "FlaskChanceRechargeOnKill1":{
+    "affix":"of the Medic",
+    "group":"FlaskChanceRechargeOnKill",
+    "level":8,
+    "modTags":["flask"],
+    "statOrder":[1071],
+    "tradeHashes":{
+      "828533480":["(21-25)% Chance to gain a Charge when you kill an enemy"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(21-25)% Chance to gain a Charge when you kill an enemy"
+  },
+  "FlaskChanceRechargeOnKill2":{
+    "affix":"of the Doctor",
+    "group":"FlaskChanceRechargeOnKill",
+    "level":26,
+    "modTags":["flask"],
+    "statOrder":[1071],
+    "tradeHashes":{
+      "828533480":["(26-30)% Chance to gain a Charge when you kill an enemy"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(26-30)% Chance to gain a Charge when you kill an enemy"
+  },
+  "FlaskChanceRechargeOnKill3":{
+    "affix":"of the Surgeon",
+    "group":"FlaskChanceRechargeOnKill",
+    "level":45,
+    "modTags":["flask"],
+    "statOrder":[1071],
+    "tradeHashes":{
+      "828533480":["(31-35)% Chance to gain a Charge when you kill an enemy"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(31-35)% Chance to gain a Charge when you kill an enemy"
+  },
+  "FlaskChargesAddedIncreasePercent1":{
+    "affix":"of the Constant",
+    "group":"FlaskIncreasedChargesAdded",
+    "level":1,
+    "modTags":["flask"],
+    "statOrder":[1072],
+    "tradeHashes":{
+      "3196823591":["(23-30)% increased Charges gained"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(23-30)% increased Charges gained"
+  },
+  "FlaskChargesAddedIncreasePercent2_":{
+    "affix":"of the Continuous",
+    "group":"FlaskIncreasedChargesAdded",
+    "level":13,
+    "modTags":["flask"],
+    "statOrder":[1072],
+    "tradeHashes":{
+      "3196823591":["(31-38)% increased Charges gained"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(31-38)% increased Charges gained"
+  },
+  "FlaskChargesAddedIncreasePercent3_":{
+    "affix":"of the Endless",
+    "group":"FlaskIncreasedChargesAdded",
+    "level":33,
+    "modTags":["flask"],
+    "statOrder":[1072],
+    "tradeHashes":{
+      "3196823591":["(39-46)% increased Charges gained"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(39-46)% increased Charges gained"
+  },
+  "FlaskChargesAddedIncreasePercent4_":{
+    "affix":"of the Bottomless",
+    "group":"FlaskIncreasedChargesAdded",
+    "level":48,
+    "modTags":["flask"],
+    "statOrder":[1072],
+    "tradeHashes":{
+      "3196823591":["(47-54)% increased Charges gained"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(47-54)% increased Charges gained"
+  },
+  "FlaskChargesAddedIncreasePercent5__":{
+    "affix":"of the Perpetual",
+    "group":"FlaskIncreasedChargesAdded",
+    "level":63,
+    "modTags":["flask"],
+    "statOrder":[1072],
+    "tradeHashes":{
+      "3196823591":["(55-62)% increased Charges gained"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(55-62)% increased Charges gained"
+  },
+  "FlaskChargesAddedIncreasePercent6":{
+    "affix":"of the Eternal",
+    "group":"FlaskIncreasedChargesAdded",
+    "level":82,
+    "modTags":["flask"],
+    "statOrder":[1072],
+    "tradeHashes":{
+      "3196823591":["(63-70)% increased Charges gained"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(63-70)% increased Charges gained"
+  },
+  "FlaskChargesUsed1":{
+    "affix":"of the Apprentice",
+    "group":"FlaskChargesUsed",
+    "level":1,
+    "modTags":["flask"],
+    "statOrder":[1073],
+    "tradeHashes":{
+      "388617051":["(15-17)% reduced Charges per use"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(15-17)% reduced Charges per use"
+  },
+  "FlaskChargesUsed2":{
+    "affix":"of the Practitioner",
+    "group":"FlaskChargesUsed",
+    "level":14,
+    "modTags":["flask"],
+    "statOrder":[1073],
+    "tradeHashes":{
+      "388617051":["(18-20)% reduced Charges per use"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(18-20)% reduced Charges per use"
+  },
+  "FlaskChargesUsed3__":{
+    "affix":"of the Mixologist",
+    "group":"FlaskChargesUsed",
+    "level":34,
+    "modTags":["flask"],
+    "statOrder":[1073],
+    "tradeHashes":{
+      "388617051":["(21-23)% reduced Charges per use"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(21-23)% reduced Charges per use"
+  },
+  "FlaskChargesUsed4__":{
+    "affix":"of the Distiller",
+    "group":"FlaskChargesUsed",
+    "level":49,
+    "modTags":["flask"],
+    "statOrder":[1073],
+    "tradeHashes":{
+      "388617051":["(24-26)% reduced Charges per use"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(24-26)% reduced Charges per use"
+  },
+  "FlaskChargesUsed5":{
+    "affix":"of the Brewer",
+    "group":"FlaskChargesUsed",
+    "level":64,
+    "modTags":["flask"],
+    "statOrder":[1073],
+    "tradeHashes":{
+      "388617051":["(27-29)% reduced Charges per use"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(27-29)% reduced Charges per use"
+  },
+  "FlaskChargesUsed6":{
+    "affix":"of the Chemist",
+    "group":"FlaskChargesUsed",
+    "level":83,
+    "modTags":["flask"],
+    "statOrder":[1073],
+    "tradeHashes":{
+      "388617051":["(30-32)% reduced Charges per use"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(30-32)% reduced Charges per use"
+  },
+  "FlaskExtraCharges1":{
+    "affix":"of the Wide",
+    "group":"FlaskIncreasedMaxCharges",
+    "level":1,
+    "modTags":["flask"],
+    "statOrder":[1075],
+    "tradeHashes":{
+      "1366840608":["(23-30)% increased Charges"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(23-30)% increased Charges"
+  },
+  "FlaskExtraCharges2__":{
+    "affix":"of the Copious",
+    "group":"FlaskIncreasedMaxCharges",
+    "level":12,
+    "modTags":["flask"],
+    "statOrder":[1075],
+    "tradeHashes":{
+      "1366840608":["(31-38)% increased Charges"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(31-38)% increased Charges"
+  },
+  "FlaskExtraCharges3_":{
+    "affix":"of the Plentiful",
+    "group":"FlaskIncreasedMaxCharges",
+    "level":32,
+    "modTags":["flask"],
+    "statOrder":[1075],
+    "tradeHashes":{
+      "1366840608":["(39-46)% increased Charges"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(39-46)% increased Charges"
+  },
+  "FlaskExtraCharges4__":{
+    "affix":"of the Bountiful",
+    "group":"FlaskIncreasedMaxCharges",
+    "level":47,
+    "modTags":["flask"],
+    "statOrder":[1075],
+    "tradeHashes":{
+      "1366840608":["(47-54)% increased Charges"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(47-54)% increased Charges"
+  },
+  "FlaskExtraCharges5":{
+    "affix":"of the Abundant",
+    "group":"FlaskIncreasedMaxCharges",
+    "level":62,
+    "modTags":["flask"],
+    "statOrder":[1075],
+    "tradeHashes":{
+      "1366840608":["(55-62)% increased Charges"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(55-62)% increased Charges"
+  },
+  "FlaskExtraCharges6":{
+    "affix":"of the Ample",
+    "group":"FlaskIncreasedMaxCharges",
+    "level":81,
+    "modTags":["flask"],
+    "statOrder":[1075],
+    "tradeHashes":{
+      "1366840608":["(63-70)% increased Charges"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"(63-70)% increased Charges"
+  },
+  "FlaskFillChargesPerMinute1":{
+    "affix":"of the Foliage",
+    "group":"FlaskGainChargePerMinute",
+    "level":8,
+    "modTags":[],
+    "statOrder":[618],
+    "tradeHashes":{
+      "1873752457":["Gains 0.15 Charges per Second"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"Gains 0.15 Charges per Second"
+  },
+  "FlaskFillChargesPerMinute2":{
+    "affix":"of the Verdant",
+    "group":"FlaskGainChargePerMinute",
+    "level":26,
+    "modTags":[],
+    "statOrder":[618],
+    "tradeHashes":{
+      "1873752457":["Gains 0.2 Charges per Second"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"Gains 0.2 Charges per Second"
+  },
+  "FlaskFillChargesPerMinute3":{
+    "affix":"of the Sylvan",
+    "group":"FlaskGainChargePerMinute",
+    "level":45,
+    "modTags":[],
+    "statOrder":[618],
+    "tradeHashes":{
+      "1873752457":["Gains 0.25 Charges per Second"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"Gains 0.25 Charges per Second"
+  }
+}
