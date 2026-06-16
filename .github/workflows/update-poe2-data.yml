@@ -17,91 +17,533 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Download PoE2 data files
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download PoE2 data and build compact indexes
         shell: bash
         run: |
-          mkdir -p sources/ggg
-          mkdir -p sources/repoe_poe2
-          mkdir -p sources/pob_data_poe2
-          mkdir -p build_knowledge
+          python - <<'PY'
+          import datetime as dt
+          import json
+          import os
+          import sys
+          import urllib.request
+          import zipfile
+          from pathlib import Path
+          from typing import Any
 
-          SUMMARY="build_knowledge/manifest_summary.md"
-          : > "$SUMMARY"
+          ROOT = Path(".")
+          SOURCES = ROOT / "sources"
+          BUILD = ROOT / "build_knowledge"
+          COMPACT = BUILD / "compact"
+          ZIP = ROOT / "poe2_data_bundle.zip"
 
-          {
-            echo "# PoE2 Data Manifest Summary"
-            echo ""
-            echo "Generated UTC: $(date -u +"%Y-%m-%d %H:%M:%S")"
-            echo ""
-            echo "## Download results"
-            echo ""
-            echo "| Status | File | Source |"
-            echo "|---|---|---|"
-          } >> "$SUMMARY"
-
-          download_file () {
-            local url="$1"
-            local out="$2"
-
-            echo "Downloading: $out"
-
-            if curl -L --fail --retry 3 --retry-delay 2 -o "$out" "$url"; then
-              echo "| OK | \`$out\` | $url |" >> "$SUMMARY"
-              return 0
-            else
-              echo "| FAILED | \`$out\` | $url |" >> "$SUMMARY"
-              rm -f "$out"
-              return 0
-            fi
+          URLS = {
+              "ggg": {
+                  "passive_tree_data.json": "https://raw.githubusercontent.com/grindinggear/poe2-skilltree-export/main/data.json",
+              },
+              "repoe_poe2": {
+                  "skill_gems.json": "https://repoe-fork.github.io/poe2/skill_gems.json",
+                  "skills.json": "https://repoe-fork.github.io/poe2/skills.json",
+                  "gem_tags.json": "https://repoe-fork.github.io/poe2/gem_tags.json",
+                  "active_skill_types.json": "https://repoe-fork.github.io/poe2/active_skill_types.json",
+                  "cost_types.json": "https://repoe-fork.github.io/poe2/cost_types.json",
+                  "keywords.json": "https://repoe-fork.github.io/poe2/keywords.json",
+                  "base_items.json": "https://repoe-fork.github.io/poe2/base_items.json",
+                  "item_classes.json": "https://repoe-fork.github.io/poe2/item_classes.json",
+                  "tags.json": "https://repoe-fork.github.io/poe2/tags.json",
+                  "tag_details.json": "https://repoe-fork.github.io/poe2/tag_details.json",
+                  "mods.json": "https://repoe-fork.github.io/poe2/mods.json",
+                  "mods_by_base.json": "https://repoe-fork.github.io/poe2/mods_by_base.json",
+                  "characters.json": "https://repoe-fork.github.io/poe2/characters.json",
+                  "ascendancies.json": "https://repoe-fork.github.io/poe2/ascendancies.json",
+                  "uniques.json": "https://repoe-fork.github.io/poe2/uniques.json",
+                  "stats_by_file.json": "https://repoe-fork.github.io/poe2/stats_by_file.json",
+                  "stat_value_handlers.json": "https://repoe-fork.github.io/poe2/stat_value_handlers.json",
+              },
+              "pob_data_poe2": {
+                  "Gems.json": "https://repoe-fork.github.io/pob-data/poe2/Gems.json",
+                  "ModItem.json": "https://repoe-fork.github.io/pob-data/poe2/ModItem.json",
+                  "ModRunes.json": "https://repoe-fork.github.io/pob-data/poe2/ModRunes.json",
+                  "ModJewel.json": "https://repoe-fork.github.io/pob-data/poe2/ModJewel.json",
+                  "ModCharm.json": "https://repoe-fork.github.io/pob-data/poe2/ModCharm.json",
+                  "ModFlask.json": "https://repoe-fork.github.io/pob-data/poe2/ModFlask.json",
+                  "QueryMods.json": "https://repoe-fork.github.io/pob-data/poe2/QueryMods.json",
+                  "SkillStatMap.json": "https://repoe-fork.github.io/pob-data/poe2/SkillStatMap.json",
+                  "TradeSiteStats.json": "https://repoe-fork.github.io/pob-data/poe2/TradeSiteStats.json",
+                  "Costs.json": "https://repoe-fork.github.io/pob-data/poe2/Costs.json",
+                  "Misc.json": "https://repoe-fork.github.io/pob-data/poe2/Misc.json",
+                  "Minions.json": "https://repoe-fork.github.io/pob-data/poe2/Minions.json",
+              },
           }
 
-          download_file "https://raw.githubusercontent.com/grindinggear/poe2-skilltree-export/main/data.json" "sources/ggg/passive_tree_data.json"
+          def write_json(path: Path, obj: Any, compact: bool = True) -> None:
+              path.parent.mkdir(parents=True, exist_ok=True)
+              if compact:
+                  path.write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+              else:
+                  path.write_text(json.dumps(obj, ensure_ascii=False, indent=2, sort_keys=True), encoding="utf-8")
 
-          download_file "https://repoe-fork.github.io/poe2/skill_gems.json" "sources/repoe_poe2/skill_gems.json"
-          download_file "https://repoe-fork.github.io/poe2/skills.json" "sources/repoe_poe2/skills.json"
-          download_file "https://repoe-fork.github.io/poe2/gem_tags.json" "sources/repoe_poe2/gem_tags.json"
-          download_file "https://repoe-fork.github.io/poe2/active_skill_types.json" "sources/repoe_poe2/active_skill_types.json"
-          download_file "https://repoe-fork.github.io/poe2/cost_types.json" "sources/repoe_poe2/cost_types.json"
-          download_file "https://repoe-fork.github.io/poe2/keywords.json" "sources/repoe_poe2/keywords.json"
-          download_file "https://repoe-fork.github.io/poe2/base_items.json" "sources/repoe_poe2/base_items.json"
-          download_file "https://repoe-fork.github.io/poe2/item_classes.json" "sources/repoe_poe2/item_classes.json"
-          download_file "https://repoe-fork.github.io/poe2/tags.json" "sources/repoe_poe2/tags.json"
-          download_file "https://repoe-fork.github.io/poe2/tag_details.json" "sources/repoe_poe2/tag_details.json"
-          download_file "https://repoe-fork.github.io/poe2/mods.json" "sources/repoe_poe2/mods.json"
-          download_file "https://repoe-fork.github.io/poe2/mods_by_base.json" "sources/repoe_poe2/mods_by_base.json"
-          download_file "https://repoe-fork.github.io/poe2/characters.json" "sources/repoe_poe2/characters.json"
-          download_file "https://repoe-fork.github.io/poe2/ascendancies.json" "sources/repoe_poe2/ascendancies.json"
-          download_file "https://repoe-fork.github.io/poe2/uniques.json" "sources/repoe_poe2/uniques.json"
-          download_file "https://repoe-fork.github.io/poe2/stats_by_file.json" "sources/repoe_poe2/stats_by_file.json"
-          download_file "https://repoe-fork.github.io/poe2/stat_value_handlers.json" "sources/repoe_poe2/stat_value_handlers.json"
+          def load_json(path: Path) -> Any:
+              return json.loads(path.read_text(encoding="utf-8"))
 
-          download_file "https://repoe-fork.github.io/pob-data/poe2/Gems.json" "sources/pob_data_poe2/Gems.json"
-          download_file "https://repoe-fork.github.io/pob-data/poe2/ModItem.json" "sources/pob_data_poe2/ModItem.json"
-          download_file "https://repoe-fork.github.io/pob-data/poe2/ModRunes.json" "sources/pob_data_poe2/ModRunes.json"
-          download_file "https://repoe-fork.github.io/pob-data/poe2/ModJewel.json" "sources/pob_data_poe2/ModJewel.json"
-          download_file "https://repoe-fork.github.io/pob-data/poe2/ModCharm.json" "sources/pob_data_poe2/ModCharm.json"
-          download_file "https://repoe-fork.github.io/pob-data/poe2/ModFlask.json" "sources/pob_data_poe2/ModFlask.json"
-          download_file "https://repoe-fork.github.io/pob-data/poe2/QueryMods.json" "sources/pob_data_poe2/QueryMods.json"
-          download_file "https://repoe-fork.github.io/pob-data/poe2/SkillStatMap.json" "sources/pob_data_poe2/SkillStatMap.json"
-          download_file "https://repoe-fork.github.io/pob-data/poe2/TradeSiteStats.json" "sources/pob_data_poe2/TradeSiteStats.json"
-          download_file "https://repoe-fork.github.io/pob-data/poe2/Costs.json" "sources/pob_data_poe2/Costs.json"
-          download_file "https://repoe-fork.github.io/pob-data/poe2/Misc.json" "sources/pob_data_poe2/Misc.json"
-          download_file "https://repoe-fork.github.io/pob-data/poe2/Minions.json" "sources/pob_data_poe2/Minions.json"
+          def count_top(obj: Any) -> int:
+              return len(obj) if isinstance(obj, (dict, list)) else 1
 
-          {
-            echo ""
-            echo "## Downloaded files"
-            echo ""
-            find sources -type f | sort
-            echo ""
-            echo "## Usage"
-            echo ""
-            echo "Raw source files are under \`sources/\`."
-            echo "Generated compact indexes are not built by this starter workflow yet."
-            echo "Claude should use these raw files as source data until compact indexes are added."
-          } >> "$SUMMARY"
+          def download(url: str, out: Path) -> dict:
+              out.parent.mkdir(parents=True, exist_ok=True)
+              try:
+                  req = urllib.request.Request(url, headers={"User-Agent": "poe2-claude-data-hub/1.0"})
+                  with urllib.request.urlopen(req, timeout=120) as resp:
+                      raw = resp.read()
 
-          zip -r poe2_data_bundle.zip sources build_knowledge
+                  parsed = json.loads(raw.decode("utf-8"))
+                  out.write_bytes(raw)
+                  return {
+                      "ok": True,
+                      "url": url,
+                      "path": str(out),
+                      "bytes": len(raw),
+                      "top_type": type(parsed).__name__,
+                      "records": count_top(parsed),
+                      "error": "",
+                  }
+              except Exception as exc:
+                  if out.exists():
+                      out.unlink()
+                  return {
+                      "ok": False,
+                      "url": url,
+                      "path": str(out),
+                      "bytes": 0,
+                      "top_type": "",
+                      "records": 0,
+                      "error": str(exc),
+                  }
+
+          def as_items(obj: Any):
+              if isinstance(obj, dict):
+                  return obj.items()
+              if isinstance(obj, list):
+                  return enumerate(obj)
+              return []
+
+          def as_list(v: Any) -> list:
+              if v is None:
+                  return []
+              return v if isinstance(v, list) else [v]
+
+          def first_text(obj: dict, keys: list[str], fallback: str = "") -> str:
+              for key in keys:
+                  val = obj.get(key)
+                  if isinstance(val, str) and val.strip():
+                      return val.strip()
+              return fallback
+
+          def name_of(obj: Any, fallback: Any = "") -> str:
+              if isinstance(obj, dict):
+                  for key in ("name", "Name", "display_name", "DisplayName", "id", "Id", "key"):
+                      val = obj.get(key)
+                      if isinstance(val, str) and val.strip():
+                          return val.strip()
+              return str(fallback)
+
+          def descriptions_of(obj: Any) -> list[str]:
+              if not isinstance(obj, dict):
+                  return []
+              for key in ("sd", "description", "descriptions", "stat_text", "stats_text", "tooltip"):
+                  val = obj.get(key)
+                  if isinstance(val, list):
+                      return [str(x) for x in val if str(x).strip()]
+                  if isinstance(val, str) and val.strip():
+                      return [val.strip()]
+              stats = obj.get("stats")
+              if isinstance(stats, list):
+                  return [str(x) for x in stats if str(x).strip()]
+              if isinstance(stats, dict):
+                  return [f"{k}: {v}" for k, v in stats.items()]
+              return []
+
+          def keep_fields(obj: dict, keys: list[str]) -> dict:
+              out = {}
+              for key in keys:
+                  if key in obj and obj[key] not in (None, "", [], {}):
+                      out[key] = obj[key]
+              return out
+
+          def passive_type(node: dict) -> str:
+              flags = []
+              if node.get("isKeystone") or node.get("ks"):
+                  flags.append("keystone")
+              if node.get("isNotable"):
+                  flags.append("notable")
+              if node.get("isJewelSocket"):
+                  flags.append("jewel_socket")
+              if node.get("isRoot") or node.get("isClassStart"):
+                  flags.append("class_start")
+              if node.get("isAscendancyStart"):
+                  flags.append("ascendancy_start")
+              if node.get("ascendancyName"):
+                  flags.append("ascendancy")
+              return "+".join(flags) if flags else "small"
+
+          def build_passive_indexes() -> dict:
+              path = SOURCES / "ggg" / "passive_tree_data.json"
+              full = []
+              key_nodes = []
+              edges = []
+
+              if not path.exists():
+                  write_json(COMPACT / "passive_tree_full_compact.json", full)
+                  write_json(COMPACT / "passive_tree_key_nodes.json", key_nodes)
+                  write_json(COMPACT / "passive_tree_edges.json", edges)
+                  return {
+                      "passive_tree_full_compact.json": 0,
+                      "passive_tree_key_nodes.json": 0,
+                      "passive_tree_edges.json": 0,
+                  }
+
+              data = load_json(path)
+              nodes = data.get("nodes", {})
+              for raw_key, node in as_items(nodes):
+                  if not isinstance(node, dict):
+                      continue
+
+                  node_id = str(node.get("skill") or node.get("id") or node.get("nodeId") or node.get("hash") or raw_key)
+                  ntype = passive_type(node)
+                  name = name_of(node, "")
+                  desc = descriptions_of(node)
+                  out_edges = [str(x) for x in as_list(node.get("out"))]
+                  in_edges = [str(x) for x in as_list(node.get("in"))]
+
+                  row = {
+                      "id": node_id,
+                      "n": name,
+                      "t": ntype,
+                  }
+                  if desc:
+                      row["sd"] = desc
+                  if node.get("ascendancyName"):
+                      row["asc"] = node.get("ascendancyName")
+                  if node.get("spc") is not None:
+                      row["spc"] = node.get("spc")
+                  if node.get("g") is not None:
+                      row["g"] = node.get("g")
+                  if node.get("o") is not None:
+                      row["o"] = node.get("o")
+                  if node.get("oidx") is not None:
+                      row["oi"] = node.get("oidx")
+                  if out_edges:
+                      row["out"] = out_edges
+
+                  full.append(row)
+
+                  edge_row = {"id": node_id}
+                  if out_edges:
+                      edge_row["out"] = out_edges
+                  if in_edges:
+                      edge_row["in"] = in_edges
+                  if len(edge_row) > 1:
+                      edges.append(edge_row)
+
+                  is_key = (
+                      ntype != "small"
+                      or bool(name and not name.startswith("Passive"))
+                      or bool(node.get("isNotable"))
+                      or bool(node.get("isKeystone"))
+                      or bool(node.get("isJewelSocket"))
+                      or bool(node.get("ascendancyName"))
+                  )
+                  if is_key:
+                      key_nodes.append(row)
+
+              full.sort(key=lambda x: (x.get("t", ""), x.get("asc", ""), x.get("n", ""), x.get("id", "")))
+              key_nodes.sort(key=lambda x: (x.get("t", ""), x.get("asc", ""), x.get("n", ""), x.get("id", "")))
+              edges.sort(key=lambda x: x["id"])
+
+              write_json(COMPACT / "passive_tree_full_compact.json", full)
+              write_json(COMPACT / "passive_tree_key_nodes.json", key_nodes)
+              write_json(COMPACT / "passive_tree_edges.json", edges)
+
+              return {
+                  "passive_tree_full_compact.json": len(full),
+                  "passive_tree_key_nodes.json": len(key_nodes),
+                  "passive_tree_edges.json": len(edges),
+              }
+
+          GENERIC_FIELDS = [
+              "id", "Id", "name", "Name", "display_name", "DisplayName",
+              "base_item", "base_item_id", "item_class", "item_classes",
+              "tags", "gem_tags", "active_skill_types", "requirements",
+              "stats", "stat_text", "description", "descriptions",
+              "implicit_mods", "explicit_mods", "mods",
+              "domain", "generation_type", "spawn_weights", "adds_tags",
+              "grants_effects", "skill_id", "skill", "support_gem",
+              "is_support", "allowed_types", "excluded_types",
+              "required_level", "level", "weapon_restrictions",
+              "quality_stats", "cost", "costs", "cooldown",
+              "reservation", "minion", "base_type",
+          ]
+
+          def simple_index(paths_and_categories: list[tuple[str, str]]) -> list[dict]:
+              rows = []
+              for rel, category in paths_and_categories:
+                  path = SOURCES / rel
+                  if not path.exists():
+                      continue
+                  data = load_json(path)
+                  for key, val in as_items(data):
+                      if isinstance(val, dict):
+                          row = {
+                              "k": str(key),
+                              "n": name_of(val, key),
+                              "cat": category,
+                              "src": rel,
+                          }
+                          kept = keep_fields(val, GENERIC_FIELDS)
+                          for old, new in [("description", "desc"), ("descriptions", "desc"), ("stat_text", "stat_text")]:
+                              if old in kept and new not in row:
+                                  row[new] = kept.pop(old)
+                          for field, value in kept.items():
+                              short = {
+                                  "requirements": "req",
+                                  "active_skill_types": "types",
+                                  "item_classes": "classes",
+                                  "generation_type": "gen",
+                                  "spawn_weights": "weights",
+                                  "allowed_types": "allowed",
+                                  "excluded_types": "excluded",
+                                  "weapon_restrictions": "weapons",
+                                  "required_level": "lvl",
+                                  "base_item": "base",
+                                  "base_type": "base_type",
+                                  "implicit_mods": "impl",
+                                  "explicit_mods": "expl",
+                                  "support_gem": "support",
+                                  "is_support": "is_support",
+                                  "gem_tags": "gem_tags",
+                              }.get(field, field)
+                              if short not in ("name", "Name", "display_name", "DisplayName"):
+                                  row[short] = value
+                          rows.append(row)
+                      else:
+                          rows.append({"k": str(key), "n": str(val), "cat": category, "src": rel, "v": val})
+              rows.sort(key=lambda x: (str(x.get("n", "")), str(x.get("cat", "")), str(x.get("k", ""))))
+              return rows
+
+          def build_other_indexes() -> dict:
+              counts = {}
+
+              gem_index = simple_index([
+                  ("repoe_poe2/skill_gems.json", "repoe_skill_gems"),
+                  ("repoe_poe2/skills.json", "repoe_skills"),
+                  ("repoe_poe2/gem_tags.json", "repoe_gem_tags"),
+                  ("repoe_poe2/active_skill_types.json", "repoe_active_skill_types"),
+                  ("pob_data_poe2/Gems.json", "pob_gems"),
+                  ("pob_data_poe2/SkillStatMap.json", "pob_skill_stat_map"),
+              ])
+              write_json(COMPACT / "gem_index.json", gem_index)
+              counts["gem_index.json"] = len(gem_index)
+
+              item_base_index = simple_index([
+                  ("repoe_poe2/base_items.json", "repoe_base_items"),
+                  ("repoe_poe2/item_classes.json", "repoe_item_classes"),
+                  ("repoe_poe2/tags.json", "repoe_tags"),
+                  ("repoe_poe2/tag_details.json", "repoe_tag_details"),
+              ])
+              write_json(COMPACT / "item_base_index.json", item_base_index)
+              counts["item_base_index.json"] = len(item_base_index)
+
+              mod_index = simple_index([
+                  ("repoe_poe2/mods.json", "repoe_mods"),
+                  ("repoe_poe2/mods_by_base.json", "repoe_mods_by_base"),
+                  ("pob_data_poe2/ModItem.json", "pob_mod_item"),
+                  ("pob_data_poe2/QueryMods.json", "pob_query_mods"),
+                  ("pob_data_poe2/TradeSiteStats.json", "pob_trade_site_stats"),
+              ])
+              write_json(COMPACT / "mod_index.json", mod_index)
+              counts["mod_index.json"] = len(mod_index)
+
+              rune_mod_index = simple_index([
+                  ("pob_data_poe2/ModRunes.json", "pob_mod_runes"),
+              ])
+              write_json(COMPACT / "rune_mod_index.json", rune_mod_index)
+              counts["rune_mod_index.json"] = len(rune_mod_index)
+
+              unique_index = simple_index([
+                  ("repoe_poe2/uniques.json", "repoe_uniques"),
+              ])
+              write_json(COMPACT / "unique_index.json", unique_index)
+              counts["unique_index.json"] = len(unique_index)
+
+              misc_index = simple_index([
+                  ("repoe_poe2/characters.json", "repoe_characters"),
+                  ("repoe_poe2/ascendancies.json", "repoe_ascendancies"),
+                  ("repoe_poe2/keywords.json", "repoe_keywords"),
+                  ("repoe_poe2/cost_types.json", "repoe_cost_types"),
+                  ("repoe_poe2/stats_by_file.json", "repoe_stats_by_file"),
+                  ("repoe_poe2/stat_value_handlers.json", "repoe_stat_value_handlers"),
+                  ("pob_data_poe2/Costs.json", "pob_costs"),
+                  ("pob_data_poe2/Misc.json", "pob_misc"),
+                  ("pob_data_poe2/Minions.json", "pob_minions"),
+                  ("pob_data_poe2/ModJewel.json", "pob_mod_jewel"),
+                  ("pob_data_poe2/ModCharm.json", "pob_mod_charm"),
+                  ("pob_data_poe2/ModFlask.json", "pob_mod_flask"),
+              ])
+              write_json(COMPACT / "misc_index.json", misc_index)
+              counts["misc_index.json"] = len(misc_index)
+
+              return counts
+
+          def file_size(path: Path) -> int:
+              return path.stat().st_size if path.exists() else 0
+
+          def write_manifest(results: list[dict], index_counts: dict) -> None:
+              BUILD.mkdir(parents=True, exist_ok=True)
+              now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+              lines = []
+              lines.append("# PoE2 Data Manifest Summary")
+              lines.append("")
+              lines.append(f"- Generated UTC: `{now}`")
+              lines.append("- Source priority: GGG passive tree → RePoE PoE2 → PoB-data PoE2 → community sources only as benchmarks")
+              lines.append("")
+              lines.append("## Download results")
+              lines.append("")
+              lines.append("| Status | File | Records | Size | Source |")
+              lines.append("|---|---|---:|---:|---|")
+              for r in results:
+                  status = "OK" if r["ok"] else "FAILED"
+                  size = r.get("bytes", 0)
+                  rec = r.get("records", 0)
+                  source = r.get("url", "")
+                  if not r["ok"]:
+                      source = f"{source} — ERROR: {r.get('error', '')}"
+                  lines.append(f"| {status} | `{r['path']}` | {rec:,} | {size:,} | {source} |")
+
+              lines.append("")
+              lines.append("## Generated compact indexes")
+              lines.append("")
+              lines.append("| Index | Records | Size | Recommended for Claude Project Knowledge? |")
+              lines.append("|---|---:|---:|---|")
+
+              recommendations = {
+                  "manifest_summary.md": "YES",
+                  "passive_tree_key_nodes.json": "YES",
+                  "passive_tree_full_compact.json": "ONLY when exact small-node routing is needed",
+                  "passive_tree_edges.json": "ONLY when exact pathing is needed",
+                  "gem_index.json": "YES",
+                  "item_base_index.json": "YES",
+                  "mod_index.json": "YES, if size allows",
+                  "rune_mod_index.json": "YES",
+                  "unique_index.json": "YES",
+                  "misc_index.json": "OPTIONAL",
+              }
+
+              for name, count in sorted(index_counts.items()):
+                  path = COMPACT / name if name.endswith(".json") else BUILD / name
+                  lines.append(f"| `{name}` | {count:,} | {file_size(path):,} | {recommendations.get(name, 'OPTIONAL')} |")
+
+              lines.append("")
+              lines.append("## Claude Project Knowledge recommendation")
+              lines.append("")
+              lines.append("Add these first:")
+              lines.append("")
+              lines.append("- `build_knowledge/manifest_summary.md`")
+              lines.append("- `build_knowledge/compact/passive_tree_key_nodes.json`")
+              lines.append("- `build_knowledge/compact/gem_index.json`")
+              lines.append("- `build_knowledge/compact/item_base_index.json`")
+              lines.append("- `build_knowledge/compact/rune_mod_index.json`")
+              lines.append("- `build_knowledge/compact/unique_index.json`")
+              lines.append("")
+              lines.append("Add only if space allows:")
+              lines.append("")
+              lines.append("- `build_knowledge/compact/mod_index.json`")
+              lines.append("- `build_knowledge/compact/misc_index.json`")
+              lines.append("")
+              lines.append("Do not add raw `sources/ggg/passive_tree_data.json` to Claude Project Knowledge unless absolutely necessary; it is large.")
+              lines.append("")
+              lines.append("## Usage rules")
+              lines.append("")
+              lines.append("- Passive claims: use GGG source data or compact passive indexes.")
+              lines.append("- Skill/gem claims: use `gem_index.json` and relevant raw source files if needed.")
+              lines.append("- Gear/mod/rune/unique claims: use item, mod, rune, and unique indexes.")
+              lines.append("- If the local data does not support a claim, label it unverified.")
+              (BUILD / "manifest_summary.md").write_text("\n".join(lines), encoding="utf-8")
+
+          def write_claude_prompt() -> None:
+              prompt = """# Claude PoE2 Data Hub Instructions
+
+Use this data hub as the current machine-readable source for Path of Exile 2 build engineering.
+
+Read `build_knowledge/manifest_summary.md` first.
+
+Preferred compact indexes:
+- `build_knowledge/compact/passive_tree_key_nodes.json`
+- `build_knowledge/compact/gem_index.json`
+- `build_knowledge/compact/item_base_index.json`
+- `build_knowledge/compact/mod_index.json`
+- `build_knowledge/compact/rune_mod_index.json`
+- `build_knowledge/compact/unique_index.json`
+- `build_knowledge/compact/misc_index.json`
+
+Only use raw `sources/` files when the compact indexes are insufficient.
+
+Do not invent passive nodes, gems, supports, item bases, affixes, rune effects, uniques, or interactions.
+
+Use status labels:
+- VERIFIED only when supported by local data, screenshots, or user test results.
+- HYPOTHESIS for plausible theorycraft.
+- RISK for uncertain, patch-sensitive, gear-sensitive, or interaction-sensitive claims.
+"""
+              (BUILD / "CLAUDE_DATA_HUB_INSTRUCTIONS.md").write_text(prompt, encoding="utf-8")
+
+          def make_zip() -> None:
+              if ZIP.exists():
+                  ZIP.unlink()
+              with zipfile.ZipFile(ZIP, "w", compression=zipfile.ZIP_DEFLATED) as z:
+                  for folder in (BUILD,):
+                      if folder.exists():
+                          for path in folder.rglob("*"):
+                              if path.is_file():
+                                  z.write(path, path)
+                  # Include raw sources in ZIP artifact only. Claude project does not need all of these selected.
+                  for folder in (SOURCES,):
+                      if folder.exists():
+                          for path in folder.rglob("*"):
+                              if path.is_file():
+                                  z.write(path, path)
+
+          for path in (SOURCES, BUILD, COMPACT):
+              path.mkdir(parents=True, exist_ok=True)
+
+          results = []
+          for group, files in URLS.items():
+              for filename, url in files.items():
+                  out = SOURCES / group / filename
+                  print(f"Downloading {out}")
+                  result = download(url, out)
+                  results.append(result)
+                  print(("OK" if result["ok"] else "FAILED"), result["path"], result.get("error", ""))
+
+          index_counts = {}
+          index_counts.update(build_passive_indexes())
+          index_counts.update(build_other_indexes())
+
+          write_claude_prompt()
+          index_counts["manifest_summary.md"] = 1
+          index_counts["CLAUDE_DATA_HUB_INSTRUCTIONS.md"] = 1
+
+          write_manifest(results, index_counts)
+          make_zip()
+
+          print("Generated compact indexes:")
+          for name, count in sorted(index_counts.items()):
+              print(f"{name}: {count}")
+          print(f"ZIP artifact written: {ZIP}")
+          PY
 
       - name: Commit updated data
         shell: bash
@@ -109,12 +551,12 @@ jobs:
           git config user.name "poe2-data-bot"
           git config user.email "actions@github.com"
 
-          git add sources build_knowledge poe2_data_bundle.zip
+          git add sources build_knowledge
 
           if git diff --cached --quiet; then
             echo "No data changes to commit"
           else
-            git commit -m "Update PoE2 data bundle"
+            git commit -m "Update PoE2 data bundle and compact indexes"
             git push
           fi
 
