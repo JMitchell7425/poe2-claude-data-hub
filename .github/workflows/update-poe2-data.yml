@@ -28,8 +28,6 @@ jobs:
           python - <<'PY'
           import datetime as dt
           import json
-          import os
-          import sys
           import urllib.request
           import zipfile
           from pathlib import Path
@@ -135,13 +133,6 @@ jobs:
               if v is None:
                   return []
               return v if isinstance(v, list) else [v]
-
-          def first_text(obj: dict, keys: list[str], fallback: str = "") -> str:
-              for key in keys:
-                  val = obj.get(key)
-                  if isinstance(val, str) and val.strip():
-                      return val.strip()
-              return fallback
 
           def name_of(obj: Any, fallback: Any = "") -> str:
               if isinstance(obj, dict):
@@ -408,7 +399,7 @@ jobs:
               lines.append("# PoE2 Data Manifest Summary")
               lines.append("")
               lines.append(f"- Generated UTC: `{now}`")
-              lines.append("- Source priority: GGG passive tree → RePoE PoE2 → PoB-data PoE2 → community sources only as benchmarks")
+              lines.append("- Source priority: GGG passive tree -> RePoE PoE2 -> PoB-data PoE2 -> community sources only as benchmarks")
               lines.append("")
               lines.append("## Download results")
               lines.append("")
@@ -420,7 +411,7 @@ jobs:
                   rec = r.get("records", 0)
                   source = r.get("url", "")
                   if not r["ok"]:
-                      source = f"{source} — ERROR: {r.get('error', '')}"
+                      source = f"{source} -- ERROR: {r.get('error', '')}"
                   lines.append(f"| {status} | `{r['path']}` | {rec:,} | {size:,} | {source} |")
 
               lines.append("")
@@ -440,6 +431,7 @@ jobs:
                   "rune_mod_index.json": "YES",
                   "unique_index.json": "YES",
                   "misc_index.json": "OPTIONAL",
+                  "CLAUDE_DATA_HUB_INSTRUCTIONS.md": "YES",
               }
 
               for name, count in sorted(index_counts.items()):
@@ -452,6 +444,7 @@ jobs:
               lines.append("Add these first:")
               lines.append("")
               lines.append("- `build_knowledge/manifest_summary.md`")
+              lines.append("- `build_knowledge/CLAUDE_DATA_HUB_INSTRUCTIONS.md`")
               lines.append("- `build_knowledge/compact/passive_tree_key_nodes.json`")
               lines.append("- `build_knowledge/compact/gem_index.json`")
               lines.append("- `build_knowledge/compact/item_base_index.json`")
@@ -462,6 +455,7 @@ jobs:
               lines.append("")
               lines.append("- `build_knowledge/compact/mod_index.json`")
               lines.append("- `build_knowledge/compact/misc_index.json`")
+              lines.append("- `build_knowledge/compact/passive_tree_edges.json`")
               lines.append("")
               lines.append("Do not add raw `sources/ggg/passive_tree_data.json` to Claude Project Knowledge unless absolutely necessary; it is large.")
               lines.append("")
@@ -474,43 +468,39 @@ jobs:
               (BUILD / "manifest_summary.md").write_text("\n".join(lines), encoding="utf-8")
 
           def write_claude_prompt() -> None:
-              prompt = """# Claude PoE2 Data Hub Instructions
-
-Use this data hub as the current machine-readable source for Path of Exile 2 build engineering.
-
-Read `build_knowledge/manifest_summary.md` first.
-
-Preferred compact indexes:
-- `build_knowledge/compact/passive_tree_key_nodes.json`
-- `build_knowledge/compact/gem_index.json`
-- `build_knowledge/compact/item_base_index.json`
-- `build_knowledge/compact/mod_index.json`
-- `build_knowledge/compact/rune_mod_index.json`
-- `build_knowledge/compact/unique_index.json`
-- `build_knowledge/compact/misc_index.json`
-
-Only use raw `sources/` files when the compact indexes are insufficient.
-
-Do not invent passive nodes, gems, supports, item bases, affixes, rune effects, uniques, or interactions.
-
-Use status labels:
-- VERIFIED only when supported by local data, screenshots, or user test results.
-- HYPOTHESIS for plausible theorycraft.
-- RISK for uncertain, patch-sensitive, gear-sensitive, or interaction-sensitive claims.
-"""
-              (BUILD / "CLAUDE_DATA_HUB_INSTRUCTIONS.md").write_text(prompt, encoding="utf-8")
+              lines = [
+                  "# Claude PoE2 Data Hub Instructions",
+                  "",
+                  "Use this data hub as the current machine-readable source for Path of Exile 2 build engineering.",
+                  "",
+                  "Read `build_knowledge/manifest_summary.md` first.",
+                  "",
+                  "Preferred compact indexes:",
+                  "- `build_knowledge/compact/passive_tree_key_nodes.json`",
+                  "- `build_knowledge/compact/gem_index.json`",
+                  "- `build_knowledge/compact/item_base_index.json`",
+                  "- `build_knowledge/compact/mod_index.json`",
+                  "- `build_knowledge/compact/rune_mod_index.json`",
+                  "- `build_knowledge/compact/unique_index.json`",
+                  "- `build_knowledge/compact/misc_index.json`",
+                  "",
+                  "Only use raw `sources/` files when the compact indexes are insufficient.",
+                  "",
+                  "Do not invent passive nodes, gems, supports, item bases, affixes, rune effects, uniques, or interactions.",
+                  "",
+                  "Use status labels:",
+                  "- VERIFIED only when supported by local data, screenshots, or user test results.",
+                  "- HYPOTHESIS for plausible theorycraft.",
+                  "- RISK for uncertain, patch-sensitive, gear-sensitive, or interaction-sensitive claims.",
+                  "",
+              ]
+              (BUILD / "CLAUDE_DATA_HUB_INSTRUCTIONS.md").write_text("\n".join(lines), encoding="utf-8")
 
           def make_zip() -> None:
               if ZIP.exists():
                   ZIP.unlink()
               with zipfile.ZipFile(ZIP, "w", compression=zipfile.ZIP_DEFLATED) as z:
-                  for folder in (BUILD,):
-                      if folder.exists():
-                          for path in folder.rglob("*"):
-                              if path.is_file():
-                                  z.write(path, path)
-                  # Include raw sources in ZIP artifact only. Claude project does not need all of these selected.
-                  for folder in (SOURCES,):
+                  for folder in (BUILD, SOURCES):
                       if folder.exists():
                           for path in folder.rglob("*"):
                               if path.is_file():
