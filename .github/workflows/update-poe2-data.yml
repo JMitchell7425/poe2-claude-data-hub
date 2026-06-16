@@ -1,96 +1,15 @@
 name: Update PoE2 Data Bundle
 
 on:
-workflow_dispatch:
-schedule:
-- cron: "17 10 * * *"
+  workflow_dispatch:
 
 permissions:
-contents: write
+  contents: write
 
 jobs:
-update-data:
-runs-on: ubuntu-latest
-
-```
-steps:
-  - name: Check out repository
-    uses: actions/checkout@v4
-
-  - name: Download PoE2 data files
-    shell: bash
-    run: |
-      set -e
-
-      mkdir -p sources/ggg
-      mkdir -p sources/repoe_poe2
-      mkdir -p sources/pob_data_poe2
-      mkdir -p build_knowledge
-
-      curl -L --fail -o sources/ggg/passive_tree_data.json "https://raw.githubusercontent.com/grindinggear/poe2-skilltree-export/main/data.json"
-
-      curl -L --fail -o sources/repoe_poe2/skill_gems.json "https://repoe-fork.github.io/poe2/skill_gems.json"
-      curl -L --fail -o sources/repoe_poe2/skills.json "https://repoe-fork.github.io/poe2/skills.json"
-      curl -L --fail -o sources/repoe_poe2/gem_tags.json "https://repoe-fork.github.io/poe2/gem_tags.json"
-      curl -L --fail -o sources/repoe_poe2/active_skill_types.json "https://repoe-fork.github.io/poe2/active_skill_types.json"
-      curl -L --fail -o sources/repoe_poe2/base_items.json "https://repoe-fork.github.io/poe2/base_items.json"
-      curl -L --fail -o sources/repoe_poe2/item_classes.json "https://repoe-fork.github.io/poe2/item_classes.json"
-      curl -L --fail -o sources/repoe_poe2/mods.json "https://repoe-fork.github.io/poe2/mods.json"
-      curl -L --fail -o sources/repoe_poe2/mods_by_base.json "https://repoe-fork.github.io/poe2/mods_by_base.json"
-      curl -L --fail -o sources/repoe_poe2/characters.json "https://repoe-fork.github.io/poe2/characters.json"
-      curl -L --fail -o sources/repoe_poe2/ascendancies.json "https://repoe-fork.github.io/poe2/ascendancies.json"
-      curl -L --fail -o sources/repoe_poe2/uniques.json "https://repoe-fork.github.io/poe2/uniques.json"
-      curl -L --fail -o sources/repoe_poe2/keywords.json "https://repoe-fork.github.io/poe2/keywords.json"
-
-      curl -L --fail -o sources/pob_data_poe2/Gems.json "https://repoe-fork.github.io/pob-data/poe2/Gems.json"
-      curl -L --fail -o sources/pob_data_poe2/ModItem.json "https://repoe-fork.github.io/pob-data/poe2/ModItem.json"
-      curl -L --fail -o sources/pob_data_poe2/ModRunes.json "https://repoe-fork.github.io/pob-data/poe2/ModRunes.json"
-      curl -L --fail -o sources/pob_data_poe2/ModJewel.json "https://repoe-fork.github.io/pob-data/poe2/ModJewel.json"
-      curl -L --fail -o sources/pob_data_poe2/ModCharm.json "https://repoe-fork.github.io/pob-data/poe2/ModCharm.json"
-      curl -L --fail -o sources/pob_data_poe2/ModFlask.json "https://repoe-fork.github.io/pob-data/poe2/ModFlask.json"
-      curl -L --fail -o sources/pob_data_poe2/QueryMods.json "https://repoe-fork.github.io/pob-data/poe2/QueryMods.json"
-      curl -L --fail -o sources/pob_data_poe2/SkillStatMap.json "https://repoe-fork.github.io/pob-data/poe2/SkillStatMap.json"
-      curl -L --fail -o sources/pob_data_poe2/TradeSiteStats.json "https://repoe-fork.github.io/pob-data/poe2/TradeSiteStats.json"
-      curl -L --fail -o sources/pob_data_poe2/Costs.json "https://repoe-fork.github.io/pob-data/poe2/Costs.json"
-      curl -L --fail -o sources/pob_data_poe2/Misc.json "https://repoe-fork.github.io/pob-data/poe2/Misc.json"
-      curl -L --fail -o sources/pob_data_poe2/Minions.json "https://repoe-fork.github.io/pob-data/poe2/Minions.json"
-
-      {
-        echo "# PoE2 Data Manifest Summary"
-        echo ""
-        echo "Generated UTC: $(date -u +"%Y-%m-%d %H:%M:%S")"
-        echo ""
-        echo "## Downloaded files"
-        echo ""
-        find sources -type f | sort
-        echo ""
-        echo "## Status"
-        echo ""
-        echo "Raw source files downloaded successfully."
-        echo "Generated compact indexes are not built yet in this starter workflow."
-        echo "Claude should use the raw JSON files under sources/ until build_knowledge indexes are added."
-      } > build_knowledge/manifest_summary.md
-
-      zip -r poe2_data_bundle.zip sources build_knowledge
-
-  - name: Commit updated data
-    shell: bash
-    run: |
-      git config user.name "poe2-data-bot"
-      git config user.email "actions@github.com"
-
-      git add sources build_knowledge poe2_data_bundle.zip
-
-      if git diff --cached --quiet; then
-        echo "No data changes to commit"
-      else
-        git commit -m "Update PoE2 data bundle"
-        git push
-      fi
-
-  - name: Upload ZIP artifact
-    uses: actions/upload-artifact@v4
-    with:
-      name: poe2_data_bundle
-      path: poe2_data_bundle.zip
-```
+  update-data:
+    name: Update data
+    runs-on: ubuntu-latest
+    steps:
+      - name: Smoke test
+        run: echo "Workflow syntax is valid"
