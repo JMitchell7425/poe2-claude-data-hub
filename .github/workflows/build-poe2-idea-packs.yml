@@ -1,0 +1,305 @@
+name: Build PoE2 Idea Packs
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_per_index:
+        description: "Max matched records per index per idea pack"
+        required: true
+        default: "120"
+        type: string
+      include_raw_excerpts:
+        description: "Include compact JSON snippets in each idea pack"
+        required: true
+        default: "true"
+        type: choice
+        options:
+          - "true"
+          - "false"
+  workflow_run:
+    workflows:
+      - "Update PoE2 Data Bundle"
+    types:
+      - completed
+
+permissions:
+  contents: write
+
+jobs:
+  build-idea-packs:
+    name: Build idea packs
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build idea packs from build_ideas.json
+        shell: bash
+        run: |
+          python - <<'PY'
+          import datetime as dt
+          import json
+          import re
+          from pathlib import Path
+          from typing import Any
+
+          MAX_RAW = """${{ github.event.inputs.max_per_index }}""".strip()
+          INCLUDE_RAW_RAW = """${{ github.event.inputs.include_raw_excerpts }}""".strip().lower()
+
+          if not MAX_RAW:
+              MAX_RAW = "120"
+          if not INCLUDE_RAW_RAW:
+              INCLUDE_RAW_RAW = "true"
+
+          try:
+              MAX_PER_INDEX = max(20, min(300, int(MAX_RAW)))
+          except Exception:
+              MAX_PER_INDEX = 120
+
+          INCLUDE_RAW = INCLUDE_RAW_RAW == "true"
+
+          ROOT = Path(".")
+          IDEAS_FILE = ROOT / "build_ideas.json"
+          COMPACT = ROOT / "build_knowledge" / "compact"
+          OUT_DIR = ROOT / "session_packs" / "build_ideas"
+          OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+          if not IDEAS_FILE.exists():
+              raise SystemExit("Missing build_ideas.json at repo root.")
+
+          ideas = json.loads(IDEAS_FILE.read_text(encoding="utf-8"))
+          if not isinstance(ideas, list):
+              raise SystemExit("build_ideas.json must contain a JSON list of build idea objects.")
+
+          INDEXES = [
+              ("Passive key nodes", COMPACT / "passive_tree_key_nodes.json"),
+              ("Passive full compact", COMPACT / "passive_tree_full_compact.json"),
+              ("Passive edges", COMPACT / "passive_tree_edges.json"),
+              ("Gems and skills", COMPACT / "gem_index.json"),
+              ("Item bases/classes", COMPACT / "item_base_index.json"),
+              ("Mods and affixes", COMPACT / "mod_index.json"),
+              ("Rune mods", COMPACT / "rune_mod_index.json"),
+              ("Uniques", COMPACT / "unique_index.json"),
+              ("Misc", COMPACT / "misc_index.json"),
+          ]
+
+          def slugify(text: str) -> str:
+              text = text.lower()
+              text = re.sub(r"[^a-z0-9]+", "-", text)
+              return text.strip("-") or "poe2-build-idea"
+
+          def load_json(path: Path) -> Any:
+              if not path.exists():
+                  return None
+              return json.loads(path.read_text(encoding="utf-8"))
+
+          def as_items(data: Any):
+              if isinstance(data, list):
+                  return enumerate(data)
+              if isinstance(data, dict):
+                  return data.items()
+              return []
+
+          def name_of(obj: Any, fallback: str = "") -> str:
+              if isinstance(obj, dict):
+                  for key in ("n", "name", "Name", "display_name", "k", "id", "key"):
+                      value = obj.get(key)
+                      if isinstance(value, str) and value.strip():
+                          return value.strip()
+              return fallback
+
+          def text_for_match(obj: Any) -> str:
+              return json.dumps(obj, ensure_ascii=False).lower()
+
+          def score_record(obj: Any, keywords: list[str]) -> int:
+              text = text_for_match(obj)
+              score = 0
+              for kw in keywords:
+                  kw = kw.lower()
+                  if kw in text:
+                      score += 10
+              if isinstance(obj, dict):
+                  n = str(obj.get("n") or obj.get("name") or obj.get("k") or "").lower()
+                  for kw in keywords:
+                      kw = kw.lower()
+                      if kw in n:
+                          score += 25
+              return score
+
+          def field_to_text(value: Any, max_chars: int = 500) -> str:
+              if isinstance(value, (dict, list)):
+                  raw = json.dumps(value, ensure_ascii=False, separators=(",", ":"))
+              else:
+                  raw = str(value)
+              if len(raw) > max_chars:
+                  raw = raw[:max_chars] + "...[trimmed]"
+              return raw
+
+          def trim_value(value: Any, max_chars: int = 900) -> str:
+              raw = json.dumps(value, ensure_ascii=False, separators=(",", ":"))
+              if len(raw) > max_chars:
+                  return raw[:max_chars] + "...[trimmed]"
+              return raw
+
+          def normalize_idea(raw: dict) -> dict:
+              if not isinstance(raw, dict):
+                  raise ValueError("Each build idea must be an object.")
+              title = str(raw.get("title") or raw.get("name") or "Untitled Build Idea").strip()
+              slug = str(raw.get("slug") or slugify(title)).strip()
+              slug = slugify(slug)
+              purpose = str(raw.get("purpose") or raw.get("description") or "Custom PoE2 build idea.").strip()
+              keywords = raw.get("keywords") or []
+              if isinstance(keywords, str):
+                  keywords = [k.strip() for k in keywords.split(",") if k.strip()]
+              keywords = [str(k).strip().lower() for k in keywords if str(k).strip()]
+              if not keywords:
+                  raise ValueError(f"Idea '{title}' has no keywords.")
+              return {"slug": slug, "title": title, "purpose": purpose, "keywords": keywords}
+
+          def build_pack(idea: dict) -> tuple[Path, int, list[tuple[str, str, int]]]:
+              slug = idea["slug"]
+              title = idea["title"]
+              purpose = idea["purpose"]
+              keywords = idea["keywords"]
+
+              now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+
+              lines = []
+              lines.append(f"# Build Idea Pack — {title}")
+              lines.append("")
+              lines.append(f"- Generated UTC: `{now}`")
+              lines.append(f"- Idea slug: `{slug}`")
+              lines.append(f"- Purpose: {purpose}")
+              lines.append(f"- Keywords: `{', '.join(keywords)}`")
+              lines.append(f"- Max matched records per index: `{MAX_PER_INDEX}`")
+              lines.append("")
+              lines.append("## Claude usage rules")
+              lines.append("")
+              lines.append("- Treat this as the active focused data pack for this build idea.")
+              lines.append("- This is not the full PoE2 database.")
+              lines.append("- If a needed passive, gem, item base, mod, rune, unique, or interaction is missing, ask the user to expand this idea's keywords in `build_ideas.json` and regenerate the pack.")
+              lines.append("- Do not invent mechanics or records not present in this pack, the build documents, screenshots, or user-provided tests.")
+              lines.append("")
+
+              summary = []
+              total = 0
+
+              for section_title, path in INDEXES:
+                  data = load_json(path)
+                  if data is None:
+                      summary.append((section_title, "MISSING", 0))
+                      continue
+
+                  matches = []
+                  for _, rec in as_items(data):
+                      sc = score_record(rec, keywords)
+                      if sc > 0:
+                          matches.append((sc, rec))
+
+                  matches.sort(key=lambda x: (-x[0], name_of(x[1]).lower()))
+                  clipped = matches[:MAX_PER_INDEX]
+                  total += len(clipped)
+                  summary.append((section_title, "OK", len(clipped)))
+
+                  lines.append(f"## {section_title}")
+                  lines.append("")
+                  lines.append(f"- Source: `{path}`")
+                  lines.append(f"- Matches included: `{len(clipped)}`")
+                  lines.append("")
+
+                  if not clipped:
+                      lines.append("_No keyword matches in this index._")
+                      lines.append("")
+                      continue
+
+                  for i, (score, rec) in enumerate(clipped, 1):
+                      name = name_of(rec, f"record-{i}")
+                      lines.append(f"### {i}. {name}")
+                      lines.append("")
+                      lines.append(f"- Match score: `{score}`")
+                      if isinstance(rec, dict):
+                          for field in (
+                              "id", "k", "n", "t", "cat", "src", "asc", "sd",
+                              "desc", "stat_text", "tags", "gem_tags", "types",
+                              "classes", "base", "base_type", "weapons", "req",
+                              "lvl", "support", "is_support", "gen", "domain",
+                              "mods", "impl", "expl", "stats"
+                          ):
+                              if field in rec and rec[field] not in (None, "", [], {}):
+                                  lines.append(f"- `{field}`: {field_to_text(rec[field])}")
+
+                      if INCLUDE_RAW:
+                          lines.append("")
+                          lines.append("```json")
+                          lines.append(trim_value(rec))
+                          lines.append("```")
+                      lines.append("")
+
+              lines.append("## Index match summary")
+              lines.append("")
+              lines.append("| Index | Status | Included matches |")
+              lines.append("|---|---|---:|")
+              for section_title, status, count in summary:
+                  lines.append(f"| {section_title} | {status} | {count} |")
+              lines.append("")
+
+              lines.insert(7, f"- Total included matches: `{total}`")
+              lines.insert(8, "")
+
+              out_path = OUT_DIR / f"{slug}.md"
+              out_path.write_text("\n".join(lines), encoding="utf-8")
+              return out_path, total, summary
+
+          normalized = [normalize_idea(idea) for idea in ideas]
+
+          registry_lines = []
+          registry_lines.append("# Build Idea Pack Registry")
+          registry_lines.append("")
+          registry_lines.append(f"- Generated UTC: `{dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')}`")
+          registry_lines.append(f"- Source idea file: `build_ideas.json`")
+          registry_lines.append("")
+          registry_lines.append("Use this registry to select the smallest relevant pack for the current Claude session.")
+          registry_lines.append("")
+          registry_lines.append("| Idea | Pack file | Purpose | Keywords |")
+          registry_lines.append("|---|---|---|---|")
+
+          for idea in normalized:
+              out_path, total, summary = build_pack(idea)
+              registry_lines.append(f"| {idea['title']} | `{out_path}` | {idea['purpose']} | {', '.join(idea['keywords'])} |")
+              print(f"Wrote {out_path} with {total} matches")
+
+          registry_lines.append("")
+          registry_lines.append("## How to add a new idea")
+          registry_lines.append("")
+          registry_lines.append("Edit `build_ideas.json`, add a new object with `slug`, `title`, `purpose`, and `keywords`, then rerun `Build PoE2 Idea Packs`.")
+          registry_lines.append("")
+          registry_lines.append("Keep Claude Project Knowledge small. Add this registry and only the pack needed for the current idea.")
+          registry_lines.append("")
+
+          registry_path = OUT_DIR / "00-build-idea-registry.md"
+          registry_path.write_text("\n".join(registry_lines), encoding="utf-8")
+          print(f"Wrote {registry_path}")
+          PY
+
+      - name: Commit idea packs
+        shell: bash
+        run: |
+          git config user.name "poe2-data-bot"
+          git config user.email "actions@github.com"
+
+          git add session_packs/build_ideas
+
+          if git diff --cached --quiet; then
+            echo "No idea pack changes to commit"
+          else
+            git commit -m "Build PoE2 idea packs"
+            git push
+          fi
+
+      - name: Upload idea packs artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: poe2_build_idea_packs
+          path: session_packs/build_ideas
