@@ -1,6 +1,6 @@
 # Build Idea Pack — Charge-Stacking Build
 
-- Generated UTC: `2026-06-20T12:08:48+00:00`
+- Generated UTC: `2026-06-21T12:21:44+00:00`
 - Idea slug: `charge-stacking-build`
 - Purpose: Engineer around power, frenzy, endurance, charge generation, charge consumption, and charge scaling.
 - Keywords: `charge, charges, power charge, frenzy charge, endurance charge, gain charge, consume charge, maximum charge, critical, crit, duration, killing palm, charge profusion, overflowing power, damage, speed, boss, clear`
@@ -7179,7 +7179,19 @@ _No keyword matches in this index._
 {"k":"AlloyCastSpeedDamageAsExtraColdHybrid1","n":"AlloyCastSpeedDamageAsExtraColdHybrid1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":65}
 ```
 
-### 78. AlloyFlaskChargesPerSecond1
+### 78. AlloyCastSpeedDamageAsExtraColdHybridOneHand1
+
+- Match score: `70`
+- `k`: AlloyCastSpeedDamageAsExtraColdHybridOneHand1
+- `n`: AlloyCastSpeedDamageAsExtraColdHybridOneHand1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"AlloyCastSpeedDamageAsExtraColdHybridOneHand1","n":"AlloyCastSpeedDamageAsExtraColdHybridOneHand1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":65}
+```
+
+### 79. AlloyFlaskChargesPerSecond1
 
 - Match score: `70`
 - `k`: AlloyFlaskChargesPerSecond1
@@ -7191,7 +7203,7 @@ _No keyword matches in this index._
 {"k":"AlloyFlaskChargesPerSecond1","n":"AlloyFlaskChargesPerSecond1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":45}
 ```
 
-### 79. AttackAndCastSpeedPerFrenzyChargeUniqueBootsDex4
+### 80. AttackAndCastSpeedPerFrenzyChargeUniqueBootsDex4
 
 - Match score: `70`
 - `k`: AttackAndCastSpeedPerFrenzyChargeUniqueBootsDex4
@@ -7207,7 +7219,7 @@ _No keyword matches in this index._
 {"k":"AttackAndCastSpeedPerFrenzyChargeUniqueBootsDex4","n":"AttackAndCastSpeedPerFrenzyChargeUniqueBootsDex4","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"attack_and_cast_speed_+%_per_frenzy_charge","max":-4,"min":-4}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 80. AttackCriticalStrikeChance1
+### 81. AttackCriticalStrikeChance1
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeChance1
@@ -7219,7 +7231,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeChance1","n":"AttackCriticalStrikeChance1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":5}
 ```
 
-### 81. AttackCriticalStrikeChance2
+### 82. AttackCriticalStrikeChance2
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeChance2
@@ -7231,7 +7243,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeChance2","n":"AttackCriticalStrikeChance2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":20}
 ```
 
-### 82. AttackCriticalStrikeChance3
+### 83. AttackCriticalStrikeChance3
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeChance3
@@ -7243,7 +7255,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeChance3","n":"AttackCriticalStrikeChance3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":30}
 ```
 
-### 83. AttackCriticalStrikeChance4
+### 84. AttackCriticalStrikeChance4
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeChance4
@@ -7255,7 +7267,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeChance4","n":"AttackCriticalStrikeChance4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":44}
 ```
 
-### 84. AttackCriticalStrikeChance5
+### 85. AttackCriticalStrikeChance5
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeChance5
@@ -7267,7 +7279,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeChance5","n":"AttackCriticalStrikeChance5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":58}
 ```
 
-### 85. AttackCriticalStrikeChance6
+### 86. AttackCriticalStrikeChance6
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeChance6
@@ -7279,7 +7291,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeChance6","n":"AttackCriticalStrikeChance6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":72}
 ```
 
-### 86. AttackCriticalStrikeMultiplier1
+### 87. AttackCriticalStrikeMultiplier1
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeMultiplier1
@@ -7291,7 +7303,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeMultiplier1","n":"AttackCriticalStrikeMultiplier1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":8}
 ```
 
-### 87. AttackCriticalStrikeMultiplier2
+### 88. AttackCriticalStrikeMultiplier2
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeMultiplier2
@@ -7303,7 +7315,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeMultiplier2","n":"AttackCriticalStrikeMultiplier2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":21}
 ```
 
-### 88. AttackCriticalStrikeMultiplier3
+### 89. AttackCriticalStrikeMultiplier3
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeMultiplier3
@@ -7315,7 +7327,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeMultiplier3","n":"AttackCriticalStrikeMultiplier3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":31}
 ```
 
-### 89. AttackCriticalStrikeMultiplier4
+### 90. AttackCriticalStrikeMultiplier4
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeMultiplier4
@@ -7327,7 +7339,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeMultiplier4","n":"AttackCriticalStrikeMultiplier4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":45}
 ```
 
-### 90. AttackCriticalStrikeMultiplier5
+### 91. AttackCriticalStrikeMultiplier5
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeMultiplier5
@@ -7339,7 +7351,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeMultiplier5","n":"AttackCriticalStrikeMultiplier5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":59}
 ```
 
-### 91. AttackCriticalStrikeMultiplier6
+### 92. AttackCriticalStrikeMultiplier6
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeMultiplier6
@@ -7351,7 +7363,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeMultiplier6","n":"AttackCriticalStrikeMultiplier6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":74}
 ```
 
-### 92. AttackDamageLeechPerFrenzyChargeUnique__1
+### 93. AttackDamageLeechPerFrenzyChargeUnique__1
 
 - Match score: `70`
 - `k`: AttackDamageLeechPerFrenzyChargeUnique__1
@@ -7367,7 +7379,7 @@ _No keyword matches in this index._
 {"k":"AttackDamageLeechPerFrenzyChargeUnique__1","n":"AttackDamageLeechPerFrenzyChargeUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"dummy_stat_display_nothing","max":50,"min":50}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 93. AvoidElementalDamagePerFrenzyChargeUnique__1
+### 94. AvoidElementalDamagePerFrenzyChargeUnique__1
 
 - Match score: `70`
 - `k`: AvoidElementalDamagePerFrenzyChargeUnique__1
@@ -7383,7 +7395,7 @@ _No keyword matches in this index._
 {"k":"AvoidElementalDamagePerFrenzyChargeUnique__1","n":"AvoidElementalDamagePerFrenzyChargeUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"avoid_elemental_damage_%_per_frenzy_charge","max":2,"min":2}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 94. BaseUnarmedCriticalStrikeChanceUnique__1
+### 95. BaseUnarmedCriticalStrikeChanceUnique__1
 
 - Match score: `70`
 - `k`: BaseUnarmedCriticalStrikeChanceUnique__1
@@ -7399,7 +7411,7 @@ _No keyword matches in this index._
 {"k":"BaseUnarmedCriticalStrikeChanceUnique__1","n":"BaseUnarmedCriticalStrikeChanceUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_melee_critical_strike_chance_while_unarmed_%","max":700,"min":700}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 95. BaseUnarmedCriticalStrikeChanceUnique__2
+### 96. BaseUnarmedCriticalStrikeChanceUnique__2
 
 - Match score: `70`
 - `k`: BaseUnarmedCriticalStrikeChanceUnique__2
@@ -7415,7 +7427,7 @@ _No keyword matches in this index._
 {"k":"BaseUnarmedCriticalStrikeChanceUnique__2","n":"BaseUnarmedCriticalStrikeChanceUnique__2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_melee_critical_strike_chance_while_unarmed_%","max":110,"min":10}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 96. BeltImplicitIncreasedCharmChargesGained1
+### 97. BeltImplicitIncreasedCharmChargesGained1
 
 - Match score: `70`
 - `k`: BeltImplicitIncreasedCharmChargesGained1
@@ -7431,7 +7443,7 @@ _No keyword matches in this index._
 {"k":"BeltImplicitIncreasedCharmChargesGained1","n":"BeltImplicitIncreasedCharmChargesGained1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"charm_charges_gained_+%","max":30,"min":20}],"domain":"item","gen":"unique","lvl":55}
 ```
 
-### 97. BeltImplicitIncreasedFlaskChargesGained1
+### 98. BeltImplicitIncreasedFlaskChargesGained1
 
 - Match score: `70`
 - `k`: BeltImplicitIncreasedFlaskChargesGained1
@@ -7447,7 +7459,7 @@ _No keyword matches in this index._
 {"k":"BeltImplicitIncreasedFlaskChargesGained1","n":"BeltImplicitIncreasedFlaskChargesGained1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"flask_charges_gained_+%","max":30,"min":20}],"domain":"item","gen":"unique","lvl":18}
 ```
 
-### 98. BeltImplicitReducedCharmChargesUsed1
+### 99. BeltImplicitReducedCharmChargesUsed1
 
 - Match score: `70`
 - `k`: BeltImplicitReducedCharmChargesUsed1
@@ -7463,7 +7475,7 @@ _No keyword matches in this index._
 {"k":"BeltImplicitReducedCharmChargesUsed1","n":"BeltImplicitReducedCharmChargesUsed1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"charm_charges_used_+%","max":-10,"min":-15}],"domain":"item","gen":"unique","lvl":39}
 ```
 
-### 99. BeltImplicitReducedFlaskChargesUsed1
+### 100. BeltImplicitReducedFlaskChargesUsed1
 
 - Match score: `70`
 - `k`: BeltImplicitReducedFlaskChargesUsed1
@@ -7479,7 +7491,7 @@ _No keyword matches in this index._
 {"k":"BeltImplicitReducedFlaskChargesUsed1","n":"BeltImplicitReducedFlaskChargesUsed1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"flask_charges_used_+%","max":-10,"min":-15}],"domain":"item","gen":"unique","lvl":50}
 ```
 
-### 100. BeltIncreasedCharmChargesGained1
+### 101. BeltIncreasedCharmChargesGained1
 
 - Match score: `70`
 - `k`: BeltIncreasedCharmChargesGained1
@@ -7491,7 +7503,7 @@ _No keyword matches in this index._
 {"k":"BeltIncreasedCharmChargesGained1","n":"BeltIncreasedCharmChargesGained1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":2}
 ```
 
-### 101. BeltIncreasedCharmChargesGained2
+### 102. BeltIncreasedCharmChargesGained2
 
 - Match score: `70`
 - `k`: BeltIncreasedCharmChargesGained2
@@ -7503,7 +7515,7 @@ _No keyword matches in this index._
 {"k":"BeltIncreasedCharmChargesGained2","n":"BeltIncreasedCharmChargesGained2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":16}
 ```
 
-### 102. BeltIncreasedCharmChargesGained3
+### 103. BeltIncreasedCharmChargesGained3
 
 - Match score: `70`
 - `k`: BeltIncreasedCharmChargesGained3
@@ -7515,7 +7527,7 @@ _No keyword matches in this index._
 {"k":"BeltIncreasedCharmChargesGained3","n":"BeltIncreasedCharmChargesGained3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":32}
 ```
 
-### 103. BeltIncreasedCharmChargesGained4
+### 104. BeltIncreasedCharmChargesGained4
 
 - Match score: `70`
 - `k`: BeltIncreasedCharmChargesGained4
@@ -7527,7 +7539,7 @@ _No keyword matches in this index._
 {"k":"BeltIncreasedCharmChargesGained4","n":"BeltIncreasedCharmChargesGained4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":48}
 ```
 
-### 104. BeltIncreasedCharmChargesGained5
+### 105. BeltIncreasedCharmChargesGained5
 
 - Match score: `70`
 - `k`: BeltIncreasedCharmChargesGained5
@@ -7539,7 +7551,7 @@ _No keyword matches in this index._
 {"k":"BeltIncreasedCharmChargesGained5","n":"BeltIncreasedCharmChargesGained5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":70}
 ```
 
-### 105. BeltIncreasedCharmChargesGained6
+### 106. BeltIncreasedCharmChargesGained6
 
 - Match score: `70`
 - `k`: BeltIncreasedCharmChargesGained6
@@ -7551,7 +7563,7 @@ _No keyword matches in this index._
 {"k":"BeltIncreasedCharmChargesGained6","n":"BeltIncreasedCharmChargesGained6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":81}
 ```
 
-### 106. BeltIncreasedFlaskChargesGained1
+### 107. BeltIncreasedFlaskChargesGained1
 
 - Match score: `70`
 - `k`: BeltIncreasedFlaskChargesGained1
@@ -7563,7 +7575,7 @@ _No keyword matches in this index._
 {"k":"BeltIncreasedFlaskChargesGained1","n":"BeltIncreasedFlaskChargesGained1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":2}
 ```
 
-### 107. BeltIncreasedFlaskChargesGained2
+### 108. BeltIncreasedFlaskChargesGained2
 
 - Match score: `70`
 - `k`: BeltIncreasedFlaskChargesGained2
@@ -7575,7 +7587,7 @@ _No keyword matches in this index._
 {"k":"BeltIncreasedFlaskChargesGained2","n":"BeltIncreasedFlaskChargesGained2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":16}
 ```
 
-### 108. BeltIncreasedFlaskChargesGained3_____
+### 109. BeltIncreasedFlaskChargesGained3_____
 
 - Match score: `70`
 - `k`: BeltIncreasedFlaskChargesGained3_____
@@ -7587,7 +7599,7 @@ _No keyword matches in this index._
 {"k":"BeltIncreasedFlaskChargesGained3_____","n":"BeltIncreasedFlaskChargesGained3_____","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":32}
 ```
 
-### 109. BeltIncreasedFlaskChargesGained4
+### 110. BeltIncreasedFlaskChargesGained4
 
 - Match score: `70`
 - `k`: BeltIncreasedFlaskChargesGained4
@@ -7599,7 +7611,7 @@ _No keyword matches in this index._
 {"k":"BeltIncreasedFlaskChargesGained4","n":"BeltIncreasedFlaskChargesGained4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":48}
 ```
 
-### 110. BeltIncreasedFlaskChargesGained5_
+### 111. BeltIncreasedFlaskChargesGained5_
 
 - Match score: `70`
 - `k`: BeltIncreasedFlaskChargesGained5_
@@ -7611,7 +7623,7 @@ _No keyword matches in this index._
 {"k":"BeltIncreasedFlaskChargesGained5_","n":"BeltIncreasedFlaskChargesGained5_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":70}
 ```
 
-### 111. BeltIncreasedFlaskChargesGained6
+### 112. BeltIncreasedFlaskChargesGained6
 
 - Match score: `70`
 - `k`: BeltIncreasedFlaskChargesGained6
@@ -7623,7 +7635,7 @@ _No keyword matches in this index._
 {"k":"BeltIncreasedFlaskChargesGained6","n":"BeltIncreasedFlaskChargesGained6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":81}
 ```
 
-### 112. BeltIncreasedFlaskChargesGainedUnique__1_
+### 113. BeltIncreasedFlaskChargesGainedUnique__1_
 
 - Match score: `70`
 - `k`: BeltIncreasedFlaskChargesGainedUnique__1_
@@ -7639,7 +7651,7 @@ _No keyword matches in this index._
 {"k":"BeltIncreasedFlaskChargesGainedUnique__1_","n":"BeltIncreasedFlaskChargesGainedUnique__1_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"flask_charges_gained_+%","max":25,"min":15}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 113. BeltIncreasedFlaskChargesGainedUniqueBelt2
+### 114. BeltIncreasedFlaskChargesGainedUniqueBelt2
 
 - Match score: `70`
 - `k`: BeltIncreasedFlaskChargesGainedUniqueBelt2
@@ -7655,7 +7667,7 @@ _No keyword matches in this index._
 {"k":"BeltIncreasedFlaskChargesGainedUniqueBelt2","n":"BeltIncreasedFlaskChargesGainedUniqueBelt2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"flask_charges_gained_+%","max":50,"min":50}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 114. BeltReducedCharmChargesUsed1
+### 115. BeltReducedCharmChargesUsed1
 
 - Match score: `70`
 - `k`: BeltReducedCharmChargesUsed1
@@ -7667,7 +7679,7 @@ _No keyword matches in this index._
 {"k":"BeltReducedCharmChargesUsed1","n":"BeltReducedCharmChargesUsed1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":3}
 ```
 
-### 115. BeltReducedCharmChargesUsed2
+### 116. BeltReducedCharmChargesUsed2
 
 - Match score: `70`
 - `k`: BeltReducedCharmChargesUsed2
@@ -7679,7 +7691,7 @@ _No keyword matches in this index._
 {"k":"BeltReducedCharmChargesUsed2","n":"BeltReducedCharmChargesUsed2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":18}
 ```
 
-### 116. BeltReducedCharmChargesUsed3
+### 117. BeltReducedCharmChargesUsed3
 
 - Match score: `70`
 - `k`: BeltReducedCharmChargesUsed3
@@ -7691,7 +7703,7 @@ _No keyword matches in this index._
 {"k":"BeltReducedCharmChargesUsed3","n":"BeltReducedCharmChargesUsed3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":33}
 ```
 
-### 117. BeltReducedCharmChargesUsed4
+### 118. BeltReducedCharmChargesUsed4
 
 - Match score: `70`
 - `k`: BeltReducedCharmChargesUsed4
@@ -7703,7 +7715,7 @@ _No keyword matches in this index._
 {"k":"BeltReducedCharmChargesUsed4","n":"BeltReducedCharmChargesUsed4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":50}
 ```
 
-### 118. BeltReducedCharmChargesUsed5
+### 119. BeltReducedCharmChargesUsed5
 
 - Match score: `70`
 - `k`: BeltReducedCharmChargesUsed5
@@ -7715,7 +7727,7 @@ _No keyword matches in this index._
 {"k":"BeltReducedCharmChargesUsed5","n":"BeltReducedCharmChargesUsed5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":72}
 ```
 
-### 119. BeltReducedCharmChargesUsed6
+### 120. BeltReducedCharmChargesUsed6
 
 - Match score: `70`
 - `k`: BeltReducedCharmChargesUsed6
@@ -7725,22 +7737,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"BeltReducedCharmChargesUsed6","n":"BeltReducedCharmChargesUsed6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":81}
-```
-
-### 120. BeltReducedFlaskChargesGainedUnique__1
-
-- Match score: `70`
-- `k`: BeltReducedFlaskChargesGainedUnique__1
-- `n`: BeltReducedFlaskChargesGainedUnique__1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"flask_charges_gained_+%","max":-30,"min":-30}]
-
-```json
-{"k":"BeltReducedFlaskChargesGainedUnique__1","n":"BeltReducedFlaskChargesGainedUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"flask_charges_gained_+%","max":-30,"min":-30}],"domain":"item","gen":"unique","lvl":1}
 ```
 
 ## Rune mods
