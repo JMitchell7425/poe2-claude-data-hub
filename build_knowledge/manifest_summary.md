@@ -1,6 +1,6 @@
 # PoE2 Data Manifest Summary
 
-- Generated UTC: `2026-06-20T12:08:17+00:00`
+- Generated UTC: `2026-06-21T12:21:12+00:00`
 - Source priority: GGG passive tree -> RePoE PoE2 -> PoB-data PoE2 -> community sources only as benchmarks
 
 ## Download results
@@ -26,17 +26,17 @@
 | OK | `sources/repoe_poe2/stats_by_file.json` | 25,999 | 14,263,487 | https://repoe-fork.github.io/poe2/stats_by_file.json |
 | OK | `sources/repoe_poe2/stat_value_handlers.json` | 73 | 374,369 | https://repoe-fork.github.io/poe2/stat_value_handlers.json |
 | OK | `sources/pob_data_poe2/Gems.json` | 965 | 549,444 | https://repoe-fork.github.io/pob-data/poe2/Gems.json |
-| OK | `sources/pob_data_poe2/ModItem.json` | 2,549 | 1,134,707 | https://repoe-fork.github.io/pob-data/poe2/ModItem.json |
-| OK | `sources/pob_data_poe2/ModRunes.json` | 287 | 184,957 | https://repoe-fork.github.io/pob-data/poe2/ModRunes.json |
+| OK | `sources/pob_data_poe2/ModItem.json` | 2,550 | 1,135,237 | https://repoe-fork.github.io/pob-data/poe2/ModItem.json |
+| OK | `sources/pob_data_poe2/ModRunes.json` | 287 | 184,958 | https://repoe-fork.github.io/pob-data/poe2/ModRunes.json |
 | OK | `sources/pob_data_poe2/ModJewel.json` | 377 | 164,030 | https://repoe-fork.github.io/pob-data/poe2/ModJewel.json |
 | OK | `sources/pob_data_poe2/ModCharm.json` | 51 | 18,999 | https://repoe-fork.github.io/pob-data/poe2/ModCharm.json |
 | OK | `sources/pob_data_poe2/ModFlask.json` | 78 | 33,291 | https://repoe-fork.github.io/pob-data/poe2/ModFlask.json |
-| OK | `sources/pob_data_poe2/QueryMods.json` | 8 | 695,080 | https://repoe-fork.github.io/pob-data/poe2/QueryMods.json |
+| OK | `sources/pob_data_poe2/QueryMods.json` | 8 | 695,946 | https://repoe-fork.github.io/pob-data/poe2/QueryMods.json |
 | OK | `sources/pob_data_poe2/SkillStatMap.json` | 957 | 193,483 | https://repoe-fork.github.io/pob-data/poe2/SkillStatMap.json |
-| OK | `sources/pob_data_poe2/TradeSiteStats.json` | 10 | 1,103,592 | https://repoe-fork.github.io/pob-data/poe2/TradeSiteStats.json |
+| OK | `sources/pob_data_poe2/TradeSiteStats.json` | 10 | 1,115,071 | https://repoe-fork.github.io/pob-data/poe2/TradeSiteStats.json |
 | OK | `sources/pob_data_poe2/Costs.json` | 19 | 2,419 | https://repoe-fork.github.io/pob-data/poe2/Costs.json |
 | OK | `sources/pob_data_poe2/Misc.json` | 21 | 20,045 | https://repoe-fork.github.io/pob-data/poe2/Misc.json |
-| OK | `sources/pob_data_poe2/Minions.json` | 32 | 33,519 | https://repoe-fork.github.io/pob-data/poe2/Minions.json |
+| OK | `sources/pob_data_poe2/Minions.json` | 32 | 32,342 | https://repoe-fork.github.io/pob-data/poe2/Minions.json |
 
 ## Generated compact indexes
 
@@ -47,7 +47,7 @@
 | `item_base_index.json` | 8,006 | 1,664,482 | YES |
 | `manifest_summary.md` | 1 | 5,601 | YES |
 | `misc_index.json` | 27,695 | 5,529,498 | OPTIONAL |
-| `mod_index.json` | 19,429 | 5,421,826 | YES, if size allows |
+| `mod_index.json` | 19,430 | 5,421,999 | YES, if size allows |
 | `passive_tree_edges.json` | 5,129 | 236,338 | ONLY when exact pathing is needed |
 | `passive_tree_full_compact.json` | 5,151 | 698,278 | ONLY when exact small-node routing is needed |
 | `passive_tree_key_nodes.json` | 4,922 | 687,851 | YES |
