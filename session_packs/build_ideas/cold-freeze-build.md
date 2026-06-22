@@ -1,6 +1,6 @@
 # Build Idea Pack — Cold Freeze Build
 
-- Generated UTC: `2026-06-21T12:21:40+00:00`
+- Generated UTC: `2026-06-22T15:32:56+00:00`
 - Idea slug: `cold-freeze-build`
 - Purpose: Engineer a cold/freeze/shatter build for safe clear and controlled bossing.
 - Keywords: `cold, freeze, frozen, chill, chilled, shatter, ice, glacial, frost, exposure, penetration, ailment, elemental, critical, crit, herald, spirit, support, resistance, monk, sorceress`
