@@ -1,6 +1,6 @@
 # Build Idea Pack — Lightning Shock Build
 
-- Generated UTC: `2026-06-22T15:32:58+00:00`
+- Generated UTC: `2026-06-23T12:47:22+00:00`
 - Idea slug: `lightning-shock-build`
 - Purpose: Engineer a lightning/shock build with high clear speed and strong damage amplification.
 - Keywords: `lightning, shock, shocked, electrocute, storm, spark, arc, exposure, penetration, ailment, elemental, critical, crit, cast speed, projectile, area, aoe, mana, energy shield, sorceress, stormweaver`
@@ -7025,7 +7025,23 @@ _No keyword matches in this index._
 {"k":"MayhemEventDifficultyIncreasedMonsterCritical","n":"MayhemEventDifficultyIncreasedMonsterCritical","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_critical_strike_chance_+%","max":200,"min":200},{"id":"map_monsters_critical_strike_multiplier_+","max":35,"min":35}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 64. PassageUniqueAmanamuArmourAppliesToElementalDamage
+### 64. PassageUniqueAmanamuAbyssalWastingPreventsCrits
+
+- Match score: `80`
+- `k`: PassageUniqueAmanamuAbyssalWastingPreventsCrits
+- `n`: PassageUniqueAmanamuAbyssalWastingPreventsCrits
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"abyssal_wasting_also_prevents_enemies_from_dealing_critical_strikes","max":1,"min":1}]
+
+```json
+{"k":"PassageUniqueAmanamuAbyssalWastingPreventsCrits","n":"PassageUniqueAmanamuAbyssalWastingPreventsCrits","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"abyssal_wasting_also_prevents_enemies_from_dealing_critical_strikes","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 65. PassageUniqueAmanamuArmourAppliesToElementalDamage
 
 - Match score: `80`
 - `k`: PassageUniqueAmanamuArmourAppliesToElementalDamage
@@ -7041,7 +7057,23 @@ _No keyword matches in this index._
 {"k":"PassageUniqueAmanamuArmourAppliesToElementalDamage","n":"PassageUniqueAmanamuArmourAppliesToElementalDamage","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"armour_%_applies_to_fire_cold_lightning_damage","max":30,"min":20}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 65. PercentManaRecoveredWhenYouShockUnique__1
+### 66. PassageUniqueAmanamuHybridArmourAndArmourElemental
+
+- Match score: `80`
+- `k`: PassageUniqueAmanamuHybridArmourAndArmourElemental
+- `n`: PassageUniqueAmanamuHybridArmourAndArmourElemental
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"physical_damage_reduction_rating_+%","max":40,"min":30},{"id":"armour_%_applies_to_fire_cold_lightning_damage","max":30,"min":20}]
+
+```json
+{"k":"PassageUniqueAmanamuHybridArmourAndArmourElemental","n":"PassageUniqueAmanamuHybridArmourAndArmourElemental","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"physical_damage_reduction_rating_+%","max":40,"min":30},{"id":"armour_%_applies_to_fire_cold_lightning_damage","max":30,"min":20}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 67. PercentManaRecoveredWhenYouShockUnique__1
 
 - Match score: `80`
 - `k`: PercentManaRecoveredWhenYouShockUnique__1
@@ -7057,7 +7089,7 @@ _No keyword matches in this index._
 {"k":"PercentManaRecoveredWhenYouShockUnique__1","n":"PercentManaRecoveredWhenYouShockUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"recover_%_maximum_mana_when_enemy_shocked","max":3,"min":3}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 66. ShockedEnemiesExplodeUnique__1_
+### 68. ShockedEnemiesExplodeUnique__1_
 
 - Match score: `80`
 - `k`: ShockedEnemiesExplodeUnique__1_
@@ -7073,7 +7105,7 @@ _No keyword matches in this index._
 {"k":"ShockedEnemiesExplodeUnique__1_","n":"ShockedEnemiesExplodeUnique__1_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"shocked_enemies_explode_for_%_life_as_lightning_damage","max":5,"min":5}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 67. UberSimulacrumCriticals1_
+### 69. UberSimulacrumCriticals1_
 
 - Match score: `80`
 - `k`: UberSimulacrumCriticals1_
@@ -7089,7 +7121,7 @@ _No keyword matches in this index._
 {"k":"UberSimulacrumCriticals1_","n":"UberSimulacrumCriticals1_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_critical_strike_chance_+%","max":330,"min":301},{"id":"map_monsters_critical_strike_multiplier_+","max":60,"min":50},{"id":"map_monsters_base_self_critical_strike_multiplier_-%","max":35,"min":35}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 68. UltimatumUniqueMapExtraCriticalRolls
+### 70. UltimatumUniqueMapExtraCriticalRolls
 
 - Match score: `80`
 - `k`: UltimatumUniqueMapExtraCriticalRolls
@@ -7105,7 +7137,7 @@ _No keyword matches in this index._
 {"k":"UltimatumUniqueMapExtraCriticalRolls","n":"UltimatumUniqueMapExtraCriticalRolls","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_ultimatum_unique_map_boss_extra_critical_rolls","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 69. UniqueCriticalStrikesIgnoreResistances1
+### 71. UniqueCriticalStrikesIgnoreResistances1
 
 - Match score: `80`
 - `k`: UniqueCriticalStrikesIgnoreResistances1
@@ -7121,7 +7153,7 @@ _No keyword matches in this index._
 {"k":"UniqueCriticalStrikesIgnoreResistances1","n":"UniqueCriticalStrikesIgnoreResistances1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"critical_strikes_ignore_elemental_resistances","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 70. UniqueElementalAilmentDuration1
+### 72. UniqueElementalAilmentDuration1
 
 - Match score: `80`
 - `k`: UniqueElementalAilmentDuration1
@@ -7137,7 +7169,7 @@ _No keyword matches in this index._
 {"k":"UniqueElementalAilmentDuration1","n":"UniqueElementalAilmentDuration1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"ignite_shock_chill_duration_+%","max":-30,"min":-40}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 71. UniqueElementalDamageFromHitsContributesToCoreEleAilments1
+### 73. UniqueElementalDamageFromHitsContributesToCoreEleAilments1
 
 - Match score: `80`
 - `k`: UniqueElementalDamageFromHitsContributesToCoreEleAilments1
@@ -7153,7 +7185,7 @@ _No keyword matches in this index._
 {"k":"UniqueElementalDamageFromHitsContributesToCoreEleAilments1","n":"UniqueElementalDamageFromHitsContributesToCoreEleAilments1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"elemental_damage_also_contributes_to_flammability_ignite_chill_freeze_and_shock","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 72. <<ExpedRuneArcane>><rgb(219,217,206)>{Arcane Rune}
+### 74. <<ExpedRuneArcane>><rgb(219,217,206)>{Arcane Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Extra Energy Shield}
 <rgb(135,134,253)>{Trigger a Stunning nova when Energy Shield is depleted}
@@ -7175,7 +7207,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRuneArcane","n":"<<ExpedRuneArcane>><rgb(219,217,206)>{Arcane Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Extra Energy Shield}\r\n<rgb(135,134,253)>{Trigger a Stunning nova when Energy Shield is depleted}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_maximum_life_%_to_gain_as_total_energy_shield","max":30,"min":30}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 73. <<ExpedRuneArcane>><rgb(219,217,206)>{Arcane Rune}
+### 75. <<ExpedRuneArcane>><rgb(219,217,206)>{Arcane Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Extra Energy Shield}
 <rgb(135,134,253)>{Trigger a Stunning nova when Energy Shield is depleted}
@@ -7197,7 +7229,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRuneArcanePower","n":"<<ExpedRuneArcane>><rgb(219,217,206)>{Arcane Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Extra Energy Shield}\r\n<rgb(135,134,253)>{Trigger a Stunning nova when Energy Shield is depleted}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_maximum_life_%_to_gain_as_total_energy_shield","max":60,"min":60}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 74. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
+### 76. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
 <rgb(135,134,253)>{All Damage can Shock}
 <rgb(135,134,253)>{All Damage can Chill}
 <rgb(135,134,253)>{All Damage can Ignite}
@@ -7221,7 +7253,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRunePrismatic","n":"<<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}\r\n<rgb(135,134,253)>{All Damage can Shock}\r\n<rgb(135,134,253)>{All Damage can Chill}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{All Elemental Resistance}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 75. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
+### 77. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
 <rgb(135,134,253)>{All Damage can Shock}
 <rgb(135,134,253)>{All Damage can Chill}
 <rgb(135,134,253)>{All Damage can Ignite}
@@ -7247,7 +7279,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRunePrismaticPower","n":"<<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}\r\n<rgb(135,134,253)>{All Damage can Shock}\r\n<rgb(135,134,253)>{All Damage can Chill}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{All Elemental Resistance}\r\n<rgb(135,134,253)>{Damage gained as a Random Element}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_resist_all_elements_%","max":30,"min":30},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":20,"min":20},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 76. <<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}
+### 78. <<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Cannot be Shocked or Chilled}
 <rgb(135,134,253)>{All Damage can Shock and Chill}
@@ -7269,7 +7301,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRuneTempest","n":"<<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Cannot be Shocked or Chilled}\r\n<rgb(135,134,253)>{All Damage can Shock and Chill}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":0,"min":0},{"id":"base_cannot_be_chilled","max":0,"min":0},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 77. <<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}
+### 79. <<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Cannot be Shocked or Chilled}
 <rgb(135,134,253)>{All Damage can Shock and Chill}
@@ -7291,7 +7323,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRuneTempestPower","n":"<<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Cannot be Shocked or Chilled}\r\n<rgb(135,134,253)>{All Damage can Shock and Chill}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":1,"min":1},{"id":"base_cannot_be_chilled","max":1,"min":1},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 78. AdditionalCriticalStrikeChancePerPowerChargeUnique__1
+### 80. AdditionalCriticalStrikeChancePerPowerChargeUnique__1
 
 - Match score: `70`
 - `k`: AdditionalCriticalStrikeChancePerPowerChargeUnique__1
@@ -7307,7 +7339,7 @@ _No keyword matches in this index._
 {"k":"AdditionalCriticalStrikeChancePerPowerChargeUnique__1","n":"AdditionalCriticalStrikeChancePerPowerChargeUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"additional_critical_strike_chance_per_power_charge_permyriad","max":30,"min":30}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 79. AdditionalMeleeDamageToShockedEnemiesUniqueDagger6
+### 81. AdditionalMeleeDamageToShockedEnemiesUniqueDagger6
 
 - Match score: `70`
 - `k`: AdditionalMeleeDamageToShockedEnemiesUniqueDagger6
@@ -7323,7 +7355,7 @@ _No keyword matches in this index._
 {"k":"AdditionalMeleeDamageToShockedEnemiesUniqueDagger6","n":"AdditionalMeleeDamageToShockedEnemiesUniqueDagger6","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"melee_damage_+%_vs_shocked_enemies","max":100,"min":100}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 80. AlloyElementalPenetration1
+### 82. AlloyElementalPenetration1
 
 - Match score: `70`
 - `k`: AlloyElementalPenetration1
@@ -7335,7 +7367,7 @@ _No keyword matches in this index._
 {"k":"AlloyElementalPenetration1","n":"AlloyElementalPenetration1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":45}
 ```
 
-### 81. AttackCriticalStrikeChance1
+### 83. AttackCriticalStrikeChance1
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeChance1
@@ -7347,7 +7379,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeChance1","n":"AttackCriticalStrikeChance1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":5}
 ```
 
-### 82. AttackCriticalStrikeChance2
+### 84. AttackCriticalStrikeChance2
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeChance2
@@ -7359,7 +7391,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeChance2","n":"AttackCriticalStrikeChance2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":20}
 ```
 
-### 83. AttackCriticalStrikeChance3
+### 85. AttackCriticalStrikeChance3
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeChance3
@@ -7371,7 +7403,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeChance3","n":"AttackCriticalStrikeChance3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":30}
 ```
 
-### 84. AttackCriticalStrikeChance4
+### 86. AttackCriticalStrikeChance4
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeChance4
@@ -7383,7 +7415,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeChance4","n":"AttackCriticalStrikeChance4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":44}
 ```
 
-### 85. AttackCriticalStrikeChance5
+### 87. AttackCriticalStrikeChance5
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeChance5
@@ -7395,7 +7427,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeChance5","n":"AttackCriticalStrikeChance5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":58}
 ```
 
-### 86. AttackCriticalStrikeChance6
+### 88. AttackCriticalStrikeChance6
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeChance6
@@ -7407,7 +7439,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeChance6","n":"AttackCriticalStrikeChance6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":72}
 ```
 
-### 87. AttackCriticalStrikeMultiplier1
+### 89. AttackCriticalStrikeMultiplier1
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeMultiplier1
@@ -7419,7 +7451,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeMultiplier1","n":"AttackCriticalStrikeMultiplier1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":8}
 ```
 
-### 88. AttackCriticalStrikeMultiplier2
+### 90. AttackCriticalStrikeMultiplier2
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeMultiplier2
@@ -7431,7 +7463,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeMultiplier2","n":"AttackCriticalStrikeMultiplier2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":21}
 ```
 
-### 89. AttackCriticalStrikeMultiplier3
+### 91. AttackCriticalStrikeMultiplier3
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeMultiplier3
@@ -7443,7 +7475,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeMultiplier3","n":"AttackCriticalStrikeMultiplier3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":31}
 ```
 
-### 90. AttackCriticalStrikeMultiplier4
+### 92. AttackCriticalStrikeMultiplier4
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeMultiplier4
@@ -7455,7 +7487,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeMultiplier4","n":"AttackCriticalStrikeMultiplier4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":45}
 ```
 
-### 91. AttackCriticalStrikeMultiplier5
+### 93. AttackCriticalStrikeMultiplier5
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeMultiplier5
@@ -7467,7 +7499,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeMultiplier5","n":"AttackCriticalStrikeMultiplier5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":59}
 ```
 
-### 92. AttackCriticalStrikeMultiplier6
+### 94. AttackCriticalStrikeMultiplier6
 
 - Match score: `70`
 - `k`: AttackCriticalStrikeMultiplier6
@@ -7479,7 +7511,7 @@ _No keyword matches in this index._
 {"k":"AttackCriticalStrikeMultiplier6","n":"AttackCriticalStrikeMultiplier6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":74}
 ```
 
-### 93. AvoidElementalAilmentsPerStackableJewelUnique__1
+### 95. AvoidElementalAilmentsPerStackableJewelUnique__1
 
 - Match score: `70`
 - `k`: AvoidElementalAilmentsPerStackableJewelUnique__1
@@ -7495,7 +7527,7 @@ _No keyword matches in this index._
 {"k":"AvoidElementalAilmentsPerStackableJewelUnique__1","n":"AvoidElementalAilmentsPerStackableJewelUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"avoid_all_elemental_status_%_per_stackable_unique_jewel","max":12,"min":12},{"id":"number_of_stackable_unique_jewels","max":1,"min":1}],"domain":"misc","gen":"unique","lvl":1}
 ```
 
-### 94. AvoidElementalAilmentsUnique__1_
+### 96. AvoidElementalAilmentsUnique__1_
 
 - Match score: `70`
 - `k`: AvoidElementalAilmentsUnique__1_
@@ -7511,7 +7543,7 @@ _No keyword matches in this index._
 {"k":"AvoidElementalAilmentsUnique__1_","n":"AvoidElementalAilmentsUnique__1_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"avoid_all_elemental_status_%","max":30,"min":30}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 95. AvoidElementalAilmentsUnique__2
+### 97. AvoidElementalAilmentsUnique__2
 
 - Match score: `70`
 - `k`: AvoidElementalAilmentsUnique__2
@@ -7527,7 +7559,7 @@ _No keyword matches in this index._
 {"k":"AvoidElementalAilmentsUnique__2","n":"AvoidElementalAilmentsUnique__2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"avoid_all_elemental_status_%","max":25,"min":20}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 96. BaseUnarmedCriticalStrikeChanceUnique__1
+### 98. BaseUnarmedCriticalStrikeChanceUnique__1
 
 - Match score: `70`
 - `k`: BaseUnarmedCriticalStrikeChanceUnique__1
@@ -7543,7 +7575,7 @@ _No keyword matches in this index._
 {"k":"BaseUnarmedCriticalStrikeChanceUnique__1","n":"BaseUnarmedCriticalStrikeChanceUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_melee_critical_strike_chance_while_unarmed_%","max":700,"min":700}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 97. BaseUnarmedCriticalStrikeChanceUnique__2
+### 99. BaseUnarmedCriticalStrikeChanceUnique__2
 
 - Match score: `70`
 - `k`: BaseUnarmedCriticalStrikeChanceUnique__2
@@ -7559,7 +7591,7 @@ _No keyword matches in this index._
 {"k":"BaseUnarmedCriticalStrikeChanceUnique__2","n":"BaseUnarmedCriticalStrikeChanceUnique__2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_melee_critical_strike_chance_while_unarmed_%","max":110,"min":10}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 98. BerserkInfluenceWarcryArea1
+### 100. BerserkInfluenceWarcryArea1
 
 - Match score: `70`
 - `k`: BerserkInfluenceWarcryArea1
@@ -7571,7 +7603,7 @@ _No keyword matches in this index._
 {"k":"BerserkInfluenceWarcryArea1","n":"BerserkInfluenceWarcryArea1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":45}
 ```
 
-### 99. BerserkInfluenceWarcryArea2
+### 101. BerserkInfluenceWarcryArea2
 
 - Match score: `70`
 - `k`: BerserkInfluenceWarcryArea2
@@ -7583,7 +7615,7 @@ _No keyword matches in this index._
 {"k":"BerserkInfluenceWarcryArea2","n":"BerserkInfluenceWarcryArea2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 100. BetrayalUpgradeMonsterCriticalStrikeChanceAndAccuracy
+### 102. BetrayalUpgradeMonsterCriticalStrikeChanceAndAccuracy
 
 - Match score: `70`
 - `k`: BetrayalUpgradeMonsterCriticalStrikeChanceAndAccuracy
@@ -7599,7 +7631,7 @@ _No keyword matches in this index._
 {"k":"BetrayalUpgradeMonsterCriticalStrikeChanceAndAccuracy","n":"BetrayalUpgradeMonsterCriticalStrikeChanceAndAccuracy","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"critical_strike_chance_+%","max":300,"min":300},{"id":"base_critical_strike_multiplier_+","max":25,"min":25},{"id":"accuracy_rating_+%","max":40,"min":40}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 101. BetrayalUpgradeMonsterLightningDamageAndShock_
+### 103. BetrayalUpgradeMonsterLightningDamageAndShock_
 
 - Match score: `70`
 - `k`: BetrayalUpgradeMonsterLightningDamageAndShock_
@@ -7615,7 +7647,7 @@ _No keyword matches in this index._
 {"k":"BetrayalUpgradeMonsterLightningDamageAndShock_","n":"BetrayalUpgradeMonsterLightningDamageAndShock_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"non_skill_base_physical_damage_%_to_gain_as_lightning","max":50,"min":50},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"base_chance_to_shock_%","max":100,"min":100}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 102. BleedOnMeleeCriticalStrikeUnique__1
+### 104. BleedOnMeleeCriticalStrikeUnique__1
 
 - Match score: `70`
 - `k`: BleedOnMeleeCriticalStrikeUnique__1
@@ -7631,7 +7663,7 @@ _No keyword matches in this index._
 {"k":"BleedOnMeleeCriticalStrikeUnique__1","n":"BleedOnMeleeCriticalStrikeUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_chance_to_bleed_on_crit_50%","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 103. BodyArmourImplicitReducedCriticalStrikeDamageTaken1
+### 105. BodyArmourImplicitReducedCriticalStrikeDamageTaken1
 
 - Match score: `70`
 - `k`: BodyArmourImplicitReducedCriticalStrikeDamageTaken1
@@ -7647,7 +7679,7 @@ _No keyword matches in this index._
 {"k":"BodyArmourImplicitReducedCriticalStrikeDamageTaken1","n":"BodyArmourImplicitReducedCriticalStrikeDamageTaken1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_self_critical_strike_multiplier_-%","max":25,"min":15}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 104. CannotBeShocked
+### 106. CannotBeShocked
 
 - Match score: `70`
 - `k`: CannotBeShocked
@@ -7663,7 +7695,7 @@ _No keyword matches in this index._
 {"k":"CannotBeShocked","n":"CannotBeShocked","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_cannot_be_shocked","max":100,"min":100}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 105. CannotBeShockedWhileFrozenUniqueStaff14
+### 107. CannotBeShockedWhileFrozenUniqueStaff14
 
 - Match score: `70`
 - `k`: CannotBeShockedWhileFrozenUniqueStaff14
@@ -7679,7 +7711,7 @@ _No keyword matches in this index._
 {"k":"CannotBeShockedWhileFrozenUniqueStaff14","n":"CannotBeShockedWhileFrozenUniqueStaff14","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"cannot_be_shocked_while_frozen","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 106. CannotBeShockedWhileMaximumEnduranceChargesUnique_1
+### 108. CannotBeShockedWhileMaximumEnduranceChargesUnique_1
 
 - Match score: `70`
 - `k`: CannotBeShockedWhileMaximumEnduranceChargesUnique_1
@@ -7695,7 +7727,7 @@ _No keyword matches in this index._
 {"k":"CannotBeShockedWhileMaximumEnduranceChargesUnique_1","n":"CannotBeShockedWhileMaximumEnduranceChargesUnique_1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"cannot_be_shocked_while_at_maximum_endurance_charges","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 107. CannotBeShockedWithIntHigherThanStrUnique__1
+### 109. CannotBeShockedWithIntHigherThanStrUnique__1
 
 - Match score: `70`
 - `k`: CannotBeShockedWithIntHigherThanStrUnique__1
@@ -7711,7 +7743,7 @@ _No keyword matches in this index._
 {"k":"CannotBeShockedWithIntHigherThanStrUnique__1","n":"CannotBeShockedWithIntHigherThanStrUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"cannot_be_shocked_with_int_higher_than_strength","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 108. CannotLeechFromCriticalStrikesUnique___1
+### 110. CannotLeechFromCriticalStrikesUnique___1
 
 - Match score: `70`
 - `k`: CannotLeechFromCriticalStrikesUnique___1
@@ -7727,7 +7759,7 @@ _No keyword matches in this index._
 {"k":"CannotLeechFromCriticalStrikesUnique___1","n":"CannotLeechFromCriticalStrikesUnique___1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"cannot_leech_life_from_critical_strikes","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 109. CastSocketedColdSkillsOnCriticalStrikeUnique__1
+### 111. CastSocketedColdSkillsOnCriticalStrikeUnique__1
 
 - Match score: `70`
 - `k`: CastSocketedColdSkillsOnCriticalStrikeUnique__1
@@ -7743,7 +7775,7 @@ _No keyword matches in this index._
 {"k":"CastSocketedColdSkillsOnCriticalStrikeUnique__1","n":"CastSocketedColdSkillsOnCriticalStrikeUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_unique_cast_socketed_cold_skills_on_melee_critical_strike","max":1,"min":1}],"domain":"item","gen":"unique","adds_tags":["caster_unique_weapon"],"lvl":1}
 ```
 
-### 110. CastSocketedSpellsOnShockedEnemyKillUnique__1
+### 112. CastSocketedSpellsOnShockedEnemyKillUnique__1
 
 - Match score: `70`
 - `k`: CastSocketedSpellsOnShockedEnemyKillUnique__1
@@ -7759,7 +7791,7 @@ _No keyword matches in this index._
 {"k":"CastSocketedSpellsOnShockedEnemyKillUnique__1","n":"CastSocketedSpellsOnShockedEnemyKillUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"cast_linked_spells_on_shocked_enemy_kill_%","max":50,"min":50}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 111. ChanceToAvoidElementalStatusAilments1
+### 113. ChanceToAvoidElementalStatusAilments1
 
 - Match score: `70`
 - `k`: ChanceToAvoidElementalStatusAilments1
@@ -7771,7 +7803,7 @@ _No keyword matches in this index._
 {"k":"ChanceToAvoidElementalStatusAilments1","n":"ChanceToAvoidElementalStatusAilments1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":23}
 ```
 
-### 112. ChanceToAvoidElementalStatusAilments2
+### 114. ChanceToAvoidElementalStatusAilments2
 
 - Match score: `70`
 - `k`: ChanceToAvoidElementalStatusAilments2
@@ -7783,7 +7815,7 @@ _No keyword matches in this index._
 {"k":"ChanceToAvoidElementalStatusAilments2","n":"ChanceToAvoidElementalStatusAilments2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":41}
 ```
 
-### 113. ChanceToAvoidElementalStatusAilments3__
+### 115. ChanceToAvoidElementalStatusAilments3__
 
 - Match score: `70`
 - `k`: ChanceToAvoidElementalStatusAilments3__
@@ -7795,7 +7827,7 @@ _No keyword matches in this index._
 {"k":"ChanceToAvoidElementalStatusAilments3__","n":"ChanceToAvoidElementalStatusAilments3__","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":57}
 ```
 
-### 114. ChanceToAvoidElementalStatusAilments4
+### 116. ChanceToAvoidElementalStatusAilments4
 
 - Match score: `70`
 - `k`: ChanceToAvoidElementalStatusAilments4
@@ -7807,7 +7839,7 @@ _No keyword matches in this index._
 {"k":"ChanceToAvoidElementalStatusAilments4","n":"ChanceToAvoidElementalStatusAilments4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":73}
 ```
 
-### 115. ChanceToAvoidElementalStatusAilmentsEssence1
+### 117. ChanceToAvoidElementalStatusAilmentsEssence1
 
 - Match score: `70`
 - `k`: ChanceToAvoidElementalStatusAilmentsEssence1
@@ -7819,7 +7851,7 @@ _No keyword matches in this index._
 {"k":"ChanceToAvoidElementalStatusAilmentsEssence1","n":"ChanceToAvoidElementalStatusAilmentsEssence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":42}
 ```
 
-### 116. ChanceToAvoidElementalStatusAilmentsEssence2
+### 118. ChanceToAvoidElementalStatusAilmentsEssence2
 
 - Match score: `70`
 - `k`: ChanceToAvoidElementalStatusAilmentsEssence2
@@ -7831,7 +7863,7 @@ _No keyword matches in this index._
 {"k":"ChanceToAvoidElementalStatusAilmentsEssence2","n":"ChanceToAvoidElementalStatusAilmentsEssence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":58}
 ```
 
-### 117. ChanceToAvoidElementalStatusAilmentsEssence3
+### 119. ChanceToAvoidElementalStatusAilmentsEssence3
 
 - Match score: `70`
 - `k`: ChanceToAvoidElementalStatusAilmentsEssence3
@@ -7843,7 +7875,7 @@ _No keyword matches in this index._
 {"k":"ChanceToAvoidElementalStatusAilmentsEssence3","n":"ChanceToAvoidElementalStatusAilmentsEssence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":74}
 ```
 
-### 118. ChanceToAvoidElementalStatusAilmentsEssence4
+### 120. ChanceToAvoidElementalStatusAilmentsEssence4
 
 - Match score: `70`
 - `k`: ChanceToAvoidElementalStatusAilmentsEssence4
@@ -7853,38 +7885,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"ChanceToAvoidElementalStatusAilmentsEssence4","n":"ChanceToAvoidElementalStatusAilmentsEssence4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":82}
-```
-
-### 119. ChanceToAvoidElementalStatusAilmentsUniqueAmulet22
-
-- Match score: `70`
-- `k`: ChanceToAvoidElementalStatusAilmentsUniqueAmulet22
-- `n`: ChanceToAvoidElementalStatusAilmentsUniqueAmulet22
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"base_resist_all_elements_%","max":10,"min":5}]
-
-```json
-{"k":"ChanceToAvoidElementalStatusAilmentsUniqueAmulet22","n":"ChanceToAvoidElementalStatusAilmentsUniqueAmulet22","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_resist_all_elements_%","max":10,"min":5}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 120. ChanceToAvoidElementalStatusAilmentsUniqueJewel46
-
-- Match score: `70`
-- `k`: ChanceToAvoidElementalStatusAilmentsUniqueJewel46
-- `n`: ChanceToAvoidElementalStatusAilmentsUniqueJewel46
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: misc
-- `stats`: [{"id":"avoid_all_elemental_status_%","max":10,"min":10}]
-
-```json
-{"k":"ChanceToAvoidElementalStatusAilmentsUniqueJewel46","n":"ChanceToAvoidElementalStatusAilmentsUniqueJewel46","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"avoid_all_elemental_status_%","max":10,"min":10}],"domain":"misc","gen":"unique","lvl":1}
 ```
 
 ## Rune mods
@@ -8617,18 +8617,18 @@ by Elemental Ailments
 ```
 
 ### 40. [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
-Barrier can take [ElementalDamage|Elemental Damage] up to {0}% of your [Armour] and [Evasion|Evasion Rating]
+Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
 
 - Match score: `105`
 - `k`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
-Barrier can take [ElementalDamage|Elemental Damage] up to {0}% of your [Armour] and [Evasion|Evasion Rating]
+Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
 - `n`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
-Barrier can take [ElementalDamage|Elemental Damage] up to {0}% of your [Armour] and [Evasion|Evasion Rating]
+Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] up to {0}% of your [Armour] and [Evasion|Evasion Rating]","n":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] up to {0}% of your [Armour] and [Evasion|Evasion Rating]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","n":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 41. [EnergyShield|Energy Shield] Recovered on killing a [Shock|Shocked] Enemy@{0}%

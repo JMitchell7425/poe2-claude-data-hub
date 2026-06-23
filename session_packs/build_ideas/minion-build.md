@@ -1,6 +1,6 @@
 # Build Idea Pack — Minion Build
 
-- Generated UTC: `2026-06-22T15:32:53+00:00`
+- Generated UTC: `2026-06-23T12:47:17+00:00`
 - Idea slug: `minion-build`
 - Purpose: Engineer a minion-focused build for safe clear, boss damage, and low mechanical strain.
 - Keywords: `minion, summon, skeleton, zombie, spirit, persistent, aura, command, revive, ally, damage, life, resistance, energy shield, curse, support, boss, clear, witch, infernalist, blood mage`
@@ -8566,18 +8566,18 @@ Damage taken is Reserved from Darkness before being taken from Life or [EnergySh
 ```
 
 ### 43. [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
-Barrier can take [ElementalDamage|Elemental Damage] up to {0}% of your [Armour] and [Evasion|Evasion Rating]
+Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
 
 - Match score: `105`
 - `k`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
-Barrier can take [ElementalDamage|Elemental Damage] up to {0}% of your [Armour] and [Evasion|Evasion Rating]
+Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
 - `n`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
-Barrier can take [ElementalDamage|Elemental Damage] up to {0}% of your [Armour] and [Evasion|Evasion Rating]
+Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] up to {0}% of your [Armour] and [Evasion|Evasion Rating]","n":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] up to {0}% of your [Armour] and [Evasion|Evasion Rating]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","n":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 44. [EnergyShield|Energy Shield] Recharge begins immediately and is not interrupted by Damage for {0} seconds when [Stun|Stunned] while using Supported Skills

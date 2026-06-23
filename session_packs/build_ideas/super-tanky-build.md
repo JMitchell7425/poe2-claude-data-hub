@@ -1,6 +1,6 @@
 # Build Idea Pack — Super Tanky Build
 
-- Generated UTC: `2026-06-22T15:32:48+00:00`
+- Generated UTC: `2026-06-23T12:47:12+00:00`
 - Idea slug: `super-tanky-build`
 - Purpose: Find the strongest practical defensive build with enough damage for bosses and maps.
 - Keywords: `tank, tanky, survivability, life, maximum life, energy shield, armour, evasion, block, shield, resistance, chaos resistance, recovery, regeneration, regen, leech, recoup, damage reduction, guard, stun, ailment, boss, bossing, mitigation, warrior, mercenary, monk, defense, endurance charge`
@@ -9369,18 +9369,18 @@ You cannot Recover [EnergyShield|Energy Shield] to above [Armour]
 ```
 
 ### 3. [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
-Barrier can take [ElementalDamage|Elemental Damage] up to {0}% of your [Armour] and [Evasion|Evasion Rating]
+Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
 
 - Match score: `175`
 - `k`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
-Barrier can take [ElementalDamage|Elemental Damage] up to {0}% of your [Armour] and [Evasion|Evasion Rating]
+Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
 - `n`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
-Barrier can take [ElementalDamage|Elemental Damage] up to {0}% of your [Armour] and [Evasion|Evasion Rating]
+Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] up to {0}% of your [Armour] and [Evasion|Evasion Rating]","n":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] up to {0}% of your [Armour] and [Evasion|Evasion Rating]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","n":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 4. Consecrated Ground you create causes Life Regeneration to

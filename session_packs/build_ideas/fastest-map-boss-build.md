@@ -1,6 +1,6 @@
 # Build Idea Pack — Fastest Mapper + Boss Killer
 
-- Generated UTC: `2026-06-22T15:32:50+00:00`
+- Generated UTC: `2026-06-23T12:47:14+00:00`
 - Idea slug: `fastest-map-boss-build`
 - Purpose: Find the fastest practical build that still deletes bosses without becoming fragile.
 - Keywords: `fast, fastest, map, mapping, clear, clearing, boss, bossing, single target, area, aoe, projectile, chain, fork, pierce, explosion, explode, movement speed, attack speed, cast speed, critical, crit, charge, damage, more damage, penetration, exposure, shock, freeze, ignite, poison, minion, spirit, recovery, defense`
@@ -7150,7 +7150,23 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumCriticalStrikeChance","n":"MapSimulacrumCriticalStrikeChance","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_critical_strike_chance_+%","max":300,"min":200}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 77. MinionCriticalStrikeChanceRing1
+### 77. MapSimulacrumCriticalStrikeChanceRarity
+
+- Match score: `105`
+- `k`: MapSimulacrumCriticalStrikeChanceRarity
+- `n`: MapSimulacrumCriticalStrikeChanceRarity
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: monster
+- `stats`: [{"id":"map_monsters_critical_strike_chance_+%","max":100,"min":100},{"id":"map_item_drop_rarity_+%_final_from_map","max":60,"min":60}]
+
+```json
+{"k":"MapSimulacrumCriticalStrikeChanceRarity","n":"MapSimulacrumCriticalStrikeChanceRarity","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_critical_strike_chance_+%","max":100,"min":100},{"id":"map_item_drop_rarity_+%_final_from_map","max":60,"min":60}],"domain":"monster","gen":"unique","lvl":1}
+```
+
+### 78. MinionCriticalStrikeChanceRing1
 
 - Match score: `105`
 - `k`: MinionCriticalStrikeChanceRing1
@@ -7162,7 +7178,7 @@ _No keyword matches in this index._
 {"k":"MinionCriticalStrikeChanceRing1","n":"MinionCriticalStrikeChanceRing1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":18}
 ```
 
-### 78. MinionCriticalStrikeChanceRing2
+### 79. MinionCriticalStrikeChanceRing2
 
 - Match score: `105`
 - `k`: MinionCriticalStrikeChanceRing2
@@ -7174,7 +7190,7 @@ _No keyword matches in this index._
 {"k":"MinionCriticalStrikeChanceRing2","n":"MinionCriticalStrikeChanceRing2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":32}
 ```
 
-### 79. MinionCriticalStrikeChanceRing3
+### 80. MinionCriticalStrikeChanceRing3
 
 - Match score: `105`
 - `k`: MinionCriticalStrikeChanceRing3
@@ -7186,7 +7202,7 @@ _No keyword matches in this index._
 {"k":"MinionCriticalStrikeChanceRing3","n":"MinionCriticalStrikeChanceRing3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":45}
 ```
 
-### 80. MinionCriticalStrikeChanceRing4
+### 81. MinionCriticalStrikeChanceRing4
 
 - Match score: `105`
 - `k`: MinionCriticalStrikeChanceRing4
@@ -7198,7 +7214,7 @@ _No keyword matches in this index._
 {"k":"MinionCriticalStrikeChanceRing4","n":"MinionCriticalStrikeChanceRing4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":58}
 ```
 
-### 81. MinionCriticalStrikeChanceRing5
+### 82. MinionCriticalStrikeChanceRing5
 
 - Match score: `105`
 - `k`: MinionCriticalStrikeChanceRing5
@@ -7210,7 +7226,7 @@ _No keyword matches in this index._
 {"k":"MinionCriticalStrikeChanceRing5","n":"MinionCriticalStrikeChanceRing5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":70}
 ```
 
-### 82. MinionCriticalStrikeChanceRing6
+### 83. MinionCriticalStrikeChanceRing6
 
 - Match score: `105`
 - `k`: MinionCriticalStrikeChanceRing6
@@ -7222,7 +7238,7 @@ _No keyword matches in this index._
 {"k":"MinionCriticalStrikeChanceRing6","n":"MinionCriticalStrikeChanceRing6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":81}
 ```
 
-### 83. MinionCriticalStrikeMultiplierPerStackableJewelUnique__1
+### 84. MinionCriticalStrikeMultiplierPerStackableJewelUnique__1
 
 - Match score: `105`
 - `k`: MinionCriticalStrikeMultiplierPerStackableJewelUnique__1
@@ -7238,7 +7254,7 @@ _No keyword matches in this index._
 {"k":"MinionCriticalStrikeMultiplierPerStackableJewelUnique__1","n":"MinionCriticalStrikeMultiplierPerStackableJewelUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"minion_critical_strike_multiplier_+_per_stackable_unique_jewel","max":10,"min":10},{"id":"number_of_stackable_unique_jewels","max":1,"min":1}],"domain":"misc","gen":"unique","lvl":1}
 ```
 
-### 84. MinionCriticalStrikeMultiplierRing1
+### 85. MinionCriticalStrikeMultiplierRing1
 
 - Match score: `105`
 - `k`: MinionCriticalStrikeMultiplierRing1
@@ -7250,7 +7266,7 @@ _No keyword matches in this index._
 {"k":"MinionCriticalStrikeMultiplierRing1","n":"MinionCriticalStrikeMultiplierRing1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":17}
 ```
 
-### 85. MinionCriticalStrikeMultiplierRing2
+### 86. MinionCriticalStrikeMultiplierRing2
 
 - Match score: `105`
 - `k`: MinionCriticalStrikeMultiplierRing2
@@ -7262,7 +7278,7 @@ _No keyword matches in this index._
 {"k":"MinionCriticalStrikeMultiplierRing2","n":"MinionCriticalStrikeMultiplierRing2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":30}
 ```
 
-### 86. MinionCriticalStrikeMultiplierRing3
+### 87. MinionCriticalStrikeMultiplierRing3
 
 - Match score: `105`
 - `k`: MinionCriticalStrikeMultiplierRing3
@@ -7274,7 +7290,7 @@ _No keyword matches in this index._
 {"k":"MinionCriticalStrikeMultiplierRing3","n":"MinionCriticalStrikeMultiplierRing3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":44}
 ```
 
-### 87. MinionCriticalStrikeMultiplierRing4
+### 88. MinionCriticalStrikeMultiplierRing4
 
 - Match score: `105`
 - `k`: MinionCriticalStrikeMultiplierRing4
@@ -7286,7 +7302,7 @@ _No keyword matches in this index._
 {"k":"MinionCriticalStrikeMultiplierRing4","n":"MinionCriticalStrikeMultiplierRing4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":57}
 ```
 
-### 88. MinionCriticalStrikeMultiplierRing5
+### 89. MinionCriticalStrikeMultiplierRing5
 
 - Match score: `105`
 - `k`: MinionCriticalStrikeMultiplierRing5
@@ -7298,7 +7314,7 @@ _No keyword matches in this index._
 {"k":"MinionCriticalStrikeMultiplierRing5","n":"MinionCriticalStrikeMultiplierRing5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":69}
 ```
 
-### 89. MinionCriticalStrikeMultiplierRing6
+### 90. MinionCriticalStrikeMultiplierRing6
 
 - Match score: `105`
 - `k`: MinionCriticalStrikeMultiplierRing6
@@ -7310,7 +7326,7 @@ _No keyword matches in this index._
 {"k":"MinionCriticalStrikeMultiplierRing6","n":"MinionCriticalStrikeMultiplierRing6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":80}
 ```
 
-### 90. NonCriticalDamageMultiplierUniqueHelmetInt7
+### 91. NonCriticalDamageMultiplierUniqueHelmetInt7
 
 - Match score: `105`
 - `k`: NonCriticalDamageMultiplierUniqueHelmetInt7
@@ -7326,7 +7342,7 @@ _No keyword matches in this index._
 {"k":"NonCriticalDamageMultiplierUniqueHelmetInt7","n":"NonCriticalDamageMultiplierUniqueHelmetInt7","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"dummy_stat_display_nothing","max":0,"min":0}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 91. NonCriticalStrikesDealNoDamageUnique__1
+### 92. NonCriticalStrikesDealNoDamageUnique__1
 
 - Match score: `105`
 - `k`: NonCriticalStrikesDealNoDamageUnique__1
@@ -7342,7 +7358,7 @@ _No keyword matches in this index._
 {"k":"NonCriticalStrikesDealNoDamageUnique__1","n":"NonCriticalStrikesDealNoDamageUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"non_critical_strikes_deal_no_damage","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 92. NonCriticalStrikesDealNoDamageUnique__2
+### 93. NonCriticalStrikesDealNoDamageUnique__2
 
 - Match score: `105`
 - `k`: NonCriticalStrikesDealNoDamageUnique__2
@@ -7358,7 +7374,7 @@ _No keyword matches in this index._
 {"k":"NonCriticalStrikesDealNoDamageUnique__2","n":"NonCriticalStrikesDealNoDamageUnique__2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"non_critical_strikes_deal_no_damage","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 93. PassageUniqueUlamanCriticalDamageBonus
+### 94. PassageUniqueUlamanCriticalDamageBonus
 
 - Match score: `105`
 - `k`: PassageUniqueUlamanCriticalDamageBonus
@@ -7374,7 +7390,7 @@ _No keyword matches in this index._
 {"k":"PassageUniqueUlamanCriticalDamageBonus","n":"PassageUniqueUlamanCriticalDamageBonus","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_critical_strike_multiplier_+","max":25,"min":15}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 94. PoisonDamagePerFrenzyChargeUnique__1
+### 95. PoisonDamagePerFrenzyChargeUnique__1
 
 - Match score: `105`
 - `k`: PoisonDamagePerFrenzyChargeUnique__1
@@ -7390,7 +7406,7 @@ _No keyword matches in this index._
 {"k":"PoisonDamagePerFrenzyChargeUnique__1","n":"PoisonDamagePerFrenzyChargeUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"dummy_stat_display_nothing","max":10,"min":10}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 95. ProjectileAttackCriticalStrikeChanceUnique__1
+### 96. ProjectileAttackCriticalStrikeChanceUnique__1
 
 - Match score: `105`
 - `k`: ProjectileAttackCriticalStrikeChanceUnique__1
@@ -7406,7 +7422,7 @@ _No keyword matches in this index._
 {"k":"ProjectileAttackCriticalStrikeChanceUnique__1","n":"ProjectileAttackCriticalStrikeChanceUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"projectile_attack_skill_critical_strike_chance_+%","max":60,"min":40}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 96. ProjectileAttacksChanceToPoisonBeastialMinionUnique__1
+### 97. ProjectileAttacksChanceToPoisonBeastialMinionUnique__1
 
 - Match score: `105`
 - `k`: ProjectileAttacksChanceToPoisonBeastialMinionUnique__1
@@ -7422,7 +7438,7 @@ _No keyword matches in this index._
 {"k":"ProjectileAttacksChanceToPoisonBeastialMinionUnique__1","n":"ProjectileAttacksChanceToPoisonBeastialMinionUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"projectile_attacks_chance_to_poison_on_hit_%_if_you_have_beast_minion","max":20,"min":20}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 97. ProjectileDamagePerPowerChargeUniqueAmulet15
+### 98. ProjectileDamagePerPowerChargeUniqueAmulet15
 
 - Match score: `105`
 - `k`: ProjectileDamagePerPowerChargeUniqueAmulet15
@@ -7438,7 +7454,7 @@ _No keyword matches in this index._
 {"k":"ProjectileDamagePerPowerChargeUniqueAmulet15","n":"ProjectileDamagePerPowerChargeUniqueAmulet15","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"projectile_damage_+%_per_power_charge","max":5,"min":5}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 98. ReducedExtraDamageFromCritsWithNoPowerChargesUnique__1
+### 99. ReducedExtraDamageFromCritsWithNoPowerChargesUnique__1
 
 - Match score: `105`
 - `k`: ReducedExtraDamageFromCritsWithNoPowerChargesUnique__1
@@ -7454,7 +7470,7 @@ _No keyword matches in this index._
 {"k":"ReducedExtraDamageFromCritsWithNoPowerChargesUnique__1","n":"ReducedExtraDamageFromCritsWithNoPowerChargesUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"extra_damage_taken_from_crit_while_no_power_charges_+%","max":-50,"min":-50}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 99. SoulInfluenceReducedCriticalDamageAgainstYou
+### 100. SoulInfluenceReducedCriticalDamageAgainstYou
 
 - Match score: `105`
 - `k`: SoulInfluenceReducedCriticalDamageAgainstYou
@@ -7466,7 +7482,7 @@ _No keyword matches in this index._
 {"k":"SoulInfluenceReducedCriticalDamageAgainstYou","n":"SoulInfluenceReducedCriticalDamageAgainstYou","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":65}
 ```
 
-### 100. TakeNoExtraDamageFromCriticalStrikesUnique__1
+### 101. TakeNoExtraDamageFromCriticalStrikesUnique__1
 
 - Match score: `105`
 - `k`: TakeNoExtraDamageFromCriticalStrikesUnique__1
@@ -7482,7 +7498,7 @@ _No keyword matches in this index._
 {"k":"TakeNoExtraDamageFromCriticalStrikesUnique__1","n":"TakeNoExtraDamageFromCriticalStrikesUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"self_take_no_extra_damage_from_critical_strikes","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 101. UniqueCriticalMultiplierPerPowerCharge1
+### 102. UniqueCriticalMultiplierPerPowerCharge1
 
 - Match score: `105`
 - `k`: UniqueCriticalMultiplierPerPowerCharge1
@@ -7498,7 +7514,7 @@ _No keyword matches in this index._
 {"k":"UniqueCriticalMultiplierPerPowerCharge1","n":"UniqueCriticalMultiplierPerPowerCharge1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"critical_strike_multiplier_+_per_power_charge","max":12,"min":12}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 102. UniqueFreezeDamageIncreaseAgainstIgnited1
+### 103. UniqueFreezeDamageIncreaseAgainstIgnited1
 
 - Match score: `105`
 - `k`: UniqueFreezeDamageIncreaseAgainstIgnited1
@@ -7514,7 +7530,7 @@ _No keyword matches in this index._
 {"k":"UniqueFreezeDamageIncreaseAgainstIgnited1","n":"UniqueFreezeDamageIncreaseAgainstIgnited1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"hit_damage_freeze_multiplier_+%_against_ignited_enemies","max":80,"min":60}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 103. UniqueHeartSuffixMinionCriticalStrikeChanceIncrease
+### 104. UniqueHeartSuffixMinionCriticalStrikeChanceIncrease
 
 - Match score: `105`
 - `k`: UniqueHeartSuffixMinionCriticalStrikeChanceIncrease
@@ -7530,7 +7546,7 @@ _No keyword matches in this index._
 {"k":"UniqueHeartSuffixMinionCriticalStrikeChanceIncrease","n":"UniqueHeartSuffixMinionCriticalStrikeChanceIncrease","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"minion_critical_strike_chance_+%","max":12,"min":6}],"domain":"desecrated","gen":"unique","weights":[{"tag":"heart_unique_jewel_suffix","weight":1},{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 104. UniqueProjectileIncreasedDamagePerPierce1
+### 105. UniqueProjectileIncreasedDamagePerPierce1
 
 - Match score: `105`
 - `k`: UniqueProjectileIncreasedDamagePerPierce1
@@ -7546,7 +7562,7 @@ _No keyword matches in this index._
 {"k":"UniqueProjectileIncreasedDamagePerPierce1","n":"UniqueProjectileIncreasedDamagePerPierce1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"projectile_damage_+%_per_pierced_enemy","max":64,"min":42}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 105. UniqueReducedCriticalDamageTakenWhileChilled1
+### 106. UniqueReducedCriticalDamageTakenWhileChilled1
 
 - Match score: `105`
 - `k`: UniqueReducedCriticalDamageTakenWhileChilled1
@@ -7562,7 +7578,7 @@ _No keyword matches in this index._
 {"k":"UniqueReducedCriticalDamageTakenWhileChilled1","n":"UniqueReducedCriticalDamageTakenWhileChilled1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"enemy_hit_critical_strike_chance_+%_against_self_while_chilled","max":-35,"min":-50}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 106. UniqueTakeNoExtraDamageFromCriticalStrikes1
+### 107. UniqueTakeNoExtraDamageFromCriticalStrikes1
 
 - Match score: `105`
 - `k`: UniqueTakeNoExtraDamageFromCriticalStrikes1
@@ -7578,7 +7594,7 @@ _No keyword matches in this index._
 {"k":"UniqueTakeNoExtraDamageFromCriticalStrikes1","n":"UniqueTakeNoExtraDamageFromCriticalStrikes1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"self_take_no_extra_damage_from_critical_strikes","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 107. DelveMonsterProjectilesPierce
+### 108. DelveMonsterProjectilesPierce
 
 - Match score: `90`
 - `k`: DelveMonsterProjectilesPierce
@@ -7594,7 +7610,7 @@ _No keyword matches in this index._
 {"k":"DelveMonsterProjectilesPierce","n":"DelveMonsterProjectilesPierce","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":13,"min":13},{"id":"map_item_drop_rarity_+%","max":8,"min":8},{"id":"map_pack_size_+%","max":5,"min":5},{"id":"delve_biome_monster_projectiles_always_pierce","max":1,"min":1}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":1}
 ```
 
-### 108. DexMissionRhoaBossMinionCausticCloudOnDeath
+### 109. DexMissionRhoaBossMinionCausticCloudOnDeath
 
 - Match score: `90`
 - `k`: DexMissionRhoaBossMinionCausticCloudOnDeath
@@ -7610,7 +7626,7 @@ _No keyword matches in this index._
 {"k":"DexMissionRhoaBossMinionCausticCloudOnDeath","n":"DexMissionRhoaBossMinionCausticCloudOnDeath","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_caustic_cloud_on_death_%_max_damage_to_deal_per_minute","max":800,"min":800},{"id":"monster_caustic_cloud_on_death_base_area_of_effect_radius","max":12,"min":12},{"id":"monster_ground_effect_on_death_base_duration_ms","max":3000,"min":3000}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 109. HandWrapsUniqueAllDamageCanPoison1
+### 110. HandWrapsUniqueAllDamageCanPoison1
 
 - Match score: `90`
 - `k`: HandWrapsUniqueAllDamageCanPoison1
@@ -7626,7 +7642,7 @@ _No keyword matches in this index._
 {"k":"HandWrapsUniqueAllDamageCanPoison1","n":"HandWrapsUniqueAllDamageCanPoison1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"critical_hit_poison_effect_+%","max":40,"min":30}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 110. MapDangerousBossStrDexIntMission
+### 111. MapDangerousBossStrDexIntMission
 
 - Match score: `90`
 - `k`: MapDangerousBossStrDexIntMission
@@ -7642,7 +7658,7 @@ _No keyword matches in this index._
 {"k":"MapDangerousBossStrDexIntMission","n":"MapDangerousBossStrDexIntMission","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_boss_damage_+%","max":20,"min":20},{"id":"map_boss_attack_and_cast_speed_+%","max":20,"min":20}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 111. MapDangerousBossUniqueMap13
+### 112. MapDangerousBossUniqueMap13
 
 - Match score: `90`
 - `k`: MapDangerousBossUniqueMap13
@@ -7658,7 +7674,7 @@ _No keyword matches in this index._
 {"k":"MapDangerousBossUniqueMap13","n":"MapDangerousBossUniqueMap13","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":150,"min":150},{"id":"map_boss_damage_+%","max":35,"min":30},{"id":"map_boss_attack_and_cast_speed_+%","max":30,"min":25}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 112. MapPathOfEnduranceBoss1_
+### 113. MapPathOfEnduranceBoss1_
 
 - Match score: `90`
 - `k`: MapPathOfEnduranceBoss1_
@@ -7674,7 +7690,7 @@ _No keyword matches in this index._
 {"k":"MapPathOfEnduranceBoss1_","n":"MapPathOfEnduranceBoss1_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_boss_maximum_life_+%","max":50,"min":50},{"id":"map_boss_damage_+%","max":10,"min":10},{"id":"map_boss_attack_and_cast_speed_+%","max":5,"min":5},{"id":"map_boss_area_of_effect_+%","max":0,"min":0}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 113. MapPathOfEnduranceBoss2
+### 114. MapPathOfEnduranceBoss2
 
 - Match score: `90`
 - `k`: MapPathOfEnduranceBoss2
@@ -7690,7 +7706,7 @@ _No keyword matches in this index._
 {"k":"MapPathOfEnduranceBoss2","n":"MapPathOfEnduranceBoss2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_boss_maximum_life_+%","max":75,"min":75},{"id":"map_boss_damage_+%","max":20,"min":20},{"id":"map_boss_attack_and_cast_speed_+%","max":10,"min":10},{"id":"map_boss_area_of_effect_+%","max":20,"min":20}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 114. MapPathOfEnduranceBoss3
+### 115. MapPathOfEnduranceBoss3
 
 - Match score: `90`
 - `k`: MapPathOfEnduranceBoss3
@@ -7706,7 +7722,7 @@ _No keyword matches in this index._
 {"k":"MapPathOfEnduranceBoss3","n":"MapPathOfEnduranceBoss3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_boss_maximum_life_+%","max":100,"min":100},{"id":"map_boss_damage_+%","max":30,"min":30},{"id":"map_boss_attack_and_cast_speed_+%","max":15,"min":15},{"id":"map_boss_area_of_effect_+%","max":45,"min":45}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 115. MapSimulacrumExtraChaosAndPenetration1
+### 116. MapSimulacrumExtraChaosAndPenetration1
 
 - Match score: `90`
 - `k`: MapSimulacrumExtraChaosAndPenetration1
@@ -7722,7 +7738,7 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumExtraChaosAndPenetration1","n":"MapSimulacrumExtraChaosAndPenetration1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_chaos","max":19,"min":15},{"id":"map_monsters_reduce_enemy_chaos_resistance_%","max":5,"min":5}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 116. MapSimulacrumExtraChaosAndPenetration2
+### 117. MapSimulacrumExtraChaosAndPenetration2
 
 - Match score: `90`
 - `k`: MapSimulacrumExtraChaosAndPenetration2
@@ -7738,7 +7754,7 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumExtraChaosAndPenetration2","n":"MapSimulacrumExtraChaosAndPenetration2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_chaos","max":24,"min":20},{"id":"map_monsters_reduce_enemy_chaos_resistance_%","max":7,"min":7}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 117. MapSimulacrumExtraChaosAndPenetration3
+### 118. MapSimulacrumExtraChaosAndPenetration3
 
 - Match score: `90`
 - `k`: MapSimulacrumExtraChaosAndPenetration3
@@ -7754,7 +7770,7 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumExtraChaosAndPenetration3","n":"MapSimulacrumExtraChaosAndPenetration3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_chaos","max":30,"min":25},{"id":"map_monsters_reduce_enemy_chaos_resistance_%","max":10,"min":10}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 118. MapSimulacrumExtraChaosAndPoison1_
+### 119. MapSimulacrumExtraChaosAndPoison1_
 
 - Match score: `90`
 - `k`: MapSimulacrumExtraChaosAndPoison1_
@@ -7770,7 +7786,7 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumExtraChaosAndPoison1_","n":"MapSimulacrumExtraChaosAndPoison1_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_chaos","max":19,"min":15},{"id":"map_monsters_poison_on_hit","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 119. MapSimulacrumExtraChaosAndPoison2
+### 120. MapSimulacrumExtraChaosAndPoison2
 
 - Match score: `90`
 - `k`: MapSimulacrumExtraChaosAndPoison2
@@ -7784,22 +7800,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"MapSimulacrumExtraChaosAndPoison2","n":"MapSimulacrumExtraChaosAndPoison2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_chaos","max":24,"min":20},{"id":"map_monsters_poison_on_hit","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
-```
-
-### 120. MapSimulacrumExtraChaosAndPoison3_
-
-- Match score: `90`
-- `k`: MapSimulacrumExtraChaosAndPoison3_
-- `n`: MapSimulacrumExtraChaosAndPoison3_
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: area
-- `stats`: [{"id":"map_monsters_%_physical_damage_to_gain_as_chaos","max":30,"min":25},{"id":"map_monsters_poison_on_hit","max":1,"min":1}]
-
-```json
-{"k":"MapSimulacrumExtraChaosAndPoison3_","n":"MapSimulacrumExtraChaosAndPoison3_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_chaos","max":30,"min":25},{"id":"map_monsters_poison_on_hit","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
 ## Rune mods
