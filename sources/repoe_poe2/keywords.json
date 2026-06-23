@@ -99,10 +99,6 @@
     "definition": "Your allies include other players, [Minion|Minions], and any other entity that fights alongside you and has its own stats. \r\n\r\nYou do not count as your own Ally.",
     "term": "Allies"
   },
-  "AlteredCollarbone": {
-    "definition": "",
-    "term": ""
-  },
   "AlternateStrengthBonus": {
     "definition": "Gain no inherent bonus from [Strength]\r\n1% increased [EnergyShield|Energy Shield] per 2 Strength",
     "term": "Black Scythe Training"
@@ -358,6 +354,18 @@
   "BreachFruitRing": {
     "definition": "",
     "term": ""
+  },
+  "BreachHiveAdditionalRarePackSkill": {
+    "definition": "A skill created by Ailith that adds an additional Pack with a Rare Monster to each wave.",
+    "term": "Otherworldly Nemesis"
+  },
+  "BreachHiveMonsterPotencySkill": {
+    "definition": "A skill created by Ailith that increases the [MonsterEffectiveness|Effectiveness] of Monsters in [Breach] Hive encounters.",
+    "term": "Xesht's Fervour"
+  },
+  "BreachHiveMonsterUpgradeSkill": {
+    "definition": "A skill created by Ailith that creates a zone which upgrades the [MonsterRarity|Rarity] of Breach Monsters which enter it.\r\n\r\nMonsters can only have their [MonsterRarity|Rarity] upgraded once, and can not be upgraded beyond Rare.",
+    "term": "Dreamer's Sight"
   },
   "BreachRing": {
     "definition": "",
@@ -663,6 +671,10 @@
     "definition": "Each [CorruptedNexus|Corrupted Nexus] is guarded by a powerful Corrupted Boss. Defeat the Corrupted Boss to cleanse the Nexus.",
     "term": "Corrupted Boss"
   },
+  "CorruptedMonster": {
+    "definition": "Corrupted Monsters have an additional Corrupted [MonsterModifiers|Modifier].\r\n\r\nThese modifiers may increase the difficulty and reward of the Monster, or may make it easier to defeat.",
+    "term": "Corrupted Monsters"
+  },
   "CorruptedNexus": {
     "definition": "A Corrupted Nexus is the source of immense corruption, guarded by a powerful [CorruptedBoss|Corrupted Boss].",
     "term": "Corrupted Nexus"
@@ -783,13 +795,25 @@
     "definition": "Delirious players are assaulted by illusions, making combat more difficult. Higher delirium causes monsters to deal more damage and have additional [Toughness]. It can also cause additional monsters to appear or can grant additional modifiers to existing monsters. Monster item drops are improved by higher delirium.\r\n\r\nMaps within Fog Banks gain Deliriousness as [MapBoss|Map Bosses], [Rarity|Rare] Monsters or Unique Monsters are killed.",
     "term": "Delirious Players"
   },
+  "DeliriumApexPredators": {
+    "definition": "Adds an additional Boss to the encounter. \r\n\r\nAdditional bosses will be summoned into all remaining waves in the Simulacrum.",
+    "term": "Apex Predators"
+  },
   "DeliriumAugment": {
     "definition": "",
     "term": ""
   },
+  "DeliriumEscalatingThreats": {
+    "definition": "Adds an additional Modifier to the area. These modifiers generally add danger and reward.\r\n\r\nThese modifiers will apply for all remaining waves in the Simulacrum.",
+    "term": "Escalating Threats"
+  },
   "DeliriumGigaMirror": {
-    "definition": "A Grand Mirror causes a reflection of the [MapBoss|Map Boss]. When the bosses are defeated [ContainsDelirium|Delirium] fog spreads to nearby Maps.\r\n\r\nAt least 1 Map the fog spreads to will be transformed into a Simulacrum.",
+    "definition": "A Grand Mirror causes a reflection of the [MapBoss|Map Boss]. When the bosses are defeated [ContainsDelirium|Delirium] fog spreads to nearby Maps.\r\n\r\nWhen the fog reaches 100% [Delirious|Deliriousness] one of the remaining maps will be transformed into a Simulacrum.",
     "term": "Grand Mirror"
+  },
+  "DeliriumPureEmotions": {
+    "definition": "Adds additional monster packs to the encounter. \r\n\r\nAdditional monster packs will be added to all remaining waves in the Simulacrum.",
+    "term": "Pure Emotions"
   },
   "DeliriumSplinter": {
     "definition": "",
@@ -3910,5 +3934,9 @@
   "test2": {
     "definition": "",
     "term": "Test custom content"
+  },
+  "w": {
+    "definition": "",
+    "term": ""
   }
 }

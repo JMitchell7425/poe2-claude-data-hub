@@ -1672,6 +1672,56 @@
     "tutorial_video": null,
     "ui_image": null
   },
+  "Metadata/Items/Gem/SkillGemAscendancyQueensProcession": {
+    "base_item": {
+      "display_name": "Queen's Procession",
+      "id": "Metadata/Items/Gem/SkillGemAscendancyQueensProcession",
+      "release_state": "released"
+    },
+    "color": "w",
+    "crafting_level": 0,
+    "crafting_types": null,
+    "gem_type": "active",
+    "grants_skills": [
+      "QueensProcessionReservationPlayer"
+    ],
+    "icon_dds_file": "Art/2DArt/SkillIcons/4k/RitualistQueenInTheMistsSkill.dds",
+    "recommended_supports": [
+      "Metadata/Items/Gems/SupportGemEnvenom",
+      "Metadata/Items/Gems/SupportGemBrutality",
+      "Metadata/Items/Gems/SupportGemMagnifiedEffect",
+      "Metadata/Items/Gems/SupportGemBlind",
+      "Metadata/Items/Gems/SupportGemSplinter",
+      "Metadata/Items/Gems/SupportGemBurstingPlague",
+      "Metadata/Items/Gems/SupportGemIngenuity",
+      "Metadata/Items/Gems/SupportGemCloseCombat",
+      "Metadata/Items/Gems/SupportGemLifeThiefTwo",
+      "Metadata/Items/Gems/SupportGemExecuteTwo",
+      "Metadata/Items/Gem/SupportGemIncision",
+      "Metadata/Items/Gems/SupportGemDeadlyPoisonTwo",
+      "Metadata/Items/Gem/SupportGemHeft",
+      "Metadata/Items/Gem/SupportGemCullingStrikeTwo",
+      "Metadata/Items/Gems/SupportGemPhysicalMastery"
+    ],
+    "requirement_weights": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "strength": 0
+    },
+    "skill_name": null,
+    "support_name": null,
+    "support_text": null,
+    "tags": [
+      "buff",
+      "grants_active_skill",
+      "attack",
+      "persistent",
+      "area",
+      "physical"
+    ],
+    "tutorial_video": null,
+    "ui_image": null
+  },
   "Metadata/Items/Gem/SkillGemAscendancyRitualSacrifice": {
     "base_item": {
       "display_name": "Ritual Sacrifice",
