@@ -1,6 +1,6 @@
 # Build Idea Pack — Charge-Stacking Build
 
-- Generated UTC: `2026-06-24T12:30:15+00:00`
+- Generated UTC: `2026-06-25T12:33:50+00:00`
 - Idea slug: `charge-stacking-build`
 - Purpose: Engineer around power, frenzy, endurance, charge generation, charge consumption, and charge scaling.
 - Keywords: `charge, charges, power charge, frenzy charge, endurance charge, gain charge, consume charge, maximum charge, critical, crit, duration, killing palm, charge profusion, overflowing power, damage, speed, boss, clear`
@@ -4553,10 +4553,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["wand","onehand","default"]
+- `req`: {"dexterity":0,"intelligence":92,"level":52,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand11","n":"Critical Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["wand","onehand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand11","n":"Critical Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["wand","onehand","default"],"req":{"dexterity":0,"intelligence":92,"level":52,"strength":0},"domain":"item"}
 ```
 
 ### 10. critical_utility_flask

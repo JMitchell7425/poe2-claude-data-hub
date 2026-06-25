@@ -1,6 +1,6 @@
 # Build Idea Pack — Chaos Poison Build
 
-- Generated UTC: `2026-06-24T12:30:14+00:00`
+- Generated UTC: `2026-06-25T12:33:49+00:00`
 - Idea slug: `chaos-poison-build`
 - Purpose: Engineer a chaos/poison build with strong damage-over-time scaling and boss reliability.
 - Keywords: `chaos, poison, poisoned, wither, damage over time, dot, ailment, duration, projectile, attack, spell, critical, crit, area, clear, boss, resistance, pathfinder, ranger, witch, blood mage`
@@ -4677,10 +4677,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["wand","onehand","default"]
+- `req`: {"dexterity":0,"intelligence":92,"level":52,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand11","n":"Critical Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["wand","onehand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand11","n":"Critical Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["wand","onehand","default"],"req":{"dexterity":0,"intelligence":92,"level":52,"strength":0},"domain":"item"}
 ```
 
 ### 18. critical_utility_flask
@@ -5073,10 +5074,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","wand","onehand","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":1,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand1","n":"Withered Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","wand","onehand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand1","n":"Withered Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","wand","onehand","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
 ```
 
 ### 50. [DNT-UNUSED] Bone Cultist Shield Boss Drop
@@ -6839,13 +6841,13 @@ _No keyword matches in this index._
 - `n`: UniqueCriticalStrikesIgnoreLightningResistance1
 - `cat`: repoe_mods
 - `src`: repoe_poe2/mods.json
-- `lvl`: 66
+- `lvl`: 69
 - `gen`: unique
 - `domain`: item
 - `stats`: [{"id":"critical_strikes_ignore_lightning_resistance","max":1,"min":1}]
 
 ```json
-{"k":"UniqueCriticalStrikesIgnoreLightningResistance1","n":"UniqueCriticalStrikesIgnoreLightningResistance1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"critical_strikes_ignore_lightning_resistance","max":1,"min":1}],"domain":"item","gen":"unique","lvl":66}
+{"k":"UniqueCriticalStrikesIgnoreLightningResistance1","n":"UniqueCriticalStrikesIgnoreLightningResistance1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"critical_strikes_ignore_lightning_resistance","max":1,"min":1}],"domain":"item","gen":"unique","lvl":69}
 ```
 
 ### 68. UniqueCriticalStrikesIgnoreResistances1

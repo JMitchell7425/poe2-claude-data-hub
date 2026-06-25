@@ -1,6 +1,6 @@
 # Build Idea Pack — Ranged Projectile Build
 
-- Generated UTC: `2026-06-24T12:30:11+00:00`
+- Generated UTC: `2026-06-25T12:33:45+00:00`
 - Idea slug: `ranged-projectile-build`
 - Purpose: Engineer a ranged projectile build with high clear coverage and strong boss scaling.
 - Keywords: `projectile, bow, crossbow, wand, ranged, chain, fork, pierce, multiple projectiles, reload, grenade, bolt, arrow, attack, critical, crit, poison, shock, freeze, ignite, area, clear, boss, deadeye, mercenary, witchhunter`
@@ -4524,10 +4524,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["wand","onehand","default"]
+- `req`: {"dexterity":0,"intelligence":92,"level":52,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand11","n":"Critical Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["wand","onehand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand11","n":"Critical Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["wand","onehand","default"],"req":{"dexterity":0,"intelligence":92,"level":52,"strength":0},"domain":"item"}
 ```
 
 ### 5. Shockchain Arrow
@@ -6632,13 +6633,13 @@ _No keyword matches in this index._
 - `n`: UniqueTriggerLightningBoltOnCriticalStrike1
 - `cat`: repoe_mods
 - `src`: repoe_poe2/mods.json
-- `lvl`: 1
+- `lvl`: 69
 - `gen`: unique
 - `domain`: item
 - `stats`: [{"id":"local_display_triggers_level_x_lightning_bolt_on_critical_strike","max":1,"min":1}]
 
 ```json
-{"k":"UniqueTriggerLightningBoltOnCriticalStrike1","n":"UniqueTriggerLightningBoltOnCriticalStrike1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_triggers_level_x_lightning_bolt_on_critical_strike","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
+{"k":"UniqueTriggerLightningBoltOnCriticalStrike1","n":"UniqueTriggerLightningBoltOnCriticalStrike1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_triggers_level_x_lightning_bolt_on_critical_strike","max":1,"min":1}],"domain":"item","gen":"unique","lvl":69}
 ```
 
 ### 36. UniqueChanceForNoBoltReload1

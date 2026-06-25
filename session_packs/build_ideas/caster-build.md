@@ -1,6 +1,6 @@
 # Build Idea Pack — Caster Build
 
-- Generated UTC: `2026-06-24T12:30:05+00:00`
+- Generated UTC: `2026-06-25T12:33:40+00:00`
 - Idea slug: `caster-build`
 - Purpose: Engineer a high-damage spellcaster with strong map clear, bossing, sustain, and PS5-friendly execution.
 - Keywords: `spell, caster, cast speed, critical, crit, mana, energy shield, spirit, lightning, cold, fire, chaos, projectile, area, aoe, exposure, penetration, shock, freeze, ignite, wand, staff, focus, sorceress, witch, chronomancer, stormweaver, blood mage`
@@ -4450,10 +4450,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["wand","onehand","default"]
+- `req`: {"dexterity":0,"intelligence":92,"level":52,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand11","n":"Critical Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["wand","onehand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand11","n":"Critical Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["wand","onehand","default"],"req":{"dexterity":0,"intelligence":92,"level":52,"strength":0},"domain":"item"}
 ```
 
 ### 4. Bone Wand
@@ -4464,10 +4465,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","wand","onehand","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":2,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand2","n":"Bone Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","wand","onehand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand2","n":"Bone Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","wand","onehand","default"],"req":{"dexterity":0,"intelligence":0,"level":2,"strength":0},"domain":"item"}
 ```
 
 ### 5. Offering Wand
@@ -4478,10 +4480,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","wand","onehand","default"]
+- `req`: {"dexterity":0,"intelligence":68,"level":38,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand8","n":"Offering Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","wand","onehand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand8","n":"Offering Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","wand","onehand","default"],"req":{"dexterity":0,"intelligence":68,"level":38,"strength":0},"domain":"item"}
 ```
 
 ### 6. Reaping Staff
@@ -4492,10 +4495,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","staff","twohand","default"]
+- `req`: {"dexterity":0,"intelligence":68,"level":38,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff8","n":"Reaping Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","staff","twohand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff8","n":"Reaping Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","staff","twohand","default"],"req":{"dexterity":0,"intelligence":68,"level":38,"strength":0},"domain":"item"}
 ```
 
 ### 7. Ashen Staff
@@ -4506,10 +4510,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":1,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff1","n":"Ashen Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff1","n":"Ashen Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
 ```
 
 ### 8. Frigid Wand
@@ -4520,10 +4525,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","wand","onehand","default"]
+- `req`: {"dexterity":0,"intelligence":80,"level":45,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand9","n":"Frigid Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","wand","onehand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand9","n":"Frigid Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","wand","onehand","default"],"req":{"dexterity":0,"intelligence":80,"level":45,"strength":0},"domain":"item"}
 ```
 
 ### 9. Galvanic Wand
@@ -4534,10 +4540,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","wand","onehand","default"]
+- `req`: {"dexterity":0,"intelligence":46,"level":25,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand6","n":"Galvanic Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","wand","onehand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand6","n":"Galvanic Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","wand","onehand","default"],"req":{"dexterity":0,"intelligence":46,"level":25,"strength":0},"domain":"item"}
 ```
 
 ### 10. Gelid Staff
@@ -4548,10 +4555,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":2,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff2","n":"Gelid Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff2","n":"Gelid Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"],"req":{"dexterity":0,"intelligence":0,"level":2,"strength":0},"domain":"item"}
 ```
 
 ### 11. Icicle Staff
@@ -4562,10 +4570,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"]
+- `req`: {"dexterity":0,"intelligence":80,"level":45,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff9","n":"Icicle Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff9","n":"Icicle Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"],"req":{"dexterity":0,"intelligence":80,"level":45,"strength":0},"domain":"item"}
 ```
 
 ### 12. Paralysing Staff
@@ -4576,10 +4585,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"]
+- `req`: {"dexterity":0,"intelligence":92,"level":52,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff11","n":"Paralysing Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff11","n":"Paralysing Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"],"req":{"dexterity":0,"intelligence":92,"level":52,"strength":0},"domain":"item"}
 ```
 
 ### 13. Primordial Wand
@@ -4590,10 +4600,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","wand","onehand","default"]
+- `req`: {"dexterity":0,"intelligence":99,"level":56,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand12","n":"Primordial Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","wand","onehand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand12","n":"Primordial Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","wand","onehand","default"],"req":{"dexterity":0,"intelligence":99,"level":56,"strength":0},"domain":"item"}
 ```
 
 ### 14. Pyrophyte Staff
@@ -4604,10 +4615,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"]
+- `req`: {"dexterity":0,"intelligence":31,"level":16,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff5","n":"Pyrophyte Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff5","n":"Pyrophyte Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"],"req":{"dexterity":0,"intelligence":31,"level":16,"strength":0},"domain":"item"}
 ```
 
 ### 15. Rending Staff
@@ -4618,10 +4630,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","staff","twohand","default"]
+- `req`: {"dexterity":0,"intelligence":60,"level":33,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff7","n":"Rending Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","staff","twohand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff7","n":"Rending Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","staff","twohand","default"],"req":{"dexterity":0,"intelligence":60,"level":33,"strength":0},"domain":"item"}
 ```
 
 ### 16. Volatile Wand
@@ -4632,10 +4645,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","wand","onehand","default"]
+- `req`: {"dexterity":0,"intelligence":31,"level":16,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand5","n":"Volatile Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","wand","onehand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand5","n":"Volatile Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","wand","onehand","default"],"req":{"dexterity":0,"intelligence":31,"level":16,"strength":0},"domain":"item"}
 ```
 
 ### 17. Voltaic Staff
@@ -4646,10 +4660,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":2,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff3","n":"Voltaic Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff3","n":"Voltaic Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"],"req":{"dexterity":0,"intelligence":0,"level":2,"strength":0},"domain":"item"}
 ```
 
 ### 18. Withered Wand
@@ -4660,10 +4675,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","wand","onehand","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":1,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand1","n":"Withered Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","wand","onehand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand1","n":"Withered Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","wand","onehand","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
 ```
 
 ### 19. Blazing Critical
@@ -5218,10 +5234,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["staff","twohand","default"]
+- `req`: {"dexterity":0,"intelligence":23,"level":11,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaffUnique2","n":"[DNT] Cragbreaker Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["staff","twohand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaffUnique2","n":"[DNT] Cragbreaker Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["staff","twohand","default"],"req":{"dexterity":0,"intelligence":23,"level":11,"strength":0},"domain":"item"}
 ```
 
 ### 62. [DNT] Meta Ranged Attack on Freeze
@@ -5298,10 +5315,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["wand","onehand","default"]
+- `req`: {"dexterity":0,"intelligence":60,"level":33,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand7","n":"Acrid Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["wand","onehand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand7","n":"Acrid Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["wand","onehand","default"],"req":{"dexterity":0,"intelligence":60,"level":33,"strength":0},"domain":"item"}
 ```
 
 ### 68. act6_karui_area
@@ -5836,10 +5854,11 @@ _No keyword matches in this index._
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
 - `tags`: ["wand","onehand","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":2,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand3","n":"Attuned Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["wand","onehand","default"],"domain":"item"}
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand3","n":"Attuned Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["wand","onehand","default"],"req":{"dexterity":0,"intelligence":0,"level":2,"strength":0},"domain":"item"}
 ```
 
 ### 110. atziri_area
@@ -6121,10 +6140,10 @@ _No keyword matches in this index._
 - `lvl`: 1
 - `gen`: unique
 - `domain`: item
-- `stats`: [{"id":"chaos_spell_skill_gem_level_+","max":3,"min":2}]
+- `stats`: [{"id":"chaos_spell_skill_gem_level_+","max":2,"min":2}]
 
 ```json
-{"k":"CorruptionUpgradeGlobalChaosSpellGemsLevel1","n":"CorruptionUpgradeGlobalChaosSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"chaos_spell_skill_gem_level_+","max":3,"min":2}],"domain":"item","gen":"unique","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"lvl":1}
+{"k":"CorruptionUpgradeGlobalChaosSpellGemsLevel1","n":"CorruptionUpgradeGlobalChaosSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"chaos_spell_skill_gem_level_+","max":2,"min":2}],"domain":"item","gen":"unique","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"lvl":1}
 ```
 
 ### 10. CorruptionUpgradeGlobalColdSpellGemsLevel1
@@ -6137,10 +6156,10 @@ _No keyword matches in this index._
 - `lvl`: 1
 - `gen`: unique
 - `domain`: item
-- `stats`: [{"id":"cold_spell_skill_gem_level_+","max":3,"min":2}]
+- `stats`: [{"id":"cold_spell_skill_gem_level_+","max":2,"min":2}]
 
 ```json
-{"k":"CorruptionUpgradeGlobalColdSpellGemsLevel1","n":"CorruptionUpgradeGlobalColdSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"cold_spell_skill_gem_level_+","max":3,"min":2}],"domain":"item","gen":"unique","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"lvl":1}
+{"k":"CorruptionUpgradeGlobalColdSpellGemsLevel1","n":"CorruptionUpgradeGlobalColdSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"cold_spell_skill_gem_level_+","max":2,"min":2}],"domain":"item","gen":"unique","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"lvl":1}
 ```
 
 ### 11. CorruptionUpgradeGlobalFireSpellGemsLevel1
@@ -6153,10 +6172,10 @@ _No keyword matches in this index._
 - `lvl`: 1
 - `gen`: unique
 - `domain`: item
-- `stats`: [{"id":"fire_spell_skill_gem_level_+","max":3,"min":2}]
+- `stats`: [{"id":"fire_spell_skill_gem_level_+","max":2,"min":2}]
 
 ```json
-{"k":"CorruptionUpgradeGlobalFireSpellGemsLevel1","n":"CorruptionUpgradeGlobalFireSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"fire_spell_skill_gem_level_+","max":3,"min":2}],"domain":"item","gen":"unique","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"lvl":1}
+{"k":"CorruptionUpgradeGlobalFireSpellGemsLevel1","n":"CorruptionUpgradeGlobalFireSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"fire_spell_skill_gem_level_+","max":2,"min":2}],"domain":"item","gen":"unique","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"lvl":1}
 ```
 
 ### 12. CorruptionUpgradeGlobalLightningSpellGemsLevel1
@@ -6169,10 +6188,10 @@ _No keyword matches in this index._
 - `lvl`: 1
 - `gen`: unique
 - `domain`: item
-- `stats`: [{"id":"lightning_spell_skill_gem_level_+","max":3,"min":2}]
+- `stats`: [{"id":"lightning_spell_skill_gem_level_+","max":2,"min":2}]
 
 ```json
-{"k":"CorruptionUpgradeGlobalLightningSpellGemsLevel1","n":"CorruptionUpgradeGlobalLightningSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"lightning_spell_skill_gem_level_+","max":3,"min":2}],"domain":"item","gen":"unique","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"lvl":1}
+{"k":"CorruptionUpgradeGlobalLightningSpellGemsLevel1","n":"CorruptionUpgradeGlobalLightningSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"lightning_spell_skill_gem_level_+","max":2,"min":2}],"domain":"item","gen":"unique","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"lvl":1}
 ```
 
 ### 13. CastSocketedColdSkillsOnCriticalStrikeUnique__1
@@ -7010,13 +7029,13 @@ _No keyword matches in this index._
 - `n`: UniqueCriticalStrikesIgnoreLightningResistance1
 - `cat`: repoe_mods
 - `src`: repoe_poe2/mods.json
-- `lvl`: 66
+- `lvl`: 69
 - `gen`: unique
 - `domain`: item
 - `stats`: [{"id":"critical_strikes_ignore_lightning_resistance","max":1,"min":1}]
 
 ```json
-{"k":"UniqueCriticalStrikesIgnoreLightningResistance1","n":"UniqueCriticalStrikesIgnoreLightningResistance1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"critical_strikes_ignore_lightning_resistance","max":1,"min":1}],"domain":"item","gen":"unique","lvl":66}
+{"k":"UniqueCriticalStrikesIgnoreLightningResistance1","n":"UniqueCriticalStrikesIgnoreLightningResistance1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"critical_strikes_ignore_lightning_resistance","max":1,"min":1}],"domain":"item","gen":"unique","lvl":69}
 ```
 
 ### 74. UniqueCriticalWeaknessOnSpellCrit1
@@ -7314,13 +7333,13 @@ _No keyword matches in this index._
 - `n`: UniqueTriggerLightningBoltOnCriticalStrike1
 - `cat`: repoe_mods
 - `src`: repoe_poe2/mods.json
-- `lvl`: 1
+- `lvl`: 69
 - `gen`: unique
 - `domain`: item
 - `stats`: [{"id":"local_display_triggers_level_x_lightning_bolt_on_critical_strike","max":1,"min":1}]
 
 ```json
-{"k":"UniqueTriggerLightningBoltOnCriticalStrike1","n":"UniqueTriggerLightningBoltOnCriticalStrike1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_triggers_level_x_lightning_bolt_on_critical_strike","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
+{"k":"UniqueTriggerLightningBoltOnCriticalStrike1","n":"UniqueTriggerLightningBoltOnCriticalStrike1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_triggers_level_x_lightning_bolt_on_critical_strike","max":1,"min":1}],"domain":"item","gen":"unique","lvl":69}
 ```
 
 ### 93. CorruptionUpgradeGlobalIncreaseColdSpellSkillGemLevel
@@ -7477,45 +7496,13 @@ _No keyword matches in this index._
 - `lvl`: 1
 - `gen`: unique
 - `domain`: item
-- `stats`: [{"id":"physical_spell_skill_gem_level_+","max":3,"min":2}]
+- `stats`: [{"id":"physical_spell_skill_gem_level_+","max":2,"min":2}]
 
 ```json
-{"k":"CorruptionUpgradeGlobalPhysicalSpellGemsLevel1","n":"CorruptionUpgradeGlobalPhysicalSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"physical_spell_skill_gem_level_+","max":3,"min":2}],"domain":"item","gen":"unique","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods"],"lvl":1}
+{"k":"CorruptionUpgradeGlobalPhysicalSpellGemsLevel1","n":"CorruptionUpgradeGlobalPhysicalSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"physical_spell_skill_gem_level_+","max":2,"min":2}],"domain":"item","gen":"unique","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods"],"lvl":1}
 ```
 
-### 103. CorruptionUpgradeIgniteChanceIncrease1
-
-- Match score: `95`
-- `k`: CorruptionUpgradeIgniteChanceIncrease1
-- `n`: CorruptionUpgradeIgniteChanceIncrease1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"ignite_chance_+%","max":75,"min":50}]
-
-```json
-{"k":"CorruptionUpgradeIgniteChanceIncrease1","n":"CorruptionUpgradeIgniteChanceIncrease1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"ignite_chance_+%","max":75,"min":50}],"domain":"item","gen":"unique","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods"],"lvl":1}
-```
-
-### 104. CorruptionUpgradeShockChanceIncrease1
-
-- Match score: `95`
-- `k`: CorruptionUpgradeShockChanceIncrease1
-- `n`: CorruptionUpgradeShockChanceIncrease1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"shock_chance_+%","max":75,"min":50}]
-
-```json
-{"k":"CorruptionUpgradeShockChanceIncrease1","n":"CorruptionUpgradeShockChanceIncrease1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"shock_chance_+%","max":75,"min":50}],"domain":"item","gen":"unique","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods"],"lvl":1}
-```
-
-### 105. ChaosCritMultiplier
+### 103. ChaosCritMultiplier
 
 - Match score: `80`
 - `k`: ChaosCritMultiplier
@@ -7531,7 +7518,7 @@ _No keyword matches in this index._
 {"k":"ChaosCritMultiplier","n":"ChaosCritMultiplier","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"chaos_critical_strike_multiplier_+","max":10,"min":8}],"domain":"misc","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 106. HandWrapsUniqueFireDamageConvertToCold1
+### 104. HandWrapsUniqueFireDamageConvertToCold1
 
 - Match score: `80`
 - `k`: HandWrapsUniqueFireDamageConvertToCold1
@@ -7547,7 +7534,7 @@ _No keyword matches in this index._
 {"k":"HandWrapsUniqueFireDamageConvertToCold1","n":"HandWrapsUniqueFireDamageConvertToCold1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"non_skill_base_fire_damage_%_to_convert_to_lightning","max":100,"min":100}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 107. HandWrapsUniqueFireDamageConvertToLightning1
+### 105. HandWrapsUniqueFireDamageConvertToLightning1
 
 - Match score: `80`
 - `k`: HandWrapsUniqueFireDamageConvertToLightning1
@@ -7563,7 +7550,7 @@ _No keyword matches in this index._
 {"k":"HandWrapsUniqueFireDamageConvertToLightning1","n":"HandWrapsUniqueFireDamageConvertToLightning1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"non_skill_base_lightning_damage_%_to_convert_to_cold","max":100,"min":100}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 108. LightningStrikesOnCritUnique__1
+### 106. LightningStrikesOnCritUnique__1
 
 - Match score: `80`
 - `k`: LightningStrikesOnCritUnique__1
@@ -7579,7 +7566,7 @@ _No keyword matches in this index._
 {"k":"LightningStrikesOnCritUnique__1","n":"LightningStrikesOnCritUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_cast_lightning_on_critical_strike","max":12,"min":12}],"domain":"item","gen":"unique","lvl":50}
 ```
 
-### 109. LightningStrikesOnCritUnique__2
+### 107. LightningStrikesOnCritUnique__2
 
 - Match score: `80`
 - `k`: LightningStrikesOnCritUnique__2
@@ -7595,7 +7582,7 @@ _No keyword matches in this index._
 {"k":"LightningStrikesOnCritUnique__2","n":"LightningStrikesOnCritUnique__2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_cast_lightning_on_critical_strike","max":30,"min":30}],"domain":"item","gen":"unique","lvl":87}
 ```
 
-### 110. LightningStrikesOnCritUnique__2Royale
+### 108. LightningStrikesOnCritUnique__2Royale
 
 - Match score: `80`
 - `k`: LightningStrikesOnCritUnique__2Royale
@@ -7611,7 +7598,7 @@ _No keyword matches in this index._
 {"k":"LightningStrikesOnCritUnique__2Royale","n":"LightningStrikesOnCritUnique__2Royale","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_cast_lightning_on_critical_strike","max":1,"min":1}],"domain":"item","gen":"unique","lvl":50}
 ```
 
-### 111. MapMonsterCriticalStrikesAndDamageDelve
+### 109. MapMonsterCriticalStrikesAndDamageDelve
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamageDelve
@@ -7627,7 +7614,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCriticalStrikesAndDamageDelve","n":"MapMonsterCriticalStrikesAndDamageDelve","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":150,"min":100},{"id":"map_monsters_critical_strike_multiplier_+","max":25,"min":20}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":1}
 ```
 
-### 112. MapMonsterCriticalStrikesAndDamageDelve2
+### 110. MapMonsterCriticalStrikesAndDamageDelve2
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamageDelve2
@@ -7643,7 +7630,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCriticalStrikesAndDamageDelve2","n":"MapMonsterCriticalStrikesAndDamageDelve2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":200,"min":151},{"id":"map_monsters_critical_strike_multiplier_+","max":30,"min":26}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":20}
 ```
 
-### 113. MapMonsterCriticalStrikesAndDamageDelve3
+### 111. MapMonsterCriticalStrikesAndDamageDelve3
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamageDelve3
@@ -7659,7 +7646,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCriticalStrikesAndDamageDelve3","n":"MapMonsterCriticalStrikesAndDamageDelve3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":250,"min":201},{"id":"map_monsters_critical_strike_multiplier_+","max":35,"min":31}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":52}
 ```
 
-### 114. MapMonsterCriticalStrikesAndDamageDelve4
+### 112. MapMonsterCriticalStrikesAndDamageDelve4
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamageDelve4
@@ -7675,7 +7662,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCriticalStrikesAndDamageDelve4","n":"MapMonsterCriticalStrikesAndDamageDelve4","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":300,"min":251},{"id":"map_monsters_critical_strike_multiplier_+","max":40,"min":36}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":92}
 ```
 
-### 115. MapMonsterCriticalStrikesAndDamageDelve5
+### 113. MapMonsterCriticalStrikesAndDamageDelve5
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamageDelve5
@@ -7691,7 +7678,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCriticalStrikesAndDamageDelve5","n":"MapMonsterCriticalStrikesAndDamageDelve5","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":400,"min":301},{"id":"map_monsters_critical_strike_multiplier_+","max":45,"min":41}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":173}
 ```
 
-### 116. MapMonsterCriticalStrikesAndDamageLabyrinth1
+### 114. MapMonsterCriticalStrikesAndDamageLabyrinth1
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamageLabyrinth1
@@ -7707,7 +7694,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCriticalStrikesAndDamageLabyrinth1","n":"MapMonsterCriticalStrikesAndDamageLabyrinth1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":15,"min":15},{"id":"map_item_drop_rarity_+%","max":30,"min":30},{"id":"map_monsters_critical_strike_chance_+%","max":180,"min":180},{"id":"map_monsters_critical_strike_multiplier_+","max":33,"min":33}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 117. MapMonsterCriticalStrikesAndDamageLabyrinth2
+### 115. MapMonsterCriticalStrikesAndDamageLabyrinth2
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamageLabyrinth2
@@ -7723,7 +7710,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCriticalStrikesAndDamageLabyrinth2","n":"MapMonsterCriticalStrikesAndDamageLabyrinth2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":15,"min":15},{"id":"map_item_drop_rarity_+%","max":30,"min":30},{"id":"map_monsters_critical_strike_chance_+%","max":280,"min":280},{"id":"map_monsters_critical_strike_multiplier_+","max":38,"min":38}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 118. MapMonsterCriticalStrikesAndDamageLabyrinth3
+### 116. MapMonsterCriticalStrikesAndDamageLabyrinth3
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamageLabyrinth3
@@ -7739,7 +7726,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCriticalStrikesAndDamageLabyrinth3","n":"MapMonsterCriticalStrikesAndDamageLabyrinth3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":15,"min":15},{"id":"map_item_drop_rarity_+%","max":30,"min":30},{"id":"map_monsters_critical_strike_chance_+%","max":380,"min":380},{"id":"map_monsters_critical_strike_multiplier_+","max":43,"min":43}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 119. MapMonsterCriticalStrikesAndDamagePathOfEndurance
+### 117. MapMonsterCriticalStrikesAndDamagePathOfEndurance
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamagePathOfEndurance
@@ -7755,7 +7742,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCriticalStrikesAndDamagePathOfEndurance","n":"MapMonsterCriticalStrikesAndDamagePathOfEndurance","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_monsters_critical_strike_chance_+%","max":400,"min":400},{"id":"map_monsters_critical_strike_multiplier_+","max":45,"min":45}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 120. MapMonsterCriticalStrikesAndDamageUnique__1
+### 118. MapMonsterCriticalStrikesAndDamageUnique__1
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamageUnique__1
@@ -7769,6 +7756,38 @@ _No keyword matches in this index._
 
 ```json
 {"k":"MapMonsterCriticalStrikesAndDamageUnique__1","n":"MapMonsterCriticalStrikesAndDamageUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_pack_size_+%","max":50,"min":50},{"id":"map_monsters_critical_strike_chance_+%","max":1000,"min":500},{"id":"map_monsters_critical_strike_multiplier_+","max":100,"min":60}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 119. MapMonstersBaseSelfCriticalMultiplierDelve
+
+- Match score: `80`
+- `k`: MapMonstersBaseSelfCriticalMultiplierDelve
+- `n`: MapMonstersBaseSelfCriticalMultiplierDelve
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: delve_area
+- `domain`: delve_area
+- `stats`: [{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":6,"min":6},{"id":"map_pack_size_+%","max":4,"min":4},{"id":"map_monsters_base_self_critical_strike_multiplier_-%","max":20,"min":15}]
+
+```json
+{"k":"MapMonstersBaseSelfCriticalMultiplierDelve","n":"MapMonstersBaseSelfCriticalMultiplierDelve","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":6,"min":6},{"id":"map_pack_size_+%","max":4,"min":4},{"id":"map_monsters_base_self_critical_strike_multiplier_-%","max":20,"min":15}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":1}
+```
+
+### 120. MapMonstersBaseSelfCriticalMultiplierDelve2
+
+- Match score: `80`
+- `k`: MapMonstersBaseSelfCriticalMultiplierDelve2
+- `n`: MapMonstersBaseSelfCriticalMultiplierDelve2
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 20
+- `gen`: delve_area
+- `domain`: delve_area
+- `stats`: [{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":6,"min":6},{"id":"map_pack_size_+%","max":4,"min":4},{"id":"map_monsters_base_self_critical_strike_multiplier_-%","max":25,"min":21}]
+
+```json
+{"k":"MapMonstersBaseSelfCriticalMultiplierDelve2","n":"MapMonstersBaseSelfCriticalMultiplierDelve2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":6,"min":6},{"id":"map_pack_size_+%","max":4,"min":4},{"id":"map_monsters_base_self_critical_strike_multiplier_-%","max":25,"min":21}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":20}
 ```
 
 ## Rune mods
