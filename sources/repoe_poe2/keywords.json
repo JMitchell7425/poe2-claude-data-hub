@@ -47,6 +47,10 @@
     "definition": "Adaptations are gained by taking [ElementalDamage|Elemental Damage] from [HitDamage|Hits] and cause you to take less damage of that [ElementalDamage|Type] from subsequent [HitDamage|Hits].\r\n\r\nUnless otherwise specified, you can have 3 Adaptations at a time, and Adaptations do not have a duration.",
     "term": "Adaptation"
   },
+  "AdaptiveRune": {
+    "definition": "<<ExpedRuneAdaptive>><rgb(219,217,206)>{Adaptive Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{[Adaptation]}",
+    "term": "Adaptive Rune"
+  },
   "AddedAttackCastTime": {
     "definition": "This additional use time is fixed and will not be modified by skill use speed stats.",
     "term": "Added Skill Use Time"
@@ -142,6 +146,10 @@
   "AoESkill": {
     "definition": "This Skill has an effect that applies to every target in its area, rather than picking specific targets.\r\n\r\nAreas of Effect that originate from a target hit by a Skill will add that target's size to their radius.",
     "term": "Area of Effect Skills"
+  },
+  "ArcaneRune": {
+    "definition": "<<ExpedRuneArcane>><rgb(219,217,206)>{Arcane Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Extra Energy Shield}\r\n<rgb(135,134,253)>{Trigger a Stunning nova when Energy Shield is depleted}",
+    "term": "Arcane Rune"
   },
   "ArcaneSurge": {
     "definition": "Arcane Surge grants 15% increased Cast Speed and 20% more Mana Regeneration Rate.",
@@ -303,6 +311,10 @@
     "definition": "You have no Mana\r\nSkill Mana Costs [StatConversion|Converted] to Life Costs",
     "term": "Blood Magic"
   },
+  "BloodlettingRune": {
+    "definition": "<<ExpedRuneBloodletting>><rgb(219,217,206)>{Bloodletting Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Life Leech}\r\n<rgb(135,134,253)>{Cannot have Life Leeched from}\r\n<rgb(135,134,253)>{Inflicts Corrupted Blood on Hit}",
+    "term": "Bloodletting Rune"
+  },
   "Bloodstained": {
     "definition": "While [Bleeding] enemies build up Bloodstained, gaining the Bloodstained [Debuff] after Bleeding for a total of 6 seconds. Bloodstained builds up 100% faster if the [Bleeding] enemy is moving or the Bleeding is [Aggravate|Aggravated].\r\n\r\nCertain skills allow you to view the Bloodstained Debuff on enemies and can consume the Debuff for powerful effects.",
     "term": "Bloodstained"
@@ -314,6 +326,10 @@
   "BlueFlamesOfChayula": {
     "definition": "Blue Flames of Chayula [ManaLeech|Leech] 20% of your maximum Mana to you when collected.",
     "term": "Blue Flames of Chayula"
+  },
+  "BondRune": {
+    "definition": "<<ExpedRuneBond>><rgb(219,217,206)>{Bond Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Rare Monsters may transfer a Mod on death}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Remnant gains:}}}\r\n<rgb(135,134,253)>{Increased chance to spawn Rare Monsters}\r\n<rgb(135,134,253)>{Rare Monsters have more [MonsterModifiers|Monster Modifiers]}",
+    "term": "Bond Rune"
   },
   "BonusMapEvent": {
     "definition": "Ancient Modifiers are fragments of Precursor power, adding many varied bonus effects to areas throughout the Precursor Fortress and beyond.",
@@ -355,6 +371,10 @@
     "definition": "",
     "term": ""
   },
+  "BreachHiveAddModifierToRareSkill": {
+    "definition": "A skill created by Ailith that creates a zone which adds a [MonsterModifiers|Modifier] to Rare Breach Monsters which enter it.\r\n\r\nA Rare Monster can only have one Modifier added.",
+    "term": "Dreamer's Inspiration"
+  },
   "BreachHiveAdditionalRarePackSkill": {
     "definition": "A skill created by Ailith that adds an additional Pack with a Rare Monster to each wave.",
     "term": "Otherworldly Nemesis"
@@ -366,6 +386,14 @@
   "BreachHiveMonsterUpgradeSkill": {
     "definition": "A skill created by Ailith that creates a zone which upgrades the [MonsterRarity|Rarity] of Breach Monsters which enter it.\r\n\r\nMonsters can only have their [MonsterRarity|Rarity] upgraded once, and can not be upgraded beyond Rare.",
     "term": "Dreamer's Sight"
+  },
+  "BreachHiveSacrificeForPowerSkill": {
+    "definition": "A skill created by Ailith that sacrifices half her life to grant players 1000% more Damage and immunity to Damage for 10 seconds.",
+    "term": "Dreamer's Might"
+  },
+  "BreachHiveSacrificeForRaritySkill": {
+    "definition": "A skill created by Ailith that sacrifices half her life to grant players 100% increased [ItemRarity|Item Rarity] in Breach Hives.",
+    "term": "Dreamer's Gift"
   },
   "BreachRing": {
     "definition": "",
@@ -446,6 +474,10 @@
   "Catalyst": {
     "definition": "Catalysts are Currency items that are exclusive drops from the [ContainsBreach|Breach] mechanic. Catalysts add [Quality] that affect certain modifiers on items. There are two categories of Catalyst, one that affects [Jewellery] and one that affects [Jewel|Jewels].",
     "term": "Catalysts"
+  },
+  "CelestialRune": {
+    "definition": "<<ExpedRuneCelestial>><rgb(219,217,206)>{Celestial Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Chance for a Fire Explosion on Death}\r\n<rgb(135,134,253)>{Chance for a Cold Explosion on Death}\r\n<rgb(135,134,253)>{Chance for a Lightning Explosion on Death}",
+    "term": "Celestial Rune"
   },
   "Chain": {
     "definition": "Effects that Chain are redirected to another target after colliding with an enemy.\r\n[Projectile|Projectiles] [Split|Splitting], [Pierce|Piercing] or [Fork|Forking] take priority over Chaining.\r\nProjectiles have a base chaining distance of 6 metres whereas other effects have a chaining distance of 4 metres. Enemies cannot be targeted more than once in the same Chain.",
@@ -539,6 +571,10 @@
     "definition": "Cold damage is one of the five [DamageTypes|Damage Types]. It is reduced by [Resistances|Cold Resistance]. Cold hits apply [Chill] and build up [Freeze], but cannot build up [HeavyStun|Heavy Stun].",
     "term": "Cold Damage"
   },
+  "ColdRune": {
+    "definition": "<<ExpedRuneCold>><rgb(219,217,206)>{Cold Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Extra Cold Damage}",
+    "term": "Cold Rune"
+  },
   "Combo": {
     "definition": "Combo is a counter on some Skills that can be required to use the Skill or grant extra effects. Skills gain Combo when you [Strike] Enemies. Combo will fall off after a short time without this happening.\r\n\r\nCombo can only be built while using the same weapon as the Combo Skill is bound to, and will be lost if you [WeaponSets|Swap Weapons].",
     "term": "Combo"
@@ -600,7 +636,7 @@
     "term": "Delirium"
   },
   "ContainsExpedition": {
-    "definition": "Expeditions are Ancient Kalguuran burial sites, with [ContainsExpedition2|Verisium Remnants] and dangers buried beneath the ground.\r\n\r\nSet up a chain of explosives and unearth the treasures, but beware of the dangers that hide in wait.\r\n\r\nUsing [ExpeditionLogbookCurrency|Logbooks] on the Atlas can reveal Grand Expeditions which are larger versions of regular Expeditions and can contain special types of [GrandExpeditionRemnant|Remnants].",
+    "definition": "Expeditions are Ancient Kalguuran burial sites, with [ContainsExpedition2|Verisium Remnants] and dangers buried beneath the ground.\r\n\r\nSet up a chain of explosives and unearth the treasures, but beware of the dangers that hide in wait.\r\n\r\nUsing [ExpeditionLogbookCurrency|Logbooks] on the Atlas can reveal [GrandExpedition|Grand Expeditions] which are larger versions of regular Expeditions and can contain special types of [GrandExpeditionRemnant|Remnants].",
     "term": "Expedition"
   },
   "ContainsExpedition2": {
@@ -731,9 +767,17 @@
     "definition": "You cannot use this currency on items above this level.",
     "term": "Maximum Item Level"
   },
+  "CurrencyRerollRemnant": {
+    "definition": "",
+    "term": ""
+  },
   "Curse": {
     "definition": "Curses significantly [Debuff] affected targets. By default a target can have one Curse on them at a time.\r\n\r\nHigher [Rarity] enemies are less affected by Curses:\r\n\r\n15% less Curse effect on Magic monsters\r\n30% less Curse effect on Rare monsters\r\n50% less Curse effect on Unique monsters",
     "term": "Curses"
+  },
+  "CyclonicRune": {
+    "definition": "<<ExpedRuneCyclonic>><rgb(219,217,206)>{Cyclonic Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Chance to inflict Exposure on Hit}\r\n<rgb(135,134,253)>{Armour Break on Hit}\r\n<rgb(135,134,253)>{Wither on Hit}",
+    "term": "Cyclonic Rune"
   },
   "Dagger": {
     "definition": "Daggers are [One-Handed] [Melee] weapons that require [Dexterity] and [Intelligence] to equip. \r\n\r\nDagger [Attack|Attacks] are commonly related to ambushing or debilitating enemies. Some blade-related [Spell|Spells] also require a Dagger.",
@@ -766,6 +810,10 @@
   "DeadlyMapBoss": {
     "definition": "Deadly Map Bosses are specific [PowerfulMapBoss|Powerful Map Bosses] that appear in specific Maps and are more difficult and drop better rewards.\r\n\r\nThese rewards are often accompanied by a specific item, usually from a pool of items. For example Unique Items, or [LineageSupports|Lineage Supports].\r\n\r\nDeadly Map Bosses can also drop items that grant access to [PinnacleBoss|Pinnacle Bosses].",
     "term": "Deadly Map Boss"
+  },
+  "DeathRune": {
+    "definition": "<<ExpedRuneDeath>><rgb(219,217,206)>{Death Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Slain Monsters may merge into stronger Monsters}",
+    "term": "Death Rune"
   },
   "Debilitate": {
     "definition": "Debilitate is a [Debuff] that inflicts 20% reduced movement speed and 10% reduced damage dealt. Unless specified, Debilitate lasts 1 second.",
@@ -895,6 +943,10 @@
     "definition": "Affects how quickly [EnergyShield|Energy Shield] is recovered by [ESRecharge|Recharge] once it starts Recharging.",
     "term": "Energy Shield Recharge Rate"
   },
+  "EarthRune": {
+    "definition": "<<ExpedRuneEarth>><rgb(219,217,206)>{Earth Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Remnant gains:}}}\r\n<rgb(135,134,253)>{Conjures Earthly Spires}",
+    "term": "Earth Rune"
+  },
   "EasyTargetDebuff": {
     "definition": "Easy Target is a [Debuff] which causes the next [Projectile] [Attack] [HitDamage|Hit] against the affected target to deal increased Damage, at which point the [Debuff] is consumed.",
     "term": "Easy Target"
@@ -922,6 +974,10 @@
   "ElectrocuteThreshold": {
     "definition": "Electrocute Threshold determines how much [Electrocute] buildup is needed to [Electrocute] a target.",
     "term": "Electrocute Threshold"
+  },
+  "ElectrocutingRune": {
+    "definition": "<<ExpedRuneElectrocuting>><rgb(219,217,206)>{Electrocuting Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Extra Lightning Damage}\r\n<rgb(135,134,253)>{Lightning Damage Electrocutes}\r\n<rgb(135,134,253)>{Shocked Ground Trails}",
+    "term": "Electrocuting Rune"
   },
   "ElementalAilments": {
     "definition": "Elemental [Ailments] are [Ignite], [Chill], [Freeze], [Shock], and [Electrocute|Electrocute].",
@@ -1067,6 +1123,10 @@
     "definition": "The Expected Knockback distance is the distance a target would be [Knockback|Knocked Back] were there nothing impeding that [Knockback], such as terrain, other entities, or other mitigating circumstances.",
     "term": "Expected Knockback"
   },
+  "Expedition2PowerRune": {
+    "definition": "The Power Rune upgrades all other Runic [MonsterModifiers|Modifiers] on the [ContainsExpedition2|Remnant] to a more powerful and rewarding variant. ",
+    "term": "Power Rune"
+  },
   "ExpeditionAugment": {
     "definition": "",
     "term": ""
@@ -1110,6 +1170,10 @@
   "ExpeditionLogbookVoranaCurrency": {
     "definition": "",
     "term": ""
+  },
+  "ExpeditionSentinel": {
+    "definition": "Verisium Sentries are ancient remnants of Kalguuran technology found within [ContainsExpedition|Expeditions].\r\n\r\nWhen unearthed they follow the player, adding Runic [MonsterModifiers|Modifiers] to Monsters throughout the area.",
+    "term": "Verisium Sentry"
   },
   "ExplosiveFervour": {
     "definition": "Explosive Fervour is a [Buff] that grants 15% increased Attack Speed per different [Grenade] Skill you've used [Recently], causes [Grenade] Skills to ignore their cooldown and fire an additional projectile, and makes [Grenade|Grenades] explode on any impact.\r\n\r\nYou cannot gain [ExplosiveRhythm|Explosive Rhythm] while you have Explosive Fervour. ",
@@ -1158,6 +1222,10 @@
   "Fire": {
     "definition": "Fire damage is one of the five [DamageTypes|Damage Types]. It is reduced by [Resistances|Fire Resistance]. Fire [HitDamage|Hits] inflict [Flammability] based on how much Fire damage is dealt, which provides a chance to [Ignite].",
     "term": "Fire Damage"
+  },
+  "FireRune": {
+    "definition": "<<ExpedRuneFire>><rgb(219,217,206)>{Fire Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Extra Fire Damage}",
+    "term": "Fire Rune"
   },
   "Flail": {
     "definition": "Flails are [One-Handed] [Melee] weapons that require [Strength] and [Intelligence] to equip. Flails cannot be [DualWield|Dual Wielded]. \r\n\r\nFlail [Attack|Attacks] tend to reward careful placement and long wind-up times with devastating effects.",
@@ -1286,6 +1354,10 @@
   "GainsStages": {
     "definition": "Skills can gain Stages passively or while attacking/casting them, depending on the Skill in question.\r\n\r\nStages gained for a given Skill apply to that instance of the Skill and will not carry over from one area to another.",
     "term": "Stage-Gaining Skills"
+  },
+  "GaspRune": {
+    "definition": "<<ExpedRuneGasp>><rgb(219,217,206)>{Volcanic Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Extra Fire Damage}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{Burning Ground Trails}",
+    "term": "Gasp Rune"
   },
   "GemcuttersPrism": {
     "definition": "",
@@ -1475,8 +1547,12 @@
     "definition": "",
     "term": ""
   },
+  "GrandExpedition": {
+    "definition": "Grand Expeditions are a larger version of [ContainsExpedition|Expeditions] with many more explosives. These contain special [GrandExpeditionRemnant|Remnants] and treasures to unearth.\r\n\r\nThese are only found in Ocean Biomes revealed with [ExpeditionLogbookCurrency|Logbooks].\r\n\r\nThese areas have additional modifiers to improve their rewards.",
+    "term": "Grand Expedition"
+  },
   "GrandExpeditionRemnant": {
-    "definition": "A type of Remnant found in Grand Expeditions that adds modifiers to unearthed monsters and chests.\r\n\r\nModifiers from these Remnants are applied to Monsters and Chests that are excavated from the explosive that destroys the Remnant and all subsequent Explosives",
+    "definition": "A type of Remnant found in [GrandExpedition|Grand Expeditions] that adds modifiers to unearthed monsters and chests.\r\n\r\nModifiers from these Remnants are applied to Monsters and Chests that are excavated from the explosive that destroys the Remnant and all subsequent Explosives",
     "term": "Grand Expedition Remnant"
   },
   "GraspingRing": {
@@ -2079,6 +2155,10 @@
     "definition": "Lost Life will start Recharging at a rate of 12.5% per second after a base delay of 4 seconds. Further loss of Life resets this delay, interrupting Recharge.\r\nModifiers to Energy Shield [ESRechargeRate|Recharge Rate] or to [FasterESRechargeStart|how fast it starts] will also apply to Life Recharge.",
     "term": "Life Recharge"
   },
+  "LifeRune": {
+    "definition": "<<ExpedRuneLife>><rgb(219,217,206)>{Life Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Shared Life}",
+    "term": "Life Rune"
+  },
   "LightRadius": {
     "definition": "Your Light Radius determines the distance from your character which will be illuminated in dark areas, and the radius within which terrain and points of interest are revealed on the map.",
     "term": "Light Radius"
@@ -2098,6 +2178,10 @@
   "LightningArchon": {
     "definition": "Lightning Archon is a type of [Archon] [Buff]. It grants:\r\n\u2022 25% more [Lightning] Damage with [Spell|Spells]\r\n\u2022 [StatConversion|Convert] 100% of [ElementalDamage|Elemental] Damage with [Spell|Spells] to [Lightning] Damage\r\n\u2022 Cannot deal [Lightning|Non-Lightning] Damage with [Spell|Spells]\r\n\u2022 [HitDamage|Hits] with [Spell|Spells] have 100% more [Shock] chance\r\n\r\nUsing a non-instant [Attack] causes Lightning Archon to be removed immediately.",
     "term": "Lightning Archon"
+  },
+  "LightningRune": {
+    "definition": "<<ExpedRuneLightning>><rgb(219,217,206)>{Lightning Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Extra Lightning Damage}",
+    "term": "Lightning Rune"
   },
   "Limit": {
     "definition": "Certain skills can only have a limited number of effects active at once.\r\nIf a new effect is created while at the maximum number of effects, the oldest effect will dissapear.\r\nCertain support gems and items can modify skill effect limits.",
@@ -2334,6 +2418,10 @@
   "MoltenFissure": {
     "definition": "Molten Fissures are long-lasting fissures created by some [Slam|Slams] that can themselves be [Slam|Slammed] to create [Aftershock|Aftershocks]. \r\n\r\nHitting a Molten Fissure with a [Slam] other than another Molten Fissure causes an [Aftershock] to propagate along its length, dealing the Fissure's damage again to enemies standing on it. This [Aftershock] will also spread to other intersecting Molten Fissures. Each Molten Fissure can [Aftershock] no more than once every 0.2 seconds.",
     "term": "Molten Fissures"
+  },
+  "MomentumRune": {
+    "definition": "<<ExpedRuneMomentum>><rgb(219,217,206)>{Momentum Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Increased Movement Speed}\r\n<rgb(135,134,253)>{Movement Speed Cannot be Slowed below base}",
+    "term": "Momentum Rune"
   },
   "MonsterAdditionalProjectiles1": {
     "definition": "Monster fires 4 additional [Projectile|Projectiles].",
@@ -2595,6 +2683,10 @@
     "definition": "Monster periodically creates Powerful Volatile Crag that moves towards enemies; exploding when they get close enough; dealing [Fire] Damage.",
     "term": "Empowering Volatile Crag"
   },
+  "MoonRune": {
+    "definition": "<<ExpedRuneMoon>><rgb(219,217,206)>{Moon Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Remnant gains:}}}\r\n<rgb(135,134,253)>{Conjures moon beams}",
+    "term": "Moon Rune"
+  },
   "MountainsTeachings": {
     "definition": "While you have any amount of Mountain's Teachings:\r\n\u2022 [Attack|Attacks] you use yourself and [Attack|Attacks] granted by this Ascendancy Class deal 15% more damage\r\n\u2022 Enemy [HitDamage|Hits] you take that would deal damage less than or equal to 30% of your maximum Life (after mitigation such as [Armour] and [Resistances], but before other modifiers to damage taken) deal 40% less damage\r\n\u2022 You have 50% more [StunThreshold|Stun Threshold]\r\n\r\nAll Mountain's Teachings are lost if you go 20 seconds without gaining any.",
     "term": "Mountain's Teachings"
@@ -2630,6 +2722,10 @@
   "Oasis": {
     "definition": "Cannot use [Charm|Charms]\n30% more Recovery from [Flask|Flasks]",
     "term": "Oasis"
+  },
+  "OathRune": {
+    "definition": "<<ExpedRuneOath>><rgb(219,217,206)>{Oath Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{A Monster summons Allies}",
+    "term": "Oath Rune"
   },
   "ObeliskCleansing": {
     "definition": "An Obelisk of Cleansing is an object that activates once a player gets close enough; granting a 10 second [Buff] that grants 100% [ItemRarity|Item Rarity], 50% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] and makes players [Gain] 30% of Damage as extra [Lightning] Damage.",
@@ -2730,6 +2826,10 @@
   "Onslaught": {
     "definition": "Onslaught grants 20% increased [SkillSpeed|Skill Speed] and 10% increased movement speed.\r\nUnless specified, Onslaught lasts 4 seconds.",
     "term": "Onslaught"
+  },
+  "OpulentRune": {
+    "definition": "<<ExpedRuneOpulent>><rgb(219,217,206)>{Opulent Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Increased Monster Rarity}",
+    "term": "Opulent Rune"
   },
   "OraclePaths": {
     "definition": "You see what is and what might have been. Reveal a suite of Oracle-only passive tree nodes after Ascending as an Oracle.\r\n\r\nOn taking The Unseen Path Ascendancy Notable, gain the ability to allocate these nodes.",
@@ -2983,6 +3083,10 @@
     "definition": "Monster Power is a number that approximately reflects how strong and dangerous a monster is. An average monster has a Power of 1, strong monsters can have Power of 2 to 3, and weak monsters might have as little as 0.5, or very occasionally less. This value is then multiplied according to the monster's [Rarity]:\r\n\r\nNormal: 1\r\nMagic: 2\r\nRare: 5\r\n\r\nUnique monsters always have 20 Power.",
     "term": "Monster Power"
   },
+  "PowerRune": {
+    "definition": "<<ExpedRunePower>><rgb(219,217,206)>{Power Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Runes gain:}}}\r\n<rgb(135,134,253)>{Empowered}",
+    "term": "Power Rune"
+  },
   "PowerfulMapBoss": {
     "definition": "Powerful Map Bosses are [MapBoss|Map Bosses] that are even more difficult and drop even better rewards.\r\n\r\nPowerful Map Bosses frequently drop [Waystone|Waystones] one Tier higher.",
     "term": "Powerful Map Boss"
@@ -3019,9 +3123,17 @@
     "definition": "Normal enemies are Primed for [Stun] when they have at least 40% Heavy Stun buildup. Magic enemies are instead Primed at 50% buildup, Rare at 60%, and Unique at 70%.",
     "term": "Primed for Stun"
   },
+  "PrismaticRune": {
+    "definition": "<<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}\r\n<rgb(135,134,253)>{All Damage can Shock}\r\n<rgb(135,134,253)>{All Damage can Chill}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{Increased Elemental Resistances}\r\n",
+    "term": "Prismatic Rune"
+  },
   "Projectile": {
     "definition": "A Projectile is a moving [Attack] or [Spell] that usually impacts with targets when it hits them.\r\n\r\nWhen a group of multiple Projectiles is fired from the same source at the same time, only one Projectile in the group can hit each target unless otherwise specified.",
     "term": "Projectile"
+  },
+  "ProtectiveRune": {
+    "definition": "<<ExpedRuneProtective>><rgb(219,217,206)>{Protective Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Periodically gain Verisium Proximity Shields}",
+    "term": "Protective Rune"
   },
   "PuppetMaster": {
     "definition": "Puppet Master is a stacking [Buff] which grants: \r\n10% increased Skill Speed with Command Skills\r\n10% reduced Movement Speed Penalty with Command Skills\r\nMinions deal 10% increased damage with Command Skills\r\nMinions have 2% increased Movement Speed\r\nMinions have 3% increased Skill Speed\r\n\r\nEach stack has an independent duration of 8 seconds. Maximum 5 stacks.",
@@ -3063,6 +3175,10 @@
     "definition": "When you deal damage with a [HitDamage|Hit], [Rage] Leech causes you to recover an amount of [Rage] to a percentage of the damage dealt, over a period of one second.\r\n\r\nHits that deal more than 40,000 total damage are treated as though they only dealt 40,000 damage for this calculation. If this damage is of multiple [DamageTypes|Damage Types], the ratios between them will stay the same.\r\n\r\nMonsters have Leech Resistance that increases with monster level, reducing how much you recover from Leech from [HitDamage|Hits] against them.\r\n\r\nYou can only recover from a single instance of [Rage] Leech at a time, and all [Rage] Leech is removed when [Rage] is filled.",
     "term": "Rage Leech"
   },
+  "RageRune": {
+    "definition": "<<ExpedRuneRage>><rgb(219,217,206)>{Rage Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Periodically Enrage}",
+    "term": "Rage Rune"
+  },
   "RareMonsterMapDrop": {
     "definition": "The final [Rarity|Rare Monster] slain in a Map Area has a chance to drop a [Waystone] equal to the tier of the [Waystone] used to create that Map Area. \r\n\r\nThe chance diminishes the tier of the [Waystone] used to the create the Map Area, but can be increased again by adding modifiers to [Waystone|Waystones], additional modifiers on [Waystone|Waystones] can give increased chance for [Waystone|Waystones] to drop in the Map Areas they create.",
     "term": "Map Objective Waystone Drops"
@@ -3078,6 +3194,10 @@
   "Realmgate": {
     "definition": "The Realmgate is a piece of Vaal Technology which allows the use of Atlas mechanic keys; accessing deadly areas and facing off against powerful enemies.",
     "term": "The Realmgate"
+  },
+  "RebirthRune": {
+    "definition": "<<ExpedRuneRebirth>><rgb(219,217,206)>{Rebirth Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Chance to Rebirth on death}",
+    "term": "Rebirth Rune"
   },
   "Recently": {
     "definition": "Recently refers to the past 4 seconds.",
@@ -3228,8 +3348,8 @@
     "term": "Runefather's Challenge"
   },
   "Runic": {
-    "definition": "Runic Monsters are powerful monsters encountered in [ContainsExpedition|Expeditions].\r\nRunic Monsters are more commonly found by using explosives on larger [ContainsExpedition|Expedition] markers.",
-    "term": "Runic"
+    "definition": "Runic Monsters are powerful monsters encountered in [ContainsExpedition|Expeditions].\r\n\r\nRunic Monsters are more commonly found by using explosives on larger [ContainsExpedition|Expedition] markers.",
+    "term": "Runic Monsters"
   },
   "RunicBinding": {
     "definition": "Each Runic Binding grants 10% reduced [Spell] Damage and 2% reduced Skill cost [Efficiency]. You can have up to 10 Runic Bindings. Runic Bindings last for 10 seconds.\r\n\r\nRunic Bindings cannot be gained while [Shapeshift|Shapeshifted].",
@@ -3327,6 +3447,10 @@
     "definition": "Affects the speed at which all Skills are used. Increases and reductions to Skill Speed stack additively with increases and reductions to [Attack] Speed, [Spell|Cast] Speed, [Warcry] Speed, and similar stats.",
     "term": "Skill Speed"
   },
+  "SkyRune": {
+    "definition": "<<ExpedRuneSky>><rgb(219,217,206)>{Sky Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Remnant gains:}}}\r\n<rgb(135,134,253)>{Conjures Elemental Tornados}",
+    "term": "Sky Rune"
+  },
   "Slam": {
     "definition": "Slams are [Melee] [Attack|Attacks] that cause damaging areas of effect, rather than [Strike|Striking] enemies with your weapon directly. Damage from Slams is still [Melee] damage.",
     "term": "Slams"
@@ -3370,6 +3494,10 @@
   "SoulEaterMonster": {
     "definition": "Monsters with Soul Eater gain 1% increased [SkillSpeed|Skill Speed] and 1% less damage taken for 4 seconds when a monster dies in their [Presence], stacking up to 50 times. A stack is lost every 0.5 seconds if one has not been gained within the past 4 seconds.",
     "term": "Monster Soul Eater"
+  },
+  "SoulRune": {
+    "definition": "<<ExpedRuneSoul>><rgb(219,217,206)>{Soul Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{[UnionofSoulsPack|Union of Souls]}",
+    "term": "Soul Rune"
   },
   "Spear": {
     "definition": "Spears are [One-Handed] [Melee] weapons that require [Strength] and [Dexterity] to equip. Spears cannot be dual wielded. \r\n\r\nSpear combat is often a mix of both ranged and [Melee], as many spear skills enable you to throw your spear.",
@@ -3462,6 +3590,10 @@
   "StoneCitadel": {
     "definition": "The Stone [Citadel] is an endgame area which can be accessed with a Tier 15 or above [Waystone]. The boss of this area will drop a [PinnacleKey3|Weathered Crisis Fragment].\r\n\r\nIncreases to [Waystone] Drop Chance gives a chance for additional Crisis Fragments to drop.",
     "term": "Stone Citadel"
+  },
+  "StoneRune": {
+    "definition": "<<ExpedRuneStone>><rgb(219,217,206)>{Stone Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Armoured}\r\n<rgb(135,134,253)>{Increased Stun Threshold}\r\n<rgb(135,134,253)>{Earthly Prison}",
+    "term": "Stone Rune"
   },
   "StoneSummoningCircle": {
     "definition": "Activating a Summoning Circle will cause a Boss to be spawned. \r\n\r\nIf an area contains more than one Summoning Circle it will contain runes to reactivate the Summoning Circle instead of additional Summoning Circles.",
@@ -3583,6 +3715,10 @@
     "definition": "Enemies you Taunt can only target you, and deal 10% less damage with [HitDamage|hits] to anyone else. If not otherwise specified, Taunt lasts for 3 seconds.",
     "term": "Taunt"
   },
+  "TempestRune": {
+    "definition": "<<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Cannot be Shocked or Chilled}\r\n<rgb(135,134,253)>{All Damage can Shock and Chill}",
+    "term": "Tempest Rune"
+  },
   "TemporalChains": {
     "definition": "Temporal Chains is a [Curse] that [Slow|slows] those affected and makes other effects on them expire more slowly. If not otherwise specified, Temporal Chains [Slow|slows] by 26%.",
     "term": "Temporal Chains"
@@ -3615,9 +3751,17 @@
     "definition": "Thorny Ground deals Spell damage to enemies upon being created, then continues to damage enemies that move over the Ground, no more than twice per second.",
     "term": "Thorny Ground"
   },
+  "TidalRune": {
+    "definition": "<<ExpedRuneTidal>><rgb(219,217,206)>{Tidal Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Remnant gains:}}}\r\n<rgb(135,134,253)>{Conjures Tidal Waves}",
+    "term": "Tidal Rune"
+  },
   "TimeLostJewel": {
     "definition": "[DNT] Fill me in",
     "term": "[DNT] Time Lost Jewel"
+  },
+  "TimeRune": {
+    "definition": "<<ExpedRuneTime>><rgb(219,217,206)>{Time Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Slain Monsters may respawn as a higher Rarity}",
+    "term": "Time Rune"
   },
   "Total": {
     "definition": "The Total value of a stat is the value after all calculations have been performed. Modifiers to the Total value apply after all other modifiers.",
@@ -3634,6 +3778,10 @@
   "Toughness": {
     "definition": "The higher toughness a monster has, the less damage it takes. A monster with 100% increased toughness takes 50% less damage, a monster with 200% increased toughness takes 67% less damage, and so on. \r\n\r\nNegative toughness instead causes the monster to take more damage. A monster with 100% reduced toughness takes 100% more damage, a monster with 200% reduced toughness takes 200% more damage, and so on. \r\n\r\nEffectively, each 100% of toughness halves the damage a monster takes, and each -100% toughness doubles the damage a monster takes.",
     "term": "Toughness"
+  },
+  "ToxicRune": {
+    "definition": "<<ExpedRuneToxic>><rgb(219,217,206)>{Toxic Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Chance to Poison on Hit}\r\n<rgb(135,134,253)>{Chance for Toxic Volatiles on death}\r\n<rgb(135,134,253)>{All Damage from Hits can Poison}",
+    "term": "Toxic Rune"
   },
   "Trap": {
     "definition": "Traps are [Two-Handed] ranged weapons that require [Dexterity] and [Intelligence] to equip. Traps cannot be used to [Attack] directly. \r\n\r\nThrowing a Trap places it on the ground, where it can either be detonated manually or triggered by [CloseRange|Close by] enemies depending on the Trap type.",
@@ -3839,9 +3987,17 @@
     "definition": "",
     "term": ""
   },
+  "Verisium": {
+    "definition": "",
+    "term": ""
+  },
   "VerisiumInfusion": {
     "definition": "A Verisium Infusion can be used instead of any of the [ElementalInfusion|Elemental Infusions]. Skills will prioritise using non-Verisium Infusions. Verisium Infusions last for 20 seconds or until Consumed by another Skill.\r\n\r\nYour maximum number of Verisium Infusions is equal to the maximum number of any single type of [ElementalInfusion|Elemental Infusion] you can have (3 by default).",
     "term": "Verisium Infusion"
+  },
+  "VisionRune": {
+    "definition": "<<ExpedRuneVision>><rgb(219,217,206)>{Vision Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Reflect Curses}\r\n<rgb(135,134,253)>{Chance to Reflect Shock}\r\n<rgb(135,134,253)>{Chance to Reflect Chill}",
+    "term": "Vision Rune"
   },
   "VitalicRing": {
     "definition": "",
@@ -3874,6 +4030,10 @@
   "Ward": {
     "definition": "Runic Ward is a last line of protection, absorbing fatal damage instead of your Life. If you take damage that would cause your Life to reach 0 while you have Runic Ward, you will drop to 1 Life and your Runic Ward will take the remaining damage. You will still die if you do not have enough Runic Ward to absorb the remaining damage. Runic Ward does not protect against Life loss that is not caused by taking damage.\r\n\r\nRunic Ward constantly regenerates at a default rate of 5% per second.\r\n\r\nMonsters can also have Runic Ward. While a monster has Runic Ward, it cannot be [CullingStrike|Culled].",
     "term": "Runic Ward"
+  },
+  "WardRune": {
+    "definition": "<<ExpedRuneWard>><rgb(219,217,206)>{Ward Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Protected by Runic Ward}",
+    "term": "Ward Rune"
   },
   "Waypoint": {
     "definition": "Waypoints are a form of saving your progress through Wraeclast. Most areas (though not all) will have one, and they can be used to quickly travel from area to area. Reaching a Waypoint will refill your Life, Mana, [Flask|Flasks] and [Charm|Charms].",
@@ -3914,6 +4074,10 @@
   "Wind": {
     "definition": "Wind Skills gain additional interactions with other specified Skills, typically [Fire] Skills.",
     "term": "Wind Skills"
+  },
+  "WisdomRune": {
+    "definition": "<<ExpedRuneWisdom>><rgb(219,217,206)>{Wisdom Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Increased Experience}",
+    "term": "Wisdom Rune"
   },
   "Withered": {
     "definition": "Withered applies 5% increased [Chaos] damage Taken, and can be inflicted up to 10 times.",

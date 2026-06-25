@@ -1,4 +1,53 @@
 {
+  "Metadata/Items/Gem/SkillGemAbyssalLivingBomb": {
+    "base_item": {
+      "display_name": "Untether",
+      "id": "Metadata/Items/Gem/SkillGemAbyssalLivingBomb",
+      "release_state": "released"
+    },
+    "color": "b",
+    "crafting_level": 0,
+    "crafting_types": null,
+    "gem_type": "active",
+    "grants_skills": [
+      "AbyssalLivingBomb"
+    ],
+    "icon_dds_file": "Art/2DArt/SkillIcons/4k/AbyssalLivingBomb.dds",
+    "recommended_supports": [
+      "Metadata/Items/Gems/SupportGemConcentratedEffect",
+      "Metadata/Items/Gems/SupportGemPersistence",
+      "Metadata/Items/Gems/SupportGemPersistenceTwo",
+      "Metadata/Items/Gem/SupportGemConsideredCasting",
+      "Metadata/Items/Gems/SupportGemLacerate",
+      "Metadata/Items/Gems/SupportGemPinpointCritical",
+      "Metadata/Items/Gems/SupportGemBrutalityTwo",
+      "Metadata/Items/Gems/SupportGemLacerateTwo",
+      "Metadata/Items/Gem/SupportGemDeliberation",
+      "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+      "Metadata/Items/Gems/SupportGemBrutalityThree",
+      "Metadata/Items/Gems/SupportGemExecuteTwo",
+      "Metadata/Items/Gems/SupportGemLacerateThree",
+      "Metadata/Items/Gem/SupportGemHeft"
+    ],
+    "requirement_weights": {
+      "dexterity": 0,
+      "intelligence": 100,
+      "strength": 0
+    },
+    "skill_name": null,
+    "support_name": null,
+    "support_text": null,
+    "tags": [
+      "intelligence",
+      "grants_active_skill",
+      "spell",
+      "area",
+      "physical",
+      "duration"
+    ],
+    "tutorial_video": null,
+    "ui_image": null
+  },
   "Metadata/Items/Gem/SkillGemAlchemistsBoon": {
     "base_item": {
       "display_name": "Alchemist's Boon",
@@ -23105,6 +23154,57 @@
     "tutorial_video": null,
     "ui_image": null
   },
+  "Metadata/Items/Gems/SkillGemAbyssalPact": {
+    "base_item": {
+      "display_name": "Abyssal Pact",
+      "id": "Metadata/Items/Gems/SkillGemAbyssalPact",
+      "release_state": "released"
+    },
+    "color": "b",
+    "crafting_level": 0,
+    "crafting_types": null,
+    "gem_type": "active",
+    "grants_skills": [
+      "AbyssalPactPlayer"
+    ],
+    "icon_dds_file": "Art/2DArt/SkillIcons/4k/AbyssDeathPactSkill.dds",
+    "recommended_supports": [
+      "Metadata/Items/Gems/SupportGemConcentratedEffect",
+      "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+      "Metadata/Items/Gems/SupportGemControlledDestruction",
+      "Metadata/Items/Gem/SupportGemConsideredCasting",
+      "Metadata/Items/Gems/SupportGemExploitWeakness",
+      "Metadata/Items/Gems/SupportGemUnleash",
+      "Metadata/Items/Gems/SupportGemBrutalityTwo",
+      "Metadata/Items/Gem/SupportGemDeliberation",
+      "Metadata/Items/Gem/SupportGemZenithTwo",
+      "Metadata/Items/Gems/SupportGemConcussiveSpells",
+      "Metadata/Items/Gems/SupportGemExecuteTwo",
+      "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+      "Metadata/Items/Gems/SupportGemLacerateThree",
+      "Metadata/Items/Gems/SupportGemPhysicalMastery",
+      "Metadata/Items/Gems/SupportGemBrutalityThree"
+    ],
+    "requirement_weights": {
+      "dexterity": 0,
+      "intelligence": 100,
+      "strength": 0
+    },
+    "skill_name": null,
+    "support_name": null,
+    "support_text": null,
+    "tags": [
+      "intelligence",
+      "grants_active_skill",
+      "spell",
+      "minion",
+      "area",
+      "physical",
+      "repeatable"
+    ],
+    "tutorial_video": null,
+    "ui_image": null
+  },
   "Metadata/Items/Gems/SkillGemAncestralWarriorTotem": {
     "base_item": {
       "display_name": "Ancestral Warrior Totem",
@@ -45444,7 +45544,7 @@
       "id": "Metadata/Items/Gems/UniqueSkillGemHeraldOfAsh",
       "release_state": "released"
     },
-    "color": "r",
+    "color": "w",
     "crafting_level": 0,
     "crafting_types": null,
     "gem_type": "active",
@@ -45466,13 +45566,12 @@
     "requirement_weights": {
       "dexterity": 0,
       "intelligence": 0,
-      "strength": 100
+      "strength": 0
     },
     "skill_name": null,
     "support_name": null,
     "support_text": null,
     "tags": [
-      "strength",
       "grants_active_skill",
       "buff",
       "persistent",
@@ -45511,8 +45610,8 @@
       "Metadata/Items/Gems/SupportGemBlindTwo"
     ],
     "requirement_weights": {
-      "dexterity": 50,
-      "intelligence": 50,
+      "dexterity": 0,
+      "intelligence": 0,
       "strength": 0
     },
     "skill_name": null,
@@ -45520,8 +45619,6 @@
     "support_text": null,
     "tags": [
       "buff",
-      "dexterity",
-      "intelligence",
       "grants_active_skill",
       "attack",
       "persistent",
@@ -45539,7 +45636,7 @@
       "id": "Metadata/Items/Gems/UniqueSkillGemHeraldOfThunder",
       "release_state": "released"
     },
-    "color": "g",
+    "color": "w",
     "crafting_level": 0,
     "crafting_types": null,
     "gem_type": "active",
@@ -45560,7 +45657,7 @@
       "Metadata/Items/Gems/SupportGemBlindTwo"
     ],
     "requirement_weights": {
-      "dexterity": 100,
+      "dexterity": 0,
       "intelligence": 0,
       "strength": 0
     },
@@ -45569,7 +45666,6 @@
     "support_text": null,
     "tags": [
       "buff",
-      "dexterity",
       "grants_active_skill",
       "attack",
       "persistent",
