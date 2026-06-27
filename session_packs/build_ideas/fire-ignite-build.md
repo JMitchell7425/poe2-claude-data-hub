@@ -1,6 +1,6 @@
 # Build Idea Pack — Fire Ignite Build
 
-- Generated UTC: `2026-06-26T12:26:59+00:00`
+- Generated UTC: `2026-06-27T11:46:00+00:00`
 - Idea slug: `fire-ignite-build`
 - Purpose: Engineer a fire/ignite build with strong map clear and boss damage-over-time scaling.
 - Keywords: `fire, ignite, burn, burning, flammability, exposure, penetration, ailment, elemental, damage over time, dot, area, aoe, spell, attack, projectile, spirit, support, resistance, infernalist, sorceress`
@@ -3315,7 +3315,19 @@ _No keyword matches in this index._
 {"k":"base_reduce_enemy_fire_resistance_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FirePenetration', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FirePenetration","type":"BASE"}]}
 ```
 
-### 31. BarrelCastGroundEffectBurningGroundSmall
+### 31. [{'flags': 0, 'keywordFlags': 0, 'name': 'SupportedGemProperty', 'type': 'LIST', 'value': {'key': 'level', 'keyword': 'grants_active_skill'}, '1': {'gemTagList': ['Lightning', 'Cold', 'Fire'], 'type': 'GemTag'}}]
+
+- Match score: `80`
+- `k`: supported_elemental_skill_gem_level_+
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SupportedGemProperty', 'type': 'LIST', 'value': {'key': 'level', 'keyword': 'grants_active_skill'}, '1': {'gemTagList': ['Lightning', 'Cold', 'Fire'], 'type': 'GemTag'}}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"supported_elemental_skill_gem_level_+","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SupportedGemProperty', 'type': 'LIST', 'value': {'key': 'level', 'keyword': 'grants_active_skill'}, '1': {'gemTagList': ['Lightning', 'Cold', 'Fire'], 'type': 'GemTag'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SupportedGemProperty","type":"LIST","value":{"key":"level","keyword":"grants_active_skill"},"1":{"gemTagList":["Lightning","Cold","Fire"],"type":"GemTag"}}]}
+```
+
+### 32. BarrelCastGroundEffectBurningGroundSmall
 
 - Match score: `80`
 - `k`: BarrelCastGroundEffectBurningGroundSmall
@@ -3328,7 +3340,7 @@ _No keyword matches in this index._
 {"k":"BarrelCastGroundEffectBurningGroundSmall","n":"BarrelCastGroundEffectBurningGroundSmall","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 32. Cast on Elemental Ailment
+### 33. Cast on Elemental Ailment
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SkillGemCastOnElementalAilment
@@ -3341,7 +3353,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemCastOnElementalAilment","n":"Cast on Elemental Ailment","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"buff":true,"cold":true,"fire":true,"grants_active_skill":true,"intelligence":true,"lightning":true,"meta":true,"persistent":true,"trigger":true}}
 ```
 
-### 33. CGEArchnemesisBurningGround
+### 34. CGEArchnemesisBurningGround
 
 - Match score: `80`
 - `k`: CGEArchnemesisBurningGround
@@ -3354,7 +3366,7 @@ _No keyword matches in this index._
 {"k":"CGEArchnemesisBurningGround","n":"CGEArchnemesisBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 34. CGEArchnemesisBurningGroundParent
+### 35. CGEArchnemesisBurningGroundParent
 
 - Match score: `80`
 - `k`: CGEArchnemesisBurningGroundParent
@@ -3367,7 +3379,7 @@ _No keyword matches in this index._
 {"k":"CGEArchnemesisBurningGroundParent","n":"CGEArchnemesisBurningGroundParent","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 35. CGECasterEssenceBurningGround
+### 36. CGECasterEssenceBurningGround
 
 - Match score: `80`
 - `k`: CGECasterEssenceBurningGround
@@ -3380,7 +3392,7 @@ _No keyword matches in this index._
 {"k":"CGECasterEssenceBurningGround","n":"CGECasterEssenceBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 36. CGECentipedeReactorGuardianBurningGround
+### 37. CGECentipedeReactorGuardianBurningGround
 
 - Match score: `80`
 - `k`: CGECentipedeReactorGuardianBurningGround
@@ -3393,7 +3405,7 @@ _No keyword matches in this index._
 {"k":"CGECentipedeReactorGuardianBurningGround","n":"CGECentipedeReactorGuardianBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 37. CGEForsakenBurningGround
+### 38. CGEForsakenBurningGround
 
 - Match score: `80`
 - `k`: CGEForsakenBurningGround
@@ -3406,7 +3418,7 @@ _No keyword matches in this index._
 {"k":"CGEForsakenBurningGround","n":"CGEForsakenBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 38. CGEForsakenSonBurningGround
+### 39. CGEForsakenSonBurningGround
 
 - Match score: `80`
 - `k`: CGEForsakenSonBurningGround
@@ -3419,7 +3431,7 @@ _No keyword matches in this index._
 {"k":"CGEForsakenSonBurningGround","n":"CGEForsakenSonBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 39. CGEHeistRobotGolemBurningGround
+### 40. CGEHeistRobotGolemBurningGround
 
 - Match score: `80`
 - `k`: CGEHeistRobotGolemBurningGround
@@ -3432,7 +3444,7 @@ _No keyword matches in this index._
 {"k":"CGEHeistRobotGolemBurningGround","n":"CGEHeistRobotGolemBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 40. CGEMarakethSanctumSentinelsStatueDaemonBurningGround
+### 41. CGEMarakethSanctumSentinelsStatueDaemonBurningGround
 
 - Match score: `80`
 - `k`: CGEMarakethSanctumSentinelsStatueDaemonBurningGround
@@ -3445,7 +3457,7 @@ _No keyword matches in this index._
 {"k":"CGEMarakethSanctumSentinelsStatueDaemonBurningGround","n":"CGEMarakethSanctumSentinelsStatueDaemonBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 41. CGEMonsterModAbyssVolatileRockBurningGround
+### 42. CGEMonsterModAbyssVolatileRockBurningGround
 
 - Match score: `80`
 - `k`: CGEMonsterModAbyssVolatileRockBurningGround
@@ -3458,7 +3470,7 @@ _No keyword matches in this index._
 {"k":"CGEMonsterModAbyssVolatileRockBurningGround","n":"CGEMonsterModAbyssVolatileRockBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 42. CGEMonsterModAbyssVolatileRockBurningGroundPlayer
+### 43. CGEMonsterModAbyssVolatileRockBurningGroundPlayer
 
 - Match score: `80`
 - `k`: CGEMonsterModAbyssVolatileRockBurningGroundPlayer
@@ -3471,7 +3483,7 @@ _No keyword matches in this index._
 {"k":"CGEMonsterModAbyssVolatileRockBurningGroundPlayer","n":"CGEMonsterModAbyssVolatileRockBurningGroundPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 43. CGEWifeGhostflameBurning
+### 44. CGEWifeGhostflameBurning
 
 - Match score: `80`
 - `k`: CGEWifeGhostflameBurning
@@ -3484,7 +3496,7 @@ _No keyword matches in this index._
 {"k":"CGEWifeGhostflameBurning","n":"CGEWifeGhostflameBurning","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 44. DeliriumFireTornadoTick
+### 45. DeliriumFireTornadoTick
 
 - Match score: `80`
 - `k`: DeliriumFireTornadoTick
@@ -3497,7 +3509,7 @@ _No keyword matches in this index._
 {"k":"DeliriumFireTornadoTick","n":"DeliriumFireTornadoTick","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 45. EASFlammabilityRogueExileSorceress1
+### 46. EASFlammabilityRogueExileSorceress1
 
 - Match score: `80`
 - `k`: EASFlammabilityRogueExileSorceress1
@@ -3510,7 +3522,7 @@ _No keyword matches in this index._
 {"k":"EASFlammabilityRogueExileSorceress1","n":"EASFlammabilityRogueExileSorceress1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 46. EASTheTrialMasterElementalProjectiles
+### 47. EASTheTrialMasterElementalProjectiles
 
 - Match score: `80`
 - `k`: EASTheTrialMasterElementalProjectiles
@@ -3523,7 +3535,7 @@ _No keyword matches in this index._
 {"k":"EASTheTrialMasterElementalProjectiles","n":"EASTheTrialMasterElementalProjectiles","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 47. EDSSpiritTurtleFireSprayLeft
+### 48. EDSSpiritTurtleFireSprayLeft
 
 - Match score: `80`
 - `k`: EDSSpiritTurtleFireSprayLeft
@@ -3536,7 +3548,7 @@ _No keyword matches in this index._
 {"k":"EDSSpiritTurtleFireSprayLeft","n":"EDSSpiritTurtleFireSprayLeft","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 48. EDSSpiritTurtleFireSprayRight
+### 49. EDSSpiritTurtleFireSprayRight
 
 - Match score: `80`
 - `k`: EDSSpiritTurtleFireSprayRight
@@ -3549,7 +3561,7 @@ _No keyword matches in this index._
 {"k":"EDSSpiritTurtleFireSprayRight","n":"EDSSpiritTurtleFireSprayRight","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 49. EGFireBeastProximityBurnCorpse
+### 50. EGFireBeastProximityBurnCorpse
 
 - Match score: `80`
 - `k`: EGFireBeastProximityBurnCorpse
@@ -3562,7 +3574,7 @@ _No keyword matches in this index._
 {"k":"EGFireBeastProximityBurnCorpse","n":"EGFireBeastProximityBurnCorpse","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 50. EGForsakenBurningGround
+### 51. EGForsakenBurningGround
 
 - Match score: `80`
 - `k`: EGForsakenBurningGround
@@ -3575,7 +3587,7 @@ _No keyword matches in this index._
 {"k":"EGForsakenBurningGround","n":"EGForsakenBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 51. EmptyActionSpellDeliriumSkillDaemonFire
+### 52. EmptyActionSpellDeliriumSkillDaemonFire
 
 - Match score: `80`
 - `k`: EmptyActionSpellDeliriumSkillDaemonFire
@@ -3588,7 +3600,7 @@ _No keyword matches in this index._
 {"k":"EmptyActionSpellDeliriumSkillDaemonFire","n":"EmptyActionSpellDeliriumSkillDaemonFire","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 52. Fire Exposure
+### 53. Fire Exposure
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SkillGemFireExposureSupport
@@ -3601,7 +3613,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemFireExposureSupport","n":"Fire Exposure","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"duration":true,"fire":true,"support":true}}
 ```
 
-### 53. Fire Penetration I
+### 54. Fire Penetration I
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SkillGemFirePenetrationSupport
@@ -3614,7 +3626,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemFirePenetrationSupport","n":"Fire Penetration I","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"fire":true,"support":true}}
 ```
 
-### 54. Fire Penetration II
+### 55. Fire Penetration II
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SkillGemFirePenetrationSupportTwo
@@ -3627,7 +3639,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemFirePenetrationSupportTwo","n":"Fire Penetration II","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"fire":true,"support":true}}
 ```
 
-### 55. FireboltRogueExileSorceress2
+### 56. FireboltRogueExileSorceress2
 
 - Match score: `80`
 - `k`: FireboltRogueExileSorceress2
@@ -3640,7 +3652,7 @@ _No keyword matches in this index._
 {"k":"FireboltRogueExileSorceress2","n":"FireboltRogueExileSorceress2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 56. FirestormRogueExileSorceress1
+### 57. FirestormRogueExileSorceress1
 
 - Match score: `80`
 - `k`: FirestormRogueExileSorceress1
@@ -3653,7 +3665,7 @@ _No keyword matches in this index._
 {"k":"FirestormRogueExileSorceress1","n":"FirestormRogueExileSorceress1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 57. FlammabilityRogueExileSorceress1
+### 58. FlammabilityRogueExileSorceress1
 
 - Match score: `80`
 - `k`: FlammabilityRogueExileSorceress1
@@ -3666,7 +3678,7 @@ _No keyword matches in this index._
 {"k":"FlammabilityRogueExileSorceress1","n":"FlammabilityRogueExileSorceress1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 58. GCEGiantSnakeBossBurningGround
+### 59. GCEGiantSnakeBossBurningGround
 
 - Match score: `80`
 - `k`: GCEGiantSnakeBossBurningGround
@@ -3679,7 +3691,7 @@ _No keyword matches in this index._
 {"k":"GCEGiantSnakeBossBurningGround","n":"GCEGiantSnakeBossBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 59. GCEGiantSnakeBossHeadSlamBurningGround
+### 60. GCEGiantSnakeBossHeadSlamBurningGround
 
 - Match score: `80`
 - `k`: GCEGiantSnakeBossHeadSlamBurningGround
@@ -3692,7 +3704,7 @@ _No keyword matches in this index._
 {"k":"GCEGiantSnakeBossHeadSlamBurningGround","n":"GCEGiantSnakeBossHeadSlamBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 60. GeometrySpellFireCombo
+### 61. GeometrySpellFireCombo
 
 - Match score: `80`
 - `k`: GeometrySpellFireCombo
@@ -3705,7 +3717,7 @@ _No keyword matches in this index._
 {"k":"GeometrySpellFireCombo","n":"GeometrySpellFireCombo","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 61. GPSKaruiSpiritMinionProjectile
+### 62. GPSKaruiSpiritMinionProjectile
 
 - Match score: `80`
 - `k`: GPSKaruiSpiritMinionProjectile
@@ -3718,7 +3730,7 @@ _No keyword matches in this index._
 {"k":"GPSKaruiSpiritMinionProjectile","n":"GPSKaruiSpiritMinionProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 62. GSBlackbarkDemolisherBurningNova
+### 63. GSBlackbarkDemolisherBurningNova
 
 - Match score: `80`
 - `k`: GSBlackbarkDemolisherBurningNova
@@ -3731,7 +3743,7 @@ _No keyword matches in this index._
 {"k":"GSBlackbarkDemolisherBurningNova","n":"GSBlackbarkDemolisherBurningNova","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 63. GSDeliriumDemonFlurryProjectileFireImpact
+### 64. GSDeliriumDemonFlurryProjectileFireImpact
 
 - Match score: `80`
 - `k`: GSDeliriumDemonFlurryProjectileFireImpact
@@ -3744,7 +3756,7 @@ _No keyword matches in this index._
 {"k":"GSDeliriumDemonFlurryProjectileFireImpact","n":"GSDeliriumDemonFlurryProjectileFireImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 64. GSMonsterModBurningGroundNova
+### 65. GSMonsterModBurningGroundNova
 
 - Match score: `80`
 - `k`: GSMonsterModBurningGroundNova
@@ -3757,7 +3769,7 @@ _No keyword matches in this index._
 {"k":"GSMonsterModBurningGroundNova","n":"GSMonsterModBurningGroundNova","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 65. GSMonsterModBurningGroundNovaOnDeath
+### 66. GSMonsterModBurningGroundNovaOnDeath
 
 - Match score: `80`
 - `k`: GSMonsterModBurningGroundNovaOnDeath
@@ -3770,7 +3782,7 @@ _No keyword matches in this index._
 {"k":"GSMonsterModBurningGroundNovaOnDeath","n":"GSMonsterModBurningGroundNovaOnDeath","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 66. GSPlayerMonsterModBurningGroundNova
+### 67. GSPlayerMonsterModBurningGroundNova
 
 - Match score: `80`
 - `k`: GSPlayerMonsterModBurningGroundNova
@@ -3783,7 +3795,7 @@ _No keyword matches in this index._
 {"k":"GSPlayerMonsterModBurningGroundNova","n":"GSPlayerMonsterModBurningGroundNova","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 67. GSRagingFireSpiritsVolatileSanctum
+### 68. GSRagingFireSpiritsVolatileSanctum
 
 - Match score: `80`
 - `k`: GSRagingFireSpiritsVolatileSanctum
@@ -3796,7 +3808,7 @@ _No keyword matches in this index._
 {"k":"GSRagingFireSpiritsVolatileSanctum","n":"GSRagingFireSpiritsVolatileSanctum","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 68. GSTrialMasterBossFirecrackerProjectileExplode
+### 69. GSTrialMasterBossFirecrackerProjectileExplode
 
 - Match score: `80`
 - `k`: GSTrialMasterBossFirecrackerProjectileExplode
@@ -3809,7 +3821,7 @@ _No keyword matches in this index._
 {"k":"GSTrialMasterBossFirecrackerProjectileExplode","n":"GSTrialMasterBossFirecrackerProjectileExplode","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 69. GTDeliriumFinalBossFireProjectileSpam
+### 70. GTDeliriumFinalBossFireProjectileSpam
 
 - Match score: `80`
 - `k`: GTDeliriumFinalBossFireProjectileSpam
@@ -3822,7 +3834,7 @@ _No keyword matches in this index._
 {"k":"GTDeliriumFinalBossFireProjectileSpam","n":"GTDeliriumFinalBossFireProjectileSpam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 70. GTRagingFireSpiritsSanctum
+### 71. GTRagingFireSpiritsSanctum
 
 - Match score: `80`
 - `k`: GTRagingFireSpiritsSanctum
@@ -3835,7 +3847,7 @@ _No keyword matches in this index._
 {"k":"GTRagingFireSpiritsSanctum","n":"GTRagingFireSpiritsSanctum","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 71. MeleeThrustAttackIncursionFire
+### 72. MeleeThrustAttackIncursionFire
 
 - Match score: `80`
 - `k`: MeleeThrustAttackIncursionFire
@@ -3848,7 +3860,7 @@ _No keyword matches in this index._
 {"k":"MeleeThrustAttackIncursionFire","n":"MeleeThrustAttackIncursionFire","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 72. MetaCastFireSpellOnHitPlayer
+### 73. MetaCastFireSpellOnHitPlayer
 
 - Match score: `80`
 - `k`: MetaCastFireSpellOnHitPlayer
@@ -3861,7 +3873,7 @@ _No keyword matches in this index._
 {"k":"MetaCastFireSpellOnHitPlayer","n":"MetaCastFireSpellOnHitPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 73. MetaCastOnElementalAilmentPlayer
+### 74. MetaCastOnElementalAilmentPlayer
 
 - Match score: `80`
 - `k`: MetaCastOnElementalAilmentPlayer
@@ -3874,7 +3886,7 @@ _No keyword matches in this index._
 {"k":"MetaCastOnElementalAilmentPlayer","n":"MetaCastOnElementalAilmentPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 74. Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnIgnite
+### 75. Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnIgnite
 
 - Match score: `80`
 - `k`: Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnIgnite
@@ -3888,7 +3900,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnIgnite","n":"Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnIgnite","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"[DNT] Meta Ranged Attack on Ignite","id":"Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnIgnite","release_state":"released"},"tags":["grants_active_skill","buff","persistent","fire","meta"]}
 ```
 
-### 75. Metadata/Items/Gem/SupportGemSpellCascade
+### 76. Metadata/Items/Gem/SupportGemSpellCascade
 
 - Match score: `80`
 - `k`: Metadata/Items/Gem/SupportGemSpellCascade
@@ -3902,7 +3914,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SupportGemSpellCascade","n":"Metadata/Items/Gem/SupportGemSpellCascade","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Spell Cascade","id":"Metadata/Items/Gem/SupportGemSpellCascade","release_state":"released"},"tags":["support","area"]}
 ```
 
-### 76. Metadata/Items/Gems/SkillGemCastOnElementalAilment
+### 77. Metadata/Items/Gems/SkillGemCastOnElementalAilment
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SkillGemCastOnElementalAilment
@@ -3916,7 +3928,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemCastOnElementalAilment","n":"Metadata/Items/Gems/SkillGemCastOnElementalAilment","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Cast on Elemental Ailment","id":"Metadata/Items/Gems/SkillGemCastOnElementalAilment","release_state":"released"},"tags":["intelligence","grants_active_skill","buff","persistent","trigger","lightning","cold","fire","meta"]}
 ```
 
-### 77. Metadata/Items/Gems/SupportGemCrescendoThree
+### 78. Metadata/Items/Gems/SupportGemCrescendoThree
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemCrescendoThree
@@ -3930,7 +3942,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemCrescendoThree","n":"Metadata/Items/Gems/SupportGemCrescendoThree","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Crescendo III","id":"Metadata/Items/Gems/SupportGemCrescendoThree","release_state":"released"},"tags":["support","attack","melee","strike"]}
 ```
 
-### 78. Metadata/Items/Gems/SupportGemCrescendoTwo
+### 79. Metadata/Items/Gems/SupportGemCrescendoTwo
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemCrescendoTwo
@@ -3944,7 +3956,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemCrescendoTwo","n":"Metadata/Items/Gems/SupportGemCrescendoTwo","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Crescendo II","id":"Metadata/Items/Gems/SupportGemCrescendoTwo","release_state":"released"},"tags":["support","attack","melee","strike"]}
 ```
 
-### 79. Metadata/Items/Gems/SupportGemDrainAilments
+### 80. Metadata/Items/Gems/SupportGemDrainAilments
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemDrainAilments
@@ -3958,7 +3970,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemDrainAilments","n":"Metadata/Items/Gems/SupportGemDrainAilments","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Drain Ailments","id":"Metadata/Items/Gems/SupportGemDrainAilments","release_state":"released"},"tags":["support","spell"]}
 ```
 
-### 80. Metadata/Items/Gems/SupportGemSpellEcho
+### 81. Metadata/Items/Gems/SupportGemSpellEcho
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemSpellEcho
@@ -3972,7 +3984,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemSpellEcho","n":"Metadata/Items/Gems/SupportGemSpellEcho","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Spell Echo","id":"Metadata/Items/Gems/SupportGemSpellEcho","release_state":"released"},"tags":["support","spell","area"]}
 ```
 
-### 81. Metadata/Items/Gems/SupportGemWildfire
+### 82. Metadata/Items/Gems/SupportGemWildfire
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemWildfire
@@ -3986,7 +3998,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemWildfire","n":"Metadata/Items/Gems/SupportGemWildfire","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Wildfire","id":"Metadata/Items/Gems/SupportGemWildfire","release_state":"released"},"tags":["support","area","fire"]}
 ```
 
-### 82. MetaRangedAttackOnIgnitePlayer
+### 83. MetaRangedAttackOnIgnitePlayer
 
 - Match score: `80`
 - `k`: MetaRangedAttackOnIgnitePlayer
@@ -3999,7 +4011,7 @@ _No keyword matches in this index._
 {"k":"MetaRangedAttackOnIgnitePlayer","n":"MetaRangedAttackOnIgnitePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 83. MonsterBurningArrow
+### 84. MonsterBurningArrow
 
 - Match score: `80`
 - `k`: MonsterBurningArrow
@@ -4012,7 +4024,7 @@ _No keyword matches in this index._
 {"k":"MonsterBurningArrow","n":"MonsterBurningArrow","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 84. MPSAncestralTotemSpiritSoulCasterProjectile
+### 85. MPSAncestralTotemSpiritSoulCasterProjectile
 
 - Match score: `80`
 - `k`: MPSAncestralTotemSpiritSoulCasterProjectile
@@ -4025,7 +4037,7 @@ _No keyword matches in this index._
 {"k":"MPSAncestralTotemSpiritSoulCasterProjectile","n":"MPSAncestralTotemSpiritSoulCasterProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 85. MPSBasicSkeletonProjectileFire
+### 86. MPSBasicSkeletonProjectileFire
 
 - Match score: `80`
 - `k`: MPSBasicSkeletonProjectileFire
@@ -4038,7 +4050,7 @@ _No keyword matches in this index._
 {"k":"MPSBasicSkeletonProjectileFire","n":"MPSBasicSkeletonProjectileFire","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 86. MPSBoneRabbleBurningArrow
+### 87. MPSBoneRabbleBurningArrow
 
 - Match score: `80`
 - `k`: MPSBoneRabbleBurningArrow
@@ -4051,7 +4063,7 @@ _No keyword matches in this index._
 {"k":"MPSBoneRabbleBurningArrow","n":"MPSBoneRabbleBurningArrow","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 87. MPSDeliriumDemonFlurryProjectileFire
+### 88. MPSDeliriumDemonFlurryProjectileFire
 
 - Match score: `80`
 - `k`: MPSDeliriumDemonFlurryProjectileFire
@@ -4064,7 +4076,7 @@ _No keyword matches in this index._
 {"k":"MPSDeliriumDemonFlurryProjectileFire","n":"MPSDeliriumDemonFlurryProjectileFire","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 88. MPSDeliriumDemonFlurryProjectileFireSmall
+### 89. MPSDeliriumDemonFlurryProjectileFireSmall
 
 - Match score: `80`
 - `k`: MPSDeliriumDemonFlurryProjectileFireSmall
@@ -4077,7 +4089,7 @@ _No keyword matches in this index._
 {"k":"MPSDeliriumDemonFlurryProjectileFireSmall","n":"MPSDeliriumDemonFlurryProjectileFireSmall","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 89. MPSDeliriumDemonProjectileSpammableFire
+### 90. MPSDeliriumDemonProjectileSpammableFire
 
 - Match score: `80`
 - `k`: MPSDeliriumDemonProjectileSpammableFire
@@ -4090,7 +4102,7 @@ _No keyword matches in this index._
 {"k":"MPSDeliriumDemonProjectileSpammableFire","n":"MPSDeliriumDemonProjectileSpammableFire","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 90. MPSFallenCrawlerFireProjectile
+### 91. MPSFallenCrawlerFireProjectile
 
 - Match score: `80`
 - `k`: MPSFallenCrawlerFireProjectile
@@ -4103,7 +4115,7 @@ _No keyword matches in this index._
 {"k":"MPSFallenCrawlerFireProjectile","n":"MPSFallenCrawlerFireProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 91. MPSKaruiSpiritProjectile
+### 92. MPSKaruiSpiritProjectile
 
 - Match score: `80`
 - `k`: MPSKaruiSpiritProjectile
@@ -4116,7 +4128,7 @@ _No keyword matches in this index._
 {"k":"MPSKaruiSpiritProjectile","n":"MPSKaruiSpiritProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 92. MPSTheTrialMasterFireProjectile
+### 93. MPSTheTrialMasterFireProjectile
 
 - Match score: `80`
 - `k`: MPSTheTrialMasterFireProjectile
@@ -4129,7 +4141,7 @@ _No keyword matches in this index._
 {"k":"MPSTheTrialMasterFireProjectile","n":"MPSTheTrialMasterFireProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 93. MPSUltimatumTurretFireProjectile
+### 94. MPSUltimatumTurretFireProjectile
 
 - Match score: `80`
 - `k`: MPSUltimatumTurretFireProjectile
@@ -4142,7 +4154,7 @@ _No keyword matches in this index._
 {"k":"MPSUltimatumTurretFireProjectile","n":"MPSUltimatumTurretFireProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 94. MPSVaalZealotFireProjectile
+### 95. MPSVaalZealotFireProjectile
 
 - Match score: `80`
 - `k`: MPSVaalZealotFireProjectile
@@ -4155,7 +4167,7 @@ _No keyword matches in this index._
 {"k":"MPSVaalZealotFireProjectile","n":"MPSVaalZealotFireProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 95. MPSVoodooKing2SpellProjectile
+### 96. MPSVoodooKing2SpellProjectile
 
 - Match score: `80`
 - `k`: MPSVoodooKing2SpellProjectile
@@ -4168,7 +4180,7 @@ _No keyword matches in this index._
 {"k":"MPSVoodooKing2SpellProjectile","n":"MPSVoodooKing2SpellProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 96. MPSVoodooKing3SpellProjectile
+### 97. MPSVoodooKing3SpellProjectile
 
 - Match score: `80`
 - `k`: MPSVoodooKing3SpellProjectile
@@ -4181,7 +4193,7 @@ _No keyword matches in this index._
 {"k":"MPSVoodooKing3SpellProjectile","n":"MPSVoodooKing3SpellProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 97. MPWHeistThugRangedBurningArrow
+### 98. MPWHeistThugRangedBurningArrow
 
 - Match score: `80`
 - `k`: MPWHeistThugRangedBurningArrow
@@ -4194,7 +4206,7 @@ _No keyword matches in this index._
 {"k":"MPWHeistThugRangedBurningArrow","n":"MPWHeistThugRangedBurningArrow","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 98. RagingSpiritsRogueExileSorceress1
+### 99. RagingSpiritsRogueExileSorceress1
 
 - Match score: `80`
 - `k`: RagingSpiritsRogueExileSorceress1
@@ -4207,7 +4219,7 @@ _No keyword matches in this index._
 {"k":"RagingSpiritsRogueExileSorceress1","n":"RagingSpiritsRogueExileSorceress1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 99. SkeletonProjectileFire
+### 100. SkeletonProjectileFire
 
 - Match score: `80`
 - `k`: SkeletonProjectileFire
@@ -4220,7 +4232,7 @@ _No keyword matches in this index._
 {"k":"SkeletonProjectileFire","n":"SkeletonProjectileFire","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 100. SSMRagingFireSpiritsSanctum
+### 101. SSMRagingFireSpiritsSanctum
 
 - Match score: `80`
 - `k`: SSMRagingFireSpiritsSanctum
@@ -4233,7 +4245,7 @@ _No keyword matches in this index._
 {"k":"SSMRagingFireSpiritsSanctum","n":"SSMRagingFireSpiritsSanctum","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 101. SupportAddedFireDamagePlayer
+### 102. SupportAddedFireDamagePlayer
 
 - Match score: `80`
 - `k`: SupportAddedFireDamagePlayer
@@ -4247,7 +4259,7 @@ _No keyword matches in this index._
 {"k":"SupportAddedFireDamagePlayer","n":"SupportAddedFireDamagePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Attack","CrossbowAmmoSkill","Damage"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 102. SupportColdExposurePlayer
+### 103. SupportColdExposurePlayer
 
 - Match score: `80`
 - `k`: SupportColdExposurePlayer
@@ -4261,7 +4273,7 @@ _No keyword matches in this index._
 {"k":"SupportColdExposurePlayer","n":"SupportColdExposurePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Duration"],"allowed_types":["Attack","Damage","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 103. SupportColdPenetrationPlayer
+### 104. SupportColdPenetrationPlayer
 
 - Match score: `80`
 - `k`: SupportColdPenetrationPlayer
@@ -4275,7 +4287,7 @@ _No keyword matches in this index._
 {"k":"SupportColdPenetrationPlayer","n":"SupportColdPenetrationPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 104. SupportDeadlyIgnitesPlayer
+### 105. SupportDeadlyIgnitesPlayer
 
 - Match score: `80`
 - `k`: SupportDeadlyIgnitesPlayer
@@ -4289,7 +4301,7 @@ _No keyword matches in this index._
 {"k":"SupportDeadlyIgnitesPlayer","n":"SupportDeadlyIgnitesPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 105. SupportDeadlyIgnitesPlayerTwo
+### 106. SupportDeadlyIgnitesPlayerTwo
 
 - Match score: `80`
 - `k`: SupportDeadlyIgnitesPlayerTwo
@@ -4303,7 +4315,7 @@ _No keyword matches in this index._
 {"k":"SupportDeadlyIgnitesPlayerTwo","n":"SupportDeadlyIgnitesPlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 106. SupportElementalArmamentPlayer
+### 107. SupportElementalArmamentPlayer
 
 - Match score: `80`
 - `k`: SupportElementalArmamentPlayer
@@ -4317,7 +4329,7 @@ _No keyword matches in this index._
 {"k":"SupportElementalArmamentPlayer","n":"SupportElementalArmamentPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 107. SupportElementalArmamentPlayerThree
+### 108. SupportElementalArmamentPlayerThree
 
 - Match score: `80`
 - `k`: SupportElementalArmamentPlayerThree
@@ -4331,7 +4343,7 @@ _No keyword matches in this index._
 {"k":"SupportElementalArmamentPlayerThree","n":"SupportElementalArmamentPlayerThree","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 108. SupportElementalArmamentPlayerTwo
+### 109. SupportElementalArmamentPlayerTwo
 
 - Match score: `80`
 - `k`: SupportElementalArmamentPlayerTwo
@@ -4345,7 +4357,7 @@ _No keyword matches in this index._
 {"k":"SupportElementalArmamentPlayerTwo","n":"SupportElementalArmamentPlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 109. SupportElementalFocusPlayer
+### 110. SupportElementalFocusPlayer
 
 - Match score: `80`
 - `k`: SupportElementalFocusPlayer
@@ -4359,7 +4371,7 @@ _No keyword matches in this index._
 {"k":"SupportElementalFocusPlayer","n":"SupportElementalFocusPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 110. SupportElementalInvocationPlayer
+### 111. SupportElementalInvocationPlayer
 
 - Match score: `80`
 - `k`: SupportElementalInvocationPlayer
@@ -4373,7 +4385,7 @@ _No keyword matches in this index._
 {"k":"SupportElementalInvocationPlayer","n":"SupportElementalInvocationPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Triggered"],"allowed_types":["Spell","Triggerable","AND"],"excluded_types":["InbuiltTrigger"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 111. SupportIgniteDurationPlayer
+### 112. SupportIgniteDurationPlayer
 
 - Match score: `80`
 - `k`: SupportIgniteDurationPlayer
@@ -4387,7 +4399,7 @@ _No keyword matches in this index._
 {"k":"SupportIgniteDurationPlayer","n":"SupportIgniteDurationPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 112. SupportIgniteDurationPlayerThree
+### 113. SupportIgniteDurationPlayerThree
 
 - Match score: `80`
 - `k`: SupportIgniteDurationPlayerThree
@@ -4401,7 +4413,7 @@ _No keyword matches in this index._
 {"k":"SupportIgniteDurationPlayerThree","n":"SupportIgniteDurationPlayerThree","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 113. SupportIgniteDurationPlayerTwo
+### 114. SupportIgniteDurationPlayerTwo
 
 - Match score: `80`
 - `k`: SupportIgniteDurationPlayerTwo
@@ -4415,7 +4427,7 @@ _No keyword matches in this index._
 {"k":"SupportIgniteDurationPlayerTwo","n":"SupportIgniteDurationPlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 114. SupportIgnitePlayer
+### 115. SupportIgnitePlayer
 
 - Match score: `80`
 - `k`: SupportIgnitePlayer
@@ -4429,7 +4441,7 @@ _No keyword matches in this index._
 {"k":"SupportIgnitePlayer","n":"SupportIgnitePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 115. SupportIgnitePlayerThree
+### 116. SupportIgnitePlayerThree
 
 - Match score: `80`
 - `k`: SupportIgnitePlayerThree
@@ -4443,7 +4455,7 @@ _No keyword matches in this index._
 {"k":"SupportIgnitePlayerThree","n":"SupportIgnitePlayerThree","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 116. SupportIgnitePlayerTwo
+### 117. SupportIgnitePlayerTwo
 
 - Match score: `80`
 - `k`: SupportIgnitePlayerTwo
@@ -4457,7 +4469,7 @@ _No keyword matches in this index._
 {"k":"SupportIgnitePlayerTwo","n":"SupportIgnitePlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 117. SupportLightningExposurePlayer
+### 118. SupportLightningExposurePlayer
 
 - Match score: `80`
 - `k`: SupportLightningExposurePlayer
@@ -4471,7 +4483,7 @@ _No keyword matches in this index._
 {"k":"SupportLightningExposurePlayer","n":"SupportLightningExposurePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Duration"],"allowed_types":["Attack","Damage","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 118. SupportLightningPenetrationPlayer
+### 119. SupportLightningPenetrationPlayer
 
 - Match score: `80`
 - `k`: SupportLightningPenetrationPlayer
@@ -4485,7 +4497,7 @@ _No keyword matches in this index._
 {"k":"SupportLightningPenetrationPlayer","n":"SupportLightningPenetrationPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 119. SupportMetaCastOnIgnitePlayer
+### 120. SupportMetaCastOnIgnitePlayer
 
 - Match score: `80`
 - `k`: SupportMetaCastOnIgnitePlayer
@@ -4497,20 +4509,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"SupportMetaCastOnIgnitePlayer","n":"SupportMetaCastOnIgnitePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Triggered"],"allowed_types":["Spell","Triggerable","AND"],"excluded_types":["InbuiltTrigger"],"letter":"","supports_gems_only":false},"is_support":true}
-```
-
-### 120. SupportStormfirePlayer
-
-- Match score: `80`
-- `k`: SupportStormfirePlayer
-- `n`: SupportStormfirePlayer
-- `cat`: repoe_skills
-- `src`: repoe_poe2/skills.json
-- `support`: {"added_minion_types":null,"added_types":null,"allowed_types":["Attack","Damage","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false}
-- `is_support`: True
-
-```json
-{"k":"SupportStormfirePlayer","n":"SupportStormfirePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Attack","Damage","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
 ## Item bases/classes

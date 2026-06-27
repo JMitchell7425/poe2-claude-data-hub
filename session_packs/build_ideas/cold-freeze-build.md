@@ -1,6 +1,6 @@
 # Build Idea Pack — Cold Freeze Build
 
-- Generated UTC: `2026-06-26T12:26:58+00:00`
+- Generated UTC: `2026-06-27T11:45:59+00:00`
 - Idea slug: `cold-freeze-build`
 - Purpose: Engineer a cold/freeze/shatter build for safe clear and controlled bossing.
 - Keywords: `cold, freeze, frozen, chill, chilled, shatter, ice, glacial, frost, exposure, penetration, ailment, elemental, critical, crit, herald, spirit, support, resistance, monk, sorceress`
@@ -3373,7 +3373,19 @@ _No keyword matches in this index._
 {"k":"active_skill_all_elemental_exposure_magnitude","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FireExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}},{"flags":0,"keywordFlags":0,"name":"ColdExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}},{"flags":0,"keywordFlags":0,"name":"LightningExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}}]}
 ```
 
-### 36. Blazing Critical
+### 36. [{'flags': 0, 'keywordFlags': 0, 'name': 'SupportedGemProperty', 'type': 'LIST', 'value': {'key': 'level', 'keyword': 'grants_active_skill'}, '1': {'gemTagList': ['Lightning', 'Cold', 'Fire'], 'type': 'GemTag'}}]
+
+- Match score: `80`
+- `k`: supported_elemental_skill_gem_level_+
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SupportedGemProperty', 'type': 'LIST', 'value': {'key': 'level', 'keyword': 'grants_active_skill'}, '1': {'gemTagList': ['Lightning', 'Cold', 'Fire'], 'type': 'GemTag'}}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"supported_elemental_skill_gem_level_+","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SupportedGemProperty', 'type': 'LIST', 'value': {'key': 'level', 'keyword': 'grants_active_skill'}, '1': {'gemTagList': ['Lightning', 'Cold', 'Fire'], 'type': 'GemTag'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SupportedGemProperty","type":"LIST","value":{"key":"level","keyword":"grants_active_skill"},"1":{"gemTagList":["Lightning","Cold","Fire"],"type":"GemTag"}}]}
+```
+
+### 37. Blazing Critical
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SkillGemBlazingCriticalSupport
@@ -3386,7 +3398,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemBlazingCriticalSupport","n":"Blazing Critical","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"attack":true,"duration":true,"fire":true,"support":true}}
 ```
 
-### 37. Cast on Elemental Ailment
+### 38. Cast on Elemental Ailment
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SkillGemCastOnElementalAilment
@@ -3399,7 +3411,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemCastOnElementalAilment","n":"Cast on Elemental Ailment","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"buff":true,"cold":true,"fire":true,"grants_active_skill":true,"intelligence":true,"lightning":true,"meta":true,"persistent":true,"trigger":true}}
 ```
 
-### 38. CGEIceWendigoColdBreath
+### 39. CGEIceWendigoColdBreath
 
 - Match score: `80`
 - `k`: CGEIceWendigoColdBreath
@@ -3412,7 +3424,7 @@ _No keyword matches in this index._
 {"k":"CGEIceWendigoColdBreath","n":"CGEIceWendigoColdBreath","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 39. ChilledGroundBurstWaterDjinn
+### 40. ChilledGroundBurstWaterDjinn
 
 - Match score: `80`
 - `k`: ChilledGroundBurstWaterDjinn
@@ -3425,7 +3437,7 @@ _No keyword matches in this index._
 {"k":"ChilledGroundBurstWaterDjinn","n":"ChilledGroundBurstWaterDjinn","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 40. ChilledGroundOasisConvertWaterDjinn
+### 41. ChilledGroundOasisConvertWaterDjinn
 
 - Match score: `80`
 - `k`: ChilledGroundOasisConvertWaterDjinn
@@ -3438,7 +3450,7 @@ _No keyword matches in this index._
 {"k":"ChilledGroundOasisConvertWaterDjinn","n":"ChilledGroundOasisConvertWaterDjinn","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 41. Cold Exposure
+### 42. Cold Exposure
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SkillGemColdExposureSupport
@@ -3451,7 +3463,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemColdExposureSupport","n":"Cold Exposure","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"cold":true,"duration":true,"support":true}}
 ```
 
-### 42. Cold Penetration
+### 43. Cold Penetration
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SkillGemColdPenetrationSupport
@@ -3464,7 +3476,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemColdPenetrationSupport","n":"Cold Penetration","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"cold":true,"support":true}}
 ```
 
-### 43. DeliriumDemonColdIceGround
+### 44. DeliriumDemonColdIceGround
 
 - Match score: `80`
 - `k`: DeliriumDemonColdIceGround
@@ -3477,7 +3489,7 @@ _No keyword matches in this index._
 {"k":"DeliriumDemonColdIceGround","n":"DeliriumDemonColdIceGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 44. DeliriumDemonColdIceGroundUnique
+### 45. DeliriumDemonColdIceGroundUnique
 
 - Match score: `80`
 - `k`: DeliriumDemonColdIceGroundUnique
@@ -3490,7 +3502,7 @@ _No keyword matches in this index._
 {"k":"DeliriumDemonColdIceGroundUnique","n":"DeliriumDemonColdIceGroundUnique","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 45. DeliriumDemonColdIceSpikes
+### 46. DeliriumDemonColdIceSpikes
 
 - Match score: `80`
 - `k`: DeliriumDemonColdIceSpikes
@@ -3503,7 +3515,7 @@ _No keyword matches in this index._
 {"k":"DeliriumDemonColdIceSpikes","n":"DeliriumDemonColdIceSpikes","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 46. DeliriumDemonColdIceSpikeShards
+### 47. DeliriumDemonColdIceSpikeShards
 
 - Match score: `80`
 - `k`: DeliriumDemonColdIceSpikeShards
@@ -3516,7 +3528,7 @@ _No keyword matches in this index._
 {"k":"DeliriumDemonColdIceSpikeShards","n":"DeliriumDemonColdIceSpikeShards","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 47. DeliriumDemonColdIceSpikeShardsUnique
+### 48. DeliriumDemonColdIceSpikeShardsUnique
 
 - Match score: `80`
 - `k`: DeliriumDemonColdIceSpikeShardsUnique
@@ -3529,7 +3541,7 @@ _No keyword matches in this index._
 {"k":"DeliriumDemonColdIceSpikeShardsUnique","n":"DeliriumDemonColdIceSpikeShardsUnique","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 48. DeliriumDemonColdIceSpikesUnique
+### 49. DeliriumDemonColdIceSpikesUnique
 
 - Match score: `80`
 - `k`: DeliriumDemonColdIceSpikesUnique
@@ -3542,7 +3554,7 @@ _No keyword matches in this index._
 {"k":"DeliriumDemonColdIceSpikesUnique","n":"DeliriumDemonColdIceSpikesUnique","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 49. EASIceWendigoColdBreath
+### 50. EASIceWendigoColdBreath
 
 - Match score: `80`
 - `k`: EASIceWendigoColdBreath
@@ -3555,7 +3567,7 @@ _No keyword matches in this index._
 {"k":"EASIceWendigoColdBreath","n":"EASIceWendigoColdBreath","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 50. EASIceWendigoColdHyperNova
+### 51. EASIceWendigoColdHyperNova
 
 - Match score: `80`
 - `k`: EASIceWendigoColdHyperNova
@@ -3568,7 +3580,7 @@ _No keyword matches in this index._
 {"k":"EASIceWendigoColdHyperNova","n":"EASIceWendigoColdHyperNova","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 51. EASTwilightOfficerFrozenLegion
+### 52. EASTwilightOfficerFrozenLegion
 
 - Match score: `80`
 - `k`: EASTwilightOfficerFrozenLegion
@@ -3581,7 +3593,7 @@ _No keyword matches in this index._
 {"k":"EASTwilightOfficerFrozenLegion","n":"EASTwilightOfficerFrozenLegion","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 52. EASTwilightOfficerWarCryCold
+### 53. EASTwilightOfficerWarCryCold
 
 - Match score: `80`
 - `k`: EASTwilightOfficerWarCryCold
@@ -3594,7 +3606,7 @@ _No keyword matches in this index._
 {"k":"EASTwilightOfficerWarCryCold","n":"EASTwilightOfficerWarCryCold","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 53. EASVoodooKingCritterSacrifice
+### 54. EASVoodooKingCritterSacrifice
 
 - Match score: `80`
 - `k`: EASVoodooKingCritterSacrifice
@@ -3607,7 +3619,7 @@ _No keyword matches in this index._
 {"k":"EASVoodooKingCritterSacrifice","n":"EASVoodooKingCritterSacrifice","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 54. FrostboltRogueExileSorceress2
+### 55. FrostboltRogueExileSorceress2
 
 - Match score: `80`
 - `k`: FrostboltRogueExileSorceress2
@@ -3620,7 +3632,7 @@ _No keyword matches in this index._
 {"k":"FrostboltRogueExileSorceress2","n":"FrostboltRogueExileSorceress2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 55. FrostBombExileMonk2
+### 56. FrostBombExileMonk2
 
 - Match score: `80`
 - `k`: FrostBombExileMonk2
@@ -3633,7 +3645,7 @@ _No keyword matches in this index._
 {"k":"FrostBombExileMonk2","n":"FrostBombExileMonk2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 56. GAScientist4IceWallShatter
+### 57. GAScientist4IceWallShatter
 
 - Match score: `80`
 - `k`: GAScientist4IceWallShatter
@@ -3646,7 +3658,7 @@ _No keyword matches in this index._
 {"k":"GAScientist4IceWallShatter","n":"GAScientist4IceWallShatter","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 57. GATwilightOfficerFrozenLegionTriggered
+### 58. GATwilightOfficerFrozenLegionTriggered
 
 - Match score: `80`
 - `k`: GATwilightOfficerFrozenLegionTriggered
@@ -3659,7 +3671,7 @@ _No keyword matches in this index._
 {"k":"GATwilightOfficerFrozenLegionTriggered","n":"GATwilightOfficerFrozenLegionTriggered","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 58. GlacialCascadeExileMonk1
+### 59. GlacialCascadeExileMonk1
 
 - Match score: `80`
 - `k`: GlacialCascadeExileMonk1
@@ -3672,7 +3684,7 @@ _No keyword matches in this index._
 {"k":"GlacialCascadeExileMonk1","n":"GlacialCascadeExileMonk1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 59. GSFrozenOneIceSpikeExplode
+### 60. GSFrozenOneIceSpikeExplode
 
 - Match score: `80`
 - `k`: GSFrozenOneIceSpikeExplode
@@ -3685,7 +3697,7 @@ _No keyword matches in this index._
 {"k":"GSFrozenOneIceSpikeExplode","n":"GSFrozenOneIceSpikeExplode","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 60. GSIceOwlBossSnowballColdSnap
+### 61. GSIceOwlBossSnowballColdSnap
 
 - Match score: `80`
 - `k`: GSIceOwlBossSnowballColdSnap
@@ -3698,7 +3710,7 @@ _No keyword matches in this index._
 {"k":"GSIceOwlBossSnowballColdSnap","n":"GSIceOwlBossSnowballColdSnap","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 61. GSIceWendigoColdBreath
+### 62. GSIceWendigoColdBreath
 
 - Match score: `80`
 - `k`: GSIceWendigoColdBreath
@@ -3711,7 +3723,7 @@ _No keyword matches in this index._
 {"k":"GSIceWendigoColdBreath","n":"GSIceWendigoColdBreath","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 62. GTSummonKaruiSpirits
+### 63. GTSummonKaruiSpirits
 
 - Match score: `80`
 - `k`: GTSummonKaruiSpirits
@@ -3724,7 +3736,7 @@ _No keyword matches in this index._
 {"k":"GTSummonKaruiSpirits","n":"GTSummonKaruiSpirits","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 63. HarvestRhoaCastGroundEffectChilledFootstep
+### 64. HarvestRhoaCastGroundEffectChilledFootstep
 
 - Match score: `80`
 - `k`: HarvestRhoaCastGroundEffectChilledFootstep
@@ -3737,7 +3749,7 @@ _No keyword matches in this index._
 {"k":"HarvestRhoaCastGroundEffectChilledFootstep","n":"HarvestRhoaCastGroundEffectChilledFootstep","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 64. Herald of Ice
+### 65. Herald of Ice
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SkillGemHeraldOfIce
@@ -3750,7 +3762,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemHeraldOfIce","n":"Herald of Ice","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"area":true,"attack":true,"buff":true,"cold":true,"dexterity":true,"grants_active_skill":true,"herald":true,"intelligence":true,"payoff":true,"persistent":true}}
 ```
 
-### 65. HeraldOfIcePlayer
+### 66. HeraldOfIcePlayer
 
 - Match score: `80`
 - `k`: HeraldOfIcePlayer
@@ -3763,7 +3775,7 @@ _No keyword matches in this index._
 {"k":"HeraldOfIcePlayer","n":"HeraldOfIcePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 66. IceNovaRogueExileSorceress2
+### 67. IceNovaRogueExileSorceress2
 
 - Match score: `80`
 - `k`: IceNovaRogueExileSorceress2
@@ -3776,7 +3788,7 @@ _No keyword matches in this index._
 {"k":"IceNovaRogueExileSorceress2","n":"IceNovaRogueExileSorceress2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 67. IceNovaWaterElementalHellscape
+### 68. IceNovaWaterElementalHellscape
 
 - Match score: `80`
 - `k`: IceNovaWaterElementalHellscape
@@ -3789,7 +3801,7 @@ _No keyword matches in this index._
 {"k":"IceNovaWaterElementalHellscape","n":"IceNovaWaterElementalHellscape","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 68. Inexorable Critical I
+### 69. Inexorable Critical I
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SkillGemInevitableCriticalsSupport
@@ -3802,7 +3814,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemInevitableCriticalsSupport","n":"Inexorable Critical I","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"support":true}}
 ```
 
-### 69. Inexorable Critical II
+### 70. Inexorable Critical II
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SkillGemInevitableCriticalsSupportTwo
@@ -3815,7 +3827,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemInevitableCriticalsSupportTwo","n":"Inexorable Critical II","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"support":true}}
 ```
 
-### 70. MetaCastOnElementalAilmentPlayer
+### 71. MetaCastOnElementalAilmentPlayer
 
 - Match score: `80`
 - `k`: MetaCastOnElementalAilmentPlayer
@@ -3828,7 +3840,7 @@ _No keyword matches in this index._
 {"k":"MetaCastOnElementalAilmentPlayer","n":"MetaCastOnElementalAilmentPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 71. Metadata/Items/Gem/SupportGemFreezefork
+### 72. Metadata/Items/Gem/SupportGemFreezefork
 
 - Match score: `80`
 - `k`: Metadata/Items/Gem/SupportGemFreezefork
@@ -3842,7 +3854,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SupportGemFreezefork","n":"Metadata/Items/Gem/SupportGemFreezefork","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Freezefork","id":"Metadata/Items/Gem/SupportGemFreezefork","release_state":"released"},"tags":["support","projectile","cold"]}
 ```
 
-### 72. Metadata/Items/Gem/SupportGemFrozenSpite
+### 73. Metadata/Items/Gem/SupportGemFrozenSpite
 
 - Match score: `80`
 - `k`: Metadata/Items/Gem/SupportGemFrozenSpite
@@ -3856,7 +3868,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SupportGemFrozenSpite","n":"Metadata/Items/Gem/SupportGemFrozenSpite","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Frozen Spite","id":"Metadata/Items/Gem/SupportGemFrozenSpite","release_state":"released"},"tags":["support","grants_active_skill","area","projectile","trigger","cold"]}
 ```
 
-### 73. Metadata/Items/Gem/SupportGemHoarfrost
+### 74. Metadata/Items/Gem/SupportGemHoarfrost
 
 - Match score: `80`
 - `k`: Metadata/Items/Gem/SupportGemHoarfrost
@@ -3870,7 +3882,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SupportGemHoarfrost","n":"Metadata/Items/Gem/SupportGemHoarfrost","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Hoarfrost","id":"Metadata/Items/Gem/SupportGemHoarfrost","release_state":"released"},"tags":["support","grants_active_skill","spell","area","trigger","cold","duration"]}
 ```
 
-### 74. Metadata/Items/Gems/SkillGemCastOnElementalAilment
+### 75. Metadata/Items/Gems/SkillGemCastOnElementalAilment
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SkillGemCastOnElementalAilment
@@ -3884,7 +3896,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemCastOnElementalAilment","n":"Metadata/Items/Gems/SkillGemCastOnElementalAilment","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Cast on Elemental Ailment","id":"Metadata/Items/Gems/SkillGemCastOnElementalAilment","release_state":"released"},"tags":["intelligence","grants_active_skill","buff","persistent","trigger","lightning","cold","fire","meta"]}
 ```
 
-### 75. Metadata/Items/Gems/SkillGemHeraldOfIce
+### 76. Metadata/Items/Gems/SkillGemHeraldOfIce
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SkillGemHeraldOfIce
@@ -3898,7 +3910,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemHeraldOfIce","n":"Metadata/Items/Gems/SkillGemHeraldOfIce","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Herald of Ice","id":"Metadata/Items/Gems/SkillGemHeraldOfIce","release_state":"released"},"tags":["buff","dexterity","intelligence","grants_active_skill","attack","persistent","area","cold","herald","payoff"]}
 ```
 
-### 76. Metadata/Items/Gems/SupportGemBitingFrost
+### 77. Metadata/Items/Gems/SupportGemBitingFrost
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemBitingFrost
@@ -3912,7 +3924,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemBitingFrost","n":"Metadata/Items/Gems/SupportGemBitingFrost","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Biting Frost I","id":"Metadata/Items/Gems/SupportGemBitingFrost","release_state":"released"},"tags":["support","cold","payoff"]}
 ```
 
-### 77. Metadata/Items/Gems/SupportGemBitingFrostTwo
+### 78. Metadata/Items/Gems/SupportGemBitingFrostTwo
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemBitingFrostTwo
@@ -3926,7 +3938,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemBitingFrostTwo","n":"Metadata/Items/Gems/SupportGemBitingFrostTwo","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Biting Frost II","id":"Metadata/Items/Gems/SupportGemBitingFrostTwo","release_state":"released"},"tags":["support","cold","payoff"]}
 ```
 
-### 78. Metadata/Items/Gems/SupportGemCreepingChill
+### 79. Metadata/Items/Gems/SupportGemCreepingChill
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemCreepingChill
@@ -3940,7 +3952,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemCreepingChill","n":"Metadata/Items/Gems/SupportGemCreepingChill","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Creeping Chill","id":"Metadata/Items/Gems/SupportGemCreepingChill","release_state":"released"},"tags":["support","grants_active_skill","area","trigger","cold"]}
 ```
 
-### 79. Metadata/Items/Gems/SupportGemDeepFreeze
+### 80. Metadata/Items/Gems/SupportGemDeepFreeze
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemDeepFreeze
@@ -3954,7 +3966,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemDeepFreeze","n":"Metadata/Items/Gems/SupportGemDeepFreeze","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Deep Freeze","id":"Metadata/Items/Gems/SupportGemDeepFreeze","release_state":"released"},"tags":["support","cold"]}
 ```
 
-### 80. Metadata/Items/Gems/SupportGemElementalDischarge
+### 81. Metadata/Items/Gems/SupportGemElementalDischarge
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemElementalDischarge
@@ -3968,7 +3980,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemElementalDischarge","n":"Metadata/Items/Gems/SupportGemElementalDischarge","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Elemental Discharge","id":"Metadata/Items/Gems/SupportGemElementalDischarge","release_state":"released"},"tags":["support","grants_active_skill","spell","area","trigger","lightning","cold","fire","payoff"]}
 ```
 
-### 81. Metadata/Items/Gems/SupportGemFrostfire
+### 82. Metadata/Items/Gems/SupportGemFrostfire
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemFrostfire
@@ -3982,7 +3994,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemFrostfire","n":"Metadata/Items/Gems/SupportGemFrostfire","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Frostfire","id":"Metadata/Items/Gems/SupportGemFrostfire","release_state":"released"},"tags":["support","cold","fire","payoff"]}
 ```
 
-### 82. Metadata/Items/Gems/SupportGemFrostNexus
+### 83. Metadata/Items/Gems/SupportGemFrostNexus
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemFrostNexus
@@ -3996,7 +4008,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemFrostNexus","n":"Metadata/Items/Gems/SupportGemFrostNexus","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Frost Nexus","id":"Metadata/Items/Gems/SupportGemFrostNexus","release_state":"released"},"tags":["support","area","cold"]}
 ```
 
-### 83. Metadata/Items/Gems/SupportGemFrozenVortex
+### 84. Metadata/Items/Gems/SupportGemFrozenVortex
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemFrozenVortex
@@ -4010,7 +4022,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemFrozenVortex","n":"Metadata/Items/Gems/SupportGemFrozenVortex","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Frozen Vortex","id":"Metadata/Items/Gems/SupportGemFrozenVortex","release_state":"released"},"tags":["support","grants_active_skill","area","trigger","cold","duration"]}
 ```
 
-### 84. Metadata/Items/Gems/SupportGemIceBite
+### 85. Metadata/Items/Gems/SupportGemIceBite
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemIceBite
@@ -4024,7 +4036,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemIceBite","n":"Metadata/Items/Gems/SupportGemIceBite","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Ice Bite I","id":"Metadata/Items/Gems/SupportGemIceBite","release_state":"released"},"tags":["support","warcry","cold","duration"]}
 ```
 
-### 85. Metadata/Items/Gems/SupportGemIceBiteTwo
+### 86. Metadata/Items/Gems/SupportGemIceBiteTwo
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemIceBiteTwo
@@ -4038,7 +4050,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemIceBiteTwo","n":"Metadata/Items/Gems/SupportGemIceBiteTwo","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Ice Bite II","id":"Metadata/Items/Gems/SupportGemIceBiteTwo","release_state":"released"},"tags":["support","warcry","cold","duration"]}
 ```
 
-### 86. Metadata/Items/Gems/SupportGemSpreadingFrost
+### 87. Metadata/Items/Gems/SupportGemSpreadingFrost
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemSpreadingFrost
@@ -4052,7 +4064,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemSpreadingFrost","n":"Metadata/Items/Gems/SupportGemSpreadingFrost","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Spreading Frost","id":"Metadata/Items/Gems/SupportGemSpreadingFrost","release_state":"released"},"tags":["support","cold"]}
 ```
 
-### 87. Metadata/Items/Gems/UniqueSkillGemHeraldOfIce
+### 88. Metadata/Items/Gems/UniqueSkillGemHeraldOfIce
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/UniqueSkillGemHeraldOfIce
@@ -4066,7 +4078,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/UniqueSkillGemHeraldOfIce","n":"Metadata/Items/Gems/UniqueSkillGemHeraldOfIce","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Herald of Ice","id":"Metadata/Items/Gems/UniqueSkillGemHeraldOfIce","release_state":"released"},"tags":["buff","grants_active_skill","attack","persistent","area","cold","herald","payoff"]}
 ```
 
-### 88. MPSAbyssHulkIceShatter
+### 89. MPSAbyssHulkIceShatter
 
 - Match score: `80`
 - `k`: MPSAbyssHulkIceShatter
@@ -4079,7 +4091,7 @@ _No keyword matches in this index._
 {"k":"MPSAbyssHulkIceShatter","n":"MPSAbyssHulkIceShatter","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 89. MPSIceWendigoColdHyperNova
+### 90. MPSIceWendigoColdHyperNova
 
 - Match score: `80`
 - `k`: MPSIceWendigoColdHyperNova
@@ -4092,7 +4104,7 @@ _No keyword matches in this index._
 {"k":"MPSIceWendigoColdHyperNova","n":"MPSIceWendigoColdHyperNova","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 90. Pinpoint Critical
+### 91. Pinpoint Critical
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SkillGemPinpointCritical
@@ -4105,7 +4117,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemPinpointCritical","n":"Pinpoint Critical","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"support":true}}
 ```
 
-### 91. RagingSpiritsRogueExileSorceress1
+### 92. RagingSpiritsRogueExileSorceress1
 
 - Match score: `80`
 - `k`: RagingSpiritsRogueExileSorceress1
@@ -4118,7 +4130,7 @@ _No keyword matches in this index._
 {"k":"RagingSpiritsRogueExileSorceress1","n":"RagingSpiritsRogueExileSorceress1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 92. ShatteringPalmExplosionRogueExileMonk2
+### 93. ShatteringPalmExplosionRogueExileMonk2
 
 - Match score: `80`
 - `k`: ShatteringPalmExplosionRogueExileMonk2
@@ -4131,7 +4143,7 @@ _No keyword matches in this index._
 {"k":"ShatteringPalmExplosionRogueExileMonk2","n":"ShatteringPalmExplosionRogueExileMonk2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 93. ShatteringPalmRogueExileMonk2
+### 94. ShatteringPalmRogueExileMonk2
 
 - Match score: `80`
 - `k`: ShatteringPalmRogueExileMonk2
@@ -4144,7 +4156,7 @@ _No keyword matches in this index._
 {"k":"ShatteringPalmRogueExileMonk2","n":"ShatteringPalmRogueExileMonk2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 94. Supercritical
+### 95. Supercritical
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SkillGemIncreasedCriticalDamageSupport
@@ -4157,7 +4169,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemIncreasedCriticalDamageSupport","n":"Supercritical","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"support":true}}
 ```
 
-### 95. SupportBitingFrostPlayer
+### 96. SupportBitingFrostPlayer
 
 - Match score: `80`
 - `k`: SupportBitingFrostPlayer
@@ -4171,7 +4183,7 @@ _No keyword matches in this index._
 {"k":"SupportBitingFrostPlayer","n":"SupportBitingFrostPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["SkillConsumesFreeze","SupportedByBitingFrost"],"allowed_types":["Attack","Damage","CrossbowAmmoSkill"],"excluded_types":["SkillConsumesFreeze","SupportedByBitingFrost","NOT","AND"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 96. SupportBitingFrostPlayerTwo
+### 97. SupportBitingFrostPlayerTwo
 
 - Match score: `80`
 - `k`: SupportBitingFrostPlayerTwo
@@ -4185,7 +4197,7 @@ _No keyword matches in this index._
 {"k":"SupportBitingFrostPlayerTwo","n":"SupportBitingFrostPlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["SkillConsumesFreeze","SupportedByBitingFrost"],"allowed_types":["Attack","Damage","CrossbowAmmoSkill"],"excluded_types":["SkillConsumesFreeze","SupportedByBitingFrost","NOT","AND"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 97. SupportCreepingChillPlayer
+### 98. SupportCreepingChillPlayer
 
 - Match score: `80`
 - `k`: SupportCreepingChillPlayer
@@ -4199,7 +4211,7 @@ _No keyword matches in this index._
 {"k":"SupportCreepingChillPlayer","n":"SupportCreepingChillPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["ConsumesCharges","SkillConsumesPowerChargesOnUse","SupportedByCreepingChill"],"allowed_types":["IceCrystal"],"excluded_types":["SkillConsumesPowerChargesOnUse","SupportedByCreepingChill","NOT","AND"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 98. SupportDrainedAilmentPlayer
+### 99. SupportDrainedAilmentPlayer
 
 - Match score: `80`
 - `k`: SupportDrainedAilmentPlayer
@@ -4213,7 +4225,7 @@ _No keyword matches in this index._
 {"k":"SupportDrainedAilmentPlayer","n":"SupportDrainedAilmentPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["SkillConsumesFreeze","SkillConsumesIgnite","SkillConsumesShock","SkillConsumesBleeding","SkillConsumesPoison","SupportedByDrainedAilment"],"allowed_types":["Spell","DamageOverTime","AND"],"excluded_types":["SkillConsumesFreeze","SkillConsumesIgnite","OR","SkillConsumesShock","OR","SkillConsumesBleeding","OR","SkillConsumesPoison","OR","SupportedByDrainedAilment","NOT","AND"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 99. SupportElementalDischargePlayer
+### 100. SupportElementalDischargePlayer
 
 - Match score: `80`
 - `k`: SupportElementalDischargePlayer
@@ -4227,7 +4239,7 @@ _No keyword matches in this index._
 {"k":"SupportElementalDischargePlayer","n":"SupportElementalDischargePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["SkillConsumesFreeze","SkillConsumesIgnite","SkillConsumesShock","SupportedByElementalDischarge"],"allowed_types":["Spell","Damage","AND"],"excluded_types":["SkillConsumesFreeze","SkillConsumesIgnite","OR","SkillConsumesShock","OR","SupportedByElementalDischarge","NOT","AND"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 100. SupportFrostfirePlayer
+### 101. SupportFrostfirePlayer
 
 - Match score: `80`
 - `k`: SupportFrostfirePlayer
@@ -4241,7 +4253,7 @@ _No keyword matches in this index._
 {"k":"SupportFrostfirePlayer","n":"SupportFrostfirePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["SkillConsumesFreeze","SupportedByFrostfire"],"allowed_types":["Attack","Damage","CrossbowAmmoSkill"],"excluded_types":["SkillConsumesIgnite","SkillConsumesFreeze","SupportedByFrostfire","NOT","AND"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 101. UniqueHeraldOfIcePlayer
+### 102. UniqueHeraldOfIcePlayer
 
 - Match score: `80`
 - `k`: UniqueHeraldOfIcePlayer
@@ -4254,7 +4266,7 @@ _No keyword matches in this index._
 {"k":"UniqueHeraldOfIcePlayer","n":"UniqueHeraldOfIcePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 102. Frost Nexus
+### 103. Frost Nexus
 
 - Match score: `75`
 - `k`: Metadata/Items/Gems/SkillGemChillingIceSupport
@@ -4267,7 +4279,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemChillingIceSupport","n":"Frost Nexus","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"area":true,"cold":true,"support":true}}
 ```
 
-### 103. [{'flags': 0, 'keywordFlags': 0, 'name': 'CannotFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotChill', 'type': 'FLAG', 'value': True}]
+### 104. [{'flags': 0, 'keywordFlags': 0, 'name': 'CannotFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotChill', 'type': 'FLAG', 'value': True}]
 
 - Match score: `70`
 - `k`: never_freeze_or_chill
@@ -4279,7 +4291,7 @@ _No keyword matches in this index._
 {"k":"never_freeze_or_chill","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CannotFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotChill', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CannotFreeze","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"CannotChill","type":"FLAG","value":true}]}
 ```
 
-### 104. [{'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposureChance', 'type': 'BASE'}]
+### 105. [{'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposureChance', 'type': 'BASE'}]
 
 - Match score: `70`
 - `k`: base_inflict_cold_exposure_on_hit_%_chance
@@ -4291,7 +4303,7 @@ _No keyword matches in this index._
 {"k":"base_inflict_cold_exposure_on_hit_%_chance","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposureChance', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"ColdExposureChance","type":"BASE"}]}
 ```
 
-### 105. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyChillDuration', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyFreezeDuration', 'type': 'INC'}]
+### 106. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyChillDuration', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyFreezeDuration', 'type': 'INC'}]
 
 - Match score: `70`
 - `k`: chill_and_freeze_duration_+%
@@ -4303,7 +4315,7 @@ _No keyword matches in this index._
 {"k":"chill_and_freeze_duration_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyChillDuration', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyFreezeDuration', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"EnemyChillDuration","type":"INC"},{"flags":0,"keywordFlags":0,"name":"EnemyFreezeDuration","type":"INC"}]}
 ```
 
-### 106. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyElementalAilmentDuration', 'type': 'INC'}]
+### 107. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyElementalAilmentDuration', 'type': 'INC'}]
 
 - Match score: `70`
 - `k`: base_elemental_status_ailment_duration_+%
@@ -4315,7 +4327,7 @@ _No keyword matches in this index._
 {"k":"base_elemental_status_ailment_duration_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyElementalAilmentDuration', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"EnemyElementalAilmentDuration","type":"INC"}]}
 ```
 
-### 107. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}]
+### 108. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}]
 
 - Match score: `70`
 - `k`: all_exposure_on_hit_magnitude
@@ -4327,7 +4339,7 @@ _No keyword matches in this index._
 {"k":"all_exposure_on_hit_magnitude","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FireExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}},{"flags":0,"keywordFlags":0,"name":"ColdExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}},{"flags":0,"keywordFlags":0,"name":"LightningExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}}]}
 ```
 
-### 108. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposureEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposureEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposureEffect', 'type': 'INC'}]
+### 109. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposureEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposureEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposureEffect', 'type': 'INC'}]
 
 - Match score: `70`
 - `k`: exposure_effect_+%
@@ -4339,7 +4351,7 @@ _No keyword matches in this index._
 {"k":"exposure_effect_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposureEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposureEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposureEffect', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FireExposureEffect","type":"INC"},{"flags":0,"keywordFlags":0,"name":"ColdExposureEffect","type":"INC"},{"flags":0,"keywordFlags":0,"name":"LightningExposureEffect","type":"INC"}]}
 ```
 
-### 109. [{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreColdResistance', 'type': 'FLAG', 'value': True}]
+### 110. [{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreColdResistance', 'type': 'FLAG', 'value': True}]
 
 - Match score: `70`
 - `k`: hits_ignore_enemy_cold_resistance
@@ -4351,7 +4363,7 @@ _No keyword matches in this index._
 {"k":"hits_ignore_enemy_cold_resistance","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreColdResistance', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"IgnoreColdResistance","type":"FLAG","value":true}]}
 ```
 
-### 110. [{'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposureChance', 'type': 'BASE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposureChance', 'type': 'BASE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'FireExposureChance', 'type': 'BASE'}]
+### 111. [{'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposureChance', 'type': 'BASE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposureChance', 'type': 'BASE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'FireExposureChance', 'type': 'BASE'}]
 
 - Match score: `70`
 - `k`: inflict_exposure_on_hit_%_chance
@@ -4363,7 +4375,7 @@ _No keyword matches in this index._
 {"k":"inflict_exposure_on_hit_%_chance","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposureChance', 'type': 'BASE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposureChance', 'type': 'BASE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'FireExposureChance', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"LightningExposureChance","type":"BASE"},{"flags":0,"keywordFlags":0,"name":"ColdExposureChance","type":"BASE"},{"flags":0,"keywordFlags":0,"name":"FireExposureChance","type":"BASE"}]}
 ```
 
-### 111. [{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'FireCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdCanShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'FireCanShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanShock', 'type': 'FLAG', 'value': True}]
+### 112. [{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'FireCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdCanShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'FireCanShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanShock', 'type': 'FLAG', 'value': True}]
 
 - Match score: `70`
 - `k`: all_damage_can_ignite_freeze_shock
@@ -4375,7 +4387,19 @@ _No keyword matches in this index._
 {"k":"all_damage_can_ignite_freeze_shock","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'FireCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags':...[trimmed]
 ```
 
-### 112. [{'flags': 0, 'keywordFlags': 2097152, 'name': 'DotMultiplier', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CriticalStrike'}}]
+### 113. [{'flags': 0, 'keywordFlags': 0, 'name': 'SupportedGemProperty', 'type': 'LIST', 'value': {'key': 'level', 'keyword': 'grants_active_skill'}, '1': {'gemTag': 'Cold', 'type': 'GemTag'}}]
+
+- Match score: `70`
+- `k`: supported_cold_skill_gem_level_+
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SupportedGemProperty', 'type': 'LIST', 'value': {'key': 'level', 'keyword': 'grants_active_skill'}, '1': {'gemTag': 'Cold', 'type': 'GemTag'}}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"supported_cold_skill_gem_level_+","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SupportedGemProperty', 'type': 'LIST', 'value': {'key': 'level', 'keyword': 'grants_active_skill'}, '1': {'gemTag': 'Cold', 'type': 'GemTag'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SupportedGemProperty","type":"LIST","value":{"key":"level","keyword":"grants_active_skill"},"1":{"gemTag":"Cold","type":"GemTag"}}]}
+```
+
+### 114. [{'flags': 0, 'keywordFlags': 2097152, 'name': 'DotMultiplier', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CriticalStrike'}}]
 
 - Match score: `70`
 - `k`: critical_poison_dot_multiplier_+
@@ -4387,7 +4411,7 @@ _No keyword matches in this index._
 {"k":"critical_poison_dot_multiplier_+","n":"[{'flags': 0, 'keywordFlags': 2097152, 'name': 'DotMultiplier', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CriticalStrike'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":2097152,"name":"DotMultiplier","type":"BASE","1":{"type":"Condition","var":"CriticalStrike"}}]}
 ```
 
-### 113. [{'flags': 2, 'keywordFlags': 0, 'name': 'ImpaleChance', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CriticalStrike'}}]
+### 115. [{'flags': 2, 'keywordFlags': 0, 'name': 'ImpaleChance', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CriticalStrike'}}]
 
 - Match score: `70`
 - `k`: spell_impale_on_crit_%_chance
@@ -4399,7 +4423,7 @@ _No keyword matches in this index._
 {"k":"spell_impale_on_crit_%_chance","n":"[{'flags': 2, 'keywordFlags': 0, 'name': 'ImpaleChance', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CriticalStrike'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":2,"keywordFlags":0,"name":"ImpaleChance","type":"BASE","1":{"type":"Condition","var":"CriticalStrike"}}]}
 ```
 
-### 114. [{'flags': 4, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Chilled'}}]
+### 116. [{'flags': 4, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Chilled'}}]
 
 - Match score: `70`
 - `k`: active_skill_damage_+%_final_vs_chilled_enemies
@@ -4411,7 +4435,7 @@ _No keyword matches in this index._
 {"k":"active_skill_damage_+%_final_vs_chilled_enemies","n":"[{'flags': 4, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Chilled'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":4,"keywordFlags":0,"name":"Damage","type":"MORE","1":{"actor":"enemy","type":"ActorCondition","var":"Chilled"}}]}
 ```
 
-### 115. additional_base_critical_strike_chance
+### 117. additional_base_critical_strike_chance
 
 - Match score: `70`
 - `k`: additional_base_critical_strike_chance
@@ -4423,7 +4447,7 @@ _No keyword matches in this index._
 {"k":"additional_base_critical_strike_chance","n":"additional_base_critical_strike_chance","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 116. additional_critical_strike_chance_per_10_shield_maximum_energy_shield_permyriad
+### 118. additional_critical_strike_chance_per_10_shield_maximum_energy_shield_permyriad
 
 - Match score: `70`
 - `k`: additional_critical_strike_chance_per_10_shield_maximum_energy_shield_permyriad
@@ -4435,7 +4459,7 @@ _No keyword matches in this index._
 {"k":"additional_critical_strike_chance_per_10_shield_maximum_energy_shield_permyriad","n":"additional_critical_strike_chance_per_10_shield_maximum_energy_shield_permyriad","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 117. additional_critical_strike_chance_permyriad_while_affected_by_elusive
+### 119. additional_critical_strike_chance_permyriad_while_affected_by_elusive
 
 - Match score: `70`
 - `k`: additional_critical_strike_chance_permyriad_while_affected_by_elusive
@@ -4447,7 +4471,7 @@ _No keyword matches in this index._
 {"k":"additional_critical_strike_chance_permyriad_while_affected_by_elusive","n":"additional_critical_strike_chance_permyriad_while_affected_by_elusive","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 118. base_self_critical_strike_multiplier_-%
+### 120. base_self_critical_strike_multiplier_-%
 
 - Match score: `70`
 - `k`: base_self_critical_strike_multiplier_-%
@@ -4457,33 +4481,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"base_self_critical_strike_multiplier_-%","n":"base_self_critical_strike_multiplier_-%","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
-```
-
-### 119. Cast on Critical
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SkillGemCastOnCriticalStrike
-- `n`: Cast on Critical
-- `cat`: pob_gems
-- `src`: pob_data_poe2/Gems.json
-- `tags`: {"buff":true,"grants_active_skill":true,"intelligence":true,"meta":true,"persistent":true,"trigger":true}
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemCastOnCriticalStrike","n":"Cast on Critical","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"buff":true,"grants_active_skill":true,"intelligence":true,"meta":true,"persistent":true,"trigger":true}}
-```
-
-### 120. Metadata/Items/Gem/SupportGemChaoticFreeze
-
-- Match score: `70`
-- `k`: Metadata/Items/Gem/SupportGemChaoticFreeze
-- `n`: Metadata/Items/Gem/SupportGemChaoticFreeze
-- `cat`: repoe_skill_gems
-- `src`: repoe_poe2/skill_gems.json
-- `tags`: ["support","spell","chaos"]
-- `base`: {"display_name":"Chaotic Freeze","id":"Metadata/Items/Gem/SupportGemChaoticFreeze","release_state":"released"}
-
-```json
-{"k":"Metadata/Items/Gem/SupportGemChaoticFreeze","n":"Metadata/Items/Gem/SupportGemChaoticFreeze","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Chaotic Freeze","id":"Metadata/Items/Gem/SupportGemChaoticFreeze","release_state":"released"},"tags":["support","spell","chaos"]}
 ```
 
 ## Item bases/classes

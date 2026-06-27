@@ -1,6 +1,6 @@
 # Build Idea Pack — Hardcore-Safe Build
 
-- Generated UTC: `2026-06-26T12:27:03+00:00`
+- Generated UTC: `2026-06-27T11:46:04+00:00`
 - Idea slug: `hardcore-safe-build`
 - Purpose: Engineer a conservative survival-first build with reliable damage and minimal mechanical risk.
 - Keywords: `hardcore, safe, survival, defense, life, maximum life, energy shield, armour, evasion, block, resistance, chaos resistance, recovery, regen, leech, recoup, ailment, stun, guard, boss, map, controller, ps5`
@@ -4167,16 +4167,16 @@ _No keyword matches in this index._
 {"k":"base_all_ailment_duration_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyAilmentDuration', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"EnemyAilmentDuration","type":"INC"}]}
 ```
 
-### 103. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyAilmentThreshold', 'type': 'INC', '1': {'effectName': 'Overwhelming Presence', 'effectType': 'AuraDebuff', 'type': 'GlobalEffect'}}]
+### 103. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyAilmentThreshold', 'type': 'INC', '1': {'effectName': 'Overwhelming Presence', 'effectType': 'AuraDebuff', 'type': 'GlobalEffect'}, '2': {'limit': 90, 'neg': True, 'type': 'Limit'}}]
 
 - Match score: `45`
 - `k`: skill_overwhelming_pressure_aura_enemy_ailment_threshold_+%
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyAilmentThreshold', 'type': 'INC', '1': {'effectName': 'Overwhelming Presence', 'effectType': 'AuraDebuff', 'type': 'GlobalEffect'}}]
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyAilmentThreshold', 'type': 'INC', '1': {'effectName': 'Overwhelming Presence', 'effectType': 'AuraDebuff', 'type': 'GlobalEffect'}, '2': {'limit': 90, 'neg': True, 'type': 'Limit'}}]
 - `cat`: pob_skill_stat_map
 - `src`: pob_data_poe2/SkillStatMap.json
 
 ```json
-{"k":"skill_overwhelming_pressure_aura_enemy_ailment_threshold_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyAilmentThreshold', 'type': 'INC', '1': {'effectName': 'Overwhelming Presence', 'effectType': 'AuraDebuff', 'type': 'GlobalEffect'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"EnemyAilmentThreshold","type":"INC","1":{"effectName":"Overwhelming Presence","effectType":"AuraDebuff","type":"GlobalEffect"}}]}
+{"k":"skill_overwhelming_pressure_aura_enemy_ailment_threshold_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyAilmentThreshold', 'type': 'INC', '1': {'effectName': 'Overwhelming Presence', 'effectType': 'AuraDebuff', 'type': 'GlobalEffect'}, '2': {'limit': 90, 'neg': True, 'type': 'Limit'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"EnemyAilmentThreshold","type":"INC","1":{"effectName":"Overwhelming Presence","effectType":"AuraDebuff","type":"GlobalEffect"},"2":{"limit":90,"neg":true,"type":"Limit"}}]}
 ```
 
 ### 104. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyElementalAilmentDuration', 'type': 'INC'}]
@@ -4227,16 +4227,16 @@ _No keyword matches in this index._
 {"k":"base_stun_duration_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyStunDuration', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"EnemyStunDuration","type":"INC"}]}
 ```
 
-### 108. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyStunThreshold', 'type': 'INC', '1': {'effectName': 'Overwhelming Presence', 'effectType': 'AuraDebuff', 'type': 'GlobalEffect'}}]
+### 108. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyStunThreshold', 'type': 'INC', '1': {'effectName': 'Overwhelming Presence', 'effectType': 'AuraDebuff', 'type': 'GlobalEffect'}, '2': {'limit': 90, 'neg': True, 'type': 'Limit'}}]
 
 - Match score: `45`
 - `k`: skill_overwhelming_pressure_aura_enemy_stun_threshold_+%
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyStunThreshold', 'type': 'INC', '1': {'effectName': 'Overwhelming Presence', 'effectType': 'AuraDebuff', 'type': 'GlobalEffect'}}]
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyStunThreshold', 'type': 'INC', '1': {'effectName': 'Overwhelming Presence', 'effectType': 'AuraDebuff', 'type': 'GlobalEffect'}, '2': {'limit': 90, 'neg': True, 'type': 'Limit'}}]
 - `cat`: pob_skill_stat_map
 - `src`: pob_data_poe2/SkillStatMap.json
 
 ```json
-{"k":"skill_overwhelming_pressure_aura_enemy_stun_threshold_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyStunThreshold', 'type': 'INC', '1': {'effectName': 'Overwhelming Presence', 'effectType': 'AuraDebuff', 'type': 'GlobalEffect'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"EnemyStunThreshold","type":"INC","1":{"effectName":"Overwhelming Presence","effectType":"AuraDebuff","type":"GlobalEffect"}}]}
+{"k":"skill_overwhelming_pressure_aura_enemy_stun_threshold_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyStunThreshold', 'type': 'INC', '1': {'effectName': 'Overwhelming Presence', 'effectType': 'AuraDebuff', 'type': 'GlobalEffect'}, '2': {'limit': 90, 'neg': True, 'type': 'Limit'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"EnemyStunThreshold","type":"INC","1":{"effectName":"Overwhelming Presence","effectType":"AuraDebuff","type":"GlobalEffect"},"2":{"limit":90,"neg":true,"type":"Limit"}}]}
 ```
 
 ### 109. [{'flags': 0, 'keywordFlags': 0, 'name': 'Evasion', 'type': 'BASE'}]
