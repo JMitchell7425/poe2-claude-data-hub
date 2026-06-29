@@ -1,6 +1,6 @@
 # Build Idea Pack — Super Tanky Build
 
-- Generated UTC: `2026-06-28T11:58:44+00:00`
+- Generated UTC: `2026-06-29T14:19:30+00:00`
 - Idea slug: `super-tanky-build`
 - Purpose: Find the strongest practical defensive build with enough damage for bosses and maps.
 - Keywords: `tank, tanky, survivability, life, maximum life, energy shield, armour, evasion, block, shield, resistance, chaos resistance, recovery, regeneration, regen, leech, recoup, damage reduction, guard, stun, ailment, boss, bossing, mitigation, warrior, mercenary, monk, defense, endurance charge`
