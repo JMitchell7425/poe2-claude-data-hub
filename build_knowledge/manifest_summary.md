@@ -1,6 +1,6 @@
 # PoE2 Data Manifest Summary
 
-- Generated UTC: `2026-06-30T12:23:30+00:00`
+- Generated UTC: `2026-07-01T12:46:47+00:00`
 - Source priority: GGG passive tree -> RePoE PoE2 -> PoB-data PoE2 -> community sources only as benchmarks
 
 ## Download results
@@ -31,19 +31,19 @@
 | OK | `sources/pob_data_poe2/ModJewel.json` | 377 | 164,030 | https://repoe-fork.github.io/pob-data/poe2/ModJewel.json |
 | OK | `sources/pob_data_poe2/ModCharm.json` | 51 | 18,999 | https://repoe-fork.github.io/pob-data/poe2/ModCharm.json |
 | OK | `sources/pob_data_poe2/ModFlask.json` | 78 | 33,291 | https://repoe-fork.github.io/pob-data/poe2/ModFlask.json |
-| OK | `sources/pob_data_poe2/QueryMods.json` | 8 | 697,040 | https://repoe-fork.github.io/pob-data/poe2/QueryMods.json |
-| OK | `sources/pob_data_poe2/SkillStatMap.json` | 959 | 194,255 | https://repoe-fork.github.io/pob-data/poe2/SkillStatMap.json |
-| OK | `sources/pob_data_poe2/TradeSiteStats.json` | 10 | 1,120,433 | https://repoe-fork.github.io/pob-data/poe2/TradeSiteStats.json |
+| OK | `sources/pob_data_poe2/QueryMods.json` | 8 | 697,986 | https://repoe-fork.github.io/pob-data/poe2/QueryMods.json |
+| OK | `sources/pob_data_poe2/SkillStatMap.json` | 972 | 196,677 | https://repoe-fork.github.io/pob-data/poe2/SkillStatMap.json |
+| OK | `sources/pob_data_poe2/TradeSiteStats.json` | 10 | 1,121,880 | https://repoe-fork.github.io/pob-data/poe2/TradeSiteStats.json |
 | OK | `sources/pob_data_poe2/Costs.json` | 19 | 2,419 | https://repoe-fork.github.io/pob-data/poe2/Costs.json |
 | OK | `sources/pob_data_poe2/Misc.json` | 21 | 20,209 | https://repoe-fork.github.io/pob-data/poe2/Misc.json |
-| OK | `sources/pob_data_poe2/Minions.json` | 32 | 32,342 | https://repoe-fork.github.io/pob-data/poe2/Minions.json |
+| OK | `sources/pob_data_poe2/Minions.json` | 32 | 36,250 | https://repoe-fork.github.io/pob-data/poe2/Minions.json |
 
 ## Generated compact indexes
 
 | Index | Records | Size | Recommended for Claude Project Knowledge? |
 |---|---:|---:|---|
 | `CLAUDE_DATA_HUB_INSTRUCTIONS.md` | 1 | 951 | YES |
-| `gem_index.json` | 11,817 | 2,250,305 | YES |
+| `gem_index.json` | 11,830 | 2,254,467 | YES |
 | `item_base_index.json` | 8,014 | 1,669,543 | YES |
 | `manifest_summary.md` | 1 | 5,603 | YES |
 | `misc_index.json` | 27,853 | 5,559,390 | OPTIONAL |
