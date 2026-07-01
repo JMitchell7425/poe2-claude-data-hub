@@ -1,6 +1,6 @@
 # Build Idea Pack — Fastest Mapper + Boss Killer
 
-- Generated UTC: `2026-06-30T12:23:52+00:00`
+- Generated UTC: `2026-07-01T12:47:10+00:00`
 - Idea slug: `fastest-map-boss-build`
 - Purpose: Find the fastest practical build that still deletes bosses without becoming fragile.
 - Keywords: `fast, fastest, map, mapping, clear, clearing, boss, bossing, single target, area, aoe, projectile, chain, fork, pierce, explosion, explode, movement speed, attack speed, cast speed, critical, crit, charge, damage, more damage, penetration, exposure, shock, freeze, ignite, poison, minion, spirit, recovery, defense`
@@ -3702,7 +3702,19 @@ _No keyword matches in this index._
 {"k":"active_skill_minion_damage_+%_final","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"Damage","type":"MORE"}}}]}
 ```
 
-### 64. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'DoubleDamageChance', 'type': 'BASE'}}}]
+### 64. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'DamageTaken', 'type': 'INC'}}}]
+
+- Match score: `80`
+- `k`: minion_damage_taken_+%
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'DamageTaken', 'type': 'INC'}}}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"minion_damage_taken_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'DamageTaken', 'type': 'INC'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"DamageTaken","type":"INC"}}}]}
+```
+
+### 65. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'DoubleDamageChance', 'type': 'BASE'}}}]
 
 - Match score: `80`
 - `k`: minion_chance_to_deal_double_damage_%
@@ -3714,7 +3726,7 @@ _No keyword matches in this index._
 {"k":"minion_chance_to_deal_double_damage_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'DoubleDamageChance', 'type': 'BASE'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"DoubleDamageChance","type":"BASE"}}}]}
 ```
 
-### 65. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalDamage', 'type': 'MORE'}}}]
+### 66. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalDamage', 'type': 'MORE'}}}]
 
 - Match score: `80`
 - `k`: active_skill_minion_physical_damage_+%_final
@@ -3726,7 +3738,7 @@ _No keyword matches in this index._
 {"k":"active_skill_minion_physical_damage_+%_final","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalDamage', 'type': 'MORE'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"PhysicalDamage","type":"MORE"}}}]}
 ```
 
-### 66. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalDamageConvertToLightning', 'type': 'BASE'}}}]
+### 67. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalDamageConvertToLightning', 'type': 'BASE'}}}]
 
 - Match score: `80`
 - `k`: minion_base_physical_damage_%_to_convert_to_lightning
@@ -3738,7 +3750,7 @@ _No keyword matches in this index._
 {"k":"minion_base_physical_damage_%_to_convert_to_lightning","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalDamageConvertToLightning', 'type': 'BASE'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"PhysicalDamageConvertToLightning","type":"BASE"}}}]}
 ```
 
-### 67. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalDamageGainAsChaos', 'type': 'BASE'}}}]
+### 68. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalDamageGainAsChaos', 'type': 'BASE'}}}]
 
 - Match score: `80`
 - `k`: minions_deal_%_of_physical_damage_as_additional_chaos_damage
@@ -3750,7 +3762,7 @@ _No keyword matches in this index._
 {"k":"minions_deal_%_of_physical_damage_as_additional_chaos_damage","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalDamageGainAsChaos', 'type': 'BASE'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"PhysicalDamageGainAsChaos","type":"BASE"}}}]}
 ```
 
-### 68. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalDamageReduction', 'type': 'BASE'}}}]
+### 69. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalDamageReduction', 'type': 'BASE'}}}]
 
 - Match score: `80`
 - `k`: minion_additional_physical_damage_reduction_%
@@ -3762,7 +3774,7 @@ _No keyword matches in this index._
 {"k":"minion_additional_physical_damage_reduction_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalDamageReduction', 'type': 'BASE'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"PhysicalDamageReduction","type":"BASE"}}}]}
 ```
 
-### 69. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'SkillPhysicalDamageConvertToFire', 'type': 'BASE'}}}]
+### 70. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'SkillPhysicalDamageConvertToFire', 'type': 'BASE'}}}]
 
 - Match score: `80`
 - `k`: minion_skill_physical_damage_%_to_convert_to_fire
@@ -3774,7 +3786,7 @@ _No keyword matches in this index._
 {"k":"minion_skill_physical_damage_%_to_convert_to_fire","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'SkillPhysicalDamageConvertToFire', 'type': 'BASE'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"SkillPhysicalDamageConvertToFire","type":"BASE"}}}]}
 ```
 
-### 70. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 4194304, 'name': 'Damage', 'type': 'MORE'}}}]
+### 71. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 4194304, 'name': 'Damage', 'type': 'MORE'}}}]
 
 - Match score: `80`
 - `k`: active_skill_minion_bleeding_damage_+%_final
@@ -3786,7 +3798,7 @@ _No keyword matches in this index._
 {"k":"active_skill_minion_bleeding_damage_+%_final","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 4194304, 'name': 'Damage', 'type': 'MORE'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":4194304,"name":"Damage","type":"MORE"}}}]}
 ```
 
-### 71. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 524288, 'name': 'Damage', 'type': 'INC'}}}]
+### 72. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 524288, 'name': 'Damage', 'type': 'INC'}}}]
 
 - Match score: `80`
 - `k`: minion_ailment_damage_+%
@@ -3798,7 +3810,7 @@ _No keyword matches in this index._
 {"k":"minion_ailment_damage_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 524288, 'name': 'Damage', 'type': 'INC'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":524288,"name":"Damage","type":"INC"}}}]}
 ```
 
-### 72. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 256, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC'}}}]
+### 73. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 256, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC'}}}]
 
 - Match score: `80`
 - `k`: minion_melee_damage_+%
@@ -3810,7 +3822,7 @@ _No keyword matches in this index._
 {"k":"minion_melee_damage_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 256, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":256,"keywordFlags":0,"name":"Damage","type":"INC"}}}]}
 ```
 
-### 73. [{'flags': 0, 'keywordFlags': 0, 'name': 'NoAdditionalProjectiles', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'AdditionalProjectilesAddChainsInstead', 'type': 'FLAG', 'value': True}]
+### 74. [{'flags': 0, 'keywordFlags': 0, 'name': 'NoAdditionalProjectiles', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'AdditionalProjectilesAddChainsInstead', 'type': 'FLAG', 'value': True}]
 
 - Match score: `80`
 - `k`: modifiers_to_number_of_projectiles_instead_apply_to_chaining
@@ -3822,7 +3834,7 @@ _No keyword matches in this index._
 {"k":"modifiers_to_number_of_projectiles_instead_apply_to_chaining","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'NoAdditionalProjectiles', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'AdditionalProjectilesAddChainsInstead', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"NoAdditionalProjectiles","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"AdditionalProjectilesAddChainsInstead","type":"FLAG","value":true}]}
 ```
 
-### 74. [{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalDamage', 'type': 'INC', '1': {'type': 'Multiplier', 'var': 'FrenzyCharge'}}]
+### 75. [{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalDamage', 'type': 'INC', '1': {'type': 'Multiplier', 'var': 'FrenzyCharge'}}]
 
 - Match score: `80`
 - `k`: physical_damage_+%_per_frenzy_charge
@@ -3834,7 +3846,7 @@ _No keyword matches in this index._
 {"k":"physical_damage_+%_per_frenzy_charge","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalDamage', 'type': 'INC', '1': {'type': 'Multiplier', 'var': 'FrenzyCharge'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"PhysicalDamage","type":"INC","1":{"type":"Multiplier","var":"FrenzyCharge"}}]}
 ```
 
-### 75. [{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalDamageTaken', 'type': 'INC', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}, '2': {'type': 'Condition', 'var': 'Shocked'}}]
+### 76. [{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalDamageTaken', 'type': 'INC', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}, '2': {'type': 'Condition', 'var': 'Shocked'}}]
 
 - Match score: `80`
 - `k`: enemies_you_shock_take_%_increased_physical_damage
@@ -3846,7 +3858,7 @@ _No keyword matches in this index._
 {"k":"enemies_you_shock_take_%_increased_physical_damage","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalDamageTaken', 'type': 'INC', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}, '2': {'type': 'Condition', 'var': 'Shocked'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"PhysicalDamageTaken","type":"INC","1":{"effectType":"Debuff","type":"GlobalEffect"},"2":{"type":"Condition","var":"Shocked"}}]}
 ```
 
-### 76. [{'flags': 0, 'keywordFlags': 0, 'name': 'PierceAllTargets', 'type': 'FLAG', 'value': True, '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Ignited'}}]
+### 77. [{'flags': 0, 'keywordFlags': 0, 'name': 'PierceAllTargets', 'type': 'FLAG', 'value': True, '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Ignited'}}]
 
 - Match score: `80`
 - `k`: chance_to_pierce_ignited_enemy_%
@@ -3858,7 +3870,7 @@ _No keyword matches in this index._
 {"k":"chance_to_pierce_ignited_enemy_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'PierceAllTargets', 'type': 'FLAG', 'value': True, '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Ignited'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"PierceAllTargets","type":"FLAG","value":true,"1":{"actor":"enemy","type":"ActorCondition","var":"Ignited"}}]}
 ```
 
-### 77. [{'flags': 0, 'keywordFlags': 0, 'name': 'PierceAllTargets', 'type': 'FLAG', 'value': True, '1': {'type': 'Condition', 'var': 'ReturningProjectile'}}]
+### 78. [{'flags': 0, 'keywordFlags': 0, 'name': 'PierceAllTargets', 'type': 'FLAG', 'value': True, '1': {'type': 'Condition', 'var': 'ReturningProjectile'}}]
 
 - Match score: `80`
 - `k`: returning_projectiles_always_pierce
@@ -3870,7 +3882,7 @@ _No keyword matches in this index._
 {"k":"returning_projectiles_always_pierce","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'PierceAllTargets', 'type': 'FLAG', 'value': True, '1': {'type': 'Condition', 'var': 'ReturningProjectile'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"PierceAllTargets","type":"FLAG","value":true,"1":{"type":"Condition","var":"ReturningProjectile"}}]}
 ```
 
-### 78. [{'flags': 0, 'keywordFlags': 0, 'name': 'PoisonFaster', 'type': 'INC'}]
+### 79. [{'flags': 0, 'keywordFlags': 0, 'name': 'PoisonFaster', 'type': 'INC'}]
 
 - Match score: `80`
 - `k`: faster_poison_%
@@ -3882,7 +3894,7 @@ _No keyword matches in this index._
 {"k":"faster_poison_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'PoisonFaster', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"PoisonFaster","type":"INC"}]}
 ```
 
-### 79. [{'flags': 0, 'keywordFlags': 0, 'name': 'ProjectileDamageTaken', 'type': 'INC'}]
+### 80. [{'flags': 0, 'keywordFlags': 0, 'name': 'ProjectileDamageTaken', 'type': 'INC'}]
 
 - Match score: `80`
 - `k`: projectile_damage_taken_+%
@@ -3894,7 +3906,7 @@ _No keyword matches in this index._
 {"k":"projectile_damage_taken_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'ProjectileDamageTaken', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"ProjectileDamageTaken","type":"INC"}]}
 ```
 
-### 80. [{'flags': 0, 'keywordFlags': 0, 'name': 'ProjectileSpeedAppliesToProjectileDamage', 'type': 'FLAG', 'value': True}]
+### 81. [{'flags': 0, 'keywordFlags': 0, 'name': 'ProjectileSpeedAppliesToProjectileDamage', 'type': 'FLAG', 'value': True}]
 
 - Match score: `80`
 - `k`: projectile_speed_additive_modifiers_also_apply_to_projectile_damage
@@ -3906,7 +3918,7 @@ _No keyword matches in this index._
 {"k":"projectile_speed_additive_modifiers_also_apply_to_projectile_damage","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'ProjectileSpeedAppliesToProjectileDamage', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"ProjectileSpeedAppliesToProjectileDamage","type":"FLAG","value":true}]}
 ```
 
-### 81. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'minionDamageEffectiveness'}}]
+### 82. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'minionDamageEffectiveness'}}]
 
 - Match score: `80`
 - `k`: active_skill_minion_added_damage_+%_final
@@ -3918,7 +3930,7 @@ _No keyword matches in this index._
 {"k":"active_skill_minion_added_damage_+%_final","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'minionDamageEffectiveness'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillData","type":"LIST","value":{"key":"minionDamageEffectiveness"}}]}
 ```
 
-### 82. [{'flags': 0, 'keywordFlags': 524288, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Multiplier', 'var': 'FrenzyCharge'}}]
+### 83. [{'flags': 0, 'keywordFlags': 524288, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Multiplier', 'var': 'FrenzyCharge'}}]
 
 - Match score: `80`
 - `k`: ailment_damage_+%_per_frenzy_charge
@@ -3930,7 +3942,7 @@ _No keyword matches in this index._
 {"k":"ailment_damage_+%_per_frenzy_charge","n":"[{'flags': 0, 'keywordFlags': 524288, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Multiplier', 'var': 'FrenzyCharge'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":524288,"name":"Damage","type":"INC","1":{"type":"Multiplier","var":"FrenzyCharge"}}]}
 ```
 
-### 83. [{'flags': 0, 'keywordFlags': 8192, 'name': 'ProjectileSpeed', 'type': 'INC', '1': {'type': 'Multiplier', 'var': 'FrenzyCharge'}}]
+### 84. [{'flags': 0, 'keywordFlags': 8192, 'name': 'ProjectileSpeed', 'type': 'INC', '1': {'type': 'Multiplier', 'var': 'FrenzyCharge'}}]
 
 - Match score: `80`
 - `k`: mine_projectile_speed_+%_per_frenzy_charge
@@ -3942,7 +3954,7 @@ _No keyword matches in this index._
 {"k":"mine_projectile_speed_+%_per_frenzy_charge","n":"[{'flags': 0, 'keywordFlags': 8192, 'name': 'ProjectileSpeed', 'type': 'INC', '1': {'type': 'Multiplier', 'var': 'FrenzyCharge'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":8192,"name":"ProjectileSpeed","type":"INC","1":{"type":"Multiplier","var":"FrenzyCharge"}}]}
 ```
 
-### 84. [{'flags': 1, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'type': 'Multiplier', 'var': 'EnduranceCharge'}}]
+### 85. [{'flags': 1, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'type': 'Multiplier', 'var': 'EnduranceCharge'}}]
 
 - Match score: `80`
 - `k`: active_skill_attack_damage_+%_final_per_endurance_charge
@@ -3954,7 +3966,7 @@ _No keyword matches in this index._
 {"k":"active_skill_attack_damage_+%_final_per_endurance_charge","n":"[{'flags': 1, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'type': 'Multiplier', 'var': 'EnduranceCharge'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":1,"keywordFlags":0,"name":"Damage","type":"MORE","1":{"type":"Multiplier","var":"EnduranceCharge"}}]}
 ```
 
-### 85. [{'flags': 2, 'keywordFlags': 0, 'name': 'AreaOfEffect', 'type': 'MORE', '1': {'type': 'Multiplier', 'var': 'RemovableTotalCharges'}}]
+### 86. [{'flags': 2, 'keywordFlags': 0, 'name': 'AreaOfEffect', 'type': 'MORE', '1': {'type': 'Multiplier', 'var': 'RemovableTotalCharges'}}]
 
 - Match score: `80`
 - `k`: area_of_effect_+%_final_per_removable_power_frenzy_or_endurance_charge
@@ -3966,7 +3978,7 @@ _No keyword matches in this index._
 {"k":"area_of_effect_+%_final_per_removable_power_frenzy_or_endurance_charge","n":"[{'flags': 2, 'keywordFlags': 0, 'name': 'AreaOfEffect', 'type': 'MORE', '1': {'type': 'Multiplier', 'var': 'RemovableTotalCharges'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":2,"keywordFlags":0,"name":"AreaOfEffect","type":"MORE","1":{"type":"Multiplier","var":"RemovableTotalCharges"}}]}
 ```
 
-### 86. [{'flags': 2, 'keywordFlags': 0, 'name': 'ImpaleChance', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CriticalStrike'}}]
+### 87. [{'flags': 2, 'keywordFlags': 0, 'name': 'ImpaleChance', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CriticalStrike'}}]
 
 - Match score: `80`
 - `k`: spell_impale_on_crit_%_chance
@@ -3978,7 +3990,7 @@ _No keyword matches in this index._
 {"k":"spell_impale_on_crit_%_chance","n":"[{'flags': 2, 'keywordFlags': 0, 'name': 'ImpaleChance', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CriticalStrike'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":2,"keywordFlags":0,"name":"ImpaleChance","type":"BASE","1":{"type":"Condition","var":"CriticalStrike"}}]}
 ```
 
-### 87. [{'flags': 4, 'keywordFlags': 0, 'name': 'LightningExposureChance', 'type': 'BASE', 'value': 100, '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Shocked'}}]
+### 88. [{'flags': 4, 'keywordFlags': 0, 'name': 'LightningExposureChance', 'type': 'BASE', 'value': 100, '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Shocked'}}]
 
 - Match score: `80`
 - `k`: inflict_lightning_exposure_for_x_ms_on_shock
@@ -3990,7 +4002,7 @@ _No keyword matches in this index._
 {"k":"inflict_lightning_exposure_for_x_ms_on_shock","n":"[{'flags': 4, 'keywordFlags': 0, 'name': 'LightningExposureChance', 'type': 'BASE', 'value': 100, '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Shocked'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":4,"keywordFlags":0,"name":"LightningExposureChance","type":"BASE","value":100,"1":{"actor":"enemy","type":"ActorCondition","var":"Shocked"}}]}
 ```
 
-### 88. additional_base_critical_strike_chance
+### 89. additional_base_critical_strike_chance
 
 - Match score: `80`
 - `k`: additional_base_critical_strike_chance
@@ -4002,7 +4014,7 @@ _No keyword matches in this index._
 {"k":"additional_base_critical_strike_chance","n":"additional_base_critical_strike_chance","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 89. additional_critical_strike_chance_per_10_shield_maximum_energy_shield_permyriad
+### 90. additional_critical_strike_chance_per_10_shield_maximum_energy_shield_permyriad
 
 - Match score: `80`
 - `k`: additional_critical_strike_chance_per_10_shield_maximum_energy_shield_permyriad
@@ -4014,7 +4026,7 @@ _No keyword matches in this index._
 {"k":"additional_critical_strike_chance_per_10_shield_maximum_energy_shield_permyriad","n":"additional_critical_strike_chance_per_10_shield_maximum_energy_shield_permyriad","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 90. additional_critical_strike_chance_permyriad_while_affected_by_elusive
+### 91. additional_critical_strike_chance_permyriad_while_affected_by_elusive
 
 - Match score: `80`
 - `k`: additional_critical_strike_chance_permyriad_while_affected_by_elusive
@@ -4026,7 +4038,7 @@ _No keyword matches in this index._
 {"k":"additional_critical_strike_chance_permyriad_while_affected_by_elusive","n":"additional_critical_strike_chance_permyriad_while_affected_by_elusive","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 91. base_self_critical_strike_multiplier_-%
+### 92. base_self_critical_strike_multiplier_-%
 
 - Match score: `80`
 - `k`: base_self_critical_strike_multiplier_-%
@@ -4038,7 +4050,7 @@ _No keyword matches in this index._
 {"k":"base_self_critical_strike_multiplier_-%","n":"base_self_critical_strike_multiplier_-%","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 92. Freezefork
+### 93. Freezefork
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SkillGemFreezeForkSupport
@@ -4051,7 +4063,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemFreezeForkSupport","n":"Freezefork","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"cold":true,"projectile":true,"support":true}}
 ```
 
-### 93. Metadata/Items/Gem/SupportGemFreezefork
+### 94. Metadata/Items/Gem/SupportGemFreezefork
 
 - Match score: `80`
 - `k`: Metadata/Items/Gem/SupportGemFreezefork
@@ -4065,7 +4077,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SupportGemFreezefork","n":"Metadata/Items/Gem/SupportGemFreezefork","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Freezefork","id":"Metadata/Items/Gem/SupportGemFreezefork","release_state":"released"},"tags":["support","projectile","cold"]}
 ```
 
-### 94. minion_always_crit
+### 95. minion_always_crit
 
 - Match score: `80`
 - `k`: minion_always_crit
@@ -4077,7 +4089,7 @@ _No keyword matches in this index._
 {"k":"minion_always_crit","n":"minion_always_crit","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 95. minion_life_leech_from_elemental_damage_permyriad
+### 96. minion_life_leech_from_elemental_damage_permyriad
 
 - Match score: `80`
 - `k`: minion_life_leech_from_elemental_damage_permyriad
@@ -4089,7 +4101,7 @@ _No keyword matches in this index._
 {"k":"minion_life_leech_from_elemental_damage_permyriad","n":"minion_life_leech_from_elemental_damage_permyriad","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 96. minions_cannot_be_damaged
+### 97. minions_cannot_be_damaged
 
 - Match score: `80`
 - `k`: minions_cannot_be_damaged
@@ -4101,7 +4113,7 @@ _No keyword matches in this index._
 {"k":"minions_cannot_be_damaged","n":"minions_cannot_be_damaged","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 97. minions_deal_no_damage
+### 98. minions_deal_no_damage
 
 - Match score: `80`
 - `k`: minions_deal_no_damage
@@ -4113,7 +4125,7 @@ _No keyword matches in this index._
 {"k":"minions_deal_no_damage","n":"minions_deal_no_damage","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 98. override_off_hand_base_critical_strike_chance_to_5%
+### 99. override_off_hand_base_critical_strike_chance_to_5%
 
 - Match score: `80`
 - `k`: override_off_hand_base_critical_strike_chance_to_5%
@@ -4125,7 +4137,7 @@ _No keyword matches in this index._
 {"k":"override_off_hand_base_critical_strike_chance_to_5%","n":"override_off_hand_base_critical_strike_chance_to_5%","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 99. skill_minion_explosion_life_%
+### 100. skill_minion_explosion_life_%
 
 - Match score: `80`
 - `k`: skill_minion_explosion_life_%
@@ -4137,7 +4149,7 @@ _No keyword matches in this index._
 {"k":"skill_minion_explosion_life_%","n":"skill_minion_explosion_life_%","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 100. Supercritical
+### 101. Supercritical
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SkillGemIncreasedCriticalDamageSupport
@@ -4150,7 +4162,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemIncreasedCriticalDamageSupport","n":"Supercritical","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"support":true}}
 ```
 
-### 101. BaronBossMapShapeShiftFromWolf
+### 102. BaronBossMapShapeShiftFromWolf
 
 - Match score: `70`
 - `k`: BaronBossMapShapeShiftFromWolf
@@ -4163,7 +4175,7 @@ _No keyword matches in this index._
 {"k":"BaronBossMapShapeShiftFromWolf","n":"BaronBossMapShapeShiftFromWolf","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 102. BaronBossMapShapeShiftToWolf
+### 103. BaronBossMapShapeShiftToWolf
 
 - Match score: `70`
 - `k`: BaronBossMapShapeShiftToWolf
@@ -4176,7 +4188,7 @@ _No keyword matches in this index._
 {"k":"BaronBossMapShapeShiftToWolf","n":"BaronBossMapShapeShiftToWolf","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 103. Blazing Critical
+### 104. Blazing Critical
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SkillGemBlazingCriticalSupport
@@ -4189,7 +4201,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemBlazingCriticalSupport","n":"Blazing Critical","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"attack":true,"duration":true,"fire":true,"support":true}}
 ```
 
-### 104. Cast on Critical
+### 105. Cast on Critical
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SkillGemCastOnCriticalStrike
@@ -4202,7 +4214,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemCastOnCriticalStrike","n":"Cast on Critical","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"buff":true,"grants_active_skill":true,"intelligence":true,"meta":true,"persistent":true,"trigger":true}}
 ```
 
-### 105. CGEChimeraBossPoisonSpray
+### 106. CGEChimeraBossPoisonSpray
 
 - Match score: `70`
 - `k`: CGEChimeraBossPoisonSpray
@@ -4215,7 +4227,7 @@ _No keyword matches in this index._
 {"k":"CGEChimeraBossPoisonSpray","n":"CGEChimeraBossPoisonSpray","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 106. CGEFallenGodBossChaosChargeFire
+### 107. CGEFallenGodBossChaosChargeFire
 
 - Match score: `70`
 - `k`: CGEFallenGodBossChaosChargeFire
@@ -4228,7 +4240,7 @@ _No keyword matches in this index._
 {"k":"CGEFallenGodBossChaosChargeFire","n":"CGEFallenGodBossChaosChargeFire","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 107. CGEFallenGodBossChaosChargeFireSanctified
+### 108. CGEFallenGodBossChaosChargeFireSanctified
 
 - Match score: `70`
 - `k`: CGEFallenGodBossChaosChargeFireSanctified
@@ -4241,7 +4253,7 @@ _No keyword matches in this index._
 {"k":"CGEFallenGodBossChaosChargeFireSanctified","n":"CGEFallenGodBossChaosChargeFireSanctified","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 108. CGEScorpionBossPoisonGround
+### 109. CGEScorpionBossPoisonGround
 
 - Match score: `70`
 - `k`: CGEScorpionBossPoisonGround
@@ -4254,7 +4266,7 @@ _No keyword matches in this index._
 {"k":"CGEScorpionBossPoisonGround","n":"CGEScorpionBossPoisonGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 109. ChargedStaffShockwavePlayer
+### 110. ChargedStaffShockwavePlayer
 
 - Match score: `70`
 - `k`: ChargedStaffShockwavePlayer
@@ -4267,7 +4279,7 @@ _No keyword matches in this index._
 {"k":"ChargedStaffShockwavePlayer","n":"ChargedStaffShockwavePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 110. CourtesanMinionProjectile
+### 111. CourtesanMinionProjectile
 
 - Match score: `70`
 - `k`: CourtesanMinionProjectile
@@ -4280,7 +4292,7 @@ _No keyword matches in this index._
 {"k":"CourtesanMinionProjectile","n":"CourtesanMinionProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 111. DeceleratingProjectileDeliriumMinion
+### 112. DeceleratingProjectileDeliriumMinion
 
 - Match score: `70`
 - `k`: DeceleratingProjectileDeliriumMinion
@@ -4293,7 +4305,7 @@ _No keyword matches in this index._
 {"k":"DeceleratingProjectileDeliriumMinion","n":"DeceleratingProjectileDeliriumMinion","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 112. DeceleratingProjectileDwarvenBossSmoke
+### 113. DeceleratingProjectileDwarvenBossSmoke
 
 - Match score: `70`
 - `k`: DeceleratingProjectileDwarvenBossSmoke
@@ -4306,7 +4318,7 @@ _No keyword matches in this index._
 {"k":"DeceleratingProjectileDwarvenBossSmoke","n":"DeceleratingProjectileDwarvenBossSmoke","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 113. DeceleratingProjectileSerpentClanBoss
+### 114. DeceleratingProjectileSerpentClanBoss
 
 - Match score: `70`
 - `k`: DeceleratingProjectileSerpentClanBoss
@@ -4319,7 +4331,7 @@ _No keyword matches in this index._
 {"k":"DeceleratingProjectileSerpentClanBoss","n":"DeceleratingProjectileSerpentClanBoss","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 114. DeceleratingProjectileSerpentClanBossIdleForImpact
+### 115. DeceleratingProjectileSerpentClanBossIdleForImpact
 
 - Match score: `70`
 - `k`: DeceleratingProjectileSerpentClanBossIdleForImpact
@@ -4332,7 +4344,7 @@ _No keyword matches in this index._
 {"k":"DeceleratingProjectileSerpentClanBossIdleForImpact","n":"DeceleratingProjectileSerpentClanBossIdleForImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 115. DeliriumBossPhysSprayExplode
+### 116. DeliriumBossPhysSprayExplode
 
 - Match score: `70`
 - `k`: DeliriumBossPhysSprayExplode
@@ -4345,7 +4357,7 @@ _No keyword matches in this index._
 {"k":"DeliriumBossPhysSprayExplode","n":"DeliriumBossPhysSprayExplode","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 116. DeliriumMinionDemonProjectile
+### 117. DeliriumMinionDemonProjectile
 
 - Match score: `70`
 - `k`: DeliriumMinionDemonProjectile
@@ -4358,7 +4370,7 @@ _No keyword matches in this index._
 {"k":"DeliriumMinionDemonProjectile","n":"DeliriumMinionDemonProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 117. DeliriumMinionSpikeExplosionGT
+### 118. DeliriumMinionSpikeExplosionGT
 
 - Match score: `70`
 - `k`: DeliriumMinionSpikeExplosionGT
@@ -4371,7 +4383,7 @@ _No keyword matches in this index._
 {"k":"DeliriumMinionSpikeExplosionGT","n":"DeliriumMinionSpikeExplosionGT","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 118. DTTChainedBeastBossLeapSlam
+### 119. DTTChainedBeastBossLeapSlam
 
 - Match score: `70`
 - `k`: DTTChainedBeastBossLeapSlam
@@ -4384,7 +4396,7 @@ _No keyword matches in this index._
 {"k":"DTTChainedBeastBossLeapSlam","n":"DTTChainedBeastBossLeapSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 119. EAAChainedBeastBossMultiSlam
+### 120. EAAChainedBeastBossMultiSlam
 
 - Match score: `70`
 - `k`: EAAChainedBeastBossMultiSlam
@@ -4395,19 +4407,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"EAAChainedBeastBossMultiSlam","n":"EAAChainedBeastBossMultiSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
-```
-
-### 120. EAASharkBossBurrowEmergeFast
-
-- Match score: `70`
-- `k`: EAASharkBossBurrowEmergeFast
-- `n`: EAASharkBossBurrowEmergeFast
-- `cat`: repoe_skills
-- `src`: repoe_poe2/skills.json
-- `is_support`: False
-
-```json
-{"k":"EAASharkBossBurrowEmergeFast","n":"EAASharkBossBurrowEmergeFast","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
 ## Item bases/classes
