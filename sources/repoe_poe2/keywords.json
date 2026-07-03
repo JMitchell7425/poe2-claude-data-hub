@@ -103,6 +103,10 @@
     "definition": "Your allies include other players, [Minion|Minions], and any other entity that fights alongside you and has its own stats. \r\n\r\nYou do not count as your own Ally.",
     "term": "Allies"
   },
+  "AlteredCollarbone": {
+    "definition": "",
+    "term": ""
+  },
   "AlternateStrengthBonus": {
     "definition": "Gain no inherent bonus from [Strength]\r\n1% increased [EnergyShield|Energy Shield] per 2 Strength",
     "term": "Black Scythe Training"
@@ -636,7 +640,7 @@
     "term": "Delirium"
   },
   "ContainsExpedition": {
-    "definition": "Expeditions are Ancient Kalguuran burial sites, with [ContainsExpedition2|Verisium Remnants] and dangers buried beneath the ground.\r\n\r\nSet up a chain of explosives and unearth the treasures, but beware of the dangers that hide in wait.\r\n\r\nUsing [ExpeditionLogbookCurrency|Logbooks] on the Atlas can reveal [GrandExpedition|Grand Expeditions] which are larger versions of regular Expeditions and can contain special types of [GrandExpeditionRemnant|Remnants].",
+    "definition": "Expeditions are Ancient Kalguuran burial sites, with [ContainsExpedition2|Verisium Remnants] and dangers buried beneath the ground.\r\n\r\nSet up a chain of explosives and unearth the treasures, but beware of the dangers that hide in wait. Verisium Remnants apply their Modifiers to Monsters and Chests that are excavated with the same explosive that destroys the Remnant and all subsequent unearthed Monsters and Chests.\r\n\r\nUsing [ExpeditionLogbookCurrency|Logbooks] on the Atlas can reveal [GrandExpedition|Grand Expeditions] which are larger versions of regular Expeditions and can contain special types of Remnants.",
     "term": "Expedition"
   },
   "ContainsExpedition2": {
@@ -950,6 +954,10 @@
   "EasyTargetDebuff": {
     "definition": "Easy Target is a [Debuff] which causes the next [Projectile] [Attack] [HitDamage|Hit] against the affected target to deal increased Damage, at which point the [Debuff] is consumed.",
     "term": "Easy Target"
+  },
+  "EatenSoul": {
+    "definition": "Each Soul eaten grants 1% increased [SkillSpeed|Skill Speed]. You can have up to 50 eaten Souls, and lose a Soul every 0.5 seconds if you have not eaten one in the past 4 seconds.",
+    "term": "Eaten Souls"
   },
   "EdictDeclaration": {
     "definition": "[DNT-UNUSED] You gain edict declaration when you disable a mod with The Towering Shadow",
@@ -1548,12 +1556,8 @@
     "term": ""
   },
   "GrandExpedition": {
-    "definition": "Grand Expeditions are a larger version of [ContainsExpedition|Expeditions] with many more explosives. These contain special [GrandExpeditionRemnant|Remnants] and treasures to unearth.\r\n\r\nThese are only found in Ocean Biomes revealed with [ExpeditionLogbookCurrency|Logbooks].\r\n\r\nThese areas have additional modifiers to improve their rewards.",
+    "definition": "Grand Expeditions are a larger version of [ContainsExpedition|Expeditions] with many more explosives. These contain special [ContainsExpedition2|Remnants] and treasures to unearth.\r\n\r\nThese are only found in Ocean Biomes revealed with [ExpeditionLogbookCurrency|Logbooks].\r\n\r\nThese areas have additional modifiers to improve their rewards.",
     "term": "Grand Expedition"
-  },
-  "GrandExpeditionRemnant": {
-    "definition": "A type of Remnant found in [GrandExpedition|Grand Expeditions] that adds modifiers to unearthed monsters and chests.\r\n\r\nModifiers from these Remnants are applied to Monsters and Chests that are excavated from the explosive that destroys the Remnant and all subsequent Explosives",
-    "term": "Grand Expedition Remnant"
   },
   "GraspingRing": {
     "definition": "",
@@ -3488,11 +3492,11 @@
     "term": "Soul Core"
   },
   "SoulEater": {
-    "definition": "Gain 1% increased [SkillSpeed|Skill Speed] for 4 seconds when an enemy dies in your [Presence], stacking up to 50 times. A stack is lost every 0.5 seconds if one has not been gained within the past 4 seconds.",
+    "definition": "[EatenSoul|Eat the Souls] of enemies that die in your [Presence].\r\n\r\nEach Soul grants 1% increased [SkillSpeed|Skill Speed]. You can have up to 50 eaten Souls, and lose a Soul every 0.5 seconds if you have not eaten one in the past 4 seconds.",
     "term": "Soul Eater"
   },
   "SoulEaterMonster": {
-    "definition": "Monsters with Soul Eater gain 1% increased [SkillSpeed|Skill Speed] and 1% less damage taken for 4 seconds when a monster dies in their [Presence], stacking up to 50 times. A stack is lost every 0.5 seconds if one has not been gained within the past 4 seconds.",
+    "definition": "Monsters with Soul Eater gain 1% increased [SkillSpeed|Skill Speed] and 1% less damage taken when a monster dies in their [Presence], stacking up to 50 times. An eaten Soul is lost every 0.5 seconds if none have been eaten within the past 4 seconds.",
     "term": "Monster Soul Eater"
   },
   "SoulRune": {
@@ -4098,9 +4102,5 @@
   "test2": {
     "definition": "",
     "term": "Test custom content"
-  },
-  "w": {
-    "definition": "",
-    "term": ""
   }
 }

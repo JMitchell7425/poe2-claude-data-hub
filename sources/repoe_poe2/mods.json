@@ -110501,7 +110501,7 @@
     "generation_weights": [],
     "grants_effects": [],
     "groups": [
-      "BaseLocalDefences"
+      "IncreasedPhysicalDamageReductionRating"
     ],
     "implicit_tags": [
       "defences",
@@ -110513,13 +110513,13 @@
     "spawn_weights": [],
     "stats": [
       {
-        "id": "local_base_physical_damage_reduction_rating",
+        "id": "base_physical_damage_reduction_rating",
         "max": 150,
         "min": 100
       }
     ],
-    "text": "+(100-150) to [Armour|Armour]",
-    "type": "LocalPhysicalDamageReductionRating",
+    "text": "+(100-150) to [Armour]",
+    "type": "PhysicalDamageReductionRating",
     "gold_value": null
   },
   "UniqueLocalIncreasedEvasionRating1": {
@@ -160863,7 +160863,7 @@
         "min": 1
       }
     ],
-    "text": "[SoulEater|Eat a Soul] on [HitDamage|Hitting] an enemy with an [RevealWeakness|Open Weakness]",
+    "text": "[EatenSoul|Eat a Soul] when you [HitDamage|Hit] an enemy with an [RevealWeakness|Open Weakness]",
     "type": "UniqueSoulEaterAgainstOpenWeakness",
     "gold_value": null
   },
@@ -178572,7 +178572,7 @@
         "min": 18
       }
     ],
-    "text": "[NaturalSpawn|Natural] [Rarity|Rare] Monsters in Area [SoulEaterMonster|Eat the Souls] of slain Monsters in their [Presence]\nPlayers steal the [SoulEater|Eaten Souls] of Slain [Rarity|Rare] Monsters in Area",
+    "text": "[NaturalSpawn|Natural] [Rarity|Rare] Monsters in Area [SoulEaterMonster|Eat the Souls] of slain Monsters in their [Presence]\nPlayers steal the [EatenSoul|Eaten Souls] of Slain [Rarity|Rare] Monsters in Area",
     "type": "MapAbyssRareMonstersSoulEater",
     "gold_value": null
   },
@@ -187025,11 +187025,6 @@
     ],
     "stats": [
       {
-        "id": "expedition_remnant_devourer_tail_bonus",
-        "max": 1,
-        "min": 1
-      },
-      {
         "id": "monster_potency_+%",
         "max": 20,
         "min": 20
@@ -187132,11 +187127,6 @@
     ],
     "stats": [
       {
-        "id": "expedition_remnant_goblin_totem_bonus",
-        "max": 1,
-        "min": 1
-      },
-      {
         "id": "from_league_item_rarity_+%_permyriad",
         "max": 1500,
         "min": 1500
@@ -187170,11 +187160,6 @@
       }
     ],
     "stats": [
-      {
-        "id": "expedition_remnant_sulphite_bonus",
-        "max": 1,
-        "min": 1
-      },
       {
         "id": "from_league_item_rarity_+%_permyriad",
         "max": 2000,
@@ -401886,7 +401871,7 @@
         "min": 1
       }
     ],
-    "text": "Contains an additional [ContainsExpedition|Expedition Encounter]\n20% increased number of Explosives\nArea contains 25% increased number of [Runic] Monster Markers\nArea contains an [ContainsExpedition|Expedition Encounter]",
+    "text": "Contains an additional [ContainsExpedition|Expedition Encounter]\n20% increased number of [ContainsExpedition|Expedition] Explosives\nArea contains 25% increased number of [Runic] Monster Markers\nArea contains an [ContainsExpedition|Expedition Encounter]",
     "type": "ScarabModExpedition",
     "gold_value": null
   },
@@ -401931,7 +401916,7 @@
         "min": 1
       }
     ],
-    "text": "Contains an additional [ContainsExpedition|Expedition Encounter]\n20% increased number of Explosives\nArea contains 50% increased number of [Runic] Monster Markers\nArea contains an [ContainsExpedition|Expedition Encounter]",
+    "text": "Contains an additional [ContainsExpedition|Expedition Encounter]\n20% increased number of [ContainsExpedition|Expedition] Explosives\nArea contains 50% increased number of [Runic] Monster Markers\nArea contains an [ContainsExpedition|Expedition Encounter]",
     "type": "ScarabModExpedition",
     "gold_value": null
   },
@@ -401976,7 +401961,7 @@
         "min": 1
       }
     ],
-    "text": "Contains an additional [ContainsExpedition|Expedition Encounter]\n20% increased number of Explosives\nArea contains 50% increased number of [Runic] Monster Markers\nRemnants have an additional Suffix Modifier\nArea contains an [ContainsExpedition|Expedition Encounter]",
+    "text": "Contains an additional [ContainsExpedition|Expedition Encounter]\n20% increased number of [ContainsExpedition|Expedition] Explosives\nArea contains 50% increased number of [Runic] Monster Markers\nRemnants have an additional Suffix Modifier\nArea contains an [ContainsExpedition|Expedition Encounter]",
     "type": "ScarabModExpedition",
     "gold_value": null
   },
@@ -402796,7 +402781,7 @@
         "min": 50
       }
     ],
-    "text": "20% increased number of Explosives\nArea contains 50% increased number of [Runic] Monster Markers",
+    "text": "20% increased number of [ContainsExpedition|Expedition] Explosives\nArea contains 50% increased number of [Runic] Monster Markers",
     "type": "MapMissionJuiceExpedition",
     "gold_value": null
   },
@@ -467601,7 +467586,7 @@
         "min": 25
       }
     ],
-    "text": "(25-50)% increased number of Explosives",
+    "text": "(25-50)% increased number of [ContainsExpedition|Expedition] Explosives",
     "type": "MapExpeditionExplosives",
     "gold_value": null
   },
@@ -468247,7 +468232,7 @@
         "min": 1
       }
     ],
-    "text": "Area contains +(1-3) [GrandExpeditionRemnant|Remnants]",
+    "text": "Area contains +(1-3) [ContainsExpedition2|Verisium Remnants]",
     "type": "ExpeditionLogbookAdditionalRemnant",
     "gold_value": null
   },
@@ -481040,8 +481025,8 @@
     "stats": [
       {
         "id": "stun_threshold_+%",
-        "max": 200,
-        "min": 200
+        "max": 150,
+        "min": 150
       }
     ],
     "text": null,
@@ -486450,9 +486435,49 @@
         "id": "map_player_lose_no_experience_on_death",
         "max": 1,
         "min": 1
+      },
+      {
+        "id": "map_contains_powerful_map_boss",
+        "max": 0,
+        "min": 0
       }
     ],
     "text": "Players cannot gain or lose experience",
+    "type": "MapPinnacleNoExperienceGainOrLoss",
+    "gold_value": null
+  },
+  "MapPowerfulWorkAround": {
+    "adds_tags": [],
+    "domain": "area",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_effects": [],
+    "groups": [
+      "Nothing"
+    ],
+    "implicit_tags": [],
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "map_no_experience",
+        "max": 0,
+        "min": 0
+      },
+      {
+        "id": "map_player_lose_no_experience_on_death",
+        "max": 0,
+        "min": 0
+      },
+      {
+        "id": "map_contains_powerful_map_boss",
+        "max": 1,
+        "min": 1
+      }
+    ],
+    "text": null,
     "type": "MapPinnacleNoExperienceGainOrLoss",
     "gold_value": null
   },
@@ -552536,6 +552561,110 @@
     ],
     "text": "1% increased Area of Effect for [UnarmedAttack|Unarmed Attacks] per 10 [Intelligence]",
     "type": "UnarmedAreaOfEffectPerXIntelligence",
+    "gold_value": null
+  },
+  "HandWrapsUniqueIntelligence51": {
+    "adds_tags": [],
+    "domain": "item",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_effects": [],
+    "groups": [
+      "CooldownRecovery"
+    ],
+    "implicit_tags": [],
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "base_cooldown_speed_+%",
+        "max": 25,
+        "min": 15
+      }
+    ],
+    "text": "(15-25)% increased [CooldownRecovery|Cooldown Recovery Rate]",
+    "type": "GlobalCooldownRecovery",
+    "gold_value": null
+  },
+  "HandWrapsUniqueIncreasedLife62": {
+    "adds_tags": [],
+    "domain": "item",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_effects": [],
+    "groups": [
+      "DamageTaken"
+    ],
+    "implicit_tags": [],
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "hand_wraps_damage_taken_+%_final_on_low_life",
+        "max": -8,
+        "min": -13
+      }
+    ],
+    "text": "(13-8)% less damage taken while on [LowLife|Low Life]",
+    "type": "HandWrapsDamageTakenOnLowLife",
+    "gold_value": null
+  },
+  "HandWrapsUniqueLocalIncreasedArmourAndEnergyShield30": {
+    "adds_tags": [],
+    "domain": "item",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_effects": [],
+    "groups": [
+      "EvasionEnergyShield"
+    ],
+    "implicit_tags": [
+      "defences",
+      "evasion",
+      "energy_shield"
+    ],
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "hand_wraps_evasion_rating_and_energy_shield_+%_final",
+        "max": 25,
+        "min": 20
+      }
+    ],
+    "text": "(20-25)% more Global [Evasion] Rating and [EnergyShield|Energy Shield]",
+    "type": "HandWrapsMoreGlobalEvasionEnergyShield",
+    "gold_value": null
+  },
+  "HandWrapsUniqueRecoupLifeEnergyShieldOpenWeakness1": {
+    "adds_tags": [],
+    "domain": "item",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_effects": [],
+    "groups": [
+      "HandWrapsRecoupLifeEnergyShieldAgainstOpenWeakness"
+    ],
+    "implicit_tags": [],
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "recoup_%_of_damage_taken_from_enemies_with_open_weakness_as_life_and_energy_shield",
+        "max": 65,
+        "min": 55
+      }
+    ],
+    "text": "(55-65)% of damage taken from enemies with an [RevealWeakness|Open Weakness] [Recoup|Recouped] as Life and [EnergyShield|Energy Shield]",
+    "type": "HandWrapsRecoupLifeEnergyShieldAgainstOpenWeakness",
     "gold_value": null
   },
   "HandWrapsDecayInfluenceIgniteMagnitude1": {

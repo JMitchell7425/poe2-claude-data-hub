@@ -124666,7 +124666,8 @@
       "bases": [
         "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow1",
         "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow2",
-        "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow3"
+        "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow3",
+        "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowVerisium3"
       ],
       "mods": {
         "suffix": {
