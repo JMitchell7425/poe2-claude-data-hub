@@ -1,6 +1,6 @@
 # Build Idea Pack — Super Tanky Build
 
-- Generated UTC: `2026-07-02T12:21:18+00:00`
+- Generated UTC: `2026-07-03T12:20:06+00:00`
 - Idea slug: `super-tanky-build`
 - Purpose: Find the strongest practical defensive build with enough damage for bosses and maps.
 - Keywords: `tank, tanky, survivability, life, maximum life, energy shield, armour, evasion, block, shield, resistance, chaos resistance, recovery, regeneration, regen, leech, recoup, damage reduction, guard, stun, ailment, boss, bossing, mitigation, warrior, mercenary, monk, defense, endurance charge`
@@ -7151,7 +7151,23 @@ _No keyword matches in this index._
 {"k":"HandWrapsUniqueLocalArmourAndEvasionAndEnergyShield3","n":"HandWrapsUniqueLocalArmourAndEvasionAndEnergyShield3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"hand_wraps_evasion_rating_and_energy_shield_+%_final","max":20,"min":15}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 67. HistoricAbyssJewelSmallGrantLifeRegenerationRateIncrease
+### 67. HandWrapsUniqueRecoupLifeEnergyShieldOpenWeakness1
+
+- Match score: `105`
+- `k`: HandWrapsUniqueRecoupLifeEnergyShieldOpenWeakness1
+- `n`: HandWrapsUniqueRecoupLifeEnergyShieldOpenWeakness1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"recoup_%_of_damage_taken_from_enemies_with_open_weakness_as_life_and_energy_shield","max":65,"min":55}]
+
+```json
+{"k":"HandWrapsUniqueRecoupLifeEnergyShieldOpenWeakness1","n":"HandWrapsUniqueRecoupLifeEnergyShieldOpenWeakness1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"recoup_%_of_damage_taken_from_enemies_with_open_weakness_as_life_and_energy_shield","max":65,"min":55}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 68. HistoricAbyssJewelSmallGrantLifeRegenerationRateIncrease
 
 - Match score: `105`
 - `k`: HistoricAbyssJewelSmallGrantLifeRegenerationRateIncrease
@@ -7167,7 +7183,7 @@ _No keyword matches in this index._
 {"k":"HistoricAbyssJewelSmallGrantLifeRegenerationRateIncrease","n":"HistoricAbyssJewelSmallGrantLifeRegenerationRateIncrease","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_historic_abyss_jewel_conquered_small_passives_grant_life_regen_rate_+%","max":3,"min":2}],"domain":"desecrated","gen":"unique","weights":[{"tag":"historic_abyss_jewel_2","weight":1},{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 68. LeechEnergyShieldInsteadofLife
+### 69. LeechEnergyShieldInsteadofLife
 
 - Match score: `105`
 - `k`: LeechEnergyShieldInsteadofLife
@@ -7183,7 +7199,7 @@ _No keyword matches in this index._
 {"k":"LeechEnergyShieldInsteadofLife","n":"LeechEnergyShieldInsteadofLife","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"convert_all_life_leech_to_energy_shield_leech","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 69. LifeAndEnergyShieldRecoveryRateUnique_1
+### 70. LifeAndEnergyShieldRecoveryRateUnique_1
 
 - Match score: `105`
 - `k`: LifeAndEnergyShieldRecoveryRateUnique_1
@@ -7199,7 +7215,7 @@ _No keyword matches in this index._
 {"k":"LifeAndEnergyShieldRecoveryRateUnique_1","n":"LifeAndEnergyShieldRecoveryRateUnique_1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"energy_shield_recovery_rate_+%","max":15,"min":10},{"id":"life_recovery_rate_+%","max":15,"min":10}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 70. LifeRegeneration1
+### 71. LifeRegeneration1
 
 - Match score: `105`
 - `k`: LifeRegeneration1
@@ -7211,7 +7227,7 @@ _No keyword matches in this index._
 {"k":"LifeRegeneration1","n":"LifeRegeneration1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
 ```
 
-### 71. LifeRegeneration10__
+### 72. LifeRegeneration10__
 
 - Match score: `105`
 - `k`: LifeRegeneration10__
@@ -7223,7 +7239,7 @@ _No keyword matches in this index._
 {"k":"LifeRegeneration10__","n":"LifeRegeneration10__","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 72. LifeRegeneration11____
+### 73. LifeRegeneration11____
 
 - Match score: `105`
 - `k`: LifeRegeneration11____
@@ -7235,7 +7251,7 @@ _No keyword matches in this index._
 {"k":"LifeRegeneration11____","n":"LifeRegeneration11____","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":81}
 ```
 
-### 73. LifeRegeneration2
+### 74. LifeRegeneration2
 
 - Match score: `105`
 - `k`: LifeRegeneration2
@@ -7247,7 +7263,7 @@ _No keyword matches in this index._
 {"k":"LifeRegeneration2","n":"LifeRegeneration2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":5}
 ```
 
-### 74. LifeRegeneration3
+### 75. LifeRegeneration3
 
 - Match score: `105`
 - `k`: LifeRegeneration3
@@ -7259,7 +7275,7 @@ _No keyword matches in this index._
 {"k":"LifeRegeneration3","n":"LifeRegeneration3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":11}
 ```
 
-### 75. LifeRegeneration4
+### 76. LifeRegeneration4
 
 - Match score: `105`
 - `k`: LifeRegeneration4
@@ -7271,7 +7287,7 @@ _No keyword matches in this index._
 {"k":"LifeRegeneration4","n":"LifeRegeneration4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":17}
 ```
 
-### 76. LifeRegeneration5
+### 77. LifeRegeneration5
 
 - Match score: `105`
 - `k`: LifeRegeneration5
@@ -7283,7 +7299,7 @@ _No keyword matches in this index._
 {"k":"LifeRegeneration5","n":"LifeRegeneration5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":26}
 ```
 
-### 77. LifeRegeneration6
+### 78. LifeRegeneration6
 
 - Match score: `105`
 - `k`: LifeRegeneration6
@@ -7295,7 +7311,7 @@ _No keyword matches in this index._
 {"k":"LifeRegeneration6","n":"LifeRegeneration6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":35}
 ```
 
-### 78. LifeRegeneration7
+### 79. LifeRegeneration7
 
 - Match score: `105`
 - `k`: LifeRegeneration7
@@ -7307,7 +7323,7 @@ _No keyword matches in this index._
 {"k":"LifeRegeneration7","n":"LifeRegeneration7","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":47}
 ```
 
-### 79. LifeRegeneration8_
+### 80. LifeRegeneration8_
 
 - Match score: `105`
 - `k`: LifeRegeneration8_
@@ -7319,7 +7335,7 @@ _No keyword matches in this index._
 {"k":"LifeRegeneration8_","n":"LifeRegeneration8_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":58}
 ```
 
-### 80. LifeRegeneration9
+### 81. LifeRegeneration9
 
 - Match score: `105`
 - `k`: LifeRegeneration9
@@ -7331,7 +7347,7 @@ _No keyword matches in this index._
 {"k":"LifeRegeneration9","n":"LifeRegeneration9","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
 ```
 
-### 81. LifeRegenerationAuraUniqueAmulet21
+### 82. LifeRegenerationAuraUniqueAmulet21
 
 - Match score: `105`
 - `k`: LifeRegenerationAuraUniqueAmulet21
@@ -7347,7 +7363,7 @@ _No keyword matches in this index._
 {"k":"LifeRegenerationAuraUniqueAmulet21","n":"LifeRegenerationAuraUniqueAmulet21","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"dummy_stat_display_nothing","max":120,"min":120},{"id":"dummy_stat_display_nothing","max":40,"min":40}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 82. LifeRegenerationOnLowLifeUniqueAmulet4
+### 83. LifeRegenerationOnLowLifeUniqueAmulet4
 
 - Match score: `105`
 - `k`: LifeRegenerationOnLowLifeUniqueAmulet4
@@ -7363,7 +7379,7 @@ _No keyword matches in this index._
 {"k":"LifeRegenerationOnLowLifeUniqueAmulet4","n":"LifeRegenerationOnLowLifeUniqueAmulet4","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_rate_per_minute_%_when_on_low_life","max":60,"min":60}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 83. LifeRegenerationOnLowLifeUniqueBodyStrInt2
+### 84. LifeRegenerationOnLowLifeUniqueBodyStrInt2
 
 - Match score: `105`
 - `k`: LifeRegenerationOnLowLifeUniqueBodyStrInt2
@@ -7379,7 +7395,7 @@ _No keyword matches in this index._
 {"k":"LifeRegenerationOnLowLifeUniqueBodyStrInt2","n":"LifeRegenerationOnLowLifeUniqueBodyStrInt2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_rate_per_minute_%_when_on_low_life","max":120,"min":120}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 84. LifeRegenerationPercentPerEnduranceChargeUnique__1
+### 85. LifeRegenerationPercentPerEnduranceChargeUnique__1
 
 - Match score: `105`
 - `k`: LifeRegenerationPercentPerEnduranceChargeUnique__1
@@ -7395,7 +7411,7 @@ _No keyword matches in this index._
 {"k":"LifeRegenerationPercentPerEnduranceChargeUnique__1","n":"LifeRegenerationPercentPerEnduranceChargeUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_rate_per_minute_%_per_endurance_charge","max":12,"min":12}],"domain":"item","gen":"unique","lvl":40}
 ```
 
-### 85. LifeRegenerationPerFrenzyChargeUniqueBootsDex4
+### 86. LifeRegenerationPerFrenzyChargeUniqueBootsDex4
 
 - Match score: `105`
 - `k`: LifeRegenerationPerFrenzyChargeUniqueBootsDex4
@@ -7411,7 +7427,7 @@ _No keyword matches in this index._
 {"k":"LifeRegenerationPerFrenzyChargeUniqueBootsDex4","n":"LifeRegenerationPerFrenzyChargeUniqueBootsDex4","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_rate_per_minute_%_per_frenzy_charge","max":48,"min":48}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 86. LifeRegenerationPerLevelUniqueTwoHandSword7
+### 87. LifeRegenerationPerLevelUniqueTwoHandSword7
 
 - Match score: `105`
 - `k`: LifeRegenerationPerLevelUniqueTwoHandSword7
@@ -7427,7 +7443,7 @@ _No keyword matches in this index._
 {"k":"LifeRegenerationPerLevelUniqueTwoHandSword7","n":"LifeRegenerationPerLevelUniqueTwoHandSword7","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_rate_per_minute_per_level","max":12,"min":12}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 87. LifeRegenerationPerMinuteWhileNoCorruptedItemsUnique__1
+### 88. LifeRegenerationPerMinuteWhileNoCorruptedItemsUnique__1
 
 - Match score: `105`
 - `k`: LifeRegenerationPerMinuteWhileNoCorruptedItemsUnique__1
@@ -7443,7 +7459,7 @@ _No keyword matches in this index._
 {"k":"LifeRegenerationPerMinuteWhileNoCorruptedItemsUnique__1","n":"LifeRegenerationPerMinuteWhileNoCorruptedItemsUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_per_minute_with_no_corrupted_equipped_items","max":24000,"min":24000}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 88. LifeRegenerationRatePercentageUniqueAmulet21
+### 89. LifeRegenerationRatePercentageUniqueAmulet21
 
 - Match score: `105`
 - `k`: LifeRegenerationRatePercentageUniqueAmulet21
@@ -7459,7 +7475,7 @@ _No keyword matches in this index._
 {"k":"LifeRegenerationRatePercentageUniqueAmulet21","n":"LifeRegenerationRatePercentageUniqueAmulet21","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_rate_per_minute_%","max":240,"min":240}],"domain":"item","gen":"unique","lvl":20}
 ```
 
-### 89. LifeRegenerationRatePercentageUniqueJewel24
+### 90. LifeRegenerationRatePercentageUniqueJewel24
 
 - Match score: `105`
 - `k`: LifeRegenerationRatePercentageUniqueJewel24
@@ -7475,7 +7491,7 @@ _No keyword matches in this index._
 {"k":"LifeRegenerationRatePercentageUniqueJewel24","n":"LifeRegenerationRatePercentageUniqueJewel24","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_rate_per_minute_%","max":120,"min":120}],"domain":"misc","gen":"unique","lvl":1}
 ```
 
-### 90. LifeRegenerationRatePercentImplicitUnique__5
+### 91. LifeRegenerationRatePercentImplicitUnique__5
 
 - Match score: `105`
 - `k`: LifeRegenerationRatePercentImplicitUnique__5
@@ -7491,7 +7507,7 @@ _No keyword matches in this index._
 {"k":"LifeRegenerationRatePercentImplicitUnique__5","n":"LifeRegenerationRatePercentImplicitUnique__5","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_rate_per_minute_%","max":120,"min":60}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 91. LifeRegenerationRatePercentUnique__1
+### 92. LifeRegenerationRatePercentUnique__1
 
 - Match score: `105`
 - `k`: LifeRegenerationRatePercentUnique__1
@@ -7507,7 +7523,7 @@ _No keyword matches in this index._
 {"k":"LifeRegenerationRatePercentUnique__1","n":"LifeRegenerationRatePercentUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_rate_per_minute_%","max":120,"min":120}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 92. LifeRegenerationRatePercentUnique__2
+### 93. LifeRegenerationRatePercentUnique__2
 
 - Match score: `105`
 - `k`: LifeRegenerationRatePercentUnique__2
@@ -7523,7 +7539,7 @@ _No keyword matches in this index._
 {"k":"LifeRegenerationRatePercentUnique__2","n":"LifeRegenerationRatePercentUnique__2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_rate_per_minute_%","max":600,"min":600}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 93. LifeRegenerationRatePercentUnique__3
+### 94. LifeRegenerationRatePercentUnique__3
 
 - Match score: `105`
 - `k`: LifeRegenerationRatePercentUnique__3
@@ -7539,7 +7555,7 @@ _No keyword matches in this index._
 {"k":"LifeRegenerationRatePercentUnique__3","n":"LifeRegenerationRatePercentUnique__3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_rate_per_minute_%","max":60,"min":60}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 94. LifeRegenerationRatePercentUnique__4_
+### 95. LifeRegenerationRatePercentUnique__4_
 
 - Match score: `105`
 - `k`: LifeRegenerationRatePercentUnique__4_
@@ -7555,7 +7571,7 @@ _No keyword matches in this index._
 {"k":"LifeRegenerationRatePercentUnique__4_","n":"LifeRegenerationRatePercentUnique__4_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_rate_per_minute_%","max":60,"min":60}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 95. LifeRegenerationRatePercentUnique__5
+### 96. LifeRegenerationRatePercentUnique__5
 
 - Match score: `105`
 - `k`: LifeRegenerationRatePercentUnique__5
@@ -7571,7 +7587,7 @@ _No keyword matches in this index._
 {"k":"LifeRegenerationRatePercentUnique__5","n":"LifeRegenerationRatePercentUnique__5","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_rate_per_minute_%","max":180,"min":180}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 96. LifeRegenerationStrIntRelic
+### 97. LifeRegenerationStrIntRelic
 
 - Match score: `105`
 - `k`: LifeRegenerationStrIntRelic
@@ -7587,7 +7603,7 @@ _No keyword matches in this index._
 {"k":"LifeRegenerationStrIntRelic","n":"LifeRegenerationStrIntRelic","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_rate_per_minute_%","max":60,"min":60}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 97. LifeRegenerationUniqueWreath1
+### 98. LifeRegenerationUniqueWreath1
 
 - Match score: `105`
 - `k`: LifeRegenerationUniqueWreath1
@@ -7603,7 +7619,7 @@ _No keyword matches in this index._
 {"k":"LifeRegenerationUniqueWreath1","n":"LifeRegenerationUniqueWreath1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_life_regeneration_rate_per_minute","max":120,"min":120}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 98. LifeRegenerationWhileFrozenUnique__1
+### 99. LifeRegenerationWhileFrozenUnique__1
 
 - Match score: `105`
 - `k`: LifeRegenerationWhileFrozenUnique__1
@@ -7619,7 +7635,7 @@ _No keyword matches in this index._
 {"k":"LifeRegenerationWhileFrozenUnique__1","n":"LifeRegenerationWhileFrozenUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_per_minute_%_while_frozen","max":600,"min":600}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 99. LifeRegenerationWhileMovingUnique__1
+### 100. LifeRegenerationWhileMovingUnique__1
 
 - Match score: `105`
 - `k`: LifeRegenerationWhileMovingUnique__1
@@ -7635,7 +7651,7 @@ _No keyword matches in this index._
 {"k":"LifeRegenerationWhileMovingUnique__1","n":"LifeRegenerationWhileMovingUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_per_minute_while_moving","max":6000,"min":6000}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 100. LocalArmourAndEnergyShieldAndStunThreshold1
+### 101. LocalArmourAndEnergyShieldAndStunThreshold1
 
 - Match score: `105`
 - `k`: LocalArmourAndEnergyShieldAndStunThreshold1
@@ -7647,7 +7663,7 @@ _No keyword matches in this index._
 {"k":"LocalArmourAndEnergyShieldAndStunThreshold1","n":"LocalArmourAndEnergyShieldAndStunThreshold1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":10}
 ```
 
-### 101. LocalArmourAndEnergyShieldAndStunThreshold2
+### 102. LocalArmourAndEnergyShieldAndStunThreshold2
 
 - Match score: `105`
 - `k`: LocalArmourAndEnergyShieldAndStunThreshold2
@@ -7659,7 +7675,7 @@ _No keyword matches in this index._
 {"k":"LocalArmourAndEnergyShieldAndStunThreshold2","n":"LocalArmourAndEnergyShieldAndStunThreshold2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":19}
 ```
 
-### 102. LocalArmourAndEnergyShieldAndStunThreshold3
+### 103. LocalArmourAndEnergyShieldAndStunThreshold3
 
 - Match score: `105`
 - `k`: LocalArmourAndEnergyShieldAndStunThreshold3
@@ -7671,7 +7687,7 @@ _No keyword matches in this index._
 {"k":"LocalArmourAndEnergyShieldAndStunThreshold3","n":"LocalArmourAndEnergyShieldAndStunThreshold3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":38}
 ```
 
-### 103. LocalArmourAndEnergyShieldAndStunThreshold4
+### 104. LocalArmourAndEnergyShieldAndStunThreshold4
 
 - Match score: `105`
 - `k`: LocalArmourAndEnergyShieldAndStunThreshold4
@@ -7683,7 +7699,7 @@ _No keyword matches in this index._
 {"k":"LocalArmourAndEnergyShieldAndStunThreshold4","n":"LocalArmourAndEnergyShieldAndStunThreshold4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":48}
 ```
 
-### 104. LocalArmourAndEnergyShieldAndStunThreshold5
+### 105. LocalArmourAndEnergyShieldAndStunThreshold5
 
 - Match score: `105`
 - `k`: LocalArmourAndEnergyShieldAndStunThreshold5
@@ -7695,7 +7711,7 @@ _No keyword matches in this index._
 {"k":"LocalArmourAndEnergyShieldAndStunThreshold5","n":"LocalArmourAndEnergyShieldAndStunThreshold5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":63}
 ```
 
-### 105. LocalArmourAndEnergyShieldAndStunThreshold6
+### 106. LocalArmourAndEnergyShieldAndStunThreshold6
 
 - Match score: `105`
 - `k`: LocalArmourAndEnergyShieldAndStunThreshold6
@@ -7707,7 +7723,7 @@ _No keyword matches in this index._
 {"k":"LocalArmourAndEnergyShieldAndStunThreshold6","n":"LocalArmourAndEnergyShieldAndStunThreshold6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":74}
 ```
 
-### 106. LocalArmourAndEvasionAndEnergyShieldUniqueBodyStrDexInt1i
+### 107. LocalArmourAndEvasionAndEnergyShieldUniqueBodyStrDexInt1i
 
 - Match score: `105`
 - `k`: LocalArmourAndEvasionAndEnergyShieldUniqueBodyStrDexInt1i
@@ -7723,7 +7739,7 @@ _No keyword matches in this index._
 {"k":"LocalArmourAndEvasionAndEnergyShieldUniqueBodyStrDexInt1i","n":"LocalArmourAndEvasionAndEnergyShieldUniqueBodyStrDexInt1i","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_armour_and_evasion_and_energy_shield_+%","max":340,"min":270}],"domain":"item","gen":"unique","lvl":94}
 ```
 
-### 107. LocalArmourAndEvasionAndStunThreshold1
+### 108. LocalArmourAndEvasionAndStunThreshold1
 
 - Match score: `105`
 - `k`: LocalArmourAndEvasionAndStunThreshold1
@@ -7735,7 +7751,7 @@ _No keyword matches in this index._
 {"k":"LocalArmourAndEvasionAndStunThreshold1","n":"LocalArmourAndEvasionAndStunThreshold1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":10}
 ```
 
-### 108. LocalArmourAndEvasionAndStunThreshold2
+### 109. LocalArmourAndEvasionAndStunThreshold2
 
 - Match score: `105`
 - `k`: LocalArmourAndEvasionAndStunThreshold2
@@ -7747,7 +7763,7 @@ _No keyword matches in this index._
 {"k":"LocalArmourAndEvasionAndStunThreshold2","n":"LocalArmourAndEvasionAndStunThreshold2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":19}
 ```
 
-### 109. LocalArmourAndEvasionAndStunThreshold3
+### 110. LocalArmourAndEvasionAndStunThreshold3
 
 - Match score: `105`
 - `k`: LocalArmourAndEvasionAndStunThreshold3
@@ -7759,7 +7775,7 @@ _No keyword matches in this index._
 {"k":"LocalArmourAndEvasionAndStunThreshold3","n":"LocalArmourAndEvasionAndStunThreshold3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":38}
 ```
 
-### 110. LocalArmourAndEvasionAndStunThreshold4
+### 111. LocalArmourAndEvasionAndStunThreshold4
 
 - Match score: `105`
 - `k`: LocalArmourAndEvasionAndStunThreshold4
@@ -7771,7 +7787,7 @@ _No keyword matches in this index._
 {"k":"LocalArmourAndEvasionAndStunThreshold4","n":"LocalArmourAndEvasionAndStunThreshold4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":48}
 ```
 
-### 111. LocalArmourAndEvasionAndStunThreshold5
+### 112. LocalArmourAndEvasionAndStunThreshold5
 
 - Match score: `105`
 - `k`: LocalArmourAndEvasionAndStunThreshold5
@@ -7783,7 +7799,7 @@ _No keyword matches in this index._
 {"k":"LocalArmourAndEvasionAndStunThreshold5","n":"LocalArmourAndEvasionAndStunThreshold5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":63}
 ```
 
-### 112. LocalArmourAndEvasionAndStunThreshold6
+### 113. LocalArmourAndEvasionAndStunThreshold6
 
 - Match score: `105`
 - `k`: LocalArmourAndEvasionAndStunThreshold6
@@ -7795,7 +7811,7 @@ _No keyword matches in this index._
 {"k":"LocalArmourAndEvasionAndStunThreshold6","n":"LocalArmourAndEvasionAndStunThreshold6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":74}
 ```
 
-### 113. LocalEvasionAndEnergyShieldAndStunThreshold1
+### 114. LocalEvasionAndEnergyShieldAndStunThreshold1
 
 - Match score: `105`
 - `k`: LocalEvasionAndEnergyShieldAndStunThreshold1
@@ -7807,7 +7823,7 @@ _No keyword matches in this index._
 {"k":"LocalEvasionAndEnergyShieldAndStunThreshold1","n":"LocalEvasionAndEnergyShieldAndStunThreshold1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":10}
 ```
 
-### 114. LocalEvasionAndEnergyShieldAndStunThreshold2
+### 115. LocalEvasionAndEnergyShieldAndStunThreshold2
 
 - Match score: `105`
 - `k`: LocalEvasionAndEnergyShieldAndStunThreshold2
@@ -7819,7 +7835,7 @@ _No keyword matches in this index._
 {"k":"LocalEvasionAndEnergyShieldAndStunThreshold2","n":"LocalEvasionAndEnergyShieldAndStunThreshold2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":19}
 ```
 
-### 115. LocalEvasionAndEnergyShieldAndStunThreshold3
+### 116. LocalEvasionAndEnergyShieldAndStunThreshold3
 
 - Match score: `105`
 - `k`: LocalEvasionAndEnergyShieldAndStunThreshold3
@@ -7831,7 +7847,7 @@ _No keyword matches in this index._
 {"k":"LocalEvasionAndEnergyShieldAndStunThreshold3","n":"LocalEvasionAndEnergyShieldAndStunThreshold3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":38}
 ```
 
-### 116. LocalEvasionAndEnergyShieldAndStunThreshold4
+### 117. LocalEvasionAndEnergyShieldAndStunThreshold4
 
 - Match score: `105`
 - `k`: LocalEvasionAndEnergyShieldAndStunThreshold4
@@ -7843,7 +7859,7 @@ _No keyword matches in this index._
 {"k":"LocalEvasionAndEnergyShieldAndStunThreshold4","n":"LocalEvasionAndEnergyShieldAndStunThreshold4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":48}
 ```
 
-### 117. LocalEvasionAndEnergyShieldAndStunThreshold5
+### 118. LocalEvasionAndEnergyShieldAndStunThreshold5
 
 - Match score: `105`
 - `k`: LocalEvasionAndEnergyShieldAndStunThreshold5
@@ -7855,7 +7871,7 @@ _No keyword matches in this index._
 {"k":"LocalEvasionAndEnergyShieldAndStunThreshold5","n":"LocalEvasionAndEnergyShieldAndStunThreshold5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":63}
 ```
 
-### 118. LocalEvasionAndEnergyShieldAndStunThreshold6
+### 119. LocalEvasionAndEnergyShieldAndStunThreshold6
 
 - Match score: `105`
 - `k`: LocalEvasionAndEnergyShieldAndStunThreshold6
@@ -7867,7 +7883,7 @@ _No keyword matches in this index._
 {"k":"LocalEvasionAndEnergyShieldAndStunThreshold6","n":"LocalEvasionAndEnergyShieldAndStunThreshold6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":74}
 ```
 
-### 119. LocalIncreasedArmourAndEnergyShieldAndLife1
+### 120. LocalIncreasedArmourAndEnergyShieldAndLife1
 
 - Match score: `105`
 - `k`: LocalIncreasedArmourAndEnergyShieldAndLife1
@@ -7877,18 +7893,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"LocalIncreasedArmourAndEnergyShieldAndLife1","n":"LocalIncreasedArmourAndEnergyShieldAndLife1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":8}
-```
-
-### 120. LocalIncreasedArmourAndEnergyShieldAndLife2
-
-- Match score: `105`
-- `k`: LocalIncreasedArmourAndEnergyShieldAndLife2
-- `n`: LocalIncreasedArmourAndEnergyShieldAndLife2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"LocalIncreasedArmourAndEnergyShieldAndLife2","n":"LocalIncreasedArmourAndEnergyShieldAndLife2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":16}
 ```
 
 ## Rune mods
