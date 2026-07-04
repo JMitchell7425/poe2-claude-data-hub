@@ -1,6 +1,6 @@
 # Build Idea Pack — Minion Build
 
-- Generated UTC: `2026-07-03T12:20:10+00:00`
+- Generated UTC: `2026-07-04T11:45:55+00:00`
 - Idea slug: `minion-build`
 - Purpose: Engineer a minion-focused build for safe clear, boss damage, and low mechanical strain.
 - Keywords: `minion, summon, skeleton, zombie, spirit, persistent, aura, command, revive, ally, damage, life, resistance, energy shield, curse, support, boss, clear, witch, infernalist, blood mage`
