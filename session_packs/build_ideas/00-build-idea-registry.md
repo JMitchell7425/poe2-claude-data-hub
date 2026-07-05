@@ -1,6 +1,6 @@
 # Build Idea Pack Registry
 
-- Generated UTC: `2026-07-04T11:45:50+00:00`
+- Generated UTC: `2026-07-05T11:48:00+00:00`
 - Source idea file: `build_ideas.json`
 
 Use this registry to select the smallest relevant pack for the current Claude session.
