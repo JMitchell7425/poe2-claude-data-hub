@@ -1,6 +1,6 @@
 # Build Idea Pack Registry
 
-- Generated UTC: `2026-07-07T12:38:57+00:00`
+- Generated UTC: `2026-07-08T11:53:22+00:00`
 - Source idea file: `build_ideas.json`
 
 Use this registry to select the smallest relevant pack for the current Claude session.
@@ -21,6 +21,7 @@ Use this registry to select the smallest relevant pack for the current Claude se
 | Charge-Stacking Build | `session_packs/build_ideas/charge-stacking-build.md` | Engineer around power, frenzy, endurance, charge generation, charge consumption, and charge scaling. | charge, charges, power charge, frenzy charge, endurance charge, gain charge, consume charge, maximum charge, critical, crit, duration, killing palm, charge profusion, overflowing power, damage, speed, boss, clear |
 | Hardcore-Safe Build | `session_packs/build_ideas/hardcore-safe-build.md` | Engineer a conservative survival-first build with reliable damage and minimal mechanical risk. | hardcore, safe, survival, defense, life, maximum life, energy shield, armour, evasion, block, resistance, chaos resistance, recovery, regen, leech, recoup, ailment, stun, guard, boss, map, controller, ps5 |
 | Support / Party Build | `session_packs/build_ideas/support-party-build.md` | Engineer party support builds focused on curses, auras, control, debuffs, and ally amplification. | support, party, ally, aura, curse, blasphemy, temporal chains, enfeeble, exposure, shock, freeze, resistance, spirit, reservation, duration, cooldown, chronomancer, witch, sorceress, debuff, control |
+| Flicker Strike Map Clear (CI Monk) | `session_packs/build_ideas/flicker-strike-map-clear.md` | Engineer and optimize Flicker Strike as a primary map-clear skill for a CI Energy Shield Monk, focused on charge-fed teleport-strike clear speed, AoE coverage, and support gem selection aligned to clearing rather than bossing. | flicker strike, teleport, charge, power charge, charge profusion, perpetual charge, combo, culmination, ailith's chimes, shattering palm, killing palm, monk, martial artist, cold, conversion, energy shield, chaos inoculation, area, aoe, radius, close combat, concentrated area, blindside, blind, cooldown, clear, map, controller, ps5 |
 
 ## How to add a new idea
 
