@@ -1,6 +1,6 @@
 # PoE2 Data Manifest Summary
 
-- Generated UTC: `2026-07-10T12:37:08+00:00`
+- Generated UTC: `2026-07-11T11:18:28+00:00`
 - Source priority: GGG passive tree -> RePoE PoE2 -> PoB-data PoE2 -> community sources only as benchmarks
 
 ## Download results
@@ -32,7 +32,7 @@
 | OK | `sources/pob_data_poe2/ModCharm.json` | 51 | 18,999 | https://repoe-fork.github.io/pob-data/poe2/ModCharm.json |
 | OK | `sources/pob_data_poe2/ModFlask.json` | 78 | 33,291 | https://repoe-fork.github.io/pob-data/poe2/ModFlask.json |
 | OK | `sources/pob_data_poe2/QueryMods.json` | 8 | 697,986 | https://repoe-fork.github.io/pob-data/poe2/QueryMods.json |
-| OK | `sources/pob_data_poe2/SkillStatMap.json` | 972 | 196,677 | https://repoe-fork.github.io/pob-data/poe2/SkillStatMap.json |
+| OK | `sources/pob_data_poe2/SkillStatMap.json` | 972 | 196,670 | https://repoe-fork.github.io/pob-data/poe2/SkillStatMap.json |
 | OK | `sources/pob_data_poe2/TradeSiteStats.json` | 10 | 1,121,880 | https://repoe-fork.github.io/pob-data/poe2/TradeSiteStats.json |
 | OK | `sources/pob_data_poe2/Costs.json` | 19 | 2,419 | https://repoe-fork.github.io/pob-data/poe2/Costs.json |
 | OK | `sources/pob_data_poe2/Misc.json` | 21 | 20,209 | https://repoe-fork.github.io/pob-data/poe2/Misc.json |
