@@ -1,6 +1,6 @@
 # Build Idea Pack — Caster Build
 
-- Generated UTC: `2026-07-11T11:18:47+00:00`
+- Generated UTC: `2026-07-12T11:30:17+00:00`
 - Idea slug: `caster-build`
 - Purpose: Engineer a high-damage spellcaster with strong map clear, bossing, sustain, and PS5-friendly execution.
 - Keywords: `spell, caster, cast speed, critical, crit, mana, energy shield, spirit, lightning, cold, fire, chaos, projectile, area, aoe, exposure, penetration, shock, freeze, ignite, wand, staff, focus, sorceress, witch, chronomancer, stormweaver, blood mage`
@@ -7389,404 +7389,329 @@ _No keyword matches in this index._
 {"k":"CorruptionUpgradeGlobalIncreaseLightningSpellSkillGemLevel","n":"CorruptionUpgradeGlobalIncreaseLightningSpellSkillGemLevel","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"lightning_spell_skill_gem_level_+","max":3,"min":2}],"domain":"item","gen":"unique","adds_tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"lvl":1}
 ```
 
-### 96. UniqueGlobalColdSpellGemsLevel1
+### 96. GlobalChaosSpellGemsLevel1
 
 - Match score: `100`
-- `k`: UniqueGlobalColdSpellGemsLevel1
-- `n`: UniqueGlobalColdSpellGemsLevel1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"cold_spell_skill_gem_level_+","max":7,"min":5}]
+- `k`: GlobalChaosSpellGemsLevel1
+- `n`: GlobalChaosSpellGemsLevel1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"UniqueGlobalColdSpellGemsLevel1","n":"UniqueGlobalColdSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"cold_spell_skill_gem_level_+","max":7,"min":5}],"domain":"item","gen":"unique","adds_tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"lvl":1}
+{"k":"GlobalChaosSpellGemsLevel1","n":"GlobalChaosSpellGemsLevel1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":5}
 ```
 
-### 97. CorruptionFreezeDamageIncrease1
+### 97. GlobalChaosSpellGemsLevel2
 
-- Match score: `95`
-- `k`: CorruptionFreezeDamageIncrease1
-- `n`: CorruptionFreezeDamageIncrease1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: corrupted
-- `domain`: item
-- `stats`: [{"id":"hit_damage_freeze_multiplier_+%","max":30,"min":20}]
+- Match score: `100`
+- `k`: GlobalChaosSpellGemsLevel2
+- `n`: GlobalChaosSpellGemsLevel2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"CorruptionFreezeDamageIncrease1","n":"CorruptionFreezeDamageIncrease1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"hit_damage_freeze_multiplier_+%","max":30,"min":20}],"domain":"item","gen":"corrupted","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods"],"lvl":1}
+{"k":"GlobalChaosSpellGemsLevel2","n":"GlobalChaosSpellGemsLevel2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":41}
 ```
 
-### 98. CorruptionGlobalPhysicalSpellGemsLevel1
+### 98. GlobalChaosSpellGemsLevel3
 
-- Match score: `95`
-- `k`: CorruptionGlobalPhysicalSpellGemsLevel1
-- `n`: CorruptionGlobalPhysicalSpellGemsLevel1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: corrupted
-- `domain`: item
-- `stats`: [{"id":"physical_spell_skill_gem_level_+","max":1,"min":1}]
+- Match score: `100`
+- `k`: GlobalChaosSpellGemsLevel3
+- `n`: GlobalChaosSpellGemsLevel3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"CorruptionGlobalPhysicalSpellGemsLevel1","n":"CorruptionGlobalPhysicalSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"physical_spell_skill_gem_level_+","max":1,"min":1}],"domain":"item","gen":"corrupted","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods"],"lvl":1}
+{"k":"GlobalChaosSpellGemsLevel3","n":"GlobalChaosSpellGemsLevel3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":75}
 ```
 
-### 99. CorruptionIgniteChanceIncrease1
+### 99. GlobalChaosSpellGemsLevelTwoHandWeapon1
 
-- Match score: `95`
-- `k`: CorruptionIgniteChanceIncrease1
-- `n`: CorruptionIgniteChanceIncrease1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: corrupted
-- `domain`: item
-- `stats`: [{"id":"ignite_chance_+%","max":30,"min":20}]
+- Match score: `100`
+- `k`: GlobalChaosSpellGemsLevelTwoHandWeapon1
+- `n`: GlobalChaosSpellGemsLevelTwoHandWeapon1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"CorruptionIgniteChanceIncrease1","n":"CorruptionIgniteChanceIncrease1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"ignite_chance_+%","max":30,"min":20}],"domain":"item","gen":"corrupted","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods"],"lvl":1}
+{"k":"GlobalChaosSpellGemsLevelTwoHandWeapon1","n":"GlobalChaosSpellGemsLevelTwoHandWeapon1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":2}
 ```
 
-### 100. CorruptionShockChanceIncrease1
+### 100. GlobalChaosSpellGemsLevelTwoHandWeapon2
 
-- Match score: `95`
-- `k`: CorruptionShockChanceIncrease1
-- `n`: CorruptionShockChanceIncrease1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: corrupted
-- `domain`: item
-- `stats`: [{"id":"shock_chance_+%","max":30,"min":20}]
+- Match score: `100`
+- `k`: GlobalChaosSpellGemsLevelTwoHandWeapon2
+- `n`: GlobalChaosSpellGemsLevelTwoHandWeapon2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"CorruptionShockChanceIncrease1","n":"CorruptionShockChanceIncrease1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"shock_chance_+%","max":30,"min":20}],"domain":"item","gen":"corrupted","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods"],"lvl":1}
+{"k":"GlobalChaosSpellGemsLevelTwoHandWeapon2","n":"GlobalChaosSpellGemsLevelTwoHandWeapon2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":18}
 ```
 
-### 101. CorruptionUpgradeFreezeDamageIncrease1
+### 101. GlobalChaosSpellGemsLevelTwoHandWeapon3
 
-- Match score: `95`
-- `k`: CorruptionUpgradeFreezeDamageIncrease1
-- `n`: CorruptionUpgradeFreezeDamageIncrease1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"hit_damage_freeze_multiplier_+%","max":75,"min":50}]
+- Match score: `100`
+- `k`: GlobalChaosSpellGemsLevelTwoHandWeapon3
+- `n`: GlobalChaosSpellGemsLevelTwoHandWeapon3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"CorruptionUpgradeFreezeDamageIncrease1","n":"CorruptionUpgradeFreezeDamageIncrease1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"hit_damage_freeze_multiplier_+%","max":75,"min":50}],"domain":"item","gen":"unique","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods"],"lvl":1}
+{"k":"GlobalChaosSpellGemsLevelTwoHandWeapon3","n":"GlobalChaosSpellGemsLevelTwoHandWeapon3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":36}
 ```
 
-### 102. CorruptionUpgradeGlobalPhysicalSpellGemsLevel1
+### 102. GlobalChaosSpellGemsLevelTwoHandWeapon4
 
-- Match score: `95`
-- `k`: CorruptionUpgradeGlobalPhysicalSpellGemsLevel1
-- `n`: CorruptionUpgradeGlobalPhysicalSpellGemsLevel1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"physical_spell_skill_gem_level_+","max":2,"min":2}]
+- Match score: `100`
+- `k`: GlobalChaosSpellGemsLevelTwoHandWeapon4
+- `n`: GlobalChaosSpellGemsLevelTwoHandWeapon4
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"CorruptionUpgradeGlobalPhysicalSpellGemsLevel1","n":"CorruptionUpgradeGlobalPhysicalSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"physical_spell_skill_gem_level_+","max":2,"min":2}],"domain":"item","gen":"unique","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods"],"lvl":1}
+{"k":"GlobalChaosSpellGemsLevelTwoHandWeapon4","n":"GlobalChaosSpellGemsLevelTwoHandWeapon4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":55}
 ```
 
-### 103. ChaosCritMultiplier
+### 103. GlobalChaosSpellGemsLevelTwoHandWeapon5
 
-- Match score: `80`
-- `k`: ChaosCritMultiplier
-- `n`: ChaosCritMultiplier
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: misc
-- `stats`: [{"id":"chaos_critical_strike_multiplier_+","max":10,"min":8}]
+- Match score: `100`
+- `k`: GlobalChaosSpellGemsLevelTwoHandWeapon5
+- `n`: GlobalChaosSpellGemsLevelTwoHandWeapon5
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"ChaosCritMultiplier","n":"ChaosCritMultiplier","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"chaos_critical_strike_multiplier_+","max":10,"min":8}],"domain":"misc","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
+{"k":"GlobalChaosSpellGemsLevelTwoHandWeapon5","n":"GlobalChaosSpellGemsLevelTwoHandWeapon5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":81}
 ```
 
-### 104. HandWrapsUniqueFireDamageConvertToCold1
+### 104. GlobalChaosSpellGemsLevelWeapon1
 
-- Match score: `80`
-- `k`: HandWrapsUniqueFireDamageConvertToCold1
-- `n`: HandWrapsUniqueFireDamageConvertToCold1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"non_skill_base_fire_damage_%_to_convert_to_lightning","max":100,"min":100}]
+- Match score: `100`
+- `k`: GlobalChaosSpellGemsLevelWeapon1
+- `n`: GlobalChaosSpellGemsLevelWeapon1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"HandWrapsUniqueFireDamageConvertToCold1","n":"HandWrapsUniqueFireDamageConvertToCold1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"non_skill_base_fire_damage_%_to_convert_to_lightning","max":100,"min":100}],"domain":"item","gen":"unique","lvl":1}
+{"k":"GlobalChaosSpellGemsLevelWeapon1","n":"GlobalChaosSpellGemsLevelWeapon1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":2}
 ```
 
-### 105. HandWrapsUniqueFireDamageConvertToLightning1
+### 105. GlobalChaosSpellGemsLevelWeapon2
 
-- Match score: `80`
-- `k`: HandWrapsUniqueFireDamageConvertToLightning1
-- `n`: HandWrapsUniqueFireDamageConvertToLightning1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"non_skill_base_lightning_damage_%_to_convert_to_cold","max":100,"min":100}]
+- Match score: `100`
+- `k`: GlobalChaosSpellGemsLevelWeapon2
+- `n`: GlobalChaosSpellGemsLevelWeapon2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"HandWrapsUniqueFireDamageConvertToLightning1","n":"HandWrapsUniqueFireDamageConvertToLightning1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"non_skill_base_lightning_damage_%_to_convert_to_cold","max":100,"min":100}],"domain":"item","gen":"unique","lvl":1}
+{"k":"GlobalChaosSpellGemsLevelWeapon2","n":"GlobalChaosSpellGemsLevelWeapon2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":18}
 ```
 
-### 106. LightningStrikesOnCritUnique__1
+### 106. GlobalChaosSpellGemsLevelWeapon3
 
-- Match score: `80`
-- `k`: LightningStrikesOnCritUnique__1
-- `n`: LightningStrikesOnCritUnique__1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 50
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"local_display_cast_lightning_on_critical_strike","max":12,"min":12}]
+- Match score: `100`
+- `k`: GlobalChaosSpellGemsLevelWeapon3
+- `n`: GlobalChaosSpellGemsLevelWeapon3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"LightningStrikesOnCritUnique__1","n":"LightningStrikesOnCritUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_cast_lightning_on_critical_strike","max":12,"min":12}],"domain":"item","gen":"unique","lvl":50}
+{"k":"GlobalChaosSpellGemsLevelWeapon3","n":"GlobalChaosSpellGemsLevelWeapon3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":36}
 ```
 
-### 107. LightningStrikesOnCritUnique__2
+### 107. GlobalChaosSpellGemsLevelWeapon4
 
-- Match score: `80`
-- `k`: LightningStrikesOnCritUnique__2
-- `n`: LightningStrikesOnCritUnique__2
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 87
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"local_display_cast_lightning_on_critical_strike","max":30,"min":30}]
+- Match score: `100`
+- `k`: GlobalChaosSpellGemsLevelWeapon4
+- `n`: GlobalChaosSpellGemsLevelWeapon4
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"LightningStrikesOnCritUnique__2","n":"LightningStrikesOnCritUnique__2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_cast_lightning_on_critical_strike","max":30,"min":30}],"domain":"item","gen":"unique","lvl":87}
+{"k":"GlobalChaosSpellGemsLevelWeapon4","n":"GlobalChaosSpellGemsLevelWeapon4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":55}
 ```
 
-### 108. LightningStrikesOnCritUnique__2Royale
+### 108. GlobalChaosSpellGemsLevelWeapon5
 
-- Match score: `80`
-- `k`: LightningStrikesOnCritUnique__2Royale
-- `n`: LightningStrikesOnCritUnique__2Royale
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 50
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"local_display_cast_lightning_on_critical_strike","max":1,"min":1}]
+- Match score: `100`
+- `k`: GlobalChaosSpellGemsLevelWeapon5
+- `n`: GlobalChaosSpellGemsLevelWeapon5
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"LightningStrikesOnCritUnique__2Royale","n":"LightningStrikesOnCritUnique__2Royale","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_cast_lightning_on_critical_strike","max":1,"min":1}],"domain":"item","gen":"unique","lvl":50}
+{"k":"GlobalChaosSpellGemsLevelWeapon5","n":"GlobalChaosSpellGemsLevelWeapon5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":81}
 ```
 
-### 109. MapMonsterCriticalStrikesAndDamageDelve
+### 109. GlobalColdSpellGemsLevel1_
 
-- Match score: `80`
-- `k`: MapMonsterCriticalStrikesAndDamageDelve
-- `n`: MapMonsterCriticalStrikesAndDamageDelve
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: delve_area
-- `domain`: delve_area
-- `stats`: [{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":150,"min":100},{"id":"map_monsters_critical_strike_multiplier_+","max":25,"min":20}]
+- Match score: `100`
+- `k`: GlobalColdSpellGemsLevel1_
+- `n`: GlobalColdSpellGemsLevel1_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"MapMonsterCriticalStrikesAndDamageDelve","n":"MapMonsterCriticalStrikesAndDamageDelve","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":150,"min":100},{"id":"map_monsters_critical_strike_multiplier_+","max":25,"min":20}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":1}
+{"k":"GlobalColdSpellGemsLevel1_","n":"GlobalColdSpellGemsLevel1_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":5}
 ```
 
-### 110. MapMonsterCriticalStrikesAndDamageDelve2
+### 110. GlobalColdSpellGemsLevel2
 
-- Match score: `80`
-- `k`: MapMonsterCriticalStrikesAndDamageDelve2
-- `n`: MapMonsterCriticalStrikesAndDamageDelve2
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 20
-- `gen`: delve_area
-- `domain`: delve_area
-- `stats`: [{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":200,"min":151},{"id":"map_monsters_critical_strike_multiplier_+","max":30,"min":26}]
+- Match score: `100`
+- `k`: GlobalColdSpellGemsLevel2
+- `n`: GlobalColdSpellGemsLevel2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"MapMonsterCriticalStrikesAndDamageDelve2","n":"MapMonsterCriticalStrikesAndDamageDelve2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":200,"min":151},{"id":"map_monsters_critical_strike_multiplier_+","max":30,"min":26}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":20}
+{"k":"GlobalColdSpellGemsLevel2","n":"GlobalColdSpellGemsLevel2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":41}
 ```
 
-### 111. MapMonsterCriticalStrikesAndDamageDelve3
+### 111. GlobalColdSpellGemsLevel3
 
-- Match score: `80`
-- `k`: MapMonsterCriticalStrikesAndDamageDelve3
-- `n`: MapMonsterCriticalStrikesAndDamageDelve3
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 52
-- `gen`: delve_area
-- `domain`: delve_area
-- `stats`: [{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":250,"min":201},{"id":"map_monsters_critical_strike_multiplier_+","max":35,"min":31}]
+- Match score: `100`
+- `k`: GlobalColdSpellGemsLevel3
+- `n`: GlobalColdSpellGemsLevel3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"MapMonsterCriticalStrikesAndDamageDelve3","n":"MapMonsterCriticalStrikesAndDamageDelve3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":250,"min":201},{"id":"map_monsters_critical_strike_multiplier_+","max":35,"min":31}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":52}
+{"k":"GlobalColdSpellGemsLevel3","n":"GlobalColdSpellGemsLevel3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":75}
 ```
 
-### 112. MapMonsterCriticalStrikesAndDamageDelve4
+### 112. GlobalColdSpellGemsLevelTwoHandWeapon1
 
-- Match score: `80`
-- `k`: MapMonsterCriticalStrikesAndDamageDelve4
-- `n`: MapMonsterCriticalStrikesAndDamageDelve4
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 92
-- `gen`: delve_area
-- `domain`: delve_area
-- `stats`: [{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":300,"min":251},{"id":"map_monsters_critical_strike_multiplier_+","max":40,"min":36}]
+- Match score: `100`
+- `k`: GlobalColdSpellGemsLevelTwoHandWeapon1
+- `n`: GlobalColdSpellGemsLevelTwoHandWeapon1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"MapMonsterCriticalStrikesAndDamageDelve4","n":"MapMonsterCriticalStrikesAndDamageDelve4","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":300,"min":251},{"id":"map_monsters_critical_strike_multiplier_+","max":40,"min":36}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":92}
+{"k":"GlobalColdSpellGemsLevelTwoHandWeapon1","n":"GlobalColdSpellGemsLevelTwoHandWeapon1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":2}
 ```
 
-### 113. MapMonsterCriticalStrikesAndDamageDelve5
+### 113. GlobalColdSpellGemsLevelTwoHandWeapon2
 
-- Match score: `80`
-- `k`: MapMonsterCriticalStrikesAndDamageDelve5
-- `n`: MapMonsterCriticalStrikesAndDamageDelve5
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 173
-- `gen`: delve_area
-- `domain`: delve_area
-- `stats`: [{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":400,"min":301},{"id":"map_monsters_critical_strike_multiplier_+","max":45,"min":41}]
+- Match score: `100`
+- `k`: GlobalColdSpellGemsLevelTwoHandWeapon2
+- `n`: GlobalColdSpellGemsLevelTwoHandWeapon2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"MapMonsterCriticalStrikesAndDamageDelve5","n":"MapMonsterCriticalStrikesAndDamageDelve5","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":400,"min":301},{"id":"map_monsters_critical_strike_multiplier_+","max":45,"min":41}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":173}
+{"k":"GlobalColdSpellGemsLevelTwoHandWeapon2","n":"GlobalColdSpellGemsLevelTwoHandWeapon2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":18}
 ```
 
-### 114. MapMonsterCriticalStrikesAndDamageLabyrinth1
+### 114. GlobalColdSpellGemsLevelTwoHandWeapon3
 
-- Match score: `80`
-- `k`: MapMonsterCriticalStrikesAndDamageLabyrinth1
-- `n`: MapMonsterCriticalStrikesAndDamageLabyrinth1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: area
-- `stats`: [{"id":"map_item_drop_quantity_+%","max":15,"min":15},{"id":"map_item_drop_rarity_+%","max":30,"min":30},{"id":"map_monsters_critical_strike_chance_+%","max":180,"min":180},{"id":"map_monsters_critical_strike_multiplier_+","max":33,"min":33}]
+- Match score: `100`
+- `k`: GlobalColdSpellGemsLevelTwoHandWeapon3
+- `n`: GlobalColdSpellGemsLevelTwoHandWeapon3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"MapMonsterCriticalStrikesAndDamageLabyrinth1","n":"MapMonsterCriticalStrikesAndDamageLabyrinth1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":15,"min":15},{"id":"map_item_drop_rarity_+%","max":30,"min":30},{"id":"map_monsters_critical_strike_chance_+%","max":180,"min":180},{"id":"map_monsters_critical_strike_multiplier_+","max":33,"min":33}],"domain":"area","gen":"unique","lvl":1}
+{"k":"GlobalColdSpellGemsLevelTwoHandWeapon3","n":"GlobalColdSpellGemsLevelTwoHandWeapon3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":36}
 ```
 
-### 115. MapMonsterCriticalStrikesAndDamageLabyrinth2
+### 115. GlobalColdSpellGemsLevelTwoHandWeapon4
 
-- Match score: `80`
-- `k`: MapMonsterCriticalStrikesAndDamageLabyrinth2
-- `n`: MapMonsterCriticalStrikesAndDamageLabyrinth2
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: area
-- `stats`: [{"id":"map_item_drop_quantity_+%","max":15,"min":15},{"id":"map_item_drop_rarity_+%","max":30,"min":30},{"id":"map_monsters_critical_strike_chance_+%","max":280,"min":280},{"id":"map_monsters_critical_strike_multiplier_+","max":38,"min":38}]
+- Match score: `100`
+- `k`: GlobalColdSpellGemsLevelTwoHandWeapon4
+- `n`: GlobalColdSpellGemsLevelTwoHandWeapon4
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"MapMonsterCriticalStrikesAndDamageLabyrinth2","n":"MapMonsterCriticalStrikesAndDamageLabyrinth2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":15,"min":15},{"id":"map_item_drop_rarity_+%","max":30,"min":30},{"id":"map_monsters_critical_strike_chance_+%","max":280,"min":280},{"id":"map_monsters_critical_strike_multiplier_+","max":38,"min":38}],"domain":"area","gen":"unique","lvl":1}
+{"k":"GlobalColdSpellGemsLevelTwoHandWeapon4","n":"GlobalColdSpellGemsLevelTwoHandWeapon4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":55}
 ```
 
-### 116. MapMonsterCriticalStrikesAndDamageLabyrinth3
+### 116. GlobalColdSpellGemsLevelTwoHandWeapon5
 
-- Match score: `80`
-- `k`: MapMonsterCriticalStrikesAndDamageLabyrinth3
-- `n`: MapMonsterCriticalStrikesAndDamageLabyrinth3
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: area
-- `stats`: [{"id":"map_item_drop_quantity_+%","max":15,"min":15},{"id":"map_item_drop_rarity_+%","max":30,"min":30},{"id":"map_monsters_critical_strike_chance_+%","max":380,"min":380},{"id":"map_monsters_critical_strike_multiplier_+","max":43,"min":43}]
+- Match score: `100`
+- `k`: GlobalColdSpellGemsLevelTwoHandWeapon5
+- `n`: GlobalColdSpellGemsLevelTwoHandWeapon5
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"MapMonsterCriticalStrikesAndDamageLabyrinth3","n":"MapMonsterCriticalStrikesAndDamageLabyrinth3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":15,"min":15},{"id":"map_item_drop_rarity_+%","max":30,"min":30},{"id":"map_monsters_critical_strike_chance_+%","max":380,"min":380},{"id":"map_monsters_critical_strike_multiplier_+","max":43,"min":43}],"domain":"area","gen":"unique","lvl":1}
+{"k":"GlobalColdSpellGemsLevelTwoHandWeapon5","n":"GlobalColdSpellGemsLevelTwoHandWeapon5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":81}
 ```
 
-### 117. MapMonsterCriticalStrikesAndDamagePathOfEndurance
+### 117. GlobalColdSpellGemsLevelWeapon1
 
-- Match score: `80`
-- `k`: MapMonsterCriticalStrikesAndDamagePathOfEndurance
-- `n`: MapMonsterCriticalStrikesAndDamagePathOfEndurance
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: area
-- `stats`: [{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_monsters_critical_strike_chance_+%","max":400,"min":400},{"id":"map_monsters_critical_strike_multiplier_+","max":45,"min":45}]
+- Match score: `100`
+- `k`: GlobalColdSpellGemsLevelWeapon1
+- `n`: GlobalColdSpellGemsLevelWeapon1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"MapMonsterCriticalStrikesAndDamagePathOfEndurance","n":"MapMonsterCriticalStrikesAndDamagePathOfEndurance","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_monsters_critical_strike_chance_+%","max":400,"min":400},{"id":"map_monsters_critical_strike_multiplier_+","max":45,"min":45}],"domain":"area","gen":"unique","lvl":1}
+{"k":"GlobalColdSpellGemsLevelWeapon1","n":"GlobalColdSpellGemsLevelWeapon1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":2}
 ```
 
-### 118. MapMonsterCriticalStrikesAndDamageUnique__1
+### 118. GlobalColdSpellGemsLevelWeapon2
 
-- Match score: `80`
-- `k`: MapMonsterCriticalStrikesAndDamageUnique__1
-- `n`: MapMonsterCriticalStrikesAndDamageUnique__1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: area
-- `stats`: [{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_pack_size_+%","max":50,"min":50},{"id":"map_monsters_critical_strike_chance_+%","max":1000,"min":500},{"id":"map_monsters_critical_strike_multiplier_+","max":100,"min":60}]
+- Match score: `100`
+- `k`: GlobalColdSpellGemsLevelWeapon2
+- `n`: GlobalColdSpellGemsLevelWeapon2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"MapMonsterCriticalStrikesAndDamageUnique__1","n":"MapMonsterCriticalStrikesAndDamageUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_pack_size_+%","max":50,"min":50},{"id":"map_monsters_critical_strike_chance_+%","max":1000,"min":500},{"id":"map_monsters_critical_strike_multiplier_+","max":100,"min":60}],"domain":"area","gen":"unique","lvl":1}
+{"k":"GlobalColdSpellGemsLevelWeapon2","n":"GlobalColdSpellGemsLevelWeapon2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":18}
 ```
 
-### 119. MapMonstersBaseSelfCriticalMultiplierDelve
+### 119. GlobalColdSpellGemsLevelWeapon3
 
-- Match score: `80`
-- `k`: MapMonstersBaseSelfCriticalMultiplierDelve
-- `n`: MapMonstersBaseSelfCriticalMultiplierDelve
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: delve_area
-- `domain`: delve_area
-- `stats`: [{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":6,"min":6},{"id":"map_pack_size_+%","max":4,"min":4},{"id":"map_monsters_base_self_critical_strike_multiplier_-%","max":20,"min":15}]
+- Match score: `100`
+- `k`: GlobalColdSpellGemsLevelWeapon3
+- `n`: GlobalColdSpellGemsLevelWeapon3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"MapMonstersBaseSelfCriticalMultiplierDelve","n":"MapMonstersBaseSelfCriticalMultiplierDelve","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":6,"min":6},{"id":"map_pack_size_+%","max":4,"min":4},{"id":"map_monsters_base_self_critical_strike_multiplier_-%","max":20,"min":15}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":1}
+{"k":"GlobalColdSpellGemsLevelWeapon3","n":"GlobalColdSpellGemsLevelWeapon3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":36}
 ```
 
-### 120. MapMonstersBaseSelfCriticalMultiplierDelve2
+### 120. GlobalColdSpellGemsLevelWeapon4
 
-- Match score: `80`
-- `k`: MapMonstersBaseSelfCriticalMultiplierDelve2
-- `n`: MapMonstersBaseSelfCriticalMultiplierDelve2
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 20
-- `gen`: delve_area
-- `domain`: delve_area
-- `stats`: [{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":6,"min":6},{"id":"map_pack_size_+%","max":4,"min":4},{"id":"map_monsters_base_self_critical_strike_multiplier_-%","max":25,"min":21}]
+- Match score: `100`
+- `k`: GlobalColdSpellGemsLevelWeapon4
+- `n`: GlobalColdSpellGemsLevelWeapon4
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
 
 ```json
-{"k":"MapMonstersBaseSelfCriticalMultiplierDelve2","n":"MapMonstersBaseSelfCriticalMultiplierDelve2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":6,"min":6},{"id":"map_pack_size_+%","max":4,"min":4},{"id":"map_monsters_base_self_critical_strike_multiplier_-%","max":25,"min":21}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":20}
+{"k":"GlobalColdSpellGemsLevelWeapon4","n":"GlobalColdSpellGemsLevelWeapon4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":55}
 ```
 
 ## Rune mods
