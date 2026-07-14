@@ -1,6 +1,6 @@
 # Build Idea Pack — Caster Build
 
-- Generated UTC: `2026-07-13T12:42:24+00:00`
+- Generated UTC: `2026-07-14T11:43:46+00:00`
 - Idea slug: `caster-build`
 - Purpose: Engineer a high-damage spellcaster with strong map clear, bossing, sustain, and PS5-friendly execution.
 - Keywords: `spell, caster, cast speed, critical, crit, mana, energy shield, spirit, lightning, cold, fire, chaos, projectile, area, aoe, exposure, penetration, shock, freeze, ignite, wand, staff, focus, sorceress, witch, chronomancer, stormweaver, blood mage`
