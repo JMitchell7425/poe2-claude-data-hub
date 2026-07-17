@@ -1,6 +1,6 @@
 # PoE2 Data Manifest Summary
 
-- Generated UTC: `2026-07-16T11:53:23+00:00`
+- Generated UTC: `2026-07-17T11:39:52+00:00`
 - Source priority: GGG passive tree -> RePoE PoE2 -> PoB-data PoE2 -> community sources only as benchmarks
 
 ## Download results
@@ -21,7 +21,7 @@
 | OK | `sources/repoe_poe2/mods.json` | 16,678 | 12,890,776 | https://repoe-fork.github.io/poe2/mods.json |
 | OK | `sources/repoe_poe2/mods_by_base.json` | 74 | 5,100,679 | https://repoe-fork.github.io/poe2/mods_by_base.json |
 | OK | `sources/repoe_poe2/characters.json` | 12 | 7,233 | https://repoe-fork.github.io/poe2/characters.json |
-| OK | `sources/repoe_poe2/ascendancies.json` | 37 | 17,172,354 | https://repoe-fork.github.io/poe2/ascendancies.json |
+| OK | `sources/repoe_poe2/ascendancies.json` | 37 | 17,127,138 | https://repoe-fork.github.io/poe2/ascendancies.json |
 | OK | `sources/repoe_poe2/uniques.json` | 449 | 171,109 | https://repoe-fork.github.io/poe2/uniques.json |
 | OK | `sources/repoe_poe2/stats_by_file.json` | 26,112 | 14,320,527 | https://repoe-fork.github.io/poe2/stats_by_file.json |
 | OK | `sources/repoe_poe2/stat_value_handlers.json` | 73 | 375,477 | https://repoe-fork.github.io/poe2/stat_value_handlers.json |
