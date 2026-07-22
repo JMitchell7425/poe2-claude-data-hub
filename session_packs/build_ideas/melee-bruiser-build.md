@@ -1,6 +1,6 @@
 # Build Idea Pack — Melee Bruiser Build
 
-- Generated UTC: `2026-07-21T11:59:20+00:00`
+- Generated UTC: `2026-07-22T12:03:10+00:00`
 - Idea slug: `melee-bruiser-build`
 - Purpose: Engineer a close-range build with strong defenses, reliable recovery, and boss-capable damage.
 - Keywords: `melee, strike, slam, quarterstaff, mace, two handed, shield, attack, attack speed, stun, armour, evasion, block, life, leech, recovery, charge, rage, warcry, boss, clear, warrior, monk, mercenary`
