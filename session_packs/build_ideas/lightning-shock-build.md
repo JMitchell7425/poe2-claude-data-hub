@@ -1,6 +1,6 @@
 # Build Idea Pack — Lightning Shock Build
 
-- Generated UTC: `2026-07-24T11:55:29+00:00`
+- Generated UTC: `2026-07-25T11:33:13+00:00`
 - Idea slug: `lightning-shock-build`
 - Purpose: Engineer a lightning/shock build with high clear speed and strong damage amplification.
 - Keywords: `lightning, shock, shocked, electrocute, storm, spark, arc, exposure, penetration, ailment, elemental, critical, crit, cast speed, projectile, area, aoe, mana, energy shield, sorceress, stormweaver`
@@ -7296,10 +7296,10 @@ _No keyword matches in this index._
 - `lvl`: 1
 - `gen`: unique
 - `domain`: monster
-- `stats`: [{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":0,"min":0},{"id":"base_cannot_be_chilled","max":0,"min":0},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60}]
+- `stats`: [{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":0,"min":0},{"id":"base_cannot_be_chilled","max":0,"min":0},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60},{"id":"active_skill_shock_chance_+%_final","max":0,"min":0},{"id":"active_skill_chill_as_though_damage_+%_final","max":0,"min":0}]
 
 ```json
-{"k":"ExpeditionMonsterModRuneTempest","n":"<<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Cannot be Shocked or Chilled}\r\n<rgb(135,134,253)>{All Damage can Shock and Chill}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":0,"min":0},{"id":"base_cannot_be_chilled","max":0,"min":0},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
+{"k":"ExpeditionMonsterModRuneTempest","n":"<<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Cannot be Shocked or Chilled}\r\n<rgb(135,134,253)>{All Damage can Shock and Chill}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":0,"min":0},{"id":"base_cannot_be_chilled","max":0,"min":0},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60},{"id":"active_skill_shock_chance_+%_final","max":0,"min":0},{"id":"active_skill_chill_as_though_damage_+%_final","max":0,"min":0}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
 ### 79. <<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}
@@ -7318,10 +7318,10 @@ _No keyword matches in this index._
 - `lvl`: 1
 - `gen`: unique
 - `domain`: monster
-- `stats`: [{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":1,"min":1},{"id":"base_cannot_be_chilled","max":1,"min":1},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60}]
+- `stats`: [{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":1,"min":1},{"id":"base_cannot_be_chilled","max":1,"min":1},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60},{"id":"active_skill_shock_chance_+%_final","max":100,"min":100},{"id":"active_skill_chill_as_though_damage_+%_final","max":100,"min":100}]
 
 ```json
-{"k":"ExpeditionMonsterModRuneTempestPower","n":"<<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Cannot be Shocked or Chilled}\r\n<rgb(135,134,253)>{All Damage can Shock and Chill}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":1,"min":1},{"id":"base_cannot_be_chilled","max":1,"min":1},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
+{"k":"ExpeditionMonsterModRuneTempestPower","n":"<<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Cannot be Shocked or Chilled}\r\n<rgb(135,134,253)>{All Damage can Shock and Chill}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":1,"min":1},{"id":"base_cannot_be_chilled","max":1,"min":1},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60},{"id":"active_skill_shock_chance_+%_final","max":100,"min":100},{"id":"active_skill_chill_as_though_damage_+%_final","max":100,"min":100}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
 ### 80. AdditionalCriticalStrikeChancePerPowerChargeUnique__1
