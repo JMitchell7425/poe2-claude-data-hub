@@ -1,6 +1,6 @@
 # PoE2 Data Manifest Summary
 
-- Generated UTC: `2026-07-24T11:54:56+00:00`
+- Generated UTC: `2026-07-25T11:32:41+00:00`
 - Source priority: GGG passive tree -> RePoE PoE2 -> PoB-data PoE2 -> community sources only as benchmarks
 
 ## Download results
@@ -18,13 +18,13 @@
 | OK | `sources/repoe_poe2/item_classes.json` | 117 | 15,850 | https://repoe-fork.github.io/poe2/item_classes.json |
 | OK | `sources/repoe_poe2/tags.json` | 1,327 | 28,649 | https://repoe-fork.github.io/poe2/tags.json |
 | OK | `sources/repoe_poe2/tag_details.json` | 1,327 | 99,109 | https://repoe-fork.github.io/poe2/tag_details.json |
-| OK | `sources/repoe_poe2/mods.json` | 16,678 | 12,890,776 | https://repoe-fork.github.io/poe2/mods.json |
+| OK | `sources/repoe_poe2/mods.json` | 16,678 | 12,905,163 | https://repoe-fork.github.io/poe2/mods.json |
 | OK | `sources/repoe_poe2/mods_by_base.json` | 74 | 5,100,679 | https://repoe-fork.github.io/poe2/mods_by_base.json |
 | OK | `sources/repoe_poe2/characters.json` | 12 | 7,233 | https://repoe-fork.github.io/poe2/characters.json |
 | OK | `sources/repoe_poe2/ascendancies.json` | 37 | 17,127,138 | https://repoe-fork.github.io/poe2/ascendancies.json |
 | OK | `sources/repoe_poe2/uniques.json` | 449 | 171,109 | https://repoe-fork.github.io/poe2/uniques.json |
 | OK | `sources/repoe_poe2/stats_by_file.json` | 26,112 | 14,320,527 | https://repoe-fork.github.io/poe2/stats_by_file.json |
-| OK | `sources/repoe_poe2/stat_value_handlers.json` | 73 | 375,477 | https://repoe-fork.github.io/poe2/stat_value_handlers.json |
+| OK | `sources/repoe_poe2/stat_value_handlers.json` | 74 | 375,545 | https://repoe-fork.github.io/poe2/stat_value_handlers.json |
 | OK | `sources/pob_data_poe2/Gems.json` | 966 | 549,978 | https://repoe-fork.github.io/pob-data/poe2/Gems.json |
 | OK | `sources/pob_data_poe2/ModItem.json` | 2,550 | 1,151,837 | https://repoe-fork.github.io/pob-data/poe2/ModItem.json |
 | OK | `sources/pob_data_poe2/ModRunes.json` | 287 | 201,731 | https://repoe-fork.github.io/pob-data/poe2/ModRunes.json |
@@ -46,8 +46,8 @@
 | `gem_index.json` | 11,833 | 2,254,916 | YES |
 | `item_base_index.json` | 8,017 | 1,670,161 | YES |
 | `manifest_summary.md` | 1 | 5,603 | YES |
-| `misc_index.json` | 27,856 | 5,560,934 | OPTIONAL |
-| `mod_index.json` | 19,320 | 5,400,130 | YES, if size allows |
+| `misc_index.json` | 27,857 | 5,561,100 | OPTIONAL |
+| `mod_index.json` | 19,320 | 5,408,445 | YES, if size allows |
 | `passive_tree_edges.json` | 5,129 | 236,338 | ONLY when exact pathing is needed |
 | `passive_tree_full_compact.json` | 5,151 | 698,278 | ONLY when exact small-node routing is needed |
 | `passive_tree_key_nodes.json` | 4,922 | 687,851 | YES |
