@@ -1,6 +1,6 @@
 # Build Idea Pack — Hardcore-Safe Build
 
-- Generated UTC: `2026-07-27T13:22:28+00:00`
+- Generated UTC: `2026-07-28T12:12:46+00:00`
 - Idea slug: `hardcore-safe-build`
 - Purpose: Engineer a conservative survival-first build with reliable damage and minimal mechanical risk.
 - Keywords: `hardcore, safe, survival, defense, life, maximum life, energy shield, armour, evasion, block, resistance, chaos resistance, recovery, regen, leech, recoup, ailment, stun, guard, boss, map, controller, ps5`
@@ -4323,7 +4323,19 @@ _No keyword matches in this index._
 {"k":"base_skill_cost_life_instead_of_mana_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'HybridManaAndLifeCost_Life', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"HybridManaAndLifeCost_Life","type":"BASE"}]}
 ```
 
-### 116. [{'flags': 0, 'keywordFlags': 0, 'name': 'IceCrystalLifeBase', 'type': 'BASE'}]
+### 116. [{'flags': 0, 'keywordFlags': 0, 'name': 'IceCrystalLife', 'type': 'INC'}]
+
+- Match score: `45`
+- `k`: ice_crystal_maximum_life_+%
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'IceCrystalLife', 'type': 'INC'}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"ice_crystal_maximum_life_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'IceCrystalLife', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"IceCrystalLife","type":"INC"}]}
+```
+
+### 117. [{'flags': 0, 'keywordFlags': 0, 'name': 'IceCrystalLifeBase', 'type': 'BASE'}]
 
 - Match score: `45`
 - `k`: frost_wall_maximum_life
@@ -4335,7 +4347,7 @@ _No keyword matches in this index._
 {"k":"frost_wall_maximum_life","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'IceCrystalLifeBase', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"IceCrystalLifeBase","type":"BASE"}]}
 ```
 
-### 117. [{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreColdResistance', 'type': 'FLAG', 'value': True}]
+### 118. [{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreColdResistance', 'type': 'FLAG', 'value': True}]
 
 - Match score: `45`
 - `k`: hits_ignore_enemy_cold_resistance
@@ -4347,7 +4359,7 @@ _No keyword matches in this index._
 {"k":"hits_ignore_enemy_cold_resistance","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreColdResistance', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"IgnoreColdResistance","type":"FLAG","value":true}]}
 ```
 
-### 118. [{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreFireResistance', 'type': 'FLAG', 'value': True}]
+### 119. [{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreFireResistance', 'type': 'FLAG', 'value': True}]
 
 - Match score: `45`
 - `k`: hits_ignore_enemy_fire_resistance
@@ -4359,7 +4371,7 @@ _No keyword matches in this index._
 {"k":"hits_ignore_enemy_fire_resistance","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreFireResistance', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"IgnoreFireResistance","type":"FLAG","value":true}]}
 ```
 
-### 119. [{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreLightningResistance', 'type': 'FLAG', 'value': True}]
+### 120. [{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreLightningResistance', 'type': 'FLAG', 'value': True}]
 
 - Match score: `45`
 - `k`: hits_ignore_enemy_lightning_resistance
@@ -4369,18 +4381,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"hits_ignore_enemy_lightning_resistance","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreLightningResistance', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"IgnoreLightningResistance","type":"FLAG","value":true}]}
-```
-
-### 120. [{'flags': 0, 'keywordFlags': 0, 'name': 'Life', 'type': 'OVERRIDE'}]
-
-- Match score: `45`
-- `k`: base_maximum_life_is_one
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'Life', 'type': 'OVERRIDE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"base_maximum_life_is_one","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'Life', 'type': 'OVERRIDE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"Life","type":"OVERRIDE"}]}
 ```
 
 ## Item bases/classes

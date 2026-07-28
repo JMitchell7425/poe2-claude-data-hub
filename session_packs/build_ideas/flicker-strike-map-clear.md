@@ -1,6 +1,6 @@
 # Build Idea Pack — Flicker Strike Map Clear (CI Monk)
 
-- Generated UTC: `2026-07-27T13:22:30+00:00`
+- Generated UTC: `2026-07-28T12:12:48+00:00`
 - Idea slug: `flicker-strike-map-clear`
 - Purpose: Engineer and optimize Flicker Strike as a primary map-clear skill for a CI Energy Shield Monk, focused on charge-fed teleport-strike clear speed, AoE coverage, and support gem selection aligned to clearing rather than bossing.
 - Keywords: `flicker strike, teleport, charge, power charge, charge profusion, perpetual charge, combo, culmination, ailith's chimes, shattering palm, killing palm, monk, martial artist, cold, conversion, energy shield, chaos inoculation, area, aoe, radius, close combat, concentrated area, blindside, blind, cooldown, clear, map, controller, ps5`
