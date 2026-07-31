@@ -1,6 +1,6 @@
 # PoE2 Data Manifest Summary
 
-- Generated UTC: `2026-07-30T12:03:05+00:00`
+- Generated UTC: `2026-07-31T12:15:27+00:00`
 - Source priority: GGG passive tree -> RePoE PoE2 -> PoB-data PoE2 -> community sources only as benchmarks
 
 ## Download results
@@ -18,7 +18,7 @@
 | OK | `sources/repoe_poe2/item_classes.json` | 117 | 15,850 | https://repoe-fork.github.io/poe2/item_classes.json |
 | OK | `sources/repoe_poe2/tags.json` | 1,327 | 28,649 | https://repoe-fork.github.io/poe2/tags.json |
 | OK | `sources/repoe_poe2/tag_details.json` | 1,327 | 99,109 | https://repoe-fork.github.io/poe2/tag_details.json |
-| OK | `sources/repoe_poe2/mods.json` | 16,678 | 12,905,163 | https://repoe-fork.github.io/poe2/mods.json |
+| OK | `sources/repoe_poe2/mods.json` | 16,679 | 12,905,713 | https://repoe-fork.github.io/poe2/mods.json |
 | OK | `sources/repoe_poe2/mods_by_base.json` | 74 | 5,100,679 | https://repoe-fork.github.io/poe2/mods_by_base.json |
 | OK | `sources/repoe_poe2/characters.json` | 12 | 7,233 | https://repoe-fork.github.io/poe2/characters.json |
 | OK | `sources/repoe_poe2/ascendancies.json` | 37 | 17,127,138 | https://repoe-fork.github.io/poe2/ascendancies.json |
@@ -47,7 +47,7 @@
 | `item_base_index.json` | 8,017 | 1,670,161 | YES |
 | `manifest_summary.md` | 1 | 5,603 | YES |
 | `misc_index.json` | 27,857 | 5,561,100 | OPTIONAL |
-| `mod_index.json` | 19,320 | 5,408,445 | YES, if size allows |
+| `mod_index.json` | 19,321 | 5,408,681 | YES, if size allows |
 | `passive_tree_edges.json` | 5,129 | 236,338 | ONLY when exact pathing is needed |
 | `passive_tree_full_compact.json` | 5,151 | 698,278 | ONLY when exact small-node routing is needed |
 | `passive_tree_key_nodes.json` | 4,922 | 687,851 | YES |
