@@ -1,6 +1,6 @@
 # Build Idea Pack — Lightning Shock Build
 
-- Generated UTC: `2026-07-31T12:16:06+00:00`
+- Generated UTC: `2026-08-01T11:34:34+00:00`
 - Idea slug: `lightning-shock-build`
 - Purpose: Engineer a lightning/shock build with high clear speed and strong damage amplification.
 - Keywords: `lightning, shock, shocked, electrocute, storm, spark, arc, exposure, penetration, ailment, elemental, critical, crit, cast speed, projectile, area, aoe, mana, energy shield, sorceress, stormweaver`

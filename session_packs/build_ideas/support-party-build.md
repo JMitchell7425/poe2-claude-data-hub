@@ -1,6 +1,6 @@
 # Build Idea Pack — Support / Party Build
 
-- Generated UTC: `2026-07-31T12:16:10+00:00`
+- Generated UTC: `2026-08-01T11:34:38+00:00`
 - Idea slug: `support-party-build`
 - Purpose: Engineer party support builds focused on curses, auras, control, debuffs, and ally amplification.
 - Keywords: `support, party, ally, aura, curse, blasphemy, temporal chains, enfeeble, exposure, shock, freeze, resistance, spirit, reservation, duration, cooldown, chronomancer, witch, sorceress, debuff, control`

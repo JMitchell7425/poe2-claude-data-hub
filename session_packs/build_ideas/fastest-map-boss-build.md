@@ -1,6 +1,6 @@
 # Build Idea Pack — Fastest Mapper + Boss Killer
 
-- Generated UTC: `2026-07-31T12:16:00+00:00`
+- Generated UTC: `2026-08-01T11:34:26+00:00`
 - Idea slug: `fastest-map-boss-build`
 - Purpose: Find the fastest practical build that still deletes bosses without becoming fragile.
 - Keywords: `fast, fastest, map, mapping, clear, clearing, boss, bossing, single target, area, aoe, projectile, chain, fork, pierce, explosion, explode, movement speed, attack speed, cast speed, critical, crit, charge, damage, more damage, penetration, exposure, shock, freeze, ignite, poison, minion, spirit, recovery, defense`
