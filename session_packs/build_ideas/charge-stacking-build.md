@@ -1,6 +1,6 @@
 # Build Idea Pack — Charge-Stacking Build
 
-- Generated UTC: `2026-08-01T11:34:36+00:00`
+- Generated UTC: `2026-08-02T11:34:00+00:00`
 - Idea slug: `charge-stacking-build`
 - Purpose: Engineer around power, frenzy, endurance, charge generation, charge consumption, and charge scaling.
 - Keywords: `charge, charges, power charge, frenzy charge, endurance charge, gain charge, consume charge, maximum charge, critical, crit, duration, killing palm, charge profusion, overflowing power, damage, speed, boss, clear`
