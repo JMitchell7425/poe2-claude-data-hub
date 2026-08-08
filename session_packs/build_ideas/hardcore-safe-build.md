@@ -1,6 +1,6 @@
 # Build Idea Pack — Hardcore-Safe Build
 
-- Generated UTC: `2026-08-07T11:06:32+00:00`
+- Generated UTC: `2026-08-08T10:50:28+00:00`
 - Idea slug: `hardcore-safe-build`
 - Purpose: Engineer a conservative survival-first build with reliable damage and minimal mechanical risk.
 - Keywords: `hardcore, safe, survival, defense, life, maximum life, energy shield, armour, evasion, block, resistance, chaos resistance, recovery, regen, leech, recoup, ailment, stun, guard, boss, map, controller, ps5`

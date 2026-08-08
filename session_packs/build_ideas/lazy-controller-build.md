@@ -1,6 +1,6 @@
 # Build Idea Pack — Lazy Controller-Friendly Build
 
-- Generated UTC: `2026-08-07T11:06:23+00:00`
+- Generated UTC: `2026-08-08T10:50:19+00:00`
 - Idea slug: `lazy-controller-build`
 - Purpose: Find low-button, low-aim, PS5-friendly builds with high clear reliability and safe bossing.
 - Keywords: `controller, ps5, persistent, aura, herald, minion, totem, trigger, auto, duration, area, aoe, nearby, radius, nova, chain, projectile, slam, strike, movement, cooldown, spirit, reservation, defense, recovery, map, boss`
