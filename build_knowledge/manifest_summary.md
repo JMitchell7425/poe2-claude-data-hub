@@ -1,6 +1,6 @@
 # PoE2 Data Manifest Summary
 
-- Generated UTC: `2026-08-10T11:20:00+00:00`
+- Generated UTC: `2026-08-11T11:03:50+00:00`
 - Source priority: GGG passive tree -> RePoE PoE2 -> PoB-data PoE2 -> community sources only as benchmarks
 
 ## Download results
@@ -14,12 +14,12 @@
 | OK | `sources/repoe_poe2/active_skill_types.json` | 290 | 6,285 | https://repoe-fork.github.io/poe2/active_skill_types.json |
 | OK | `sources/repoe_poe2/cost_types.json` | 18 | 1,769 | https://repoe-fork.github.io/poe2/cost_types.json |
 | OK | `sources/repoe_poe2/keywords.json` | 1,026 | 256,833 | https://repoe-fork.github.io/poe2/keywords.json |
-| OK | `sources/repoe_poe2/base_items.json` | 5,246 | 7,842,214 | https://repoe-fork.github.io/poe2/base_items.json |
+| OK | `sources/repoe_poe2/base_items.json` | 5,476 | 8,167,102 | https://repoe-fork.github.io/poe2/base_items.json |
 | OK | `sources/repoe_poe2/item_classes.json` | 117 | 15,850 | https://repoe-fork.github.io/poe2/item_classes.json |
 | OK | `sources/repoe_poe2/tags.json` | 1,327 | 28,649 | https://repoe-fork.github.io/poe2/tags.json |
 | OK | `sources/repoe_poe2/tag_details.json` | 1,327 | 99,109 | https://repoe-fork.github.io/poe2/tag_details.json |
 | OK | `sources/repoe_poe2/mods.json` | 16,679 | 12,905,713 | https://repoe-fork.github.io/poe2/mods.json |
-| OK | `sources/repoe_poe2/mods_by_base.json` | 74 | 5,100,679 | https://repoe-fork.github.io/poe2/mods_by_base.json |
+| OK | `sources/repoe_poe2/mods_by_base.json` | 82 | 5,566,069 | https://repoe-fork.github.io/poe2/mods_by_base.json |
 | OK | `sources/repoe_poe2/characters.json` | 12 | 7,233 | https://repoe-fork.github.io/poe2/characters.json |
 | OK | `sources/repoe_poe2/ascendancies.json` | 37 | 17,127,138 | https://repoe-fork.github.io/poe2/ascendancies.json |
 | OK | `sources/repoe_poe2/uniques.json` | 449 | 171,109 | https://repoe-fork.github.io/poe2/uniques.json |
@@ -44,10 +44,10 @@
 |---|---:|---:|---|
 | `CLAUDE_DATA_HUB_INSTRUCTIONS.md` | 1 | 951 | YES |
 | `gem_index.json` | 11,834 | 2,255,172 | YES |
-| `item_base_index.json` | 8,017 | 1,670,161 | YES |
+| `item_base_index.json` | 8,247 | 1,721,029 | YES |
 | `manifest_summary.md` | 1 | 5,603 | YES |
 | `misc_index.json` | 27,857 | 5,561,100 | OPTIONAL |
-| `mod_index.json` | 19,321 | 5,408,681 | YES, if size allows |
+| `mod_index.json` | 19,329 | 5,409,535 | YES, if size allows |
 | `passive_tree_edges.json` | 5,129 | 236,338 | ONLY when exact pathing is needed |
 | `passive_tree_full_compact.json` | 5,151 | 698,278 | ONLY when exact small-node routing is needed |
 | `passive_tree_key_nodes.json` | 4,922 | 687,851 | YES |
