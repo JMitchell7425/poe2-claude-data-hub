@@ -1,6 +1,6 @@
 # Build Idea Pack — Cold Freeze Build
 
-- Generated UTC: `2026-08-10T11:20:25+00:00`
+- Generated UTC: `2026-08-11T11:04:25+00:00`
 - Idea slug: `cold-freeze-build`
 - Purpose: Engineer a cold/freeze/shatter build for safe clear and controlled bossing.
 - Keywords: `cold, freeze, frozen, chill, chilled, shatter, ice, glacial, frost, exposure, penetration, ailment, elemental, critical, crit, herald, spirit, support, resistance, monk, sorceress`
@@ -5441,7 +5441,21 @@ _No keyword matches in this index._
 {"k":"589","n":"ailment","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"ailment"}
 ```
 
-### 71. Ancestral Spirits
+### 71. Alchemical Chalice
+
+- Match score: `35`
+- `k`: Metadata/Items/Heist/HeistFinalObjective9
+- `n`: Alchemical Chalice
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Heist/HeistFinalObjective9","n":"Alchemical Chalice","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HeistObjective","tags":["default"],"domain":"undefined"}
+```
+
+### 72. Ancestral Spirits
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemAscendancyAncestralSpirits
@@ -5455,7 +5469,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemAscendancyAncestralSpirits","n":"Ancestral Spirits","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 72. Ancient Rune of Shattering
+### 73. Ancient Rune of Shattering
 
 - Match score: `35`
 - `k`: Metadata/Items/SoulCores/RuneOfTheAncients4
@@ -5469,7 +5483,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/SoulCores/RuneOfTheAncients4","n":"Ancient Rune of Shattering","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","default"],"domain":"undefined"}
 ```
 
-### 73. Apprentice Cartographer's Seal
+### 74. Apprentice Cartographer's Seal
 
 - Match score: `35`
 - `k`: Metadata/Items/Currency/CurrencySealMapLow
@@ -5483,7 +5497,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Currency/CurrencySealMapLow","n":"Apprentice Cartographer's Seal","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"StackableCurrency","tags":["currency","default"],"domain":"undefined"}
 ```
 
-### 74. Artificer's Orb
+### 75. Artificer's Orb
 
 - Match score: `35`
 - `k`: Metadata/Items/Currency/CurrencyAddEquipmentSocket
@@ -5497,7 +5511,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Currency/CurrencyAddEquipmentSocket","n":"Artificer's Orb","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"StackableCurrency","tags":["socket_currency","currency","default"],"domain":"undefined"}
 ```
 
-### 75. Artificer's Shard
+### 76. Artificer's Shard
 
 - Match score: `35`
 - `k`: Metadata/Items/Currency/CurrencyAddEquipmentSocketShard
@@ -5511,7 +5525,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Currency/CurrencyAddEquipmentSocketShard","n":"Artificer's Shard","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"StackableCurrency","tags":["currency_shard","currency","default"],"domain":"undefined"}
 ```
 
-### 76. bestiary_spirit_boss
+### 77. bestiary_spirit_boss
 
 - Match score: `35`
 - `k`: bestiary_spirit_boss
@@ -5523,7 +5537,7 @@ _No keyword matches in this index._
 {"k":"bestiary_spirit_boss","n":"bestiary_spirit_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 77. bestiary_spirit_boss
+### 78. bestiary_spirit_boss
 
 - Match score: `35`
 - `k`: 833
@@ -5535,7 +5549,7 @@ _No keyword matches in this index._
 {"k":"833","n":"bestiary_spirit_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bestiary_spirit_boss"}
 ```
 
-### 78. blight_death_cold
+### 79. blight_death_cold
 
 - Match score: `35`
 - `k`: blight_death_cold
@@ -5547,7 +5561,7 @@ _No keyword matches in this index._
 {"k":"blight_death_cold","n":"blight_death_cold","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 79. blight_death_cold
+### 80. blight_death_cold
 
 - Match score: `35`
 - `k`: 465
@@ -5559,7 +5573,7 @@ _No keyword matches in this index._
 {"k":"465","n":"blight_death_cold","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"blight_death_cold"}
 ```
 
-### 80. Blueprint: Records Office
+### 81. Blueprint: Records Office
 
 - Match score: `35`
 - `k`: Metadata/Items/Heist/HeistBlueprintCourts
@@ -5573,7 +5587,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Heist/HeistBlueprintCourts","n":"Blueprint: Records Office","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HeistBlueprint","tags":["heist_blueprint","default"],"domain":"heist_area"}
 ```
 
-### 81. Boneshatter
+### 82. Boneshatter
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemBoneshatter
@@ -5587,7 +5601,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemBoneshatter","n":"Boneshatter","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 82. breach_monster_cold
+### 83. breach_monster_cold
 
 - Match score: `35`
 - `k`: breach_monster_cold
@@ -5599,7 +5613,7 @@ _No keyword matches in this index._
 {"k":"breach_monster_cold","n":"breach_monster_cold","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 83. breach_monster_cold
+### 84. breach_monster_cold
 
 - Match score: `35`
 - `k`: 998
@@ -5611,7 +5625,7 @@ _No keyword matches in this index._
 {"k":"998","n":"breach_monster_cold","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"breach_monster_cold"}
 ```
 
-### 84. Cast on Freeze
+### 85. Cast on Freeze
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemCastOnFreeze
@@ -5625,7 +5639,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemCastOnFreeze","n":"Cast on Freeze","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 85. chaos_resistance
+### 86. chaos_resistance
 
 - Match score: `35`
 - `k`: chaos_resistance
@@ -5637,7 +5651,7 @@ _No keyword matches in this index._
 {"k":"chaos_resistance","n":"chaos_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 86. chaos_resistance
+### 87. chaos_resistance
 
 - Match score: `35`
 - `k`: 1293
@@ -5649,7 +5663,7 @@ _No keyword matches in this index._
 {"k":"1293","n":"chaos_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_resistance"}
 ```
 
-### 87. Cold
+### 88. Cold
 
 - Match score: `35`
 - `k`: cold
@@ -5661,7 +5675,7 @@ _No keyword matches in this index._
 {"k":"cold","n":"Cold","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 88. cold
+### 89. cold
 
 - Match score: `35`
 - `k`: 312
@@ -5673,7 +5687,7 @@ _No keyword matches in this index._
 {"k":"312","n":"cold","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold"}
 ```
 
-### 89. Cold Tattoo of Tasalio
+### 90. Cold Tattoo of Tasalio
 
 - Match score: `35`
 - `k`: Metadata/Items/QuestItems/Gallows/Act4/Tattoo2_2
@@ -5687,7 +5701,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/QuestItems/Gallows/Act4/Tattoo2_2","n":"Cold Tattoo of Tasalio","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"QuestItem","tags":["quest_item","quest_item","default"],"domain":"undefined"}
 ```
 
-### 90. cold_affinity
+### 91. cold_affinity
 
 - Match score: `35`
 - `k`: cold_affinity
@@ -5699,7 +5713,7 @@ _No keyword matches in this index._
 {"k":"cold_affinity","n":"cold_affinity","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 91. cold_affinity
+### 92. cold_affinity
 
 - Match score: `35`
 - `k`: 721
@@ -5711,7 +5725,7 @@ _No keyword matches in this index._
 {"k":"721","n":"cold_affinity","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_affinity"}
 ```
 
-### 92. cold_catalyst
+### 93. cold_catalyst
 
 - Match score: `35`
 - `k`: cold_catalyst
@@ -5723,7 +5737,7 @@ _No keyword matches in this index._
 {"k":"cold_catalyst","n":"cold_catalyst","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 93. cold_catalyst
+### 94. cold_catalyst
 
 - Match score: `35`
 - `k`: 1308
@@ -5735,7 +5749,7 @@ _No keyword matches in this index._
 {"k":"1308","n":"cold_catalyst","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_catalyst"}
 ```
 
-### 94. cold_crafting_option
+### 95. cold_crafting_option
 
 - Match score: `35`
 - `k`: cold_crafting_option
@@ -5747,7 +5761,7 @@ _No keyword matches in this index._
 {"k":"cold_crafting_option","n":"cold_crafting_option","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 95. cold_crafting_option
+### 96. cold_crafting_option
 
 - Match score: `35`
 - `k`: 1126
@@ -5759,7 +5773,7 @@ _No keyword matches in this index._
 {"k":"1126","n":"cold_crafting_option","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_crafting_option"}
 ```
 
-### 96. Contract: Records Office
+### 97. Contract: Records Office
 
 - Match score: `35`
 - `k`: Metadata/Items/Heist/HeistContractCourts
@@ -5773,7 +5787,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Heist/HeistContractCourts","n":"Contract: Records Office","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HeistContract","tags":["heist_contract","default"],"domain":"heist_area"}
 ```
 
-### 97. Craiceann's Rune of Recovery
+### 98. Craiceann's Rune of Recovery
 
 - Match score: `35`
 - `k`: Metadata/Items/SoulCores/RuneSpecial14
@@ -5787,7 +5801,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/SoulCores/RuneSpecial14","n":"Craiceann's Rune of Recovery","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","default"],"domain":"undefined"}
 ```
 
-### 98. Craiceann's Rune of Warding
+### 99. Craiceann's Rune of Warding
 
 - Match score: `35`
 - `k`: Metadata/Items/SoulCores/RuneSpecial10
@@ -5801,7 +5815,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/SoulCores/RuneSpecial10","n":"Craiceann's Rune of Warding","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","default"],"domain":"undefined"}
 ```
 
-### 99. earth_elemental
+### 100. earth_elemental
 
 - Match score: `35`
 - `k`: earth_elemental
@@ -5813,7 +5827,7 @@ _No keyword matches in this index._
 {"k":"earth_elemental","n":"earth_elemental","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 100. earth_elemental
+### 101. earth_elemental
 
 - Match score: `35`
 - `k`: 54
@@ -5825,7 +5839,7 @@ _No keyword matches in this index._
 {"k":"54","n":"earth_elemental","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"earth_elemental"}
 ```
 
-### 101. Earthshatter
+### 102. Earthshatter
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemEarthshatter
@@ -5839,7 +5853,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemEarthshatter","n":"Earthshatter","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 102. einharmonkey
+### 103. einharmonkey
 
 - Match score: `35`
 - `k`: einharmonkey
@@ -5851,7 +5865,7 @@ _No keyword matches in this index._
 {"k":"einharmonkey","n":"einharmonkey","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 103. einharmonkey
+### 104. einharmonkey
 
 - Match score: `35`
 - `k`: 329
@@ -5863,7 +5877,7 @@ _No keyword matches in this index._
 {"k":"329","n":"einharmonkey","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"einharmonkey"}
 ```
 
-### 104. Elemental
+### 105. Elemental
 
 - Match score: `35`
 - `k`: elemental
@@ -5875,7 +5889,7 @@ _No keyword matches in this index._
 {"k":"elemental","n":"Elemental","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 105. elemental
+### 106. elemental
 
 - Match score: `35`
 - `k`: 320
@@ -5887,7 +5901,7 @@ _No keyword matches in this index._
 {"k":"320","n":"elemental","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elemental"}
 ```
 
-### 106. Elemental Conflux
+### 107. Elemental Conflux
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemElementalConflux
@@ -5901,7 +5915,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemElementalConflux","n":"Elemental Conflux","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 107. Elemental Expression
+### 108. Elemental Expression
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemAscendancyElementalExpression
@@ -5915,7 +5929,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemAscendancyElementalExpression","n":"Elemental Expression","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 108. Elemental Invocation
+### 109. Elemental Invocation
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemElementalInvocation
@@ -5929,7 +5943,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemElementalInvocation","n":"Elemental Invocation","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 109. Elemental Siphon
+### 110. Elemental Siphon
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemElementalSiphon
@@ -5943,7 +5957,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemElementalSiphon","n":"Elemental Siphon","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 110. Elemental Storm
+### 111. Elemental Storm
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemAscendancyElementalStorm
@@ -5957,7 +5971,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemAscendancyElementalStorm","n":"Elemental Storm","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 111. Elemental Sundering
+### 112. Elemental Sundering
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemElementalSundering
@@ -5971,7 +5985,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemElementalSundering","n":"Elemental Sundering","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 112. Elemental Surge
+### 113. Elemental Surge
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemAscendancyInfuseWeapon
@@ -5985,7 +5999,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemAscendancyInfuseWeapon","n":"Elemental Surge","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 113. Elemental Weakness
+### 114. Elemental Weakness
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemElementalWeakness
@@ -5999,7 +6013,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemElementalWeakness","n":"Elemental Weakness","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 114. elemental_damage
+### 115. elemental_damage
 
 - Match score: `35`
 - `k`: elemental_damage
@@ -6011,7 +6025,7 @@ _No keyword matches in this index._
 {"k":"elemental_damage","n":"elemental_damage","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 115. elemental_damage
+### 116. elemental_damage
 
 - Match score: `35`
 - `k`: 611
@@ -6023,7 +6037,7 @@ _No keyword matches in this index._
 {"k":"611","n":"elemental_damage","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elemental_damage"}
 ```
 
-### 116. Elemental_onhit_audio
+### 117. Elemental_onhit_audio
 
 - Match score: `35`
 - `k`: Elemental_onhit_audio
@@ -6035,7 +6049,7 @@ _No keyword matches in this index._
 {"k":"Elemental_onhit_audio","n":"Elemental_onhit_audio","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 117. Elemental_onhit_audio
+### 118. Elemental_onhit_audio
 
 - Match score: `35`
 - `k`: 1032
@@ -6047,7 +6061,7 @@ _No keyword matches in this index._
 {"k":"1032","n":"Elemental_onhit_audio","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"Elemental_onhit_audio"}
 ```
 
-### 118. Elementalist Robe
+### 119. Elementalist Robe
 
 - Match score: `35`
 - `k`: Metadata/Items/Armours/BodyArmours/FourBodyInt9
@@ -6062,7 +6076,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/BodyArmours/FourBodyInt9","n":"Elementalist Robe","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Body Armour","tags":["int_armour","karui_basetype","body_armour","armour","default"],"req":{"dexterity":0,"intelligence":72,"level":45,"strength":0},"domain":"item"}
 ```
 
-### 119. Essence of Alacrity
+### 120. Essence of Alacrity
 
 - Match score: `35`
 - `k`: Metadata/Items/Currency/CurrencyEssenceSpeedCaster
@@ -6074,18 +6088,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"Metadata/Items/Currency/CurrencyEssenceSpeedCaster","n":"Essence of Alacrity","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"StackableCurrency","tags":["essence","currency","default"],"domain":"undefined"}
-```
-
-### 120. expedition_faction_order_of_the_chalice
-
-- Match score: `35`
-- `k`: expedition_faction_order_of_the_chalice
-- `n`: expedition_faction_order_of_the_chalice
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
-
-```json
-{"k":"expedition_faction_order_of_the_chalice","n":"expedition_faction_order_of_the_chalice","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
 ## Mods and affixes

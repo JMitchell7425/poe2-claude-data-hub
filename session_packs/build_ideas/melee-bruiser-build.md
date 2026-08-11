@@ -1,6 +1,6 @@
 # Build Idea Pack — Melee Bruiser Build
 
-- Generated UTC: `2026-08-10T11:20:23+00:00`
+- Generated UTC: `2026-08-11T11:04:23+00:00`
 - Idea slug: `melee-bruiser-build`
 - Purpose: Engineer a close-range build with strong defenses, reliable recovery, and boss-capable damage.
 - Keywords: `melee, strike, slam, quarterstaff, mace, two handed, shield, attack, attack speed, stun, armour, evasion, block, life, leech, recovery, charge, rage, warcry, boss, clear, warrior, monk, mercenary`
@@ -4583,7 +4583,21 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemPlayerDefaultQuarterstaff","n":"Quarterstaff Strike","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 12. Shield Charge
+### 12. Random Two Handed Mace
+
+- Match score: `70`
+- `k`: Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMaceGamble
+- `n`: Random Two Handed Mace
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["two_hand_weapon","mace","default"]
+- `domain`: item
+
+```json
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMaceGamble","n":"Random Two Handed Mace","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HiddenItem","tags":["two_hand_weapon","mace","default"],"domain":"item"}
+```
+
+### 13. Shield Charge
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SkillGemShieldCharge
@@ -4597,7 +4611,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemShieldCharge","n":"Shield Charge","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["up_to_level_8_gem","gem","default"],"domain":"undefined"}
 ```
 
-### 13. Supercharged Slam
+### 14. Supercharged Slam
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SkillGemSuperchargedSlam
@@ -4611,7 +4625,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemSuperchargedSlam","n":"Supercharged Slam","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 14. Mercenary Targe
+### 15. Mercenary Targe
 
 - Match score: `55`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrDex3Cruel
@@ -4626,7 +4640,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrDex3Cruel","n":"Mercenary Targe","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_dex_armour","str_dex_shield","shield","armour","default"],"req":{"dexterity":40,"intelligence":0,"level":51,"strength":40},"domain":"item"}
 ```
 
-### 15. Aged Tower Shield
+### 16. Aged Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr2Cruel
@@ -4641,7 +4655,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr2Cruel","n":"Aged Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":45,"strength":64},"domain":"item"}
 ```
 
-### 16. Ancestor Tower Shield
+### 17. Ancestor Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr10
@@ -4656,7 +4670,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr10","n":"Ancestor Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","karui_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":50,"strength":71},"domain":"item"}
 ```
 
-### 17. Barricade Tower Shield
+### 18. Barricade Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr4
@@ -4671,7 +4685,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr4","n":"Barricade Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","maraketh_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":16,"strength":25},"domain":"item"}
 ```
 
-### 18. Blacksteel Crest Shield
+### 19. Blacksteel Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt7Endgame
@@ -4686,7 +4700,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt7Endgame","n":"Blacksteel Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","karui_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":63,"level":80,"strength":63},"domain":"item"}
 ```
 
-### 19. Blacksteel Tower Shield
+### 20. Blacksteel Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr13
@@ -4701,7 +4715,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr13","n":"Blacksteel Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":65,"strength":91},"domain":"item"}
 ```
 
-### 20. Blazon Crest Shield
+### 21. Blazon Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt1
@@ -4716,7 +4730,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt1","n":"Blazon Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","ezomyte_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
 ```
 
-### 21. Braced Tower Shield
+### 22. Braced Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr3
@@ -4731,7 +4745,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr3","n":"Braced Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","ezomyte_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":12,"strength":19},"domain":"item"}
 ```
 
-### 22. Bulwark Tower Shield
+### 23. Bulwark Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr6Cruel
@@ -4746,7 +4760,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr6Cruel","n":"Bulwark Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":54,"strength":77},"domain":"item"}
 ```
 
-### 23. Crucible Tower Shield
+### 24. Crucible Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr9
@@ -4761,7 +4775,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr9","n":"Crucible Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","karui_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":45,"strength":64},"domain":"item"}
 ```
 
-### 24. Cultist Tower Shield
+### 25. Cultist Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr5Cruel
@@ -4776,7 +4790,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr5Cruel","n":"Cultist Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":51,"strength":73},"domain":"item"}
 ```
 
-### 25. Defiant Tower Shield
+### 26. Defiant Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr12
@@ -4791,7 +4805,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr12","n":"Defiant Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":58,"strength":82},"domain":"item"}
 ```
 
-### 26. Deified Crest Shield
+### 27. Deified Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt11
@@ -4806,7 +4820,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt11","n":"Deified Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
 ```
 
-### 27. Dekharan Crest Shield
+### 28. Dekharan Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt4Cruel
@@ -4821,7 +4835,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt4Cruel","n":"Dekharan Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":42,"level":54,"strength":42},"domain":"item"}
 ```
 
-### 28. Descry Crest Shield
+### 29. Descry Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt3Cruel
@@ -4836,7 +4850,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt3Cruel","n":"Descry Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":40,"level":51,"strength":40},"domain":"item"}
 ```
 
-### 29. Effigial Tower Shield
+### 30. Effigial Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr5
@@ -4851,7 +4865,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr5","n":"Effigial Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","maraketh_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":21,"strength":32},"domain":"item"}
 ```
 
-### 30. Emblem Crest Shield
+### 31. Emblem Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt3
@@ -4866,7 +4880,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt3","n":"Emblem Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","maraketh_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":15,"level":16,"strength":15},"domain":"item"}
 ```
 
-### 31. Embossed Boots
+### 32. Embossed Boots
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Boots/FourBootsDex3
@@ -4881,7 +4895,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Boots/FourBootsDex3","n":"Embossed Boots","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Boots","tags":["dex_armour","maraketh_basetype","boots","armour","default"],"req":{"dexterity":23,"intelligence":0,"level":16,"strength":0},"domain":"item"}
 ```
 
-### 32. Empyreal Crest Shield
+### 33. Empyreal Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt10
@@ -4896,7 +4910,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt10","n":"Empyreal Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":45,"level":57,"strength":45},"domain":"item"}
 ```
 
-### 33. Engraved Crest Shield
+### 34. Engraved Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt2Cruel
@@ -4911,7 +4925,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt2Cruel","n":"Engraved Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":38,"level":48,"strength":38},"domain":"item"}
 ```
 
-### 34. Fortress Tower Shield
+### 35. Fortress Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr6Endgame
@@ -4926,7 +4940,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr6Endgame","n":"Fortress Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":70,"strength":99},"domain":"item"}
 ```
 
-### 35. Glowering Crest Shield
+### 36. Glowering Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt6Cruel
@@ -4941,7 +4955,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt6Cruel","n":"Glowering Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":48,"level":62,"strength":48},"domain":"item"}
 ```
 
-### 36. Golden Shield
+### 37. Golden Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldDemigod
@@ -4956,7 +4970,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldDemigod","n":"Golden Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
 ```
 
-### 37. Goldworked Tower Shield
+### 38. Goldworked Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr8Cruel
@@ -4971,7 +4985,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr8Cruel","n":"Goldworked Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":61,"strength":86},"domain":"item"}
 ```
 
-### 38. Heraldric Tower Shield
+### 39. Heraldric Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr7
@@ -4986,7 +5000,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr7","n":"Heraldric Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","vaal_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":33,"strength":48},"domain":"item"}
 ```
 
-### 39. Intricate Crest Shield
+### 40. Intricate Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt2Endgame
@@ -5001,7 +5015,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt2Endgame","n":"Intricate Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
 ```
 
-### 40. Jingling Crest Shield
+### 41. Jingling Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt4
@@ -5016,7 +5030,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt4","n":"Jingling Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","maraketh_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":23,"level":28,"strength":23},"domain":"item"}
 ```
 
-### 41. Mercenary Greathelm
+### 42. Mercenary Greathelm
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Helmets/FourHelmetStr2Cruel
@@ -5031,7 +5045,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Helmets/FourHelmetStr2Cruel","n":"Mercenary Greathelm","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_armour","helmet","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":48,"strength":69},"domain":"item"}
 ```
 
-### 42. Metalworked Tower Shield
+### 43. Metalworked Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr3Cruel
@@ -5046,7 +5060,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr3Cruel","n":"Metalworked Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":48,"strength":69},"domain":"item"}
 ```
 
-### 43. Noble Tower Shield
+### 44. Noble Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr7Cruel
@@ -5061,7 +5075,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr7Cruel","n":"Noble Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":59,"strength":83},"domain":"item"}
 ```
 
-### 44. Omen Crest Shield
+### 45. Omen Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt6
@@ -5076,7 +5090,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt6","n":"Omen Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","vaal_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":30,"level":36,"strength":30},"domain":"item"}
 ```
 
-### 45. Painted Crest Shield
+### 46. Painted Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt1Cruel
@@ -5091,7 +5105,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt1Cruel","n":"Painted Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":36,"level":45,"strength":36},"domain":"item"}
 ```
 
-### 46. Painted Tower Shield
+### 47. Painted Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr2
@@ -5106,7 +5120,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr2","n":"Painted Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","ezomyte_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":6,"strength":11},"domain":"item"}
 ```
 
-### 47. Phalanx Tower Shield
+### 48. Phalanx Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr11
@@ -5121,7 +5135,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr11","n":"Phalanx Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":52,"strength":74},"domain":"item"}
 ```
 
-### 48. Quartered Crest Shield
+### 49. Quartered Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt5Cruel
@@ -5136,7 +5150,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt5Cruel","n":"Quartered Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":46,"level":59,"strength":46},"domain":"item"}
 ```
 
-### 49. Raise Shield
+### 50. Raise Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Gem/SkillGemShieldBlock
@@ -5150,7 +5164,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemShieldBlock","n":"Raise Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 50. Rampart Tower Shield
+### 51. Rampart Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr6
@@ -5165,7 +5179,49 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr6","n":"Rampart Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","maraketh_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":28,"strength":42},"domain":"item"}
 ```
 
-### 51. Royal Tower Shield
+### 52. Random Shield
+
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrDexGamble
+- `n`: Random Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_dex_armour","shield","default"]
+- `domain`: item
+
+```json
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrDexGamble","n":"Random Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HiddenItem","tags":["str_dex_armour","shield","default"],"domain":"item"}
+```
+
+### 53. Random Shield
+
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrGamble
+- `n`: Random Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","shield","default"]
+- `domain`: item
+
+```json
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrGamble","n":"Random Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HiddenItem","tags":["str_armour","shield","default"],"domain":"item"}
+```
+
+### 54. Random Shield
+
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrIntGamble
+- `n`: Random Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","shield","default"]
+- `domain`: item
+
+```json
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrIntGamble","n":"Random Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HiddenItem","tags":["str_int_armour","shield","default"],"domain":"item"}
+```
+
+### 55. Royal Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr3Endgame
@@ -5180,7 +5236,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr3Endgame","n":"Royal Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":65,"strength":91},"domain":"item"}
 ```
 
-### 52. Runeforged Ancestor Tower Shield
+### 56. Runeforged Ancestor Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr10Verisium
@@ -5195,7 +5251,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr10Verisium","n":"Runeforged Ancestor Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":50,"strength":71},"domain":"item"}
 ```
 
-### 53. Runeforged Barricade Tower Shield
+### 57. Runeforged Barricade Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr4Verisium
@@ -5210,7 +5266,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr4Verisium","n":"Runeforged Barricade Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":16,"strength":25},"domain":"item"}
 ```
 
-### 54. Runeforged Blacksteel Crest Shield
+### 58. Runeforged Blacksteel Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt7EndgameVerisium
@@ -5225,7 +5281,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt7EndgameVerisium","n":"Runeforged Blacksteel Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":63,"level":80,"strength":63},"domain":"item"}
 ```
 
-### 55. Runeforged Blacksteel Tower Shield
+### 59. Runeforged Blacksteel Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr13Verisium
@@ -5240,7 +5296,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr13Verisium","n":"Runeforged Blacksteel Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":65,"strength":91},"domain":"item"}
 ```
 
-### 56. Runeforged Blazon Crest Shield
+### 60. Runeforged Blazon Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt1Verisium
@@ -5255,7 +5311,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt1Verisium","n":"Runeforged Blazon Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
 ```
 
-### 57. Runeforged Braced Tower Shield
+### 61. Runeforged Braced Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr3Verisium
@@ -5270,7 +5326,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr3Verisium","n":"Runeforged Braced Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":12,"strength":19},"domain":"item"}
 ```
 
-### 58. Runeforged Bulwark Tower Shield
+### 62. Runeforged Bulwark Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr6CruelVerisium
@@ -5285,7 +5341,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr6CruelVerisium","n":"Runeforged Bulwark Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":54,"strength":77},"domain":"item"}
 ```
 
-### 59. Runeforged Crucible Tower Shield
+### 63. Runeforged Crucible Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr9Verisium
@@ -5300,7 +5356,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr9Verisium","n":"Runeforged Crucible Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":45,"strength":64},"domain":"item"}
 ```
 
-### 60. Runeforged Defiant Tower Shield
+### 64. Runeforged Defiant Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr12Verisium
@@ -5315,7 +5371,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr12Verisium","n":"Runeforged Defiant Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":58,"strength":82},"domain":"item"}
 ```
 
-### 61. Runeforged Deified Crest Shield
+### 65. Runeforged Deified Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt11Verisium
@@ -5330,7 +5386,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt11Verisium","n":"Runeforged Deified Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
 ```
 
-### 62. Runeforged Dekharan Crest Shield
+### 66. Runeforged Dekharan Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt4CruelVerisium
@@ -5345,7 +5401,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt4CruelVerisium","n":"Runeforged Dekharan Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":42,"level":54,"strength":42},"domain":"item"}
 ```
 
-### 63. Runeforged Effigial Tower Shield
+### 67. Runeforged Effigial Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr5Verisium
@@ -5360,7 +5416,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr5Verisium","n":"Runeforged Effigial Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":21,"strength":32},"domain":"item"}
 ```
 
-### 64. Runeforged Emblem Crest Shield
+### 68. Runeforged Emblem Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt3Verisium
@@ -5375,7 +5431,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt3Verisium","n":"Runeforged Emblem Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":15,"level":16,"strength":15},"domain":"item"}
 ```
 
-### 65. Runeforged Embossed Boots
+### 69. Runeforged Embossed Boots
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Boots/FourBootsDex3Verisium
@@ -5390,7 +5446,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Boots/FourBootsDex3Verisium","n":"Runeforged Embossed Boots","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Boots","tags":["dex_armour","maraketh_basetype","runeforged","boots","armour","default"],"req":{"dexterity":23,"intelligence":0,"level":16,"strength":0},"domain":"item"}
 ```
 
-### 66. Runeforged Empyreal Crest Shield
+### 70. Runeforged Empyreal Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt10Verisium
@@ -5405,7 +5461,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt10Verisium","n":"Runeforged Empyreal Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":45,"level":57,"strength":45},"domain":"item"}
 ```
 
-### 67. Runeforged Fortress Tower Shield
+### 71. Runeforged Fortress Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr6EndgameVerisium
@@ -5420,7 +5476,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr6EndgameVerisium","n":"Runeforged Fortress Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":70,"strength":99},"domain":"item"}
 ```
 
-### 68. Runeforged Glowering Crest Shield
+### 72. Runeforged Glowering Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt6CruelVerisium
@@ -5435,7 +5491,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt6CruelVerisium","n":"Runeforged Glowering Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":48,"level":62,"strength":48},"domain":"item"}
 ```
 
-### 69. Runeforged Goldworked Tower Shield
+### 73. Runeforged Goldworked Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr8CruelVerisium
@@ -5450,7 +5506,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr8CruelVerisium","n":"Runeforged Goldworked Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":61,"strength":86},"domain":"item"}
 ```
 
-### 70. Runeforged Heraldric Tower Shield
+### 74. Runeforged Heraldric Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr7Verisium
@@ -5465,7 +5521,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr7Verisium","n":"Runeforged Heraldric Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","vaal_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":33,"strength":48},"domain":"item"}
 ```
 
-### 71. Runeforged Intricate Crest Shield
+### 75. Runeforged Intricate Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt2EndgameVerisium
@@ -5480,7 +5536,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt2EndgameVerisium","n":"Runeforged Intricate Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
 ```
 
-### 72. Runeforged Jingling Crest Shield
+### 76. Runeforged Jingling Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt4Verisium
@@ -5495,7 +5551,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt4Verisium","n":"Runeforged Jingling Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":23,"level":28,"strength":23},"domain":"item"}
 ```
 
-### 73. Runeforged Noble Tower Shield
+### 77. Runeforged Noble Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr7CruelVerisium
@@ -5510,7 +5566,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr7CruelVerisium","n":"Runeforged Noble Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":59,"strength":83},"domain":"item"}
 ```
 
-### 74. Runeforged Omen Crest Shield
+### 78. Runeforged Omen Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt6Verisium
@@ -5525,7 +5581,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt6Verisium","n":"Runeforged Omen Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","vaal_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":30,"level":36,"strength":30},"domain":"item"}
 ```
 
-### 75. Runeforged Painted Tower Shield
+### 79. Runeforged Painted Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr2Verisium
@@ -5540,7 +5596,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr2Verisium","n":"Runeforged Painted Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":6,"strength":11},"domain":"item"}
 ```
 
-### 76. Runeforged Phalanx Tower Shield
+### 80. Runeforged Phalanx Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr11Verisium
@@ -5555,7 +5611,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr11Verisium","n":"Runeforged Phalanx Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":52,"strength":74},"domain":"item"}
 ```
 
-### 77. Runeforged Quartered Crest Shield
+### 81. Runeforged Quartered Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt5CruelVerisium
@@ -5570,7 +5626,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt5CruelVerisium","n":"Runeforged Quartered Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":46,"level":59,"strength":46},"domain":"item"}
 ```
 
-### 78. Runeforged Rampart Tower Shield
+### 82. Runeforged Rampart Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr6Verisium
@@ -5585,7 +5641,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr6Verisium","n":"Runeforged Rampart Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":28,"strength":42},"domain":"item"}
 ```
 
-### 79. Runeforged Royal Tower Shield
+### 83. Runeforged Royal Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr3EndgameVerisium
@@ -5600,7 +5656,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr3EndgameVerisium","n":"Runeforged Royal Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":65,"strength":91},"domain":"item"}
 ```
 
-### 80. Runeforged Sectarian Crest Shield
+### 84. Runeforged Sectarian Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt5Verisium
@@ -5615,7 +5671,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt5Verisium","n":"Runeforged Sectarian Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","vaal_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":27,"level":33,"strength":27},"domain":"item"}
 ```
 
-### 81. Runeforged Seer Crest Shield
+### 85. Runeforged Seer Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt8Verisium
@@ -5630,7 +5686,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt8Verisium","n":"Runeforged Seer Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":39,"level":50,"strength":39},"domain":"item"}
 ```
 
-### 82. Runeforged Sekheman Crest Shield
+### 86. Runeforged Sekheman Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt4EndgameVerisium
@@ -5645,7 +5701,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt4EndgameVerisium","n":"Runeforged Sekheman Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":54,"level":70,"strength":54},"domain":"item"}
 ```
 
-### 83. Runeforged Shielded Helm
+### 87. Runeforged Shielded Helm
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Helmets/FourHelmetStrDex5Verisium
@@ -5660,7 +5716,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Helmets/FourHelmetStrDex5Verisium","n":"Runeforged Shielded Helm","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_dex_armour","vaal_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":27,"intelligence":0,"level":33,"strength":27},"domain":"item"}
 ```
 
-### 84. Runeforged Sigil Crest Shield
+### 88. Runeforged Sigil Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt2Verisium
@@ -5675,7 +5731,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt2Verisium","n":"Runeforged Sigil Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":8,"level":7,"strength":8},"domain":"item"}
 ```
 
-### 85. Runeforged Slipstrike Vest
+### 89. Runeforged Slipstrike Vest
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/BodyArmours/FourBodyDex6EndgameVerisium
@@ -5690,7 +5746,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/BodyArmours/FourBodyDex6EndgameVerisium","n":"Runeforged Slipstrike Vest","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Body Armour","tags":["dex_armour","runeforged","body_armour","armour","default"],"req":{"dexterity":121,"intelligence":0,"level":70,"strength":0},"domain":"item"}
 ```
 
-### 86. Runeforged Splintered Tower Shield
+### 90. Runeforged Splintered Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr1Verisium
@@ -5705,7 +5761,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr1Verisium","n":"Runeforged Splintered Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
 ```
 
-### 87. Runeforged Stoic Crest Shield
+### 91. Runeforged Stoic Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt9Verisium
@@ -5720,7 +5776,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt9Verisium","n":"Runeforged Stoic Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":41,"level":52,"strength":41},"domain":"item"}
 ```
 
-### 88. Runeforged Stone Tower Shield
+### 92. Runeforged Stone Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr8Verisium
@@ -5735,7 +5791,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr8Verisium","n":"Runeforged Stone Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","vaal_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":36,"strength":52},"domain":"item"}
 ```
 
-### 89. Runeforged Tawhoan Tower Shield
+### 93. Runeforged Tawhoan Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr10EndgameVerisium
@@ -5750,7 +5806,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr10EndgameVerisium","n":"Runeforged Tawhoan Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":80,"strength":115},"domain":"item"}
 ```
 
-### 90. Runeforged Vaal Crest Shield
+### 94. Runeforged Vaal Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt6EndgameVerisium
@@ -5765,7 +5821,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt6EndgameVerisium","n":"Runeforged Vaal Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":59,"level":75,"strength":59},"domain":"item"}
 ```
 
-### 91. Runeforged Vaal Tower Shield
+### 95. Runeforged Vaal Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr8EndgameVerisium
@@ -5780,7 +5836,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr8EndgameVerisium","n":"Runeforged Vaal Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":75,"strength":107},"domain":"item"}
 ```
 
-### 92. Runeforged Warrior Greathelm
+### 96. Runeforged Warrior Greathelm
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Helmets/FourHelmetStr6Verisium
@@ -5795,7 +5851,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Helmets/FourHelmetStr6Verisium","n":"Runeforged Warrior Greathelm","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_armour","vaal_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":36,"strength":52},"domain":"item"}
 ```
 
-### 93. Runeforged Wayward Crest Shield
+### 97. Runeforged Wayward Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt7Verisium
@@ -5810,7 +5866,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt7Verisium","n":"Runeforged Wayward Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":36,"level":45,"strength":36},"domain":"item"}
 ```
 
-### 94. Runemastered Barricade Tower Shield
+### 98. Runemastered Barricade Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr4VerisiumUnique1
@@ -5825,7 +5881,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr4VerisiumUnique1","n":"Runemastered Barricade Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":38,"strength":54},"domain":"item"}
 ```
 
-### 95. Runemastered Blacksteel Tower Shield
+### 99. Runemastered Blacksteel Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr13VerisiumUnique1
@@ -5840,7 +5896,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr13VerisiumUnique1","n":"Runemastered Blacksteel Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":65,"strength":91},"domain":"item"}
 ```
 
-### 96. Runemastered Blazon Crest Shield
+### 100. Runemastered Blazon Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt1VerisiumUnique1
@@ -5855,7 +5911,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt1VerisiumUnique1","n":"Runemastered Blazon Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":32,"level":40,"strength":32},"domain":"item"}
 ```
 
-### 97. Runemastered Braced Tower Shield
+### 101. Runemastered Braced Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr3VerisiumUnique1
@@ -5870,7 +5926,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr3VerisiumUnique1","n":"Runemastered Braced Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":38,"strength":54},"domain":"item"}
 ```
 
-### 98. Runemastered Crucible Tower Shield
+### 102. Runemastered Crucible Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr9VerisiumUnique1
@@ -5885,7 +5941,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr9VerisiumUnique1","n":"Runemastered Crucible Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":65,"strength":91},"domain":"item"}
 ```
 
-### 99. Runemastered Crucible Tower Shield
+### 103. Runemastered Crucible Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr9VerisiumUnique2
@@ -5900,7 +5956,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr9VerisiumUnique2","n":"Runemastered Crucible Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":65,"strength":91},"domain":"item"}
 ```
 
-### 100. Runemastered Crucible Tower Shield
+### 104. Runemastered Crucible Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr9VerisiumUnique3
@@ -5915,7 +5971,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr9VerisiumUnique3","n":"Runemastered Crucible Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":91,"intelligence":0,"level":65,"strength":0},"domain":"item"}
 ```
 
-### 101. Runemastered Crucible Tower Shield
+### 105. Runemastered Crucible Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr9VerisiumUnique4
@@ -5930,7 +5986,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr9VerisiumUnique4","n":"Runemastered Crucible Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":65,"strength":91},"domain":"item"}
 ```
 
-### 102. Runemastered Effigial Tower Shield
+### 106. Runemastered Effigial Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr5VerisiumUnique1
@@ -5945,7 +6001,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr5VerisiumUnique1","n":"Runemastered Effigial Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":38,"strength":54},"domain":"item"}
 ```
 
-### 103. Runemastered Emblem Crest Shield
+### 107. Runemastered Emblem Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt3VerisiumUnique1
@@ -5960,7 +6016,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt3VerisiumUnique1","n":"Runemastered Emblem Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":31,"level":38,"strength":31},"domain":"item"}
 ```
 
-### 104. Runemastered Embossed Boots
+### 108. Runemastered Embossed Boots
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Boots/FourBootsDex3VerisiumUnique1
@@ -5975,7 +6031,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Boots/FourBootsDex3VerisiumUnique1","n":"Runemastered Embossed Boots","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Boots","tags":["dex_armour","maraketh_basetype","runeforged","boots","armour","default"],"req":{"dexterity":51,"intelligence":0,"level":38,"strength":0},"domain":"item"}
 ```
 
-### 105. Runemastered Heraldric Tower Shield
+### 109. Runemastered Heraldric Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr7VerisiumUnique1
@@ -5990,7 +6046,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr7VerisiumUnique1","n":"Runemastered Heraldric Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","vaal_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":50,"strength":71},"domain":"item"}
 ```
 
-### 106. Runemastered Intricate Crest Shield
+### 110. Runemastered Intricate Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt2EndgameVerisiumUnique1
@@ -6005,7 +6061,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt2EndgameVerisiumUnique1","n":"Runemastered Intricate Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
 ```
 
-### 107. Runemastered Jingling Crest Shield
+### 111. Runemastered Jingling Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt4VerisiumUnique1
@@ -6020,7 +6076,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt4VerisiumUnique1","n":"Runemastered Jingling Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":31,"level":38,"strength":31},"domain":"item"}
 ```
 
-### 108. Runemastered Omen Crest Shield
+### 112. Runemastered Omen Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt6VerisiumUnique1
@@ -6035,7 +6091,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt6VerisiumUnique1","n":"Runemastered Omen Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","vaal_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":38,"level":48,"strength":38},"domain":"item"}
 ```
 
-### 109. Runemastered Painted Tower Shield
+### 113. Runemastered Painted Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr2VerisiumUnique1
@@ -6050,7 +6106,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr2VerisiumUnique1","n":"Runemastered Painted Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":38,"strength":54},"domain":"item"}
 ```
 
-### 110. Runemastered Rampart Tower Shield
+### 114. Runemastered Rampart Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr6VerisiumUnique1
@@ -6065,7 +6121,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr6VerisiumUnique1","n":"Runemastered Rampart Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":40,"strength":58},"domain":"item"}
 ```
 
-### 111. Runemastered Shielded Helm
+### 115. Runemastered Shielded Helm
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Helmets/FourHelmetStrDex5VerisiumUnique1
@@ -6080,7 +6136,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Helmets/FourHelmetStrDex5VerisiumUnique1","n":"Runemastered Shielded Helm","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_dex_armour","vaal_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":43,"intelligence":0,"level":55,"strength":43},"domain":"item"}
 ```
 
-### 112. Runemastered Sigil Crest Shield
+### 116. Runemastered Sigil Crest Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStrInt2VerisiumUnique1
@@ -6095,7 +6151,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStrInt2VerisiumUnique1","n":"Runemastered Sigil Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":32,"level":40,"strength":32},"domain":"item"}
 ```
 
-### 113. Runemastered Splintered Tower Shield
+### 117. Runemastered Splintered Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr1VerisiumUnique1
@@ -6110,7 +6166,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr1VerisiumUnique1","n":"Runemastered Splintered Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":38,"strength":54},"domain":"item"}
 ```
 
-### 114. Runemastered Vaal Tower Shield
+### 118. Runemastered Vaal Tower Shield
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Shields/FourShieldStr8EndgameVerisiumUnique1
@@ -6125,7 +6181,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Shields/FourShieldStr8EndgameVerisiumUnique1","n":"Runemastered Vaal Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":75,"strength":107},"domain":"item"}
 ```
 
-### 115. Runemastered Warrior Greathelm
+### 119. Runemastered Warrior Greathelm
 
 - Match score: `45`
 - `k`: Metadata/Items/Armours/Helmets/FourHelmetStr6VerisiumUnique1
@@ -6140,7 +6196,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Helmets/FourHelmetStr6VerisiumUnique1","n":"Runemastered Warrior Greathelm","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_armour","vaal_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":55,"strength":78},"domain":"item"}
 ```
 
-### 116. Sacred Crystallised Lifeforce
+### 120. Sacred Crystallised Lifeforce
 
 - Match score: `45`
 - `k`: Metadata/Items/Currency/HarvestSeedBoss
@@ -6152,66 +6208,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"Metadata/Items/Currency/HarvestSeedBoss","n":"Sacred Crystallised Lifeforce","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"StackableCurrency","tags":["currency","default"],"domain":"undefined"}
-```
-
-### 117. Sectarian Crest Shield
-
-- Match score: `45`
-- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt5
-- `n`: Sectarian Crest Shield
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["str_int_armour","str_int_shield","vaal_basetype","shield","armour","default"]
-- `req`: {"dexterity":0,"intelligence":27,"level":33,"strength":27}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt5","n":"Sectarian Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","vaal_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":27,"level":33,"strength":27},"domain":"item"}
-```
-
-### 118. Seer Crest Shield
-
-- Match score: `45`
-- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt8
-- `n`: Seer Crest Shield
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["str_int_armour","str_int_shield","karui_basetype","shield","armour","default"]
-- `req`: {"dexterity":0,"intelligence":39,"level":50,"strength":39}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt8","n":"Seer Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","karui_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":39,"level":50,"strength":39},"domain":"item"}
-```
-
-### 119. Sekheman Crest Shield
-
-- Match score: `45`
-- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt4Endgame
-- `n`: Sekheman Crest Shield
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["str_int_armour","str_int_shield","shield","armour","default"]
-- `req`: {"dexterity":0,"intelligence":54,"level":70,"strength":54}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt4Endgame","n":"Sekheman Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":54,"level":70,"strength":54},"domain":"item"}
-```
-
-### 120. Shielded Helm
-
-- Match score: `45`
-- `k`: Metadata/Items/Armours/Helmets/FourHelmetStrDex5
-- `n`: Shielded Helm
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["str_dex_armour","vaal_basetype","helmet","armour","default"]
-- `req`: {"dexterity":27,"intelligence":0,"level":33,"strength":27}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Armours/Helmets/FourHelmetStrDex5","n":"Shielded Helm","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_dex_armour","vaal_basetype","helmet","armour","default"],"req":{"dexterity":27,"intelligence":0,"level":33,"strength":27},"domain":"item"}
 ```
 
 ## Mods and affixes

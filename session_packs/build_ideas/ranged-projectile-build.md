@@ -1,6 +1,6 @@
 # Build Idea Pack — Ranged Projectile Build
 
-- Generated UTC: `2026-08-10T11:20:24+00:00`
+- Generated UTC: `2026-08-11T11:04:24+00:00`
 - Idea slug: `ranged-projectile-build`
 - Purpose: Engineer a ranged projectile build with high clear coverage and strong boss scaling.
 - Keywords: `projectile, bow, crossbow, wand, ranged, chain, fork, pierce, multiple projectiles, reload, grenade, bolt, arrow, attack, critical, crit, poison, shock, freeze, ignite, area, clear, boss, deadeye, mercenary, witchhunter`
@@ -5488,7 +5488,21 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemPoisonBurstArrow","n":"Poisonburst Arrow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 75. rogue_exile_boss_area
+### 75. Random Crossbow
+
+- Match score: `70`
+- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbowGamble
+- `n`: Random Crossbow
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["crossbow","default"]
+- `domain`: item
+
+```json
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbowGamble","n":"Random Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HiddenItem","tags":["crossbow","default"],"domain":"item"}
+```
+
+### 76. rogue_exile_boss_area
 
 - Match score: `70`
 - `k`: rogue_exile_boss_area
@@ -5500,7 +5514,7 @@ _No keyword matches in this index._
 {"k":"rogue_exile_boss_area","n":"rogue_exile_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 76. rogue_exile_boss_area
+### 77. rogue_exile_boss_area
 
 - Match score: `70`
 - `k`: 857
@@ -5512,7 +5526,7 @@ _No keyword matches in this index._
 {"k":"857","n":"rogue_exile_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"rogue_exile_boss_area"}
 ```
 
-### 77. scavenger_boss_area
+### 78. scavenger_boss_area
 
 - Match score: `70`
 - `k`: scavenger_boss_area
@@ -5524,7 +5538,7 @@ _No keyword matches in this index._
 {"k":"scavenger_boss_area","n":"scavenger_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 78. scavenger_boss_area
+### 79. scavenger_boss_area
 
 - Match score: `70`
 - `k`: 843
@@ -5536,7 +5550,7 @@ _No keyword matches in this index._
 {"k":"843","n":"scavenger_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"scavenger_boss_area"}
 ```
 
-### 79. sea_witch_boss_area
+### 80. sea_witch_boss_area
 
 - Match score: `70`
 - `k`: sea_witch_boss_area
@@ -5548,7 +5562,7 @@ _No keyword matches in this index._
 {"k":"sea_witch_boss_area","n":"sea_witch_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 80. sea_witch_boss_area
+### 81. sea_witch_boss_area
 
 - Match score: `70`
 - `k`: 805
@@ -5560,7 +5574,7 @@ _No keyword matches in this index._
 {"k":"805","n":"sea_witch_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"sea_witch_boss_area"}
 ```
 
-### 81. spider_boss_area
+### 82. spider_boss_area
 
 - Match score: `70`
 - `k`: spider_boss_area
@@ -5572,7 +5586,7 @@ _No keyword matches in this index._
 {"k":"spider_boss_area","n":"spider_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 82. spider_boss_area
+### 83. spider_boss_area
 
 - Match score: `70`
 - `k`: 840
@@ -5584,7 +5598,7 @@ _No keyword matches in this index._
 {"k":"840","n":"spider_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"spider_boss_area"}
 ```
 
-### 83. Supercritical
+### 84. Supercritical
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SupportGemSupercritical
@@ -5598,7 +5612,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemSupercritical","n":"Supercritical","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
 ```
 
-### 84. templar_boss_area
+### 85. templar_boss_area
 
 - Match score: `70`
 - `k`: templar_boss_area
@@ -5610,7 +5624,7 @@ _No keyword matches in this index._
 {"k":"templar_boss_area","n":"templar_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 85. templar_boss_area
+### 86. templar_boss_area
 
 - Match score: `70`
 - `k`: 809
@@ -5622,7 +5636,7 @@ _No keyword matches in this index._
 {"k":"809","n":"templar_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"templar_boss_area"}
 ```
 
-### 86. totem_boss_area
+### 87. totem_boss_area
 
 - Match score: `70`
 - `k`: totem_boss_area
@@ -5634,7 +5648,7 @@ _No keyword matches in this index._
 {"k":"totem_boss_area","n":"totem_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 87. totem_boss_area
+### 88. totem_boss_area
 
 - Match score: `70`
 - `k`: 845
@@ -5646,7 +5660,7 @@ _No keyword matches in this index._
 {"k":"845","n":"totem_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"totem_boss_area"}
 ```
 
-### 88. undying_boss_area
+### 89. undying_boss_area
 
 - Match score: `70`
 - `k`: undying_boss_area
@@ -5658,7 +5672,7 @@ _No keyword matches in this index._
 {"k":"undying_boss_area","n":"undying_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 89. undying_boss_area
+### 90. undying_boss_area
 
 - Match score: `70`
 - `k`: 803
@@ -5670,7 +5684,7 @@ _No keyword matches in this index._
 {"k":"803","n":"undying_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"undying_boss_area"}
 ```
 
-### 90. vaalsidearea_boss
+### 91. vaalsidearea_boss
 
 - Match score: `70`
 - `k`: vaalsidearea_boss
@@ -5682,7 +5696,7 @@ _No keyword matches in this index._
 {"k":"vaalsidearea_boss","n":"vaalsidearea_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 91. vaalsidearea_boss
+### 92. vaalsidearea_boss
 
 - Match score: `70`
 - `k`: 939
@@ -5694,7 +5708,7 @@ _No keyword matches in this index._
 {"k":"939","n":"vaalsidearea_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"vaalsidearea_boss"}
 ```
 
-### 92. Adherent Bow
+### 93. Adherent Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow7Cruel
@@ -5709,7 +5723,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow7Cruel","n":"Adherent Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":104,"intelligence":0,"level":59,"strength":0},"domain":"item"}
 ```
 
-### 93. Artillery Bow
+### 94. Artillery Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow9
@@ -5724,7 +5738,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow9","n":"Artillery Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["karui_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":80,"intelligence":0,"level":45,"strength":0},"domain":"item"}
 ```
 
-### 94. Cavalry Bow
+### 95. Cavalry Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow5Endgame
@@ -5739,7 +5753,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow5Endgame","n":"Cavalry Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":149,"intelligence":0,"level":72,"strength":0},"domain":"item"}
 ```
 
-### 95. Composite Bow
+### 96. Composite Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow5
@@ -5754,7 +5768,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow5","n":"Composite Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["maraketh_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":41,"intelligence":0,"level":22,"strength":0},"domain":"item"}
 ```
 
-### 96. Crude Bow
+### 97. Crude Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow1
@@ -5769,7 +5783,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow1","n":"Crude Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["ezomyte_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
 ```
 
-### 97. Cultist Bow
+### 98. Cultist Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow7
@@ -5784,7 +5798,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow7","n":"Cultist Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["vaal_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":60,"intelligence":0,"level":33,"strength":0},"domain":"item"}
 ```
 
-### 98. Double Limb Bow
+### 99. Double Limb Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow12
@@ -5799,7 +5813,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow12","n":"Double Limb Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":99,"intelligence":0,"level":56,"strength":0},"domain":"item"}
 ```
 
-### 99. Dualstring Bow
+### 100. Dualstring Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow6
@@ -5814,7 +5828,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow6","n":"Dualstring Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["maraketh_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":52,"intelligence":0,"level":28,"strength":0},"domain":"item"}
 ```
 
-### 100. Fanatic Bow
+### 101. Fanatic Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow7Endgame
@@ -5829,7 +5843,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow7Endgame","n":"Fanatic Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":163,"intelligence":0,"level":79,"strength":0},"domain":"item"}
 ```
 
-### 101. Flanged Arrowhead
+### 102. Flanged Arrowhead
 
 - Match score: `45`
 - `k`: Metadata/Items/Heist/HeistEquipmentRanged1
@@ -5843,7 +5857,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Heist/HeistEquipmentRanged1","n":"Flanged Arrowhead","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HeistEquipmentWeapon","tags":["heist_equipment_weapon","heist_equipment_ranged","heist_equipment","default"],"domain":"heist_npc"}
 ```
 
-### 102. Fragmenting Arrowhead
+### 103. Fragmenting Arrowhead
 
 - Match score: `45`
 - `k`: Metadata/Items/Heist/HeistEquipmentRanged2
@@ -5857,7 +5871,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Heist/HeistEquipmentRanged2","n":"Fragmenting Arrowhead","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HeistEquipmentWeapon","tags":["heist_equipment_weapon","heist_equipment_ranged","heist_equipment","default"],"domain":"heist_npc"}
 ```
 
-### 103. Gemini Bow
+### 104. Gemini Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow6Endgame
@@ -5872,7 +5886,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow6Endgame","n":"Gemini Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":163,"intelligence":0,"level":78,"strength":0},"domain":"item"}
 ```
 
-### 104. Greatbow
+### 105. Greatbow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow11
@@ -5887,7 +5901,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow11","n":"Greatbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":92,"intelligence":0,"level":52,"strength":92},"domain":"item"}
 ```
 
-### 105. Guardian Bow
+### 106. Guardian Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow3Endgame
@@ -5902,7 +5916,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow3Endgame","n":"Guardian Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":163,"intelligence":0,"level":77,"strength":0},"domain":"item"}
 ```
 
-### 106. Heartwood Shortbow
+### 107. Heartwood Shortbow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowUnique1
@@ -5917,7 +5931,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowUnique1","n":"Heartwood Shortbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":134,"intelligence":0,"level":67,"strength":0},"domain":"item"}
 ```
 
-### 107. Heavy Bow
+### 108. Heavy Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow13
@@ -5932,7 +5946,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow13","n":"Heavy Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":114,"intelligence":0,"level":65,"strength":0},"domain":"item"}
 ```
 
-### 108. Hollowpoint Arrowhead
+### 109. Hollowpoint Arrowhead
 
 - Match score: `45`
 - `k`: Metadata/Items/Heist/HeistEquipmentRanged3
@@ -5946,7 +5960,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Heist/HeistEquipmentRanged3","n":"Hollowpoint Arrowhead","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HeistEquipmentWeapon","tags":["heist_equipment_weapon","heist_equipment_ranged","heist_equipment","default"],"domain":"heist_npc"}
 ```
 
-### 109. Ironwood Shortbow
+### 110. Ironwood Shortbow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow2Endgame
@@ -5961,7 +5975,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow2Endgame","n":"Ironwood Shortbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":134,"intelligence":0,"level":67,"strength":0},"domain":"item"}
 ```
 
-### 110. Militant Bow
+### 111. Militant Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow8Cruel
@@ -5976,7 +5990,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow8Cruel","n":"Militant Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":109,"intelligence":0,"level":62,"strength":0},"domain":"item"}
 ```
 
-### 111. Obliterator Bow
+### 112. Obliterator Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow9Endgame
@@ -5991,7 +6005,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow9Endgame","n":"Obliterator Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["karui_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":163,"intelligence":0,"level":78,"strength":0},"domain":"item"}
 ```
 
-### 112. Precise Arrowhead
+### 113. Precise Arrowhead
 
 - Match score: `45`
 - `k`: Metadata/Items/Heist/HeistEquipmentRanged4
@@ -6005,7 +6019,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Heist/HeistEquipmentRanged4","n":"Precise Arrowhead","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HeistEquipmentWeapon","tags":["heist_equipment_weapon","heist_equipment_ranged","heist_equipment","default"],"domain":"heist_npc"}
 ```
 
-### 113. Protector Bow
+### 114. Protector Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow3Cruel
@@ -6020,7 +6034,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow3Cruel","n":"Protector Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":86,"intelligence":0,"level":48,"strength":0},"domain":"item"}
 ```
 
-### 114. Recurve Bow
+### 115. Recurve Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow4
@@ -6035,7 +6049,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow4","n":"Recurve Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["maraketh_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":31,"intelligence":0,"level":16,"strength":0},"domain":"item"}
 ```
 
-### 115. Rider Bow
+### 116. Rider Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow5Cruel
@@ -6050,7 +6064,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow5Cruel","n":"Rider Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":91,"intelligence":0,"level":51,"strength":0},"domain":"item"}
 ```
 
-### 116. Runeforged Composite Bow
+### 117. Runeforged Composite Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowVerisium5
@@ -6065,7 +6079,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowVerisium5","n":"Runeforged Composite Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["maraketh_basetype","runeforged","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":97,"intelligence":0,"level":55,"strength":0},"domain":"item"}
 ```
 
-### 117. Runeforged Crude Bow
+### 118. Runeforged Crude Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowVerisium1
@@ -6080,7 +6094,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowVerisium1","n":"Runeforged Crude Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["ezomyte_basetype","runeforged","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":97,"intelligence":0,"level":55,"strength":0},"domain":"item"}
 ```
 
-### 118. Runeforged Dualstring Bow
+### 119. Runeforged Dualstring Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowVerisium6
@@ -6095,7 +6109,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowVerisium6","n":"Runeforged Dualstring Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["maraketh_basetype","runeforged","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":97,"intelligence":0,"level":55,"strength":0},"domain":"item"}
 ```
 
-### 119. Runeforged Recurve Bow
+### 120. Runeforged Recurve Bow
 
 - Match score: `45`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowVerisium4
@@ -6108,21 +6122,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowVerisium4","n":"Runeforged Recurve Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["maraketh_basetype","runeforged","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":72,"intelligence":0,"level":40,"strength":0},"domain":"item"}
-```
-
-### 120. Runeforged Shortbow
-
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowVerisium2a
-- `n`: Runeforged Shortbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["ezomyte_basetype","runeforged","bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":68,"intelligence":0,"level":38,"strength":0}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowVerisium2a","n":"Runeforged Shortbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["ezomyte_basetype","runeforged","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":68,"intelligence":0,"level":38,"strength":0},"domain":"item"}
 ```
 
 ## Mods and affixes

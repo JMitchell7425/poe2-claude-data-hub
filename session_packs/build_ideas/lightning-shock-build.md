@@ -1,6 +1,6 @@
 # Build Idea Pack — Lightning Shock Build
 
-- Generated UTC: `2026-08-10T11:20:27+00:00`
+- Generated UTC: `2026-08-11T11:04:27+00:00`
 - Idea slug: `lightning-shock-build`
 - Purpose: Engineer a lightning/shock build with high clear speed and strong damage amplification.
 - Keywords: `lightning, shock, shocked, electrocute, storm, spark, arc, exposure, penetration, ailment, elemental, critical, crit, cast speed, projectile, area, aoe, mana, energy shield, sorceress, stormweaver`
@@ -5403,7 +5403,21 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemArchmage","n":"Archmage","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 73. Archnemesis Mods
+### 73. Archnemesis Mod
+
+- Match score: `35`
+- `k`: Metadata/Items/Archnemesis/ArchnemesisMod
+- `n`: Archnemesis Mod
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Archnemesis/ArchnemesisMod","n":"Archnemesis Mod","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"ArchnemesisMod","tags":["default"],"domain":"undefined"}
+```
+
+### 74. Archnemesis Mods
 
 - Match score: `35`
 - `k`: ArchnemesisMod
@@ -5415,7 +5429,7 @@ _No keyword matches in this index._
 {"k":"ArchnemesisMod","n":"Archnemesis Mods","cat":"repoe_item_classes","src":"repoe_poe2/item_classes.json"}
 ```
 
-### 74. Archon Crown
+### 75. Archon Crown
 
 - Match score: `35`
 - `k`: Metadata/Items/Armours/Helmets/FourHelmetStrInt8
@@ -5430,7 +5444,63 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Helmets/FourHelmetStrInt8","n":"Archon Crown","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_int_armour","helmet","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
 ```
 
-### 75. Archon of Chayula
+### 76. Archon Kite Shield Piece
+
+- Match score: `35`
+- `k`: Metadata/Items/UniqueFragments/FragmentUniqueShield1_1
+- `n`: Archon Kite Shield Piece
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: dummy
+
+```json
+{"k":"Metadata/Items/UniqueFragments/FragmentUniqueShield1_1","n":"Archon Kite Shield Piece","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UniqueFragment","tags":["default"],"domain":"dummy"}
+```
+
+### 77. Archon Kite Shield Piece
+
+- Match score: `35`
+- `k`: Metadata/Items/UniqueFragments/FragmentUniqueShield1_2
+- `n`: Archon Kite Shield Piece
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: dummy
+
+```json
+{"k":"Metadata/Items/UniqueFragments/FragmentUniqueShield1_2","n":"Archon Kite Shield Piece","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UniqueFragment","tags":["default"],"domain":"dummy"}
+```
+
+### 78. Archon Kite Shield Piece
+
+- Match score: `35`
+- `k`: Metadata/Items/UniqueFragments/FragmentUniqueShield1_3
+- `n`: Archon Kite Shield Piece
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: dummy
+
+```json
+{"k":"Metadata/Items/UniqueFragments/FragmentUniqueShield1_3","n":"Archon Kite Shield Piece","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UniqueFragment","tags":["default"],"domain":"dummy"}
+```
+
+### 79. Archon Kite Shield Piece
+
+- Match score: `35`
+- `k`: Metadata/Items/UniqueFragments/FragmentUniqueShield1_4
+- `n`: Archon Kite Shield Piece
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: dummy
+
+```json
+{"k":"Metadata/Items/UniqueFragments/FragmentUniqueShield1_4","n":"Archon Kite Shield Piece","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UniqueFragment","tags":["default"],"domain":"dummy"}
+```
+
+### 80. Archon of Chayula
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemArchonOfChayula
@@ -5444,7 +5514,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemArchonOfChayula","n":"Archon of Chayula","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 76. Arcing Quarterstaff
+### 81. Arcing Quarterstaff
 
 - Match score: `35`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff4Cruel
@@ -5459,7 +5529,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff4Cruel","n":"Arcing Quarterstaff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Warstaff","tags":["warstaff","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":71,"intelligence":29,"level":51,"strength":0},"domain":"item"}
 ```
 
-### 77. Arctic Armour
+### 82. Arctic Armour
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemArcticArmour
@@ -5473,7 +5543,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemArcticArmour","n":"Arctic Armour","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 78. Arctic Howl
+### 83. Arctic Howl
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemWolfArcticHowl
@@ -5487,7 +5557,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemWolfArcticHowl","n":"Arctic Howl","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 79. area_with_water
+### 84. area_with_water
 
 - Match score: `35`
 - `k`: area_with_water
@@ -5499,7 +5569,7 @@ _No keyword matches in this index._
 {"k":"area_with_water","n":"area_with_water","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 80. area_with_water
+### 85. area_with_water
 
 - Match score: `35`
 - `k`: 170
@@ -5511,7 +5581,7 @@ _No keyword matches in this index._
 {"k":"170","n":"area_with_water","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"area_with_water"}
 ```
 
-### 81. arena_area
+### 86. arena_area
 
 - Match score: `35`
 - `k`: arena_area
@@ -5523,7 +5593,7 @@ _No keyword matches in this index._
 {"k":"arena_area","n":"arena_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 82. arena_area
+### 87. arena_area
 
 - Match score: `35`
 - `k`: 401
@@ -5535,7 +5605,7 @@ _No keyword matches in this index._
 {"k":"401","n":"arena_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"arena_area"}
 ```
 
-### 83. atziri_area
+### 88. atziri_area
 
 - Match score: `35`
 - `k`: atziri_area
@@ -5547,7 +5617,7 @@ _No keyword matches in this index._
 {"k":"atziri_area","n":"atziri_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 84. atziri_area
+### 89. atziri_area
 
 - Match score: `35`
 - `k`: 824
@@ -5559,7 +5629,7 @@ _No keyword matches in this index._
 {"k":"824","n":"atziri_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"atziri_area"}
 ```
 
-### 85. Ball Lightning
+### 90. Ball Lightning
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemBallLightning
@@ -5573,7 +5643,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemBallLightning","n":"Ball Lightning","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 86. bandit_area
+### 91. bandit_area
 
 - Match score: `35`
 - `k`: bandit_area
@@ -5585,7 +5655,7 @@ _No keyword matches in this index._
 {"k":"bandit_area","n":"bandit_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 87. bandit_area
+### 92. bandit_area
 
 - Match score: `35`
 - `k`: 379
@@ -5597,7 +5667,7 @@ _No keyword matches in this index._
 {"k":"379","n":"bandit_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bandit_area"}
 ```
 
-### 88. belly_area
+### 93. belly_area
 
 - Match score: `35`
 - `k`: belly_area
@@ -5609,7 +5679,7 @@ _No keyword matches in this index._
 {"k":"belly_area","n":"belly_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 89. belly_area
+### 94. belly_area
 
 - Match score: `35`
 - `k`: 361
@@ -5621,7 +5691,7 @@ _No keyword matches in this index._
 {"k":"361","n":"belly_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"belly_area"}
 ```
 
-### 90. blight_death_lightning
+### 95. blight_death_lightning
 
 - Match score: `35`
 - `k`: blight_death_lightning
@@ -5633,7 +5703,7 @@ _No keyword matches in this index._
 {"k":"blight_death_lightning","n":"blight_death_lightning","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 91. blight_death_lightning
+### 96. blight_death_lightning
 
 - Match score: `35`
 - `k`: 466
@@ -5645,7 +5715,7 @@ _No keyword matches in this index._
 {"k":"466","n":"blight_death_lightning","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"blight_death_lightning"}
 ```
 
-### 92. Bonestorm
+### 97. Bonestorm
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemBonestorm
@@ -5659,7 +5729,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemBonestorm","n":"Bonestorm","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 93. breach_monster_lightning
+### 98. breach_monster_lightning
 
 - Match score: `35`
 - `k`: breach_monster_lightning
@@ -5671,7 +5741,7 @@ _No keyword matches in this index._
 {"k":"breach_monster_lightning","n":"breach_monster_lightning","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 94. breach_monster_lightning
+### 99. breach_monster_lightning
 
 - Match score: `35`
 - `k`: 1000
@@ -5683,7 +5753,7 @@ _No keyword matches in this index._
 {"k":"1000","n":"breach_monster_lightning","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"breach_monster_lightning"}
 ```
 
-### 95. bridge_area
+### 100. bridge_area
 
 - Match score: `35`
 - `k`: bridge_area
@@ -5695,7 +5765,7 @@ _No keyword matches in this index._
 {"k":"bridge_area","n":"bridge_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 96. bridge_area
+### 101. bridge_area
 
 - Match score: `35`
 - `k`: 877
@@ -5707,7 +5777,7 @@ _No keyword matches in this index._
 {"k":"877","n":"bridge_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bridge_area"}
 ```
 
-### 97. cannot_be_archnemesis
+### 102. cannot_be_archnemesis
 
 - Match score: `35`
 - `k`: cannot_be_archnemesis
@@ -5719,7 +5789,7 @@ _No keyword matches in this index._
 {"k":"cannot_be_archnemesis","n":"cannot_be_archnemesis","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 98. cannot_be_archnemesis
+### 103. cannot_be_archnemesis
 
 - Match score: `35`
 - `k`: 921
@@ -5731,7 +5801,7 @@ _No keyword matches in this index._
 {"k":"921","n":"cannot_be_archnemesis","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cannot_be_archnemesis"}
 ```
 
-### 99. cannot_be_map_archnemesis
+### 104. cannot_be_map_archnemesis
 
 - Match score: `35`
 - `k`: cannot_be_map_archnemesis
@@ -5743,7 +5813,7 @@ _No keyword matches in this index._
 {"k":"cannot_be_map_archnemesis","n":"cannot_be_map_archnemesis","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 100. cannot_be_map_archnemesis
+### 105. cannot_be_map_archnemesis
 
 - Match score: `35`
 - `k`: 926
@@ -5755,7 +5825,7 @@ _No keyword matches in this index._
 {"k":"926","n":"cannot_be_map_archnemesis","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cannot_be_map_archnemesis"}
 ```
 
-### 101. carver_culture_area
+### 106. carver_culture_area
 
 - Match score: `35`
 - `k`: carver_culture_area
@@ -5767,7 +5837,7 @@ _No keyword matches in this index._
 {"k":"carver_culture_area","n":"carver_culture_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 102. carver_culture_area
+### 107. carver_culture_area
 
 - Match score: `35`
 - `k`: 1231
@@ -5779,7 +5849,7 @@ _No keyword matches in this index._
 {"k":"1231","n":"carver_culture_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"carver_culture_area"}
 ```
 
-### 103. Cast on Shock
+### 108. Cast on Shock
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemCastOnShock
@@ -5793,7 +5863,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemCastOnShock","n":"Cast on Shock","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 104. catacomb_area
+### 109. catacomb_area
 
 - Match score: `35`
 - `k`: catacomb_area
@@ -5805,7 +5875,7 @@ _No keyword matches in this index._
 {"k":"catacomb_area","n":"catacomb_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 105. catacomb_area
+### 110. catacomb_area
 
 - Match score: `35`
 - `k`: 371
@@ -5817,7 +5887,7 @@ _No keyword matches in this index._
 {"k":"371","n":"catacomb_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"catacomb_area"}
 ```
 
-### 106. cave_area
+### 111. cave_area
 
 - Match score: `35`
 - `k`: cave_area
@@ -5829,7 +5899,7 @@ _No keyword matches in this index._
 {"k":"cave_area","n":"cave_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 107. cave_area
+### 112. cave_area
 
 - Match score: `35`
 - `k`: 399
@@ -5841,7 +5911,7 @@ _No keyword matches in this index._
 {"k":"399","n":"cave_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cave_area"}
 ```
 
-### 108. cemetery_map_area
+### 113. cemetery_map_area
 
 - Match score: `35`
 - `k`: cemetery_map_area
@@ -5853,7 +5923,7 @@ _No keyword matches in this index._
 {"k":"cemetery_map_area","n":"cemetery_map_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 109. cemetery_map_area
+### 114. cemetery_map_area
 
 - Match score: `35`
 - `k`: 435
@@ -5865,7 +5935,7 @@ _No keyword matches in this index._
 {"k":"435","n":"cemetery_map_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cemetery_map_area"}
 ```
 
-### 110. chamber_of_sins_area
+### 115. chamber_of_sins_area
 
 - Match score: `35`
 - `k`: chamber_of_sins_area
@@ -5877,7 +5947,7 @@ _No keyword matches in this index._
 {"k":"chamber_of_sins_area","n":"chamber_of_sins_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 111. chamber_of_sins_area
+### 116. chamber_of_sins_area
 
 - Match score: `35`
 - `k`: 365
@@ -5889,7 +5959,7 @@ _No keyword matches in this index._
 {"k":"365","n":"chamber_of_sins_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chamber_of_sins_area"}
 ```
 
-### 112. chaos_golem_boss_area
+### 117. chaos_golem_boss_area
 
 - Match score: `35`
 - `k`: chaos_golem_boss_area
@@ -5901,7 +5971,7 @@ _No keyword matches in this index._
 {"k":"chaos_golem_boss_area","n":"chaos_golem_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 113. chaos_golem_boss_area
+### 118. chaos_golem_boss_area
 
 - Match score: `35`
 - `k`: 807
@@ -5913,7 +5983,7 @@ _No keyword matches in this index._
 {"k":"807","n":"chaos_golem_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_golem_boss_area"}
 ```
 
-### 114. coast_boat_area
+### 119. coast_boat_area
 
 - Match score: `35`
 - `k`: coast_boat_area
@@ -5925,7 +5995,7 @@ _No keyword matches in this index._
 {"k":"coast_boat_area","n":"coast_boat_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 115. coast_boat_area
+### 120. coast_boat_area
 
 - Match score: `35`
 - `k`: 414
@@ -5935,74 +6005,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"414","n":"coast_boat_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"coast_boat_area"}
-```
-
-### 116. Cold Exposure
-
-- Match score: `35`
-- `k`: Metadata/Items/Gems/SupportGemColdExposure
-- `n`: Cold Exposure
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemColdExposure","n":"Cold Exposure","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 117. Cold Penetration
-
-- Match score: `35`
-- `k`: Metadata/Items/Gems/SupportGemColdPenetration
-- `n`: Cold Penetration
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemColdPenetration","n":"Cold Penetration","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 118. Colossal Mana Flask
-
-- Match score: `35`
-- `k`: Metadata/Items/Flasks/FourFlaskMana6
-- `n`: Colossal Mana Flask
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["mana_flask","flask","default"]
-- `domain`: flask
-
-```json
-{"k":"Metadata/Items/Flasks/FourFlaskMana6","n":"Colossal Mana Flask","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"ManaFlask","tags":["mana_flask","flask","default"],"domain":"flask"}
-```
-
-### 119. Concentrated Area
-
-- Match score: `35`
-- `k`: Metadata/Items/Gems/SupportGemConcentratedEffect
-- `n`: Concentrated Area
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemConcentratedEffect","n":"Concentrated Area","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 120. core_map_area
-
-- Match score: `35`
-- `k`: core_map_area
-- `n`: core_map_area
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
-
-```json
-{"k":"core_map_area","n":"core_map_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
 ## Mods and affixes

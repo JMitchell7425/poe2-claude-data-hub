@@ -1,6 +1,6 @@
 # Build Idea Pack — Support / Party Build
 
-- Generated UTC: `2026-08-10T11:20:31+00:00`
+- Generated UTC: `2026-08-11T11:04:31+00:00`
 - Idea slug: `support-party-build`
 - Purpose: Engineer party support builds focused on curses, auras, control, debuffs, and ally amplification.
 - Keywords: `support, party, ally, aura, curse, blasphemy, temporal chains, enfeeble, exposure, shock, freeze, resistance, spirit, reservation, duration, cooldown, chronomancer, witch, sorceress, debuff, control`
@@ -5416,7 +5416,21 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemBlasphemy","n":"Blasphemy","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 67. Cast on Freeze
+### 67. Captured Soul of Captain Clayborne, The Accursed
+
+- Match score: `35`
+- `k`: Metadata/Items/PantheonSouls/PantheonSoulLunarisUpgrade3
+- `n`: Captured Soul of Captain Clayborne, The Accursed
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/PantheonSouls/PantheonSoulLunarisUpgrade3","n":"Captured Soul of Captain Clayborne, The Accursed","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"PantheonSoul","tags":["default"],"domain":"undefined"}
+```
+
+### 68. Cast on Freeze
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemCastOnFreeze
@@ -5430,7 +5444,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemCastOnFreeze","n":"Cast on Freeze","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 68. Cast on Shock
+### 69. Cast on Shock
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemCastOnShock
@@ -5444,7 +5458,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemCastOnShock","n":"Cast on Shock","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 69. chaos_resistance
+### 70. chaos_resistance
 
 - Match score: `35`
 - `k`: chaos_resistance
@@ -5456,7 +5470,7 @@ _No keyword matches in this index._
 {"k":"chaos_resistance","n":"chaos_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 70. chaos_resistance
+### 71. chaos_resistance
 
 - Match score: `35`
 - `k`: 1293
@@ -5468,7 +5482,7 @@ _No keyword matches in this index._
 {"k":"1293","n":"chaos_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_resistance"}
 ```
 
-### 71. cold_resistance
+### 72. cold_resistance
 
 - Match score: `35`
 - `k`: cold_resistance
@@ -5480,7 +5494,7 @@ _No keyword matches in this index._
 {"k":"cold_resistance","n":"cold_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 72. cold_resistance
+### 73. cold_resistance
 
 - Match score: `35`
 - `k`: 1264
@@ -5492,7 +5506,7 @@ _No keyword matches in this index._
 {"k":"1264","n":"cold_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_resistance"}
 ```
 
-### 73. Curse
+### 74. Curse
 
 - Match score: `35`
 - `k`: curse
@@ -5504,7 +5518,7 @@ _No keyword matches in this index._
 {"k":"curse","n":"Curse","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 74. curse
+### 75. curse
 
 - Match score: `35`
 - `k`: 593
@@ -5516,7 +5530,7 @@ _No keyword matches in this index._
 {"k":"593","n":"curse","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"curse"}
 ```
 
-### 75. Curse on Block
+### 76. Curse on Block
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemCastCurseOnBlock
@@ -5530,7 +5544,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemCastCurseOnBlock","n":"Curse on Block","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 76. Cursespeaker's Robe
+### 77. Cursespeaker's Robe
 
 - Match score: `35`
 - `k`: Metadata/Items/Armours/BodyArmours/FourBodyInt3Cruel
@@ -5545,7 +5559,21 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/BodyArmours/FourBodyInt3Cruel","n":"Cursespeaker's Robe","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Body Armour","tags":["int_armour","body_armour","armour","default"],"req":{"dexterity":0,"intelligence":77,"level":48,"strength":0},"domain":"item"}
 ```
 
-### 77. Electroshock Scroll
+### 78. Dance - Witch
+
+- Match score: `35`
+- `k`: Metadata/Items/MicrotransactionAnimations/MicrotransactionDanceWitch
+- `n`: Dance - Witch
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["not_for_sale","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/MicrotransactionAnimations/MicrotransactionDanceWitch","n":"Dance - Witch","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Microtransaction","tags":["not_for_sale","default"],"domain":"undefined"}
+```
+
+### 79. Electroshock Scroll
 
 - Match score: `35`
 - `k`: Metadata/Items/Currency/CurrencyHarbingerBlessingSword
@@ -5559,7 +5587,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Currency/CurrencyHarbingerBlessingSword","n":"Electroshock Scroll","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"StackableCurrency","tags":["currency","default"],"domain":"undefined"}
 ```
 
-### 78. elemental_resistance
+### 80. elemental_resistance
 
 - Match score: `35`
 - `k`: elemental_resistance
@@ -5571,7 +5599,7 @@ _No keyword matches in this index._
 {"k":"elemental_resistance","n":"elemental_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 79. elemental_resistance
+### 81. elemental_resistance
 
 - Match score: `35`
 - `k`: 1262
@@ -5583,7 +5611,7 @@ _No keyword matches in this index._
 {"k":"1262","n":"elemental_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elemental_resistance"}
 ```
 
-### 80. Enfeeble
+### 82. Enfeeble
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemEnfeeble
@@ -5597,7 +5625,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemEnfeeble","n":"Enfeeble","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 81. fire_resistance
+### 83. fire_resistance
 
 - Match score: `35`
 - `k`: fire_resistance
@@ -5609,7 +5637,7 @@ _No keyword matches in this index._
 {"k":"fire_resistance","n":"fire_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 82. fire_resistance
+### 84. fire_resistance
 
 - Match score: `35`
 - `k`: 1263
@@ -5621,7 +5649,7 @@ _No keyword matches in this index._
 {"k":"1263","n":"fire_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"fire_resistance"}
 ```
 
-### 83. grants_2h_support
+### 85. grants_2h_support
 
 - Match score: `35`
 - `k`: grants_2h_support
@@ -5633,7 +5661,7 @@ _No keyword matches in this index._
 {"k":"grants_2h_support","n":"grants_2h_support","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 84. grants_2h_support
+### 86. grants_2h_support
 
 - Match score: `35`
 - `k`: 567
@@ -5645,7 +5673,7 @@ _No keyword matches in this index._
 {"k":"567","n":"grants_2h_support","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"grants_2h_support"}
 ```
 
-### 85. grants_crit_chance_support
+### 87. grants_crit_chance_support
 
 - Match score: `35`
 - `k`: grants_crit_chance_support
@@ -5657,7 +5685,7 @@ _No keyword matches in this index._
 {"k":"grants_crit_chance_support","n":"grants_crit_chance_support","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 86. grants_crit_chance_support
+### 88. grants_crit_chance_support
 
 - Match score: `35`
 - `k`: 291
@@ -5669,7 +5697,7 @@ _No keyword matches in this index._
 {"k":"291","n":"grants_crit_chance_support","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"grants_crit_chance_support"}
 ```
 
-### 87. Hedgewitch Assandra's Rune of Wisdom
+### 89. Hedgewitch Assandra's Rune of Wisdom
 
 - Match score: `35`
 - `k`: Metadata/Items/SoulCores/RuneSpecial5
@@ -5683,7 +5711,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/SoulCores/RuneSpecial5","n":"Hedgewitch Assandra's Rune of Wisdom","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","default"],"domain":"undefined"}
 ```
 
-### 88. Legacy of Cursecarver
+### 90. Legacy of Cursecarver
 
 - Match score: `35`
 - `k`: Metadata/Items/SoulCores/RuneOlrothsLegacyCursecarver
@@ -5697,7 +5725,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/SoulCores/RuneOlrothsLegacyCursecarver","n":"Legacy of Cursecarver","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","default"],"domain":"undefined"}
 ```
 
-### 89. lightning_resistance
+### 91. lightning_resistance
 
 - Match score: `35`
 - `k`: lightning_resistance
@@ -5709,7 +5737,7 @@ _No keyword matches in this index._
 {"k":"lightning_resistance","n":"lightning_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 90. lightning_resistance
+### 92. lightning_resistance
 
 - Match score: `35`
 - `k`: 1265
@@ -5721,7 +5749,7 @@ _No keyword matches in this index._
 {"k":"1265","n":"lightning_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"lightning_resistance"}
 ```
 
-### 91. minion_resistance
+### 93. minion_resistance
 
 - Match score: `35`
 - `k`: minion_resistance
@@ -5733,7 +5761,7 @@ _No keyword matches in this index._
 {"k":"minion_resistance","n":"minion_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 92. minion_resistance
+### 94. minion_resistance
 
 - Match score: `35`
 - `k`: 1294
@@ -5745,7 +5773,7 @@ _No keyword matches in this index._
 {"k":"1294","n":"minion_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"minion_resistance"}
 ```
 
-### 93. no_cannot_die_aura
+### 95. no_cannot_die_aura
 
 - Match score: `35`
 - `k`: no_cannot_die_aura
@@ -5757,7 +5785,7 @@ _No keyword matches in this index._
 {"k":"no_cannot_die_aura","n":"no_cannot_die_aura","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 94. no_cannot_die_aura
+### 96. no_cannot_die_aura
 
 - Match score: `35`
 - `k`: 299
@@ -5769,7 +5797,7 @@ _No keyword matches in this index._
 {"k":"299","n":"no_cannot_die_aura","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"no_cannot_die_aura"}
 ```
 
-### 95. no_spirit_walkers_archnemesis
+### 97. no_spirit_walkers_archnemesis
 
 - Match score: `35`
 - `k`: no_spirit_walkers_archnemesis
@@ -5781,7 +5809,7 @@ _No keyword matches in this index._
 {"k":"no_spirit_walkers_archnemesis","n":"no_spirit_walkers_archnemesis","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 96. no_spirit_walkers_archnemesis
+### 98. no_spirit_walkers_archnemesis
 
 - Match score: `35`
 - `k`: 964
@@ -5793,7 +5821,7 @@ _No keyword matches in this index._
 {"k":"964","n":"no_spirit_walkers_archnemesis","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"no_spirit_walkers_archnemesis"}
 ```
 
-### 97. Raging Spirits
+### 99. Raging Spirits
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemRagingSpirits
@@ -5807,7 +5835,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemRagingSpirits","n":"Raging Spirits","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 98. Resistance
+### 100. Resistance
 
 - Match score: `35`
 - `k`: resistance
@@ -5819,7 +5847,7 @@ _No keyword matches in this index._
 {"k":"resistance","n":"Resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 99. resistance
+### 101. resistance
 
 - Match score: `35`
 - `k`: 583
@@ -5831,7 +5859,7 @@ _No keyword matches in this index._
 {"k":"583","n":"resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"resistance"}
 ```
 
-### 100. Runeforged Spiritbone Crown
+### 102. Runeforged Spiritbone Crown
 
 - Match score: `35`
 - `k`: Metadata/Items/Armours/Helmets/FourHelmetStrInt6Verisium
@@ -5846,7 +5874,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Helmets/FourHelmetStrInt6Verisium","n":"Runeforged Spiritbone Crown","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_int_armour","karui_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":0,"intelligence":36,"level":45,"strength":36},"domain":"item"}
 ```
 
-### 101. Runemastered Spiritbone Crown
+### 103. Runemastered Spiritbone Crown
 
 - Match score: `35`
 - `k`: Metadata/Items/Armours/Helmets/FourHelmetStrInt6VerisiumUnique1
@@ -5861,7 +5889,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Helmets/FourHelmetStrInt6VerisiumUnique1","n":"Runemastered Spiritbone Crown","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_int_armour","karui_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
 ```
 
-### 102. Runemastered Spiritbone Crown
+### 104. Runemastered Spiritbone Crown
 
 - Match score: `35`
 - `k`: Metadata/Items/Armours/Helmets/FourHelmetStrInt6VerisiumUnique2
@@ -5876,7 +5904,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Helmets/FourHelmetStrInt6VerisiumUnique2","n":"Runemastered Spiritbone Crown","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_int_armour","karui_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
 ```
 
-### 103. Runemastered Spiritbone Crown
+### 105. Runemastered Spiritbone Crown
 
 - Match score: `35`
 - `k`: Metadata/Items/Armours/Helmets/FourHelmetStrInt6VerisiumUnique3
@@ -5891,7 +5919,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Helmets/FourHelmetStrInt6VerisiumUnique3","n":"Runemastered Spiritbone Crown","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_int_armour","karui_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
 ```
 
-### 104. sea_witch_boss_area
+### 106. sea_witch_boss_area
 
 - Match score: `35`
 - `k`: sea_witch_boss_area
@@ -5903,7 +5931,7 @@ _No keyword matches in this index._
 {"k":"sea_witch_boss_area","n":"sea_witch_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 105. sea_witch_boss_area
+### 107. sea_witch_boss_area
 
 - Match score: `35`
 - `k`: 805
@@ -5915,7 +5943,7 @@ _No keyword matches in this index._
 {"k":"805","n":"sea_witch_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"sea_witch_boss_area"}
 ```
 
-### 106. Shockburst Rounds
+### 108. Shockburst Rounds
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemShockburstRounds
@@ -5929,7 +5957,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemShockburstRounds","n":"Shockburst Rounds","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 107. Shockchain Arrow
+### 109. Shockchain Arrow
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemShockchainArrow
@@ -5943,7 +5971,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemShockchainArrow","n":"Shockchain Arrow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 108. Shockwave Totem
+### 110. Shockwave Totem
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemShockwaveTotem
@@ -5957,7 +5985,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemShockwaveTotem","n":"Shockwave Totem","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 109. Spirit Vessel
+### 111. Spirit Vessel
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemSpiritVessel
@@ -5971,7 +5999,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemSpiritVessel","n":"Spirit Vessel","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 110. Spiritbone Crown
+### 112. Spiritbone Crown
 
 - Match score: `35`
 - `k`: Metadata/Items/Armours/Helmets/FourHelmetStrInt6
@@ -5986,7 +6014,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Helmets/FourHelmetStrInt6","n":"Spiritbone Crown","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_int_armour","karui_basetype","helmet","armour","default"],"req":{"dexterity":0,"intelligence":36,"level":45,"strength":36},"domain":"item"}
 ```
 
-### 111. support
+### 113. support
 
 - Match score: `35`
 - `k`: support
@@ -5998,7 +6026,7 @@ _No keyword matches in this index._
 {"k":"support","n":"support","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 112. support
+### 114. support
 
 - Match score: `35`
 - `k`: 592
@@ -6010,7 +6038,7 @@ _No keyword matches in this index._
 {"k":"592","n":"support","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"support"}
 ```
 
-### 113. Support Gems
+### 115. Support Gems
 
 - Match score: `35`
 - `k`: Support Skill Gem
@@ -6022,7 +6050,7 @@ _No keyword matches in this index._
 {"k":"Support Skill Gem","n":"Support Gems","cat":"repoe_item_classes","src":"repoe_poe2/item_classes.json"}
 ```
 
-### 114. support_gem
+### 116. support_gem
 
 - Match score: `35`
 - `k`: support_gem
@@ -6034,7 +6062,7 @@ _No keyword matches in this index._
 {"k":"support_gem","n":"support_gem","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 115. support_gem
+### 117. support_gem
 
 - Match score: `35`
 - `k`: 167
@@ -6046,7 +6074,7 @@ _No keyword matches in this index._
 {"k":"167","n":"support_gem","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"support_gem"}
 ```
 
-### 116. Supporting Fire
+### 118. Supporting Fire
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemAscendancySupportingFire
@@ -6060,7 +6088,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemAscendancySupportingFire","n":"Supporting Fire","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 117. Temporal Chains
+### 119. Temporal Chains
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemTemporalChains
@@ -6074,7 +6102,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemTemporalChains","n":"Temporal Chains","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 118. Time Freeze
+### 120. Time Freeze
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemAscendancyTimeFreeze
@@ -6086,34 +6114,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"Metadata/Items/Gem/SkillGemAscendancyTimeFreeze","n":"Time Freeze","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 119. Uncut Support Gem
-
-- Match score: `35`
-- `k`: Metadata/Items/Gems/SupportGemUncut
-- `n`: Uncut Support Gem
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemUncut","n":"Uncut Support Gem","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutSupportGem_OLD","tags":["default"],"domain":"undefined"}
-```
-
-### 120. Uncut Support Gem (Level 1)
-
-- Match score: `35`
-- `k`: Metadata/Items/Gems/SupportGemUncut1
-- `n`: Uncut Support Gem (Level 1)
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemUncut1","n":"Uncut Support Gem (Level 1)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutSupportGemStackable","tags":["default"],"domain":"undefined"}
 ```
 
 ## Mods and affixes

@@ -1,6 +1,6 @@
 # Build Idea Pack — Minion Build
 
-- Generated UTC: `2026-08-10T11:20:22+00:00`
+- Generated UTC: `2026-08-11T11:04:22+00:00`
 - Idea slug: `minion-build`
 - Purpose: Engineer a minion-focused build for safe clear, boss damage, and low mechanical strain.
 - Keywords: `minion, summon, skeleton, zombie, spirit, persistent, aura, command, revive, ally, damage, life, resistance, energy shield, curse, support, boss, clear, witch, infernalist, blood mage`
@@ -5679,7 +5679,21 @@ _No keyword matches in this index._
 {"k":"948","n":"cannot_possess_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cannot_possess_boss"}
 ```
 
-### 93. Cast on Minion Death
+### 93. Captured Soul of Captain Clayborne, The Accursed
+
+- Match score: `35`
+- `k`: Metadata/Items/PantheonSouls/PantheonSoulLunarisUpgrade3
+- `n`: Captured Soul of Captain Clayborne, The Accursed
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/PantheonSouls/PantheonSoulLunarisUpgrade3","n":"Captured Soul of Captain Clayborne, The Accursed","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"PantheonSoul","tags":["default"],"domain":"undefined"}
+```
+
+### 94. Cast on Minion Death
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemCastOnMinionDeath
@@ -5693,7 +5707,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemCastOnMinionDeath","n":"Cast on Minion Death","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 94. Cast when Damage Taken
+### 95. Cast when Damage Taken
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemCastWhenDamageTaken
@@ -5707,7 +5721,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemCastWhenDamageTaken","n":"Cast when Damage Taken","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 95. caster_damage
+### 96. caster_damage
 
 - Match score: `35`
 - `k`: caster_damage
@@ -5719,7 +5733,7 @@ _No keyword matches in this index._
 {"k":"caster_damage","n":"caster_damage","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 96. caster_damage
+### 97. caster_damage
 
 - Match score: `35`
 - `k`: 614
@@ -5731,7 +5745,7 @@ _No keyword matches in this index._
 {"k":"614","n":"caster_damage","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_damage"}
 ```
 
-### 97. chaos_damage
+### 98. chaos_damage
 
 - Match score: `35`
 - `k`: chaos_damage
@@ -5743,7 +5757,7 @@ _No keyword matches in this index._
 {"k":"chaos_damage","n":"chaos_damage","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 98. chaos_damage
+### 99. chaos_damage
 
 - Match score: `35`
 - `k`: 659
@@ -5755,7 +5769,7 @@ _No keyword matches in this index._
 {"k":"659","n":"chaos_damage","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_damage"}
 ```
 
-### 99. chaos_golem_boss_area
+### 100. chaos_golem_boss_area
 
 - Match score: `35`
 - `k`: chaos_golem_boss_area
@@ -5767,7 +5781,7 @@ _No keyword matches in this index._
 {"k":"chaos_golem_boss_area","n":"chaos_golem_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 100. chaos_golem_boss_area
+### 101. chaos_golem_boss_area
 
 - Match score: `35`
 - `k`: 807
@@ -5779,7 +5793,7 @@ _No keyword matches in this index._
 {"k":"807","n":"chaos_golem_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_golem_boss_area"}
 ```
 
-### 101. chaos_resistance
+### 102. chaos_resistance
 
 - Match score: `35`
 - `k`: chaos_resistance
@@ -5791,7 +5805,7 @@ _No keyword matches in this index._
 {"k":"chaos_resistance","n":"chaos_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 102. chaos_resistance
+### 103. chaos_resistance
 
 - Match score: `35`
 - `k`: 1293
@@ -5803,7 +5817,7 @@ _No keyword matches in this index._
 {"k":"1293","n":"chaos_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_resistance"}
 ```
 
-### 103. chayula_boss
+### 104. chayula_boss
 
 - Match score: `35`
 - `k`: chayula_boss
@@ -5815,7 +5829,7 @@ _No keyword matches in this index._
 {"k":"chayula_boss","n":"chayula_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 104. chayula_boss
+### 105. chayula_boss
 
 - Match score: `35`
 - `k`: 862
@@ -5827,7 +5841,7 @@ _No keyword matches in this index._
 {"k":"862","n":"chayula_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chayula_boss"}
 ```
 
-### 105. cold_resistance
+### 106. cold_resistance
 
 - Match score: `35`
 - `k`: cold_resistance
@@ -5839,7 +5853,7 @@ _No keyword matches in this index._
 {"k":"cold_resistance","n":"cold_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 106. cold_resistance
+### 107. cold_resistance
 
 - Match score: `35`
 - `k`: 1264
@@ -5851,7 +5865,7 @@ _No keyword matches in this index._
 {"k":"1264","n":"cold_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_resistance"}
 ```
 
-### 107. Colossal Life Flask
+### 108. Colossal Life Flask
 
 - Match score: `35`
 - `k`: Metadata/Items/Flasks/FourFlaskLife6
@@ -5865,7 +5879,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Flasks/FourFlaskLife6","n":"Colossal Life Flask","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"LifeFlask","tags":["life_flask","flask","default"],"domain":"flask"}
 ```
 
-### 108. Commander Gauntlets
+### 109. Commander Gauntlets
 
 - Match score: `35`
 - `k`: Metadata/Items/Armours/Gloves/FourGlovesStrDex2Endgame
@@ -5880,7 +5894,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Gloves/FourGlovesStrDex2Endgame","n":"Commander Gauntlets","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Gloves","tags":["str_dex_armour","gloves","armour","default"],"req":{"dexterity":48,"intelligence":0,"level":70,"strength":48},"domain":"item"}
 ```
 
-### 109. Commander Greathelm
+### 110. Commander Greathelm
 
 - Match score: `35`
 - `k`: Metadata/Items/Armours/Helmets/FourHelmetStr7
@@ -5895,7 +5909,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Helmets/FourHelmetStr7","n":"Commander Greathelm","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_armour","karui_basetype","helmet","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":45,"strength":64},"domain":"item"}
 ```
 
-### 110. Commander Sword
+### 111. Commander Sword
 
 - Match score: `35`
 - `k`: Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/FourOneHandSword12
@@ -5910,7 +5924,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/FourOneHandSword12","n":"Commander Sword","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"One Hand Sword","tags":["sword","one_hand_weapon","onehand","weapon","default"],"req":{"dexterity":53,"intelligence":0,"level":54,"strength":53},"domain":"item"}
 ```
 
-### 111. Commanding Arm
+### 112. Commanding Arm
 
 - Match score: `35`
 - `k`: Metadata/Items/Incursion/Arm6
@@ -5924,7 +5938,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Incursion/Arm6","n":"Commanding Arm","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"IncursionArm","tags":["default"],"domain":"incursion_limb"}
 ```
 
-### 112. cortex_boss
+### 113. cortex_boss
 
 - Match score: `35`
 - `k`: cortex_boss
@@ -5936,7 +5950,7 @@ _No keyword matches in this index._
 {"k":"cortex_boss","n":"cortex_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 113. cortex_boss
+### 114. cortex_boss
 
 - Match score: `35`
 - `k`: 938
@@ -5948,7 +5962,7 @@ _No keyword matches in this index._
 {"k":"938","n":"cortex_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cortex_boss"}
 ```
 
-### 114. crusader_conqueror_boss
+### 115. crusader_conqueror_boss
 
 - Match score: `35`
 - `k`: crusader_conqueror_boss
@@ -5960,7 +5974,7 @@ _No keyword matches in this index._
 {"k":"crusader_conqueror_boss","n":"crusader_conqueror_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 115. crusader_conqueror_boss
+### 116. crusader_conqueror_boss
 
 - Match score: `35`
 - `k`: 886
@@ -5972,7 +5986,7 @@ _No keyword matches in this index._
 {"k":"886","n":"crusader_conqueror_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"crusader_conqueror_boss"}
 ```
 
-### 116. Curse
+### 117. Curse
 
 - Match score: `35`
 - `k`: curse
@@ -5984,7 +5998,7 @@ _No keyword matches in this index._
 {"k":"curse","n":"Curse","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 117. curse
+### 118. curse
 
 - Match score: `35`
 - `k`: 593
@@ -5996,7 +6010,7 @@ _No keyword matches in this index._
 {"k":"593","n":"curse","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"curse"}
 ```
 
-### 118. Curse on Block
+### 119. Curse on Block
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemCastCurseOnBlock
@@ -6010,7 +6024,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemCastCurseOnBlock","n":"Curse on Block","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 119. Cursespeaker's Robe
+### 120. Cursespeaker's Robe
 
 - Match score: `35`
 - `k`: Metadata/Items/Armours/BodyArmours/FourBodyInt3Cruel
@@ -6023,18 +6037,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"Metadata/Items/Armours/BodyArmours/FourBodyInt3Cruel","n":"Cursespeaker's Robe","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Body Armour","tags":["int_armour","body_armour","armour","default"],"req":{"dexterity":0,"intelligence":77,"level":48,"strength":0},"domain":"item"}
-```
-
-### 120. Damage
-
-- Match score: `35`
-- `k`: damage
-- `n`: Damage
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
-
-```json
-{"k":"damage","n":"Damage","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
 ## Mods and affixes
