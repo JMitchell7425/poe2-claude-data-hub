@@ -1,6 +1,6 @@
 # Build Idea Pack — Caster Build
 
-- Generated UTC: `2026-08-27T20:29:23+00:00`
+- Generated UTC: `2026-08-28T21:11:18+00:00`
 - Idea slug: `caster-build`
 - Purpose: Engineer a high-damage spellcaster with strong map clear, bossing, sustain, and PS5-friendly execution.
 - Keywords: `spell, caster, cast speed, critical, crit, mana, energy shield, spirit, lightning, cold, fire, chaos, projectile, area, aoe, exposure, penetration, shock, freeze, ignite, wand, staff, focus, sorceress, witch, chronomancer, stormweaver, blood mage`
@@ -3751,19 +3751,7 @@ _No keyword matches in this index._
 {"k":"additional_critical_strike_chance_permyriad_while_affected_by_elusive","n":"additional_critical_strike_chance_permyriad_while_affected_by_elusive","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 70. AreaSpell
-
-- Match score: `70`
-- `k`: 71
-- `n`: AreaSpell
-- `cat`: repoe_active_skill_types
-- `src`: repoe_poe2/active_skill_types.json
-
-```json
-{"k":"71","n":"AreaSpell","cat":"repoe_active_skill_types","src":"repoe_poe2/active_skill_types.json","v":"AreaSpell"}
-```
-
-### 71. BallLightningRogueExileSorceress2
+### 70. BallLightningRogueExileSorceress2
 
 - Match score: `70`
 - `k`: BallLightningRogueExileSorceress2
@@ -3776,7 +3764,7 @@ _No keyword matches in this index._
 {"k":"BallLightningRogueExileSorceress2","n":"BallLightningRogueExileSorceress2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 72. base_self_critical_strike_multiplier_-%
+### 71. base_self_critical_strike_multiplier_-%
 
 - Match score: `70`
 - `k`: base_self_critical_strike_multiplier_-%
@@ -3788,7 +3776,7 @@ _No keyword matches in this index._
 {"k":"base_self_critical_strike_multiplier_-%","n":"base_self_critical_strike_multiplier_-%","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 73. Cast on Critical
+### 72. Cast on Critical
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SkillGemCastOnCriticalStrike
@@ -3801,7 +3789,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemCastOnCriticalStrike","n":"Cast on Critical","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"buff":true,"grants_active_skill":true,"intelligence":true,"meta":true,"persistent":true,"trigger":true}}
 ```
 
-### 74. CGECasterEssenceShockedGround
+### 73. CGECasterEssenceShockedGround
 
 - Match score: `70`
 - `k`: CGECasterEssenceShockedGround
@@ -3814,7 +3802,7 @@ _No keyword matches in this index._
 {"k":"CGECasterEssenceShockedGround","n":"CGECasterEssenceShockedGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 75. CGEFallenGodBossChaosChargeFire
+### 74. CGEFallenGodBossChaosChargeFire
 
 - Match score: `70`
 - `k`: CGEFallenGodBossChaosChargeFire
@@ -3827,7 +3815,7 @@ _No keyword matches in this index._
 {"k":"CGEFallenGodBossChaosChargeFire","n":"CGEFallenGodBossChaosChargeFire","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 76. CGEFallenGodBossChaosChargeFireSanctified
+### 75. CGEFallenGodBossChaosChargeFireSanctified
 
 - Match score: `70`
 - `k`: CGEFallenGodBossChaosChargeFireSanctified
@@ -3840,7 +3828,7 @@ _No keyword matches in this index._
 {"k":"CGEFallenGodBossChaosChargeFireSanctified","n":"CGEFallenGodBossChaosChargeFireSanctified","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 77. CGEManaEssenceManaBlastTrapShockedGround
+### 76. CGEManaEssenceManaBlastTrapShockedGround
 
 - Match score: `70`
 - `k`: CGEManaEssenceManaBlastTrapShockedGround
@@ -3853,7 +3841,7 @@ _No keyword matches in this index._
 {"k":"CGEManaEssenceManaBlastTrapShockedGround","n":"CGEManaEssenceManaBlastTrapShockedGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 78. ChaosArchitectProjectileNova
+### 77. ChaosArchitectProjectileNova
 
 - Match score: `70`
 - `k`: ChaosArchitectProjectileNova
@@ -3866,7 +3854,7 @@ _No keyword matches in this index._
 {"k":"ChaosArchitectProjectileNova","n":"ChaosArchitectProjectileNova","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 79. ChaosGodOwlBossBallLightning
+### 78. ChaosGodOwlBossBallLightning
 
 - Match score: `70`
 - `k`: ChaosGodOwlBossBallLightning
@@ -3879,7 +3867,7 @@ _No keyword matches in this index._
 {"k":"ChaosGodOwlBossBallLightning","n":"ChaosGodOwlBossBallLightning","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 80. ChargedStaffShockwavePlayer
+### 79. ChargedStaffShockwavePlayer
 
 - Match score: `70`
 - `k`: ChargedStaffShockwavePlayer
@@ -3892,7 +3880,7 @@ _No keyword matches in this index._
 {"k":"ChargedStaffShockwavePlayer","n":"ChargedStaffShockwavePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 81. Cold Exposure
+### 80. Cold Exposure
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SkillGemColdExposureSupport
@@ -3905,7 +3893,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemColdExposureSupport","n":"Cold Exposure","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"cold":true,"duration":true,"support":true}}
 ```
 
-### 82. Cold Penetration
+### 81. Cold Penetration
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SkillGemColdPenetrationSupport
@@ -3918,7 +3906,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemColdPenetrationSupport","n":"Cold Penetration","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"cold":true,"support":true}}
 ```
 
-### 83. DarkEffigyProjectileRogueExileWitch2
+### 82. DarkEffigyProjectileRogueExileWitch2
 
 - Match score: `70`
 - `k`: DarkEffigyProjectileRogueExileWitch2
@@ -3931,7 +3919,7 @@ _No keyword matches in this index._
 {"k":"DarkEffigyProjectileRogueExileWitch2","n":"DarkEffigyProjectileRogueExileWitch2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 84. DeliriumLightningDemonShockedGroundUnique
+### 83. DeliriumLightningDemonShockedGroundUnique
 
 - Match score: `70`
 - `k`: DeliriumLightningDemonShockedGroundUnique
@@ -3944,7 +3932,7 @@ _No keyword matches in this index._
 {"k":"DeliriumLightningDemonShockedGroundUnique","n":"DeliriumLightningDemonShockedGroundUnique","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 85. DelveLightningOrbProjectile
+### 84. DelveLightningOrbProjectile
 
 - Match score: `70`
 - `k`: DelveLightningOrbProjectile
@@ -3957,7 +3945,7 @@ _No keyword matches in this index._
 {"k":"DelveLightningOrbProjectile","n":"DelveLightningOrbProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 86. EASHeistMilitaryCasterBallLightning
+### 85. EASHeistMilitaryCasterBallLightning
 
 - Match score: `70`
 - `k`: EASHeistMilitaryCasterBallLightning
@@ -3970,7 +3958,7 @@ _No keyword matches in this index._
 {"k":"EASHeistMilitaryCasterBallLightning","n":"EASHeistMilitaryCasterBallLightning","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 87. EASKaruiSoulCasterMinionProjectile
+### 86. EASKaruiSoulCasterMinionProjectile
 
 - Match score: `70`
 - `k`: EASKaruiSoulCasterMinionProjectile
@@ -3983,7 +3971,7 @@ _No keyword matches in this index._
 {"k":"EASKaruiSoulCasterMinionProjectile","n":"EASKaruiSoulCasterMinionProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 88. EASVoranaColdOrbFire
+### 87. EASVoranaColdOrbFire
 
 - Match score: `70`
 - `k`: EASVoranaColdOrbFire
@@ -3996,7 +3984,7 @@ _No keyword matches in this index._
 {"k":"EASVoranaColdOrbFire","n":"EASVoranaColdOrbFire","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 89. EDSSpiritTurtleFireSprayLeft
+### 88. EDSSpiritTurtleFireSprayLeft
 
 - Match score: `70`
 - `k`: EDSSpiritTurtleFireSprayLeft
@@ -4009,7 +3997,7 @@ _No keyword matches in this index._
 {"k":"EDSSpiritTurtleFireSprayLeft","n":"EDSSpiritTurtleFireSprayLeft","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 90. EDSSpiritTurtleFireSprayRight
+### 89. EDSSpiritTurtleFireSprayRight
 
 - Match score: `70`
 - `k`: EDSSpiritTurtleFireSprayRight
@@ -4022,7 +4010,7 @@ _No keyword matches in this index._
 {"k":"EDSSpiritTurtleFireSprayRight","n":"EDSSpiritTurtleFireSprayRight","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 91. EGSerpentClanCasterRunemarkedBallLightningSlow
+### 90. EGSerpentClanCasterRunemarkedBallLightningSlow
 
 - Match score: `70`
 - `k`: EGSerpentClanCasterRunemarkedBallLightningSlow
@@ -4035,7 +4023,7 @@ _No keyword matches in this index._
 {"k":"EGSerpentClanCasterRunemarkedBallLightningSlow","n":"EGSerpentClanCasterRunemarkedBallLightningSlow","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 92. EmptyActionSpellDeliriumDemonColdGroundSpear
+### 91. EmptyActionSpellDeliriumDemonColdGroundSpear
 
 - Match score: `70`
 - `k`: EmptyActionSpellDeliriumDemonColdGroundSpear
@@ -4048,7 +4036,7 @@ _No keyword matches in this index._
 {"k":"EmptyActionSpellDeliriumDemonColdGroundSpear","n":"EmptyActionSpellDeliriumDemonColdGroundSpear","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 93. EmptyActionSpellDeliriumDemonColdSpearToss
+### 92. EmptyActionSpellDeliriumDemonColdSpearToss
 
 - Match score: `70`
 - `k`: EmptyActionSpellDeliriumDemonColdSpearToss
@@ -4061,7 +4049,7 @@ _No keyword matches in this index._
 {"k":"EmptyActionSpellDeliriumDemonColdSpearToss","n":"EmptyActionSpellDeliriumDemonColdSpearToss","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 94. EmptyActionSpellDeliriumSkillDaemonCold
+### 93. EmptyActionSpellDeliriumSkillDaemonCold
 
 - Match score: `70`
 - `k`: EmptyActionSpellDeliriumSkillDaemonCold
@@ -4074,7 +4062,7 @@ _No keyword matches in this index._
 {"k":"EmptyActionSpellDeliriumSkillDaemonCold","n":"EmptyActionSpellDeliriumSkillDaemonCold","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 95. EmptyActionSpellDeliriumSkillDaemonFire
+### 94. EmptyActionSpellDeliriumSkillDaemonFire
 
 - Match score: `70`
 - `k`: EmptyActionSpellDeliriumSkillDaemonFire
@@ -4087,7 +4075,7 @@ _No keyword matches in this index._
 {"k":"EmptyActionSpellDeliriumSkillDaemonFire","n":"EmptyActionSpellDeliriumSkillDaemonFire","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 96. EmptyActionSpellDeliriumSkillDaemonLightning
+### 95. EmptyActionSpellDeliriumSkillDaemonLightning
 
 - Match score: `70`
 - `k`: EmptyActionSpellDeliriumSkillDaemonLightning
@@ -4100,7 +4088,7 @@ _No keyword matches in this index._
 {"k":"EmptyActionSpellDeliriumSkillDaemonLightning","n":"EmptyActionSpellDeliriumSkillDaemonLightning","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 97. Fire Exposure
+### 96. Fire Exposure
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SkillGemFireExposureSupport
@@ -4113,7 +4101,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemFireExposureSupport","n":"Fire Exposure","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"duration":true,"fire":true,"support":true}}
 ```
 
-### 98. Fire Penetration I
+### 97. Fire Penetration I
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SkillGemFirePenetrationSupport
@@ -4126,7 +4114,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemFirePenetrationSupport","n":"Fire Penetration I","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"fire":true,"support":true}}
 ```
 
-### 99. Fire Penetration II
+### 98. Fire Penetration II
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SkillGemFirePenetrationSupportTwo
@@ -4139,7 +4127,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemFirePenetrationSupportTwo","n":"Fire Penetration II","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"fire":true,"support":true}}
 ```
 
-### 100. Fire Spell on Hit
+### 99. Fire Spell on Hit
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SkillGemCastFireSpellOnHit
@@ -4152,7 +4140,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemCastFireSpellOnHit","n":"Fire Spell on Hit","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"buff":true,"fire":true,"grants_active_skill":true,"meta":true,"persistent":true,"trigger":true}}
 ```
 
-### 101. FireballIncursionChaos
+### 100. FireballIncursionChaos
 
 - Match score: `70`
 - `k`: FireballIncursionChaos
@@ -4165,7 +4153,7 @@ _No keyword matches in this index._
 {"k":"FireballIncursionChaos","n":"FireballIncursionChaos","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 102. FireballIncusionLightning
+### 101. FireballIncusionLightning
 
 - Match score: `70`
 - `k`: FireballIncusionLightning
@@ -4178,7 +4166,7 @@ _No keyword matches in this index._
 {"k":"FireballIncusionLightning","n":"FireballIncusionLightning","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 103. FireboltRogueExileSorceress2
+### 102. FireboltRogueExileSorceress2
 
 - Match score: `70`
 - `k`: FireboltRogueExileSorceress2
@@ -4191,7 +4179,7 @@ _No keyword matches in this index._
 {"k":"FireboltRogueExileSorceress2","n":"FireboltRogueExileSorceress2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 104. FirestormRogueExileSorceress1
+### 103. FirestormRogueExileSorceress1
 
 - Match score: `70`
 - `k`: FirestormRogueExileSorceress1
@@ -4204,7 +4192,7 @@ _No keyword matches in this index._
 {"k":"FirestormRogueExileSorceress1","n":"FirestormRogueExileSorceress1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 105. GeometrySpellFireCombo
+### 104. GeometrySpellFireCombo
 
 - Match score: `70`
 - `k`: GeometrySpellFireCombo
@@ -4217,7 +4205,7 @@ _No keyword matches in this index._
 {"k":"GeometrySpellFireCombo","n":"GeometrySpellFireCombo","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 106. GPSBreachHandMageChaosVolatileProjectile
+### 105. GPSBreachHandMageChaosVolatileProjectile
 
 - Match score: `70`
 - `k`: GPSBreachHandMageChaosVolatileProjectile
@@ -4230,7 +4218,7 @@ _No keyword matches in this index._
 {"k":"GPSBreachHandMageChaosVolatileProjectile","n":"GPSBreachHandMageChaosVolatileProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 107. GPSBreachHandMageLightningVolatileProjectile
+### 106. GPSBreachHandMageLightningVolatileProjectile
 
 - Match score: `70`
 - `k`: GPSBreachHandMageLightningVolatileProjectile
@@ -4243,7 +4231,7 @@ _No keyword matches in this index._
 {"k":"GPSBreachHandMageLightningVolatileProjectile","n":"GPSBreachHandMageLightningVolatileProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 108. GPSColdEssenceProjectileNova
+### 107. GPSColdEssenceProjectileNova
 
 - Match score: `70`
 - `k`: GPSColdEssenceProjectileNova
@@ -4256,7 +4244,7 @@ _No keyword matches in this index._
 {"k":"GPSColdEssenceProjectileNova","n":"GPSColdEssenceProjectileNova","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 109. GPSKaruiSpiritMinionProjectile
+### 108. GPSKaruiSpiritMinionProjectile
 
 - Match score: `70`
 - `k`: GPSKaruiSpiritMinionProjectile
@@ -4269,7 +4257,7 @@ _No keyword matches in this index._
 {"k":"GPSKaruiSpiritMinionProjectile","n":"GPSKaruiSpiritMinionProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 110. GSChaosGodOwlBossLightningCascade
+### 109. GSChaosGodOwlBossLightningCascade
 
 - Match score: `70`
 - `k`: GSChaosGodOwlBossLightningCascade
@@ -4282,7 +4270,7 @@ _No keyword matches in this index._
 {"k":"GSChaosGodOwlBossLightningCascade","n":"GSChaosGodOwlBossLightningCascade","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 111. GSDeliriumDemonFlurryProjectileFireImpact
+### 110. GSDeliriumDemonFlurryProjectileFireImpact
 
 - Match score: `70`
 - `k`: GSDeliriumDemonFlurryProjectileFireImpact
@@ -4295,7 +4283,7 @@ _No keyword matches in this index._
 {"k":"GSDeliriumDemonFlurryProjectileFireImpact","n":"GSDeliriumDemonFlurryProjectileFireImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 112. GSDeliriumDemonProjectileLightningImpact
+### 111. GSDeliriumDemonProjectileLightningImpact
 
 - Match score: `70`
 - `k`: GSDeliriumDemonProjectileLightningImpact
@@ -4308,7 +4296,7 @@ _No keyword matches in this index._
 {"k":"GSDeliriumDemonProjectileLightningImpact","n":"GSDeliriumDemonProjectileLightningImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 113. GSHeistMilitaryCasterBallLightning
+### 112. GSHeistMilitaryCasterBallLightning
 
 - Match score: `70`
 - `k`: GSHeistMilitaryCasterBallLightning
@@ -4321,7 +4309,7 @@ _No keyword matches in this index._
 {"k":"GSHeistMilitaryCasterBallLightning","n":"GSHeistMilitaryCasterBallLightning","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 114. GSMonsterModLightningMirageAOE
+### 113. GSMonsterModLightningMirageAOE
 
 - Match score: `70`
 - `k`: GSMonsterModLightningMirageAOE
@@ -4334,7 +4322,7 @@ _No keyword matches in this index._
 {"k":"GSMonsterModLightningMirageAOE","n":"GSMonsterModLightningMirageAOE","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 115. GSMonsterModLightningMirageAOE2
+### 114. GSMonsterModLightningMirageAOE2
 
 - Match score: `70`
 - `k`: GSMonsterModLightningMirageAOE2
@@ -4347,7 +4335,7 @@ _No keyword matches in this index._
 {"k":"GSMonsterModLightningMirageAOE2","n":"GSMonsterModLightningMirageAOE2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 116. GSRagingFireSpiritsVolatileSanctum
+### 115. GSRagingFireSpiritsVolatileSanctum
 
 - Match score: `70`
 - `k`: GSRagingFireSpiritsVolatileSanctum
@@ -4360,7 +4348,7 @@ _No keyword matches in this index._
 {"k":"GSRagingFireSpiritsVolatileSanctum","n":"GSRagingFireSpiritsVolatileSanctum","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 117. GSSerpentClanCasterRunemarkedBallLightningImpact
+### 116. GSSerpentClanCasterRunemarkedBallLightningImpact
 
 - Match score: `70`
 - `k`: GSSerpentClanCasterRunemarkedBallLightningImpact
@@ -4373,7 +4361,7 @@ _No keyword matches in this index._
 {"k":"GSSerpentClanCasterRunemarkedBallLightningImpact","n":"GSSerpentClanCasterRunemarkedBallLightningImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 118. GSSpiritOfTheStagLightningStrike
+### 117. GSSpiritOfTheStagLightningStrike
 
 - Match score: `70`
 - `k`: GSSpiritOfTheStagLightningStrike
@@ -4386,7 +4374,7 @@ _No keyword matches in this index._
 {"k":"GSSpiritOfTheStagLightningStrike","n":"GSSpiritOfTheStagLightningStrike","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 119. GSSpiritOfTheStagLightningStrikePlayer
+### 118. GSSpiritOfTheStagLightningStrikePlayer
 
 - Match score: `70`
 - `k`: GSSpiritOfTheStagLightningStrikePlayer
@@ -4399,7 +4387,7 @@ _No keyword matches in this index._
 {"k":"GSSpiritOfTheStagLightningStrikePlayer","n":"GSSpiritOfTheStagLightningStrikePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 120. GSTrialMasterBossFirecrackerProjectileExplode
+### 119. GSTrialMasterBossFirecrackerProjectileExplode
 
 - Match score: `70`
 - `k`: GSTrialMasterBossFirecrackerProjectileExplode
@@ -4410,6 +4398,19 @@ _No keyword matches in this index._
 
 ```json
 {"k":"GSTrialMasterBossFirecrackerProjectileExplode","n":"GSTrialMasterBossFirecrackerProjectileExplode","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 120. GSWraithSpookyRunemarkedIceLightningProjectileImpact
+
+- Match score: `70`
+- `k`: GSWraithSpookyRunemarkedIceLightningProjectileImpact
+- `n`: GSWraithSpookyRunemarkedIceLightningProjectileImpact
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"GSWraithSpookyRunemarkedIceLightningProjectileImpact","n":"GSWraithSpookyRunemarkedIceLightningProjectileImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
 ## Item bases/classes

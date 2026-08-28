@@ -1,6 +1,6 @@
 # Build Idea Pack — Support / Party Build
 
-- Generated UTC: `2026-08-27T20:29:35+00:00`
+- Generated UTC: `2026-08-28T21:11:31+00:00`
 - Idea slug: `support-party-build`
 - Purpose: Engineer party support builds focused on curses, auras, control, debuffs, and ally amplification.
 - Keywords: `support, party, ally, aura, curse, blasphemy, temporal chains, enfeeble, exposure, shock, freeze, resistance, spirit, reservation, duration, cooldown, chronomancer, witch, sorceress, debuff, control`
@@ -3525,19 +3525,7 @@ _No keyword matches in this index._
 {"k":"inflict_lightning_exposure_for_x_ms_on_shock","n":"[{'flags': 4, 'keywordFlags': 0, 'name': 'LightningExposureChance', 'type': 'BASE', 'value': 100, '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Shocked'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":4,"keywordFlags":0,"name":"LightningExposureChance","type":"BASE","value":100,"1":{"actor":"enemy","type":"ActorCondition","var":"Shocked"}}]}
 ```
 
-### 50. AuraDuration
-
-- Match score: `70`
-- `k`: 70
-- `n`: AuraDuration
-- `cat`: repoe_active_skill_types
-- `src`: repoe_poe2/active_skill_types.json
-
-```json
-{"k":"70","n":"AuraDuration","cat":"repoe_active_skill_types","src":"repoe_poe2/active_skill_types.json","v":"AuraDuration"}
-```
-
-### 51. base_self_freeze_duration_-%
+### 50. base_self_freeze_duration_-%
 
 - Match score: `70`
 - `k`: base_self_freeze_duration_-%
@@ -3549,7 +3537,7 @@ _No keyword matches in this index._
 {"k":"base_self_freeze_duration_-%","n":"base_self_freeze_duration_-%","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 52. base_self_shock_duration_-%
+### 51. base_self_shock_duration_-%
 
 - Match score: `70`
 - `k`: base_self_shock_duration_-%
@@ -3561,7 +3549,7 @@ _No keyword matches in this index._
 {"k":"base_self_shock_duration_-%","n":"base_self_shock_duration_-%","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 53. CompressedDurationSupportPlayer
+### 52. CompressedDurationSupportPlayer
 
 - Match score: `70`
 - `k`: CompressedDurationSupportPlayer
@@ -3575,7 +3563,7 @@ _No keyword matches in this index._
 {"k":"CompressedDurationSupportPlayer","n":"CompressedDurationSupportPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Duration"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 54. CompressedDurationSupportPlayerTwo
+### 53. CompressedDurationSupportPlayerTwo
 
 - Match score: `70`
 - `k`: CompressedDurationSupportPlayerTwo
@@ -3589,7 +3577,7 @@ _No keyword matches in this index._
 {"k":"CompressedDurationSupportPlayerTwo","n":"CompressedDurationSupportPlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Duration"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 55. curse_delay_duration_ms
+### 54. curse_delay_duration_ms
 
 - Match score: `70`
 - `k`: curse_delay_duration_ms
@@ -3601,7 +3589,7 @@ _No keyword matches in this index._
 {"k":"curse_delay_duration_ms","n":"curse_delay_duration_ms","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 56. ImpactShockwaveSupportPlayer
+### 55. ImpactShockwaveSupportPlayer
 
 - Match score: `70`
 - `k`: ImpactShockwaveSupportPlayer
@@ -3615,7 +3603,7 @@ _No keyword matches in this index._
 {"k":"ImpactShockwaveSupportPlayer","n":"ImpactShockwaveSupportPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["MeleeSingleTarget","Wind","Attack","AND"],"excluded_types":["Slam"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 57. Metadata/Items/Gem/SupportGemChaoticFreeze
+### 56. Metadata/Items/Gem/SupportGemChaoticFreeze
 
 - Match score: `70`
 - `k`: Metadata/Items/Gem/SupportGemChaoticFreeze
@@ -3629,7 +3617,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SupportGemChaoticFreeze","n":"Metadata/Items/Gem/SupportGemChaoticFreeze","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Chaotic Freeze","id":"Metadata/Items/Gem/SupportGemChaoticFreeze","release_state":"released"},"tags":["support","spell","chaos"]}
 ```
 
-### 58. Metadata/Items/Gem/SupportGemCursedGround
+### 57. Metadata/Items/Gem/SupportGemCursedGround
 
 - Match score: `70`
 - `k`: Metadata/Items/Gem/SupportGemCursedGround
@@ -3643,7 +3631,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SupportGemCursedGround","n":"Metadata/Items/Gem/SupportGemCursedGround","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Cursed Ground","id":"Metadata/Items/Gem/SupportGemCursedGround","release_state":"released"},"tags":["support","curse"]}
 ```
 
-### 59. Metadata/Items/Gem/SupportGemFocusedCurse
+### 58. Metadata/Items/Gem/SupportGemFocusedCurse
 
 - Match score: `70`
 - `k`: Metadata/Items/Gem/SupportGemFocusedCurse
@@ -3657,7 +3645,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SupportGemFocusedCurse","n":"Metadata/Items/Gem/SupportGemFocusedCurse","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Focused Curse","id":"Metadata/Items/Gem/SupportGemFocusedCurse","release_state":"released"},"tags":["support","curse"]}
 ```
 
-### 60. Metadata/Items/Gem/SupportGemFreezefork
+### 59. Metadata/Items/Gem/SupportGemFreezefork
 
 - Match score: `70`
 - `k`: Metadata/Items/Gem/SupportGemFreezefork
@@ -3671,7 +3659,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SupportGemFreezefork","n":"Metadata/Items/Gem/SupportGemFreezefork","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Freezefork","id":"Metadata/Items/Gem/SupportGemFreezefork","release_state":"released"},"tags":["support","projectile","cold"]}
 ```
 
-### 61. Metadata/Items/Gem/SupportGemRally
+### 60. Metadata/Items/Gem/SupportGemRally
 
 - Match score: `70`
 - `k`: Metadata/Items/Gem/SupportGemRally
@@ -3685,7 +3673,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SupportGemRally","n":"Metadata/Items/Gem/SupportGemRally","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Rally","id":"Metadata/Items/Gem/SupportGemRally","release_state":"released"},"tags":["support","attack","melee"]}
 ```
 
-### 62. Metadata/Items/Gem/SupportGemRitualisticCurse
+### 61. Metadata/Items/Gem/SupportGemRitualisticCurse
 
 - Match score: `70`
 - `k`: Metadata/Items/Gem/SupportGemRitualisticCurse
@@ -3699,7 +3687,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SupportGemRitualisticCurse","n":"Metadata/Items/Gem/SupportGemRitualisticCurse","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Ritualistic Curse","id":"Metadata/Items/Gem/SupportGemRitualisticCurse","release_state":"released"},"tags":["support","area","curse"]}
 ```
 
-### 63. Metadata/Items/Gem/SupportGemShockingRift
+### 62. Metadata/Items/Gem/SupportGemShockingRift
 
 - Match score: `70`
 - `k`: Metadata/Items/Gem/SupportGemShockingRift
@@ -3713,7 +3701,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SupportGemShockingRift","n":"Metadata/Items/Gem/SupportGemShockingRift","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Electromagnetism","id":"Metadata/Items/Gem/SupportGemShockingRift","release_state":"released"},"tags":["support","grants_active_skill","spell","area","trigger","sustained","lightning","payoff"]}
 ```
 
-### 64. Metadata/Items/Gems/SupportGemAftershock
+### 63. Metadata/Items/Gems/SupportGemAftershock
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SupportGemAftershock
@@ -3727,7 +3715,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemAftershock","n":"Metadata/Items/Gems/SupportGemAftershock","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Aftershock I","id":"Metadata/Items/Gems/SupportGemAftershock","release_state":"released"},"tags":["support","attack","melee","slam"]}
 ```
 
-### 65. Metadata/Items/Gems/SupportGemAftershockThree
+### 64. Metadata/Items/Gems/SupportGemAftershockThree
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SupportGemAftershockThree
@@ -3741,7 +3729,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemAftershockThree","n":"Metadata/Items/Gems/SupportGemAftershockThree","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Aftershock III","id":"Metadata/Items/Gems/SupportGemAftershockThree","release_state":"released"},"tags":["support","attack","melee","slam"]}
 ```
 
-### 66. Metadata/Items/Gems/SupportGemAftershockTwo
+### 65. Metadata/Items/Gems/SupportGemAftershockTwo
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SupportGemAftershockTwo
@@ -3755,7 +3743,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemAftershockTwo","n":"Metadata/Items/Gems/SupportGemAftershockTwo","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Aftershock II","id":"Metadata/Items/Gems/SupportGemAftershockTwo","release_state":"released"},"tags":["support","attack","melee","slam"]}
 ```
 
-### 67. Metadata/Items/Gems/SupportGemChanceToFreeze
+### 66. Metadata/Items/Gems/SupportGemChanceToFreeze
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SupportGemChanceToFreeze
@@ -3769,7 +3757,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemChanceToFreeze","n":"Metadata/Items/Gems/SupportGemChanceToFreeze","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Chance to Freeze","id":"Metadata/Items/Gems/SupportGemChanceToFreeze","release_state":"released"},"tags":["support"]}
 ```
 
-### 68. Metadata/Items/Gems/SupportGemControlledDestruction
+### 67. Metadata/Items/Gems/SupportGemControlledDestruction
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SupportGemControlledDestruction
@@ -3783,7 +3771,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemControlledDestruction","n":"Metadata/Items/Gems/SupportGemControlledDestruction","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Controlled Destruction","id":"Metadata/Items/Gems/SupportGemControlledDestruction","release_state":"released"},"tags":["support","spell"]}
 ```
 
-### 69. Metadata/Items/Gems/SupportGemControlledHazard
+### 68. Metadata/Items/Gems/SupportGemControlledHazard
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SupportGemControlledHazard
@@ -3797,7 +3785,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemControlledHazard","n":"Metadata/Items/Gems/SupportGemControlledHazard","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Controlled Hazard","id":"Metadata/Items/Gems/SupportGemControlledHazard","release_state":"released"},"tags":["support","hazard"]}
 ```
 
-### 70. Metadata/Items/Gems/SupportGemDeepFreeze
+### 69. Metadata/Items/Gems/SupportGemDeepFreeze
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SupportGemDeepFreeze
@@ -3811,7 +3799,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemDeepFreeze","n":"Metadata/Items/Gems/SupportGemDeepFreeze","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Deep Freeze","id":"Metadata/Items/Gems/SupportGemDeepFreeze","release_state":"released"},"tags":["support","cold"]}
 ```
 
-### 71. Metadata/Items/Gems/SupportGemHeightenedCurse
+### 70. Metadata/Items/Gems/SupportGemHeightenedCurse
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SupportGemHeightenedCurse
@@ -3825,7 +3813,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemHeightenedCurse","n":"Metadata/Items/Gems/SupportGemHeightenedCurse","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Heightened Curse","id":"Metadata/Items/Gems/SupportGemHeightenedCurse","release_state":"released"},"tags":["support","curse"]}
 ```
 
-### 72. Metadata/Items/Gems/SupportGemImpactShockwave
+### 71. Metadata/Items/Gems/SupportGemImpactShockwave
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SupportGemImpactShockwave
@@ -3839,7 +3827,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemImpactShockwave","n":"Metadata/Items/Gems/SupportGemImpactShockwave","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Impact Shockwave","id":"Metadata/Items/Gems/SupportGemImpactShockwave","release_state":"released"},"tags":["support","attack","area","melee","strike"]}
 ```
 
-### 73. Metadata/Items/Gems/SupportGemLastingShock
+### 72. Metadata/Items/Gems/SupportGemLastingShock
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SupportGemLastingShock
@@ -3853,7 +3841,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemLastingShock","n":"Metadata/Items/Gems/SupportGemLastingShock","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Lasting Shock","id":"Metadata/Items/Gems/SupportGemLastingShock","release_state":"released"},"tags":["support","lightning"]}
 ```
 
-### 74. Metadata/Items/Gems/SupportGemShockSiphon
+### 73. Metadata/Items/Gems/SupportGemShockSiphon
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SupportGemShockSiphon
@@ -3867,7 +3855,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemShockSiphon","n":"Metadata/Items/Gems/SupportGemShockSiphon","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Shock Siphon","id":"Metadata/Items/Gems/SupportGemShockSiphon","release_state":"released"},"tags":["support","lightning"]}
 ```
 
-### 75. Metadata/Items/Gems/SupportGemSlamAftershocks
+### 74. Metadata/Items/Gems/SupportGemSlamAftershocks
 
 - Match score: `70`
 - `k`: Metadata/Items/Gems/SupportGemSlamAftershocks
@@ -3881,7 +3869,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemSlamAftershocks","n":"Metadata/Items/Gems/SupportGemSlamAftershocks","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Tectonic Slams","id":"Metadata/Items/Gems/SupportGemSlamAftershocks","release_state":"released"},"tags":["support","attack","melee","slam"]}
 ```
 
-### 76. ProlongedDurationSupportPlayer
+### 75. ProlongedDurationSupportPlayer
 
 - Match score: `70`
 - `k`: ProlongedDurationSupportPlayer
@@ -3895,7 +3883,7 @@ _No keyword matches in this index._
 {"k":"ProlongedDurationSupportPlayer","n":"ProlongedDurationSupportPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Duration"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 77. ProlongedDurationSupportPlayerTwo
+### 76. ProlongedDurationSupportPlayerTwo
 
 - Match score: `70`
 - `k`: ProlongedDurationSupportPlayerTwo
@@ -3909,7 +3897,7 @@ _No keyword matches in this index._
 {"k":"ProlongedDurationSupportPlayerTwo","n":"ProlongedDurationSupportPlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Duration"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 78. SpiritVesselSupport
+### 77. SpiritVesselSupport
 
 - Match score: `70`
 - `k`: SpiritVesselSupport
@@ -3923,7 +3911,7 @@ _No keyword matches in this index._
 {"k":"SpiritVesselSupport","n":"SpiritVesselSupport","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Bear","Wolf","OR","Wyvern","OR","Shapeshift","AND"],"excluded_types":["InbuiltTrigger"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 79. SupportAftershockChancePlayer
+### 78. SupportAftershockChancePlayer
 
 - Match score: `70`
 - `k`: SupportAftershockChancePlayer
@@ -3937,7 +3925,7 @@ _No keyword matches in this index._
 {"k":"SupportAftershockChancePlayer","n":"SupportAftershockChancePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Slam"],"excluded_types":["UsedByProxy","Triggered","Persistent"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 80. SupportAftershockChancePlayerThree
+### 79. SupportAftershockChancePlayerThree
 
 - Match score: `70`
 - `k`: SupportAftershockChancePlayerThree
@@ -3951,7 +3939,7 @@ _No keyword matches in this index._
 {"k":"SupportAftershockChancePlayerThree","n":"SupportAftershockChancePlayerThree","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Slam"],"excluded_types":["Persistent","SummonsTotem","UsedByTotem","Trapped","RemoteMined","Vaal","Triggered"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 81. SupportAftershockChancePlayerTwo
+### 80. SupportAftershockChancePlayerTwo
 
 - Match score: `70`
 - `k`: SupportAftershockChancePlayerTwo
@@ -3965,7 +3953,7 @@ _No keyword matches in this index._
 {"k":"SupportAftershockChancePlayerTwo","n":"SupportAftershockChancePlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Slam"],"excluded_types":["UsedByProxy","Triggered","Persistent"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 82. SupportChanceToFreezePlayer
+### 81. SupportChanceToFreezePlayer
 
 - Match score: `70`
 - `k`: SupportChanceToFreezePlayer
@@ -3979,7 +3967,7 @@ _No keyword matches in this index._
 {"k":"SupportChanceToFreezePlayer","n":"SupportChanceToFreezePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":null,"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 83. SupportChaoticFreezePlayer
+### 82. SupportChaoticFreezePlayer
 
 - Match score: `70`
 - `k`: SupportChaoticFreezePlayer
@@ -3993,7 +3981,7 @@ _No keyword matches in this index._
 {"k":"SupportChaoticFreezePlayer","n":"SupportChaoticFreezePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Spell","DamageOverTime","Chaos","AND","AND"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 84. SupportControlledDestructionPlayer
+### 83. SupportControlledDestructionPlayer
 
 - Match score: `70`
 - `k`: SupportControlledDestructionPlayer
@@ -4007,7 +3995,7 @@ _No keyword matches in this index._
 {"k":"SupportControlledDestructionPlayer","n":"SupportControlledDestructionPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Spell","AND"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 85. SupportControlledHazardPlayer
+### 84. SupportControlledHazardPlayer
 
 - Match score: `70`
 - `k`: SupportControlledHazardPlayer
@@ -4021,7 +4009,7 @@ _No keyword matches in this index._
 {"k":"SupportControlledHazardPlayer","n":"SupportControlledHazardPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Hazard"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 86. SupportCooldownRecoveryPlayer
+### 85. SupportCooldownRecoveryPlayer
 
 - Match score: `70`
 - `k`: SupportCooldownRecoveryPlayer
@@ -4035,7 +4023,7 @@ _No keyword matches in this index._
 {"k":"SupportCooldownRecoveryPlayer","n":"SupportCooldownRecoveryPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Cooldown","AffectedByCooldownRate"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 87. SupportCooldownRecoveryPlayerTwo
+### 86. SupportCooldownRecoveryPlayerTwo
 
 - Match score: `70`
 - `k`: SupportCooldownRecoveryPlayerTwo
@@ -4049,7 +4037,7 @@ _No keyword matches in this index._
 {"k":"SupportCooldownRecoveryPlayerTwo","n":"SupportCooldownRecoveryPlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Cooldown","AffectedByCooldownRate"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 88. SupportCursedGroundPlayer
+### 87. SupportCursedGroundPlayer
 
 - Match score: `70`
 - `k`: SupportCursedGroundPlayer
@@ -4063,43 +4051,7 @@ _No keyword matches in this index._
 {"k":"SupportCursedGroundPlayer","n":"SupportCursedGroundPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Limit"],"allowed_types":["AppliesCurse"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 89. SupportedByDurationThree
-
-- Match score: `70`
-- `k`: 229
-- `n`: SupportedByDurationThree
-- `cat`: repoe_active_skill_types
-- `src`: repoe_poe2/active_skill_types.json
-
-```json
-{"k":"229","n":"SupportedByDurationThree","cat":"repoe_active_skill_types","src":"repoe_poe2/active_skill_types.json","v":"SupportedByDurationThree"}
-```
-
-### 90. SupportedByFreezefork
-
-- Match score: `70`
-- `k`: 206
-- `n`: SupportedByFreezefork
-- `cat`: repoe_active_skill_types
-- `src`: repoe_poe2/active_skill_types.json
-
-```json
-{"k":"206","n":"SupportedByFreezefork","cat":"repoe_active_skill_types","src":"repoe_poe2/active_skill_types.json","v":"SupportedByFreezefork"}
-```
-
-### 91. SupportedByRally
-
-- Match score: `70`
-- `k`: 203
-- `n`: SupportedByRally
-- `cat`: repoe_active_skill_types
-- `src`: repoe_poe2/active_skill_types.json
-
-```json
-{"k":"203","n":"SupportedByRally","cat":"repoe_active_skill_types","src":"repoe_poe2/active_skill_types.json","v":"SupportedByRally"}
-```
-
-### 92. SupportEnergyShieldOnShockKillPlayer
+### 88. SupportEnergyShieldOnShockKillPlayer
 
 - Match score: `70`
 - `k`: SupportEnergyShieldOnShockKillPlayer
@@ -4113,7 +4065,7 @@ _No keyword matches in this index._
 {"k":"SupportEnergyShieldOnShockKillPlayer","n":"SupportEnergyShieldOnShockKillPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 93. SupportFocusedCursePlayer
+### 89. SupportFocusedCursePlayer
 
 - Match score: `70`
 - `k`: SupportFocusedCursePlayer
@@ -4127,7 +4079,7 @@ _No keyword matches in this index._
 {"k":"SupportFocusedCursePlayer","n":"SupportFocusedCursePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["AppliesCurse"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 94. SupportFreezeforkPlayer
+### 90. SupportFreezeforkPlayer
 
 - Match score: `70`
 - `k`: SupportFreezeforkPlayer
@@ -4141,7 +4093,7 @@ _No keyword matches in this index._
 {"k":"SupportFreezeforkPlayer","n":"SupportFreezeforkPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["SupportedByFreezefork"],"allowed_types":["Projectile"],"excluded_types":["ProjectileNoCollision"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 95. SupportFreezePlayer
+### 91. SupportFreezePlayer
 
 - Match score: `70`
 - `k`: SupportFreezePlayer
@@ -4155,7 +4107,7 @@ _No keyword matches in this index._
 {"k":"SupportFreezePlayer","n":"SupportFreezePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 96. SupportIgniteDurationPlayer
+### 92. SupportIgniteDurationPlayer
 
 - Match score: `70`
 - `k`: SupportIgniteDurationPlayer
@@ -4169,7 +4121,7 @@ _No keyword matches in this index._
 {"k":"SupportIgniteDurationPlayer","n":"SupportIgniteDurationPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 97. SupportIgniteDurationPlayerThree
+### 93. SupportIgniteDurationPlayerThree
 
 - Match score: `70`
 - `k`: SupportIgniteDurationPlayerThree
@@ -4183,7 +4135,7 @@ _No keyword matches in this index._
 {"k":"SupportIgniteDurationPlayerThree","n":"SupportIgniteDurationPlayerThree","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 98. SupportIgniteDurationPlayerTwo
+### 94. SupportIgniteDurationPlayerTwo
 
 - Match score: `70`
 - `k`: SupportIgniteDurationPlayerTwo
@@ -4197,7 +4149,7 @@ _No keyword matches in this index._
 {"k":"SupportIgniteDurationPlayerTwo","n":"SupportIgniteDurationPlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 99. SupportLastingShockPlayer
+### 95. SupportLastingShockPlayer
 
 - Match score: `70`
 - `k`: SupportLastingShockPlayer
@@ -4211,7 +4163,7 @@ _No keyword matches in this index._
 {"k":"SupportLastingShockPlayer","n":"SupportLastingShockPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 100. SupportMetaCastCurseOnBlockPlayer
+### 96. SupportMetaCastCurseOnBlockPlayer
 
 - Match score: `70`
 - `k`: SupportMetaCastCurseOnBlockPlayer
@@ -4225,7 +4177,7 @@ _No keyword matches in this index._
 {"k":"SupportMetaCastCurseOnBlockPlayer","n":"SupportMetaCastCurseOnBlockPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Triggered"],"allowed_types":["AppliesCurse","Triggerable","AND"],"excluded_types":["InbuiltTrigger"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 101. SupportMetaCastOnFreezePlayer
+### 97. SupportMetaCastOnFreezePlayer
 
 - Match score: `70`
 - `k`: SupportMetaCastOnFreezePlayer
@@ -4239,7 +4191,7 @@ _No keyword matches in this index._
 {"k":"SupportMetaCastOnFreezePlayer","n":"SupportMetaCastOnFreezePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Triggered"],"allowed_types":["Spell","Triggerable","AND"],"excluded_types":["InbuiltTrigger"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 102. SupportMetaCastOnShockPlayer
+### 98. SupportMetaCastOnShockPlayer
 
 - Match score: `70`
 - `k`: SupportMetaCastOnShockPlayer
@@ -4253,7 +4205,7 @@ _No keyword matches in this index._
 {"k":"SupportMetaCastOnShockPlayer","n":"SupportMetaCastOnShockPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Triggered"],"allowed_types":["Spell","Triggerable","AND"],"excluded_types":["InbuiltTrigger"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 103. SupportMetaRangedAttackOnFreezePlayer
+### 99. SupportMetaRangedAttackOnFreezePlayer
 
 - Match score: `70`
 - `k`: SupportMetaRangedAttackOnFreezePlayer
@@ -4267,7 +4219,7 @@ _No keyword matches in this index._
 {"k":"SupportMetaRangedAttackOnFreezePlayer","n":"SupportMetaRangedAttackOnFreezePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":null,"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 104. SupportMetaRangedAttackOnShockPlayer
+### 100. SupportMetaRangedAttackOnShockPlayer
 
 - Match score: `70`
 - `k`: SupportMetaRangedAttackOnShockPlayer
@@ -4281,7 +4233,7 @@ _No keyword matches in this index._
 {"k":"SupportMetaRangedAttackOnShockPlayer","n":"SupportMetaRangedAttackOnShockPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":null,"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 105. SupportPotentExposurePlayer
+### 101. SupportPotentExposurePlayer
 
 - Match score: `70`
 - `k`: SupportPotentExposurePlayer
@@ -4295,7 +4247,7 @@ _No keyword matches in this index._
 {"k":"SupportPotentExposurePlayer","n":"SupportPotentExposurePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Spell","DegenOnlySpellDamage","CrossbowAmmoSkill","Attack"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 106. SupportRallyPlayer
+### 102. SupportRallyPlayer
 
 - Match score: `70`
 - `k`: SupportRallyPlayer
@@ -4309,7 +4261,7 @@ _No keyword matches in this index._
 {"k":"SupportRallyPlayer","n":"SupportRallyPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["ConsumesCharges","SkillConsumesEnduranceChargesOnUse","SupportedByRally"],"allowed_types":["Melee"],"excluded_types":["UsedByProxy","Triggered","Persistent","SkillConsumesEnduranceChargesOnUse","SupportedByRally","NOT","AND"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 107. SupportRitualisticCursePlayer
+### 103. SupportRitualisticCursePlayer
 
 - Match score: `70`
 - `k`: SupportRitualisticCursePlayer
@@ -4323,7 +4275,7 @@ _No keyword matches in this index._
 {"k":"SupportRitualisticCursePlayer","n":"SupportRitualisticCursePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["AppliesCurse"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 108. SupportShockConductionPlayer
+### 104. SupportShockConductionPlayer
 
 - Match score: `70`
 - `k`: SupportShockConductionPlayer
@@ -4337,7 +4289,7 @@ _No keyword matches in this index._
 {"k":"SupportShockConductionPlayer","n":"SupportShockConductionPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 109. SupportShockConductionPlayerTwo
+### 105. SupportShockConductionPlayerTwo
 
 - Match score: `70`
 - `k`: SupportShockConductionPlayerTwo
@@ -4351,7 +4303,7 @@ _No keyword matches in this index._
 {"k":"SupportShockConductionPlayerTwo","n":"SupportShockConductionPlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 110. SupportShockingRiftPlayer
+### 106. SupportShockingRiftPlayer
 
 - Match score: `70`
 - `k`: SupportShockingRiftPlayer
@@ -4365,7 +4317,7 @@ _No keyword matches in this index._
 {"k":"SupportShockingRiftPlayer","n":"SupportShockingRiftPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 111. SupportShockManaRegenerationPlayer
+### 107. SupportShockManaRegenerationPlayer
 
 - Match score: `70`
 - `k`: SupportShockManaRegenerationPlayer
@@ -4379,7 +4331,7 @@ _No keyword matches in this index._
 {"k":"SupportShockManaRegenerationPlayer","n":"SupportShockManaRegenerationPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":["Trapped","RemoteMined","SummonsTotem","UsedByTotem","CreatesMinion"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 112. SupportShockPlayer
+### 108. SupportShockPlayer
 
 - Match score: `70`
 - `k`: SupportShockPlayer
@@ -4393,7 +4345,7 @@ _No keyword matches in this index._
 {"k":"SupportShockPlayer","n":"SupportShockPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 113. SupportSlamAftershocksPlayer
+### 109. SupportSlamAftershocksPlayer
 
 - Match score: `70`
 - `k`: SupportSlamAftershocksPlayer
@@ -4407,7 +4359,7 @@ _No keyword matches in this index._
 {"k":"SupportSlamAftershocksPlayer","n":"SupportSlamAftershocksPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Slam"],"excluded_types":["UsedByProxy","Triggered","Persistent","CreatesFissure"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 114. SupportStaticShocksPlayer
+### 110. SupportStaticShocksPlayer
 
 - Match score: `70`
 - `k`: SupportStaticShocksPlayer
@@ -4421,7 +4373,7 @@ _No keyword matches in this index._
 {"k":"SupportStaticShocksPlayer","n":"SupportStaticShocksPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowSkill"],"excluded_types":["Minion","SkillGrantedBySupport"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 115. Cold Exposure
+### 111. Cold Exposure
 
 - Match score: `55`
 - `k`: Metadata/Items/Gems/SkillGemColdExposureSupport
@@ -4434,7 +4386,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemColdExposureSupport","n":"Cold Exposure","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"cold":true,"duration":true,"support":true}}
 ```
 
-### 116. Enfeeble
+### 112. Enfeeble
 
 - Match score: `55`
 - `k`: Metadata/Items/Gems/SkillGemEnfeeble
@@ -4447,7 +4399,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemEnfeeble","n":"Enfeeble","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"area":true,"curse":true,"duration":true,"grants_active_skill":true,"intelligence":true,"repeatable":true,"spell":true}}
 ```
 
-### 117. Fire Exposure
+### 113. Fire Exposure
 
 - Match score: `55`
 - `k`: Metadata/Items/Gems/SkillGemFireExposureSupport
@@ -4460,7 +4412,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemFireExposureSupport","n":"Fire Exposure","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"duration":true,"fire":true,"support":true}}
 ```
 
-### 118. Lightning Exposure
+### 114. Lightning Exposure
 
 - Match score: `55`
 - `k`: Metadata/Items/Gems/SkillGemLightningExposureSupport
@@ -4473,7 +4425,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemLightningExposureSupport","n":"Lightning Exposure","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"duration":true,"lightning":true,"support":true}}
 ```
 
-### 119. Metadata/Items/Gem/SupportGemDecayingHex
+### 115. Metadata/Items/Gem/SupportGemDecayingHex
 
 - Match score: `55`
 - `k`: Metadata/Items/Gem/SupportGemDecayingHex
@@ -4487,7 +4439,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SupportGemDecayingHex","n":"Metadata/Items/Gem/SupportGemDecayingHex","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Decaying Hex","id":"Metadata/Items/Gem/SupportGemDecayingHex","release_state":"released"},"tags":["support","grants_active_skill","spell","trigger","chaos","duration","curse"]}
 ```
 
-### 120. Metadata/Items/Gems/SkillGemEnfeeble
+### 116. Metadata/Items/Gems/SkillGemEnfeeble
 
 - Match score: `55`
 - `k`: Metadata/Items/Gems/SkillGemEnfeeble
@@ -4499,6 +4451,60 @@ _No keyword matches in this index._
 
 ```json
 {"k":"Metadata/Items/Gems/SkillGemEnfeeble","n":"Metadata/Items/Gems/SkillGemEnfeeble","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Enfeeble","id":"Metadata/Items/Gems/SkillGemEnfeeble","release_state":"released"},"tags":["intelligence","grants_active_skill","spell","area","duration","curse","repeatable"]}
+```
+
+### 117. Shocking Leap
+
+- Match score: `55`
+- `k`: Metadata/Items/Gems/SkillGemShockingLeapSupport
+- `n`: Shocking Leap
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"area":true,"duration":true,"support":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemShockingLeapSupport","n":"Shocking Leap","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"area":true,"duration":true,"support":true}}
+```
+
+### 118. Static Shocks
+
+- Match score: `55`
+- `k`: Metadata/Items/Gems/SkillGemStaticShocksSupport
+- `n`: Static Shocks
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"area":true,"duration":true,"grants_active_skill":true,"lightning":true,"spell":true,"support":true,"sustained":true,"trigger":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemStaticShocksSupport","n":"Static Shocks","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"area":true,"duration":true,"grants_active_skill":true,"lightning":true,"spell":true,"support":true,"sustained":true,"trigger":true}}
+```
+
+### 119. SupportAbidingHexPlayer
+
+- Match score: `55`
+- `k`: SupportAbidingHexPlayer
+- `n`: SupportAbidingHexPlayer
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `support`: {"added_minion_types":null,"added_types":["ConsumesCharges","SkillConsumesPowerChargesOnUse","SupportedByAbidingHex"],"allowed_types":["AppliesCurse"],"excluded_types":["Aura","UsedByProxy","Triggered","Persistent","SkillConsumesPowerChargesOnUse","SupportedByAbidingHex","NOT","AND"],"letter":"","supports_gems_only":false}
+- `is_support`: True
+
+```json
+{"k":"SupportAbidingHexPlayer","n":"SupportAbidingHexPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["ConsumesCharges","SkillConsumesPowerChargesOnUse","SupportedByAbidingHex"],"allowed_types":["AppliesCurse"],"excluded_types":["Aura","UsedByProxy","Triggered","Persistent","SkillConsumesPowerChargesOnUse","SupportedByAbidingHex","NOT","AND"],"letter":"","supports_gems_only":false},"is_support":true}
+```
+
+### 120. SupportArcaneSurgePlayer
+
+- Match score: `55`
+- `k`: SupportArcaneSurgePlayer
+- `n`: SupportArcaneSurgePlayer
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `support`: {"added_minion_types":null,"added_types":["Duration"],"allowed_types":["Spell"],"excluded_types":["UsedByProxy","Triggered","Persistent","HasReservation","ReservationBecomesCost","NOT","AND"],"letter":"","supports_gems_only":false}
+- `is_support`: True
+
+```json
+{"k":"SupportArcaneSurgePlayer","n":"SupportArcaneSurgePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Duration"],"allowed_types":["Spell"],"excluded_types":["UsedByProxy","Triggered","Persistent","HasReservation","ReservationBecomesCost","NOT","AND"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
 ## Item bases/classes

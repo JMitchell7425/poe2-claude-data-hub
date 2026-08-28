@@ -1,6 +1,6 @@
 # Build Idea Pack — Ranged Projectile Build
 
-- Generated UTC: `2026-08-27T20:29:28+00:00`
+- Generated UTC: `2026-08-28T21:11:24+00:00`
 - Idea slug: `ranged-projectile-build`
 - Purpose: Engineer a ranged projectile build with high clear coverage and strong boss scaling.
 - Keywords: `projectile, bow, crossbow, wand, ranged, chain, fork, pierce, multiple projectiles, reload, grenade, bolt, arrow, attack, critical, crit, poison, shock, freeze, ignite, area, clear, boss, deadeye, mercenary, witchhunter`
@@ -3706,19 +3706,7 @@ _No keyword matches in this index._
 {"k":"CGEScorpionBossPoisonGround","n":"CGEScorpionBossPoisonGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 62. CrossbowAmmoSkill
-
-- Match score: `70`
-- `k`: 116
-- `n`: CrossbowAmmoSkill
-- `cat`: repoe_active_skill_types
-- `src`: repoe_poe2/active_skill_types.json
-
-```json
-{"k":"116","n":"CrossbowAmmoSkill","cat":"repoe_active_skill_types","src":"repoe_poe2/active_skill_types.json","v":"CrossbowAmmoSkill"}
-```
-
-### 63. CrossbowRequiemAmmoPlayer
+### 62. CrossbowRequiemAmmoPlayer
 
 - Match score: `70`
 - `k`: CrossbowRequiemAmmoPlayer
@@ -3731,7 +3719,7 @@ _No keyword matches in this index._
 {"k":"CrossbowRequiemAmmoPlayer","n":"CrossbowRequiemAmmoPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 64. CrossbowRequiemPlayer
+### 63. CrossbowRequiemPlayer
 
 - Match score: `70`
 - `k`: CrossbowRequiemPlayer
@@ -3744,19 +3732,7 @@ _No keyword matches in this index._
 {"k":"CrossbowRequiemPlayer","n":"CrossbowRequiemPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 65. CrossbowSkill
-
-- Match score: `70`
-- `k`: 115
-- `n`: CrossbowSkill
-- `cat`: repoe_active_skill_types
-- `src`: repoe_poe2/active_skill_types.json
-
-```json
-{"k":"115","n":"CrossbowSkill","cat":"repoe_active_skill_types","src":"repoe_poe2/active_skill_types.json","v":"CrossbowSkill"}
-```
-
-### 66. DeceleratingProjectileDwarvenBossSmoke
+### 64. DeceleratingProjectileDwarvenBossSmoke
 
 - Match score: `70`
 - `k`: DeceleratingProjectileDwarvenBossSmoke
@@ -3769,7 +3745,7 @@ _No keyword matches in this index._
 {"k":"DeceleratingProjectileDwarvenBossSmoke","n":"DeceleratingProjectileDwarvenBossSmoke","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 67. DeceleratingProjectileSerpentClanBoss
+### 65. DeceleratingProjectileSerpentClanBoss
 
 - Match score: `70`
 - `k`: DeceleratingProjectileSerpentClanBoss
@@ -3782,7 +3758,7 @@ _No keyword matches in this index._
 {"k":"DeceleratingProjectileSerpentClanBoss","n":"DeceleratingProjectileSerpentClanBoss","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 68. DeceleratingProjectileSerpentClanBossIdleForImpact
+### 66. DeceleratingProjectileSerpentClanBossIdleForImpact
 
 - Match score: `70`
 - `k`: DeceleratingProjectileSerpentClanBossIdleForImpact
@@ -3795,7 +3771,7 @@ _No keyword matches in this index._
 {"k":"DeceleratingProjectileSerpentClanBossIdleForImpact","n":"DeceleratingProjectileSerpentClanBossIdleForImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 69. DeliriumPhysBossGeometryAttackGroundSlam1
+### 67. DeliriumPhysBossGeometryAttackGroundSlam1
 
 - Match score: `70`
 - `k`: DeliriumPhysBossGeometryAttackGroundSlam1
@@ -3808,7 +3784,7 @@ _No keyword matches in this index._
 {"k":"DeliriumPhysBossGeometryAttackGroundSlam1","n":"DeliriumPhysBossGeometryAttackGroundSlam1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 70. DeliriumPhysBossGeometryAttackGroundSlam2
+### 68. DeliriumPhysBossGeometryAttackGroundSlam2
 
 - Match score: `70`
 - `k`: DeliriumPhysBossGeometryAttackGroundSlam2
@@ -3821,7 +3797,7 @@ _No keyword matches in this index._
 {"k":"DeliriumPhysBossGeometryAttackGroundSlam2","n":"DeliriumPhysBossGeometryAttackGroundSlam2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 71. DeliriumPhysBossGeometryAttackLeapSlam1
+### 69. DeliriumPhysBossGeometryAttackLeapSlam1
 
 - Match score: `70`
 - `k`: DeliriumPhysBossGeometryAttackLeapSlam1
@@ -3834,7 +3810,7 @@ _No keyword matches in this index._
 {"k":"DeliriumPhysBossGeometryAttackLeapSlam1","n":"DeliriumPhysBossGeometryAttackLeapSlam1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 72. DeliriumPhysBossGeometryAttackMultiSlam1
+### 70. DeliriumPhysBossGeometryAttackMultiSlam1
 
 - Match score: `70`
 - `k`: DeliriumPhysBossGeometryAttackMultiSlam1
@@ -3847,7 +3823,7 @@ _No keyword matches in this index._
 {"k":"DeliriumPhysBossGeometryAttackMultiSlam1","n":"DeliriumPhysBossGeometryAttackMultiSlam1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 73. DeliriumPhysBossGeometryAttackMultiSlam2
+### 71. DeliriumPhysBossGeometryAttackMultiSlam2
 
 - Match score: `70`
 - `k`: DeliriumPhysBossGeometryAttackMultiSlam2
@@ -3860,7 +3836,7 @@ _No keyword matches in this index._
 {"k":"DeliriumPhysBossGeometryAttackMultiSlam2","n":"DeliriumPhysBossGeometryAttackMultiSlam2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 74. DeliriumPhysBossGeometryAttackSweepCleave1
+### 72. DeliriumPhysBossGeometryAttackSweepCleave1
 
 - Match score: `70`
 - `k`: DeliriumPhysBossGeometryAttackSweepCleave1
@@ -3873,7 +3849,7 @@ _No keyword matches in this index._
 {"k":"DeliriumPhysBossGeometryAttackSweepCleave1","n":"DeliriumPhysBossGeometryAttackSweepCleave1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 75. display_fake_attack_hit_ignite
+### 73. display_fake_attack_hit_ignite
 
 - Match score: `70`
 - `k`: display_fake_attack_hit_ignite
@@ -3885,7 +3861,7 @@ _No keyword matches in this index._
 {"k":"display_fake_attack_hit_ignite","n":"display_fake_attack_hit_ignite","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 76. display_fake_attack_hit_poison
+### 74. display_fake_attack_hit_poison
 
 - Match score: `70`
 - `k`: display_fake_attack_hit_poison
@@ -3897,7 +3873,7 @@ _No keyword matches in this index._
 {"k":"display_fake_attack_hit_poison","n":"display_fake_attack_hit_poison","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 77. DTTChainedBeastBossLeapSlam
+### 75. DTTChainedBeastBossLeapSlam
 
 - Match score: `70`
 - `k`: DTTChainedBeastBossLeapSlam
@@ -3910,7 +3886,7 @@ _No keyword matches in this index._
 {"k":"DTTChainedBeastBossLeapSlam","n":"DTTChainedBeastBossLeapSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 78. EAAChainedBeastBossMultiSlam
+### 76. EAAChainedBeastBossMultiSlam
 
 - Match score: `70`
 - `k`: EAAChainedBeastBossMultiSlam
@@ -3923,7 +3899,7 @@ _No keyword matches in this index._
 {"k":"EAAChainedBeastBossMultiSlam","n":"EAAChainedBeastBossMultiSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 79. EAAHeistThugRangedExplosiveArrowBarrage
+### 77. EAAHeistThugRangedExplosiveArrowBarrage
 
 - Match score: `70`
 - `k`: EAAHeistThugRangedExplosiveArrowBarrage
@@ -3936,7 +3912,7 @@ _No keyword matches in this index._
 {"k":"EAAHeistThugRangedExplosiveArrowBarrage","n":"EAAHeistThugRangedExplosiveArrowBarrage","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 80. EAAHeistThugRangedExplosiveArrowBarrageChokepoint
+### 78. EAAHeistThugRangedExplosiveArrowBarrageChokepoint
 
 - Match score: `70`
 - `k`: EAAHeistThugRangedExplosiveArrowBarrageChokepoint
@@ -3949,7 +3925,7 @@ _No keyword matches in this index._
 {"k":"EAAHeistThugRangedExplosiveArrowBarrageChokepoint","n":"EAAHeistThugRangedExplosiveArrowBarrageChokepoint","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 81. EASKaruiCaptainBoss2BeginPhase2ComboAttack
+### 79. EASKaruiCaptainBoss2BeginPhase2ComboAttack
 
 - Match score: `70`
 - `k`: EASKaruiCaptainBoss2BeginPhase2ComboAttack
@@ -3962,7 +3938,7 @@ _No keyword matches in this index._
 {"k":"EASKaruiCaptainBoss2BeginPhase2ComboAttack","n":"EASKaruiCaptainBoss2BeginPhase2ComboAttack","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 82. EASPrisonerBossBallistaBolt
+### 80. EASPrisonerBossBallistaBolt
 
 - Match score: `70`
 - `k`: EASPrisonerBossBallistaBolt
@@ -3975,7 +3951,7 @@ _No keyword matches in this index._
 {"k":"EASPrisonerBossBallistaBolt","n":"EASPrisonerBossBallistaBolt","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 83. EDSChimeraBossPoisonSpray
+### 81. EDSChimeraBossPoisonSpray
 
 - Match score: `70`
 - `k`: EDSChimeraBossPoisonSpray
@@ -3988,7 +3964,7 @@ _No keyword matches in this index._
 {"k":"EDSChimeraBossPoisonSpray","n":"EDSChimeraBossPoisonSpray","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 84. EGArenaBeastBossShockwaveDetonation
+### 82. EGArenaBeastBossShockwaveDetonation
 
 - Match score: `70`
 - `k`: EGArenaBeastBossShockwaveDetonation
@@ -4001,7 +3977,7 @@ _No keyword matches in this index._
 {"k":"EGArenaBeastBossShockwaveDetonation","n":"EGArenaBeastBossShockwaveDetonation","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 85. EmptyActionAttackDeliriumPhysBossGroundSlam
+### 83. EmptyActionAttackDeliriumPhysBossGroundSlam
 
 - Match score: `70`
 - `k`: EmptyActionAttackDeliriumPhysBossGroundSlam
@@ -4014,7 +3990,7 @@ _No keyword matches in this index._
 {"k":"EmptyActionAttackDeliriumPhysBossGroundSlam","n":"EmptyActionAttackDeliriumPhysBossGroundSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 86. EmptyActionAttackDeliriumPhysBossMultiSlam
+### 84. EmptyActionAttackDeliriumPhysBossMultiSlam
 
 - Match score: `70`
 - `k`: EmptyActionAttackDeliriumPhysBossMultiSlam
@@ -4027,7 +4003,7 @@ _No keyword matches in this index._
 {"k":"EmptyActionAttackDeliriumPhysBossMultiSlam","n":"EmptyActionAttackDeliriumPhysBossMultiSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 87. EmptyActionAttackDeliriumPhysBossSweepCleave
+### 85. EmptyActionAttackDeliriumPhysBossSweepCleave
 
 - Match score: `70`
 - `k`: EmptyActionAttackDeliriumPhysBossSweepCleave
@@ -4040,7 +4016,7 @@ _No keyword matches in this index._
 {"k":"EmptyActionAttackDeliriumPhysBossSweepCleave","n":"EmptyActionAttackDeliriumPhysBossSweepCleave","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 88. ExplosiveGrenadeRogueExileMercenary1
+### 86. ExplosiveGrenadeRogueExileMercenary1
 
 - Match score: `70`
 - `k`: ExplosiveGrenadeRogueExileMercenary1
@@ -4053,7 +4029,7 @@ _No keyword matches in this index._
 {"k":"ExplosiveGrenadeRogueExileMercenary1","n":"ExplosiveGrenadeRogueExileMercenary1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 89. FlashGrenadeRogueExileMercenary1
+### 87. FlashGrenadeRogueExileMercenary1
 
 - Match score: `70`
 - `k`: FlashGrenadeRogueExileMercenary1
@@ -4066,7 +4042,7 @@ _No keyword matches in this index._
 {"k":"FlashGrenadeRogueExileMercenary1","n":"FlashGrenadeRogueExileMercenary1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 90. GAArenaBeastBossShockwave
+### 88. GAArenaBeastBossShockwave
 
 - Match score: `70`
 - `k`: GAArenaBeastBossShockwave
@@ -4079,7 +4055,7 @@ _No keyword matches in this index._
 {"k":"GAArenaBeastBossShockwave","n":"GAArenaBeastBossShockwave","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 91. GAChainedBeastBossGroundSlam
+### 89. GAChainedBeastBossGroundSlam
 
 - Match score: `70`
 - `k`: GAChainedBeastBossGroundSlam
@@ -4092,7 +4068,7 @@ _No keyword matches in this index._
 {"k":"GAChainedBeastBossGroundSlam","n":"GAChainedBeastBossGroundSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 92. GAChainedBeastBossLeapSlamImpact
+### 90. GAChainedBeastBossLeapSlamImpact
 
 - Match score: `70`
 - `k`: GAChainedBeastBossLeapSlamImpact
@@ -4105,7 +4081,7 @@ _No keyword matches in this index._
 {"k":"GAChainedBeastBossLeapSlamImpact","n":"GAChainedBeastBossLeapSlamImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 93. GAChainedBeastBossMultiSlam
+### 91. GAChainedBeastBossMultiSlam
 
 - Match score: `70`
 - `k`: GAChainedBeastBossMultiSlam
@@ -4118,7 +4094,7 @@ _No keyword matches in this index._
 {"k":"GAChainedBeastBossMultiSlam","n":"GAChainedBeastBossMultiSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 94. GAChainedBeastBossMultiSlamFinal
+### 92. GAChainedBeastBossMultiSlamFinal
 
 - Match score: `70`
 - `k`: GAChainedBeastBossMultiSlamFinal
@@ -4131,7 +4107,7 @@ _No keyword matches in this index._
 {"k":"GAChainedBeastBossMultiSlamFinal","n":"GAChainedBeastBossMultiSlamFinal","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 95. GACyclopsBossBallChainSlice
+### 93. GACyclopsBossBallChainSlice
 
 - Match score: `70`
 - `k`: GACyclopsBossBallChainSlice
@@ -4144,7 +4120,7 @@ _No keyword matches in this index._
 {"k":"GACyclopsBossBallChainSlice","n":"GACyclopsBossBallChainSlice","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 96. GAGiantSnakeBossAttackImpact
+### 94. GAGiantSnakeBossAttackImpact
 
 - Match score: `70`
 - `k`: GAGiantSnakeBossAttackImpact
@@ -4157,7 +4133,7 @@ _No keyword matches in this index._
 {"k":"GAGiantSnakeBossAttackImpact","n":"GAGiantSnakeBossAttackImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 97. GAHeistMilitaryCrossbowSnipeImpact
+### 95. GAHeistMilitaryCrossbowSnipeImpact
 
 - Match score: `70`
 - `k`: GAHeistMilitaryCrossbowSnipeImpact
@@ -4170,7 +4146,7 @@ _No keyword matches in this index._
 {"k":"GAHeistMilitaryCrossbowSnipeImpact","n":"GAHeistMilitaryCrossbowSnipeImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 98. GAHeistThugRangedArrowShotgun
+### 96. GAHeistThugRangedArrowShotgun
 
 - Match score: `70`
 - `k`: GAHeistThugRangedArrowShotgun
@@ -4183,7 +4159,7 @@ _No keyword matches in this index._
 {"k":"GAHeistThugRangedArrowShotgun","n":"GAHeistThugRangedArrowShotgun","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 99. GAHellscapeFleshBossRangedMelee1
+### 97. GAHellscapeFleshBossRangedMelee1
 
 - Match score: `70`
 - `k`: GAHellscapeFleshBossRangedMelee1
@@ -4196,7 +4172,7 @@ _No keyword matches in this index._
 {"k":"GAHellscapeFleshBossRangedMelee1","n":"GAHellscapeFleshBossRangedMelee1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 100. GAHellscapeFleshBossRangedMelee2
+### 98. GAHellscapeFleshBossRangedMelee2
 
 - Match score: `70`
 - `k`: GAHellscapeFleshBossRangedMelee2
@@ -4209,7 +4185,7 @@ _No keyword matches in this index._
 {"k":"GAHellscapeFleshBossRangedMelee2","n":"GAHellscapeFleshBossRangedMelee2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 101. GATrialMasterBossShockwaveTrigger
+### 99. GATrialMasterBossShockwaveTrigger
 
 - Match score: `70`
 - `k`: GATrialMasterBossShockwaveTrigger
@@ -4222,7 +4198,7 @@ _No keyword matches in this index._
 {"k":"GATrialMasterBossShockwaveTrigger","n":"GATrialMasterBossShockwaveTrigger","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 102. GATrialMasterBossSlamShockwave
+### 100. GATrialMasterBossSlamShockwave
 
 - Match score: `70`
 - `k`: GATrialMasterBossSlamShockwave
@@ -4235,7 +4211,7 @@ _No keyword matches in this index._
 {"k":"GATrialMasterBossSlamShockwave","n":"GATrialMasterBossSlamShockwave","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 103. GATwilightOrderGuardBossAxeShockwave1
+### 101. GATwilightOrderGuardBossAxeShockwave1
 
 - Match score: `70`
 - `k`: GATwilightOrderGuardBossAxeShockwave1
@@ -4248,7 +4224,7 @@ _No keyword matches in this index._
 {"k":"GATwilightOrderGuardBossAxeShockwave1","n":"GATwilightOrderGuardBossAxeShockwave1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 104. GATwilightOrderGuardBossAxeShockwave2
+### 102. GATwilightOrderGuardBossAxeShockwave2
 
 - Match score: `70`
 - `k`: GATwilightOrderGuardBossAxeShockwave2
@@ -4261,7 +4237,7 @@ _No keyword matches in this index._
 {"k":"GATwilightOrderGuardBossAxeShockwave2","n":"GATwilightOrderGuardBossAxeShockwave2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 105. GATwilightOrderGuardBossAxeShockwave3
+### 103. GATwilightOrderGuardBossAxeShockwave3
 
 - Match score: `70`
 - `k`: GATwilightOrderGuardBossAxeShockwave3
@@ -4274,7 +4250,7 @@ _No keyword matches in this index._
 {"k":"GATwilightOrderGuardBossAxeShockwave3","n":"GATwilightOrderGuardBossAxeShockwave3","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 106. GATwilightOrderGuardBossComboAftershock
+### 104. GATwilightOrderGuardBossComboAftershock
 
 - Match score: `70`
 - `k`: GATwilightOrderGuardBossComboAftershock
@@ -4287,7 +4263,7 @@ _No keyword matches in this index._
 {"k":"GATwilightOrderGuardBossComboAftershock","n":"GATwilightOrderGuardBossComboAftershock","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 107. GemlingBossSlipAttackLeft
+### 105. GemlingBossSlipAttackLeft
 
 - Match score: `70`
 - `k`: GemlingBossSlipAttackLeft
@@ -4300,7 +4276,7 @@ _No keyword matches in this index._
 {"k":"GemlingBossSlipAttackLeft","n":"GemlingBossSlipAttackLeft","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 108. GemlingBossSlipAttackRight
+### 106. GemlingBossSlipAttackRight
 
 - Match score: `70`
 - `k`: GemlingBossSlipAttackRight
@@ -4313,7 +4289,7 @@ _No keyword matches in this index._
 {"k":"GemlingBossSlipAttackRight","n":"GemlingBossSlipAttackRight","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 109. GSAoDP2_StormBlinkBoltChain
+### 107. GSAoDP2_StormBlinkBoltChain
 
 - Match score: `70`
 - `k`: GSAoDP2_StormBlinkBoltChain
@@ -4326,7 +4302,7 @@ _No keyword matches in this index._
 {"k":"GSAoDP2_StormBlinkBoltChain","n":"GSAoDP2_StormBlinkBoltChain","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 110. GSArchitectBossFireboltImpact
+### 108. GSArchitectBossFireboltImpact
 
 - Match score: `70`
 - `k`: GSArchitectBossFireboltImpact
@@ -4339,7 +4315,7 @@ _No keyword matches in this index._
 {"k":"GSArchitectBossFireboltImpact","n":"GSArchitectBossFireboltImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 111. GSDredgeShamanBossDetonateDeadChained
+### 109. GSDredgeShamanBossDetonateDeadChained
 
 - Match score: `70`
 - `k`: GSDredgeShamanBossDetonateDeadChained
@@ -4352,7 +4328,7 @@ _No keyword matches in this index._
 {"k":"GSDredgeShamanBossDetonateDeadChained","n":"GSDredgeShamanBossDetonateDeadChained","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 112. GSGemlingArcherBossLightningArrowWallImpact
+### 110. GSGemlingArcherBossLightningArrowWallImpact
 
 - Match score: `70`
 - `k`: GSGemlingArcherBossLightningArrowWallImpact
@@ -4365,7 +4341,7 @@ _No keyword matches in this index._
 {"k":"GSGemlingArcherBossLightningArrowWallImpact","n":"GSGemlingArcherBossLightningArrowWallImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 113. GSJetpackMiniBossDeceleratingProjectileExplosion
+### 111. GSJetpackMiniBossDeceleratingProjectileExplosion
 
 - Match score: `70`
 - `k`: GSJetpackMiniBossDeceleratingProjectileExplosion
@@ -4378,7 +4354,7 @@ _No keyword matches in this index._
 {"k":"GSJetpackMiniBossDeceleratingProjectileExplosion","n":"GSJetpackMiniBossDeceleratingProjectileExplosion","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 114. GSJetpackMiniBossDeceleratingProjectileExplosionTick
+### 112. GSJetpackMiniBossDeceleratingProjectileExplosionTick
 
 - Match score: `70`
 - `k`: GSJetpackMiniBossDeceleratingProjectileExplosionTick
@@ -4391,7 +4367,7 @@ _No keyword matches in this index._
 {"k":"GSJetpackMiniBossDeceleratingProjectileExplosionTick","n":"GSJetpackMiniBossDeceleratingProjectileExplosionTick","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 115. GSJetpackMiniBossFloatingDeceleratingProjectileExplosionTick
+### 113. GSJetpackMiniBossFloatingDeceleratingProjectileExplosionTick
 
 - Match score: `70`
 - `k`: GSJetpackMiniBossFloatingDeceleratingProjectileExplosionTick
@@ -4404,7 +4380,7 @@ _No keyword matches in this index._
 {"k":"GSJetpackMiniBossFloatingDeceleratingProjectileExplosionTick","n":"GSJetpackMiniBossFloatingDeceleratingProjectileExplosionTick","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 116. GSKaruiCaptainBoss2ValakoLightningStormBolt
+### 114. GSKaruiCaptainBoss2ValakoLightningStormBolt
 
 - Match score: `70`
 - `k`: GSKaruiCaptainBoss2ValakoLightningStormBolt
@@ -4417,7 +4393,7 @@ _No keyword matches in this index._
 {"k":"GSKaruiCaptainBoss2ValakoLightningStormBolt","n":"GSKaruiCaptainBoss2ValakoLightningStormBolt","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 117. GSProcessionBowRainOfArrowsExplosion
+### 115. GSProcessionBowRainOfArrowsExplosion
 
 - Match score: `70`
 - `k`: GSProcessionBowRainOfArrowsExplosion
@@ -4430,7 +4406,7 @@ _No keyword matches in this index._
 {"k":"GSProcessionBowRainOfArrowsExplosion","n":"GSProcessionBowRainOfArrowsExplosion","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 118. GSTrialMasterBossFirecrackerProjectileExplode
+### 116. GSTrialMasterBossFirecrackerProjectileExplode
 
 - Match score: `70`
 - `k`: GSTrialMasterBossFirecrackerProjectileExplode
@@ -4443,7 +4419,7 @@ _No keyword matches in this index._
 {"k":"GSTrialMasterBossFirecrackerProjectileExplode","n":"GSTrialMasterBossFirecrackerProjectileExplode","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 119. GSTrialMasterBossOmegaProjectileExplode
+### 117. GSTrialMasterBossOmegaProjectileExplode
 
 - Match score: `70`
 - `k`: GSTrialMasterBossOmegaProjectileExplode
@@ -4456,7 +4432,7 @@ _No keyword matches in this index._
 {"k":"GSTrialMasterBossOmegaProjectileExplode","n":"GSTrialMasterBossOmegaProjectileExplode","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 120. GSTrialMasterBossOmegaProjectileExplodeRuin
+### 118. GSTrialMasterBossOmegaProjectileExplodeRuin
 
 - Match score: `70`
 - `k`: GSTrialMasterBossOmegaProjectileExplodeRuin
@@ -4467,6 +4443,32 @@ _No keyword matches in this index._
 
 ```json
 {"k":"GSTrialMasterBossOmegaProjectileExplodeRuin","n":"GSTrialMasterBossOmegaProjectileExplodeRuin","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 119. GTAoDP1_CloneBoltArea
+
+- Match score: `70`
+- `k`: GTAoDP1_CloneBoltArea
+- `n`: GTAoDP1_CloneBoltArea
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"GTAoDP1_CloneBoltArea","n":"GTAoDP1_CloneBoltArea","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 120. GTArenaBeastBossShockwave
+
+- Match score: `70`
+- `k`: GTArenaBeastBossShockwave
+- `n`: GTArenaBeastBossShockwave
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"GTArenaBeastBossShockwave","n":"GTArenaBeastBossShockwave","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
 ## Item bases/classes
