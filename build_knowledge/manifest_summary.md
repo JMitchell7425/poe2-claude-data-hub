@@ -1,6 +1,6 @@
 # PoE2 Data Manifest Summary
 
-- Generated UTC: `2026-08-27T20:28:59+00:00`
+- Generated UTC: `2026-08-28T21:10:56+00:00`
 - Source priority: GGG passive tree -> RePoE PoE2 -> PoB-data PoE2 -> community sources only as benchmarks
 
 ## Download results
@@ -11,7 +11,7 @@
 | OK | `sources/repoe_poe2/skill_gems.json` | 1,191 | 1,357,516 | https://repoe-fork.github.io/poe2/skill_gems.json |
 | OK | `sources/repoe_poe2/skills.json` | 8,347 | 27,841,886 | https://repoe-fork.github.io/poe2/skills.json |
 | OK | `sources/repoe_poe2/gem_tags.json` | 67 | 1,711 | https://repoe-fork.github.io/poe2/gem_tags.json |
-| OK | `sources/repoe_poe2/active_skill_types.json` | 290 | 6,285 | https://repoe-fork.github.io/poe2/active_skill_types.json |
+| FAILED | `sources/repoe_poe2/active_skill_types.json` | 0 | 0 | https://repoe-fork.github.io/poe2/active_skill_types.json -- ERROR: HTTP Error 503: Service Unavailable |
 | OK | `sources/repoe_poe2/cost_types.json` | 18 | 1,769 | https://repoe-fork.github.io/poe2/cost_types.json |
 | OK | `sources/repoe_poe2/keywords.json` | 1,026 | 256,833 | https://repoe-fork.github.io/poe2/keywords.json |
 | OK | `sources/repoe_poe2/base_items.json` | 5,476 | 8,167,102 | https://repoe-fork.github.io/poe2/base_items.json |
@@ -43,7 +43,7 @@
 | Index | Records | Size | Recommended for Claude Project Knowledge? |
 |---|---:|---:|---|
 | `CLAUDE_DATA_HUB_INSTRUCTIONS.md` | 1 | 951 | YES |
-| `gem_index.json` | 11,834 | 2,255,172 | YES |
+| `gem_index.json` | 11,544 | 2,216,616 | YES |
 | `item_base_index.json` | 8,247 | 1,721,029 | YES |
 | `manifest_summary.md` | 1 | 5,603 | YES |
 | `misc_index.json` | 27,857 | 5,561,100 | OPTIONAL |
