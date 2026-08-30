@@ -1,6 +1,6 @@
 # PoE2 Data Manifest Summary
 
-- Generated UTC: `2026-08-29T15:03:16+00:00`
+- Generated UTC: `2026-08-30T14:51:41+00:00`
 - Source priority: GGG passive tree -> RePoE PoE2 -> PoB-data PoE2 -> community sources only as benchmarks
 
 ## Download results
@@ -45,7 +45,7 @@
 | `CLAUDE_DATA_HUB_INSTRUCTIONS.md` | 1 | 951 | YES |
 | `gem_index.json` | 11,834 | 2,255,172 | YES |
 | `item_base_index.json` | 8,247 | 1,721,029 | YES |
-| `manifest_summary.md` | 1 | 5,647 | YES |
+| `manifest_summary.md` | 1 | 5,603 | YES |
 | `misc_index.json` | 27,857 | 5,561,100 | OPTIONAL |
 | `mod_index.json` | 19,329 | 5,409,535 | YES, if size allows |
 | `passive_tree_edges.json` | 5,129 | 236,338 | ONLY when exact pathing is needed |
