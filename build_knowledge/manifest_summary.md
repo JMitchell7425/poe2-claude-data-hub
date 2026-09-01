@@ -1,6 +1,6 @@
 # PoE2 Data Manifest Summary
 
-- Generated UTC: `2026-08-31T17:36:31+00:00`
+- Generated UTC: `2026-09-01T14:52:10+00:00`
 - Source priority: GGG passive tree -> RePoE PoE2 -> PoB-data PoE2 -> community sources only as benchmarks
 
 ## Download results
@@ -27,14 +27,14 @@
 | OK | `sources/repoe_poe2/stat_value_handlers.json` | 74 | 375,545 | https://repoe-fork.github.io/poe2/stat_value_handlers.json |
 | OK | `sources/pob_data_poe2/Gems.json` | 966 | 549,978 | https://repoe-fork.github.io/pob-data/poe2/Gems.json |
 | OK | `sources/pob_data_poe2/ModItem.json` | 2,550 | 1,151,837 | https://repoe-fork.github.io/pob-data/poe2/ModItem.json |
-| OK | `sources/pob_data_poe2/ModRunes.json` | 287 | 201,731 | https://repoe-fork.github.io/pob-data/poe2/ModRunes.json |
+| OK | `sources/pob_data_poe2/ModRunes.json` | 287 | 314,451 | https://repoe-fork.github.io/pob-data/poe2/ModRunes.json |
 | OK | `sources/pob_data_poe2/ModJewel.json` | 377 | 164,518 | https://repoe-fork.github.io/pob-data/poe2/ModJewel.json |
 | OK | `sources/pob_data_poe2/ModCharm.json` | 51 | 18,999 | https://repoe-fork.github.io/pob-data/poe2/ModCharm.json |
 | OK | `sources/pob_data_poe2/ModFlask.json` | 78 | 33,291 | https://repoe-fork.github.io/pob-data/poe2/ModFlask.json |
 | OK | `sources/pob_data_poe2/QueryMods.json` | 8 | 700,478 | https://repoe-fork.github.io/pob-data/poe2/QueryMods.json |
 | OK | `sources/pob_data_poe2/SkillStatMap.json` | 973 | 196,804 | https://repoe-fork.github.io/pob-data/poe2/SkillStatMap.json |
 | OK | `sources/pob_data_poe2/TradeSiteStats.json` | 10 | 1,129,361 | https://repoe-fork.github.io/pob-data/poe2/TradeSiteStats.json |
-| OK | `sources/pob_data_poe2/Costs.json` | 19 | 2,419 | https://repoe-fork.github.io/pob-data/poe2/Costs.json |
+| OK | `sources/pob_data_poe2/Costs.json` | 19 | 2,437 | https://repoe-fork.github.io/pob-data/poe2/Costs.json |
 | OK | `sources/pob_data_poe2/Misc.json` | 21 | 20,209 | https://repoe-fork.github.io/pob-data/poe2/Misc.json |
 | OK | `sources/pob_data_poe2/Minions.json` | 32 | 36,250 | https://repoe-fork.github.io/pob-data/poe2/Minions.json |
 
