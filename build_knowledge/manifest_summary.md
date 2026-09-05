@@ -1,13 +1,13 @@
 # PoE2 Data Manifest Summary
 
-- Generated UTC: `2026-09-04T14:20:21+00:00`
+- Generated UTC: `2026-09-05T13:27:16+00:00`
 - Source priority: GGG passive tree -> RePoE PoE2 -> PoB-data PoE2 -> community sources only as benchmarks
 
 ## Download results
 
 | Status | File | Records | Size | Source |
 |---|---|---:|---:|---|
-| OK | `sources/ggg/passive_tree_data.json` | 11 | 5,141,380 | https://raw.githubusercontent.com/grindinggear/poe2-skilltree-export/main/data.json |
+| OK | `sources/ggg/passive_tree_data.json` | 11 | 5,140,821 | https://raw.githubusercontent.com/grindinggear/poe2-skilltree-export/main/data.json |
 | OK | `sources/repoe_poe2/skill_gems.json` | 1,191 | 1,357,516 | https://repoe-fork.github.io/poe2/skill_gems.json |
 | OK | `sources/repoe_poe2/skills.json` | 8,347 | 27,841,886 | https://repoe-fork.github.io/poe2/skills.json |
 | OK | `sources/repoe_poe2/gem_tags.json` | 67 | 1,711 | https://repoe-fork.github.io/poe2/gem_tags.json |
@@ -48,9 +48,9 @@
 | `manifest_summary.md` | 1 | 5,603 | YES |
 | `misc_index.json` | 27,857 | 5,561,100 | OPTIONAL |
 | `mod_index.json` | 19,329 | 5,409,535 | YES, if size allows |
-| `passive_tree_edges.json` | 5,129 | 236,338 | ONLY when exact pathing is needed |
-| `passive_tree_full_compact.json` | 5,151 | 698,278 | ONLY when exact small-node routing is needed |
-| `passive_tree_key_nodes.json` | 4,922 | 687,851 | YES |
+| `passive_tree_edges.json` | 5,131 | 236,430 | ONLY when exact pathing is needed |
+| `passive_tree_full_compact.json` | 5,153 | 696,323 | ONLY when exact small-node routing is needed |
+| `passive_tree_key_nodes.json` | 4,922 | 685,812 | YES |
 | `rune_mod_index.json` | 287 | 32,725 | YES |
 | `unique_index.json` | 449 | 58,594 | YES |
 
