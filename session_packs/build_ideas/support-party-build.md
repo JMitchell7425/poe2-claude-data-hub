@@ -1,6 +1,6 @@
 # Build Idea Pack — Support / Party Build
 
-- Generated UTC: `2026-09-04T14:20:54+00:00`
+- Generated UTC: `2026-09-05T13:27:52+00:00`
 - Idea slug: `support-party-build`
 - Purpose: Engineer party support builds focused on curses, auras, control, debuffs, and ally amplification.
 - Keywords: `support, party, ally, aura, curse, blasphemy, temporal chains, enfeeble, exposure, shock, freeze, resistance, spirit, reservation, duration, cooldown, chronomancer, witch, sorceress, debuff, control`
@@ -1041,10 +1041,10 @@
 - `id`: 48079
 - `n`: Bleed Duration
 - `t`: small
-- `sd`: ["10% increased Bleeding Duration","20% chance for [Attack] [HitDamage|Hits] to apply [Incision]"]
+- `sd`: ["10% increased Bleeding Duration","20% chance for [Attack] [Hit|Hits] to apply [Incision]"]
 
 ```json
-{"id":"48079","n":"Bleed Duration","t":"small","sd":["10% increased Bleeding Duration","20% chance for [Attack] [HitDamage|Hits] to apply [Incision]"],"out":["60014"]}
+{"id":"48079","n":"Bleed Duration","t":"small","sd":["10% increased Bleeding Duration","20% chance for [Attack] [Hit|Hits] to apply [Incision]"],"out":["60014"]}
 ```
 
 ### 87. Bleed Duration
@@ -1053,10 +1053,10 @@
 - `id`: 8248
 - `n`: Bleed Duration
 - `t`: small
-- `sd`: ["10% increased Bleeding Duration","20% chance for [Attack] [HitDamage|Hits] to apply [Incision]"]
+- `sd`: ["10% increased Bleeding Duration","20% chance for [Attack] [Hit|Hits] to apply [Incision]"]
 
 ```json
-{"id":"8248","n":"Bleed Duration","t":"small","sd":["10% increased Bleeding Duration","20% chance for [Attack] [HitDamage|Hits] to apply [Incision]"],"out":["48079"]}
+{"id":"8248","n":"Bleed Duration","t":"small","sd":["10% increased Bleeding Duration","20% chance for [Attack] [Hit|Hits] to apply [Incision]"],"out":["48079"]}
 ```
 
 ### 88. Bleeding Duration
@@ -1412,10 +1412,10 @@
 - `id`: 13823
 - `n`: Controlling Magic
 - `t`: notable
-- `sd`: ["25% increased [Critical|Critical Hit Chance] for [Spell|Spells]","[HitDamage|Hits] have 25% reduced [Critical|Critical Hit] Chance against you"]
+- `sd`: ["25% increased [Critical|Critical Hit Chance] for [Spell|Spells]","[Hit|Hits] have 25% reduced [Critical|Critical Hit] Chance against you"]
 
 ```json
-{"id":"13823","n":"Controlling Magic","t":"notable","sd":["25% increased [Critical|Critical Hit Chance] for [Spell|Spells]","[HitDamage|Hits] have 25% reduced [Critical|Critical Hit] Chance against you"],"out":["63861","32054"]}
+{"id":"13823","n":"Controlling Magic","t":"notable","sd":["25% increased [Critical|Critical Hit Chance] for [Spell|Spells]","[Hit|Hits] have 25% reduced [Critical|Critical Hit] Chance against you"],"out":["63861","32054"]}
 ```
 
 ### 118. Cooldown Recovery Rate
@@ -2480,10 +2480,10 @@
 - `id`: 48079
 - `n`: Bleed Duration
 - `t`: small
-- `sd`: ["10% increased Bleeding Duration","20% chance for [Attack] [HitDamage|Hits] to apply [Incision]"]
+- `sd`: ["10% increased Bleeding Duration","20% chance for [Attack] [Hit|Hits] to apply [Incision]"]
 
 ```json
-{"id":"48079","n":"Bleed Duration","t":"small","sd":["10% increased Bleeding Duration","20% chance for [Attack] [HitDamage|Hits] to apply [Incision]"],"out":["60014"]}
+{"id":"48079","n":"Bleed Duration","t":"small","sd":["10% increased Bleeding Duration","20% chance for [Attack] [Hit|Hits] to apply [Incision]"],"out":["60014"]}
 ```
 
 ### 87. Bleed Duration
@@ -2492,10 +2492,10 @@
 - `id`: 8248
 - `n`: Bleed Duration
 - `t`: small
-- `sd`: ["10% increased Bleeding Duration","20% chance for [Attack] [HitDamage|Hits] to apply [Incision]"]
+- `sd`: ["10% increased Bleeding Duration","20% chance for [Attack] [Hit|Hits] to apply [Incision]"]
 
 ```json
-{"id":"8248","n":"Bleed Duration","t":"small","sd":["10% increased Bleeding Duration","20% chance for [Attack] [HitDamage|Hits] to apply [Incision]"],"out":["48079"]}
+{"id":"8248","n":"Bleed Duration","t":"small","sd":["10% increased Bleeding Duration","20% chance for [Attack] [Hit|Hits] to apply [Incision]"],"out":["48079"]}
 ```
 
 ### 88. Bleeding Duration
@@ -2851,10 +2851,10 @@
 - `id`: 13823
 - `n`: Controlling Magic
 - `t`: notable
-- `sd`: ["25% increased [Critical|Critical Hit Chance] for [Spell|Spells]","[HitDamage|Hits] have 25% reduced [Critical|Critical Hit] Chance against you"]
+- `sd`: ["25% increased [Critical|Critical Hit Chance] for [Spell|Spells]","[Hit|Hits] have 25% reduced [Critical|Critical Hit] Chance against you"]
 
 ```json
-{"id":"13823","n":"Controlling Magic","t":"notable","sd":["25% increased [Critical|Critical Hit Chance] for [Spell|Spells]","[HitDamage|Hits] have 25% reduced [Critical|Critical Hit] Chance against you"],"out":["63861","32054"]}
+{"id":"13823","n":"Controlling Magic","t":"notable","sd":["25% increased [Critical|Critical Hit Chance] for [Spell|Spells]","[Hit|Hits] have 25% reduced [Critical|Critical Hit] Chance against you"],"out":["63861","32054"]}
 ```
 
 ### 118. Cooldown Recovery Rate

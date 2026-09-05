@@ -1,6 +1,6 @@
 # Build Idea Pack — Ranged Projectile Build
 
-- Generated UTC: `2026-09-04T14:20:47+00:00`
+- Generated UTC: `2026-09-05T13:27:45+00:00`
 - Idea slug: `ranged-projectile-build`
 - Purpose: Engineer a ranged projectile build with high clear coverage and strong boss scaling.
 - Keywords: `projectile, bow, crossbow, wand, ranged, chain, fork, pierce, multiple projectiles, reload, grenade, bolt, arrow, attack, critical, crit, poison, shock, freeze, ignite, area, clear, boss, deadeye, mercenary, witchhunter`
@@ -422,10 +422,10 @@
 - `id`: 9294
 - `n`: Critical Strike
 - `t`: notable
-- `sd`: ["Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to 25% of excess chance to [HitDamage|Hit] with [Attack|Attacks]"]
+- `sd`: ["Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to 25% of excess chance to [Hit] with [Attack|Attacks]"]
 
 ```json
-{"id":"9294","n":"Critical Strike","t":"notable","sd":["Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to 25% of excess chance to [HitDamage|Hit] with [Attack|Attacks]"],"out":["528"]}
+{"id":"9294","n":"Critical Strike","t":"notable","sd":["Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to 25% of excess chance to [Hit] with [Attack|Attacks]"],"out":["528"]}
 ```
 
 ### 35. Arcane Surge on Critical Hit
@@ -806,10 +806,10 @@
 - `id`: 24883
 - `n`: Attack Area and Combo
 - `t`: small
-- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"]
+- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"]
 
 ```json
-{"id":"24883","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"],"out":["44573"]}
+{"id":"24883","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"],"out":["44573"]}
 ```
 
 ### 67. Attack Area and Combo
@@ -818,10 +818,10 @@
 - `id`: 26211
 - `n`: Attack Area and Combo
 - `t`: small
-- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"]
+- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"]
 
 ```json
-{"id":"26211","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"],"out":["24883"]}
+{"id":"26211","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"],"out":["24883"]}
 ```
 
 ### 68. Attack Area and Combo
@@ -830,10 +830,10 @@
 - `id`: 55377
 - `n`: Attack Area and Combo
 - `t`: small
-- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"]
+- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"]
 
 ```json
-{"id":"55377","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"],"out":["26211","33463"]}
+{"id":"55377","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"],"out":["26211","33463"]}
 ```
 
 ### 69. Attack Area and Flammability Magnitude
@@ -1867,10 +1867,10 @@
 - `id`: 9294
 - `n`: Critical Strike
 - `t`: notable
-- `sd`: ["Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to 25% of excess chance to [HitDamage|Hit] with [Attack|Attacks]"]
+- `sd`: ["Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to 25% of excess chance to [Hit] with [Attack|Attacks]"]
 
 ```json
-{"id":"9294","n":"Critical Strike","t":"notable","sd":["Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to 25% of excess chance to [HitDamage|Hit] with [Attack|Attacks]"],"out":["528"]}
+{"id":"9294","n":"Critical Strike","t":"notable","sd":["Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to 25% of excess chance to [Hit] with [Attack|Attacks]"],"out":["528"]}
 ```
 
 ### 35. Arcane Surge on Critical Hit
@@ -2251,10 +2251,10 @@
 - `id`: 24883
 - `n`: Attack Area and Combo
 - `t`: small
-- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"]
+- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"]
 
 ```json
-{"id":"24883","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"],"out":["44573"]}
+{"id":"24883","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"],"out":["44573"]}
 ```
 
 ### 67. Attack Area and Combo
@@ -2263,10 +2263,10 @@
 - `id`: 26211
 - `n`: Attack Area and Combo
 - `t`: small
-- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"]
+- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"]
 
 ```json
-{"id":"26211","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"],"out":["24883"]}
+{"id":"26211","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"],"out":["24883"]}
 ```
 
 ### 68. Attack Area and Combo
@@ -2275,10 +2275,10 @@
 - `id`: 55377
 - `n`: Attack Area and Combo
 - `t`: small
-- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"]
+- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"]
 
 ```json
-{"id":"55377","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"],"out":["26211","33463"]}
+{"id":"55377","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"],"out":["26211","33463"]}
 ```
 
 ### 69. Attack Area and Flammability Magnitude

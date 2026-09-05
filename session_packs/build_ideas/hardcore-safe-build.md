@@ -1,6 +1,6 @@
 # Build Idea Pack — Hardcore-Safe Build
 
-- Generated UTC: `2026-09-04T14:20:53+00:00`
+- Generated UTC: `2026-09-05T13:27:51+00:00`
 - Idea slug: `hardcore-safe-build`
 - Purpose: Engineer a conservative survival-first build with reliable damage and minimal mechanical risk.
 - Keywords: `hardcore, safe, survival, defense, life, maximum life, energy shield, armour, evasion, block, resistance, chaos resistance, recovery, regen, leech, recoup, ailment, stun, guard, boss, map, controller, ps5`
@@ -20,28 +20,28 @@
 - Source: `build_knowledge/compact/passive_tree_key_nodes.json`
 - Matches included: `120`
 
-### 1. Life Leech. Armour and Evasion while Leeching
+### 1. Life Leech, Armour and Evasion while Leeching
 
 - Match score: `140`
 - `id`: 48583
-- `n`: Life Leech. Armour and Evasion while Leeching
+- `n`: Life Leech, Armour and Evasion while Leeching
 - `t`: small
 - `sd`: ["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"]
 
 ```json
-{"id":"48583","n":"Life Leech. Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["58783"]}
+{"id":"48583","n":"Life Leech, Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["58783"]}
 ```
 
-### 2. Life Leech. Armour and Evasion while Leeching
+### 2. Life Leech, Armour and Evasion while Leeching
 
 - Match score: `140`
 - `id`: 58783
-- `n`: Life Leech. Armour and Evasion while Leeching
+- `n`: Life Leech, Armour and Evasion while Leeching
 - `t`: small
 - `sd`: ["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"]
 
 ```json
-{"id":"58783","n":"Life Leech. Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["26520"]}
+{"id":"58783","n":"Life Leech, Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["26520"]}
 ```
 
 ### 3. Minion Life and Chaos Resistance
@@ -92,19 +92,7 @@
 {"id":"56956","n":"Minion Life and Chaos Resistance","t":"small","sd":["[Minion|Minions] have 8% increased maximum Life","[Minion|Minions] have +7% to [Chaos] [Resistances|Resistance]"],"out":["15885","54632"]}
 ```
 
-### 7. Defenses and Companion Life
-
-- Match score: `110`
-- `id`: 16568
-- `n`: Defenses and Companion Life
-- `t`: small
-- `sd`: ["[Companion|Companions] have 12% increased maximum Life","10% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] while your [Companion] is in your [Presence]"]
-
-```json
-{"id":"16568","n":"Defenses and Companion Life","t":"small","sd":["[Companion|Companions] have 12% increased maximum Life","10% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] while your [Companion] is in your [Presence]"],"out":["60992"]}
-```
-
-### 8. Stun and Ailment Threshold from Energy Shield
+### 7. Stun and Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 13307
@@ -116,7 +104,7 @@
 {"id":"13307","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"]}
 ```
 
-### 9. Stun and Ailment Threshold from Energy Shield
+### 8. Stun and Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 14666
@@ -128,7 +116,7 @@
 {"id":"14666","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"]}
 ```
 
-### 10. Stun and Ailment Threshold from Energy Shield
+### 9. Stun and Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 17602
@@ -140,7 +128,7 @@
 {"id":"17602","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"],"out":["59799","59798"]}
 ```
 
-### 11. Stun and Ailment Threshold from Energy Shield
+### 10. Stun and Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 25363
@@ -152,7 +140,7 @@
 {"id":"25363","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"],"out":["44098","1823","34531"]}
 ```
 
-### 12. Stun and Ailment Threshold from Energy Shield
+### 11. Stun and Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 26614
@@ -164,7 +152,7 @@
 {"id":"26614","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"],"out":["44344","46275"]}
 ```
 
-### 13. Stun and Ailment Threshold from Energy Shield
+### 12. Stun and Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 44098
@@ -176,7 +164,7 @@
 {"id":"44098","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"],"out":["4061","34531"]}
 ```
 
-### 14. Stun and Ailment Threshold from Energy Shield
+### 13. Stun and Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 46275
@@ -188,7 +176,7 @@
 {"id":"46275","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"],"out":["3894"]}
 ```
 
-### 15. Stun and Ailment Threshold from Energy Shield
+### 14. Stun and Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 517
@@ -200,7 +188,7 @@
 {"id":"517","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"],"out":["39037","61027"]}
 ```
 
-### 16. Stun and Ailment Threshold from Energy Shield
+### 15. Stun and Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 58789
@@ -212,7 +200,7 @@
 {"id":"58789","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"],"out":["13307"]}
 ```
 
-### 17. Armour and Evasion
+### 16. Armour and Evasion
 
 - Match score: `80`
 - `id`: 14394
@@ -224,7 +212,7 @@
 {"id":"14394","n":"Armour and Evasion","t":"small","sd":["+2% to [Resistances|Lightning Resistance]","8% increased [Armour] and [Evasion] Rating"],"out":["35743"]}
 ```
 
-### 18. Armour and Evasion
+### 17. Armour and Evasion
 
 - Match score: `80`
 - `id`: 50124
@@ -236,7 +224,7 @@
 {"id":"50124","n":"Armour and Evasion","t":"small","sd":["+2% to [Resistances|Cold Resistance]","8% increased [Armour] and [Evasion] Rating"],"out":["62237"]}
 ```
 
-### 19. Companion Resistance and Life
+### 18. Companion Resistance and Life
 
 - Match score: `80`
 - `id`: 50118
@@ -248,7 +236,7 @@
 {"id":"50118","n":"Companion Resistance and Life","t":"small","sd":["[Companion|Companions] have +12% to all Elemental [Resistances]","[Companion|Companions] have 12% increased maximum Life"],"out":["55450"]}
 ```
 
-### 20. Life Leech and Physical Damage
+### 19. Life Leech and Physical Damage
 
 - Match score: `80`
 - `id`: 9583
@@ -260,7 +248,7 @@
 {"id":"9583","n":"Life Leech and Physical Damage","t":"small","sd":["1% increased maximum Life","8% increased amount of Life [LifeLeech|Leeched]"],"out":["47316"]}
 ```
 
-### 21. Life Regeneration
+### 20. Life Regeneration
 
 - Match score: `80`
 - `id`: 11916
@@ -272,7 +260,7 @@
 {"id":"11916","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"]}
 ```
 
-### 22. Life Regeneration
+### 21. Life Regeneration
 
 - Match score: `80`
 - `id`: 14926
@@ -284,7 +272,7 @@
 {"id":"14926","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"],"out":["50609","56910"]}
 ```
 
-### 23. Life Regeneration
+### 22. Life Regeneration
 
 - Match score: `80`
 - `id`: 22045
@@ -296,7 +284,7 @@
 {"id":"22045","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"],"out":["13505"]}
 ```
 
-### 24. Life Regeneration
+### 23. Life Regeneration
 
 - Match score: `80`
 - `id`: 4665
@@ -308,7 +296,7 @@
 {"id":"4665","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"],"out":["1913"]}
 ```
 
-### 25. Life Regeneration
+### 24. Life Regeneration
 
 - Match score: `80`
 - `id`: 51690
@@ -320,7 +308,7 @@
 {"id":"51690","n":"Life Regeneration","t":"small","sd":["Regenerate 0.5% of maximum Life per second"],"out":["12000"]}
 ```
 
-### 26. Life Regeneration
+### 25. Life Regeneration
 
 - Match score: `80`
 - `id`: 61534
@@ -332,7 +320,7 @@
 {"id":"61534","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"],"out":["4665"]}
 ```
 
-### 27. Life Regeneration and Damage
+### 26. Life Regeneration and Damage
 
 - Match score: `80`
 - `id`: 30704
@@ -344,7 +332,7 @@
 {"id":"30704","n":"Life Regeneration and Damage","t":"small","sd":["5% increased Damage","Regenerate 0.1% of maximum Life per second"],"out":["22045"]}
 ```
 
-### 28. Life Regeneration and Damage
+### 27. Life Regeneration and Damage
 
 - Match score: `80`
 - `id`: 63209
@@ -354,6 +342,18 @@
 
 ```json
 {"id":"63209","n":"Life Regeneration and Damage","t":"small","sd":["5% increased Damage","Regenerate 0.1% of maximum Life per second"],"out":["30704","22045","17655","36602"]}
+```
+
+### 28. Defences and Companion Life
+
+- Match score: `75`
+- `id`: 16568
+- `n`: Defences and Companion Life
+- `t`: small
+- `sd`: ["[Companion|Companions] have 12% increased maximum Life","10% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] while your [Companion] is in your [Presence]"]
+
+```json
+{"id":"16568","n":"Defences and Companion Life","t":"small","sd":["[Companion|Companions] have 12% increased maximum Life","10% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] while your [Companion] is in your [Presence]"],"out":["60992"]}
 ```
 
 ### 29. Defences and Companion Life
@@ -1453,28 +1453,28 @@
 - Source: `build_knowledge/compact/passive_tree_full_compact.json`
 - Matches included: `120`
 
-### 1. Life Leech. Armour and Evasion while Leeching
+### 1. Life Leech, Armour and Evasion while Leeching
 
 - Match score: `140`
 - `id`: 48583
-- `n`: Life Leech. Armour and Evasion while Leeching
+- `n`: Life Leech, Armour and Evasion while Leeching
 - `t`: small
 - `sd`: ["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"]
 
 ```json
-{"id":"48583","n":"Life Leech. Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["58783"]}
+{"id":"48583","n":"Life Leech, Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["58783"]}
 ```
 
-### 2. Life Leech. Armour and Evasion while Leeching
+### 2. Life Leech, Armour and Evasion while Leeching
 
 - Match score: `140`
 - `id`: 58783
-- `n`: Life Leech. Armour and Evasion while Leeching
+- `n`: Life Leech, Armour and Evasion while Leeching
 - `t`: small
 - `sd`: ["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"]
 
 ```json
-{"id":"58783","n":"Life Leech. Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["26520"]}
+{"id":"58783","n":"Life Leech, Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["26520"]}
 ```
 
 ### 3. Minion Life and Chaos Resistance
@@ -1525,19 +1525,7 @@
 {"id":"56956","n":"Minion Life and Chaos Resistance","t":"small","sd":["[Minion|Minions] have 8% increased maximum Life","[Minion|Minions] have +7% to [Chaos] [Resistances|Resistance]"],"out":["15885","54632"]}
 ```
 
-### 7. Defenses and Companion Life
-
-- Match score: `110`
-- `id`: 16568
-- `n`: Defenses and Companion Life
-- `t`: small
-- `sd`: ["[Companion|Companions] have 12% increased maximum Life","10% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] while your [Companion] is in your [Presence]"]
-
-```json
-{"id":"16568","n":"Defenses and Companion Life","t":"small","sd":["[Companion|Companions] have 12% increased maximum Life","10% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] while your [Companion] is in your [Presence]"],"out":["60992"]}
-```
-
-### 8. Stun and Ailment Threshold from Energy Shield
+### 7. Stun and Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 13307
@@ -1549,7 +1537,7 @@
 {"id":"13307","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"]}
 ```
 
-### 9. Stun and Ailment Threshold from Energy Shield
+### 8. Stun and Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 14666
@@ -1561,7 +1549,7 @@
 {"id":"14666","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"]}
 ```
 
-### 10. Stun and Ailment Threshold from Energy Shield
+### 9. Stun and Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 17602
@@ -1573,7 +1561,7 @@
 {"id":"17602","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"],"out":["59799","59798"]}
 ```
 
-### 11. Stun and Ailment Threshold from Energy Shield
+### 10. Stun and Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 25363
@@ -1585,7 +1573,7 @@
 {"id":"25363","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"],"out":["44098","1823","34531"]}
 ```
 
-### 12. Stun and Ailment Threshold from Energy Shield
+### 11. Stun and Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 26614
@@ -1597,7 +1585,7 @@
 {"id":"26614","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"],"out":["44344","46275"]}
 ```
 
-### 13. Stun and Ailment Threshold from Energy Shield
+### 12. Stun and Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 44098
@@ -1609,7 +1597,7 @@
 {"id":"44098","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"],"out":["4061","34531"]}
 ```
 
-### 14. Stun and Ailment Threshold from Energy Shield
+### 13. Stun and Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 46275
@@ -1621,7 +1609,7 @@
 {"id":"46275","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"],"out":["3894"]}
 ```
 
-### 15. Stun and Ailment Threshold from Energy Shield
+### 14. Stun and Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 517
@@ -1633,7 +1621,7 @@
 {"id":"517","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"],"out":["39037","61027"]}
 ```
 
-### 16. Stun and Ailment Threshold from Energy Shield
+### 15. Stun and Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 58789
@@ -1645,7 +1633,7 @@
 {"id":"58789","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"],"out":["13307"]}
 ```
 
-### 17. Armour and Evasion
+### 16. Armour and Evasion
 
 - Match score: `80`
 - `id`: 14394
@@ -1657,7 +1645,7 @@
 {"id":"14394","n":"Armour and Evasion","t":"small","sd":["+2% to [Resistances|Lightning Resistance]","8% increased [Armour] and [Evasion] Rating"],"out":["35743"]}
 ```
 
-### 18. Armour and Evasion
+### 17. Armour and Evasion
 
 - Match score: `80`
 - `id`: 50124
@@ -1669,7 +1657,7 @@
 {"id":"50124","n":"Armour and Evasion","t":"small","sd":["+2% to [Resistances|Cold Resistance]","8% increased [Armour] and [Evasion] Rating"],"out":["62237"]}
 ```
 
-### 19. Companion Resistance and Life
+### 18. Companion Resistance and Life
 
 - Match score: `80`
 - `id`: 50118
@@ -1681,7 +1669,7 @@
 {"id":"50118","n":"Companion Resistance and Life","t":"small","sd":["[Companion|Companions] have +12% to all Elemental [Resistances]","[Companion|Companions] have 12% increased maximum Life"],"out":["55450"]}
 ```
 
-### 20. Life Leech and Physical Damage
+### 19. Life Leech and Physical Damage
 
 - Match score: `80`
 - `id`: 9583
@@ -1693,7 +1681,7 @@
 {"id":"9583","n":"Life Leech and Physical Damage","t":"small","sd":["1% increased maximum Life","8% increased amount of Life [LifeLeech|Leeched]"],"out":["47316"]}
 ```
 
-### 21. Life Regeneration
+### 20. Life Regeneration
 
 - Match score: `80`
 - `id`: 11916
@@ -1705,7 +1693,7 @@
 {"id":"11916","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"]}
 ```
 
-### 22. Life Regeneration
+### 21. Life Regeneration
 
 - Match score: `80`
 - `id`: 14926
@@ -1717,7 +1705,7 @@
 {"id":"14926","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"],"out":["50609","56910"]}
 ```
 
-### 23. Life Regeneration
+### 22. Life Regeneration
 
 - Match score: `80`
 - `id`: 22045
@@ -1729,7 +1717,7 @@
 {"id":"22045","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"],"out":["13505"]}
 ```
 
-### 24. Life Regeneration
+### 23. Life Regeneration
 
 - Match score: `80`
 - `id`: 4665
@@ -1741,7 +1729,7 @@
 {"id":"4665","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"],"out":["1913"]}
 ```
 
-### 25. Life Regeneration
+### 24. Life Regeneration
 
 - Match score: `80`
 - `id`: 51690
@@ -1753,7 +1741,7 @@
 {"id":"51690","n":"Life Regeneration","t":"small","sd":["Regenerate 0.5% of maximum Life per second"],"out":["12000"]}
 ```
 
-### 26. Life Regeneration
+### 25. Life Regeneration
 
 - Match score: `80`
 - `id`: 61534
@@ -1765,7 +1753,7 @@
 {"id":"61534","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"],"out":["4665"]}
 ```
 
-### 27. Life Regeneration and Damage
+### 26. Life Regeneration and Damage
 
 - Match score: `80`
 - `id`: 30704
@@ -1777,7 +1765,7 @@
 {"id":"30704","n":"Life Regeneration and Damage","t":"small","sd":["5% increased Damage","Regenerate 0.1% of maximum Life per second"],"out":["22045"]}
 ```
 
-### 28. Life Regeneration and Damage
+### 27. Life Regeneration and Damage
 
 - Match score: `80`
 - `id`: 63209
@@ -1787,6 +1775,18 @@
 
 ```json
 {"id":"63209","n":"Life Regeneration and Damage","t":"small","sd":["5% increased Damage","Regenerate 0.1% of maximum Life per second"],"out":["30704","22045","17655","36602"]}
+```
+
+### 28. Defences and Companion Life
+
+- Match score: `75`
+- `id`: 16568
+- `n`: Defences and Companion Life
+- `t`: small
+- `sd`: ["[Companion|Companions] have 12% increased maximum Life","10% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] while your [Companion] is in your [Presence]"]
+
+```json
+{"id":"16568","n":"Defences and Companion Life","t":"small","sd":["[Companion|Companions] have 12% increased maximum Life","10% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] while your [Companion] is in your [Presence]"],"out":["60992"]}
 ```
 
 ### 29. Defences and Companion Life

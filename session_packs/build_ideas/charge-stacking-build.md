@@ -1,6 +1,6 @@
 # Build Idea Pack — Charge-Stacking Build
 
-- Generated UTC: `2026-09-04T14:20:52+00:00`
+- Generated UTC: `2026-09-05T13:27:50+00:00`
 - Idea slug: `charge-stacking-build`
 - Purpose: Engineer around power, frenzy, endurance, charge generation, charge consumption, and charge scaling.
 - Keywords: `charge, charges, power charge, frenzy charge, endurance charge, gain charge, consume charge, maximum charge, critical, crit, duration, killing palm, charge profusion, overflowing power, damage, speed, boss, clear`
@@ -878,10 +878,10 @@
 - `id`: 25092
 - `n`: Critical Damage Bonus on You
 - `t`: small
-- `sd`: ["[HitDamage|Hits] against you have 12% reduced [CriticalDamageBonus|Critical Damage Bonus]"]
+- `sd`: ["[Hit|Hits] against you have 12% reduced [CriticalDamageBonus|Critical Damage Bonus]"]
 
 ```json
-{"id":"25092","n":"Critical Damage Bonus on You","t":"small","sd":["[HitDamage|Hits] against you have 12% reduced [CriticalDamageBonus|Critical Damage Bonus]"],"out":["34313"]}
+{"id":"25092","n":"Critical Damage Bonus on You","t":"small","sd":["[Hit|Hits] against you have 12% reduced [CriticalDamageBonus|Critical Damage Bonus]"],"out":["34313"]}
 ```
 
 ### 73. Critical Damage vs Full Life
@@ -938,10 +938,10 @@
 - `id`: 21945
 - `n`: Damage and Criticals vs Dazed Enemies
 - `t`: small
-- `sd`: ["5% chance to [Daze] on [HitDamage|Hit]"]
+- `sd`: ["5% chance to [Daze] on [Hit]"]
 
 ```json
-{"id":"21945","n":"Damage and Criticals vs Dazed Enemies","t":"small","sd":["5% chance to [Daze] on [HitDamage|Hit]"],"out":["61718","26572","39128","54545"]}
+{"id":"21945","n":"Damage and Criticals vs Dazed Enemies","t":"small","sd":["5% chance to [Daze] on [Hit]"],"out":["61718","26572","39128","54545"]}
 ```
 
 ### 78. Damage on Critical
@@ -1274,10 +1274,10 @@
 - `id`: 25458
 - `n`: Strength and Critical Damage Bonus on You
 - `t`: small
-- `sd`: ["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
+- `sd`: ["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
 
 ```json
-{"id":"25458","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["37568"]}
+{"id":"25458","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["37568"]}
 ```
 
 ### 106. Strength and Critical Damage Bonus on You
@@ -1286,10 +1286,10 @@
 - `id`: 34853
 - `n`: Strength and Critical Damage Bonus on You
 - `t`: small
-- `sd`: ["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
+- `sd`: ["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
 
 ```json
-{"id":"34853","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["25458","43044"]}
+{"id":"34853","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["25458","43044"]}
 ```
 
 ### 107. Strength and Critical Damage Bonus on You
@@ -1298,10 +1298,10 @@
 - `id`: 37568
 - `n`: Strength and Critical Damage Bonus on You
 - `t`: small
-- `sd`: ["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
+- `sd`: ["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
 
 ```json
-{"id":"37568","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["45370"]}
+{"id":"37568","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["45370"]}
 ```
 
 ### 108. Thorn Critical Damage
@@ -1448,16 +1448,16 @@
 {"id":"5501","n":"Critical Overload","t":"notable","sd":["15% increased [Critical|Critical Hit Chance] for [Spell|Spells]","15% increased [CriticalDamageBonus|Critical Spell Damage Bonus]"],"out":["48821"]}
 ```
 
-### 120. Critical Strike
+### 120. Energy Shield if Consumed Power Charge
 
 - Match score: `80`
-- `id`: 9294
-- `n`: Critical Strike
-- `t`: notable
-- `sd`: ["Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to 25% of excess chance to [HitDamage|Hit] with [Attack|Attacks]"]
+- `id`: 21327
+- `n`: Energy Shield if Consumed Power Charge
+- `t`: small
+- `sd`: ["20% increased maximum [EnergyShield|Energy Shield] if you've consumed a [Charges|Power Charge] [Recently|Recently]"]
 
 ```json
-{"id":"9294","n":"Critical Strike","t":"notable","sd":["Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to 25% of excess chance to [HitDamage|Hit] with [Attack|Attacks]"],"out":["528"]}
+{"id":"21327","n":"Energy Shield if Consumed Power Charge","t":"small","sd":["20% increased maximum [EnergyShield|Energy Shield] if you've consumed a [Charges|Power Charge] [Recently|Recently]"],"out":["56876"]}
 ```
 
 ## Passive full compact
@@ -2323,10 +2323,10 @@
 - `id`: 25092
 - `n`: Critical Damage Bonus on You
 - `t`: small
-- `sd`: ["[HitDamage|Hits] against you have 12% reduced [CriticalDamageBonus|Critical Damage Bonus]"]
+- `sd`: ["[Hit|Hits] against you have 12% reduced [CriticalDamageBonus|Critical Damage Bonus]"]
 
 ```json
-{"id":"25092","n":"Critical Damage Bonus on You","t":"small","sd":["[HitDamage|Hits] against you have 12% reduced [CriticalDamageBonus|Critical Damage Bonus]"],"out":["34313"]}
+{"id":"25092","n":"Critical Damage Bonus on You","t":"small","sd":["[Hit|Hits] against you have 12% reduced [CriticalDamageBonus|Critical Damage Bonus]"],"out":["34313"]}
 ```
 
 ### 73. Critical Damage vs Full Life
@@ -2383,10 +2383,10 @@
 - `id`: 21945
 - `n`: Damage and Criticals vs Dazed Enemies
 - `t`: small
-- `sd`: ["5% chance to [Daze] on [HitDamage|Hit]"]
+- `sd`: ["5% chance to [Daze] on [Hit]"]
 
 ```json
-{"id":"21945","n":"Damage and Criticals vs Dazed Enemies","t":"small","sd":["5% chance to [Daze] on [HitDamage|Hit]"],"out":["61718","26572","39128","54545"]}
+{"id":"21945","n":"Damage and Criticals vs Dazed Enemies","t":"small","sd":["5% chance to [Daze] on [Hit]"],"out":["61718","26572","39128","54545"]}
 ```
 
 ### 78. Damage on Critical
@@ -2719,10 +2719,10 @@
 - `id`: 25458
 - `n`: Strength and Critical Damage Bonus on You
 - `t`: small
-- `sd`: ["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
+- `sd`: ["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
 
 ```json
-{"id":"25458","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["37568"]}
+{"id":"25458","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["37568"]}
 ```
 
 ### 106. Strength and Critical Damage Bonus on You
@@ -2731,10 +2731,10 @@
 - `id`: 34853
 - `n`: Strength and Critical Damage Bonus on You
 - `t`: small
-- `sd`: ["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
+- `sd`: ["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
 
 ```json
-{"id":"34853","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["25458","43044"]}
+{"id":"34853","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["25458","43044"]}
 ```
 
 ### 107. Strength and Critical Damage Bonus on You
@@ -2743,10 +2743,10 @@
 - `id`: 37568
 - `n`: Strength and Critical Damage Bonus on You
 - `t`: small
-- `sd`: ["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
+- `sd`: ["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
 
 ```json
-{"id":"37568","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["45370"]}
+{"id":"37568","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["45370"]}
 ```
 
 ### 108. Thorn Critical Damage
@@ -2893,16 +2893,16 @@
 {"id":"5501","n":"Critical Overload","t":"notable","sd":["15% increased [Critical|Critical Hit Chance] for [Spell|Spells]","15% increased [CriticalDamageBonus|Critical Spell Damage Bonus]"],"out":["48821"]}
 ```
 
-### 120. Critical Strike
+### 120. Energy Shield if Consumed Power Charge
 
 - Match score: `80`
-- `id`: 9294
-- `n`: Critical Strike
-- `t`: notable
-- `sd`: ["Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to 25% of excess chance to [HitDamage|Hit] with [Attack|Attacks]"]
+- `id`: 21327
+- `n`: Energy Shield if Consumed Power Charge
+- `t`: small
+- `sd`: ["20% increased maximum [EnergyShield|Energy Shield] if you've consumed a [Charges|Power Charge] [Recently|Recently]"]
 
 ```json
-{"id":"9294","n":"Critical Strike","t":"notable","sd":["Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to 25% of excess chance to [HitDamage|Hit] with [Attack|Attacks]"],"out":["528"]}
+{"id":"21327","n":"Energy Shield if Consumed Power Charge","t":"small","sd":["20% increased maximum [EnergyShield|Energy Shield] if you've consumed a [Charges|Power Charge] [Recently|Recently]"],"out":["56876"]}
 ```
 
 ## Passive edges

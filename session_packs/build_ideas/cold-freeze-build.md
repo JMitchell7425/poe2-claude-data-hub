@@ -1,6 +1,6 @@
 # Build Idea Pack — Cold Freeze Build
 
-- Generated UTC: `2026-09-04T14:20:48+00:00`
+- Generated UTC: `2026-09-05T13:27:46+00:00`
 - Idea slug: `cold-freeze-build`
 - Purpose: Engineer a cold/freeze/shatter build for safe clear and controlled bossing.
 - Keywords: `cold, freeze, frozen, chill, chilled, shatter, ice, glacial, frost, exposure, penetration, ailment, elemental, critical, crit, herald, spirit, support, resistance, monk, sorceress`
@@ -398,10 +398,10 @@
 - `id`: 4959
 - `n`: Heavy Frost
 - `t`: notable
-- `sd`: ["20% increased [Freeze|Freeze] Buildup","[HitDamage|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies"]
+- `sd`: ["20% increased [Freeze|Freeze] Buildup","[Hit|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies"]
 
 ```json
-{"id":"4959","n":"Heavy Frost","t":"notable","sd":["20% increased [Freeze|Freeze] Buildup","[HitDamage|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies"],"out":["12166"]}
+{"id":"4959","n":"Heavy Frost","t":"notable","sd":["20% increased [Freeze|Freeze] Buildup","[Hit|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies"],"out":["12166"]}
 ```
 
 ### 33. Accuracy and Attack Critical Chance
@@ -1843,10 +1843,10 @@
 - `id`: 4959
 - `n`: Heavy Frost
 - `t`: notable
-- `sd`: ["20% increased [Freeze|Freeze] Buildup","[HitDamage|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies"]
+- `sd`: ["20% increased [Freeze|Freeze] Buildup","[Hit|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies"]
 
 ```json
-{"id":"4959","n":"Heavy Frost","t":"notable","sd":["20% increased [Freeze|Freeze] Buildup","[HitDamage|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies"],"out":["12166"]}
+{"id":"4959","n":"Heavy Frost","t":"notable","sd":["20% increased [Freeze|Freeze] Buildup","[Hit|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies"],"out":["12166"]}
 ```
 
 ### 33. Accuracy and Attack Critical Chance

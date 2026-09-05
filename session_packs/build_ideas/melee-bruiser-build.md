@@ -1,6 +1,6 @@
 # Build Idea Pack — Melee Bruiser Build
 
-- Generated UTC: `2026-09-04T14:20:46+00:00`
+- Generated UTC: `2026-09-05T13:27:44+00:00`
 - Idea slug: `melee-bruiser-build`
 - Purpose: Engineer a close-range build with strong defenses, reliable recovery, and boss-capable damage.
 - Keywords: `melee, strike, slam, quarterstaff, mace, two handed, shield, attack, attack speed, stun, armour, evasion, block, life, leech, recovery, charge, rage, warcry, boss, clear, warrior, monk, mercenary`
@@ -20,28 +20,28 @@
 - Source: `build_knowledge/compact/passive_tree_key_nodes.json`
 - Matches included: `120`
 
-### 1. Life Leech. Armour and Evasion while Leeching
+### 1. Life Leech, Armour and Evasion while Leeching
 
 - Match score: `140`
 - `id`: 48583
-- `n`: Life Leech. Armour and Evasion while Leeching
+- `n`: Life Leech, Armour and Evasion while Leeching
 - `t`: small
 - `sd`: ["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"]
 
 ```json
-{"id":"48583","n":"Life Leech. Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["58783"]}
+{"id":"48583","n":"Life Leech, Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["58783"]}
 ```
 
-### 2. Life Leech. Armour and Evasion while Leeching
+### 2. Life Leech, Armour and Evasion while Leeching
 
 - Match score: `140`
 - `id`: 58783
-- `n`: Life Leech. Armour and Evasion while Leeching
+- `n`: Life Leech, Armour and Evasion while Leeching
 - `t`: small
 - `sd`: ["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"]
 
 ```json
-{"id":"58783","n":"Life Leech. Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["26520"]}
+{"id":"58783","n":"Life Leech, Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["26520"]}
 ```
 
 ### 3. Melee Attack Speed
@@ -1453,28 +1453,28 @@
 - Source: `build_knowledge/compact/passive_tree_full_compact.json`
 - Matches included: `120`
 
-### 1. Life Leech. Armour and Evasion while Leeching
+### 1. Life Leech, Armour and Evasion while Leeching
 
 - Match score: `140`
 - `id`: 48583
-- `n`: Life Leech. Armour and Evasion while Leeching
+- `n`: Life Leech, Armour and Evasion while Leeching
 - `t`: small
 - `sd`: ["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"]
 
 ```json
-{"id":"48583","n":"Life Leech. Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["58783"]}
+{"id":"48583","n":"Life Leech, Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["58783"]}
 ```
 
-### 2. Life Leech. Armour and Evasion while Leeching
+### 2. Life Leech, Armour and Evasion while Leeching
 
 - Match score: `140`
 - `id`: 58783
-- `n`: Life Leech. Armour and Evasion while Leeching
+- `n`: Life Leech, Armour and Evasion while Leeching
 - `t`: small
 - `sd`: ["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"]
 
 ```json
-{"id":"58783","n":"Life Leech. Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["26520"]}
+{"id":"58783","n":"Life Leech, Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["26520"]}
 ```
 
 ### 3. Melee Attack Speed

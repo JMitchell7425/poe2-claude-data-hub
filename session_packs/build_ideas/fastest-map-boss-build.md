@@ -1,6 +1,6 @@
 # Build Idea Pack — Fastest Mapper + Boss Killer
 
-- Generated UTC: `2026-09-04T14:20:43+00:00`
+- Generated UTC: `2026-09-05T13:27:41+00:00`
 - Idea slug: `fastest-map-boss-build`
 - Purpose: Find the fastest practical build that still deletes bosses without becoming fragile.
 - Keywords: `fast, fastest, map, mapping, clear, clearing, boss, bossing, single target, area, aoe, projectile, chain, fork, pierce, explosion, explode, movement speed, attack speed, cast speed, critical, crit, charge, damage, more damage, penetration, exposure, shock, freeze, ignite, poison, minion, spirit, recovery, defense`
@@ -590,10 +590,10 @@
 - `id`: 25092
 - `n`: Critical Damage Bonus on You
 - `t`: small
-- `sd`: ["[HitDamage|Hits] against you have 12% reduced [CriticalDamageBonus|Critical Damage Bonus]"]
+- `sd`: ["[Hit|Hits] against you have 12% reduced [CriticalDamageBonus|Critical Damage Bonus]"]
 
 ```json
-{"id":"25092","n":"Critical Damage Bonus on You","t":"small","sd":["[HitDamage|Hits] against you have 12% reduced [CriticalDamageBonus|Critical Damage Bonus]"],"out":["34313"]}
+{"id":"25092","n":"Critical Damage Bonus on You","t":"small","sd":["[Hit|Hits] against you have 12% reduced [CriticalDamageBonus|Critical Damage Bonus]"],"out":["34313"]}
 ```
 
 ### 49. Critical Damage vs Full Life
@@ -650,10 +650,10 @@
 - `id`: 21945
 - `n`: Damage and Criticals vs Dazed Enemies
 - `t`: small
-- `sd`: ["5% chance to [Daze] on [HitDamage|Hit]"]
+- `sd`: ["5% chance to [Daze] on [Hit]"]
 
 ```json
-{"id":"21945","n":"Damage and Criticals vs Dazed Enemies","t":"small","sd":["5% chance to [Daze] on [HitDamage|Hit]"],"out":["61718","26572","39128","54545"]}
+{"id":"21945","n":"Damage and Criticals vs Dazed Enemies","t":"small","sd":["5% chance to [Daze] on [Hit]"],"out":["61718","26572","39128","54545"]}
 ```
 
 ### 54. Damage on Critical
@@ -914,10 +914,10 @@
 - `id`: 25458
 - `n`: Strength and Critical Damage Bonus on You
 - `t`: small
-- `sd`: ["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
+- `sd`: ["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
 
 ```json
-{"id":"25458","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["37568"]}
+{"id":"25458","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["37568"]}
 ```
 
 ### 76. Strength and Critical Damage Bonus on You
@@ -926,10 +926,10 @@
 - `id`: 34853
 - `n`: Strength and Critical Damage Bonus on You
 - `t`: small
-- `sd`: ["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
+- `sd`: ["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
 
 ```json
-{"id":"34853","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["25458","43044"]}
+{"id":"34853","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["25458","43044"]}
 ```
 
 ### 77. Strength and Critical Damage Bonus on You
@@ -938,10 +938,10 @@
 - `id`: 37568
 - `n`: Strength and Critical Damage Bonus on You
 - `t`: small
-- `sd`: ["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
+- `sd`: ["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
 
 ```json
-{"id":"37568","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["45370"]}
+{"id":"37568","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["45370"]}
 ```
 
 ### 78. Thorn Critical Damage
@@ -980,19 +980,7 @@
 {"id":"5501","n":"Critical Overload","t":"notable","sd":["15% increased [Critical|Critical Hit Chance] for [Spell|Spells]","15% increased [CriticalDamageBonus|Critical Spell Damage Bonus]"],"out":["48821"]}
 ```
 
-### 81. Critical Strike
-
-- Match score: `80`
-- `id`: 9294
-- `n`: Critical Strike
-- `t`: notable
-- `sd`: ["Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to 25% of excess chance to [HitDamage|Hit] with [Attack|Attacks]"]
-
-```json
-{"id":"9294","n":"Critical Strike","t":"notable","sd":["Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to 25% of excess chance to [HitDamage|Hit] with [Attack|Attacks]"],"out":["528"]}
-```
-
-### 82. Faster Ignites and Flammability Magnitude
+### 81. Faster Ignites and Flammability Magnitude
 
 - Match score: `80`
 - `id`: 13610
@@ -1004,7 +992,7 @@
 {"id":"13610","n":"Faster Ignites and Flammability Magnitude","t":"small","sd":["15% increased [Flammability] [BuffMagnitude|Magnitude]","[Ignite|Ignites] you inflict deal Damage 4% faster"],"out":["41447"]}
 ```
 
-### 83. Faster Ignites and Flammability Magnitude
+### 82. Faster Ignites and Flammability Magnitude
 
 - Match score: `80`
 - `id`: 59661
@@ -1016,7 +1004,7 @@
 {"id":"59661","n":"Faster Ignites and Flammability Magnitude","t":"small","sd":["15% increased [Flammability] [BuffMagnitude|Magnitude]","[Ignite|Ignites] you inflict deal Damage 4% faster"],"out":["12245"]}
 ```
 
-### 84. Minion Damage and Command Skill Cooldown
+### 83. Minion Damage and Command Skill Cooldown
 
 - Match score: `80`
 - `id`: 43979
@@ -1028,7 +1016,7 @@
 {"id":"43979","n":"Minion Damage and Command Skill Cooldown","t":"small","sd":["[Minion|Minions] deal 6% increased Damage","[Minion|Minions] have 8% increased [CooldownRecovery|Cooldown Recovery Rate] for [Command] Skills"],"out":["50837","26926"]}
 ```
 
-### 85. Minion Damage and Command Speed
+### 84. Minion Damage and Command Speed
 
 - Match score: `80`
 - `id`: 14598
@@ -1040,7 +1028,7 @@
 {"id":"14598","n":"Minion Damage and Command Speed","t":"small","sd":["[Minion|Minions] deal 6% increased Damage","[Minion|Minions] have 8% increased [CooldownRecovery|Cooldown Recovery Rate] for [Command] Skills"],"out":["4345"]}
 ```
 
-### 86. Minion Damage and Command Speed
+### 85. Minion Damage and Command Speed
 
 - Match score: `80`
 - `id`: 4345
@@ -1052,7 +1040,7 @@
 {"id":"4345","n":"Minion Damage and Command Speed","t":"small","sd":["[Minion|Minions] deal 6% increased Damage","[Minion|Minions] have 8% increased [CooldownRecovery|Cooldown Recovery Rate] for [Command] Skills"],"out":["45885"]}
 ```
 
-### 87. Minion Damage and Command Speed
+### 86. Minion Damage and Command Speed
 
 - Match score: `80`
 - `id`: 50837
@@ -1064,7 +1052,7 @@
 {"id":"50837","n":"Minion Damage and Command Speed","t":"small","sd":["[Minion|Minions] deal 6% increased Damage","[Minion|Minions] have 8% increased [CooldownRecovery|Cooldown Recovery Rate] for [Command] Skills"],"out":["14598"]}
 ```
 
-### 88. Accuracy and Attack Critical Chance
+### 87. Accuracy and Attack Critical Chance
 
 - Match score: `70`
 - `id`: 38703
@@ -1076,7 +1064,7 @@
 {"id":"38703","n":"Accuracy and Attack Critical Chance","t":"small","sd":["8% increased [Critical|Critical Hit Chance] for [Attack|Attacks]","6% increased [Accuracy] Rating"],"out":["8249"]}
 ```
 
-### 89. Accuracy and Attack Critical Chance
+### 88. Accuracy and Attack Critical Chance
 
 - Match score: `70`
 - `id`: 63525
@@ -1088,7 +1076,7 @@
 {"id":"63525","n":"Accuracy and Attack Critical Chance","t":"small","sd":["8% increased [Critical|Critical Hit Chance] for [Attack|Attacks]","6% increased [Accuracy] Rating"],"out":["53094"]}
 ```
 
-### 90. Accuracy and Attack Critical Chance
+### 89. Accuracy and Attack Critical Chance
 
 - Match score: `70`
 - `id`: 8249
@@ -1100,7 +1088,7 @@
 {"id":"8249","n":"Accuracy and Attack Critical Chance","t":"small","sd":["8% increased [Critical|Critical Hit Chance] for [Attack|Attacks]","6% increased [Accuracy] Rating"],"out":["63525","16816"]}
 ```
 
-### 91. Accuracy and Critical Chance
+### 90. Accuracy and Critical Chance
 
 - Match score: `70`
 - `id`: 22208
@@ -1112,7 +1100,7 @@
 {"id":"22208","n":"Accuracy and Critical Chance","t":"small","sd":["8% increased [Critical|Critical Hit Chance] for [Attack|Attacks]","8% increased [Accuracy] Rating"],"out":["15207"]}
 ```
 
-### 92. Accuracy and Critical Chance
+### 91. Accuracy and Critical Chance
 
 - Match score: `70`
 - `id`: 59503
@@ -1124,7 +1112,7 @@
 {"id":"59503","n":"Accuracy and Critical Chance","t":"small","sd":["8% increased [Critical|Critical Hit Chance] for [Attack|Attacks]","8% increased [Accuracy] Rating"],"out":["22208"]}
 ```
 
-### 93. Ancestral Boosted Area and Damage
+### 92. Ancestral Boosted Area and Damage
 
 - Match score: `70`
 - `id`: 18207
@@ -1136,7 +1124,7 @@
 {"id":"18207","n":"Ancestral Boosted Area and Damage","t":"small","sd":["4% increased Area of Effect of [AncestralBoost|Ancestrally Boosted] [Attack|Attacks]","[AncestralBoost|Ancestrally Boosted] [Attack|Attacks] deal 8% increased Damage"],"out":["53261"]}
 ```
 
-### 94. Ancestral Boosted Area and Damage
+### 93. Ancestral Boosted Area and Damage
 
 - Match score: `70`
 - `id`: 30780
@@ -1148,7 +1136,7 @@
 {"id":"30780","n":"Ancestral Boosted Area and Damage","t":"small","sd":["4% increased Area of Effect of [AncestralBoost|Ancestrally Boosted] [Attack|Attacks]","[AncestralBoost|Ancestrally Boosted] [Attack|Attacks] deal 8% increased Damage"],"out":["17112","5410"]}
 ```
 
-### 95. Ancestral Boosted Area and Damage
+### 94. Ancestral Boosted Area and Damage
 
 - Match score: `70`
 - `id`: 53261
@@ -1160,7 +1148,7 @@
 {"id":"53261","n":"Ancestral Boosted Area and Damage","t":"small","sd":["4% increased Area of Effect of [AncestralBoost|Ancestrally Boosted] [Attack|Attacks]","[AncestralBoost|Ancestrally Boosted] [Attack|Attacks] deal 8% increased Damage"],"out":["30780"]}
 ```
 
-### 96. Arcane Surge on Critical Hit
+### 95. Arcane Surge on Critical Hit
 
 - Match score: `70`
 - `id`: 2244
@@ -1172,7 +1160,7 @@
 {"id":"2244","n":"Arcane Surge on Critical Hit","t":"small","sd":["5% chance to Gain [ArcaneSurgeDuration|Arcane Surge] when you deal a [Critical|Critical Hit]"]}
 ```
 
-### 97. Arcane Surge on Critical Hit
+### 96. Arcane Surge on Critical Hit
 
 - Match score: `70`
 - `id`: 54067
@@ -1184,7 +1172,7 @@
 {"id":"54067","n":"Arcane Surge on Critical Hit","t":"small","sd":["5% chance to Gain [ArcaneSurgeDuration|Arcane Surge] when you deal a [Critical|Critical Hit]"],"out":["27626","2244"]}
 ```
 
-### 98. Area Damage
+### 97. Area Damage
 
 - Match score: `70`
 - `id`: 1170
@@ -1196,7 +1184,7 @@
 {"id":"1170","n":"Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["58295"]}
 ```
 
-### 99. Area Damage
+### 98. Area Damage
 
 - Match score: `70`
 - `id`: 19277
@@ -1208,7 +1196,7 @@
 {"id":"19277","n":"Area Damage","t":"small","sd":["10% increased [Spell] Area Damage"],"out":["44783"]}
 ```
 
-### 100. Area Damage
+### 99. Area Damage
 
 - Match score: `70`
 - `id`: 20645
@@ -1220,7 +1208,7 @@
 {"id":"20645","n":"Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["64284"]}
 ```
 
-### 101. Area Damage
+### 100. Area Damage
 
 - Match score: `70`
 - `id`: 36737
@@ -1232,7 +1220,7 @@
 {"id":"36737","n":"Area Damage","t":"small","sd":["10% increased Area Damage"],"out":["7542"]}
 ```
 
-### 102. Area Damage
+### 101. Area Damage
 
 - Match score: `70`
 - `id`: 3999
@@ -1244,7 +1232,7 @@
 {"id":"3999","n":"Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["37665","57863"]}
 ```
 
-### 103. Area Damage
+### 102. Area Damage
 
 - Match score: `70`
 - `id`: 41126
@@ -1256,7 +1244,7 @@
 {"id":"41126","n":"Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["1170","9918"]}
 ```
 
-### 104. Area Damage
+### 103. Area Damage
 
 - Match score: `70`
 - `id`: 44783
@@ -1268,7 +1256,7 @@
 {"id":"44783","n":"Area Damage","t":"small","sd":["10% increased [Spell] Area Damage"],"out":["22949"]}
 ```
 
-### 105. Area Damage
+### 104. Area Damage
 
 - Match score: `70`
 - `id`: 53443
@@ -1280,7 +1268,7 @@
 {"id":"53443","n":"Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["5710","59767"]}
 ```
 
-### 106. Area Damage
+### 105. Area Damage
 
 - Match score: `70`
 - `id`: 57405
@@ -1292,7 +1280,7 @@
 {"id":"57405","n":"Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["64807"]}
 ```
 
-### 107. Area Damage
+### 106. Area Damage
 
 - Match score: `70`
 - `id`: 59480
@@ -1304,7 +1292,7 @@
 {"id":"59480","n":"Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["3999"]}
 ```
 
-### 108. Area Damage
+### 107. Area Damage
 
 - Match score: `70`
 - `id`: 61362
@@ -1316,7 +1304,7 @@
 {"id":"61362","n":"Area Damage","t":"small","sd":["10% increased Area Damage"],"out":["36737"]}
 ```
 
-### 109. Area Damage
+### 108. Area Damage
 
 - Match score: `70`
 - `id`: 9918
@@ -1328,7 +1316,7 @@
 {"id":"9918","n":"Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["16626"]}
 ```
 
-### 110. Area Damage and Armour Break
+### 109. Area Damage and Armour Break
 
 - Match score: `70`
 - `id`: 37665
@@ -1340,7 +1328,7 @@
 {"id":"37665","n":"Area Damage and Armour Break","t":"small","sd":["[ArmourBreak|Break] 10% increased [Armour|Armour]","6% increased [Attack] Area Damage"],"out":["35739"]}
 ```
 
-### 111. Area Damage and Armour Break
+### 110. Area Damage and Armour Break
 
 - Match score: `70`
 - `id`: 42410
@@ -1352,7 +1340,7 @@
 {"id":"42410","n":"Area Damage and Armour Break","t":"small","sd":["[ArmourBreak|Break] 10% increased [Armour|Armour]","6% increased [Attack] Area Damage"],"out":["9737"]}
 ```
 
-### 112. Area Damage and Companion Area of Effect
+### 111. Area Damage and Companion Area of Effect
 
 - Match score: `70`
 - `id`: 12893
@@ -1364,7 +1352,7 @@
 {"id":"12893","n":"Area Damage and Companion Area of Effect","t":"small","sd":["6% increased Area Damage","[Companion|Companions] have 10% increased Area of Effect"],"out":["65167"]}
 ```
 
-### 113. Area Damage and Companion Area of Effect
+### 112. Area Damage and Companion Area of Effect
 
 - Match score: `70`
 - `id`: 65167
@@ -1376,7 +1364,7 @@
 {"id":"65167","n":"Area Damage and Companion Area of Effect","t":"small","sd":["6% increased Area Damage","[Companion|Companions] have 10% increased Area of Effect"],"out":["712"]}
 ```
 
-### 114. Area of Effect and Damage
+### 113. Area of Effect and Damage
 
 - Match score: `70`
 - `id`: 15913
@@ -1388,7 +1376,7 @@
 {"id":"15913","n":"Area of Effect and Damage","t":"small","sd":["4% increased Area of Effect","5% increased Area Damage"],"out":["32599","61362","49734"]}
 ```
 
-### 115. Attack and Minion Damage
+### 114. Attack and Minion Damage
 
 - Match score: `70`
 - `id`: 16413
@@ -1400,7 +1388,7 @@
 {"id":"16413","n":"Attack and Minion Damage","t":"small","sd":["8% increased [Attack] Damage","[Minion|Minions] deal 8% increased Damage"],"out":["42660"]}
 ```
 
-### 116. Attack and Minion Damage
+### 115. Attack and Minion Damage
 
 - Match score: `70`
 - `id`: 3723
@@ -1412,7 +1400,7 @@
 {"id":"3723","n":"Attack and Minion Damage","t":"small","sd":["8% increased [Attack] Damage","[Minion|Minions] deal 8% increased Damage"],"out":["16413","17092"]}
 ```
 
-### 117. Attack Area Damage
+### 116. Attack Area Damage
 
 - Match score: `70`
 - `id`: 37250
@@ -1424,7 +1412,7 @@
 {"id":"37250","n":"Attack Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["1420"]}
 ```
 
-### 118. Attack Area Damage
+### 117. Attack Area Damage
 
 - Match score: `70`
 - `id`: 47009
@@ -1436,7 +1424,7 @@
 {"id":"47009","n":"Attack Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["37250"]}
 ```
 
-### 119. Attack Area Damage and Area
+### 118. Attack Area Damage and Area
 
 - Match score: `70`
 - `id`: 19674
@@ -1448,7 +1436,7 @@
 {"id":"19674","n":"Attack Area Damage and Area","t":"small","sd":["8% increased [Attack] Area Damage","4% increased Area of Effect for [Attack|Attacks]"],"out":["41493"]}
 ```
 
-### 120. Attack Area Damage and Area
+### 119. Attack Area Damage and Area
 
 - Match score: `70`
 - `id`: 41493
@@ -1458,6 +1446,18 @@
 
 ```json
 {"id":"41493","n":"Attack Area Damage and Area","t":"small","sd":["8% increased [Attack] Area Damage","4% increased Area of Effect for [Attack|Attacks]"],"out":["50253"]}
+```
+
+### 120. Attack Area Damage and Area
+
+- Match score: `70`
+- `id`: 52574
+- `n`: Attack Area Damage and Area
+- `t`: small
+- `sd`: ["6% increased [Attack] Area Damage","4% increased Area of Effect for [Attack|Attacks]"]
+
+```json
+{"id":"52574","n":"Attack Area Damage and Area","t":"small","sd":["6% increased [Attack] Area Damage","4% increased Area of Effect for [Attack|Attacks]"],"out":["55478"]}
 ```
 
 ## Passive full compact
@@ -2035,10 +2035,10 @@
 - `id`: 25092
 - `n`: Critical Damage Bonus on You
 - `t`: small
-- `sd`: ["[HitDamage|Hits] against you have 12% reduced [CriticalDamageBonus|Critical Damage Bonus]"]
+- `sd`: ["[Hit|Hits] against you have 12% reduced [CriticalDamageBonus|Critical Damage Bonus]"]
 
 ```json
-{"id":"25092","n":"Critical Damage Bonus on You","t":"small","sd":["[HitDamage|Hits] against you have 12% reduced [CriticalDamageBonus|Critical Damage Bonus]"],"out":["34313"]}
+{"id":"25092","n":"Critical Damage Bonus on You","t":"small","sd":["[Hit|Hits] against you have 12% reduced [CriticalDamageBonus|Critical Damage Bonus]"],"out":["34313"]}
 ```
 
 ### 49. Critical Damage vs Full Life
@@ -2095,10 +2095,10 @@
 - `id`: 21945
 - `n`: Damage and Criticals vs Dazed Enemies
 - `t`: small
-- `sd`: ["5% chance to [Daze] on [HitDamage|Hit]"]
+- `sd`: ["5% chance to [Daze] on [Hit]"]
 
 ```json
-{"id":"21945","n":"Damage and Criticals vs Dazed Enemies","t":"small","sd":["5% chance to [Daze] on [HitDamage|Hit]"],"out":["61718","26572","39128","54545"]}
+{"id":"21945","n":"Damage and Criticals vs Dazed Enemies","t":"small","sd":["5% chance to [Daze] on [Hit]"],"out":["61718","26572","39128","54545"]}
 ```
 
 ### 54. Damage on Critical
@@ -2359,10 +2359,10 @@
 - `id`: 25458
 - `n`: Strength and Critical Damage Bonus on You
 - `t`: small
-- `sd`: ["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
+- `sd`: ["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
 
 ```json
-{"id":"25458","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["37568"]}
+{"id":"25458","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["37568"]}
 ```
 
 ### 76. Strength and Critical Damage Bonus on You
@@ -2371,10 +2371,10 @@
 - `id`: 34853
 - `n`: Strength and Critical Damage Bonus on You
 - `t`: small
-- `sd`: ["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
+- `sd`: ["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
 
 ```json
-{"id":"34853","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["25458","43044"]}
+{"id":"34853","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["25458","43044"]}
 ```
 
 ### 77. Strength and Critical Damage Bonus on You
@@ -2383,10 +2383,10 @@
 - `id`: 37568
 - `n`: Strength and Critical Damage Bonus on You
 - `t`: small
-- `sd`: ["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
+- `sd`: ["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"]
 
 ```json
-{"id":"37568","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["45370"]}
+{"id":"37568","n":"Strength and Critical Damage Bonus on You","t":"small","sd":["[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]","+5 to [Strength]"],"out":["45370"]}
 ```
 
 ### 78. Thorn Critical Damage
@@ -2425,19 +2425,7 @@
 {"id":"5501","n":"Critical Overload","t":"notable","sd":["15% increased [Critical|Critical Hit Chance] for [Spell|Spells]","15% increased [CriticalDamageBonus|Critical Spell Damage Bonus]"],"out":["48821"]}
 ```
 
-### 81. Critical Strike
-
-- Match score: `80`
-- `id`: 9294
-- `n`: Critical Strike
-- `t`: notable
-- `sd`: ["Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to 25% of excess chance to [HitDamage|Hit] with [Attack|Attacks]"]
-
-```json
-{"id":"9294","n":"Critical Strike","t":"notable","sd":["Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to 25% of excess chance to [HitDamage|Hit] with [Attack|Attacks]"],"out":["528"]}
-```
-
-### 82. Faster Ignites and Flammability Magnitude
+### 81. Faster Ignites and Flammability Magnitude
 
 - Match score: `80`
 - `id`: 13610
@@ -2449,7 +2437,7 @@
 {"id":"13610","n":"Faster Ignites and Flammability Magnitude","t":"small","sd":["15% increased [Flammability] [BuffMagnitude|Magnitude]","[Ignite|Ignites] you inflict deal Damage 4% faster"],"out":["41447"]}
 ```
 
-### 83. Faster Ignites and Flammability Magnitude
+### 82. Faster Ignites and Flammability Magnitude
 
 - Match score: `80`
 - `id`: 59661
@@ -2461,7 +2449,7 @@
 {"id":"59661","n":"Faster Ignites and Flammability Magnitude","t":"small","sd":["15% increased [Flammability] [BuffMagnitude|Magnitude]","[Ignite|Ignites] you inflict deal Damage 4% faster"],"out":["12245"]}
 ```
 
-### 84. Minion Damage and Command Skill Cooldown
+### 83. Minion Damage and Command Skill Cooldown
 
 - Match score: `80`
 - `id`: 43979
@@ -2473,7 +2461,7 @@
 {"id":"43979","n":"Minion Damage and Command Skill Cooldown","t":"small","sd":["[Minion|Minions] deal 6% increased Damage","[Minion|Minions] have 8% increased [CooldownRecovery|Cooldown Recovery Rate] for [Command] Skills"],"out":["50837","26926"]}
 ```
 
-### 85. Minion Damage and Command Speed
+### 84. Minion Damage and Command Speed
 
 - Match score: `80`
 - `id`: 14598
@@ -2485,7 +2473,7 @@
 {"id":"14598","n":"Minion Damage and Command Speed","t":"small","sd":["[Minion|Minions] deal 6% increased Damage","[Minion|Minions] have 8% increased [CooldownRecovery|Cooldown Recovery Rate] for [Command] Skills"],"out":["4345"]}
 ```
 
-### 86. Minion Damage and Command Speed
+### 85. Minion Damage and Command Speed
 
 - Match score: `80`
 - `id`: 4345
@@ -2497,7 +2485,7 @@
 {"id":"4345","n":"Minion Damage and Command Speed","t":"small","sd":["[Minion|Minions] deal 6% increased Damage","[Minion|Minions] have 8% increased [CooldownRecovery|Cooldown Recovery Rate] for [Command] Skills"],"out":["45885"]}
 ```
 
-### 87. Minion Damage and Command Speed
+### 86. Minion Damage and Command Speed
 
 - Match score: `80`
 - `id`: 50837
@@ -2509,7 +2497,7 @@
 {"id":"50837","n":"Minion Damage and Command Speed","t":"small","sd":["[Minion|Minions] deal 6% increased Damage","[Minion|Minions] have 8% increased [CooldownRecovery|Cooldown Recovery Rate] for [Command] Skills"],"out":["14598"]}
 ```
 
-### 88. Accuracy and Attack Critical Chance
+### 87. Accuracy and Attack Critical Chance
 
 - Match score: `70`
 - `id`: 38703
@@ -2521,7 +2509,7 @@
 {"id":"38703","n":"Accuracy and Attack Critical Chance","t":"small","sd":["8% increased [Critical|Critical Hit Chance] for [Attack|Attacks]","6% increased [Accuracy] Rating"],"out":["8249"]}
 ```
 
-### 89. Accuracy and Attack Critical Chance
+### 88. Accuracy and Attack Critical Chance
 
 - Match score: `70`
 - `id`: 63525
@@ -2533,7 +2521,7 @@
 {"id":"63525","n":"Accuracy and Attack Critical Chance","t":"small","sd":["8% increased [Critical|Critical Hit Chance] for [Attack|Attacks]","6% increased [Accuracy] Rating"],"out":["53094"]}
 ```
 
-### 90. Accuracy and Attack Critical Chance
+### 89. Accuracy and Attack Critical Chance
 
 - Match score: `70`
 - `id`: 8249
@@ -2545,7 +2533,7 @@
 {"id":"8249","n":"Accuracy and Attack Critical Chance","t":"small","sd":["8% increased [Critical|Critical Hit Chance] for [Attack|Attacks]","6% increased [Accuracy] Rating"],"out":["63525","16816"]}
 ```
 
-### 91. Accuracy and Critical Chance
+### 90. Accuracy and Critical Chance
 
 - Match score: `70`
 - `id`: 22208
@@ -2557,7 +2545,7 @@
 {"id":"22208","n":"Accuracy and Critical Chance","t":"small","sd":["8% increased [Critical|Critical Hit Chance] for [Attack|Attacks]","8% increased [Accuracy] Rating"],"out":["15207"]}
 ```
 
-### 92. Accuracy and Critical Chance
+### 91. Accuracy and Critical Chance
 
 - Match score: `70`
 - `id`: 59503
@@ -2569,7 +2557,7 @@
 {"id":"59503","n":"Accuracy and Critical Chance","t":"small","sd":["8% increased [Critical|Critical Hit Chance] for [Attack|Attacks]","8% increased [Accuracy] Rating"],"out":["22208"]}
 ```
 
-### 93. Ancestral Boosted Area and Damage
+### 92. Ancestral Boosted Area and Damage
 
 - Match score: `70`
 - `id`: 18207
@@ -2581,7 +2569,7 @@
 {"id":"18207","n":"Ancestral Boosted Area and Damage","t":"small","sd":["4% increased Area of Effect of [AncestralBoost|Ancestrally Boosted] [Attack|Attacks]","[AncestralBoost|Ancestrally Boosted] [Attack|Attacks] deal 8% increased Damage"],"out":["53261"]}
 ```
 
-### 94. Ancestral Boosted Area and Damage
+### 93. Ancestral Boosted Area and Damage
 
 - Match score: `70`
 - `id`: 30780
@@ -2593,7 +2581,7 @@
 {"id":"30780","n":"Ancestral Boosted Area and Damage","t":"small","sd":["4% increased Area of Effect of [AncestralBoost|Ancestrally Boosted] [Attack|Attacks]","[AncestralBoost|Ancestrally Boosted] [Attack|Attacks] deal 8% increased Damage"],"out":["17112","5410"]}
 ```
 
-### 95. Ancestral Boosted Area and Damage
+### 94. Ancestral Boosted Area and Damage
 
 - Match score: `70`
 - `id`: 53261
@@ -2605,7 +2593,7 @@
 {"id":"53261","n":"Ancestral Boosted Area and Damage","t":"small","sd":["4% increased Area of Effect of [AncestralBoost|Ancestrally Boosted] [Attack|Attacks]","[AncestralBoost|Ancestrally Boosted] [Attack|Attacks] deal 8% increased Damage"],"out":["30780"]}
 ```
 
-### 96. Arcane Surge on Critical Hit
+### 95. Arcane Surge on Critical Hit
 
 - Match score: `70`
 - `id`: 2244
@@ -2617,7 +2605,7 @@
 {"id":"2244","n":"Arcane Surge on Critical Hit","t":"small","sd":["5% chance to Gain [ArcaneSurgeDuration|Arcane Surge] when you deal a [Critical|Critical Hit]"]}
 ```
 
-### 97. Arcane Surge on Critical Hit
+### 96. Arcane Surge on Critical Hit
 
 - Match score: `70`
 - `id`: 54067
@@ -2629,7 +2617,7 @@
 {"id":"54067","n":"Arcane Surge on Critical Hit","t":"small","sd":["5% chance to Gain [ArcaneSurgeDuration|Arcane Surge] when you deal a [Critical|Critical Hit]"],"out":["27626","2244"]}
 ```
 
-### 98. Area Damage
+### 97. Area Damage
 
 - Match score: `70`
 - `id`: 1170
@@ -2641,7 +2629,7 @@
 {"id":"1170","n":"Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["58295"]}
 ```
 
-### 99. Area Damage
+### 98. Area Damage
 
 - Match score: `70`
 - `id`: 19277
@@ -2653,7 +2641,7 @@
 {"id":"19277","n":"Area Damage","t":"small","sd":["10% increased [Spell] Area Damage"],"out":["44783"]}
 ```
 
-### 100. Area Damage
+### 99. Area Damage
 
 - Match score: `70`
 - `id`: 20645
@@ -2665,7 +2653,7 @@
 {"id":"20645","n":"Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["64284"]}
 ```
 
-### 101. Area Damage
+### 100. Area Damage
 
 - Match score: `70`
 - `id`: 36737
@@ -2677,7 +2665,7 @@
 {"id":"36737","n":"Area Damage","t":"small","sd":["10% increased Area Damage"],"out":["7542"]}
 ```
 
-### 102. Area Damage
+### 101. Area Damage
 
 - Match score: `70`
 - `id`: 3999
@@ -2689,7 +2677,7 @@
 {"id":"3999","n":"Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["37665","57863"]}
 ```
 
-### 103. Area Damage
+### 102. Area Damage
 
 - Match score: `70`
 - `id`: 41126
@@ -2701,7 +2689,7 @@
 {"id":"41126","n":"Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["1170","9918"]}
 ```
 
-### 104. Area Damage
+### 103. Area Damage
 
 - Match score: `70`
 - `id`: 44783
@@ -2713,7 +2701,7 @@
 {"id":"44783","n":"Area Damage","t":"small","sd":["10% increased [Spell] Area Damage"],"out":["22949"]}
 ```
 
-### 105. Area Damage
+### 104. Area Damage
 
 - Match score: `70`
 - `id`: 53443
@@ -2725,7 +2713,7 @@
 {"id":"53443","n":"Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["5710","59767"]}
 ```
 
-### 106. Area Damage
+### 105. Area Damage
 
 - Match score: `70`
 - `id`: 57405
@@ -2737,7 +2725,7 @@
 {"id":"57405","n":"Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["64807"]}
 ```
 
-### 107. Area Damage
+### 106. Area Damage
 
 - Match score: `70`
 - `id`: 59480
@@ -2749,7 +2737,7 @@
 {"id":"59480","n":"Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["3999"]}
 ```
 
-### 108. Area Damage
+### 107. Area Damage
 
 - Match score: `70`
 - `id`: 61362
@@ -2761,7 +2749,7 @@
 {"id":"61362","n":"Area Damage","t":"small","sd":["10% increased Area Damage"],"out":["36737"]}
 ```
 
-### 109. Area Damage
+### 108. Area Damage
 
 - Match score: `70`
 - `id`: 9918
@@ -2773,7 +2761,7 @@
 {"id":"9918","n":"Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["16626"]}
 ```
 
-### 110. Area Damage and Armour Break
+### 109. Area Damage and Armour Break
 
 - Match score: `70`
 - `id`: 37665
@@ -2785,7 +2773,7 @@
 {"id":"37665","n":"Area Damage and Armour Break","t":"small","sd":["[ArmourBreak|Break] 10% increased [Armour|Armour]","6% increased [Attack] Area Damage"],"out":["35739"]}
 ```
 
-### 111. Area Damage and Armour Break
+### 110. Area Damage and Armour Break
 
 - Match score: `70`
 - `id`: 42410
@@ -2797,7 +2785,7 @@
 {"id":"42410","n":"Area Damage and Armour Break","t":"small","sd":["[ArmourBreak|Break] 10% increased [Armour|Armour]","6% increased [Attack] Area Damage"],"out":["9737"]}
 ```
 
-### 112. Area Damage and Companion Area of Effect
+### 111. Area Damage and Companion Area of Effect
 
 - Match score: `70`
 - `id`: 12893
@@ -2809,7 +2797,7 @@
 {"id":"12893","n":"Area Damage and Companion Area of Effect","t":"small","sd":["6% increased Area Damage","[Companion|Companions] have 10% increased Area of Effect"],"out":["65167"]}
 ```
 
-### 113. Area Damage and Companion Area of Effect
+### 112. Area Damage and Companion Area of Effect
 
 - Match score: `70`
 - `id`: 65167
@@ -2821,7 +2809,7 @@
 {"id":"65167","n":"Area Damage and Companion Area of Effect","t":"small","sd":["6% increased Area Damage","[Companion|Companions] have 10% increased Area of Effect"],"out":["712"]}
 ```
 
-### 114. Area of Effect and Damage
+### 113. Area of Effect and Damage
 
 - Match score: `70`
 - `id`: 15913
@@ -2833,7 +2821,7 @@
 {"id":"15913","n":"Area of Effect and Damage","t":"small","sd":["4% increased Area of Effect","5% increased Area Damage"],"out":["32599","61362","49734"]}
 ```
 
-### 115. Attack and Minion Damage
+### 114. Attack and Minion Damage
 
 - Match score: `70`
 - `id`: 16413
@@ -2845,7 +2833,7 @@
 {"id":"16413","n":"Attack and Minion Damage","t":"small","sd":["8% increased [Attack] Damage","[Minion|Minions] deal 8% increased Damage"],"out":["42660"]}
 ```
 
-### 116. Attack and Minion Damage
+### 115. Attack and Minion Damage
 
 - Match score: `70`
 - `id`: 3723
@@ -2857,7 +2845,7 @@
 {"id":"3723","n":"Attack and Minion Damage","t":"small","sd":["8% increased [Attack] Damage","[Minion|Minions] deal 8% increased Damage"],"out":["16413","17092"]}
 ```
 
-### 117. Attack Area Damage
+### 116. Attack Area Damage
 
 - Match score: `70`
 - `id`: 37250
@@ -2869,7 +2857,7 @@
 {"id":"37250","n":"Attack Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["1420"]}
 ```
 
-### 118. Attack Area Damage
+### 117. Attack Area Damage
 
 - Match score: `70`
 - `id`: 47009
@@ -2881,7 +2869,7 @@
 {"id":"47009","n":"Attack Area Damage","t":"small","sd":["10% increased [Attack] Area Damage"],"out":["37250"]}
 ```
 
-### 119. Attack Area Damage and Area
+### 118. Attack Area Damage and Area
 
 - Match score: `70`
 - `id`: 19674
@@ -2893,7 +2881,7 @@
 {"id":"19674","n":"Attack Area Damage and Area","t":"small","sd":["8% increased [Attack] Area Damage","4% increased Area of Effect for [Attack|Attacks]"],"out":["41493"]}
 ```
 
-### 120. Attack Area Damage and Area
+### 119. Attack Area Damage and Area
 
 - Match score: `70`
 - `id`: 41493
@@ -2903,6 +2891,18 @@
 
 ```json
 {"id":"41493","n":"Attack Area Damage and Area","t":"small","sd":["8% increased [Attack] Area Damage","4% increased Area of Effect for [Attack|Attacks]"],"out":["50253"]}
+```
+
+### 120. Attack Area Damage and Area
+
+- Match score: `70`
+- `id`: 52574
+- `n`: Attack Area Damage and Area
+- `t`: small
+- `sd`: ["6% increased [Attack] Area Damage","4% increased Area of Effect for [Attack|Attacks]"]
+
+```json
+{"id":"52574","n":"Attack Area Damage and Area","t":"small","sd":["6% increased [Attack] Area Damage","4% increased Area of Effect for [Attack|Attacks]"],"out":["55478"]}
 ```
 
 ## Passive edges

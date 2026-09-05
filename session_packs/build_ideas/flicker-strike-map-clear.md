@@ -1,6 +1,6 @@
 # Build Idea Pack — Flicker Strike Map Clear (CI Monk)
 
-- Generated UTC: `2026-09-04T14:20:55+00:00`
+- Generated UTC: `2026-09-05T13:27:53+00:00`
 - Idea slug: `flicker-strike-map-clear`
 - Purpose: Engineer and optimize Flicker Strike as a primary map-clear skill for a CI Energy Shield Monk, focused on charge-fed teleport-strike clear speed, AoE coverage, and support gem selection aligned to clearing rather than bossing.
 - Keywords: `flicker strike, teleport, charge, power charge, charge profusion, perpetual charge, combo, culmination, ailith's chimes, shattering palm, killing palm, monk, martial artist, cold, conversion, energy shield, chaos inoculation, area, aoe, radius, close combat, concentrated area, blindside, blind, cooldown, clear, map, controller, ps5`
@@ -110,10 +110,10 @@
 - `id`: 24883
 - `n`: Attack Area and Combo
 - `t`: small
-- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"]
+- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"]
 
 ```json
-{"id":"24883","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"],"out":["44573"]}
+{"id":"24883","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"],"out":["44573"]}
 ```
 
 ### 9. Attack Area and Combo
@@ -122,10 +122,10 @@
 - `id`: 26211
 - `n`: Attack Area and Combo
 - `t`: small
-- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"]
+- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"]
 
 ```json
-{"id":"26211","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"],"out":["24883"]}
+{"id":"26211","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"],"out":["24883"]}
 ```
 
 ### 10. Attack Area and Combo
@@ -134,10 +134,10 @@
 - `id`: 55377
 - `n`: Attack Area and Combo
 - `t`: small
-- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"]
+- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"]
 
 ```json
-{"id":"55377","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"],"out":["26211","33463"]}
+{"id":"55377","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"],"out":["26211","33463"]}
 ```
 
 ### 11. Critical Damage when consuming a Power Charge
@@ -1553,10 +1553,10 @@
 - `id`: 24883
 - `n`: Attack Area and Combo
 - `t`: small
-- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"]
+- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"]
 
 ```json
-{"id":"24883","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"],"out":["44573"]}
+{"id":"24883","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"],"out":["44573"]}
 ```
 
 ### 9. Attack Area and Combo
@@ -1565,10 +1565,10 @@
 - `id`: 26211
 - `n`: Attack Area and Combo
 - `t`: small
-- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"]
+- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"]
 
 ```json
-{"id":"26211","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"],"out":["24883"]}
+{"id":"26211","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"],"out":["24883"]}
 ```
 
 ### 10. Attack Area and Combo
@@ -1577,10 +1577,10 @@
 - `id`: 55377
 - `n`: Attack Area and Combo
 - `t`: small
-- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"]
+- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"]
 
 ```json
-{"id":"55377","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"],"out":["26211","33463"]}
+{"id":"55377","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"],"out":["26211","33463"]}
 ```
 
 ### 11. Critical Damage when consuming a Power Charge

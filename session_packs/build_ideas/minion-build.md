@@ -1,6 +1,6 @@
 # Build Idea Pack — Minion Build
 
-- Generated UTC: `2026-09-04T14:20:45+00:00`
+- Generated UTC: `2026-09-05T13:27:43+00:00`
 - Idea slug: `minion-build`
 - Purpose: Engineer a minion-focused build for safe clear, boss damage, and low mechanical strain.
 - Keywords: `minion, summon, skeleton, zombie, spirit, persistent, aura, command, revive, ally, damage, life, resistance, energy shield, curse, support, boss, clear, witch, infernalist, blood mage`
@@ -542,10 +542,10 @@
 - `id`: 11410
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"11410","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["21755"]}
+{"id":"11410","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["21755"]}
 ```
 
 ### 45. Damage against Enemies on Low Life
@@ -554,10 +554,10 @@
 - `id`: 17924
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"17924","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["51867"]}
+{"id":"17924","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["51867"]}
 ```
 
 ### 46. Damage against Enemies on Low Life
@@ -566,10 +566,10 @@
 - `id`: 19341
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"19341","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]}
+{"id":"19341","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]}
 ```
 
 ### 47. Damage against Enemies on Low Life
@@ -578,10 +578,10 @@
 - `id`: 22976
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"22976","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["42250"]}
+{"id":"22976","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["42250"]}
 ```
 
 ### 48. Damage against Enemies on Low Life
@@ -590,10 +590,10 @@
 - `id`: 36596
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"36596","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["45013","56118"]}
+{"id":"36596","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["45013","56118"]}
 ```
 
 ### 49. Damage against Enemies on Low Life
@@ -602,10 +602,10 @@
 - `id`: 56118
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"56118","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["19341","22976"]}
+{"id":"56118","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["19341","22976"]}
 ```
 
 ### 50. Damage against Enemies on Low Life
@@ -614,10 +614,10 @@
 - `id`: 61487
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"61487","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["36596","19341","11410"]}
+{"id":"61487","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["36596","19341","11410"]}
 ```
 
 ### 51. Damage against Enemies on Low Life
@@ -626,10 +626,10 @@
 - `id`: 63732
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"63732","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["8440"]}
+{"id":"63732","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["8440"]}
 ```
 
 ### 52. Damage against Enemies on Low Life
@@ -638,10 +638,10 @@
 - `id`: 64995
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"64995","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["17924"]}
+{"id":"64995","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["17924"]}
 ```
 
 ### 53. Damage against Enemies on Low Life
@@ -650,10 +650,10 @@
 - `id`: 8440
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"8440","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["45013"]}
+{"id":"8440","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["45013"]}
 ```
 
 ### 54. Damage and Minion Damage
@@ -698,10 +698,10 @@
 - `id`: 28371
 - `n`: Damage vs Full Life
 - `t`: small
-- `sd`: ["20% increased Damage with [HitDamage|Hits] against Enemies that are on Full Life"]
+- `sd`: ["20% increased Damage with [Hit|Hits] against Enemies that are on Full Life"]
 
 ```json
-{"id":"28371","n":"Damage vs Full Life","t":"small","sd":["20% increased Damage with [HitDamage|Hits] against Enemies that are on Full Life"],"out":["60560"]}
+{"id":"28371","n":"Damage vs Full Life","t":"small","sd":["20% increased Damage with [Hit|Hits] against Enemies that are on Full Life"],"out":["60560"]}
 ```
 
 ### 58. Damage vs Full Life
@@ -710,10 +710,10 @@
 - `id`: 60560
 - `n`: Damage vs Full Life
 - `t`: small
-- `sd`: ["20% increased Damage with [HitDamage|Hits] against Enemies that are on Full Life"]
+- `sd`: ["20% increased Damage with [Hit|Hits] against Enemies that are on Full Life"]
 
 ```json
-{"id":"60560","n":"Damage vs Full Life","t":"small","sd":["20% increased Damage with [HitDamage|Hits] against Enemies that are on Full Life"],"out":["29527"]}
+{"id":"60560","n":"Damage vs Full Life","t":"small","sd":["20% increased Damage with [Hit|Hits] against Enemies that are on Full Life"],"out":["29527"]}
 ```
 
 ### 59. Damage vs Low Life Enemies
@@ -722,10 +722,10 @@
 - `id`: 40719
 - `n`: Damage vs Low Life Enemies
 - `t`: small
-- `sd`: ["35% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["35% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"40719","n":"Damage vs Low Life Enemies","t":"small","sd":["35% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["17646"]}
+{"id":"40719","n":"Damage vs Low Life Enemies","t":"small","sd":["35% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["17646"]}
 ```
 
 ### 60. Damage vs Low Life Enemies
@@ -734,10 +734,10 @@
 - `id`: 43131
 - `n`: Damage vs Low Life Enemies
 - `t`: small
-- `sd`: ["35% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["35% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"43131","n":"Damage vs Low Life Enemies","t":"small","sd":["35% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["61973"]}
+{"id":"43131","n":"Damage vs Low Life Enemies","t":"small","sd":["35% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["61973"]}
 ```
 
 ### 61. Elemental Damage and Energy Shield Delay
@@ -1987,10 +1987,10 @@
 - `id`: 11410
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"11410","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["21755"]}
+{"id":"11410","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["21755"]}
 ```
 
 ### 45. Damage against Enemies on Low Life
@@ -1999,10 +1999,10 @@
 - `id`: 17924
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"17924","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["51867"]}
+{"id":"17924","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["51867"]}
 ```
 
 ### 46. Damage against Enemies on Low Life
@@ -2011,10 +2011,10 @@
 - `id`: 19341
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"19341","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]}
+{"id":"19341","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]}
 ```
 
 ### 47. Damage against Enemies on Low Life
@@ -2023,10 +2023,10 @@
 - `id`: 22976
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"22976","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["42250"]}
+{"id":"22976","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["42250"]}
 ```
 
 ### 48. Damage against Enemies on Low Life
@@ -2035,10 +2035,10 @@
 - `id`: 36596
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"36596","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["45013","56118"]}
+{"id":"36596","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["45013","56118"]}
 ```
 
 ### 49. Damage against Enemies on Low Life
@@ -2047,10 +2047,10 @@
 - `id`: 56118
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"56118","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["19341","22976"]}
+{"id":"56118","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["19341","22976"]}
 ```
 
 ### 50. Damage against Enemies on Low Life
@@ -2059,10 +2059,10 @@
 - `id`: 61487
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"61487","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["36596","19341","11410"]}
+{"id":"61487","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["36596","19341","11410"]}
 ```
 
 ### 51. Damage against Enemies on Low Life
@@ -2071,10 +2071,10 @@
 - `id`: 63732
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"63732","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["8440"]}
+{"id":"63732","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["8440"]}
 ```
 
 ### 52. Damage against Enemies on Low Life
@@ -2083,10 +2083,10 @@
 - `id`: 64995
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"64995","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["17924"]}
+{"id":"64995","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["17924"]}
 ```
 
 ### 53. Damage against Enemies on Low Life
@@ -2095,10 +2095,10 @@
 - `id`: 8440
 - `n`: Damage against Enemies on Low Life
 - `t`: small
-- `sd`: ["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"8440","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["45013"]}
+{"id":"8440","n":"Damage against Enemies on Low Life","t":"small","sd":["30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["45013"]}
 ```
 
 ### 54. Damage and Minion Damage
@@ -2143,10 +2143,10 @@
 - `id`: 28371
 - `n`: Damage vs Full Life
 - `t`: small
-- `sd`: ["20% increased Damage with [HitDamage|Hits] against Enemies that are on Full Life"]
+- `sd`: ["20% increased Damage with [Hit|Hits] against Enemies that are on Full Life"]
 
 ```json
-{"id":"28371","n":"Damage vs Full Life","t":"small","sd":["20% increased Damage with [HitDamage|Hits] against Enemies that are on Full Life"],"out":["60560"]}
+{"id":"28371","n":"Damage vs Full Life","t":"small","sd":["20% increased Damage with [Hit|Hits] against Enemies that are on Full Life"],"out":["60560"]}
 ```
 
 ### 58. Damage vs Full Life
@@ -2155,10 +2155,10 @@
 - `id`: 60560
 - `n`: Damage vs Full Life
 - `t`: small
-- `sd`: ["20% increased Damage with [HitDamage|Hits] against Enemies that are on Full Life"]
+- `sd`: ["20% increased Damage with [Hit|Hits] against Enemies that are on Full Life"]
 
 ```json
-{"id":"60560","n":"Damage vs Full Life","t":"small","sd":["20% increased Damage with [HitDamage|Hits] against Enemies that are on Full Life"],"out":["29527"]}
+{"id":"60560","n":"Damage vs Full Life","t":"small","sd":["20% increased Damage with [Hit|Hits] against Enemies that are on Full Life"],"out":["29527"]}
 ```
 
 ### 59. Damage vs Low Life Enemies
@@ -2167,10 +2167,10 @@
 - `id`: 40719
 - `n`: Damage vs Low Life Enemies
 - `t`: small
-- `sd`: ["35% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["35% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"40719","n":"Damage vs Low Life Enemies","t":"small","sd":["35% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["17646"]}
+{"id":"40719","n":"Damage vs Low Life Enemies","t":"small","sd":["35% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["17646"]}
 ```
 
 ### 60. Damage vs Low Life Enemies
@@ -2179,10 +2179,10 @@
 - `id`: 43131
 - `n`: Damage vs Low Life Enemies
 - `t`: small
-- `sd`: ["35% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"]
+- `sd`: ["35% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"]
 
 ```json
-{"id":"43131","n":"Damage vs Low Life Enemies","t":"small","sd":["35% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["61973"]}
+{"id":"43131","n":"Damage vs Low Life Enemies","t":"small","sd":["35% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"],"out":["61973"]}
 ```
 
 ### 61. Elemental Damage and Energy Shield Delay

@@ -1,6 +1,6 @@
 # Build Idea Pack — Fire Ignite Build
 
-- Generated UTC: `2026-09-04T14:20:49+00:00`
+- Generated UTC: `2026-09-05T13:27:47+00:00`
 - Idea slug: `fire-ignite-build`
 - Purpose: Engineer a fire/ignite build with strong map clear and boss damage-over-time scaling.
 - Keywords: `fire, ignite, burn, burning, flammability, exposure, penetration, ailment, elemental, damage over time, dot, area, aoe, spell, attack, projectile, spirit, support, resistance, infernalist, sorceress`
@@ -950,10 +950,10 @@
 - `id`: 24883
 - `n`: Attack Area and Combo
 - `t`: small
-- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"]
+- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"]
 
 ```json
-{"id":"24883","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"],"out":["44573"]}
+{"id":"24883","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"],"out":["44573"]}
 ```
 
 ### 79. Attack Area and Combo
@@ -962,10 +962,10 @@
 - `id`: 26211
 - `n`: Attack Area and Combo
 - `t`: small
-- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"]
+- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"]
 
 ```json
-{"id":"26211","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"],"out":["24883"]}
+{"id":"26211","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"],"out":["24883"]}
 ```
 
 ### 80. Attack Area and Combo
@@ -974,10 +974,10 @@
 - `id`: 55377
 - `n`: Attack Area and Combo
 - `t`: small
-- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"]
+- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"]
 
 ```json
-{"id":"55377","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"],"out":["26211","33463"]}
+{"id":"55377","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"],"out":["26211","33463"]}
 ```
 
 ### 81. Attack Area Damage
@@ -1142,10 +1142,10 @@
 - `id`: 51369
 - `n`: Damage against Burning Enemies
 - `t`: small
-- `sd`: ["14% increased Damage with [HitDamage|Hits] against [Burning|Burning] Enemies"]
+- `sd`: ["14% increased Damage with [Hit|Hits] against [Burning|Burning] Enemies"]
 
 ```json
-{"id":"51369","n":"Damage against Burning Enemies","t":"small","sd":["14% increased Damage with [HitDamage|Hits] against [Burning|Burning] Enemies"],"out":["56061","45503"]}
+{"id":"51369","n":"Damage against Burning Enemies","t":"small","sd":["14% increased Damage with [Hit|Hits] against [Burning|Burning] Enemies"],"out":["56061","45503"]}
 ```
 
 ### 95. Damage against Burning Enemies
@@ -1154,10 +1154,10 @@
 - `id`: 56061
 - `n`: Damage against Burning Enemies
 - `t`: small
-- `sd`: ["14% increased Damage with [HitDamage|Hits] against [Burning|Burning] Enemies"]
+- `sd`: ["14% increased Damage with [Hit|Hits] against [Burning|Burning] Enemies"]
 
 ```json
-{"id":"56061","n":"Damage against Burning Enemies","t":"small","sd":["14% increased Damage with [HitDamage|Hits] against [Burning|Burning] Enemies"]}
+{"id":"56061","n":"Damage against Burning Enemies","t":"small","sd":["14% increased Damage with [Hit|Hits] against [Burning|Burning] Enemies"]}
 ```
 
 ### 96. Elemental Attack Damage
@@ -2395,10 +2395,10 @@
 - `id`: 24883
 - `n`: Attack Area and Combo
 - `t`: small
-- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"]
+- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"]
 
 ```json
-{"id":"24883","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"],"out":["44573"]}
+{"id":"24883","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"],"out":["44573"]}
 ```
 
 ### 79. Attack Area and Combo
@@ -2407,10 +2407,10 @@
 - `id`: 26211
 - `n`: Attack Area and Combo
 - `t`: small
-- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"]
+- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"]
 
 ```json
-{"id":"26211","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"],"out":["24883"]}
+{"id":"26211","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"],"out":["24883"]}
 ```
 
 ### 80. Attack Area and Combo
@@ -2419,10 +2419,10 @@
 - `id`: 55377
 - `n`: Attack Area and Combo
 - `t`: small
-- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"]
+- `sd`: ["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"]
 
 ```json
-{"id":"55377","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [HitDamage|Hit]"],"out":["26211","33463"]}
+{"id":"55377","n":"Attack Area and Combo","t":"small","sd":["4% increased Area of Effect for [Attack|Attacks]","5% Chance to build an additional [Combo] on [Hit]"],"out":["26211","33463"]}
 ```
 
 ### 81. Attack Area Damage
@@ -2587,10 +2587,10 @@
 - `id`: 51369
 - `n`: Damage against Burning Enemies
 - `t`: small
-- `sd`: ["14% increased Damage with [HitDamage|Hits] against [Burning|Burning] Enemies"]
+- `sd`: ["14% increased Damage with [Hit|Hits] against [Burning|Burning] Enemies"]
 
 ```json
-{"id":"51369","n":"Damage against Burning Enemies","t":"small","sd":["14% increased Damage with [HitDamage|Hits] against [Burning|Burning] Enemies"],"out":["56061","45503"]}
+{"id":"51369","n":"Damage against Burning Enemies","t":"small","sd":["14% increased Damage with [Hit|Hits] against [Burning|Burning] Enemies"],"out":["56061","45503"]}
 ```
 
 ### 95. Damage against Burning Enemies
@@ -2599,10 +2599,10 @@
 - `id`: 56061
 - `n`: Damage against Burning Enemies
 - `t`: small
-- `sd`: ["14% increased Damage with [HitDamage|Hits] against [Burning|Burning] Enemies"]
+- `sd`: ["14% increased Damage with [Hit|Hits] against [Burning|Burning] Enemies"]
 
 ```json
-{"id":"56061","n":"Damage against Burning Enemies","t":"small","sd":["14% increased Damage with [HitDamage|Hits] against [Burning|Burning] Enemies"]}
+{"id":"56061","n":"Damage against Burning Enemies","t":"small","sd":["14% increased Damage with [Hit|Hits] against [Burning|Burning] Enemies"]}
 ```
 
 ### 96. Elemental Attack Damage

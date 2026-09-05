@@ -1,6 +1,6 @@
 # Build Idea Pack — Super Tanky Build
 
-- Generated UTC: `2026-09-04T14:20:40+00:00`
+- Generated UTC: `2026-09-05T13:27:38+00:00`
 - Idea slug: `super-tanky-build`
 - Purpose: Find the strongest practical defensive build with enough damage for bosses and maps.
 - Keywords: `tank, tanky, survivability, life, maximum life, energy shield, armour, evasion, block, shield, resistance, chaos resistance, recovery, regeneration, regen, leech, recoup, damage reduction, guard, stun, ailment, boss, bossing, mitigation, warrior, mercenary, monk, defense, endurance charge`
@@ -44,28 +44,28 @@
 {"id":"6715","n":"Energy Shield and Mana Regeneration","t":"small","sd":["10% increased maximum [EnergyShield|Energy Shield]","6% increased Mana Regeneration Rate"],"out":["116","41372"]}
 ```
 
-### 3. Life Leech. Armour and Evasion while Leeching
+### 3. Life Leech, Armour and Evasion while Leeching
 
 - Match score: `140`
 - `id`: 48583
-- `n`: Life Leech. Armour and Evasion while Leeching
+- `n`: Life Leech, Armour and Evasion while Leeching
 - `t`: small
 - `sd`: ["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"]
 
 ```json
-{"id":"48583","n":"Life Leech. Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["58783"]}
+{"id":"48583","n":"Life Leech, Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["58783"]}
 ```
 
-### 4. Life Leech. Armour and Evasion while Leeching
+### 4. Life Leech, Armour and Evasion while Leeching
 
 - Match score: `140`
 - `id`: 58783
-- `n`: Life Leech. Armour and Evasion while Leeching
+- `n`: Life Leech, Armour and Evasion while Leeching
 - `t`: small
 - `sd`: ["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"]
 
 ```json
-{"id":"58783","n":"Life Leech. Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["26520"]}
+{"id":"58783","n":"Life Leech, Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["26520"]}
 ```
 
 ### 5. Stun and Ailment Threshold from Energy Shield
@@ -176,19 +176,7 @@
 {"id":"58789","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"],"out":["13307"]}
 ```
 
-### 14. Defenses and Companion Life
-
-- Match score: `120`
-- `id`: 16568
-- `n`: Defenses and Companion Life
-- `t`: small
-- `sd`: ["[Companion|Companions] have 12% increased maximum Life","10% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] while your [Companion] is in your [Presence]"]
-
-```json
-{"id":"16568","n":"Defenses and Companion Life","t":"small","sd":["[Companion|Companions] have 12% increased maximum Life","10% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] while your [Companion] is in your [Presence]"],"out":["60992"]}
-```
-
-### 15. Life Regeneration
+### 14. Life Regeneration
 
 - Match score: `115`
 - `id`: 11916
@@ -200,7 +188,7 @@
 {"id":"11916","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"]}
 ```
 
-### 16. Life Regeneration
+### 15. Life Regeneration
 
 - Match score: `115`
 - `id`: 14926
@@ -212,7 +200,7 @@
 {"id":"14926","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"],"out":["50609","56910"]}
 ```
 
-### 17. Life Regeneration
+### 16. Life Regeneration
 
 - Match score: `115`
 - `id`: 22045
@@ -224,7 +212,7 @@
 {"id":"22045","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"],"out":["13505"]}
 ```
 
-### 18. Life Regeneration
+### 17. Life Regeneration
 
 - Match score: `115`
 - `id`: 4665
@@ -236,7 +224,7 @@
 {"id":"4665","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"],"out":["1913"]}
 ```
 
-### 19. Life Regeneration
+### 18. Life Regeneration
 
 - Match score: `115`
 - `id`: 51690
@@ -248,7 +236,7 @@
 {"id":"51690","n":"Life Regeneration","t":"small","sd":["Regenerate 0.5% of maximum Life per second"],"out":["12000"]}
 ```
 
-### 20. Life Regeneration
+### 19. Life Regeneration
 
 - Match score: `115`
 - `id`: 61534
@@ -260,7 +248,7 @@
 {"id":"61534","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"],"out":["4665"]}
 ```
 
-### 21. Life Regeneration and Damage
+### 20. Life Regeneration and Damage
 
 - Match score: `115`
 - `id`: 30704
@@ -272,7 +260,7 @@
 {"id":"30704","n":"Life Regeneration and Damage","t":"small","sd":["5% increased Damage","Regenerate 0.1% of maximum Life per second"],"out":["22045"]}
 ```
 
-### 22. Life Regeneration and Damage
+### 21. Life Regeneration and Damage
 
 - Match score: `115`
 - `id`: 63209
@@ -284,7 +272,7 @@
 {"id":"63209","n":"Life Regeneration and Damage","t":"small","sd":["5% increased Damage","Regenerate 0.1% of maximum Life per second"],"out":["30704","22045","17655","36602"]}
 ```
 
-### 23. Minion Life and Chaos Resistance
+### 22. Minion Life and Chaos Resistance
 
 - Match score: `115`
 - `id`: 10055
@@ -296,7 +284,7 @@
 {"id":"10055","n":"Minion Life and Chaos Resistance","t":"small","sd":["[Minion|Minions] have 8% increased maximum Life","[Minion|Minions] have +7% to [Chaos] [Resistances|Resistance]"],"out":["30554","41497"]}
 ```
 
-### 24. Minion Life and Chaos Resistance
+### 23. Minion Life and Chaos Resistance
 
 - Match score: `115`
 - `id`: 41497
@@ -308,7 +296,7 @@
 {"id":"41497","n":"Minion Life and Chaos Resistance","t":"small","sd":["[Minion|Minions] have 8% increased maximum Life","[Minion|Minions] have +7% to [Chaos] [Resistances|Resistance]"],"out":["21164"]}
 ```
 
-### 25. Minion Life and Chaos Resistance
+### 24. Minion Life and Chaos Resistance
 
 - Match score: `115`
 - `id`: 54632
@@ -320,7 +308,7 @@
 {"id":"54632","n":"Minion Life and Chaos Resistance","t":"small","sd":["[Minion|Minions] have 8% increased maximum Life","[Minion|Minions] have +7% to [Chaos] [Resistances|Resistance]"],"out":["36507"]}
 ```
 
-### 26. Minion Life and Chaos Resistance
+### 25. Minion Life and Chaos Resistance
 
 - Match score: `115`
 - `id`: 56956
@@ -332,7 +320,7 @@
 {"id":"56956","n":"Minion Life and Chaos Resistance","t":"small","sd":["[Minion|Minions] have 8% increased maximum Life","[Minion|Minions] have +7% to [Chaos] [Resistances|Resistance]"],"out":["15885","54632"]}
 ```
 
-### 27. Ailment Threshold from Energy Shield
+### 26. Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 59798
@@ -344,7 +332,7 @@
 {"id":"59798","n":"Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 12% of maximum [EnergyShield|Energy Shield]"],"out":["5335"]}
 ```
 
-### 28. Arcane Surge Effect and Life Regeneration
+### 27. Arcane Surge Effect and Life Regeneration
 
 - Match score: `105`
 - `id`: 11572
@@ -356,7 +344,7 @@
 {"id":"11572","n":"Arcane Surge Effect and Life Regeneration","t":"small","sd":["5% increased Life Regeneration rate","10% increased [BuffEffect|effect] of [ArcaneSurge|Arcane Surge] on you"],"out":["32923"]}
 ```
 
-### 29. Arcane Surge Effect and Life Regeneration
+### 28. Arcane Surge Effect and Life Regeneration
 
 - Match score: `105`
 - `id`: 32923
@@ -368,7 +356,7 @@
 {"id":"32923","n":"Arcane Surge Effect and Life Regeneration","t":"small","sd":["5% increased Life Regeneration rate","10% increased [BuffEffect|effect] of [ArcaneSurge|Arcane Surge] on you"],"out":["58215"]}
 ```
 
-### 30. Armour and Energy Shield
+### 29. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 10452
@@ -380,7 +368,7 @@
 {"id":"10452","n":"Armour and Energy Shield","t":"small","sd":["10% increased [Armour]","10% increased maximum [EnergyShield|Energy Shield]"],"out":["44213","1878"]}
 ```
 
-### 31. Armour and Energy Shield
+### 30. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 10635
@@ -392,7 +380,7 @@
 {"id":"10635","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["31724"]}
 ```
 
-### 32. Armour and Energy Shield
+### 31. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 10824
@@ -404,7 +392,7 @@
 {"id":"10824","n":"Armour and Energy Shield","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["49734"]}
 ```
 
-### 33. Armour and Energy Shield
+### 32. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 12777
@@ -416,7 +404,7 @@
 {"id":"12777","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["28950"]}
 ```
 
-### 34. Armour and Energy Shield
+### 33. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 13855
@@ -428,7 +416,7 @@
 {"id":"13855","n":"Armour and Energy Shield","t":"small","sd":["+10 to [Armour]","+5 to maximum [EnergyShield|Energy Shield]"],"out":["50626","64370"]}
 ```
 
-### 35. Armour and Energy Shield
+### 34. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 14342
@@ -440,7 +428,7 @@
 {"id":"14342","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["49256"]}
 ```
 
-### 36. Armour and Energy Shield
+### 35. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 14439
@@ -452,7 +440,7 @@
 {"id":"14439","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["5728"]}
 ```
 
-### 37. Armour and Energy Shield
+### 36. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 17349
@@ -464,7 +452,7 @@
 {"id":"17349","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["23940","58138"]}
 ```
 
-### 38. Armour and Energy Shield
+### 37. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 21081
@@ -476,7 +464,7 @@
 {"id":"21081","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["25745"]}
 ```
 
-### 39. Armour and Energy Shield
+### 38. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 25648
@@ -488,7 +476,7 @@
 {"id":"25648","n":"Armour and Energy Shield","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["10824","58894","45736"]}
 ```
 
-### 40. Armour and Energy Shield
+### 39. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 25745
@@ -500,7 +488,7 @@
 {"id":"25745","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["31890"]}
 ```
 
-### 41. Armour and Energy Shield
+### 40. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 26592
@@ -512,7 +500,7 @@
 {"id":"26592","n":"Armour and Energy Shield","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["58894"]}
 ```
 
-### 42. Armour and Energy Shield
+### 41. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 31290
@@ -524,7 +512,7 @@
 {"id":"31290","n":"Armour and Energy Shield","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["32474","60332","32764","37609"]}
 ```
 
-### 43. Armour and Energy Shield
+### 42. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 31890
@@ -536,7 +524,7 @@
 {"id":"31890","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["38827"]}
 ```
 
-### 44. Armour and Energy Shield
+### 43. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 32597
@@ -548,7 +536,7 @@
 {"id":"32597","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["12777"]}
 ```
 
-### 45. Armour and Energy Shield
+### 44. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 32764
@@ -560,7 +548,7 @@
 {"id":"32764","n":"Armour and Energy Shield","t":"small","sd":["+8% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]"],"out":["21213","37609"]}
 ```
 
-### 46. Armour and Energy Shield
+### 45. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 37609
@@ -572,7 +560,7 @@
 {"id":"37609","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["21213","60332"]}
 ```
 
-### 47. Armour and Energy Shield
+### 46. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 38827
@@ -584,7 +572,7 @@
 {"id":"38827","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["1546"]}
 ```
 
-### 48. Armour and Energy Shield
+### 47. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 43077
@@ -596,7 +584,7 @@
 {"id":"43077","n":"Armour and Energy Shield","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["26592","43250"]}
 ```
 
-### 49. Armour and Energy Shield
+### 48. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 45736
@@ -608,7 +596,7 @@
 {"id":"45736","n":"Armour and Energy Shield","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["15825"]}
 ```
 
-### 50. Armour and Energy Shield
+### 49. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 49256
@@ -620,7 +608,7 @@
 {"id":"49256","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["14439"]}
 ```
 
-### 51. Armour and Energy Shield
+### 50. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 506
@@ -632,7 +620,7 @@
 {"id":"506","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["6416"]}
 ```
 
-### 52. Armour and Energy Shield
+### 51. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 50626
@@ -644,7 +632,7 @@
 {"id":"50626","n":"Armour and Energy Shield","t":"small","sd":["+10 to [Armour]","+5 to maximum [EnergyShield|Energy Shield]"],"out":["32597"]}
 ```
 
-### 53. Armour and Energy Shield
+### 52. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 51183
@@ -656,7 +644,7 @@
 {"id":"51183","n":"Armour and Energy Shield","t":"small","sd":["10% increased [Armour]","10% increased maximum [EnergyShield|Energy Shield]"],"out":["45301","10635"]}
 ```
 
-### 54. Armour and Energy Shield
+### 53. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 55888
@@ -668,7 +656,7 @@
 {"id":"55888","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["18746","49256","440"]}
 ```
 
-### 55. Armour and Energy Shield
+### 54. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 60332
@@ -680,7 +668,7 @@
 {"id":"60332","n":"Armour and Energy Shield","t":"small","sd":["6% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["21213"]}
 ```
 
-### 56. Armour and Energy Shield
+### 55. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 6416
@@ -692,7 +680,7 @@
 {"id":"6416","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["51821"]}
 ```
 
-### 57. Armour and Energy Shield
+### 56. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 64357
@@ -704,7 +692,7 @@
 {"id":"64357","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["50062","506"]}
 ```
 
-### 58. Armour and Energy Shield Delay
+### 57. Armour and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 44213
@@ -716,7 +704,7 @@
 {"id":"44213","n":"Armour and Energy Shield Delay","t":"small","sd":["12% increased [Armour]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["869"]}
 ```
 
-### 59. Armour and Energy Shield Delay
+### 58. Armour and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 869
@@ -728,7 +716,7 @@
 {"id":"869","n":"Armour and Energy Shield Delay","t":"small","sd":["12% increased [Armour]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["18959"]}
 ```
 
-### 60. Armour and Energy Shield Mastery
+### 59. Armour and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 18713
@@ -739,7 +727,7 @@
 {"id":"18713","n":"Armour and Energy Shield Mastery","t":"small"}
 ```
 
-### 61. Armour and Energy Shield Mastery
+### 60. Armour and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 2074
@@ -750,7 +738,7 @@
 {"id":"2074","n":"Armour and Energy Shield Mastery","t":"small"}
 ```
 
-### 62. Armour and Energy Shield Mastery
+### 61. Armour and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 30393
@@ -761,7 +749,7 @@
 {"id":"30393","n":"Armour and Energy Shield Mastery","t":"small","out":["58894","15825"]}
 ```
 
-### 63. Armour and Energy Shield Mastery
+### 62. Armour and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 37641
@@ -772,7 +760,7 @@
 {"id":"37641","n":"Armour and Energy Shield Mastery","t":"small"}
 ```
 
-### 64. Armour and Energy Shield Mastery
+### 63. Armour and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 55843
@@ -783,7 +771,7 @@
 {"id":"55843","n":"Armour and Energy Shield Mastery","t":"small"}
 ```
 
-### 65. Armour and Energy Shield Mastery
+### 64. Armour and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 58138
@@ -794,7 +782,7 @@
 {"id":"58138","n":"Armour and Energy Shield Mastery","t":"small"}
 ```
 
-### 66. Armour and Energy Shield Mastery
+### 65. Armour and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 62948
@@ -805,7 +793,7 @@
 {"id":"62948","n":"Armour and Energy Shield Mastery","t":"small","out":["34617","64770"]}
 ```
 
-### 67. Armour Applies to Elemental Damage and Energy Shield Delay
+### 66. Armour Applies to Elemental Damage and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 32964
@@ -817,7 +805,7 @@
 {"id":"32964","n":"Armour Applies to Elemental Damage and Energy Shield Delay","t":"small","sd":["+6% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","3% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["34617"]}
 ```
 
-### 68. Armour Applies to Elemental Damage and Energy Shield Delay
+### 67. Armour Applies to Elemental Damage and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 40377
@@ -829,7 +817,7 @@
 {"id":"40377","n":"Armour Applies to Elemental Damage and Energy Shield Delay","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["46318","7554","46628"]}
 ```
 
-### 69. Armour Applies to Elemental Damage and Energy Shield Delay
+### 68. Armour Applies to Elemental Damage and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 41384
@@ -841,7 +829,7 @@
 {"id":"41384","n":"Armour Applies to Elemental Damage and Energy Shield Delay","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["51672"]}
 ```
 
-### 70. Armour Applies to Elemental Damage and Energy Shield Delay
+### 69. Armour Applies to Elemental Damage and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 46318
@@ -853,7 +841,7 @@
 {"id":"46318","n":"Armour Applies to Elemental Damage and Energy Shield Delay","t":"small","sd":["+6% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","3% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["32964"]}
 ```
 
-### 71. Armour Applies to Elemental Damage and Energy Shield Delay
+### 70. Armour Applies to Elemental Damage and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 51672
@@ -865,7 +853,7 @@
 {"id":"51672","n":"Armour Applies to Elemental Damage and Energy Shield Delay","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["31955"]}
 ```
 
-### 72. Armour Applies to Elemental Damage and Energy Shield Delay
+### 71. Armour Applies to Elemental Damage and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 65509
@@ -877,7 +865,7 @@
 {"id":"65509","n":"Armour Applies to Elemental Damage and Energy Shield Delay","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["41384","51821"]}
 ```
 
-### 73. Curse Effect on you and Life Regeneration Rate
+### 72. Curse Effect on you and Life Regeneration Rate
 
 - Match score: `105`
 - `id`: 6714
@@ -889,7 +877,7 @@
 {"id":"6714","n":"Curse Effect on you and Life Regeneration Rate","t":"small","sd":["5% increased Life Regeneration rate","5% reduced [BuffEffect|effect] of [Curse|Curses] on you"],"out":["41646"]}
 ```
 
-### 74. Energy Shield and Armour applies to Elemental Damage Hits
+### 73. Energy Shield and Armour applies to Elemental Damage Hits
 
 - Match score: `105`
 - `id`: 14328
@@ -901,7 +889,7 @@
 {"id":"14328","n":"Energy Shield and Armour applies to Elemental Damage Hits","t":"small","sd":["12% increased maximum [EnergyShield|Energy Shield]","+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]"],"out":["18959"]}
 ```
 
-### 75. Energy Shield and Armour applies to Elemental Damage Hits
+### 74. Energy Shield and Armour applies to Elemental Damage Hits
 
 - Match score: `105`
 - `id`: 1878
@@ -913,7 +901,7 @@
 {"id":"1878","n":"Energy Shield and Armour applies to Elemental Damage Hits","t":"small","sd":["12% increased maximum [EnergyShield|Energy Shield]","+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]"],"out":["14328"]}
 ```
 
-### 76. Energy Shield Delay and Armour Applies to Elemental Damage
+### 75. Energy Shield Delay and Armour Applies to Elemental Damage
 
 - Match score: `105`
 - `id`: 23039
@@ -925,7 +913,7 @@
 {"id":"23039","n":"Energy Shield Delay and Armour Applies to Elemental Damage","t":"small","sd":["+3% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","5% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["64770"]}
 ```
 
-### 77. Energy Shield Delay and Armour Applies to Elemental Damage
+### 76. Energy Shield Delay and Armour Applies to Elemental Damage
 
 - Match score: `105`
 - `id`: 7554
@@ -937,7 +925,7 @@
 {"id":"7554","n":"Energy Shield Delay and Armour Applies to Elemental Damage","t":"small","sd":["+3% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","5% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["23039"]}
 ```
 
-### 78. Energy Shield Recoup
+### 77. Energy Shield Recoup
 
 - Match score: `105`
 - `id`: 16695
@@ -949,7 +937,7 @@
 {"id":"16695","n":"Energy Shield Recoup","t":"small","sd":["3% of [ElementalDamage|Elemental Damage] taken [Recoup|Recouped] as [EnergyShield|Energy Shield]"],"out":["61926"]}
 ```
 
-### 79. Energy Shield Recoup
+### 78. Energy Shield Recoup
 
 - Match score: `105`
 - `id`: 61926
@@ -961,7 +949,7 @@
 {"id":"61926","n":"Energy Shield Recoup","t":"small","sd":["3% of [ElementalDamage|Elemental Damage] taken [Recoup|Recouped] as [EnergyShield|Energy Shield]"],"out":["1603"]}
 ```
 
-### 80. Energy Shield Recoup
+### 79. Energy Shield Recoup
 
 - Match score: `105`
 - `id`: 9510
@@ -973,7 +961,7 @@
 {"id":"9510","n":"Energy Shield Recoup","t":"small","sd":["3% of [ElementalDamage|Elemental Damage] taken [Recoup|Recouped] as [EnergyShield|Energy Shield]"],"out":["16695"]}
 ```
 
-### 81. Evasion and Energy Shield
+### 80. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 10944
@@ -985,7 +973,7 @@
 {"id":"10944","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"]}
 ```
 
-### 82. Evasion and Energy Shield
+### 81. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 12249
@@ -997,7 +985,7 @@
 {"id":"12249","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["12761"]}
 ```
 
-### 83. Evasion and Energy Shield
+### 82. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 12761
@@ -1009,7 +997,7 @@
 {"id":"12761","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"]}
 ```
 
-### 84. Evasion and Energy Shield
+### 83. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 13711
@@ -1021,7 +1009,7 @@
 {"id":"13711","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["30562"]}
 ```
 
-### 85. Evasion and Energy Shield
+### 84. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 15975
@@ -1033,7 +1021,7 @@
 {"id":"15975","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["48198"]}
 ```
 
-### 86. Evasion and Energy Shield
+### 85. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 17366
@@ -1045,7 +1033,7 @@
 {"id":"17366","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["29361"]}
 ```
 
-### 87. Evasion and Energy Shield
+### 86. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 17367
@@ -1057,7 +1045,7 @@
 {"id":"17367","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["53941","12761"]}
 ```
 
-### 88. Evasion and Energy Shield
+### 87. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 18314
@@ -1069,7 +1057,7 @@
 {"id":"18314","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["60239","58593"]}
 ```
 
-### 89. Evasion and Energy Shield
+### 88. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 18970
@@ -1081,7 +1069,7 @@
 {"id":"18970","n":"Evasion and Energy Shield","t":"small","sd":["+8 to [Evasion] Rating","+5 to maximum [EnergyShield|Energy Shield]"],"out":["17366","11938"]}
 ```
 
-### 90. Evasion and Energy Shield
+### 89. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 21336
@@ -1093,7 +1081,7 @@
 {"id":"21336","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["62984"]}
 ```
 
-### 91. Evasion and Energy Shield
+### 90. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 23415
@@ -1105,7 +1093,7 @@
 {"id":"23415","n":"Evasion and Energy Shield","t":"small","sd":["15% increased [Evasion|Evasion Rating]","15% increased maximum [EnergyShield|Energy Shield]"],"out":["8143"]}
 ```
 
-### 92. Evasion and Energy Shield
+### 91. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 26034
@@ -1117,7 +1105,7 @@
 {"id":"26034","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["45631"]}
 ```
 
-### 93. Evasion and Energy Shield
+### 92. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 29361
@@ -1129,7 +1117,7 @@
 {"id":"29361","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"]}
 ```
 
-### 94. Evasion and Energy Shield
+### 93. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 327
@@ -1141,7 +1129,7 @@
 {"id":"327","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["9652"]}
 ```
 
-### 95. Evasion and Energy Shield
+### 94. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 33366
@@ -1153,7 +1141,7 @@
 {"id":"33366","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["10944"]}
 ```
 
-### 96. Evasion and Energy Shield
+### 95. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 42805
@@ -1165,7 +1153,7 @@
 {"id":"42805","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["26034"]}
 ```
 
-### 97. Evasion and Energy Shield
+### 96. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 52295
@@ -1177,7 +1165,7 @@
 {"id":"52295","n":"Evasion and Energy Shield","t":"small","sd":["15% increased [Evasion|Evasion Rating]","15% increased maximum [EnergyShield|Energy Shield]"],"out":["39595"]}
 ```
 
-### 98. Evasion and Energy Shield
+### 97. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 52980
@@ -1189,7 +1177,7 @@
 {"id":"52980","n":"Evasion and Energy Shield","t":"small","sd":["+8 to [Evasion] Rating","+5 to maximum [EnergyShield|Energy Shield]"],"out":["18970","44343"]}
 ```
 
-### 99. Evasion and Energy Shield
+### 98. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 56838
@@ -1201,7 +1189,7 @@
 {"id":"56838","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["42805","62624"]}
 ```
 
-### 100. Evasion and Energy Shield
+### 99. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 58593
@@ -1213,7 +1201,7 @@
 {"id":"58593","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["33463","26556"]}
 ```
 
-### 101. Evasion and Energy Shield
+### 100. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 60239
@@ -1225,7 +1213,7 @@
 {"id":"60239","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["15343","49356"]}
 ```
 
-### 102. Evasion and Energy Shield
+### 101. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 62624
@@ -1237,7 +1225,7 @@
 {"id":"62624","n":"Evasion and Energy Shield","t":"small","sd":["+30 to [Evasion] Rating","+15 to maximum [EnergyShield|Energy Shield]"]}
 ```
 
-### 103. Evasion and Energy Shield
+### 102. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 62841
@@ -1249,7 +1237,7 @@
 {"id":"62841","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["17367","56045","53941"]}
 ```
 
-### 104. Evasion and Energy Shield
+### 103. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 8908
@@ -1261,7 +1249,7 @@
 {"id":"8908","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["13711"]}
 ```
 
-### 105. Evasion and Energy Shield Delay
+### 104. Evasion and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 32681
@@ -1273,7 +1261,7 @@
 {"id":"32681","n":"Evasion and Energy Shield Delay","t":"small","sd":["12% increased [Evasion|Evasion Rating]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["32664","38668"]}
 ```
 
-### 106. Evasion and Energy Shield Delay
+### 105. Evasion and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 3630
@@ -1285,7 +1273,7 @@
 {"id":"3630","n":"Evasion and Energy Shield Delay","t":"small","sd":["12% increased [Evasion|Evasion Rating]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["62624"]}
 ```
 
-### 107. Evasion and Energy Shield Delay
+### 106. Evasion and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 45631
@@ -1297,7 +1285,7 @@
 {"id":"45631","n":"Evasion and Energy Shield Delay","t":"small","sd":["12% increased [Evasion|Evasion Rating]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["3630"]}
 ```
 
-### 108. Evasion and Energy Shield Delay
+### 107. Evasion and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 5188
@@ -1309,7 +1297,7 @@
 {"id":"5188","n":"Evasion and Energy Shield Delay","t":"small","sd":["12% increased [Evasion|Evasion Rating]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["27671","38668","24165"]}
 ```
 
-### 109. Evasion and Energy Shield Mastery
+### 108. Evasion and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 11032
@@ -1320,7 +1308,7 @@
 {"id":"11032","n":"Evasion and Energy Shield Mastery","t":"small"}
 ```
 
-### 110. Evasion and Energy Shield Mastery
+### 109. Evasion and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 1215
@@ -1331,7 +1319,7 @@
 {"id":"1215","n":"Evasion and Energy Shield Mastery","t":"small"}
 ```
 
-### 111. Evasion and Energy Shield Mastery
+### 110. Evasion and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 17283
@@ -1342,7 +1330,7 @@
 {"id":"17283","n":"Evasion and Energy Shield Mastery","t":"small"}
 ```
 
-### 112. Evasion and Energy Shield Mastery
+### 111. Evasion and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 52445
@@ -1353,7 +1341,7 @@
 {"id":"52445","n":"Evasion and Energy Shield Mastery","t":"small"}
 ```
 
-### 113. Life and Mana Regeneration Rate
+### 112. Life and Mana Regeneration Rate
 
 - Match score: `105`
 - `id`: 21284
@@ -1365,7 +1353,7 @@
 {"id":"21284","n":"Life and Mana Regeneration Rate","t":"small","sd":["8% increased Life Regeneration rate","8% increased Mana Regeneration Rate"],"out":["30904"]}
 ```
 
-### 114. Life and Mana Regeneration Rate
+### 113. Life and Mana Regeneration Rate
 
 - Match score: `105`
 - `id`: 23195
@@ -1377,7 +1365,7 @@
 {"id":"23195","n":"Life and Mana Regeneration Rate","t":"small","sd":["10% increased Life Regeneration rate","10% increased Mana Regeneration Rate"],"out":["55375"]}
 ```
 
-### 115. Life and Mana Regeneration Rate
+### 114. Life and Mana Regeneration Rate
 
 - Match score: `105`
 - `id`: 4970
@@ -1389,7 +1377,7 @@
 {"id":"4970","n":"Life and Mana Regeneration Rate","t":"small","sd":["10% increased Life Regeneration rate","10% increased Mana Regeneration Rate"],"out":["23195"]}
 ```
 
-### 116. Life Costs and Regeneration
+### 115. Life Costs and Regeneration
 
 - Match score: `105`
 - `id`: 51618
@@ -1401,7 +1389,7 @@
 {"id":"51618","n":"Life Costs and Regeneration","t":"small","sd":["15% increased Life Regeneration rate","6% of Skill Mana Costs [StatConversion|Converted] to Life Costs"],"out":["11580","43324"]}
 ```
 
-### 117. Life Regeneration
+### 116. Life Regeneration
 
 - Match score: `105`
 - `id`: 11329
@@ -1413,7 +1401,7 @@
 {"id":"11329","n":"Life Regeneration","t":"small","sd":["10% increased Life Regeneration rate"],"out":["54676"]}
 ```
 
-### 118. Life Regeneration
+### 117. Life Regeneration
 
 - Match score: `105`
 - `id`: 1499
@@ -1425,7 +1413,7 @@
 {"id":"1499","n":"Life Regeneration","t":"small","sd":["10% increased Life Regeneration rate"],"out":["33830"]}
 ```
 
-### 119. Life Regeneration
+### 118. Life Regeneration
 
 - Match score: `105`
 - `id`: 16311
@@ -1437,7 +1425,7 @@
 {"id":"16311","n":"Life Regeneration","t":"small","sd":["10% increased Life Regeneration rate"],"out":["32600","14654"]}
 ```
 
-### 120. Life Regeneration
+### 119. Life Regeneration
 
 - Match score: `105`
 - `id`: 17294
@@ -1447,6 +1435,18 @@
 
 ```json
 {"id":"17294","n":"Life Regeneration","t":"small","sd":["10% increased Life Regeneration rate"],"out":["19330","27501"]}
+```
+
+### 120. Life Regeneration
+
+- Match score: `105`
+- `id`: 19330
+- `n`: Life Regeneration
+- `t`: small
+- `sd`: ["10% increased Life Regeneration rate"]
+
+```json
+{"id":"19330","n":"Life Regeneration","t":"small","sd":["10% increased Life Regeneration rate"]}
 ```
 
 ## Passive full compact
@@ -1478,28 +1478,28 @@
 {"id":"6715","n":"Energy Shield and Mana Regeneration","t":"small","sd":["10% increased maximum [EnergyShield|Energy Shield]","6% increased Mana Regeneration Rate"],"out":["116","41372"]}
 ```
 
-### 3. Life Leech. Armour and Evasion while Leeching
+### 3. Life Leech, Armour and Evasion while Leeching
 
 - Match score: `140`
 - `id`: 48583
-- `n`: Life Leech. Armour and Evasion while Leeching
+- `n`: Life Leech, Armour and Evasion while Leeching
 - `t`: small
 - `sd`: ["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"]
 
 ```json
-{"id":"48583","n":"Life Leech. Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["58783"]}
+{"id":"48583","n":"Life Leech, Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["58783"]}
 ```
 
-### 4. Life Leech. Armour and Evasion while Leeching
+### 4. Life Leech, Armour and Evasion while Leeching
 
 - Match score: `140`
 - `id`: 58783
-- `n`: Life Leech. Armour and Evasion while Leeching
+- `n`: Life Leech, Armour and Evasion while Leeching
 - `t`: small
 - `sd`: ["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"]
 
 ```json
-{"id":"58783","n":"Life Leech. Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["26520"]}
+{"id":"58783","n":"Life Leech, Armour and Evasion while Leeching","t":"small","sd":["6% increased amount of Life [LifeLeech|Leeched]","8% increased [Armour] and [Evasion] Rating while Leeching"],"out":["26520"]}
 ```
 
 ### 5. Stun and Ailment Threshold from Energy Shield
@@ -1610,19 +1610,7 @@
 {"id":"58789","n":"Stun and Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]","Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]"],"out":["13307"]}
 ```
 
-### 14. Defenses and Companion Life
-
-- Match score: `120`
-- `id`: 16568
-- `n`: Defenses and Companion Life
-- `t`: small
-- `sd`: ["[Companion|Companions] have 12% increased maximum Life","10% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] while your [Companion] is in your [Presence]"]
-
-```json
-{"id":"16568","n":"Defenses and Companion Life","t":"small","sd":["[Companion|Companions] have 12% increased maximum Life","10% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] while your [Companion] is in your [Presence]"],"out":["60992"]}
-```
-
-### 15. Life Regeneration
+### 14. Life Regeneration
 
 - Match score: `115`
 - `id`: 11916
@@ -1634,7 +1622,7 @@
 {"id":"11916","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"]}
 ```
 
-### 16. Life Regeneration
+### 15. Life Regeneration
 
 - Match score: `115`
 - `id`: 14926
@@ -1646,7 +1634,7 @@
 {"id":"14926","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"],"out":["50609","56910"]}
 ```
 
-### 17. Life Regeneration
+### 16. Life Regeneration
 
 - Match score: `115`
 - `id`: 22045
@@ -1658,7 +1646,7 @@
 {"id":"22045","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"],"out":["13505"]}
 ```
 
-### 18. Life Regeneration
+### 17. Life Regeneration
 
 - Match score: `115`
 - `id`: 4665
@@ -1670,7 +1658,7 @@
 {"id":"4665","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"],"out":["1913"]}
 ```
 
-### 19. Life Regeneration
+### 18. Life Regeneration
 
 - Match score: `115`
 - `id`: 51690
@@ -1682,7 +1670,7 @@
 {"id":"51690","n":"Life Regeneration","t":"small","sd":["Regenerate 0.5% of maximum Life per second"],"out":["12000"]}
 ```
 
-### 20. Life Regeneration
+### 19. Life Regeneration
 
 - Match score: `115`
 - `id`: 61534
@@ -1694,7 +1682,7 @@
 {"id":"61534","n":"Life Regeneration","t":"small","sd":["Regenerate 0.2% of maximum Life per second"],"out":["4665"]}
 ```
 
-### 21. Life Regeneration and Damage
+### 20. Life Regeneration and Damage
 
 - Match score: `115`
 - `id`: 30704
@@ -1706,7 +1694,7 @@
 {"id":"30704","n":"Life Regeneration and Damage","t":"small","sd":["5% increased Damage","Regenerate 0.1% of maximum Life per second"],"out":["22045"]}
 ```
 
-### 22. Life Regeneration and Damage
+### 21. Life Regeneration and Damage
 
 - Match score: `115`
 - `id`: 63209
@@ -1718,7 +1706,7 @@
 {"id":"63209","n":"Life Regeneration and Damage","t":"small","sd":["5% increased Damage","Regenerate 0.1% of maximum Life per second"],"out":["30704","22045","17655","36602"]}
 ```
 
-### 23. Minion Life and Chaos Resistance
+### 22. Minion Life and Chaos Resistance
 
 - Match score: `115`
 - `id`: 10055
@@ -1730,7 +1718,7 @@
 {"id":"10055","n":"Minion Life and Chaos Resistance","t":"small","sd":["[Minion|Minions] have 8% increased maximum Life","[Minion|Minions] have +7% to [Chaos] [Resistances|Resistance]"],"out":["30554","41497"]}
 ```
 
-### 24. Minion Life and Chaos Resistance
+### 23. Minion Life and Chaos Resistance
 
 - Match score: `115`
 - `id`: 41497
@@ -1742,7 +1730,7 @@
 {"id":"41497","n":"Minion Life and Chaos Resistance","t":"small","sd":["[Minion|Minions] have 8% increased maximum Life","[Minion|Minions] have +7% to [Chaos] [Resistances|Resistance]"],"out":["21164"]}
 ```
 
-### 25. Minion Life and Chaos Resistance
+### 24. Minion Life and Chaos Resistance
 
 - Match score: `115`
 - `id`: 54632
@@ -1754,7 +1742,7 @@
 {"id":"54632","n":"Minion Life and Chaos Resistance","t":"small","sd":["[Minion|Minions] have 8% increased maximum Life","[Minion|Minions] have +7% to [Chaos] [Resistances|Resistance]"],"out":["36507"]}
 ```
 
-### 26. Minion Life and Chaos Resistance
+### 25. Minion Life and Chaos Resistance
 
 - Match score: `115`
 - `id`: 56956
@@ -1766,7 +1754,7 @@
 {"id":"56956","n":"Minion Life and Chaos Resistance","t":"small","sd":["[Minion|Minions] have 8% increased maximum Life","[Minion|Minions] have +7% to [Chaos] [Resistances|Resistance]"],"out":["15885","54632"]}
 ```
 
-### 27. Ailment Threshold from Energy Shield
+### 26. Ailment Threshold from Energy Shield
 
 - Match score: `105`
 - `id`: 59798
@@ -1778,7 +1766,7 @@
 {"id":"59798","n":"Ailment Threshold from Energy Shield","t":"small","sd":["Gain additional [AilmentThreshold|Ailment Threshold] equal to 12% of maximum [EnergyShield|Energy Shield]"],"out":["5335"]}
 ```
 
-### 28. Arcane Surge Effect and Life Regeneration
+### 27. Arcane Surge Effect and Life Regeneration
 
 - Match score: `105`
 - `id`: 11572
@@ -1790,7 +1778,7 @@
 {"id":"11572","n":"Arcane Surge Effect and Life Regeneration","t":"small","sd":["5% increased Life Regeneration rate","10% increased [BuffEffect|effect] of [ArcaneSurge|Arcane Surge] on you"],"out":["32923"]}
 ```
 
-### 29. Arcane Surge Effect and Life Regeneration
+### 28. Arcane Surge Effect and Life Regeneration
 
 - Match score: `105`
 - `id`: 32923
@@ -1802,7 +1790,7 @@
 {"id":"32923","n":"Arcane Surge Effect and Life Regeneration","t":"small","sd":["5% increased Life Regeneration rate","10% increased [BuffEffect|effect] of [ArcaneSurge|Arcane Surge] on you"],"out":["58215"]}
 ```
 
-### 30. Armour and Energy Shield
+### 29. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 10452
@@ -1814,7 +1802,7 @@
 {"id":"10452","n":"Armour and Energy Shield","t":"small","sd":["10% increased [Armour]","10% increased maximum [EnergyShield|Energy Shield]"],"out":["44213","1878"]}
 ```
 
-### 31. Armour and Energy Shield
+### 30. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 10635
@@ -1826,7 +1814,7 @@
 {"id":"10635","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["31724"]}
 ```
 
-### 32. Armour and Energy Shield
+### 31. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 10824
@@ -1838,7 +1826,7 @@
 {"id":"10824","n":"Armour and Energy Shield","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["49734"]}
 ```
 
-### 33. Armour and Energy Shield
+### 32. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 12777
@@ -1850,7 +1838,7 @@
 {"id":"12777","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["28950"]}
 ```
 
-### 34. Armour and Energy Shield
+### 33. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 13855
@@ -1862,7 +1850,7 @@
 {"id":"13855","n":"Armour and Energy Shield","t":"small","sd":["+10 to [Armour]","+5 to maximum [EnergyShield|Energy Shield]"],"out":["50626","64370"]}
 ```
 
-### 35. Armour and Energy Shield
+### 34. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 14342
@@ -1874,7 +1862,7 @@
 {"id":"14342","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["49256"]}
 ```
 
-### 36. Armour and Energy Shield
+### 35. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 14439
@@ -1886,7 +1874,7 @@
 {"id":"14439","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["5728"]}
 ```
 
-### 37. Armour and Energy Shield
+### 36. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 17349
@@ -1898,7 +1886,7 @@
 {"id":"17349","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["23940","58138"]}
 ```
 
-### 38. Armour and Energy Shield
+### 37. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 21081
@@ -1910,7 +1898,7 @@
 {"id":"21081","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["25745"]}
 ```
 
-### 39. Armour and Energy Shield
+### 38. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 25648
@@ -1922,7 +1910,7 @@
 {"id":"25648","n":"Armour and Energy Shield","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["10824","58894","45736"]}
 ```
 
-### 40. Armour and Energy Shield
+### 39. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 25745
@@ -1934,7 +1922,7 @@
 {"id":"25745","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["31890"]}
 ```
 
-### 41. Armour and Energy Shield
+### 40. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 26592
@@ -1946,7 +1934,7 @@
 {"id":"26592","n":"Armour and Energy Shield","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["58894"]}
 ```
 
-### 42. Armour and Energy Shield
+### 41. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 31290
@@ -1958,7 +1946,7 @@
 {"id":"31290","n":"Armour and Energy Shield","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["32474","60332","32764","37609"]}
 ```
 
-### 43. Armour and Energy Shield
+### 42. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 31890
@@ -1970,7 +1958,7 @@
 {"id":"31890","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["38827"]}
 ```
 
-### 44. Armour and Energy Shield
+### 43. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 32597
@@ -1982,7 +1970,7 @@
 {"id":"32597","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["12777"]}
 ```
 
-### 45. Armour and Energy Shield
+### 44. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 32764
@@ -1994,7 +1982,7 @@
 {"id":"32764","n":"Armour and Energy Shield","t":"small","sd":["+8% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]"],"out":["21213","37609"]}
 ```
 
-### 46. Armour and Energy Shield
+### 45. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 37609
@@ -2006,7 +1994,7 @@
 {"id":"37609","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["21213","60332"]}
 ```
 
-### 47. Armour and Energy Shield
+### 46. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 38827
@@ -2018,7 +2006,7 @@
 {"id":"38827","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["1546"]}
 ```
 
-### 48. Armour and Energy Shield
+### 47. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 43077
@@ -2030,7 +2018,7 @@
 {"id":"43077","n":"Armour and Energy Shield","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["26592","43250"]}
 ```
 
-### 49. Armour and Energy Shield
+### 48. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 45736
@@ -2042,7 +2030,7 @@
 {"id":"45736","n":"Armour and Energy Shield","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["15825"]}
 ```
 
-### 50. Armour and Energy Shield
+### 49. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 49256
@@ -2054,7 +2042,7 @@
 {"id":"49256","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["14439"]}
 ```
 
-### 51. Armour and Energy Shield
+### 50. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 506
@@ -2066,7 +2054,7 @@
 {"id":"506","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["6416"]}
 ```
 
-### 52. Armour and Energy Shield
+### 51. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 50626
@@ -2078,7 +2066,7 @@
 {"id":"50626","n":"Armour and Energy Shield","t":"small","sd":["+10 to [Armour]","+5 to maximum [EnergyShield|Energy Shield]"],"out":["32597"]}
 ```
 
-### 53. Armour and Energy Shield
+### 52. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 51183
@@ -2090,7 +2078,7 @@
 {"id":"51183","n":"Armour and Energy Shield","t":"small","sd":["10% increased [Armour]","10% increased maximum [EnergyShield|Energy Shield]"],"out":["45301","10635"]}
 ```
 
-### 54. Armour and Energy Shield
+### 53. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 55888
@@ -2102,7 +2090,7 @@
 {"id":"55888","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["18746","49256","440"]}
 ```
 
-### 55. Armour and Energy Shield
+### 54. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 60332
@@ -2114,7 +2102,7 @@
 {"id":"60332","n":"Armour and Energy Shield","t":"small","sd":["6% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["21213"]}
 ```
 
-### 56. Armour and Energy Shield
+### 55. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 6416
@@ -2126,7 +2114,7 @@
 {"id":"6416","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["51821"]}
 ```
 
-### 57. Armour and Energy Shield
+### 56. Armour and Energy Shield
 
 - Match score: `105`
 - `id`: 64357
@@ -2138,7 +2126,7 @@
 {"id":"64357","n":"Armour and Energy Shield","t":"small","sd":["12% increased [Armour]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["50062","506"]}
 ```
 
-### 58. Armour and Energy Shield Delay
+### 57. Armour and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 44213
@@ -2150,7 +2138,7 @@
 {"id":"44213","n":"Armour and Energy Shield Delay","t":"small","sd":["12% increased [Armour]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["869"]}
 ```
 
-### 59. Armour and Energy Shield Delay
+### 58. Armour and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 869
@@ -2162,7 +2150,7 @@
 {"id":"869","n":"Armour and Energy Shield Delay","t":"small","sd":["12% increased [Armour]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["18959"]}
 ```
 
-### 60. Armour and Energy Shield Mastery
+### 59. Armour and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 18713
@@ -2173,7 +2161,7 @@
 {"id":"18713","n":"Armour and Energy Shield Mastery","t":"small"}
 ```
 
-### 61. Armour and Energy Shield Mastery
+### 60. Armour and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 2074
@@ -2184,7 +2172,7 @@
 {"id":"2074","n":"Armour and Energy Shield Mastery","t":"small"}
 ```
 
-### 62. Armour and Energy Shield Mastery
+### 61. Armour and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 30393
@@ -2195,7 +2183,7 @@
 {"id":"30393","n":"Armour and Energy Shield Mastery","t":"small","out":["58894","15825"]}
 ```
 
-### 63. Armour and Energy Shield Mastery
+### 62. Armour and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 37641
@@ -2206,7 +2194,7 @@
 {"id":"37641","n":"Armour and Energy Shield Mastery","t":"small"}
 ```
 
-### 64. Armour and Energy Shield Mastery
+### 63. Armour and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 55843
@@ -2217,7 +2205,7 @@
 {"id":"55843","n":"Armour and Energy Shield Mastery","t":"small"}
 ```
 
-### 65. Armour and Energy Shield Mastery
+### 64. Armour and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 58138
@@ -2228,7 +2216,7 @@
 {"id":"58138","n":"Armour and Energy Shield Mastery","t":"small"}
 ```
 
-### 66. Armour and Energy Shield Mastery
+### 65. Armour and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 62948
@@ -2239,7 +2227,7 @@
 {"id":"62948","n":"Armour and Energy Shield Mastery","t":"small","out":["34617","64770"]}
 ```
 
-### 67. Armour Applies to Elemental Damage and Energy Shield Delay
+### 66. Armour Applies to Elemental Damage and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 32964
@@ -2251,7 +2239,7 @@
 {"id":"32964","n":"Armour Applies to Elemental Damage and Energy Shield Delay","t":"small","sd":["+6% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","3% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["34617"]}
 ```
 
-### 68. Armour Applies to Elemental Damage and Energy Shield Delay
+### 67. Armour Applies to Elemental Damage and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 40377
@@ -2263,7 +2251,7 @@
 {"id":"40377","n":"Armour Applies to Elemental Damage and Energy Shield Delay","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["46318","7554","46628"]}
 ```
 
-### 69. Armour Applies to Elemental Damage and Energy Shield Delay
+### 68. Armour Applies to Elemental Damage and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 41384
@@ -2275,7 +2263,7 @@
 {"id":"41384","n":"Armour Applies to Elemental Damage and Energy Shield Delay","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["51672"]}
 ```
 
-### 70. Armour Applies to Elemental Damage and Energy Shield Delay
+### 69. Armour Applies to Elemental Damage and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 46318
@@ -2287,7 +2275,7 @@
 {"id":"46318","n":"Armour Applies to Elemental Damage and Energy Shield Delay","t":"small","sd":["+6% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","3% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["32964"]}
 ```
 
-### 71. Armour Applies to Elemental Damage and Energy Shield Delay
+### 70. Armour Applies to Elemental Damage and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 51672
@@ -2299,7 +2287,7 @@
 {"id":"51672","n":"Armour Applies to Elemental Damage and Energy Shield Delay","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["31955"]}
 ```
 
-### 72. Armour Applies to Elemental Damage and Energy Shield Delay
+### 71. Armour Applies to Elemental Damage and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 65509
@@ -2311,7 +2299,7 @@
 {"id":"65509","n":"Armour Applies to Elemental Damage and Energy Shield Delay","t":"small","sd":["+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["41384","51821"]}
 ```
 
-### 73. Curse Effect on you and Life Regeneration Rate
+### 72. Curse Effect on you and Life Regeneration Rate
 
 - Match score: `105`
 - `id`: 6714
@@ -2323,7 +2311,7 @@
 {"id":"6714","n":"Curse Effect on you and Life Regeneration Rate","t":"small","sd":["5% increased Life Regeneration rate","5% reduced [BuffEffect|effect] of [Curse|Curses] on you"],"out":["41646"]}
 ```
 
-### 74. Energy Shield and Armour applies to Elemental Damage Hits
+### 73. Energy Shield and Armour applies to Elemental Damage Hits
 
 - Match score: `105`
 - `id`: 14328
@@ -2335,7 +2323,7 @@
 {"id":"14328","n":"Energy Shield and Armour applies to Elemental Damage Hits","t":"small","sd":["12% increased maximum [EnergyShield|Energy Shield]","+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]"],"out":["18959"]}
 ```
 
-### 75. Energy Shield and Armour applies to Elemental Damage Hits
+### 74. Energy Shield and Armour applies to Elemental Damage Hits
 
 - Match score: `105`
 - `id`: 1878
@@ -2347,7 +2335,7 @@
 {"id":"1878","n":"Energy Shield and Armour applies to Elemental Damage Hits","t":"small","sd":["12% increased maximum [EnergyShield|Energy Shield]","+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]"],"out":["14328"]}
 ```
 
-### 76. Energy Shield Delay and Armour Applies to Elemental Damage
+### 75. Energy Shield Delay and Armour Applies to Elemental Damage
 
 - Match score: `105`
 - `id`: 23039
@@ -2359,7 +2347,7 @@
 {"id":"23039","n":"Energy Shield Delay and Armour Applies to Elemental Damage","t":"small","sd":["+3% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","5% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["64770"]}
 ```
 
-### 77. Energy Shield Delay and Armour Applies to Elemental Damage
+### 76. Energy Shield Delay and Armour Applies to Elemental Damage
 
 - Match score: `105`
 - `id`: 7554
@@ -2371,7 +2359,7 @@
 {"id":"7554","n":"Energy Shield Delay and Armour Applies to Elemental Damage","t":"small","sd":["+3% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]","5% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["23039"]}
 ```
 
-### 78. Energy Shield Recoup
+### 77. Energy Shield Recoup
 
 - Match score: `105`
 - `id`: 16695
@@ -2383,7 +2371,7 @@
 {"id":"16695","n":"Energy Shield Recoup","t":"small","sd":["3% of [ElementalDamage|Elemental Damage] taken [Recoup|Recouped] as [EnergyShield|Energy Shield]"],"out":["61926"]}
 ```
 
-### 79. Energy Shield Recoup
+### 78. Energy Shield Recoup
 
 - Match score: `105`
 - `id`: 61926
@@ -2395,7 +2383,7 @@
 {"id":"61926","n":"Energy Shield Recoup","t":"small","sd":["3% of [ElementalDamage|Elemental Damage] taken [Recoup|Recouped] as [EnergyShield|Energy Shield]"],"out":["1603"]}
 ```
 
-### 80. Energy Shield Recoup
+### 79. Energy Shield Recoup
 
 - Match score: `105`
 - `id`: 9510
@@ -2407,7 +2395,7 @@
 {"id":"9510","n":"Energy Shield Recoup","t":"small","sd":["3% of [ElementalDamage|Elemental Damage] taken [Recoup|Recouped] as [EnergyShield|Energy Shield]"],"out":["16695"]}
 ```
 
-### 81. Evasion and Energy Shield
+### 80. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 10944
@@ -2419,7 +2407,7 @@
 {"id":"10944","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"]}
 ```
 
-### 82. Evasion and Energy Shield
+### 81. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 12249
@@ -2431,7 +2419,7 @@
 {"id":"12249","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["12761"]}
 ```
 
-### 83. Evasion and Energy Shield
+### 82. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 12761
@@ -2443,7 +2431,7 @@
 {"id":"12761","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"]}
 ```
 
-### 84. Evasion and Energy Shield
+### 83. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 13711
@@ -2455,7 +2443,7 @@
 {"id":"13711","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["30562"]}
 ```
 
-### 85. Evasion and Energy Shield
+### 84. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 15975
@@ -2467,7 +2455,7 @@
 {"id":"15975","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["48198"]}
 ```
 
-### 86. Evasion and Energy Shield
+### 85. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 17366
@@ -2479,7 +2467,7 @@
 {"id":"17366","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["29361"]}
 ```
 
-### 87. Evasion and Energy Shield
+### 86. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 17367
@@ -2491,7 +2479,7 @@
 {"id":"17367","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["53941","12761"]}
 ```
 
-### 88. Evasion and Energy Shield
+### 87. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 18314
@@ -2503,7 +2491,7 @@
 {"id":"18314","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["60239","58593"]}
 ```
 
-### 89. Evasion and Energy Shield
+### 88. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 18970
@@ -2515,7 +2503,7 @@
 {"id":"18970","n":"Evasion and Energy Shield","t":"small","sd":["+8 to [Evasion] Rating","+5 to maximum [EnergyShield|Energy Shield]"],"out":["17366","11938"]}
 ```
 
-### 90. Evasion and Energy Shield
+### 89. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 21336
@@ -2527,7 +2515,7 @@
 {"id":"21336","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["62984"]}
 ```
 
-### 91. Evasion and Energy Shield
+### 90. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 23415
@@ -2539,7 +2527,7 @@
 {"id":"23415","n":"Evasion and Energy Shield","t":"small","sd":["15% increased [Evasion|Evasion Rating]","15% increased maximum [EnergyShield|Energy Shield]"],"out":["8143"]}
 ```
 
-### 92. Evasion and Energy Shield
+### 91. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 26034
@@ -2551,7 +2539,7 @@
 {"id":"26034","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["45631"]}
 ```
 
-### 93. Evasion and Energy Shield
+### 92. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 29361
@@ -2563,7 +2551,7 @@
 {"id":"29361","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"]}
 ```
 
-### 94. Evasion and Energy Shield
+### 93. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 327
@@ -2575,7 +2563,7 @@
 {"id":"327","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["9652"]}
 ```
 
-### 95. Evasion and Energy Shield
+### 94. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 33366
@@ -2587,7 +2575,7 @@
 {"id":"33366","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["10944"]}
 ```
 
-### 96. Evasion and Energy Shield
+### 95. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 42805
@@ -2599,7 +2587,7 @@
 {"id":"42805","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["26034"]}
 ```
 
-### 97. Evasion and Energy Shield
+### 96. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 52295
@@ -2611,7 +2599,7 @@
 {"id":"52295","n":"Evasion and Energy Shield","t":"small","sd":["15% increased [Evasion|Evasion Rating]","15% increased maximum [EnergyShield|Energy Shield]"],"out":["39595"]}
 ```
 
-### 98. Evasion and Energy Shield
+### 97. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 52980
@@ -2623,7 +2611,7 @@
 {"id":"52980","n":"Evasion and Energy Shield","t":"small","sd":["+8 to [Evasion] Rating","+5 to maximum [EnergyShield|Energy Shield]"],"out":["18970","44343"]}
 ```
 
-### 99. Evasion and Energy Shield
+### 98. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 56838
@@ -2635,7 +2623,7 @@
 {"id":"56838","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["42805","62624"]}
 ```
 
-### 100. Evasion and Energy Shield
+### 99. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 58593
@@ -2647,7 +2635,7 @@
 {"id":"58593","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["33463","26556"]}
 ```
 
-### 101. Evasion and Energy Shield
+### 100. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 60239
@@ -2659,7 +2647,7 @@
 {"id":"60239","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["15343","49356"]}
 ```
 
-### 102. Evasion and Energy Shield
+### 101. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 62624
@@ -2671,7 +2659,7 @@
 {"id":"62624","n":"Evasion and Energy Shield","t":"small","sd":["+30 to [Evasion] Rating","+15 to maximum [EnergyShield|Energy Shield]"]}
 ```
 
-### 103. Evasion and Energy Shield
+### 102. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 62841
@@ -2683,7 +2671,7 @@
 {"id":"62841","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["17367","56045","53941"]}
 ```
 
-### 104. Evasion and Energy Shield
+### 103. Evasion and Energy Shield
 
 - Match score: `105`
 - `id`: 8908
@@ -2695,7 +2683,7 @@
 {"id":"8908","n":"Evasion and Energy Shield","t":"small","sd":["12% increased [Evasion|Evasion Rating]","12% increased maximum [EnergyShield|Energy Shield]"],"out":["13711"]}
 ```
 
-### 105. Evasion and Energy Shield Delay
+### 104. Evasion and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 32681
@@ -2707,7 +2695,7 @@
 {"id":"32681","n":"Evasion and Energy Shield Delay","t":"small","sd":["12% increased [Evasion|Evasion Rating]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["32664","38668"]}
 ```
 
-### 106. Evasion and Energy Shield Delay
+### 105. Evasion and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 3630
@@ -2719,7 +2707,7 @@
 {"id":"3630","n":"Evasion and Energy Shield Delay","t":"small","sd":["12% increased [Evasion|Evasion Rating]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["62624"]}
 ```
 
-### 107. Evasion and Energy Shield Delay
+### 106. Evasion and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 45631
@@ -2731,7 +2719,7 @@
 {"id":"45631","n":"Evasion and Energy Shield Delay","t":"small","sd":["12% increased [Evasion|Evasion Rating]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["3630"]}
 ```
 
-### 108. Evasion and Energy Shield Delay
+### 107. Evasion and Energy Shield Delay
 
 - Match score: `105`
 - `id`: 5188
@@ -2743,7 +2731,7 @@
 {"id":"5188","n":"Evasion and Energy Shield Delay","t":"small","sd":["12% increased [Evasion|Evasion Rating]","4% [FasterESRechargeStart|faster start of Energy Shield Recharge]"],"out":["27671","38668","24165"]}
 ```
 
-### 109. Evasion and Energy Shield Mastery
+### 108. Evasion and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 11032
@@ -2754,7 +2742,7 @@
 {"id":"11032","n":"Evasion and Energy Shield Mastery","t":"small"}
 ```
 
-### 110. Evasion and Energy Shield Mastery
+### 109. Evasion and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 1215
@@ -2765,7 +2753,7 @@
 {"id":"1215","n":"Evasion and Energy Shield Mastery","t":"small"}
 ```
 
-### 111. Evasion and Energy Shield Mastery
+### 110. Evasion and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 17283
@@ -2776,7 +2764,7 @@
 {"id":"17283","n":"Evasion and Energy Shield Mastery","t":"small"}
 ```
 
-### 112. Evasion and Energy Shield Mastery
+### 111. Evasion and Energy Shield Mastery
 
 - Match score: `105`
 - `id`: 52445
@@ -2787,7 +2775,7 @@
 {"id":"52445","n":"Evasion and Energy Shield Mastery","t":"small"}
 ```
 
-### 113. Life and Mana Regeneration Rate
+### 112. Life and Mana Regeneration Rate
 
 - Match score: `105`
 - `id`: 21284
@@ -2799,7 +2787,7 @@
 {"id":"21284","n":"Life and Mana Regeneration Rate","t":"small","sd":["8% increased Life Regeneration rate","8% increased Mana Regeneration Rate"],"out":["30904"]}
 ```
 
-### 114. Life and Mana Regeneration Rate
+### 113. Life and Mana Regeneration Rate
 
 - Match score: `105`
 - `id`: 23195
@@ -2811,7 +2799,7 @@
 {"id":"23195","n":"Life and Mana Regeneration Rate","t":"small","sd":["10% increased Life Regeneration rate","10% increased Mana Regeneration Rate"],"out":["55375"]}
 ```
 
-### 115. Life and Mana Regeneration Rate
+### 114. Life and Mana Regeneration Rate
 
 - Match score: `105`
 - `id`: 4970
@@ -2823,7 +2811,7 @@
 {"id":"4970","n":"Life and Mana Regeneration Rate","t":"small","sd":["10% increased Life Regeneration rate","10% increased Mana Regeneration Rate"],"out":["23195"]}
 ```
 
-### 116. Life Costs and Regeneration
+### 115. Life Costs and Regeneration
 
 - Match score: `105`
 - `id`: 51618
@@ -2835,7 +2823,7 @@
 {"id":"51618","n":"Life Costs and Regeneration","t":"small","sd":["15% increased Life Regeneration rate","6% of Skill Mana Costs [StatConversion|Converted] to Life Costs"],"out":["11580","43324"]}
 ```
 
-### 117. Life Regeneration
+### 116. Life Regeneration
 
 - Match score: `105`
 - `id`: 11329
@@ -2847,7 +2835,7 @@
 {"id":"11329","n":"Life Regeneration","t":"small","sd":["10% increased Life Regeneration rate"],"out":["54676"]}
 ```
 
-### 118. Life Regeneration
+### 117. Life Regeneration
 
 - Match score: `105`
 - `id`: 1499
@@ -2859,7 +2847,7 @@
 {"id":"1499","n":"Life Regeneration","t":"small","sd":["10% increased Life Regeneration rate"],"out":["33830"]}
 ```
 
-### 119. Life Regeneration
+### 118. Life Regeneration
 
 - Match score: `105`
 - `id`: 16311
@@ -2871,7 +2859,7 @@
 {"id":"16311","n":"Life Regeneration","t":"small","sd":["10% increased Life Regeneration rate"],"out":["32600","14654"]}
 ```
 
-### 120. Life Regeneration
+### 119. Life Regeneration
 
 - Match score: `105`
 - `id`: 17294
@@ -2881,6 +2869,18 @@
 
 ```json
 {"id":"17294","n":"Life Regeneration","t":"small","sd":["10% increased Life Regeneration rate"],"out":["19330","27501"]}
+```
+
+### 120. Life Regeneration
+
+- Match score: `105`
+- `id`: 19330
+- `n`: Life Regeneration
+- `t`: small
+- `sd`: ["10% increased Life Regeneration rate"]
+
+```json
+{"id":"19330","n":"Life Regeneration","t":"small","sd":["10% increased Life Regeneration rate"]}
 ```
 
 ## Passive edges
