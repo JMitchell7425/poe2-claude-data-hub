@@ -1,6 +1,6 @@
 # Build Idea Pack — Flicker Strike Map Clear (CI Monk)
 
-- Generated UTC: `2026-09-05T13:27:53+00:00`
+- Generated UTC: `2026-09-06T13:41:12+00:00`
 - Idea slug: `flicker-strike-map-clear`
 - Purpose: Engineer and optimize Flicker Strike as a primary map-clear skill for a CI Energy Shield Monk, focused on charge-fed teleport-strike clear speed, AoE coverage, and support gem selection aligned to clearing rather than bossing.
 - Keywords: `flicker strike, teleport, charge, power charge, charge profusion, perpetual charge, combo, culmination, ailith's chimes, shattering palm, killing palm, monk, martial artist, cold, conversion, energy shield, chaos inoculation, area, aoe, radius, close combat, concentrated area, blindside, blind, cooldown, clear, map, controller, ps5`
@@ -5296,13 +5296,13 @@ _No keyword matches in this index._
 ### 75. carver_culture_area
 
 - Match score: `35`
-- `k`: 1231
+- `k`: 1233
 - `n`: carver_culture_area
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1231","n":"carver_culture_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"carver_culture_area"}
+{"k":"1233","n":"carver_culture_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"carver_culture_area"}
 ```
 
 ### 76. catacomb_area
@@ -5694,13 +5694,13 @@ _No keyword matches in this index._
 ### 106. cold_catalyst
 
 - Match score: `35`
-- `k`: 1308
+- `k`: 1310
 - `n`: cold_catalyst
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1308","n":"cold_catalyst","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_catalyst"}
+{"k":"1310","n":"cold_catalyst","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_catalyst"}
 ```
 
 ### 107. cold_crafting_option
@@ -5718,16 +5718,40 @@ _No keyword matches in this index._
 ### 108. cold_crafting_option
 
 - Match score: `35`
-- `k`: 1126
+- `k`: 1127
 - `n`: cold_crafting_option
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1126","n":"cold_crafting_option","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_crafting_option"}
+{"k":"1127","n":"cold_crafting_option","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_crafting_option"}
 ```
 
-### 109. cold_resistance
+### 109. cold_implicit_skill
+
+- Match score: `35`
+- `k`: cold_implicit_skill
+- `n`: cold_implicit_skill
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"cold_implicit_skill","n":"cold_implicit_skill","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 110. cold_implicit_skill
+
+- Match score: `35`
+- `k`: 1330
+- `n`: cold_implicit_skill
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"1330","n":"cold_implicit_skill","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_implicit_skill"}
+```
+
+### 111. cold_resistance
 
 - Match score: `35`
 - `k`: cold_resistance
@@ -5739,19 +5763,19 @@ _No keyword matches in this index._
 {"k":"cold_resistance","n":"cold_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 110. cold_resistance
+### 112. cold_resistance
 
 - Match score: `35`
-- `k`: 1264
+- `k`: 1266
 - `n`: cold_resistance
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1264","n":"cold_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_resistance"}
+{"k":"1266","n":"cold_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_resistance"}
 ```
 
-### 111. Combo Finisher I
+### 113. Combo Finisher I
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SupportGemComboFinisher
@@ -5765,7 +5789,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemComboFinisher","n":"Combo Finisher I","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
 ```
 
-### 112. Combo Finisher II
+### 114. Combo Finisher II
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SupportGemComboFinisherTwo
@@ -5779,7 +5803,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemComboFinisherTwo","n":"Combo Finisher II","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
 ```
 
-### 113. Cooldown Recovery I
+### 115. Cooldown Recovery I
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SupportGemIngenuity
@@ -5793,7 +5817,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemIngenuity","n":"Cooldown Recovery I","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
 ```
 
-### 114. Cooldown Recovery II
+### 116. Cooldown Recovery II
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SupportGemIngenuityTwo
@@ -5807,7 +5831,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemIngenuityTwo","n":"Cooldown Recovery II","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
 ```
 
-### 115. crossroad_area
+### 117. crossroad_area
 
 - Match score: `35`
 - `k`: crossroad_area
@@ -5819,7 +5843,7 @@ _No keyword matches in this index._
 {"k":"crossroad_area","n":"crossroad_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 116. crossroad_area
+### 118. crossroad_area
 
 - Match score: `35`
 - `k`: 370
@@ -5831,7 +5855,7 @@ _No keyword matches in this index._
 {"k":"370","n":"crossroad_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"crossroad_area"}
 ```
 
-### 117. crypt_area
+### 119. crypt_area
 
 - Match score: `35`
 - `k`: crypt_area
@@ -5843,7 +5867,7 @@ _No keyword matches in this index._
 {"k":"crypt_area","n":"crypt_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 118. crypt_area
+### 120. crypt_area
 
 - Match score: `35`
 - `k`: 373
@@ -5853,30 +5877,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"373","n":"crypt_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"crypt_area"}
-```
-
-### 119. crystal_ore_area
-
-- Match score: `35`
-- `k`: crystal_ore_area
-- `n`: crystal_ore_area
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
-
-```json
-{"k":"crystal_ore_area","n":"crystal_ore_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
-```
-
-### 120. crystal_ore_area
-
-- Match score: `35`
-- `k`: 420
-- `n`: crystal_ore_area
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
-
-```json
-{"k":"420","n":"crystal_ore_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"crystal_ore_area"}
 ```
 
 ## Mods and affixes
@@ -8750,28 +8750,28 @@ You cannot Recover [EnergyShield|Energy Shield] to above [Armour]
 {"k":"[Corrupted] [Waystone|Waystones] open a Random Map Area when used on [BasicMap|Basic Maps]","n":"[Corrupted] [Waystone|Waystones] open a Random Map Area when used on [BasicMap|Basic Maps]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 71. [Curse|Cursed] Enemies grant a Power Charge when [HitDamage|Hit]
+### 71. [Curse|Cursed] Enemies grant a Power Charge when [Hit]
 
 - Match score: `70`
-- `k`: [Curse|Cursed] Enemies grant a Power Charge when [HitDamage|Hit]
-- `n`: [Curse|Cursed] Enemies grant a Power Charge when [HitDamage|Hit]
+- `k`: [Curse|Cursed] Enemies grant a Power Charge when [Hit]
+- `n`: [Curse|Cursed] Enemies grant a Power Charge when [Hit]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Curse|Cursed] Enemies grant a Power Charge when [HitDamage|Hit]","n":"[Curse|Cursed] Enemies grant a Power Charge when [HitDamage|Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Curse|Cursed] Enemies grant a Power Charge when [Hit]","n":"[Curse|Cursed] Enemies grant a Power Charge when [Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 72. [Curse|Cursed] Enemies have a {0}% chance to grant a Power Charge when [HitDamage|Hit]
+### 72. [Curse|Cursed] Enemies have a {0}% chance to grant a Power Charge when [Hit]
 
 - Match score: `70`
-- `k`: [Curse|Cursed] Enemies have a {0}% chance to grant a Power Charge when [HitDamage|Hit]
-- `n`: [Curse|Cursed] Enemies have a {0}% chance to grant a Power Charge when [HitDamage|Hit]
+- `k`: [Curse|Cursed] Enemies have a {0}% chance to grant a Power Charge when [Hit]
+- `n`: [Curse|Cursed] Enemies have a {0}% chance to grant a Power Charge when [Hit]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Curse|Cursed] Enemies have a {0}% chance to grant a Power Charge when [HitDamage|Hit]","n":"[Curse|Cursed] Enemies have a {0}% chance to grant a Power Charge when [HitDamage|Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Curse|Cursed] Enemies have a {0}% chance to grant a Power Charge when [Hit]","n":"[Curse|Cursed] Enemies have a {0}% chance to grant a Power Charge when [Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 73. [DeliriumSplinter|Simulacrum Splinters] can drop from [ContainsDelirium|Delirium] Monsters in level 75+ Map Areas

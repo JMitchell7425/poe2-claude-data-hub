@@ -1,6 +1,6 @@
 # Build Idea Pack — Lazy Controller-Friendly Build
 
-- Generated UTC: `2026-09-05T13:27:42+00:00`
+- Generated UTC: `2026-09-06T13:41:01+00:00`
 - Idea slug: `lazy-controller-build`
 - Purpose: Find low-button, low-aim, PS5-friendly builds with high clear reliability and safe bossing.
 - Keywords: `controller, ps5, persistent, aura, herald, minion, totem, trigger, auto, duration, area, aoe, nearby, radius, nova, chain, projectile, slam, strike, movement, cooldown, spirit, reservation, defense, recovery, map, boss`
@@ -8339,31 +8339,7 @@ Zombies' Slam [Attack] has {0}% increased Cooldown Recovery Rate
 {"k":"[PowerfulMapBoss|Powerful Map Bosses] have {0}% chance when defeated to reveal a nearby [Citadel]","n":"[PowerfulMapBoss|Powerful Map Bosses] have {0}% chance when defeated to reveal a nearby [Citadel]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 30. [SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps have {0}% chance to release [AzmeriSpirit|Spirits] on death
-
-- Match score: `105`
-- `k`: [SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps have {0}% chance to release [AzmeriSpirit|Spirits] on death
-- `n`: [SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps have {0}% chance to release [AzmeriSpirit|Spirits] on death
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"[SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps have {0}% chance to release [AzmeriSpirit|Spirits] on death","n":"[SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps have {0}% chance to release [AzmeriSpirit|Spirits] on death","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 31. [SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps release [AzmeriSpirit|Spirits] on death
-
-- Match score: `105`
-- `k`: [SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps release [AzmeriSpirit|Spirits] on death
-- `n`: [SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps release [AzmeriSpirit|Spirits] on death
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"[SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps release [AzmeriSpirit|Spirits] on death","n":"[SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps release [AzmeriSpirit|Spirits] on death","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 32. [StoneSummoningCircle|Summoning Circles] in [Biome|Non-City] Areas have {0}% chance to instead
+### 30. [StoneSummoningCircle|Summoning Circles] in [Biome|Non-City] Areas have {0}% chance to instead
 summon a random [DeadlyMapBoss|Deadly Map Boss]
 
 - Match score: `105`
@@ -8378,7 +8354,7 @@ summon a random [DeadlyMapBoss|Deadly Map Boss]
 {"k":"[StoneSummoningCircle|Summoning Circles] in [Biome|Non-City] Areas have {0}% chance to instead\nsummon a random [DeadlyMapBoss|Deadly Map Boss]","n":"[StoneSummoningCircle|Summoning Circles] in [Biome|Non-City] Areas have {0}% chance to instead\nsummon a random [DeadlyMapBoss|Deadly Map Boss]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 33. [Totem|Totems] created by Supported Skills have {0}% increased area of effect per allied [Totem] in effect radius
+### 31. [Totem|Totems] created by Supported Skills have {0}% increased area of effect per allied [Totem] in effect radius
 
 - Match score: `105`
 - `k`: [Totem|Totems] created by Supported Skills have {0}% increased area of effect per allied [Totem] in effect radius
@@ -8390,7 +8366,7 @@ summon a random [DeadlyMapBoss|Deadly Map Boss]
 {"k":"[Totem|Totems] created by Supported Skills have {0}% increased area of effect per allied [Totem] in effect radius","n":"[Totem|Totems] created by Supported Skills have {0}% increased area of effect per allied [Totem] in effect radius","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 34. [Totem|Totems] created by Supported Skills have {0}% reduced area of effect per allied [Totem] in effect radius
+### 32. [Totem|Totems] created by Supported Skills have {0}% reduced area of effect per allied [Totem] in effect radius
 
 - Match score: `105`
 - `k`: [Totem|Totems] created by Supported Skills have {0}% reduced area of effect per allied [Totem] in effect radius
@@ -8402,7 +8378,7 @@ summon a random [DeadlyMapBoss|Deadly Map Boss]
 {"k":"[Totem|Totems] created by Supported Skills have {0}% reduced area of effect per allied [Totem] in effect radius","n":"[Totem|Totems] created by Supported Skills have {0}% reduced area of effect per allied [Totem] in effect radius","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 35. Add additional content to areas with [PowerfulMapBoss|Powerful Map Bosses]
+### 33. Add additional content to areas with [PowerfulMapBoss|Powerful Map Bosses]
 
 - Match score: `105`
 - `k`: Add additional content to areas with [PowerfulMapBoss|Powerful Map Bosses]
@@ -8414,7 +8390,7 @@ summon a random [DeadlyMapBoss|Deadly Map Boss]
 {"k":"Add additional content to areas with [PowerfulMapBoss|Powerful Map Bosses]","n":"Add additional content to areas with [PowerfulMapBoss|Powerful Map Bosses]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 36. Area contains {0} additional Map Boss
+### 34. Area contains {0} additional Map Boss
 
 - Match score: `105`
 - `k`: Area contains {0} additional Map Boss
@@ -8426,7 +8402,7 @@ summon a random [DeadlyMapBoss|Deadly Map Boss]
 {"k":"Area contains {0} additional Map Boss","n":"Area contains {0} additional Map Boss","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 37. Area contains {0} additional Map Bosses
+### 35. Area contains {0} additional Map Bosses
 
 - Match score: `105`
 - `k`: Area contains {0} additional Map Bosses
@@ -8438,7 +8414,7 @@ summon a random [DeadlyMapBoss|Deadly Map Boss]
 {"k":"Area contains {0} additional Map Bosses","n":"Area contains {0} additional Map Bosses","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 38. Areas contain additional Strongboxes
+### 36. Areas contain additional Strongboxes
 Strongboxes contain Unique Map Bosses
 
 - Match score: `105`
@@ -8453,7 +8429,7 @@ Strongboxes contain Unique Map Bosses
 {"k":"Areas contain additional Strongboxes\nStrongboxes contain Unique Map Bosses","n":"Areas contain additional Strongboxes\nStrongboxes contain Unique Map Bosses","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 39. Areas with [PowerfulMapBoss|Map Powerful Map Bosses] contain an additional [Shrine]
+### 37. Areas with [PowerfulMapBoss|Map Powerful Map Bosses] contain an additional [Shrine]
 
 - Match score: `105`
 - `k`: Areas with [PowerfulMapBoss|Map Powerful Map Bosses] contain an additional [Shrine]
@@ -8465,7 +8441,7 @@ Strongboxes contain Unique Map Bosses
 {"k":"Areas with [PowerfulMapBoss|Map Powerful Map Bosses] contain an additional [Shrine]","n":"Areas with [PowerfulMapBoss|Map Powerful Map Bosses] contain an additional [Shrine]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 40. Areas with [PowerfulMapBoss|Map Powerful Map Bosses] contain {0} additional [Shrine|Shrines]
+### 38. Areas with [PowerfulMapBoss|Map Powerful Map Bosses] contain {0} additional [Shrine|Shrines]
 
 - Match score: `105`
 - `k`: Areas with [PowerfulMapBoss|Map Powerful Map Bosses] contain {0} additional [Shrine|Shrines]
@@ -8477,7 +8453,7 @@ Strongboxes contain Unique Map Bosses
 {"k":"Areas with [PowerfulMapBoss|Map Powerful Map Bosses] contain {0} additional [Shrine|Shrines]","n":"Areas with [PowerfulMapBoss|Map Powerful Map Bosses] contain {0} additional [Shrine|Shrines]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 41. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain a [StoneSummoningCircle|Summoning Circle]
+### 39. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain a [StoneSummoningCircle|Summoning Circle]
 
 - Match score: `105`
 - `k`: Areas with [PowerfulMapBoss|Powerful Map Bosses] contain a [StoneSummoningCircle|Summoning Circle]
@@ -8489,7 +8465,7 @@ Strongboxes contain Unique Map Bosses
 {"k":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain a [StoneSummoningCircle|Summoning Circle]","n":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain a [StoneSummoningCircle|Summoning Circle]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 42. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain a [StoneSummoningCircle|Summoning Circle]
+### 40. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain a [StoneSummoningCircle|Summoning Circle]
 Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 
 - Match score: `105`
@@ -8504,7 +8480,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain a [StoneSummoningCircle|Summoning Circle]\nAreas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes","n":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain a [StoneSummoningCircle|Summoning Circle]\nAreas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 43. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [Essence]
+### 41. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [Essence]
 
 - Match score: `105`
 - `k`: Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [Essence]
@@ -8516,7 +8492,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [Essence]","n":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [Essence]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 44. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [RogueExile|Rogue Exile]
+### 42. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [RogueExile|Rogue Exile]
 
 - Match score: `105`
 - `k`: Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [RogueExile|Rogue Exile]
@@ -8528,7 +8504,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [RogueExile|Rogue Exile]","n":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [RogueExile|Rogue Exile]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 45. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [Shrine]
+### 43. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [Shrine]
 
 - Match score: `105`
 - `k`: Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [Shrine]
@@ -8540,7 +8516,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [Shrine]","n":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [Shrine]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 46. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [Strongbox]
+### 44. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [Strongbox]
 
 - Match score: `105`
 - `k`: Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [Strongbox]
@@ -8552,7 +8528,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [Strongbox]","n":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [Strongbox]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 47. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain Corruption
+### 45. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain Corruption
 
 - Match score: `105`
 - `k`: Areas with [PowerfulMapBoss|Powerful Map Bosses] contain Corruption
@@ -8564,7 +8540,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain Corruption","n":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain Corruption","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 48. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [Essence|Essences]
+### 46. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [Essence|Essences]
 
 - Match score: `105`
 - `k`: Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [Essence|Essences]
@@ -8576,7 +8552,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [Essence|Essences]","n":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [Essence|Essences]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 49. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [RogueExile|Rogue Exiles]
+### 47. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [RogueExile|Rogue Exiles]
 
 - Match score: `105`
 - `k`: Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [RogueExile|Rogue Exiles]
@@ -8588,7 +8564,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [RogueExile|Rogue Exiles]","n":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [RogueExile|Rogue Exiles]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 50. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [Shrine|Shrines]
+### 48. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [Shrine|Shrines]
 
 - Match score: `105`
 - `k`: Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [Shrine|Shrines]
@@ -8600,7 +8576,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [Shrine|Shrines]","n":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [Shrine|Shrines]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 51. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [Strongbox|Strongboxes]
+### 49. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [Strongbox|Strongboxes]
 
 - Match score: `105`
 - `k`: Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [Strongbox|Strongboxes]
@@ -8612,7 +8588,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [Strongbox|Strongboxes]","n":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [Strongbox|Strongboxes]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 52. Areas with [PowerfulMapBoss|Powerful Map Bosses] have {0}% chance to contain [ContainsCorruption|Corruption] when entered
+### 50. Areas with [PowerfulMapBoss|Powerful Map Bosses] have {0}% chance to contain [ContainsCorruption|Corruption] when entered
 
 - Match score: `105`
 - `k`: Areas with [PowerfulMapBoss|Powerful Map Bosses] have {0}% chance to contain [ContainsCorruption|Corruption] when entered
@@ -8624,7 +8600,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Areas with [PowerfulMapBoss|Powerful Map Bosses] have {0}% chance to contain [ContainsCorruption|Corruption] when entered","n":"Areas with [PowerfulMapBoss|Powerful Map Bosses] have {0}% chance to contain [ContainsCorruption|Corruption] when entered","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 53. Birthed Items have an {0}% chance to be crafted with [GenesisTreeRingMinionCooldownRecoveryCrafted|''of Invigoration'']
+### 51. Birthed Items have an {0}% chance to be crafted with [GenesisTreeRingMinionCooldownRecoveryCrafted|''of Invigoration'']
 
 - Match score: `105`
 - `k`: Birthed Items have an {0}% chance to be crafted with [GenesisTreeRingMinionCooldownRecoveryCrafted|''of Invigoration'']
@@ -8636,7 +8612,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Birthed Items have an {0}% chance to be crafted with [GenesisTreeRingMinionCooldownRecoveryCrafted|''of Invigoration'']","n":"Birthed Items have an {0}% chance to be crafted with [GenesisTreeRingMinionCooldownRecoveryCrafted|''of Invigoration'']","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 54. Einhar has {0}% increased Cooldown Recovery Rate in your Maps
+### 52. Einhar has {0}% increased Cooldown Recovery Rate in your Maps
 
 - Match score: `105`
 - `k`: Einhar has {0}% increased Cooldown Recovery Rate in your Maps
@@ -8648,7 +8624,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Einhar has {0}% increased Cooldown Recovery Rate in your Maps","n":"Einhar has {0}% increased Cooldown Recovery Rate in your Maps","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 55. Einhar has {0}% reduced Cooldown Recovery Rate in your Maps
+### 53. Einhar has {0}% reduced Cooldown Recovery Rate in your Maps
 
 - Match score: `105`
 - `k`: Einhar has {0}% reduced Cooldown Recovery Rate in your Maps
@@ -8660,7 +8636,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Einhar has {0}% reduced Cooldown Recovery Rate in your Maps","n":"Einhar has {0}% reduced Cooldown Recovery Rate in your Maps","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 56. Final Area Boss drops an additional Conqueror Map
+### 54. Final Area Boss drops an additional Conqueror Map
 
 - Match score: `105`
 - `k`: Final Area Boss drops an additional Conqueror Map
@@ -8672,7 +8648,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Final Area Boss drops an additional Conqueror Map","n":"Final Area Boss drops an additional Conqueror Map","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 57. Final Area Boss drops an additional Elder Guardian Map (Tier 14+)
+### 55. Final Area Boss drops an additional Elder Guardian Map (Tier 14+)
 
 - Match score: `105`
 - `k`: Final Area Boss drops an additional Elder Guardian Map (Tier 14+)
@@ -8684,7 +8660,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Final Area Boss drops an additional Elder Guardian Map (Tier 14+)","n":"Final Area Boss drops an additional Elder Guardian Map (Tier 14+)","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 58. Final Area Boss drops an additional Shaper Guardian Map (Tier 14+)
+### 56. Final Area Boss drops an additional Shaper Guardian Map (Tier 14+)
 
 - Match score: `105`
 - `k`: Final Area Boss drops an additional Shaper Guardian Map (Tier 14+)
@@ -8696,7 +8672,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Final Area Boss drops an additional Shaper Guardian Map (Tier 14+)","n":"Final Area Boss drops an additional Shaper Guardian Map (Tier 14+)","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 59. First minion summoned have no base spirit reservation
+### 57. First minion summoned have no base spirit reservation
 
 - Match score: `105`
 - `k`: First minion summoned have no base spirit reservation
@@ -8708,7 +8684,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"First minion summoned have no base spirit reservation","n":"First minion summoned have no base spirit reservation","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 60. First {0} minions summoned have no base spirit reservation
+### 58. First {0} minions summoned have no base spirit reservation
 
 - Match score: `105`
 - `k`: First {0} minions summoned have no base spirit reservation
@@ -8720,7 +8696,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"First {0} minions summoned have no base spirit reservation","n":"First {0} minions summoned have no base spirit reservation","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 61. Flicker Strike has {0}% increased Cooldown Recovery Rate
+### 59. Flicker Strike has {0}% increased Cooldown Recovery Rate
 
 - Match score: `105`
 - `k`: Flicker Strike has {0}% increased Cooldown Recovery Rate
@@ -8732,7 +8708,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Flicker Strike has {0}% increased Cooldown Recovery Rate","n":"Flicker Strike has {0}% increased Cooldown Recovery Rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 62. Flicker Strike has {0}% reduced Flicker Strike Cooldown Recovery Rate
+### 60. Flicker Strike has {0}% reduced Flicker Strike Cooldown Recovery Rate
 
 - Match score: `105`
 - `k`: Flicker Strike has {0}% reduced Flicker Strike Cooldown Recovery Rate
@@ -8744,7 +8720,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Flicker Strike has {0}% reduced Flicker Strike Cooldown Recovery Rate","n":"Flicker Strike has {0}% reduced Flicker Strike Cooldown Recovery Rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 63. GenesisTreeRingMinionCooldownRecoveryCrafted
+### 61. GenesisTreeRingMinionCooldownRecoveryCrafted
 
 - Match score: `105`
 - `k`: GenesisTreeRingMinionCooldownRecoveryCrafted
@@ -8756,7 +8732,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"GenesisTreeRingMinionCooldownRecoveryCrafted","n":"GenesisTreeRingMinionCooldownRecoveryCrafted","cat":"repoe_keywords","src":"repoe_poe2/keywords.json"}
 ```
 
-### 64. Harbingers in your Maps have {0}% increased Cooldown Recovery Rate
+### 62. Harbingers in your Maps have {0}% increased Cooldown Recovery Rate
 
 - Match score: `105`
 - `k`: Harbingers in your Maps have {0}% increased Cooldown Recovery Rate
@@ -8768,7 +8744,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Harbingers in your Maps have {0}% increased Cooldown Recovery Rate","n":"Harbingers in your Maps have {0}% increased Cooldown Recovery Rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 65. Harbingers in your Maps have {0}% reduced Cooldown Recovery Rate
+### 63. Harbingers in your Maps have {0}% reduced Cooldown Recovery Rate
 
 - Match score: `105`
 - `k`: Harbingers in your Maps have {0}% reduced Cooldown Recovery Rate
@@ -8780,7 +8756,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Harbingers in your Maps have {0}% reduced Cooldown Recovery Rate","n":"Harbingers in your Maps have {0}% reduced Cooldown Recovery Rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 66. JewelRadiusMinionArea
+### 64. JewelRadiusMinionArea
 
 - Match score: `105`
 - `k`: JewelRadiusMinionArea
@@ -8792,7 +8768,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"JewelRadiusMinionArea","n":"JewelRadiusMinionArea","cat":"pob_mod_jewel","src":"pob_data_poe2/ModJewel.json","level":1}
 ```
 
-### 67. Map Boss is surrounded by Tormented Spirits
+### 65. Map Boss is surrounded by Tormented Spirits
 
 - Match score: `105`
 - `k`: Map Boss is surrounded by Tormented Spirits
@@ -8804,7 +8780,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Map Boss is surrounded by Tormented Spirits","n":"Map Boss is surrounded by Tormented Spirits","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 68. Map Bosses have {0}% chance to be surrounded by Tormented Spirits
+### 66. Map Bosses have {0}% chance to be surrounded by Tormented Spirits
 
 - Match score: `105`
 - `k`: Map Bosses have {0}% chance to be surrounded by Tormented Spirits
@@ -8816,7 +8792,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Map Bosses have {0}% chance to be surrounded by Tormented Spirits","n":"Map Bosses have {0}% chance to be surrounded by Tormented Spirits","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 69. Minions from Supported Skills have {0}% increased Cooldown Recovery Rate
+### 67. Minions from Supported Skills have {0}% increased Cooldown Recovery Rate
 
 - Match score: `105`
 - `k`: Minions from Supported Skills have {0}% increased Cooldown Recovery Rate
@@ -8828,7 +8804,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Minions from Supported Skills have {0}% increased Cooldown Recovery Rate","n":"Minions from Supported Skills have {0}% increased Cooldown Recovery Rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 70. Minions from Supported Skills have {0}% reduced Cooldown Recovery Rate
+### 68. Minions from Supported Skills have {0}% reduced Cooldown Recovery Rate
 
 - Match score: `105`
 - `k`: Minions from Supported Skills have {0}% reduced Cooldown Recovery Rate
@@ -8840,7 +8816,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Minions from Supported Skills have {0}% reduced Cooldown Recovery Rate","n":"Minions from Supported Skills have {0}% reduced Cooldown Recovery Rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 71. Minions have {0}% increased Cooldown Recovery Rate
+### 69. Minions have {0}% increased Cooldown Recovery Rate
 
 - Match score: `105`
 - `k`: Minions have {0}% increased Cooldown Recovery Rate
@@ -8852,7 +8828,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Minions have {0}% increased Cooldown Recovery Rate","n":"Minions have {0}% increased Cooldown Recovery Rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 72. Minions have {0}% increased Movement Speed for each Herald affecting you
+### 70. Minions have {0}% increased Movement Speed for each Herald affecting you
 
 - Match score: `105`
 - `k`: Minions have {0}% increased Movement Speed for each Herald affecting you
@@ -8864,7 +8840,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Minions have {0}% increased Movement Speed for each Herald affecting you","n":"Minions have {0}% increased Movement Speed for each Herald affecting you","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 73. Minions have {0}% reduced Cooldown Recovery Rate
+### 71. Minions have {0}% reduced Cooldown Recovery Rate
 
 - Match score: `105`
 - `k`: Minions have {0}% reduced Cooldown Recovery Rate
@@ -8876,7 +8852,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Minions have {0}% reduced Cooldown Recovery Rate","n":"Minions have {0}% reduced Cooldown Recovery Rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 74. Minions have {0}% reduced Movement Speed for each Herald affecting you
+### 72. Minions have {0}% reduced Movement Speed for each Herald affecting you
 
 - Match score: `105`
 - `k`: Minions have {0}% reduced Movement Speed for each Herald affecting you
@@ -8888,7 +8864,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Minions have {0}% reduced Movement Speed for each Herald affecting you","n":"Minions have {0}% reduced Movement Speed for each Herald affecting you","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 75. Modifiers to [Melee] Strike Range also apply to this Skill's Area radius
+### 73. Modifiers to [Melee] Strike Range also apply to this Skill's Area radius
 
 - Match score: `105`
 - `k`: Modifiers to [Melee] Strike Range also apply to this Skill's Area radius
@@ -8900,7 +8876,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Modifiers to [Melee] Strike Range also apply to this Skill's Area radius","n":"Modifiers to [Melee] Strike Range also apply to this Skill's Area radius","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 76. Molten Strike Projectiles Chain when impacting the ground
+### 74. Molten Strike Projectiles Chain when impacting the ground
 
 - Match score: `105`
 - `k`: Molten Strike Projectiles Chain when impacting the ground
@@ -8912,7 +8888,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Molten Strike Projectiles Chain when impacting the ground","n":"Molten Strike Projectiles Chain when impacting the ground","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 77. Molten Strike Projectiles Chain {0} time
+### 75. Molten Strike Projectiles Chain {0} time
 
 - Match score: `105`
 - `k`: Molten Strike Projectiles Chain {0} time
@@ -8924,7 +8900,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Molten Strike Projectiles Chain {0} time","n":"Molten Strike Projectiles Chain {0} time","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 78. Molten Strike Projectiles Chain {0} times
+### 76. Molten Strike Projectiles Chain {0} times
 
 - Match score: `105`
 - `k`: Molten Strike Projectiles Chain {0} times
@@ -8936,7 +8912,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Molten Strike Projectiles Chain {0} times","n":"Molten Strike Projectiles Chain {0} times","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 79. Nearby Enemies have {0}% increased [CooldownRecovery|Cooldown Recovery Rate]
+### 77. Nearby Enemies have {0}% increased [CooldownRecovery|Cooldown Recovery Rate]
 
 - Match score: `105`
 - `k`: Nearby Enemies have {0}% increased [CooldownRecovery|Cooldown Recovery Rate]
@@ -8948,7 +8924,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Nearby Enemies have {0}% increased [CooldownRecovery|Cooldown Recovery Rate]","n":"Nearby Enemies have {0}% increased [CooldownRecovery|Cooldown Recovery Rate]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 80. Nearby Enemies have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate]
+### 78. Nearby Enemies have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate]
 
 - Match score: `105`
 - `k`: Nearby Enemies have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate]
@@ -8960,7 +8936,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Nearby Enemies have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate]","n":"Nearby Enemies have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 81. Notable Passive Skills in Radius are Transformed to
+### 79. Notable Passive Skills in Radius are Transformed to
 instead grant: Minions have {0}% increased Movement Speed
 
 - Match score: `105`
@@ -8975,7 +8951,7 @@ instead grant: Minions have {0}% increased Movement Speed
 {"k":"Notable Passive Skills in Radius are Transformed to\ninstead grant: Minions have {0}% increased Movement Speed","n":"Notable Passive Skills in Radius are Transformed to\ninstead grant: Minions have {0}% increased Movement Speed","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 82. Notable Passive Skills in Radius are Transformed to
+### 80. Notable Passive Skills in Radius are Transformed to
 instead grant: Minions have {0}% reduced Movement Speed
 
 - Match score: `105`
@@ -8990,7 +8966,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Notable Passive Skills in Radius are Transformed to\ninstead grant: Minions have {0}% reduced Movement Speed","n":"Notable Passive Skills in Radius are Transformed to\ninstead grant: Minions have {0}% reduced Movement Speed","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 83. Players have {0}% increased Cooldown Recovery Rate for Movement Skills
+### 81. Players have {0}% increased Cooldown Recovery Rate for Movement Skills
 
 - Match score: `105`
 - `k`: Players have {0}% increased Cooldown Recovery Rate for Movement Skills
@@ -9002,7 +8978,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Players have {0}% increased Cooldown Recovery Rate for Movement Skills","n":"Players have {0}% increased Cooldown Recovery Rate for Movement Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 84. Raised Zombies' Slam [Attack] has {0}% increased Cooldown Recovery Rate
+### 82. Raised Zombies' Slam [Attack] has {0}% increased Cooldown Recovery Rate
 
 - Match score: `105`
 - `k`: Raised Zombies' Slam [Attack] has {0}% increased Cooldown Recovery Rate
@@ -9014,7 +8990,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Raised Zombies' Slam [Attack] has {0}% increased Cooldown Recovery Rate","n":"Raised Zombies' Slam [Attack] has {0}% increased Cooldown Recovery Rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 85. Rare and Unique Monsters in Area are Possessed by up to {0} Tormented Spirits and their Minions are Touched
+### 83. Rare and Unique Monsters in Area are Possessed by up to {0} Tormented Spirits and their Minions are Touched
 
 - Match score: `105`
 - `k`: Rare and Unique Monsters in Area are Possessed by up to {0} Tormented Spirits and their Minions are Touched
@@ -9026,7 +9002,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Rare and Unique Monsters in Area are Possessed by up to {0} Tormented Spirits and their Minions are Touched","n":"Rare and Unique Monsters in Area are Possessed by up to {0} Tormented Spirits and their Minions are Touched","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 86. Supported [Minion|Minions] have {0}% increased [CooldownRecovery|Cooldown Recovery Rate] for Command Skills
+### 84. Supported [Minion|Minions] have {0}% increased [CooldownRecovery|Cooldown Recovery Rate] for Command Skills
 
 - Match score: `105`
 - `k`: Supported [Minion|Minions] have {0}% increased [CooldownRecovery|Cooldown Recovery Rate] for Command Skills
@@ -9038,7 +9014,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Supported [Minion|Minions] have {0}% increased [CooldownRecovery|Cooldown Recovery Rate] for Command Skills","n":"Supported [Minion|Minions] have {0}% increased [CooldownRecovery|Cooldown Recovery Rate] for Command Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 87. Supported [Minion|Minions] have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate] for Command Skills
+### 85. Supported [Minion|Minions] have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate] for Command Skills
 
 - Match score: `105`
 - `k`: Supported [Minion|Minions] have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate] for Command Skills
@@ -9050,7 +9026,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Supported [Minion|Minions] have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate] for Command Skills","n":"Supported [Minion|Minions] have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate] for Command Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 88. Temporal Chains has no Reservation if Cast as an Aura
+### 86. Temporal Chains has no Reservation if Cast as an Aura
 
 - Match score: `105`
 - `k`: Temporal Chains has no Reservation if Cast as an Aura
@@ -9062,7 +9038,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Temporal Chains has no Reservation if Cast as an Aura","n":"Temporal Chains has no Reservation if Cast as an Aura","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 89. Temporal Chains has {0}% increased Reservation if Cast as an Aura
+### 87. Temporal Chains has {0}% increased Reservation if Cast as an Aura
 
 - Match score: `105`
 - `k`: Temporal Chains has {0}% increased Reservation if Cast as an Aura
@@ -9074,7 +9050,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Temporal Chains has {0}% increased Reservation if Cast as an Aura","n":"Temporal Chains has {0}% increased Reservation if Cast as an Aura","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 90. Temporal Chains has {0}% reduced Reservation if Cast as an Aura
+### 88. Temporal Chains has {0}% reduced Reservation if Cast as an Aura
 
 - Match score: `105`
 - `k`: Temporal Chains has {0}% reduced Reservation if Cast as an Aura
@@ -9086,7 +9062,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Temporal Chains has {0}% reduced Reservation if Cast as an Aura","n":"Temporal Chains has {0}% reduced Reservation if Cast as an Aura","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 91. Tormented Spirits in next Area will have {0}% increased Duration
+### 89. Tormented Spirits in next Area will have {0}% increased Duration
 
 - Match score: `105`
 - `k`: Tormented Spirits in next Area will have {0}% increased Duration
@@ -9098,7 +9074,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Tormented Spirits in next Area will have {0}% increased Duration","n":"Tormented Spirits in next Area will have {0}% increased Duration","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 92. Tormented Spirits in next Area will have {0}% increased Movement Speed
+### 90. Tormented Spirits in next Area will have {0}% increased Movement Speed
 
 - Match score: `105`
 - `k`: Tormented Spirits in next Area will have {0}% increased Movement Speed
@@ -9110,7 +9086,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Tormented Spirits in next Area will have {0}% increased Movement Speed","n":"Tormented Spirits in next Area will have {0}% increased Movement Speed","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 93. Tormented Spirits in next Area will have {0}% reduced Duration
+### 91. Tormented Spirits in next Area will have {0}% reduced Duration
 
 - Match score: `105`
 - `k`: Tormented Spirits in next Area will have {0}% reduced Duration
@@ -9122,7 +9098,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Tormented Spirits in next Area will have {0}% reduced Duration","n":"Tormented Spirits in next Area will have {0}% reduced Duration","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 94. Tormented Spirits in next Area will have {0}% reduced Movement Speed
+### 92. Tormented Spirits in next Area will have {0}% reduced Movement Speed
 
 - Match score: `105`
 - `k`: Tormented Spirits in next Area will have {0}% reduced Movement Speed
@@ -9134,7 +9110,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Tormented Spirits in next Area will have {0}% reduced Movement Speed","n":"Tormented Spirits in next Area will have {0}% reduced Movement Speed","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 95. Trigger Ancestral Spirits when you Summon a [Totem]
+### 93. Trigger Ancestral Spirits when you Summon a [Totem]
 
 - Match score: `105`
 - `k`: Trigger Ancestral Spirits when you Summon a [Totem]
@@ -9146,7 +9122,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Trigger Ancestral Spirits when you Summon a [Totem]","n":"Trigger Ancestral Spirits when you Summon a [Totem]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 96. Trigger Level {0} Tawhoa's Chosen when you [Attack] with a Non-Vaal Slam or Strike Skill near an Enemy
+### 94. Trigger Level {0} Tawhoa's Chosen when you [Attack] with a Non-Vaal Slam or Strike Skill near an Enemy
 
 - Match score: `105`
 - `k`: Trigger Level {0} Tawhoa's Chosen when you [Attack] with a Non-Vaal Slam or Strike Skill near an Enemy
@@ -9158,7 +9134,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Trigger Level {0} Tawhoa's Chosen when you [Attack] with a Non-Vaal Slam or Strike Skill near an Enemy","n":"Trigger Level {0} Tawhoa's Chosen when you [Attack] with a Non-Vaal Slam or Strike Skill near an Enemy","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 97. Trigger Socketed Minion Spells on Kill with this Weapon
+### 95. Trigger Socketed Minion Spells on Kill with this Weapon
 Minion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses
 
 - Match score: `105`
@@ -9173,7 +9149,7 @@ Minion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses
 {"k":"Trigger Socketed Minion Spells on Kill with this Weapon\nMinion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses","n":"Trigger Socketed Minion Spells on Kill with this Weapon\nMinion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 98. With at least 40 [Dexterity] in Radius, Double Strike has a {0}% chance Trigger On Kill Effects twice
+### 96. With at least 40 [Dexterity] in Radius, Double Strike has a {0}% chance Trigger On Kill Effects twice
 
 - Match score: `105`
 - `k`: With at least 40 [Dexterity] in Radius, Double Strike has a {0}% chance Trigger On Kill Effects twice
@@ -9185,7 +9161,7 @@ Minion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses
 {"k":"With at least 40 [Dexterity] in Radius, Double Strike has a {0}% chance Trigger On Kill Effects twice","n":"With at least 40 [Dexterity] in Radius, Double Strike has a {0}% chance Trigger On Kill Effects twice","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 99. With at least 40 [Intelligence] in Radius, Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area
+### 97. With at least 40 [Intelligence] in Radius, Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area
 With at least 40 [Intelligence] in Radius, Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 
 - Match score: `105`
@@ -9200,7 +9176,7 @@ With at least 40 [Intelligence] in Radius, Cold Snap's Cooldown can be bypassed 
 {"k":"With at least 40 [Intelligence] in Radius, Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area\nWith at least 40 [Intelligence] in Radius, Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges","n":"With at least 40 [Intelligence] in Radius, Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area\nWith at least 40 [Intelligence] in Radius, Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 100. With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% increased Area of Effect
+### 98. With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% increased Area of Effect
 
 - Match score: `105`
 - `k`: With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% increased Area of Effect
@@ -9212,7 +9188,7 @@ With at least 40 [Intelligence] in Radius, Cold Snap's Cooldown can be bypassed 
 {"k":"With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% increased Area of Effect","n":"With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% increased Area of Effect","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 101. With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% reduced Area of Effect
+### 99. With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% reduced Area of Effect
 
 - Match score: `105`
 - `k`: With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% reduced Area of Effect
@@ -9224,7 +9200,7 @@ With at least 40 [Intelligence] in Radius, Cold Snap's Cooldown can be bypassed 
 {"k":"With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% reduced Area of Effect","n":"With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% reduced Area of Effect","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 102. With at least 40 [Intelligence] in Radius, Rolling Magma
+### 100. With at least 40 [Intelligence] in Radius, Rolling Magma
 has {0}% increased Area of Effect per Chain
 
 - Match score: `105`
@@ -9239,7 +9215,7 @@ has {0}% increased Area of Effect per Chain
 {"k":"With at least 40 [Intelligence] in Radius, Rolling Magma\nhas {0}% increased Area of Effect per Chain","n":"With at least 40 [Intelligence] in Radius, Rolling Magma\nhas {0}% increased Area of Effect per Chain","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 103. With at least 40 [Intelligence] in Radius, Rolling Magma
+### 101. With at least 40 [Intelligence] in Radius, Rolling Magma
 has {0}% reduced Area of Effect per Chain
 
 - Match score: `105`
@@ -9254,7 +9230,7 @@ has {0}% reduced Area of Effect per Chain
 {"k":"With at least 40 [Intelligence] in Radius, Rolling Magma\nhas {0}% reduced Area of Effect per Chain","n":"With at least 40 [Intelligence] in Radius, Rolling Magma\nhas {0}% reduced Area of Effect per Chain","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 104. With at least 40 [Intelligence] in Radius, Spark Projectiles chain an additional time
+### 102. With at least 40 [Intelligence] in Radius, Spark Projectiles chain an additional time
 
 - Match score: `105`
 - `k`: With at least 40 [Intelligence] in Radius, Spark Projectiles chain an additional time
@@ -9266,7 +9242,7 @@ has {0}% reduced Area of Effect per Chain
 {"k":"With at least 40 [Intelligence] in Radius, Spark Projectiles chain an additional time","n":"With at least 40 [Intelligence] in Radius, Spark Projectiles chain an additional time","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 105. With at least 40 [Intelligence] in Radius, Spark Projectiles chain {0} additional times
+### 103. With at least 40 [Intelligence] in Radius, Spark Projectiles chain {0} additional times
 
 - Match score: `105`
 - `k`: With at least 40 [Intelligence] in Radius, Spark Projectiles chain {0} additional times
@@ -9278,7 +9254,7 @@ has {0}% reduced Area of Effect per Chain
 {"k":"With at least 40 [Intelligence] in Radius, Spark Projectiles chain {0} additional times","n":"With at least 40 [Intelligence] in Radius, Spark Projectiles chain {0} additional times","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 106. With at least 40 [Strength] in Radius, Hits with Vigilant Strike Fortify you and Nearby Allies for {0} seconds
+### 104. With at least 40 [Strength] in Radius, Hits with Vigilant Strike Fortify you and Nearby Allies for {0} seconds
 
 - Match score: `105`
 - `k`: With at least 40 [Strength] in Radius, Hits with Vigilant Strike Fortify you and Nearby Allies for {0} seconds
@@ -9290,7 +9266,7 @@ has {0}% reduced Area of Effect per Chain
 {"k":"With at least 40 [Strength] in Radius, Hits with Vigilant Strike Fortify you and Nearby Allies for {0} seconds","n":"With at least 40 [Strength] in Radius, Hits with Vigilant Strike Fortify you and Nearby Allies for {0} seconds","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 107. With at least 40 [Strength] in Radius, Molten Strike has {0}% increased Area of Effect
+### 105. With at least 40 [Strength] in Radius, Molten Strike has {0}% increased Area of Effect
 
 - Match score: `105`
 - `k`: With at least 40 [Strength] in Radius, Molten Strike has {0}% increased Area of Effect
@@ -9302,7 +9278,7 @@ has {0}% reduced Area of Effect per Chain
 {"k":"With at least 40 [Strength] in Radius, Molten Strike has {0}% increased Area of Effect","n":"With at least 40 [Strength] in Radius, Molten Strike has {0}% increased Area of Effect","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 108. With at least 40 [Strength|Strength] in Radius, Molten Strike fires an additional [Projectile|Projectile]
+### 106. With at least 40 [Strength|Strength] in Radius, Molten Strike fires an additional [Projectile|Projectile]
 
 - Match score: `105`
 - `k`: With at least 40 [Strength|Strength] in Radius, Molten Strike fires an additional [Projectile|Projectile]
@@ -9314,7 +9290,7 @@ has {0}% reduced Area of Effect per Chain
 {"k":"With at least 40 [Strength|Strength] in Radius, Molten Strike fires an additional [Projectile|Projectile]","n":"With at least 40 [Strength|Strength] in Radius, Molten Strike fires an additional [Projectile|Projectile]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 109. With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0} additional [Projectile|Projectiles]
+### 107. With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0} additional [Projectile|Projectiles]
 
 - Match score: `105`
 - `k`: With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0} additional [Projectile|Projectiles]
@@ -9326,7 +9302,7 @@ has {0}% reduced Area of Effect per Chain
 {"k":"With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0} additional [Projectile|Projectiles]","n":"With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0} additional [Projectile|Projectiles]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 110. With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% less [Projectile|Projectiles]
+### 108. With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% less [Projectile|Projectiles]
 
 - Match score: `105`
 - `k`: With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% less [Projectile|Projectiles]
@@ -9338,7 +9314,7 @@ has {0}% reduced Area of Effect per Chain
 {"k":"With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% less [Projectile|Projectiles]","n":"With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% less [Projectile|Projectiles]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 111. With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% more [Projectile|Projectiles]
+### 109. With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% more [Projectile|Projectiles]
 
 - Match score: `105`
 - `k`: With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% more [Projectile|Projectiles]
@@ -9350,7 +9326,7 @@ has {0}% reduced Area of Effect per Chain
 {"k":"With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% more [Projectile|Projectiles]","n":"With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% more [Projectile|Projectiles]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 112. You can equip a non-[ItemRarity|Unique] [Sceptre] while wielding a [Talisman]
+### 110. You can equip a non-[ItemRarity|Unique] [Sceptre] while wielding a [Talisman]
 50% less [Spirit]
 Non-[Minion] Skills have 50% less [Reservation] [Efficiency]
 
@@ -9368,7 +9344,7 @@ Non-[Minion] Skills have 50% less [Reservation] [Efficiency]
 {"k":"You can equip a non-[ItemRarity|Unique] [Sceptre] while wielding a [Talisman]\n50% less [Spirit]\nNon-[Minion] Skills have 50% less [Reservation] [Efficiency]","n":"You can equip a non-[ItemRarity|Unique] [Sceptre] while wielding a [Talisman]\n50% less [Spirit]\nNon-[Minion] Skills have 50% less [Reservation] [Efficiency]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 113. You can only have one Herald
+### 111. You can only have one Herald
 50% more Effect of Herald Buffs on you
 100% more Damage with Hits from Herald Skills
 50% more Damage Over Time with Herald Skills
@@ -9395,7 +9371,7 @@ Your Aura Skills are Disabled
 {"k":"You can only have one Herald\n50% more Effect of Herald Buffs on you\n100% more Damage with Hits from Herald Skills\n50% more Damage Over Time with Herald Skills\nMinions from Herald Skills deal 25% more Damage\nYour Aura Skills are Disabled","n":"You can only have one Herald\n50% more Effect of Herald Buffs on you\n100% more Damage with Hits from Herald Skills\n50% more Damage Over Time with Herald Skills\nMinions from Herald Skills deal 25% more Damage\nYour Aura Skills are Disabled","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 114. {0} metre to [Minion] [Aura] radius
+### 112. {0} metre to [Minion] [Aura] radius
 
 - Match score: `105`
 - `k`: {0} metre to [Minion] [Aura] radius
@@ -9407,7 +9383,7 @@ Your Aura Skills are Disabled
 {"k":"{0} metre to [Minion] [Aura] radius","n":"{0} metre to [Minion] [Aura] radius","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 115. {0} metres to [Minion] [Aura] radius
+### 113. {0} metres to [Minion] [Aura] radius
 
 - Match score: `105`
 - `k`: {0} metres to [Minion] [Aura] radius
@@ -9419,7 +9395,7 @@ Your Aura Skills are Disabled
 {"k":"{0} metres to [Minion] [Aura] radius","n":"{0} metres to [Minion] [Aura] radius","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 116. {0}% chance to Trigger Socketed Minion Spells on Kill with this Weapon
+### 114. {0}% chance to Trigger Socketed Minion Spells on Kill with this Weapon
 Minion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses
 
 - Match score: `105`
@@ -9434,7 +9410,7 @@ Minion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses
 {"k":"{0}% chance to Trigger Socketed Minion Spells on Kill with this Weapon\nMinion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses","n":"{0}% chance to Trigger Socketed Minion Spells on Kill with this Weapon\nMinion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 117. {0}% chance to upgrade the boss of a nearby Map into a [PowerfulMapBoss|Powerful Map Boss] when completing [StoneSummoningCircle|Summoning Circles]
+### 115. {0}% chance to upgrade the boss of a nearby Map into a [PowerfulMapBoss|Powerful Map Boss] when completing [StoneSummoningCircle|Summoning Circles]
 
 - Match score: `105`
 - `k`: {0}% chance to upgrade the boss of a nearby Map into a [PowerfulMapBoss|Powerful Map Boss] when completing [StoneSummoningCircle|Summoning Circles]
@@ -9446,7 +9422,7 @@ Minion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses
 {"k":"{0}% chance to upgrade the boss of a nearby Map into a [PowerfulMapBoss|Powerful Map Boss] when completing [StoneSummoningCircle|Summoning Circles]","n":"{0}% chance to upgrade the boss of a nearby Map into a [PowerfulMapBoss|Powerful Map Boss] when completing [StoneSummoningCircle|Summoning Circles]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 118. {0}% increased chance for a [DeliriumGigaMirror|Grand Mirror] to appear on a nearby
+### 116. {0}% increased chance for a [DeliriumGigaMirror|Grand Mirror] to appear on a nearby
 Map when [MapBoss|Map Bosses] are slain within Fog
 
 - Match score: `105`
@@ -9461,7 +9437,7 @@ Map when [MapBoss|Map Bosses] are slain within Fog
 {"k":"{0}% increased chance for a [DeliriumGigaMirror|Grand Mirror] to appear on a nearby\nMap when [MapBoss|Map Bosses] are slain within Fog","n":"{0}% increased chance for a [DeliriumGigaMirror|Grand Mirror] to appear on a nearby\nMap when [MapBoss|Map Bosses] are slain within Fog","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 119. {0}% increased Cooldown Recovery Rate for each Normal or Magic Enemy in Area
+### 117. {0}% increased Cooldown Recovery Rate for each Normal or Magic Enemy in Area
 {1}% increased Cooldown Recovery Rate for each Rare or Unique Enemy in Area
 
 - Match score: `105`
@@ -9476,7 +9452,7 @@ Map when [MapBoss|Map Bosses] are slain within Fog
 {"k":"{0}% increased Cooldown Recovery Rate for each Normal or Magic Enemy in Area\n{1}% increased Cooldown Recovery Rate for each Rare or Unique Enemy in Area","n":"{0}% increased Cooldown Recovery Rate for each Normal or Magic Enemy in Area\n{1}% increased Cooldown Recovery Rate for each Rare or Unique Enemy in Area","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 120. {0}% increased Cooldown Recovery Rate if you've cast Temporal Chains in the past 10 seconds
+### 118. {0}% increased Cooldown Recovery Rate if you've cast Temporal Chains in the past 10 seconds
 
 - Match score: `105`
 - `k`: {0}% increased Cooldown Recovery Rate if you've cast Temporal Chains in the past 10 seconds
@@ -9486,6 +9462,30 @@ Map when [MapBoss|Map Bosses] are slain within Fog
 
 ```json
 {"k":"{0}% increased Cooldown Recovery Rate if you've cast Temporal Chains in the past 10 seconds","n":"{0}% increased Cooldown Recovery Rate if you've cast Temporal Chains in the past 10 seconds","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 119. {0}% increased Cooldown Recovery Rate of Movement Skills
+
+- Match score: `105`
+- `k`: {0}% increased Cooldown Recovery Rate of Movement Skills
+- `n`: {0}% increased Cooldown Recovery Rate of Movement Skills
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"{0}% increased Cooldown Recovery Rate of Movement Skills","n":"{0}% increased Cooldown Recovery Rate of Movement Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 120. {0}% increased Cooldown Recovery Rate of Movement Skills used while affected by Haste
+
+- Match score: `105`
+- `k`: {0}% increased Cooldown Recovery Rate of Movement Skills used while affected by Haste
+- `n`: {0}% increased Cooldown Recovery Rate of Movement Skills used while affected by Haste
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"{0}% increased Cooldown Recovery Rate of Movement Skills used while affected by Haste","n":"{0}% increased Cooldown Recovery Rate of Movement Skills used while affected by Haste","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ## Index match summary

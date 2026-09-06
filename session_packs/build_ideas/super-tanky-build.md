@@ -1,6 +1,6 @@
 # Build Idea Pack — Super Tanky Build
 
-- Generated UTC: `2026-09-05T13:27:38+00:00`
+- Generated UTC: `2026-09-06T13:40:58+00:00`
 - Idea slug: `super-tanky-build`
 - Purpose: Find the strongest practical defensive build with enough damage for bosses and maps.
 - Keywords: `tank, tanky, survivability, life, maximum life, energy shield, armour, evasion, block, shield, resistance, chaos resistance, recovery, regeneration, regen, leech, recoup, damage reduction, guard, stun, ailment, boss, bossing, mitigation, warrior, mercenary, monk, defense, endurance charge`
@@ -9369,19 +9369,19 @@ You cannot Recover [EnergyShield|Energy Shield] to above [Armour]
 {"k":"Excess Life Recovery from Regeneration is applied to [EnergyShield|Energy Shield]\n[EnergyShield|Energy Shield] does not Recharge","n":"Excess Life Recovery from Regeneration is applied to [EnergyShield|Energy Shield]\n[EnergyShield|Energy Shield] does not Recharge","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 3. [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
+### 3. [ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
 Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
 
 - Match score: `175`
-- `k`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
+- `k`: [ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
 Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
-- `n`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
+- `n`: [ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
 Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","n":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","n":"[ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 4. Consecrated Ground you create causes Life Regeneration to
@@ -10539,19 +10539,19 @@ Removed life is Regenerated as [EnergyShield|Energy Shield] over {1} seconds
 {"k":"Take {0}% of maximum Life and {1}% of maximum [EnergyShield|Energy Shield] as [Chaos|Chaos] Damage","n":"Take {0}% of maximum Life and {1}% of maximum [EnergyShield|Energy Shield] as [Chaos|Chaos] Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 96. When [HitDamage|Hit], lose a Ghost Shroud 
+### 96. When [Hit], lose a Ghost Shroud 
 Regenerate [EnergyShield|Energy Shield] equal to {0}% of your [Evasion|Evasion Rating] per second if you have lost a Ghost Shroud [Recently]
 
 - Match score: `140`
-- `k`: When [HitDamage|Hit], lose a Ghost Shroud 
+- `k`: When [Hit], lose a Ghost Shroud 
 Regenerate [EnergyShield|Energy Shield] equal to {0}% of your [Evasion|Evasion Rating] per second if you have lost a Ghost Shroud [Recently]
-- `n`: When [HitDamage|Hit], lose a Ghost Shroud 
+- `n`: When [Hit], lose a Ghost Shroud 
 Regenerate [EnergyShield|Energy Shield] equal to {0}% of your [Evasion|Evasion Rating] per second if you have lost a Ghost Shroud [Recently]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"When [HitDamage|Hit], lose a Ghost Shroud \nRegenerate [EnergyShield|Energy Shield] equal to {0}% of your [Evasion|Evasion Rating] per second if you have lost a Ghost Shroud [Recently]","n":"When [HitDamage|Hit], lose a Ghost Shroud \nRegenerate [EnergyShield|Energy Shield] equal to {0}% of your [Evasion|Evasion Rating] per second if you have lost a Ghost Shroud [Recently]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"When [Hit], lose a Ghost Shroud \nRegenerate [EnergyShield|Energy Shield] equal to {0}% of your [Evasion|Evasion Rating] per second if you have lost a Ghost Shroud [Recently]","n":"When [Hit], lose a Ghost Shroud \nRegenerate [EnergyShield|Energy Shield] equal to {0}% of your [Evasion|Evasion Rating] per second if you have lost a Ghost Shroud [Recently]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 97. Your [Armour], [Evasion] and [EnergyShield|Energy Shield] are zero

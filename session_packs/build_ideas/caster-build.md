@@ -1,6 +1,6 @@
 # Build Idea Pack — Caster Build
 
-- Generated UTC: `2026-09-05T13:27:40+00:00`
+- Generated UTC: `2026-09-06T13:40:59+00:00`
 - Idea slug: `caster-build`
 - Purpose: Engineer a high-damage spellcaster with strong map clear, bossing, sustain, and PS5-friendly execution.
 - Keywords: `spell, caster, cast speed, critical, crit, mana, energy shield, spirit, lightning, cold, fire, chaos, projectile, area, aoe, exposure, penetration, shock, freeze, ignite, wand, staff, focus, sorceress, witch, chronomancer, stormweaver, blood mage`
@@ -4432,13 +4432,13 @@ _No keyword matches in this index._
 ### 2. caster_critical
 
 - Match score: `105`
-- `k`: 1298
+- `k`: 1300
 - `n`: caster_critical
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1298","n":"caster_critical","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_critical"}
+{"k":"1300","n":"caster_critical","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_critical"}
 ```
 
 ### 3. Critical Wand
@@ -4456,229 +4456,229 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand11","n":"Critical Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["wand","onehand","default"],"req":{"dexterity":0,"intelligence":92,"level":52,"strength":0},"domain":"item"}
 ```
 
-### 4. Bone Wand
+### 4. Ashen Staff
+
+- Match score: `85`
+- `k`: Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff1
+- `n`: Ashen Staff
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","fire_implicit_skill","staff","twohand","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":1,"strength":0}
+- `domain`: item
+
+```json
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff1","n":"Ashen Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","fire_implicit_skill","staff","twohand","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
+```
+
+### 5. Bone Wand
 
 - Match score: `85`
 - `k`: Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand2
 - `n`: Bone Wand
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","wand","onehand","default"]
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","physical_implicit_skill","wand","onehand","default"]
 - `req`: {"dexterity":0,"intelligence":0,"level":2,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand2","n":"Bone Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","wand","onehand","default"],"req":{"dexterity":0,"intelligence":0,"level":2,"strength":0},"domain":"item"}
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand2","n":"Bone Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","physical_implicit_skill","wand","onehand","default"],"req":{"dexterity":0,"intelligence":0,"level":2,"strength":0},"domain":"item"}
 ```
 
-### 5. Offering Wand
+### 6. Frigid Wand
+
+- Match score: `85`
+- `k`: Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand9
+- `n`: Frigid Wand
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","cold_implicit_skill","wand","onehand","default"]
+- `req`: {"dexterity":0,"intelligence":80,"level":45,"strength":0}
+- `domain`: item
+
+```json
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand9","n":"Frigid Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","cold_implicit_skill","wand","onehand","default"],"req":{"dexterity":0,"intelligence":80,"level":45,"strength":0},"domain":"item"}
+```
+
+### 7. Galvanic Wand
+
+- Match score: `85`
+- `k`: Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand6
+- `n`: Galvanic Wand
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","lightning_implicit_skill","wand","onehand","default"]
+- `req`: {"dexterity":0,"intelligence":46,"level":25,"strength":0}
+- `domain`: item
+
+```json
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand6","n":"Galvanic Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","lightning_implicit_skill","wand","onehand","default"],"req":{"dexterity":0,"intelligence":46,"level":25,"strength":0},"domain":"item"}
+```
+
+### 8. Gelid Staff
+
+- Match score: `85`
+- `k`: Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff2
+- `n`: Gelid Staff
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","cold_implicit_skill","staff","twohand","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":2,"strength":0}
+- `domain`: item
+
+```json
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff2","n":"Gelid Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","cold_implicit_skill","staff","twohand","default"],"req":{"dexterity":0,"intelligence":0,"level":2,"strength":0},"domain":"item"}
+```
+
+### 9. Icicle Staff
+
+- Match score: `85`
+- `k`: Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff9
+- `n`: Icicle Staff
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","cold_implicit_skill","staff","twohand","default"]
+- `req`: {"dexterity":0,"intelligence":80,"level":45,"strength":0}
+- `domain`: item
+
+```json
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff9","n":"Icicle Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","cold_implicit_skill","staff","twohand","default"],"req":{"dexterity":0,"intelligence":80,"level":45,"strength":0},"domain":"item"}
+```
+
+### 10. Offering Wand
 
 - Match score: `85`
 - `k`: Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand8
 - `n`: Offering Wand
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","wand","onehand","default"]
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","physical_implicit_skill","wand","onehand","default"]
 - `req`: {"dexterity":0,"intelligence":68,"level":38,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand8","n":"Offering Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","wand","onehand","default"],"req":{"dexterity":0,"intelligence":68,"level":38,"strength":0},"domain":"item"}
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand8","n":"Offering Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","physical_implicit_skill","wand","onehand","default"],"req":{"dexterity":0,"intelligence":68,"level":38,"strength":0},"domain":"item"}
 ```
 
-### 6. Reaping Staff
+### 11. Paralysing Staff
+
+- Match score: `85`
+- `k`: Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff11
+- `n`: Paralysing Staff
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","lightning_implicit_skill","staff","twohand","default"]
+- `req`: {"dexterity":0,"intelligence":92,"level":52,"strength":0}
+- `domain`: item
+
+```json
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff11","n":"Paralysing Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","lightning_implicit_skill","staff","twohand","default"],"req":{"dexterity":0,"intelligence":92,"level":52,"strength":0},"domain":"item"}
+```
+
+### 12. Primordial Wand
+
+- Match score: `85`
+- `k`: Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand12
+- `n`: Primordial Wand
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","chaos_implicit_skill","wand","onehand","default"]
+- `req`: {"dexterity":0,"intelligence":99,"level":56,"strength":0}
+- `domain`: item
+
+```json
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand12","n":"Primordial Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","chaos_implicit_skill","wand","onehand","default"],"req":{"dexterity":0,"intelligence":99,"level":56,"strength":0},"domain":"item"}
+```
+
+### 13. Pyrophyte Staff
+
+- Match score: `85`
+- `k`: Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff5
+- `n`: Pyrophyte Staff
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","fire_implicit_skill","staff","twohand","default"]
+- `req`: {"dexterity":0,"intelligence":31,"level":16,"strength":0}
+- `domain`: item
+
+```json
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff5","n":"Pyrophyte Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","fire_implicit_skill","staff","twohand","default"],"req":{"dexterity":0,"intelligence":31,"level":16,"strength":0},"domain":"item"}
+```
+
+### 14. Reaping Staff
 
 - Match score: `85`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff8
 - `n`: Reaping Staff
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","staff","twohand","default"]
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","physical_implicit_skill","staff","twohand","default"]
 - `req`: {"dexterity":0,"intelligence":68,"level":38,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff8","n":"Reaping Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","staff","twohand","default"],"req":{"dexterity":0,"intelligence":68,"level":38,"strength":0},"domain":"item"}
-```
-
-### 7. Ashen Staff
-
-- Match score: `75`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff1
-- `n`: Ashen Staff
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"]
-- `req`: {"dexterity":0,"intelligence":0,"level":1,"strength":0}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff1","n":"Ashen Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
-```
-
-### 8. Frigid Wand
-
-- Match score: `75`
-- `k`: Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand9
-- `n`: Frigid Wand
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","wand","onehand","default"]
-- `req`: {"dexterity":0,"intelligence":80,"level":45,"strength":0}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand9","n":"Frigid Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","wand","onehand","default"],"req":{"dexterity":0,"intelligence":80,"level":45,"strength":0},"domain":"item"}
-```
-
-### 9. Galvanic Wand
-
-- Match score: `75`
-- `k`: Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand6
-- `n`: Galvanic Wand
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","wand","onehand","default"]
-- `req`: {"dexterity":0,"intelligence":46,"level":25,"strength":0}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand6","n":"Galvanic Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","wand","onehand","default"],"req":{"dexterity":0,"intelligence":46,"level":25,"strength":0},"domain":"item"}
-```
-
-### 10. Gelid Staff
-
-- Match score: `75`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff2
-- `n`: Gelid Staff
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"]
-- `req`: {"dexterity":0,"intelligence":0,"level":2,"strength":0}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff2","n":"Gelid Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"],"req":{"dexterity":0,"intelligence":0,"level":2,"strength":0},"domain":"item"}
-```
-
-### 11. Icicle Staff
-
-- Match score: `75`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff9
-- `n`: Icicle Staff
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"]
-- `req`: {"dexterity":0,"intelligence":80,"level":45,"strength":0}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff9","n":"Icicle Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"],"req":{"dexterity":0,"intelligence":80,"level":45,"strength":0},"domain":"item"}
-```
-
-### 12. Paralysing Staff
-
-- Match score: `75`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff11
-- `n`: Paralysing Staff
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"]
-- `req`: {"dexterity":0,"intelligence":92,"level":52,"strength":0}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff11","n":"Paralysing Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"],"req":{"dexterity":0,"intelligence":92,"level":52,"strength":0},"domain":"item"}
-```
-
-### 13. Primordial Wand
-
-- Match score: `75`
-- `k`: Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand12
-- `n`: Primordial Wand
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","wand","onehand","default"]
-- `req`: {"dexterity":0,"intelligence":99,"level":56,"strength":0}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand12","n":"Primordial Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","wand","onehand","default"],"req":{"dexterity":0,"intelligence":99,"level":56,"strength":0},"domain":"item"}
-```
-
-### 14. Pyrophyte Staff
-
-- Match score: `75`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff5
-- `n`: Pyrophyte Staff
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"]
-- `req`: {"dexterity":0,"intelligence":31,"level":16,"strength":0}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff5","n":"Pyrophyte Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"],"req":{"dexterity":0,"intelligence":31,"level":16,"strength":0},"domain":"item"}
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff8","n":"Reaping Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","physical_implicit_skill","staff","twohand","default"],"req":{"dexterity":0,"intelligence":68,"level":38,"strength":0},"domain":"item"}
 ```
 
 ### 15. Rending Staff
 
-- Match score: `75`
+- Match score: `85`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff7
 - `n`: Rending Staff
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","staff","twohand","default"]
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","chaos_implicit_skill","staff","twohand","default"]
 - `req`: {"dexterity":0,"intelligence":60,"level":33,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff7","n":"Rending Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","staff","twohand","default"],"req":{"dexterity":0,"intelligence":60,"level":33,"strength":0},"domain":"item"}
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff7","n":"Rending Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","chaos_implicit_skill","staff","twohand","default"],"req":{"dexterity":0,"intelligence":60,"level":33,"strength":0},"domain":"item"}
 ```
 
 ### 16. Volatile Wand
 
-- Match score: `75`
+- Match score: `85`
 - `k`: Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand5
 - `n`: Volatile Wand
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
-- `tags`: ["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","wand","onehand","default"]
+- `tags`: ["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","fire_implicit_skill","wand","onehand","default"]
 - `req`: {"dexterity":0,"intelligence":31,"level":16,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand5","n":"Volatile Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","wand","onehand","default"],"req":{"dexterity":0,"intelligence":31,"level":16,"strength":0},"domain":"item"}
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand5","n":"Volatile Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","fire_implicit_skill","wand","onehand","default"],"req":{"dexterity":0,"intelligence":31,"level":16,"strength":0},"domain":"item"}
 ```
 
 ### 17. Voltaic Staff
 
-- Match score: `75`
+- Match score: `85`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff3
 - `n`: Voltaic Staff
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"]
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","lightning_implicit_skill","staff","twohand","default"]
 - `req`: {"dexterity":0,"intelligence":0,"level":2,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff3","n":"Voltaic Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","staff","twohand","default"],"req":{"dexterity":0,"intelligence":0,"level":2,"strength":0},"domain":"item"}
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff3","n":"Voltaic Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Staff","tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods","lightning_implicit_skill","staff","twohand","default"],"req":{"dexterity":0,"intelligence":0,"level":2,"strength":0},"domain":"item"}
 ```
 
 ### 18. Withered Wand
 
-- Match score: `75`
+- Match score: `85`
 - `k`: Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand1
 - `n`: Withered Wand
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","wand","onehand","default"]
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","chaos_implicit_skill","wand","onehand","default"]
 - `req`: {"dexterity":0,"intelligence":0,"level":1,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand1","n":"Withered Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","wand","onehand","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand1","n":"Withered Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","chaos_implicit_skill","wand","onehand","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
 ```
 
 ### 19. Blazing Critical
@@ -5541,13 +5541,13 @@ _No keyword matches in this index._
 ### 85. amanamu_mod
 
 - Match score: `35`
-- `k`: 1183
+- `k`: 1185
 - `n`: amanamu_mod
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1183","n":"amanamu_mod","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"amanamu_mod"}
+{"k":"1185","n":"amanamu_mod","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"amanamu_mod"}
 ```
 
 ### 86. Ancestral Spirits
@@ -5860,7 +5860,21 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand3","n":"Attuned Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["wand","onehand","default"],"req":{"dexterity":0,"intelligence":0,"level":2,"strength":0},"domain":"item"}
 ```
 
-### 110. atziri_area
+### 110. Atziri's Soul Core of Alacrity
+
+- Match score: `35`
+- `k`: Metadata/Items/SoulCores/SoulCoreSpecial31
+- `n`: Atziri's Soul Core of Alacrity
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["soul_core","soul_core_tier4","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/SoulCores/SoulCoreSpecial31","n":"Atziri's Soul Core of Alacrity","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["soul_core","soul_core_tier4","default"],"domain":"undefined"}
+```
+
+### 111. atziri_area
 
 - Match score: `35`
 - `k`: atziri_area
@@ -5872,7 +5886,7 @@ _No keyword matches in this index._
 {"k":"atziri_area","n":"atziri_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 111. atziri_area
+### 112. atziri_area
 
 - Match score: `35`
 - `k`: 824
@@ -5884,7 +5898,7 @@ _No keyword matches in this index._
 {"k":"824","n":"atziri_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"atziri_area"}
 ```
 
-### 112. Ball Lightning
+### 113. Ball Lightning
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemBallLightning
@@ -5898,7 +5912,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemBallLightning","n":"Ball Lightning","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 113. bandit_area
+### 114. bandit_area
 
 - Match score: `35`
 - `k`: bandit_area
@@ -5910,7 +5924,7 @@ _No keyword matches in this index._
 {"k":"bandit_area","n":"bandit_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 114. bandit_area
+### 115. bandit_area
 
 - Match score: `35`
 - `k`: 379
@@ -5922,7 +5936,7 @@ _No keyword matches in this index._
 {"k":"379","n":"bandit_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bandit_area"}
 ```
 
-### 115. Barbarous Quarterstaff
+### 116. Barbarous Quarterstaff
 
 - Match score: `35`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff3Cruel
@@ -5937,7 +5951,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff3Cruel","n":"Barbarous Quarterstaff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Warstaff","tags":["warstaff","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":67,"intelligence":27,"level":48,"strength":0},"domain":"item"}
 ```
 
-### 116. Barrier Quarterstaff
+### 117. Barrier Quarterstaff
 
 - Match score: `35`
 - `k`: Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff8
@@ -5952,7 +5966,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff8","n":"Barrier Quarterstaff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Warstaff","tags":["vaal_basetype","warstaff","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":52,"intelligence":22,"level":37,"strength":0},"domain":"item"}
 ```
 
-### 117. belly_area
+### 118. belly_area
 
 - Match score: `35`
 - `k`: belly_area
@@ -5964,7 +5978,7 @@ _No keyword matches in this index._
 {"k":"belly_area","n":"belly_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 118. belly_area
+### 119. belly_area
 
 - Match score: `35`
 - `k`: 361
@@ -5976,7 +5990,7 @@ _No keyword matches in this index._
 {"k":"361","n":"belly_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"belly_area"}
 ```
 
-### 119. bestiary_spirit_boss
+### 120. bestiary_spirit_boss
 
 - Match score: `35`
 - `k`: bestiary_spirit_boss
@@ -5986,18 +6000,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"bestiary_spirit_boss","n":"bestiary_spirit_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
-```
-
-### 120. bestiary_spirit_boss
-
-- Match score: `35`
-- `k`: 833
-- `n`: bestiary_spirit_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
-
-```json
-{"k":"833","n":"bestiary_spirit_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bestiary_spirit_boss"}
 ```
 
 ## Mods and affixes
@@ -8497,28 +8499,28 @@ _No keyword matches in this index._
 {"k":"Nearby Enemies have Fire, Cold and Lightning Exposure while you have Phasing, lowering those Total Resistances by {0}%","n":"Nearby Enemies have Fire, Cold and Lightning Exposure while you have Phasing, lowering those Total Resistances by {0}%","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 19. Non-[Channelling] [Spell|Spells] have {0}% increased [Critical|Critical Hit Chance] per 100 maximum Mana
+### 19. Non-[Channelling] Skills have {0}% increased [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana
 
 - Match score: `140`
-- `k`: Non-[Channelling] [Spell|Spells] have {0}% increased [Critical|Critical Hit Chance] per 100 maximum Mana
-- `n`: Non-[Channelling] [Spell|Spells] have {0}% increased [Critical|Critical Hit Chance] per 100 maximum Mana
+- `k`: Non-[Channelling] Skills have {0}% increased [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana
+- `n`: Non-[Channelling] Skills have {0}% increased [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"Non-[Channelling] [Spell|Spells] have {0}% increased [Critical|Critical Hit Chance] per 100 maximum Mana","n":"Non-[Channelling] [Spell|Spells] have {0}% increased [Critical|Critical Hit Chance] per 100 maximum Mana","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"Non-[Channelling] Skills have {0}% increased [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana","n":"Non-[Channelling] Skills have {0}% increased [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 20. Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Mana
+### 20. Non-[Channelling] Skills have {0}% reduced [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana
 
 - Match score: `140`
-- `k`: Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Mana
-- `n`: Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Mana
+- `k`: Non-[Channelling] Skills have {0}% reduced [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana
+- `n`: Non-[Channelling] Skills have {0}% reduced [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Mana","n":"Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Mana","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"Non-[Channelling] Skills have {0}% reduced [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana","n":"Non-[Channelling] Skills have {0}% reduced [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 21. Non-[Channelling] Spells cost Double Mana and [Critical|Critically Hit]
@@ -8821,28 +8823,28 @@ _No keyword matches in this index._
 {"k":"[Attack|Attacks] [Gain] {0}% of Damage as [Fire] Damage for {1} seconds on [Critical|Critically Hitting] with Supported Skills","n":"[Attack|Attacks] [Gain] {0}% of Damage as [Fire] Damage for {1} seconds on [Critical|Critically Hitting] with Supported Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 45. [Chaos] Damage from [HitDamage|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance
+### 45. [Chaos] Damage from [Hit|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance
 
 - Match score: `105`
-- `k`: [Chaos] Damage from [HitDamage|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance
-- `n`: [Chaos] Damage from [HitDamage|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance
+- `k`: [Chaos] Damage from [Hit|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance
+- `n`: [Chaos] Damage from [Hit|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Chaos] Damage from [HitDamage|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance","n":"[Chaos] Damage from [HitDamage|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Chaos] Damage from [Hit|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance","n":"[Chaos] Damage from [Hit|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 46. [Cold] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup
+### 46. [Cold] Damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup
 
 - Match score: `105`
-- `k`: [Cold] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup
-- `n`: [Cold] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup
+- `k`: [Cold] Damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup
+- `n`: [Cold] Damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Cold] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup","n":"[Cold] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Cold] Damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup","n":"[Cold] Damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 47. [Consume|Consumes] [Freeze], [Shock] and [Ignite] to trigger Elemental Discharge
@@ -8977,40 +8979,40 @@ _No keyword matches in this index._
 {"k":"[Critical|Critical Hits] with Spells inflict Impale","n":"[Critical|Critical Hits] with Spells inflict Impale","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 58. [DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+### 58. [DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 
 - Match score: `105`
-- `k`: [DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
-- `n`: [DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+- `k`: [DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+- `n`: [DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 59. [ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+### 59. [ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 
 - Match score: `105`
-- `k`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
-- `n`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+- `k`: [ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+- `n`: [ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 60. [Fire] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Shock] Chance instead of [Flammability] and [Ignite] [BuffMagnitude|Magnitudes]
+### 60. [Fire] Damage from [Hit|Hits] [Contributes|Contributes] to [Shock] Chance instead of [Flammability] and [Ignite] [BuffMagnitude|Magnitudes]
 
 - Match score: `105`
-- `k`: [Fire] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Shock] Chance instead of [Flammability] and [Ignite] [BuffMagnitude|Magnitudes]
-- `n`: [Fire] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Shock] Chance instead of [Flammability] and [Ignite] [BuffMagnitude|Magnitudes]
+- `k`: [Fire] Damage from [Hit|Hits] [Contributes|Contributes] to [Shock] Chance instead of [Flammability] and [Ignite] [BuffMagnitude|Magnitudes]
+- `n`: [Fire] Damage from [Hit|Hits] [Contributes|Contributes] to [Shock] Chance instead of [Flammability] and [Ignite] [BuffMagnitude|Magnitudes]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Fire] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Shock] Chance instead of [Flammability] and [Ignite] [BuffMagnitude|Magnitudes]","n":"[Fire] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Shock] Chance instead of [Flammability] and [Ignite] [BuffMagnitude|Magnitudes]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Fire] Damage from [Hit|Hits] [Contributes|Contributes] to [Shock] Chance instead of [Flammability] and [Ignite] [BuffMagnitude|Magnitudes]","n":"[Fire] Damage from [Hit|Hits] [Contributes|Contributes] to [Shock] Chance instead of [Flammability] and [Ignite] [BuffMagnitude|Magnitudes]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 61. [Gain] {0}% of [Cold] Damage as Extra [Fire] Damage against [Freeze|Frozen] Enemies
@@ -9109,16 +9111,16 @@ _No keyword matches in this index._
 {"k":"[Knockback|Knocks Back] Enemies if you get a [Critical|Critical Hit] with a [Quarterstaff|Quarterstaff]","n":"[Knockback|Knocks Back] Enemies if you get a [Critical|Critical Hit] with a [Quarterstaff|Quarterstaff]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 69. [Lightning] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Freeze] Buildup instead of [Shock] Chance
+### 69. [Lightning] Damage from [Hit|Hits] [Contributes|Contributes] to [Freeze] Buildup instead of [Shock] Chance
 
 - Match score: `105`
-- `k`: [Lightning] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Freeze] Buildup instead of [Shock] Chance
-- `n`: [Lightning] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Freeze] Buildup instead of [Shock] Chance
+- `k`: [Lightning] Damage from [Hit|Hits] [Contributes|Contributes] to [Freeze] Buildup instead of [Shock] Chance
+- `n`: [Lightning] Damage from [Hit|Hits] [Contributes|Contributes] to [Freeze] Buildup instead of [Shock] Chance
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Lightning] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Freeze] Buildup instead of [Shock] Chance","n":"[Lightning] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Freeze] Buildup instead of [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Lightning] Damage from [Hit|Hits] [Contributes|Contributes] to [Freeze] Buildup instead of [Shock] Chance","n":"[Lightning] Damage from [Hit|Hits] [Contributes|Contributes] to [Freeze] Buildup instead of [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 70. [Lightning] Damage with [Critical|Non-Critical Hits] is [Lucky]
@@ -9133,28 +9135,28 @@ _No keyword matches in this index._
 {"k":"[Lightning] Damage with [Critical|Non-Critical Hits] is [Lucky]","n":"[Lightning] Damage with [Critical|Non-Critical Hits] is [Lucky]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 71. [Meta] Skills gain {0}% increased [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]
+### 71. [Meta] Skills gain {0}% increased [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]
 
 - Match score: `105`
-- `k`: [Meta] Skills gain {0}% increased [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]
-- `n`: [Meta] Skills gain {0}% increased [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]
+- `k`: [Meta] Skills gain {0}% increased [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]
+- `n`: [Meta] Skills gain {0}% increased [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Meta] Skills gain {0}% increased [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]","n":"[Meta] Skills gain {0}% increased [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Meta] Skills gain {0}% increased [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]","n":"[Meta] Skills gain {0}% increased [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 72. [Meta] Skills gain {0}% reduced [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]
+### 72. [Meta] Skills gain {0}% reduced [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]
 
 - Match score: `105`
-- `k`: [Meta] Skills gain {0}% reduced [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]
-- `n`: [Meta] Skills gain {0}% reduced [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]
+- `k`: [Meta] Skills gain {0}% reduced [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]
+- `n`: [Meta] Skills gain {0}% reduced [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Meta] Skills gain {0}% reduced [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]","n":"[Meta] Skills gain {0}% reduced [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Meta] Skills gain {0}% reduced [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]","n":"[Meta] Skills gain {0}% reduced [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 73. [Penetration|Penetrates] {0}% [Lightning] [Resistances|Resistance] if on [LowMana|Low Mana]
@@ -9169,31 +9171,31 @@ _No keyword matches in this index._
 {"k":"[Penetration|Penetrates] {0}% [Lightning] [Resistances|Resistance] if on [LowMana|Low Mana]","n":"[Penetration|Penetrates] {0}% [Lightning] [Resistances|Resistance] if on [LowMana|Low Mana]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 74. [Physical] [Spell] [Critical] [HitDamage|Hits] build [Pinned|Pin]
+### 74. [Physical] [Spell] [Critical] [Hit|Hits] build [Pinned|Pin]
 
 - Match score: `105`
-- `k`: [Physical] [Spell] [Critical] [HitDamage|Hits] build [Pinned|Pin]
-- `n`: [Physical] [Spell] [Critical] [HitDamage|Hits] build [Pinned|Pin]
+- `k`: [Physical] [Spell] [Critical] [Hit|Hits] build [Pinned|Pin]
+- `n`: [Physical] [Spell] [Critical] [Hit|Hits] build [Pinned|Pin]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Physical] [Spell] [Critical] [HitDamage|Hits] build [Pinned|Pin]","n":"[Physical] [Spell] [Critical] [HitDamage|Hits] build [Pinned|Pin]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Physical] [Spell] [Critical] [Hit|Hits] build [Pinned|Pin]","n":"[Physical] [Spell] [Critical] [Hit|Hits] build [Pinned|Pin]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 75. [Physical] damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and
+### 75. [Physical] damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and
 [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 
 - Match score: `105`
-- `k`: [Physical] damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and
+- `k`: [Physical] damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and
 [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
-- `n`: [Physical] damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and
+- `n`: [Physical] damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and
 [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Physical] damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and\n[Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[Physical] damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and\n[Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Physical] damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and\n[Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[Physical] damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and\n[Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 76. [Projectile|Projectiles] from [Empowered] [Lightning|Lightning] [Spell|Spells] [Fork|Fork]
@@ -9292,28 +9294,28 @@ _No keyword matches in this index._
 {"k":"[Projectile|Projectiles] have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] against Enemies within 2m","n":"[Projectile|Projectiles] have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] against Enemies within 2m","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 84. [Spell] [HitDamage|Hits] against you have {0}% increased [Critical|Critical Hit Chance]
+### 84. [Spell] [Hit|Hits] against you have {0}% increased [Critical|Critical Hit Chance]
 
 - Match score: `105`
-- `k`: [Spell] [HitDamage|Hits] against you have {0}% increased [Critical|Critical Hit Chance]
-- `n`: [Spell] [HitDamage|Hits] against you have {0}% increased [Critical|Critical Hit Chance]
+- `k`: [Spell] [Hit|Hits] against you have {0}% increased [Critical|Critical Hit Chance]
+- `n`: [Spell] [Hit|Hits] against you have {0}% increased [Critical|Critical Hit Chance]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Spell] [HitDamage|Hits] against you have {0}% increased [Critical|Critical Hit Chance]","n":"[Spell] [HitDamage|Hits] against you have {0}% increased [Critical|Critical Hit Chance]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Spell] [Hit|Hits] against you have {0}% increased [Critical|Critical Hit Chance]","n":"[Spell] [Hit|Hits] against you have {0}% increased [Critical|Critical Hit Chance]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 85. [Spell] [HitDamage|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]
+### 85. [Spell] [Hit|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]
 
 - Match score: `105`
-- `k`: [Spell] [HitDamage|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]
-- `n`: [Spell] [HitDamage|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]
+- `k`: [Spell] [Hit|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]
+- `n`: [Spell] [Hit|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Spell] [HitDamage|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]","n":"[Spell] [HitDamage|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Spell] [Hit|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]","n":"[Spell] [Hit|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 86. [Spell|Spells] fire {0} additional [Projectile|Projectiles]

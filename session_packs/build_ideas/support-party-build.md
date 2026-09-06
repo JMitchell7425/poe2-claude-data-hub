@@ -1,6 +1,6 @@
 # Build Idea Pack — Support / Party Build
 
-- Generated UTC: `2026-09-05T13:27:52+00:00`
+- Generated UTC: `2026-09-06T13:41:11+00:00`
 - Idea slug: `support-party-build`
 - Purpose: Engineer party support builds focused on curses, auras, control, debuffs, and ally amplification.
 - Keywords: `support, party, ally, aura, curse, blasphemy, temporal chains, enfeeble, exposure, shock, freeze, resistance, spirit, reservation, duration, cooldown, chronomancer, witch, sorceress, debuff, control`
@@ -5473,13 +5473,13 @@ _No keyword matches in this index._
 ### 71. chaos_resistance
 
 - Match score: `35`
-- `k`: 1293
+- `k`: 1295
 - `n`: chaos_resistance
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1293","n":"chaos_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_resistance"}
+{"k":"1295","n":"chaos_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_resistance"}
 ```
 
 ### 72. cold_resistance
@@ -5497,13 +5497,13 @@ _No keyword matches in this index._
 ### 73. cold_resistance
 
 - Match score: `35`
-- `k`: 1264
+- `k`: 1266
 - `n`: cold_resistance
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1264","n":"cold_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_resistance"}
+{"k":"1266","n":"cold_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_resistance"}
 ```
 
 ### 74. Curse
@@ -5602,13 +5602,13 @@ _No keyword matches in this index._
 ### 81. elemental_resistance
 
 - Match score: `35`
-- `k`: 1262
+- `k`: 1264
 - `n`: elemental_resistance
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1262","n":"elemental_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elemental_resistance"}
+{"k":"1264","n":"elemental_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elemental_resistance"}
 ```
 
 ### 82. Enfeeble
@@ -5640,13 +5640,13 @@ _No keyword matches in this index._
 ### 84. fire_resistance
 
 - Match score: `35`
-- `k`: 1263
+- `k`: 1265
 - `n`: fire_resistance
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1263","n":"fire_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"fire_resistance"}
+{"k":"1265","n":"fire_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"fire_resistance"}
 ```
 
 ### 85. grants_2h_support
@@ -5711,7 +5711,21 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/SoulCores/RuneSpecial5","n":"Hedgewitch Assandra's Rune of Wisdom","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","default"],"domain":"undefined"}
 ```
 
-### 90. Legacy of Cursecarver
+### 90. Jiquani's Soul Core of Rallying
+
+- Match score: `35`
+- `k`: Metadata/Items/SoulCores/SoulCoreSpecial19
+- `n`: Jiquani's Soul Core of Rallying
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["soul_core","soul_core_tier3","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/SoulCores/SoulCoreSpecial19","n":"Jiquani's Soul Core of Rallying","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["soul_core","soul_core_tier3","default"],"domain":"undefined"}
+```
+
+### 91. Legacy of Cursecarver
 
 - Match score: `35`
 - `k`: Metadata/Items/SoulCores/RuneOlrothsLegacyCursecarver
@@ -5725,7 +5739,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/SoulCores/RuneOlrothsLegacyCursecarver","n":"Legacy of Cursecarver","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","default"],"domain":"undefined"}
 ```
 
-### 91. lightning_resistance
+### 92. lightning_resistance
 
 - Match score: `35`
 - `k`: lightning_resistance
@@ -5737,19 +5751,19 @@ _No keyword matches in this index._
 {"k":"lightning_resistance","n":"lightning_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 92. lightning_resistance
+### 93. lightning_resistance
 
 - Match score: `35`
-- `k`: 1265
+- `k`: 1267
 - `n`: lightning_resistance
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1265","n":"lightning_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"lightning_resistance"}
+{"k":"1267","n":"lightning_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"lightning_resistance"}
 ```
 
-### 93. minion_resistance
+### 94. minion_resistance
 
 - Match score: `35`
 - `k`: minion_resistance
@@ -5761,19 +5775,19 @@ _No keyword matches in this index._
 {"k":"minion_resistance","n":"minion_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 94. minion_resistance
+### 95. minion_resistance
 
 - Match score: `35`
-- `k`: 1294
+- `k`: 1296
 - `n`: minion_resistance
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1294","n":"minion_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"minion_resistance"}
+{"k":"1296","n":"minion_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"minion_resistance"}
 ```
 
-### 95. no_cannot_die_aura
+### 96. no_cannot_die_aura
 
 - Match score: `35`
 - `k`: no_cannot_die_aura
@@ -5785,7 +5799,7 @@ _No keyword matches in this index._
 {"k":"no_cannot_die_aura","n":"no_cannot_die_aura","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 96. no_cannot_die_aura
+### 97. no_cannot_die_aura
 
 - Match score: `35`
 - `k`: 299
@@ -5797,7 +5811,7 @@ _No keyword matches in this index._
 {"k":"299","n":"no_cannot_die_aura","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"no_cannot_die_aura"}
 ```
 
-### 97. no_spirit_walkers_archnemesis
+### 98. no_spirit_walkers_archnemesis
 
 - Match score: `35`
 - `k`: no_spirit_walkers_archnemesis
@@ -5809,7 +5823,7 @@ _No keyword matches in this index._
 {"k":"no_spirit_walkers_archnemesis","n":"no_spirit_walkers_archnemesis","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 98. no_spirit_walkers_archnemesis
+### 99. no_spirit_walkers_archnemesis
 
 - Match score: `35`
 - `k`: 964
@@ -5821,7 +5835,7 @@ _No keyword matches in this index._
 {"k":"964","n":"no_spirit_walkers_archnemesis","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"no_spirit_walkers_archnemesis"}
 ```
 
-### 99. Raging Spirits
+### 100. Raging Spirits
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemRagingSpirits
@@ -5835,7 +5849,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemRagingSpirits","n":"Raging Spirits","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 100. Resistance
+### 101. Resistance
 
 - Match score: `35`
 - `k`: resistance
@@ -5847,7 +5861,7 @@ _No keyword matches in this index._
 {"k":"resistance","n":"Resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 101. resistance
+### 102. resistance
 
 - Match score: `35`
 - `k`: 583
@@ -5859,7 +5873,7 @@ _No keyword matches in this index._
 {"k":"583","n":"resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"resistance"}
 ```
 
-### 102. Runeforged Spiritbone Crown
+### 103. Runeforged Spiritbone Crown
 
 - Match score: `35`
 - `k`: Metadata/Items/Armours/Helmets/FourHelmetStrInt6Verisium
@@ -5874,7 +5888,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Helmets/FourHelmetStrInt6Verisium","n":"Runeforged Spiritbone Crown","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_int_armour","karui_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":0,"intelligence":36,"level":45,"strength":36},"domain":"item"}
 ```
 
-### 103. Runemastered Spiritbone Crown
+### 104. Runemastered Spiritbone Crown
 
 - Match score: `35`
 - `k`: Metadata/Items/Armours/Helmets/FourHelmetStrInt6VerisiumUnique1
@@ -5889,7 +5903,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Helmets/FourHelmetStrInt6VerisiumUnique1","n":"Runemastered Spiritbone Crown","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_int_armour","karui_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
 ```
 
-### 104. Runemastered Spiritbone Crown
+### 105. Runemastered Spiritbone Crown
 
 - Match score: `35`
 - `k`: Metadata/Items/Armours/Helmets/FourHelmetStrInt6VerisiumUnique2
@@ -5904,7 +5918,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Helmets/FourHelmetStrInt6VerisiumUnique2","n":"Runemastered Spiritbone Crown","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_int_armour","karui_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
 ```
 
-### 105. Runemastered Spiritbone Crown
+### 106. Runemastered Spiritbone Crown
 
 - Match score: `35`
 - `k`: Metadata/Items/Armours/Helmets/FourHelmetStrInt6VerisiumUnique3
@@ -5919,7 +5933,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Helmets/FourHelmetStrInt6VerisiumUnique3","n":"Runemastered Spiritbone Crown","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_int_armour","karui_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
 ```
 
-### 106. sea_witch_boss_area
+### 107. sea_witch_boss_area
 
 - Match score: `35`
 - `k`: sea_witch_boss_area
@@ -5931,7 +5945,7 @@ _No keyword matches in this index._
 {"k":"sea_witch_boss_area","n":"sea_witch_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 107. sea_witch_boss_area
+### 108. sea_witch_boss_area
 
 - Match score: `35`
 - `k`: 805
@@ -5943,7 +5957,7 @@ _No keyword matches in this index._
 {"k":"805","n":"sea_witch_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"sea_witch_boss_area"}
 ```
 
-### 108. Shockburst Rounds
+### 109. Shockburst Rounds
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemShockburstRounds
@@ -5957,7 +5971,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemShockburstRounds","n":"Shockburst Rounds","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 109. Shockchain Arrow
+### 110. Shockchain Arrow
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemShockchainArrow
@@ -5971,7 +5985,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemShockchainArrow","n":"Shockchain Arrow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 110. Shockwave Totem
+### 111. Shockwave Totem
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemShockwaveTotem
@@ -5985,7 +5999,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemShockwaveTotem","n":"Shockwave Totem","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 111. Spirit Vessel
+### 112. Spirit Vessel
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemSpiritVessel
@@ -5999,7 +6013,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemSpiritVessel","n":"Spirit Vessel","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 112. Spiritbone Crown
+### 113. Spiritbone Crown
 
 - Match score: `35`
 - `k`: Metadata/Items/Armours/Helmets/FourHelmetStrInt6
@@ -6014,7 +6028,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Helmets/FourHelmetStrInt6","n":"Spiritbone Crown","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_int_armour","karui_basetype","helmet","armour","default"],"req":{"dexterity":0,"intelligence":36,"level":45,"strength":36},"domain":"item"}
 ```
 
-### 113. support
+### 114. support
 
 - Match score: `35`
 - `k`: support
@@ -6026,7 +6040,7 @@ _No keyword matches in this index._
 {"k":"support","n":"support","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 114. support
+### 115. support
 
 - Match score: `35`
 - `k`: 592
@@ -6038,7 +6052,7 @@ _No keyword matches in this index._
 {"k":"592","n":"support","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"support"}
 ```
 
-### 115. Support Gems
+### 116. Support Gems
 
 - Match score: `35`
 - `k`: Support Skill Gem
@@ -6050,7 +6064,7 @@ _No keyword matches in this index._
 {"k":"Support Skill Gem","n":"Support Gems","cat":"repoe_item_classes","src":"repoe_poe2/item_classes.json"}
 ```
 
-### 116. support_gem
+### 117. support_gem
 
 - Match score: `35`
 - `k`: support_gem
@@ -6062,7 +6076,7 @@ _No keyword matches in this index._
 {"k":"support_gem","n":"support_gem","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 117. support_gem
+### 118. support_gem
 
 - Match score: `35`
 - `k`: 167
@@ -6074,7 +6088,7 @@ _No keyword matches in this index._
 {"k":"167","n":"support_gem","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"support_gem"}
 ```
 
-### 118. Supporting Fire
+### 119. Supporting Fire
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemAscendancySupportingFire
@@ -6088,7 +6102,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemAscendancySupportingFire","n":"Supporting Fire","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 119. Temporal Chains
+### 120. Temporal Chains
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemTemporalChains
@@ -6100,20 +6114,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"Metadata/Items/Gems/SkillGemTemporalChains","n":"Temporal Chains","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 120. Time Freeze
-
-- Match score: `35`
-- `k`: Metadata/Items/Gem/SkillGemAscendancyTimeFreeze
-- `n`: Time Freeze
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SkillGemAscendancyTimeFreeze","n":"Time Freeze","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
 ## Mods and affixes
@@ -6186,6 +6186,7 @@ _No keyword matches in this index._
 ```
 
 ### 5. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
+<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{All Damage can Shock}
 <rgb(135,134,253)>{All Damage can Chill}
 <rgb(135,134,253)>{All Damage can Ignite}
@@ -6194,6 +6195,7 @@ _No keyword matches in this index._
 - Match score: `70`
 - `k`: ExpeditionMonsterModRunePrismatic
 - `n`: <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
+<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{All Damage can Shock}
 <rgb(135,134,253)>{All Damage can Chill}
 <rgb(135,134,253)>{All Damage can Ignite}
@@ -6206,7 +6208,7 @@ _No keyword matches in this index._
 - `stats`: [{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}]
 
 ```json
-{"k":"ExpeditionMonsterModRunePrismatic","n":"<<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}\r\n<rgb(135,134,253)>{All Damage can Shock}\r\n<rgb(135,134,253)>{All Damage can Chill}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{All Elemental Resistance}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
+{"k":"ExpeditionMonsterModRunePrismatic","n":"<<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{All Damage can Shock}\r\n<rgb(135,134,253)>{All Damage can Chill}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{All Elemental Resistance}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
 ### 6. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
@@ -7244,10 +7246,10 @@ _No keyword matches in this index._
 - `lvl`: 1
 - `gen`: prefix
 - `domain`: desecrated
-- `stats`: [{"id":"base_spirit","max":60,"min":40},{"id":"base_spirit_reservation_efficiency_+%","max":10,"min":6}]
+- `stats`: [{"id":"base_spirit_from_equipment","max":60,"min":40},{"id":"base_spirit_reservation_efficiency_+%","max":10,"min":6}]
 
 ```json
-{"k":"UniqueKulemakSpiritAndSpiritReservationEfficiency_1","n":"UniqueKulemakSpiritAndSpiritReservationEfficiency_1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_spirit","max":60,"min":40},{"id":"base_spirit_reservation_efficiency_+%","max":10,"min":6}],"domain":"desecrated","gen":"prefix","weights":[{"tag":"kulemak_abyss_special_prefix","weight":1},{"tag":"default","weight":0}],"lvl":1}
+{"k":"UniqueKulemakSpiritAndSpiritReservationEfficiency_1","n":"UniqueKulemakSpiritAndSpiritReservationEfficiency_1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_spirit_from_equipment","max":60,"min":40},{"id":"base_spirit_reservation_efficiency_+%","max":10,"min":6}],"domain":"desecrated","gen":"prefix","weights":[{"tag":"kulemak_abyss_special_prefix","weight":1},{"tag":"default","weight":0}],"lvl":1}
 ```
 
 ### 73. UniqueMutatedVaalFreezeDuration
@@ -9069,16 +9071,16 @@ enemies [Strike|Struck] with [Exposure]
 {"k":"[AzmeriSpirit|Azmeri Spirits] in your Maps have {0}% reduced Duration","n":"[AzmeriSpirit|Azmeri Spirits] in your Maps have {0}% reduced Duration","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 76. [Chaos] damage [Contributes] to [Freeze] buildup for [HitDamage|Hits] against targets taking damage over time from Supported Skills
+### 76. [Chaos] damage [Contributes] to [Freeze] buildup for [Hit|Hits] against targets taking damage over time from Supported Skills
 
 - Match score: `70`
-- `k`: [Chaos] damage [Contributes] to [Freeze] buildup for [HitDamage|Hits] against targets taking damage over time from Supported Skills
-- `n`: [Chaos] damage [Contributes] to [Freeze] buildup for [HitDamage|Hits] against targets taking damage over time from Supported Skills
+- `k`: [Chaos] damage [Contributes] to [Freeze] buildup for [Hit|Hits] against targets taking damage over time from Supported Skills
+- `n`: [Chaos] damage [Contributes] to [Freeze] buildup for [Hit|Hits] against targets taking damage over time from Supported Skills
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Chaos] damage [Contributes] to [Freeze] buildup for [HitDamage|Hits] against targets taking damage over time from Supported Skills","n":"[Chaos] damage [Contributes] to [Freeze] buildup for [HitDamage|Hits] against targets taking damage over time from Supported Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Chaos] damage [Contributes] to [Freeze] buildup for [Hit|Hits] against targets taking damage over time from Supported Skills","n":"[Chaos] damage [Contributes] to [Freeze] buildup for [Hit|Hits] against targets taking damage over time from Supported Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 77. [Chaos] damage against [Debuff|Debuffed] targets [Contributes] to [Freeze] buildup
@@ -9093,28 +9095,28 @@ enemies [Strike|Struck] with [Exposure]
 {"k":"[Chaos] damage against [Debuff|Debuffed] targets [Contributes] to [Freeze] buildup","n":"[Chaos] damage against [Debuff|Debuffed] targets [Contributes] to [Freeze] buildup","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 78. [Chaos] Damage from [HitDamage|Hits] with Supported Skills also [Contributes|Contributes] to [Freeze] Buildup
+### 78. [Chaos] Damage from [Hit|Hits] with Supported Skills also [Contributes|Contributes] to [Freeze] Buildup
 
 - Match score: `70`
-- `k`: [Chaos] Damage from [HitDamage|Hits] with Supported Skills also [Contributes|Contributes] to [Freeze] Buildup
-- `n`: [Chaos] Damage from [HitDamage|Hits] with Supported Skills also [Contributes|Contributes] to [Freeze] Buildup
+- `k`: [Chaos] Damage from [Hit|Hits] with Supported Skills also [Contributes|Contributes] to [Freeze] Buildup
+- `n`: [Chaos] Damage from [Hit|Hits] with Supported Skills also [Contributes|Contributes] to [Freeze] Buildup
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Chaos] Damage from [HitDamage|Hits] with Supported Skills also [Contributes|Contributes] to [Freeze] Buildup","n":"[Chaos] Damage from [HitDamage|Hits] with Supported Skills also [Contributes|Contributes] to [Freeze] Buildup","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Chaos] Damage from [Hit|Hits] with Supported Skills also [Contributes|Contributes] to [Freeze] Buildup","n":"[Chaos] Damage from [Hit|Hits] with Supported Skills also [Contributes|Contributes] to [Freeze] Buildup","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 79. [Chaos] Damage from [HitDamage|Hits] with Supported Skills also [Contributes|Contributes] to [Shock] Chance
+### 79. [Chaos] Damage from [Hit|Hits] with Supported Skills also [Contributes|Contributes] to [Shock] Chance
 
 - Match score: `70`
-- `k`: [Chaos] Damage from [HitDamage|Hits] with Supported Skills also [Contributes|Contributes] to [Shock] Chance
-- `n`: [Chaos] Damage from [HitDamage|Hits] with Supported Skills also [Contributes|Contributes] to [Shock] Chance
+- `k`: [Chaos] Damage from [Hit|Hits] with Supported Skills also [Contributes|Contributes] to [Shock] Chance
+- `n`: [Chaos] Damage from [Hit|Hits] with Supported Skills also [Contributes|Contributes] to [Shock] Chance
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Chaos] Damage from [HitDamage|Hits] with Supported Skills also [Contributes|Contributes] to [Shock] Chance","n":"[Chaos] Damage from [HitDamage|Hits] with Supported Skills also [Contributes|Contributes] to [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Chaos] Damage from [Hit|Hits] with Supported Skills also [Contributes|Contributes] to [Shock] Chance","n":"[Chaos] Damage from [Hit|Hits] with Supported Skills also [Contributes|Contributes] to [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 80. [Chill] Effect and [Freeze] Duration on you are based on {0}% of [EnergyShield|Energy Shield]
@@ -9537,16 +9539,16 @@ Skills erupt after {0}% reduced delay
 {"k":"[Curse|Curses] you inflict have infinite Duration","n":"[Curse|Curses] you inflict have infinite Duration","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 114. [DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+### 114. [DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 
 - Match score: `70`
-- `k`: [DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
-- `n`: [DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+- `k`: [DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+- `n`: [DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 115. [Debuff] duration is {0} second

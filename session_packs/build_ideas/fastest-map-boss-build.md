@@ -1,6 +1,6 @@
 # Build Idea Pack — Fastest Mapper + Boss Killer
 
-- Generated UTC: `2026-09-05T13:27:41+00:00`
+- Generated UTC: `2026-09-06T13:41:00+00:00`
 - Idea slug: `fastest-map-boss-build`
 - Purpose: Find the fastest practical build that still deletes bosses without becoming fragile.
 - Keywords: `fast, fastest, map, mapping, clear, clearing, boss, bossing, single target, area, aoe, projectile, chain, fork, pierce, explosion, explode, movement speed, attack speed, cast speed, critical, crit, charge, damage, more damage, penetration, exposure, shock, freeze, ignite, poison, minion, spirit, recovery, defense`
@@ -4625,13 +4625,13 @@ _No keyword matches in this index._
 ### 18. caster_critical
 
 - Match score: `70`
-- `k`: 1298
+- `k`: 1300
 - `n`: caster_critical
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1298","n":"caster_critical","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_critical"}
+{"k":"1300","n":"caster_critical","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_critical"}
 ```
 
 ### 19. cemetery_map_area
@@ -5090,13 +5090,13 @@ _No keyword matches in this index._
 ### 56. minion_damage
 
 - Match score: `70`
-- `k`: 1296
+- `k`: 1298
 - `n`: minion_damage
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1296","n":"minion_damage","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"minion_damage"}
+{"k":"1298","n":"minion_damage","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"minion_damage"}
 ```
 
 ### 57. non_unique_map_boss
@@ -6529,6 +6529,7 @@ _No keyword matches in this index._
 ```
 
 ### 39. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
+<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{All Damage can Shock}
 <rgb(135,134,253)>{All Damage can Chill}
 <rgb(135,134,253)>{All Damage can Ignite}
@@ -6537,6 +6538,7 @@ _No keyword matches in this index._
 - Match score: `105`
 - `k`: ExpeditionMonsterModRunePrismatic
 - `n`: <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
+<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{All Damage can Shock}
 <rgb(135,134,253)>{All Damage can Chill}
 <rgb(135,134,253)>{All Damage can Ignite}
@@ -6549,7 +6551,7 @@ _No keyword matches in this index._
 - `stats`: [{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}]
 
 ```json
-{"k":"ExpeditionMonsterModRunePrismatic","n":"<<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}\r\n<rgb(135,134,253)>{All Damage can Shock}\r\n<rgb(135,134,253)>{All Damage can Chill}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{All Elemental Resistance}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
+{"k":"ExpeditionMonsterModRunePrismatic","n":"<<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{All Damage can Shock}\r\n<rgb(135,134,253)>{All Damage can Chill}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{All Elemental Resistance}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
 ### 40. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
@@ -7974,28 +7976,28 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"[Consume|Consumes] [Freeze], [Shock] and [Ignite] to trigger Elemental Discharge","n":"[Consume|Consumes] [Freeze], [Shock] and [Ignite] to trigger Elemental Discharge","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 6. [DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+### 6. [DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 
 - Match score: `140`
-- `k`: [DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
-- `n`: [DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+- `k`: [DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+- `n`: [DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 7. [ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+### 7. [ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 
 - Match score: `140`
-- `k`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
-- `n`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+- `k`: [ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+- `n`: [ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 8. [Minion|Minions] have {0}% increased [CriticalDamageBonus|Critical Damage Bonus]
@@ -8046,46 +8048,22 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"[Minion|Minions] have {0}% to [CriticalDamageBonus|Critical Damage Bonus] per Grand Spectrum","n":"[Minion|Minions] have {0}% to [CriticalDamageBonus|Critical Damage Bonus] per Grand Spectrum","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 12. [Physical] damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and
+### 12. [Physical] damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and
 [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 
 - Match score: `140`
-- `k`: [Physical] damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and
+- `k`: [Physical] damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and
 [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
-- `n`: [Physical] damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and
+- `n`: [Physical] damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and
 [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Physical] damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and\n[Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[Physical] damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and\n[Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Physical] damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and\n[Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[Physical] damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and\n[Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 13. [Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]
-
-- Match score: `140`
-- `k`: [Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]
-- `n`: [Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"[Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]","n":"[Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 14. [Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]
-
-- Match score: `140`
-- `k`: [Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]
-- `n`: [Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"[Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]","n":"[Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 15. [Projectile|Projectiles] deal {0}% more Damage with Hits for each remaining [Chain]
+### 13. [Projectile|Projectiles] deal {0}% more Damage with Hits for each remaining [Chain]
 
 - Match score: `140`
 - `k`: [Projectile|Projectiles] deal {0}% more Damage with Hits for each remaining [Chain]
@@ -8097,7 +8075,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"[Projectile|Projectiles] deal {0}% more Damage with Hits for each remaining [Chain]","n":"[Projectile|Projectiles] deal {0}% more Damage with Hits for each remaining [Chain]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 16. [Projectile|Projectiles] fired by Supported Skills [Fork], [Chain] an additional time, or [Pierce] an additional time at random
+### 14. [Projectile|Projectiles] fired by Supported Skills [Fork], [Chain] an additional time, or [Pierce] an additional time at random
 
 - Match score: `140`
 - `k`: [Projectile|Projectiles] fired by Supported Skills [Fork], [Chain] an additional time, or [Pierce] an additional time at random
@@ -8109,7 +8087,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"[Projectile|Projectiles] fired by Supported Skills [Fork], [Chain] an additional time, or [Pierce] an additional time at random","n":"[Projectile|Projectiles] fired by Supported Skills [Fork], [Chain] an additional time, or [Pierce] an additional time at random","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 17. [Projectile|Projectiles] from Supported Skills deal
+### 15. [Projectile|Projectiles] from Supported Skills deal
 {0}% more Damage after [Fork|Forking]
 
 - Match score: `140`
@@ -8124,7 +8102,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"[Projectile|Projectiles] from Supported Skills deal\n{0}% more Damage after [Fork|Forking]","n":"[Projectile|Projectiles] from Supported Skills deal\n{0}% more Damage after [Fork|Forking]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 18. [Projectile|Projectiles] from Supported Skills deal {0}% more Damage for each Enemy they [Pierce]
+### 16. [Projectile|Projectiles] from Supported Skills deal {0}% more Damage for each Enemy they [Pierce]
 
 - Match score: `140`
 - `k`: [Projectile|Projectiles] from Supported Skills deal {0}% more Damage for each Enemy they [Pierce]
@@ -8136,7 +8114,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"[Projectile|Projectiles] from Supported Skills deal {0}% more Damage for each Enemy they [Pierce]","n":"[Projectile|Projectiles] from Supported Skills deal {0}% more Damage for each Enemy they [Pierce]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 19. [Projectile|Projectiles] from Supported Skills deal {0}% more Damage if they've [Pierce|Pierced] an enemy
+### 17. [Projectile|Projectiles] from Supported Skills deal {0}% more Damage if they've [Pierce|Pierced] an enemy
 
 - Match score: `140`
 - `k`: [Projectile|Projectiles] from Supported Skills deal {0}% more Damage if they've [Pierce|Pierced] an enemy
@@ -8148,7 +8126,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"[Projectile|Projectiles] from Supported Skills deal {0}% more Damage if they've [Pierce|Pierced] an enemy","n":"[Projectile|Projectiles] from Supported Skills deal {0}% more Damage if they've [Pierce|Pierced] an enemy","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 20. [Projectile|Projectiles] have {0}% increased [CriticalDamageBonus|Critical Damage Bonus] against Enemies further than 6m
+### 18. [Projectile|Projectiles] have {0}% increased [CriticalDamageBonus|Critical Damage Bonus] against Enemies further than 6m
 
 - Match score: `140`
 - `k`: [Projectile|Projectiles] have {0}% increased [CriticalDamageBonus|Critical Damage Bonus] against Enemies further than 6m
@@ -8160,7 +8138,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"[Projectile|Projectiles] have {0}% increased [CriticalDamageBonus|Critical Damage Bonus] against Enemies further than 6m","n":"[Projectile|Projectiles] have {0}% increased [CriticalDamageBonus|Critical Damage Bonus] against Enemies further than 6m","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 21. [Projectile|Projectiles] have {0}% increased [CriticalDamageBonus|Critical Damage Bonus] against Enemies within 2m
+### 19. [Projectile|Projectiles] have {0}% increased [CriticalDamageBonus|Critical Damage Bonus] against Enemies within 2m
 
 - Match score: `140`
 - `k`: [Projectile|Projectiles] have {0}% increased [CriticalDamageBonus|Critical Damage Bonus] against Enemies within 2m
@@ -8172,7 +8150,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"[Projectile|Projectiles] have {0}% increased [CriticalDamageBonus|Critical Damage Bonus] against Enemies within 2m","n":"[Projectile|Projectiles] have {0}% increased [CriticalDamageBonus|Critical Damage Bonus] against Enemies within 2m","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 22. [Projectile|Projectiles] have {0}% increased [Critical|Critical Hit] chance for each time they have [Pierce|Pierced]
+### 20. [Projectile|Projectiles] have {0}% increased [Critical|Critical Hit] chance for each time they have [Pierce|Pierced]
 
 - Match score: `140`
 - `k`: [Projectile|Projectiles] have {0}% increased [Critical|Critical Hit] chance for each time they have [Pierce|Pierced]
@@ -8184,7 +8162,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"[Projectile|Projectiles] have {0}% increased [Critical|Critical Hit] chance for each time they have [Pierce|Pierced]","n":"[Projectile|Projectiles] have {0}% increased [Critical|Critical Hit] chance for each time they have [Pierce|Pierced]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 23. [Projectile|Projectiles] have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] against Enemies further than 6m
+### 21. [Projectile|Projectiles] have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] against Enemies further than 6m
 
 - Match score: `140`
 - `k`: [Projectile|Projectiles] have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] against Enemies further than 6m
@@ -8196,7 +8174,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"[Projectile|Projectiles] have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] against Enemies further than 6m","n":"[Projectile|Projectiles] have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] against Enemies further than 6m","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 24. [Projectile|Projectiles] have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] against Enemies within 2m
+### 22. [Projectile|Projectiles] have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] against Enemies within 2m
 
 - Match score: `140`
 - `k`: [Projectile|Projectiles] have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] against Enemies within 2m
@@ -8208,7 +8186,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"[Projectile|Projectiles] have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] against Enemies within 2m","n":"[Projectile|Projectiles] have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] against Enemies within 2m","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 25. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [AzmeriSpirit|Azmeri Spirit]
+### 23. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [AzmeriSpirit|Azmeri Spirit]
 
 - Match score: `140`
 - `k`: Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [AzmeriSpirit|Azmeri Spirit]
@@ -8220,7 +8198,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [AzmeriSpirit|Azmeri Spirit]","n":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain an additional [AzmeriSpirit|Azmeri Spirit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 26. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [AzmeriSpirit|Azmeri Spirits]
+### 24. Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [AzmeriSpirit|Azmeri Spirits]
 
 - Match score: `140`
 - `k`: Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [AzmeriSpirit|Azmeri Spirits]
@@ -8232,7 +8210,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [AzmeriSpirit|Azmeri Spirits]","n":"Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} additional [AzmeriSpirit|Azmeri Spirits]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 27. Arrows that Pierce have {0}% to [CriticalDamageBonus|Critical Damage Bonus]
+### 25. Arrows that Pierce have {0}% to [CriticalDamageBonus|Critical Damage Bonus]
 
 - Match score: `140`
 - `k`: Arrows that Pierce have {0}% to [CriticalDamageBonus|Critical Damage Bonus]
@@ -8244,7 +8222,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"Arrows that Pierce have {0}% to [CriticalDamageBonus|Critical Damage Bonus]","n":"Arrows that Pierce have {0}% to [CriticalDamageBonus|Critical Damage Bonus]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 28. Become [Ignite|Ignited] when you deal a [Critical|Critical Hit], taking {0}% of your maximum Life and [EnergyShield|Energy Shield] as [Fire] Damage per second
+### 26. Become [Ignite|Ignited] when you deal a [Critical|Critical Hit], taking {0}% of your maximum Life and [EnergyShield|Energy Shield] as [Fire] Damage per second
 
 - Match score: `140`
 - `k`: Become [Ignite|Ignited] when you deal a [Critical|Critical Hit], taking {0}% of your maximum Life and [EnergyShield|Energy Shield] as [Fire] Damage per second
@@ -8256,7 +8234,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"Become [Ignite|Ignited] when you deal a [Critical|Critical Hit], taking {0}% of your maximum Life and [EnergyShield|Energy Shield] as [Fire] Damage per second","n":"Become [Ignite|Ignited] when you deal a [Critical|Critical Hit], taking {0}% of your maximum Life and [EnergyShield|Energy Shield] as [Fire] Damage per second","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 29. Blight Towers and their Minions in your Maps deal {0}% more Damage
+### 27. Blight Towers and their Minions in your Maps deal {0}% more Damage
 
 - Match score: `140`
 - `k`: Blight Towers and their Minions in your Maps deal {0}% more Damage
@@ -8268,7 +8246,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"Blight Towers and their Minions in your Maps deal {0}% more Damage","n":"Blight Towers and their Minions in your Maps deal {0}% more Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 30. Causes Enemies to Explode on [Critical] kill, for {0}% of their Life as [Physical|Physical Damage]
+### 28. Causes Enemies to Explode on [Critical] kill, for {0}% of their Life as [Physical|Physical Damage]
 
 - Match score: `140`
 - `k`: Causes Enemies to Explode on [Critical] kill, for {0}% of their Life as [Physical|Physical Damage]
@@ -8280,19 +8258,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"Causes Enemies to Explode on [Critical] kill, for {0}% of their Life as [Physical|Physical Damage]","n":"Causes Enemies to Explode on [Critical] kill, for {0}% of their Life as [Physical|Physical Damage]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 31. Clone explosions inflict {0} additional [CriticalWeakness|Critical Weakness] on [HitDamage|Hit]
-
-- Match score: `140`
-- `k`: Clone explosions inflict {0} additional [CriticalWeakness|Critical Weakness] on [HitDamage|Hit]
-- `n`: Clone explosions inflict {0} additional [CriticalWeakness|Critical Weakness] on [HitDamage|Hit]
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Clone explosions inflict {0} additional [CriticalWeakness|Critical Weakness] on [HitDamage|Hit]","n":"Clone explosions inflict {0} additional [CriticalWeakness|Critical Weakness] on [HitDamage|Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 32. Demonic Minions deal {0}% more damage per Fury Charge
+### 29. Demonic Minions deal {0}% more damage per Fury Charge
 
 - Match score: `140`
 - `k`: Demonic Minions deal {0}% more damage per Fury Charge
@@ -8304,91 +8270,91 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"Demonic Minions deal {0}% more damage per Fury Charge","n":"Demonic Minions deal {0}% more damage per Fury Charge","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
+### 30. For each colour of Socketed Support Gem that is most numerous, gain:
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Blue: Skills have {1}% less cost
+•Green: {2}% less Movement Speed Penalty from using Skills while Moving
+
+- Match score: `140`
+- `k`: For each colour of Socketed Support Gem that is most numerous, gain:
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Blue: Skills have {1}% less cost
+•Green: {2}% less Movement Speed Penalty from using Skills while Moving
+- `n`: For each colour of Socketed Support Gem that is most numerous, gain:
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Blue: Skills have {1}% less cost
+•Green: {2}% less Movement Speed Penalty from using Skills while Moving
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","n":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 31. For each colour of Socketed Support Gem that is most numerous, gain:
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Blue: Skills have {1}% less cost
+•Green: {2}% more Movement Speed Penalty from using Skills while Moving
+
+- Match score: `140`
+- `k`: For each colour of Socketed Support Gem that is most numerous, gain:
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Blue: Skills have {1}% less cost
+•Green: {2}% more Movement Speed Penalty from using Skills while Moving
+- `n`: For each colour of Socketed Support Gem that is most numerous, gain:
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Blue: Skills have {1}% less cost
+•Green: {2}% more Movement Speed Penalty from using Skills while Moving
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% more Movement Speed Penalty from using Skills while Moving","n":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% more Movement Speed Penalty from using Skills while Moving","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 32. For each colour of Socketed Support Gem that is most numerous, gain:
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Blue: Skills have {1}% more cost
+•Green: {2}% less Movement Speed Penalty from using Skills while Moving
+
+- Match score: `140`
+- `k`: For each colour of Socketed Support Gem that is most numerous, gain:
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Blue: Skills have {1}% more cost
+•Green: {2}% less Movement Speed Penalty from using Skills while Moving
+- `n`: For each colour of Socketed Support Gem that is most numerous, gain:
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Blue: Skills have {1}% more cost
+•Green: {2}% less Movement Speed Penalty from using Skills while Moving
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% more cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","n":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% more cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
 ### 33. For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
-•Blue: Skills have {1}% less cost
-•Green: {2}% less Movement Speed Penalty from using Skills while Moving
-
-- Match score: `140`
-- `k`: For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
-•Blue: Skills have {1}% less cost
-•Green: {2}% less Movement Speed Penalty from using Skills while Moving
-- `n`: For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
-•Blue: Skills have {1}% less cost
-•Green: {2}% less Movement Speed Penalty from using Skills while Moving
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","n":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 34. For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
-•Blue: Skills have {1}% less cost
-•Green: {2}% more Movement Speed Penalty from using Skills while Moving
-
-- Match score: `140`
-- `k`: For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
-•Blue: Skills have {1}% less cost
-•Green: {2}% more Movement Speed Penalty from using Skills while Moving
-- `n`: For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
-•Blue: Skills have {1}% less cost
-•Green: {2}% more Movement Speed Penalty from using Skills while Moving
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% more Movement Speed Penalty from using Skills while Moving","n":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% more Movement Speed Penalty from using Skills while Moving","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 35. For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
-•Blue: Skills have {1}% more cost
-•Green: {2}% less Movement Speed Penalty from using Skills while Moving
-
-- Match score: `140`
-- `k`: For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
-•Blue: Skills have {1}% more cost
-•Green: {2}% less Movement Speed Penalty from using Skills while Moving
-- `n`: For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
-•Blue: Skills have {1}% more cost
-•Green: {2}% less Movement Speed Penalty from using Skills while Moving
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% more cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","n":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% more cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 36. For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
 •Blue: Skills have {1}% more cost
 •Green: {2}% more Movement Speed Penalty from using Skills while Moving
 
 - Match score: `140`
 - `k`: For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
 •Blue: Skills have {1}% more cost
 •Green: {2}% more Movement Speed Penalty from using Skills while Moving
 - `n`: For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
 •Blue: Skills have {1}% more cost
 •Green: {2}% more Movement Speed Penalty from using Skills while Moving
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% more cost\n•Green: {2}% more Movement Speed Penalty from using Skills while Moving","n":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% more cost\n•Green: {2}% more Movement Speed Penalty from using Skills while Moving","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% more cost\n•Green: {2}% more Movement Speed Penalty from using Skills while Moving","n":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% more cost\n•Green: {2}% more Movement Speed Penalty from using Skills while Moving","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 37. Grants Minions {0}% to [CriticalDamageBonus|Critical Damage Bonus]
+### 34. Grants Minions {0}% to [CriticalDamageBonus|Critical Damage Bonus]
 
 - Match score: `140`
 - `k`: Grants Minions {0}% to [CriticalDamageBonus|Critical Damage Bonus]
@@ -8400,7 +8366,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"Grants Minions {0}% to [CriticalDamageBonus|Critical Damage Bonus]","n":"Grants Minions {0}% to [CriticalDamageBonus|Critical Damage Bonus]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 38. If Poisonous Concoction or Explosive Concoction consume Charges from a Sulphur Flask, Enemies Killed by their Hits have {0}% chance to Explode, dealing 10% of their Life as Physical Damage
+### 35. If Poisonous Concoction or Explosive Concoction consume Charges from a Sulphur Flask, Enemies Killed by their Hits have {0}% chance to Explode, dealing 10% of their Life as Physical Damage
 
 - Match score: `140`
 - `k`: If Poisonous Concoction or Explosive Concoction consume Charges from a Sulphur Flask, Enemies Killed by their Hits have {0}% chance to Explode, dealing 10% of their Life as Physical Damage
@@ -8412,7 +8378,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"If Poisonous Concoction or Explosive Concoction consume Charges from a Sulphur Flask, Enemies Killed by their Hits have {0}% chance to Explode, dealing 10% of their Life as Physical Damage","n":"If Poisonous Concoction or Explosive Concoction consume Charges from a Sulphur Flask, Enemies Killed by their Hits have {0}% chance to Explode, dealing 10% of their Life as Physical Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 39. Knock Back Enemies if you get a [Critical|Critical Hit] with Projectile Damage
+### 36. Knock Back Enemies if you get a [Critical|Critical Hit] with Projectile Damage
 
 - Match score: `140`
 - `k`: Knock Back Enemies if you get a [Critical|Critical Hit] with Projectile Damage
@@ -8424,7 +8390,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"Knock Back Enemies if you get a [Critical|Critical Hit] with Projectile Damage","n":"Knock Back Enemies if you get a [Critical|Critical Hit] with Projectile Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 40. Map Bosses deal {0}% more Damage
+### 37. Map Bosses deal {0}% more Damage
 
 - Match score: `140`
 - `k`: Map Bosses deal {0}% more Damage
@@ -8436,7 +8402,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"Map Bosses deal {0}% more Damage","n":"Map Bosses deal {0}% more Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 41. Minions from Supported Skills have {0}% to [CriticalDamageBonus|Critical Damage Bonus] against the Prey
+### 38. Minions from Supported Skills have {0}% to [CriticalDamageBonus|Critical Damage Bonus] against the Prey
 
 - Match score: `140`
 - `k`: Minions from Supported Skills have {0}% to [CriticalDamageBonus|Critical Damage Bonus] against the Prey
@@ -8448,7 +8414,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"Minions from Supported Skills have {0}% to [CriticalDamageBonus|Critical Damage Bonus] against the Prey","n":"Minions from Supported Skills have {0}% to [CriticalDamageBonus|Critical Damage Bonus] against the Prey","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 42. Minions have +{0}% to [CriticalDamageBonus|Critical Damage Bonus] per Withered Debuff on Enemy
+### 39. Minions have +{0}% to [CriticalDamageBonus|Critical Damage Bonus] per Withered Debuff on Enemy
 
 - Match score: `140`
 - `k`: Minions have +{0}% to [CriticalDamageBonus|Critical Damage Bonus] per Withered Debuff on Enemy
@@ -8460,7 +8426,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"Minions have +{0}% to [CriticalDamageBonus|Critical Damage Bonus] per Withered Debuff on Enemy","n":"Minions have +{0}% to [CriticalDamageBonus|Critical Damage Bonus] per Withered Debuff on Enemy","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 43. Minions have no [CriticalDamageBonus|Critical Damage Bonus]
+### 40. Minions have no [CriticalDamageBonus|Critical Damage Bonus]
 
 - Match score: `140`
 - `k`: Minions have no [CriticalDamageBonus|Critical Damage Bonus]
@@ -8472,7 +8438,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"Minions have no [CriticalDamageBonus|Critical Damage Bonus]","n":"Minions have no [CriticalDamageBonus|Critical Damage Bonus]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 44. Non-[Critical|Critical Hits] deal {0}% more Damage
+### 41. Non-[Critical|Critical Hits] deal {0}% more Damage
 
 - Match score: `140`
 - `k`: Non-[Critical|Critical Hits] deal {0}% more Damage
@@ -8484,7 +8450,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"Non-[Critical|Critical Hits] deal {0}% more Damage","n":"Non-[Critical|Critical Hits] deal {0}% more Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 45. Projectile [Attack] Skills have {0}% to [CriticalDamageBonus|Critical Damage Bonus]
+### 42. Projectile [Attack] Skills have {0}% to [CriticalDamageBonus|Critical Damage Bonus]
 
 - Match score: `140`
 - `k`: Projectile [Attack] Skills have {0}% to [CriticalDamageBonus|Critical Damage Bonus]
@@ -8496,7 +8462,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"Projectile [Attack] Skills have {0}% to [CriticalDamageBonus|Critical Damage Bonus]","n":"Projectile [Attack] Skills have {0}% to [CriticalDamageBonus|Critical Damage Bonus]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 46. Projectiles have {0}% increased [Critical|Critical Hit] Chance against Targets they do not Pierce
+### 43. Projectiles have {0}% increased [Critical|Critical Hit] Chance against Targets they do not Pierce
 
 - Match score: `140`
 - `k`: Projectiles have {0}% increased [Critical|Critical Hit] Chance against Targets they do not Pierce
@@ -8508,7 +8474,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"Projectiles have {0}% increased [Critical|Critical Hit] Chance against Targets they do not Pierce","n":"Projectiles have {0}% increased [Critical|Critical Hit] Chance against Targets they do not Pierce","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 47. Projectiles have {0}% increased [Critical|Critical Hit] Chance against Targets they Pierce
+### 44. Projectiles have {0}% increased [Critical|Critical Hit] Chance against Targets they Pierce
 
 - Match score: `140`
 - `k`: Projectiles have {0}% increased [Critical|Critical Hit] Chance against Targets they Pierce
@@ -8520,7 +8486,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"Projectiles have {0}% increased [Critical|Critical Hit] Chance against Targets they Pierce","n":"Projectiles have {0}% increased [Critical|Critical Hit] Chance against Targets they Pierce","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 48. Projectiles have {0}% reduced [Critical|Critical Hit] Chance against Targets they do not Pierce
+### 45. Projectiles have {0}% reduced [Critical|Critical Hit] Chance against Targets they do not Pierce
 
 - Match score: `140`
 - `k`: Projectiles have {0}% reduced [Critical|Critical Hit] Chance against Targets they do not Pierce
@@ -8532,7 +8498,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"Projectiles have {0}% reduced [Critical|Critical Hit] Chance against Targets they do not Pierce","n":"Projectiles have {0}% reduced [Critical|Critical Hit] Chance against Targets they do not Pierce","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 49. Projectiles have {0}% reduced [Critical|Critical Hit] Chance against Targets they Pierce
+### 46. Projectiles have {0}% reduced [Critical|Critical Hit] Chance against Targets they Pierce
 
 - Match score: `140`
 - `k`: Projectiles have {0}% reduced [Critical|Critical Hit] Chance against Targets they Pierce
@@ -8544,7 +8510,7 @@ Projectiles cannot Pierce, Fork or Chain
 {"k":"Projectiles have {0}% reduced [Critical|Critical Hit] Chance against Targets they Pierce","n":"Projectiles have {0}% reduced [Critical|Critical Hit] Chance against Targets they Pierce","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 50. Spear cannot [Pierce|Pierce], [Fork|Fork], [Chain|Chain] or [Return|Return]
+### 47. Spear cannot [Pierce|Pierce], [Fork|Fork], [Chain|Chain] or [Return|Return]
 Modifiers to the number of [Projectile|Projectiles] fired only affect
 the maximum number of lightning bolt [Projectile|Projectiles]
 
@@ -8562,7 +8528,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"Spear cannot [Pierce|Pierce], [Fork|Fork], [Chain|Chain] or [Return|Return]\nModifiers to the number of [Projectile|Projectiles] fired only affect\nthe maximum number of lightning bolt [Projectile|Projectiles]","n":"Spear cannot [Pierce|Pierce], [Fork|Fork], [Chain|Chain] or [Return|Return]\nModifiers to the number of [Projectile|Projectiles] fired only affect\nthe maximum number of lightning bolt [Projectile|Projectiles]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 51. Spirit Offering grants Minions {0}% increased [Critical|Critical Hit] Chance
+### 48. Spirit Offering grants Minions {0}% increased [Critical|Critical Hit] Chance
 
 - Match score: `140`
 - `k`: Spirit Offering grants Minions {0}% increased [Critical|Critical Hit] Chance
@@ -8574,7 +8540,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"Spirit Offering grants Minions {0}% increased [Critical|Critical Hit] Chance","n":"Spirit Offering grants Minions {0}% increased [Critical|Critical Hit] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 52. Spirit Offering grants Minions {0}% reduced [Critical|Critical Hit] Chance
+### 49. Spirit Offering grants Minions {0}% reduced [Critical|Critical Hit] Chance
 
 - Match score: `140`
 - `k`: Spirit Offering grants Minions {0}% reduced [Critical|Critical Hit] Chance
@@ -8586,7 +8552,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"Spirit Offering grants Minions {0}% reduced [Critical|Critical Hit] Chance","n":"Spirit Offering grants Minions {0}% reduced [Critical|Critical Hit] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 53. Spirit Offering grants {0}% to [CriticalDamageBonus|Critical Damage Bonus]
+### 50. Spirit Offering grants {0}% to [CriticalDamageBonus|Critical Damage Bonus]
 
 - Match score: `140`
 - `k`: Spirit Offering grants {0}% to [CriticalDamageBonus|Critical Damage Bonus]
@@ -8598,7 +8564,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"Spirit Offering grants {0}% to [CriticalDamageBonus|Critical Damage Bonus]","n":"Spirit Offering grants {0}% to [CriticalDamageBonus|Critical Damage Bonus]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 54. Supported Skills [Consume] [Freeze], [Shock] and [Ignite] on hit to trigger Elemental Discharge
+### 51. Supported Skills [Consume] [Freeze], [Shock] and [Ignite] on hit to trigger Elemental Discharge
 
 - Match score: `140`
 - `k`: Supported Skills [Consume] [Freeze], [Shock] and [Ignite] on hit to trigger Elemental Discharge
@@ -8610,7 +8576,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"Supported Skills [Consume] [Freeze], [Shock] and [Ignite] on hit to trigger Elemental Discharge","n":"Supported Skills [Consume] [Freeze], [Shock] and [Ignite] on hit to trigger Elemental Discharge","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 55. Supported Skills deal {0}% increased Damage with Hits per Freeze, Shock or Ignite on Enemy
+### 52. Supported Skills deal {0}% increased Damage with Hits per Freeze, Shock or Ignite on Enemy
 
 - Match score: `140`
 - `k`: Supported Skills deal {0}% increased Damage with Hits per Freeze, Shock or Ignite on Enemy
@@ -8622,7 +8588,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"Supported Skills deal {0}% increased Damage with Hits per Freeze, Shock or Ignite on Enemy","n":"Supported Skills deal {0}% increased Damage with Hits per Freeze, Shock or Ignite on Enemy","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 56. Supported Skills deal {0}% reduced Damage with Hits per Freeze, Shock or Ignite on Enemy
+### 53. Supported Skills deal {0}% reduced Damage with Hits per Freeze, Shock or Ignite on Enemy
 
 - Match score: `140`
 - `k`: Supported Skills deal {0}% reduced Damage with Hits per Freeze, Shock or Ignite on Enemy
@@ -8634,7 +8600,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"Supported Skills deal {0}% reduced Damage with Hits per Freeze, Shock or Ignite on Enemy","n":"Supported Skills deal {0}% reduced Damage with Hits per Freeze, Shock or Ignite on Enemy","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 57. Supported Skills have {0}% to [CriticalDamageBonus|Critical Damage Bonus] per Power Charge when used by Traps
+### 54. Supported Skills have {0}% to [CriticalDamageBonus|Critical Damage Bonus] per Power Charge when used by Traps
 
 - Match score: `140`
 - `k`: Supported Skills have {0}% to [CriticalDamageBonus|Critical Damage Bonus] per Power Charge when used by Traps
@@ -8646,7 +8612,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"Supported Skills have {0}% to [CriticalDamageBonus|Critical Damage Bonus] per Power Charge when used by Traps","n":"Supported Skills have {0}% to [CriticalDamageBonus|Critical Damage Bonus] per Power Charge when used by Traps","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 58. Supported Skills inflict [Exposure] for {0} second on [Critical|Critical Hit] with [Cold|Cold Damage]
+### 55. Supported Skills inflict [Exposure] for {0} second on [Critical|Critical Hit] with [Cold|Cold Damage]
 
 - Match score: `140`
 - `k`: Supported Skills inflict [Exposure] for {0} second on [Critical|Critical Hit] with [Cold|Cold Damage]
@@ -8658,7 +8624,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"Supported Skills inflict [Exposure] for {0} second on [Critical|Critical Hit] with [Cold|Cold Damage]","n":"Supported Skills inflict [Exposure] for {0} second on [Critical|Critical Hit] with [Cold|Cold Damage]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 59. Supported Skills inflict [Exposure] for {0} seconds on [Critical|Critical Hit] with [Cold|Cold Damage]
+### 56. Supported Skills inflict [Exposure] for {0} seconds on [Critical|Critical Hit] with [Cold|Cold Damage]
 
 - Match score: `140`
 - `k`: Supported Skills inflict [Exposure] for {0} seconds on [Critical|Critical Hit] with [Cold|Cold Damage]
@@ -8670,19 +8636,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"Supported Skills inflict [Exposure] for {0} seconds on [Critical|Critical Hit] with [Cold|Cold Damage]","n":"Supported Skills inflict [Exposure] for {0} seconds on [Critical|Critical Hit] with [Cold|Cold Damage]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 60. Unique Boss's [HitDamage|Hits] are always [Critical|Critical Hits]
-
-- Match score: `140`
-- `k`: Unique Boss's [HitDamage|Hits] are always [Critical|Critical Hits]
-- `n`: Unique Boss's [HitDamage|Hits] are always [Critical|Critical Hits]
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Unique Boss's [HitDamage|Hits] are always [Critical|Critical Hits]","n":"Unique Boss's [HitDamage|Hits] are always [Critical|Critical Hits]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 61. You take {0}% increased Extra Damage from [Critical|Critical Hits] by Poisoned Enemies
+### 57. You take {0}% increased Extra Damage from [Critical|Critical Hits] by Poisoned Enemies
 
 - Match score: `140`
 - `k`: You take {0}% increased Extra Damage from [Critical|Critical Hits] by Poisoned Enemies
@@ -8694,7 +8648,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"You take {0}% increased Extra Damage from [Critical|Critical Hits] by Poisoned Enemies","n":"You take {0}% increased Extra Damage from [Critical|Critical Hits] by Poisoned Enemies","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 62. You take {0}% increased Extra Damage from [Critical|Critical Hits] per Endurance Charge
+### 58. You take {0}% increased Extra Damage from [Critical|Critical Hits] per Endurance Charge
 
 - Match score: `140`
 - `k`: You take {0}% increased Extra Damage from [Critical|Critical Hits] per Endurance Charge
@@ -8706,7 +8660,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"You take {0}% increased Extra Damage from [Critical|Critical Hits] per Endurance Charge","n":"You take {0}% increased Extra Damage from [Critical|Critical Hits] per Endurance Charge","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 63. You take {0}% increased Extra Damage from [Critical|Critical Hits] while you have no Power Charges
+### 59. You take {0}% increased Extra Damage from [Critical|Critical Hits] while you have no Power Charges
 
 - Match score: `140`
 - `k`: You take {0}% increased Extra Damage from [Critical|Critical Hits] while you have no Power Charges
@@ -8718,7 +8672,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"You take {0}% increased Extra Damage from [Critical|Critical Hits] while you have no Power Charges","n":"You take {0}% increased Extra Damage from [Critical|Critical Hits] while you have no Power Charges","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 64. You take {0}% reduced Extra Damage from [Critical|Critical Hits] by Poisoned Enemies
+### 60. You take {0}% reduced Extra Damage from [Critical|Critical Hits] by Poisoned Enemies
 
 - Match score: `140`
 - `k`: You take {0}% reduced Extra Damage from [Critical|Critical Hits] by Poisoned Enemies
@@ -8730,7 +8684,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"You take {0}% reduced Extra Damage from [Critical|Critical Hits] by Poisoned Enemies","n":"You take {0}% reduced Extra Damage from [Critical|Critical Hits] by Poisoned Enemies","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 65. You take {0}% reduced Extra Damage from [Critical|Critical Hits] per Endurance Charge
+### 61. You take {0}% reduced Extra Damage from [Critical|Critical Hits] per Endurance Charge
 
 - Match score: `140`
 - `k`: You take {0}% reduced Extra Damage from [Critical|Critical Hits] per Endurance Charge
@@ -8742,7 +8696,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"You take {0}% reduced Extra Damage from [Critical|Critical Hits] per Endurance Charge","n":"You take {0}% reduced Extra Damage from [Critical|Critical Hits] per Endurance Charge","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 66. You take {0}% reduced Extra Damage from [Critical|Critical Hits] while you have no Power Charges
+### 62. You take {0}% reduced Extra Damage from [Critical|Critical Hits] while you have no Power Charges
 
 - Match score: `140`
 - `k`: You take {0}% reduced Extra Damage from [Critical|Critical Hits] while you have no Power Charges
@@ -8754,19 +8708,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"You take {0}% reduced Extra Damage from [Critical|Critical Hits] while you have no Power Charges","n":"You take {0}% reduced Extra Damage from [Critical|Critical Hits] while you have no Power Charges","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 67. Your [HitDamage|Hits] always inflict [Frozen|Freeze], [Shock] and [Ignite] while Unbound
-
-- Match score: `140`
-- `k`: Your [HitDamage|Hits] always inflict [Frozen|Freeze], [Shock] and [Ignite] while Unbound
-- `n`: Your [HitDamage|Hits] always inflict [Frozen|Freeze], [Shock] and [Ignite] while Unbound
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Your [HitDamage|Hits] always inflict [Frozen|Freeze], [Shock] and [Ignite] while Unbound","n":"Your [HitDamage|Hits] always inflict [Frozen|Freeze], [Shock] and [Ignite] while Unbound","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 68. {0}% Global [CriticalDamageBonus|Critical Damage Bonus] while you have a Frenzy Charge
+### 63. {0}% Global [CriticalDamageBonus|Critical Damage Bonus] while you have a Frenzy Charge
 
 - Match score: `140`
 - `k`: {0}% Global [CriticalDamageBonus|Critical Damage Bonus] while you have a Frenzy Charge
@@ -8778,7 +8720,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"{0}% Global [CriticalDamageBonus|Critical Damage Bonus] while you have a Frenzy Charge","n":"{0}% Global [CriticalDamageBonus|Critical Damage Bonus] while you have a Frenzy Charge","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 69. {0}% Global [CriticalDamageBonus|Critical Damage Bonus] while you have no Frenzy Charges
+### 64. {0}% Global [CriticalDamageBonus|Critical Damage Bonus] while you have no Frenzy Charges
 
 - Match score: `140`
 - `k`: {0}% Global [CriticalDamageBonus|Critical Damage Bonus] while you have no Frenzy Charges
@@ -8790,7 +8732,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"{0}% Global [CriticalDamageBonus|Critical Damage Bonus] while you have no Frenzy Charges","n":"{0}% Global [CriticalDamageBonus|Critical Damage Bonus] while you have no Frenzy Charges","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 70. {0}% increased [CriticalDamageBonus|Critical Damage Bonus] if you've consumed a [Charges|Power Charge] [Recently]
+### 65. {0}% increased [CriticalDamageBonus|Critical Damage Bonus] if you've consumed a [Charges|Power Charge] [Recently]
 
 - Match score: `140`
 - `k`: {0}% increased [CriticalDamageBonus|Critical Damage Bonus] if you've consumed a [Charges|Power Charge] [Recently]
@@ -8802,7 +8744,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"{0}% increased [CriticalDamageBonus|Critical Damage Bonus] if you've consumed a [Charges|Power Charge] [Recently]","n":"{0}% increased [CriticalDamageBonus|Critical Damage Bonus] if you've consumed a [Charges|Power Charge] [Recently]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 71. {0}% increased [CriticalDamageBonus|Critical Damage Bonus] if you've gained a [Charges|Power Charge] [Recently]
+### 66. {0}% increased [CriticalDamageBonus|Critical Damage Bonus] if you've gained a [Charges|Power Charge] [Recently]
 
 - Match score: `140`
 - `k`: {0}% increased [CriticalDamageBonus|Critical Damage Bonus] if you've gained a [Charges|Power Charge] [Recently]
@@ -8814,7 +8756,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"{0}% increased [CriticalDamageBonus|Critical Damage Bonus] if you've gained a [Charges|Power Charge] [Recently]","n":"{0}% increased [CriticalDamageBonus|Critical Damage Bonus] if you've gained a [Charges|Power Charge] [Recently]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 72. {0}% increased [CriticalDamageBonus|Critical Damage Bonus] per [Charges|Power Charge]
+### 67. {0}% increased [CriticalDamageBonus|Critical Damage Bonus] per [Charges|Power Charge]
 
 - Match score: `140`
 - `k`: {0}% increased [CriticalDamageBonus|Critical Damage Bonus] per [Charges|Power Charge]
@@ -8826,7 +8768,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"{0}% increased [CriticalDamageBonus|Critical Damage Bonus] per [Charges|Power Charge]","n":"{0}% increased [CriticalDamageBonus|Critical Damage Bonus] per [Charges|Power Charge]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 73. {0}% increased [CriticalDamageBonus|Critical Damage Bonus] while [Shock|Shocked]
+### 68. {0}% increased [CriticalDamageBonus|Critical Damage Bonus] while [Shock|Shocked]
 
 - Match score: `140`
 - `k`: {0}% increased [CriticalDamageBonus|Critical Damage Bonus] while [Shock|Shocked]
@@ -8838,7 +8780,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"{0}% increased [CriticalDamageBonus|Critical Damage Bonus] while [Shock|Shocked]","n":"{0}% increased [CriticalDamageBonus|Critical Damage Bonus] while [Shock|Shocked]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 74. {0}% increased Damage with Hits per Freeze, Shock or Ignite on Enemy
+### 69. {0}% increased Damage with Hits per Freeze, Shock or Ignite on Enemy
 
 - Match score: `140`
 - `k`: {0}% increased Damage with Hits per Freeze, Shock or Ignite on Enemy
@@ -8850,7 +8792,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"{0}% increased Damage with Hits per Freeze, Shock or Ignite on Enemy","n":"{0}% increased Damage with Hits per Freeze, Shock or Ignite on Enemy","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 75. {0}% increased Extra Damage taken from [Critical|Critical Hits] while Ignited
+### 70. {0}% increased Extra Damage taken from [Critical|Critical Hits] while Ignited
 
 - Match score: `140`
 - `k`: {0}% increased Extra Damage taken from [Critical|Critical Hits] while Ignited
@@ -8862,7 +8804,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"{0}% increased Extra Damage taken from [Critical|Critical Hits] while Ignited","n":"{0}% increased Extra Damage taken from [Critical|Critical Hits] while Ignited","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 76. {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] if you've consumed a [Charges|Power Charge] [Recently]
+### 71. {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] if you've consumed a [Charges|Power Charge] [Recently]
 
 - Match score: `140`
 - `k`: {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] if you've consumed a [Charges|Power Charge] [Recently]
@@ -8874,7 +8816,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"{0}% reduced [CriticalDamageBonus|Critical Damage Bonus] if you've consumed a [Charges|Power Charge] [Recently]","n":"{0}% reduced [CriticalDamageBonus|Critical Damage Bonus] if you've consumed a [Charges|Power Charge] [Recently]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 77. {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] if you've gained a [Charges|Power Charge] [Recently]
+### 72. {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] if you've gained a [Charges|Power Charge] [Recently]
 
 - Match score: `140`
 - `k`: {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] if you've gained a [Charges|Power Charge] [Recently]
@@ -8886,7 +8828,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"{0}% reduced [CriticalDamageBonus|Critical Damage Bonus] if you've gained a [Charges|Power Charge] [Recently]","n":"{0}% reduced [CriticalDamageBonus|Critical Damage Bonus] if you've gained a [Charges|Power Charge] [Recently]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 78. {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] per [Charges|Power Charge]
+### 73. {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] per [Charges|Power Charge]
 
 - Match score: `140`
 - `k`: {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] per [Charges|Power Charge]
@@ -8898,7 +8840,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"{0}% reduced [CriticalDamageBonus|Critical Damage Bonus] per [Charges|Power Charge]","n":"{0}% reduced [CriticalDamageBonus|Critical Damage Bonus] per [Charges|Power Charge]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 79. {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] while [Shock|Shocked]
+### 74. {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] while [Shock|Shocked]
 
 - Match score: `140`
 - `k`: {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] while [Shock|Shocked]
@@ -8910,7 +8852,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"{0}% reduced [CriticalDamageBonus|Critical Damage Bonus] while [Shock|Shocked]","n":"{0}% reduced [CriticalDamageBonus|Critical Damage Bonus] while [Shock|Shocked]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 80. {0}% reduced Damage with Hits per Freeze, Shock or Ignite on Enemy
+### 75. {0}% reduced Damage with Hits per Freeze, Shock or Ignite on Enemy
 
 - Match score: `140`
 - `k`: {0}% reduced Damage with Hits per Freeze, Shock or Ignite on Enemy
@@ -8922,7 +8864,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"{0}% reduced Damage with Hits per Freeze, Shock or Ignite on Enemy","n":"{0}% reduced Damage with Hits per Freeze, Shock or Ignite on Enemy","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 81. {0}% reduced Extra Damage taken from [Critical|Critical Hits] while Ignited
+### 76. {0}% reduced Extra Damage taken from [Critical|Critical Hits] while Ignited
 
 - Match score: `140`
 - `k`: {0}% reduced Extra Damage taken from [Critical|Critical Hits] while Ignited
@@ -8934,7 +8876,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"{0}% reduced Extra Damage taken from [Critical|Critical Hits] while Ignited","n":"{0}% reduced Extra Damage taken from [Critical|Critical Hits] while Ignited","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 82. {0}% to [CriticalDamageBonus|Critical Damage Bonus] per Power Charge when used by Traps
+### 77. {0}% to [CriticalDamageBonus|Critical Damage Bonus] per Power Charge when used by Traps
 
 - Match score: `140`
 - `k`: {0}% to [CriticalDamageBonus|Critical Damage Bonus] per Power Charge when used by Traps
@@ -8946,7 +8888,7 @@ the maximum number of lightning bolt [Projectile|Projectiles]
 {"k":"{0}% to [CriticalDamageBonus|Critical Damage Bonus] per Power Charge when used by Traps","n":"{0}% to [CriticalDamageBonus|Critical Damage Bonus] per Power Charge when used by Traps","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 83. {0}% to [CriticalDamageBonus|Critical Damage Bonus] while area is not in Lockdown
+### 78. {0}% to [CriticalDamageBonus|Critical Damage Bonus] while area is not in Lockdown
 Players have {0}% to [CriticalDamageBonus|Critical Damage Bonus] while area is not in Lockdown
 
 - Match score: `140`
@@ -8961,19 +8903,7 @@ Players have {0}% to [CriticalDamageBonus|Critical Damage Bonus] while area is n
 {"k":"{0}% to [CriticalDamageBonus|Critical Damage Bonus] while area is not in Lockdown\nPlayers have {0}% to [CriticalDamageBonus|Critical Damage Bonus] while area is not in Lockdown","n":"{0}% to [CriticalDamageBonus|Critical Damage Bonus] while area is not in Lockdown\nPlayers have {0}% to [CriticalDamageBonus|Critical Damage Bonus] while area is not in Lockdown","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 84. +1 Arctic Petal per [Power] of targets Killed with [Critical|Critical] [HitDamage|Hits]
-
-- Match score: `105`
-- `k`: +1 Arctic Petal per [Power] of targets Killed with [Critical|Critical] [HitDamage|Hits]
-- `n`: +1 Arctic Petal per [Power] of targets Killed with [Critical|Critical] [HitDamage|Hits]
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"+1 Arctic Petal per [Power] of targets Killed with [Critical|Critical] [HitDamage|Hits]","n":"+1 Arctic Petal per [Power] of targets Killed with [Critical|Critical] [HitDamage|Hits]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 85. +1 to Explosion Radius per Energy
+### 79. +1 to Explosion Radius per Energy
 Pulse deals 50% more Damage with Hits
 
 - Match score: `105`
@@ -8988,7 +8918,7 @@ Pulse deals 50% more Damage with Hits
 {"k":"+1 to Explosion Radius per Energy\nPulse deals 50% more Damage with Hits","n":"+1 to Explosion Radius per Energy\nPulse deals 50% more Damage with Hits","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 86. +{0}% to [CriticalDamageBonus|Critical Damage Bonus] against Unique Enemies
+### 80. +{0}% to [CriticalDamageBonus|Critical Damage Bonus] against Unique Enemies
 
 - Match score: `105`
 - `k`: +{0}% to [CriticalDamageBonus|Critical Damage Bonus] against Unique Enemies
@@ -9000,7 +8930,7 @@ Pulse deals 50% more Damage with Hits
 {"k":"+{0}% to [CriticalDamageBonus|Critical Damage Bonus] against Unique Enemies","n":"+{0}% to [CriticalDamageBonus|Critical Damage Bonus] against Unique Enemies","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 87. +{0}% to [CriticalDamageBonus|Critical Damage Bonus] if you've cast Enfeeble in the past 10 seconds
+### 81. +{0}% to [CriticalDamageBonus|Critical Damage Bonus] if you've cast Enfeeble in the past 10 seconds
 
 - Match score: `105`
 - `k`: +{0}% to [CriticalDamageBonus|Critical Damage Bonus] if you've cast Enfeeble in the past 10 seconds
@@ -9012,7 +8942,7 @@ Pulse deals 50% more Damage with Hits
 {"k":"+{0}% to [CriticalDamageBonus|Critical Damage Bonus] if you've cast Enfeeble in the past 10 seconds","n":"+{0}% to [CriticalDamageBonus|Critical Damage Bonus] if you've cast Enfeeble in the past 10 seconds","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 88. +{0}% to Global [CriticalDamageBonus|Critical Damage Bonus] per Green Socket
+### 82. +{0}% to Global [CriticalDamageBonus|Critical Damage Bonus] per Green Socket
 
 - Match score: `105`
 - `k`: +{0}% to Global [CriticalDamageBonus|Critical Damage Bonus] per Green Socket
@@ -9024,7 +8954,7 @@ Pulse deals 50% more Damage with Hits
 {"k":"+{0}% to Global [CriticalDamageBonus|Critical Damage Bonus] per Green Socket","n":"+{0}% to Global [CriticalDamageBonus|Critical Damage Bonus] per Green Socket","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 89. 1 [Rarity|Rare] Monster in [Biome|Swamp] Areas has {0}% chance to be replaced by a random [MapBoss|Map Boss]
+### 83. 1 [Rarity|Rare] Monster in [Biome|Swamp] Areas has {0}% chance to be replaced by a random [MapBoss|Map Boss]
 
 - Match score: `105`
 - `k`: 1 [Rarity|Rare] Monster in [Biome|Swamp] Areas has {0}% chance to be replaced by a random [MapBoss|Map Boss]
@@ -9036,7 +8966,7 @@ Pulse deals 50% more Damage with Hits
 {"k":"1 [Rarity|Rare] Monster in [Biome|Swamp] Areas has {0}% chance to be replaced by a random [MapBoss|Map Boss]","n":"1 [Rarity|Rare] Monster in [Biome|Swamp] Areas has {0}% chance to be replaced by a random [MapBoss|Map Boss]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 90. 1 [Rarity|Rare] Monster in [Biome|Swamp] Areas is replaced by a random [MapBoss|Map Boss]
+### 84. 1 [Rarity|Rare] Monster in [Biome|Swamp] Areas is replaced by a random [MapBoss|Map Boss]
 
 - Match score: `105`
 - `k`: 1 [Rarity|Rare] Monster in [Biome|Swamp] Areas is replaced by a random [MapBoss|Map Boss]
@@ -9048,7 +8978,7 @@ Pulse deals 50% more Damage with Hits
 {"k":"1 [Rarity|Rare] Monster in [Biome|Swamp] Areas is replaced by a random [MapBoss|Map Boss]","n":"1 [Rarity|Rare] Monster in [Biome|Swamp] Areas is replaced by a random [MapBoss|Map Boss]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 91. 25% chance for [AbyssalDepths|Abyssal Depths] in Level 78+ Areas to contain a Boss
+### 85. 25% chance for [AbyssalDepths|Abyssal Depths] in Level 78+ Areas to contain a Boss
 25% chance for an Ulaman pit near the [MapBoss|Map Boss] to have the Incubator Queen
 
 - Match score: `105`
@@ -9063,7 +8993,7 @@ Pulse deals 50% more Damage with Hits
 {"k":"25% chance for [AbyssalDepths|Abyssal Depths] in Level 78+ Areas to contain a Boss\n25% chance for an Ulaman pit near the [MapBoss|Map Boss] to have the Incubator Queen","n":"25% chance for [AbyssalDepths|Abyssal Depths] in Level 78+ Areas to contain a Boss\n25% chance for an Ulaman pit near the [MapBoss|Map Boss] to have the Incubator Queen","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 92. 30% less [CriticalDamageBonus|Critical Damage Bonus] when on Full Life
+### 86. 30% less [CriticalDamageBonus|Critical Damage Bonus] when on Full Life
 30% more Critical Damage Bonus when on [LowLife|Low Life]
 
 - Match score: `105`
@@ -9078,7 +9008,7 @@ Pulse deals 50% more Damage with Hits
 {"k":"30% less [CriticalDamageBonus|Critical Damage Bonus] when on Full Life\n30% more Critical Damage Bonus when on [LowLife|Low Life]","n":"30% less [CriticalDamageBonus|Critical Damage Bonus] when on Full Life\n30% more Critical Damage Bonus when on [LowLife|Low Life]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 93. 40% more [Attack] Damage if Accuracy Rating is higher than Maximum Life
+### 87. 40% more [Attack] Damage if Accuracy Rating is higher than Maximum Life
 Never deal [Critical|Critical Hits]
 
 - Match score: `105`
@@ -9093,7 +9023,7 @@ Never deal [Critical|Critical Hits]
 {"k":"40% more [Attack] Damage if Accuracy Rating is higher than Maximum Life\nNever deal [Critical|Critical Hits]","n":"40% more [Attack] Damage if Accuracy Rating is higher than Maximum Life\nNever deal [Critical|Critical Hits]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 94. [Allies] in your [Presence] have {0}% increased [CriticalDamageBonus|Critical Damage Bonus]
+### 88. [Allies] in your [Presence] have {0}% increased [CriticalDamageBonus|Critical Damage Bonus]
 
 - Match score: `105`
 - `k`: [Allies] in your [Presence] have {0}% increased [CriticalDamageBonus|Critical Damage Bonus]
@@ -9105,7 +9035,7 @@ Never deal [Critical|Critical Hits]
 {"k":"[Allies] in your [Presence] have {0}% increased [CriticalDamageBonus|Critical Damage Bonus]","n":"[Allies] in your [Presence] have {0}% increased [CriticalDamageBonus|Critical Damage Bonus]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 95. [Allies] in your [Presence] have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus]
+### 89. [Allies] in your [Presence] have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus]
 
 - Match score: `105`
 - `k`: [Allies] in your [Presence] have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus]
@@ -9117,7 +9047,7 @@ Never deal [Critical|Critical Hits]
 {"k":"[Allies] in your [Presence] have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus]","n":"[Allies] in your [Presence] have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 96. [Archon] Buffs also grant {0}% increased [CriticalDamageBonus|Critical Damage Bonus]
+### 90. [Archon] Buffs also grant {0}% increased [CriticalDamageBonus|Critical Damage Bonus]
 
 - Match score: `105`
 - `k`: [Archon] Buffs also grant {0}% increased [CriticalDamageBonus|Critical Damage Bonus]
@@ -9129,7 +9059,7 @@ Never deal [Critical|Critical Hits]
 {"k":"[Archon] Buffs also grant {0}% increased [CriticalDamageBonus|Critical Damage Bonus]","n":"[Archon] Buffs also grant {0}% increased [CriticalDamageBonus|Critical Damage Bonus]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 97. [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to {0}% of [Physical|Physical] Damage dealt
+### 91. [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to {0}% of [Physical|Physical] Damage dealt
 
 - Match score: `105`
 - `k`: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to {0}% of [Physical|Physical] Damage dealt
@@ -9141,7 +9071,7 @@ Never deal [Critical|Critical Hits]
 {"k":"[ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to {0}% of [Physical|Physical] Damage dealt","n":"[ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to {0}% of [Physical|Physical] Damage dealt","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 98. [Attack|Attacks] [Empowered] by Owl Feathers have {0}% more [CriticalDamageBonus|Critical Damage Bonus]
+### 92. [Attack|Attacks] [Empowered] by Owl Feathers have {0}% more [CriticalDamageBonus|Critical Damage Bonus]
 
 - Match score: `105`
 - `k`: [Attack|Attacks] [Empowered] by Owl Feathers have {0}% more [CriticalDamageBonus|Critical Damage Bonus]
@@ -9153,7 +9083,7 @@ Never deal [Critical|Critical Hits]
 {"k":"[Attack|Attacks] [Empowered] by Owl Feathers have {0}% more [CriticalDamageBonus|Critical Damage Bonus]","n":"[Attack|Attacks] [Empowered] by Owl Feathers have {0}% more [CriticalDamageBonus|Critical Damage Bonus]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 99. [Attack|Attacks] [Gain] {0}% of Damage as [Fire] Damage for {1} second on [Critical|Critically Hitting] with Supported Skills
+### 93. [Attack|Attacks] [Gain] {0}% of Damage as [Fire] Damage for {1} second on [Critical|Critically Hitting] with Supported Skills
 
 - Match score: `105`
 - `k`: [Attack|Attacks] [Gain] {0}% of Damage as [Fire] Damage for {1} second on [Critical|Critically Hitting] with Supported Skills
@@ -9165,7 +9095,7 @@ Never deal [Critical|Critical Hits]
 {"k":"[Attack|Attacks] [Gain] {0}% of Damage as [Fire] Damage for {1} second on [Critical|Critically Hitting] with Supported Skills","n":"[Attack|Attacks] [Gain] {0}% of Damage as [Fire] Damage for {1} second on [Critical|Critically Hitting] with Supported Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 100. [Attack|Attacks] [Gain] {0}% of Damage as [Fire] Damage for {1} seconds on [Critical|Critically Hitting] with Supported Skills
+### 94. [Attack|Attacks] [Gain] {0}% of Damage as [Fire] Damage for {1} seconds on [Critical|Critically Hitting] with Supported Skills
 
 - Match score: `105`
 - `k`: [Attack|Attacks] [Gain] {0}% of Damage as [Fire] Damage for {1} seconds on [Critical|Critically Hitting] with Supported Skills
@@ -9177,7 +9107,7 @@ Never deal [Critical|Critical Hits]
 {"k":"[Attack|Attacks] [Gain] {0}% of Damage as [Fire] Damage for {1} seconds on [Critical|Critically Hitting] with Supported Skills","n":"[Attack|Attacks] [Gain] {0}% of Damage as [Fire] Damage for {1} seconds on [Critical|Critically Hitting] with Supported Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 101. [Attack|Attacks] consume an [Charges|Endurance Charge] to [Critical|Critically Hit]
+### 95. [Attack|Attacks] consume an [Charges|Endurance Charge] to [Critical|Critically Hit]
 
 - Match score: `105`
 - `k`: [Attack|Attacks] consume an [Charges|Endurance Charge] to [Critical|Critically Hit]
@@ -9189,7 +9119,7 @@ Never deal [Critical|Critical Hits]
 {"k":"[Attack|Attacks] consume an [Charges|Endurance Charge] to [Critical|Critically Hit]","n":"[Attack|Attacks] consume an [Charges|Endurance Charge] to [Critical|Critically Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 102. [Attack|Attacks] Exerted by Ambush have {0}% to [CriticalDamageBonus|Critical Damage Bonus]
+### 96. [Attack|Attacks] Exerted by Ambush have {0}% to [CriticalDamageBonus|Critical Damage Bonus]
 
 - Match score: `105`
 - `k`: [Attack|Attacks] Exerted by Ambush have {0}% to [CriticalDamageBonus|Critical Damage Bonus]
@@ -9201,7 +9131,7 @@ Never deal [Critical|Critical Hits]
 {"k":"[Attack|Attacks] Exerted by Ambush have {0}% to [CriticalDamageBonus|Critical Damage Bonus]","n":"[Attack|Attacks] Exerted by Ambush have {0}% to [CriticalDamageBonus|Critical Damage Bonus]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 103. [AzmeriSpirit|Azmeri Spirits] in your Maps have {0}% increased Movement Speed while no monsters are in their [Presence]
+### 97. [AzmeriSpirit|Azmeri Spirits] in your Maps have {0}% increased Movement Speed while no monsters are in their [Presence]
 
 - Match score: `105`
 - `k`: [AzmeriSpirit|Azmeri Spirits] in your Maps have {0}% increased Movement Speed while no monsters are in their [Presence]
@@ -9213,7 +9143,7 @@ Never deal [Critical|Critical Hits]
 {"k":"[AzmeriSpirit|Azmeri Spirits] in your Maps have {0}% increased Movement Speed while no monsters are in their [Presence]","n":"[AzmeriSpirit|Azmeri Spirits] in your Maps have {0}% increased Movement Speed while no monsters are in their [Presence]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 104. [AzmeriSpirit|Azmeri Spirits] may [SpiritPossessed|Possess] [MapBoss|Map Bosses]
+### 98. [AzmeriSpirit|Azmeri Spirits] may [SpiritPossessed|Possess] [MapBoss|Map Bosses]
 
 - Match score: `105`
 - `k`: [AzmeriSpirit|Azmeri Spirits] may [SpiritPossessed|Possess] [MapBoss|Map Bosses]
@@ -9225,7 +9155,7 @@ Never deal [Critical|Critical Hits]
 {"k":"[AzmeriSpirit|Azmeri Spirits] may [SpiritPossessed|Possess] [MapBoss|Map Bosses]","n":"[AzmeriSpirit|Azmeri Spirits] may [SpiritPossessed|Possess] [MapBoss|Map Bosses]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 105. [Bow] [Attack|Attacks] consume {0}% of your maximum Life [Flask] Charges if possible to deal added [Physical] damage equal to {1}% of [Flask]'s Life Recovery amount
+### 99. [Bow] [Attack|Attacks] consume {0}% of your maximum Life [Flask] Charges if possible to deal added [Physical] damage equal to {1}% of [Flask]'s Life Recovery amount
 
 - Match score: `105`
 - `k`: [Bow] [Attack|Attacks] consume {0}% of your maximum Life [Flask] Charges if possible to deal added [Physical] damage equal to {1}% of [Flask]'s Life Recovery amount
@@ -9237,31 +9167,31 @@ Never deal [Critical|Critical Hits]
 {"k":"[Bow] [Attack|Attacks] consume {0}% of your maximum Life [Flask] Charges if possible to deal added [Physical] damage equal to {1}% of [Flask]'s Life Recovery amount","n":"[Bow] [Attack|Attacks] consume {0}% of your maximum Life [Flask] Charges if possible to deal added [Physical] damage equal to {1}% of [Flask]'s Life Recovery amount","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 106. [Chaos] Damage from [HitDamage|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance
+### 100. [Chaos] Damage from [Hit|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance
 
 - Match score: `105`
-- `k`: [Chaos] Damage from [HitDamage|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance
-- `n`: [Chaos] Damage from [HitDamage|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance
+- `k`: [Chaos] Damage from [Hit|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance
+- `n`: [Chaos] Damage from [Hit|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Chaos] Damage from [HitDamage|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance","n":"[Chaos] Damage from [HitDamage|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Chaos] Damage from [Hit|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance","n":"[Chaos] Damage from [Hit|Hits] also [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Chill] Magnitude, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 107. [Cold] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup
+### 101. [Cold] Damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup
 
 - Match score: `105`
-- `k`: [Cold] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup
-- `n`: [Cold] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup
+- `k`: [Cold] Damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup
+- `n`: [Cold] Damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Cold] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup","n":"[Cold] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Cold] Damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup","n":"[Cold] Damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 108. [Consume|Consumes] [Freeze] on [Rarity|Non-Unique] enemies to deal {0}% more Damage
+### 102. [Consume|Consumes] [Freeze] on [Rarity|Non-Unique] enemies to deal {0}% more Damage
 
 - Match score: `105`
 - `k`: [Consume|Consumes] [Freeze] on [Rarity|Non-Unique] enemies to deal {0}% more Damage
@@ -9273,7 +9203,7 @@ Never deal [Critical|Critical Hits]
 {"k":"[Consume|Consumes] [Freeze] on [Rarity|Non-Unique] enemies to deal {0}% more Damage","n":"[Consume|Consumes] [Freeze] on [Rarity|Non-Unique] enemies to deal {0}% more Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 109. [Consume|Consumes] [Freeze] on [Rarity|Unique] enemies to deal {0}% more Damage
+### 103. [Consume|Consumes] [Freeze] on [Rarity|Unique] enemies to deal {0}% more Damage
 
 - Match score: `105`
 - `k`: [Consume|Consumes] [Freeze] on [Rarity|Unique] enemies to deal {0}% more Damage
@@ -9285,25 +9215,7 @@ Never deal [Critical|Critical Hits]
 {"k":"[Consume|Consumes] [Freeze] on [Rarity|Unique] enemies to deal {0}% more Damage","n":"[Consume|Consumes] [Freeze] on [Rarity|Unique] enemies to deal {0}% more Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 110. [Consume|Consumes] [Freeze] on enemies [HitDamage|Hit] to
-trigger a secondary explosion at their location
-Secondary explosions cannot [Consume] [Freeze]
-
-- Match score: `105`
-- `k`: [Consume|Consumes] [Freeze] on enemies [HitDamage|Hit] to
-trigger a secondary explosion at their location
-Secondary explosions cannot [Consume] [Freeze]
-- `n`: [Consume|Consumes] [Freeze] on enemies [HitDamage|Hit] to
-trigger a secondary explosion at their location
-Secondary explosions cannot [Consume] [Freeze]
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"[Consume|Consumes] [Freeze] on enemies [HitDamage|Hit] to\ntrigger a secondary explosion at their location\nSecondary explosions cannot [Consume] [Freeze]","n":"[Consume|Consumes] [Freeze] on enemies [HitDamage|Hit] to\ntrigger a secondary explosion at their location\nSecondary explosions cannot [Consume] [Freeze]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 111. [Consume|Consumes] [Freeze] on enemies to deal {0}% more Damage
+### 104. [Consume|Consumes] [Freeze] on enemies to deal {0}% more Damage
 
 - Match score: `105`
 - `k`: [Consume|Consumes] [Freeze] on enemies to deal {0}% more Damage
@@ -9315,7 +9227,7 @@ Secondary explosions cannot [Consume] [Freeze]
 {"k":"[Consume|Consumes] [Freeze] on enemies to deal {0}% more Damage","n":"[Consume|Consumes] [Freeze] on enemies to deal {0}% more Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 112. [ContainsExpedition|Expedition] Detonation Chains in your Maps travel {0}% faster
+### 105. [ContainsExpedition|Expedition] Detonation Chains in your Maps travel {0}% faster
 
 - Match score: `105`
 - `k`: [ContainsExpedition|Expedition] Detonation Chains in your Maps travel {0}% faster
@@ -9327,7 +9239,7 @@ Secondary explosions cannot [Consume] [Freeze]
 {"k":"[ContainsExpedition|Expedition] Detonation Chains in your Maps travel {0}% faster","n":"[ContainsExpedition|Expedition] Detonation Chains in your Maps travel {0}% faster","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 113. [ContainsIrradiated|Non-Irradiated] Areas with [PowerfulMapBoss|Powerful Map Bosses] have +1 Level
+### 106. [ContainsIrradiated|Non-Irradiated] Areas with [PowerfulMapBoss|Powerful Map Bosses] have +1 Level
 
 - Match score: `105`
 - `k`: [ContainsIrradiated|Non-Irradiated] Areas with [PowerfulMapBoss|Powerful Map Bosses] have +1 Level
@@ -9339,7 +9251,7 @@ Secondary explosions cannot [Consume] [Freeze]
 {"k":"[ContainsIrradiated|Non-Irradiated] Areas with [PowerfulMapBoss|Powerful Map Bosses] have +1 Level","n":"[ContainsIrradiated|Non-Irradiated] Areas with [PowerfulMapBoss|Powerful Map Bosses] have +1 Level","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 114. [CriticalDamageBonus|Critical Damage Bonus] vs full life enemies@{0}%
+### 107. [CriticalDamageBonus|Critical Damage Bonus] vs full life enemies@{0}%
 
 - Match score: `105`
 - `k`: [CriticalDamageBonus|Critical Damage Bonus] vs full life enemies@{0}%
@@ -9351,7 +9263,7 @@ Secondary explosions cannot [Consume] [Freeze]
 {"k":"[CriticalDamageBonus|Critical Damage Bonus] vs full life enemies@{0}%","n":"[CriticalDamageBonus|Critical Damage Bonus] vs full life enemies@{0}%","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 115. [CriticalDamageBonus|Critical Damage Bonus]@+{0}%
+### 108. [CriticalDamageBonus|Critical Damage Bonus]@+{0}%
 
 - Match score: `105`
 - `k`: [CriticalDamageBonus|Critical Damage Bonus]@+{0}%
@@ -9363,7 +9275,7 @@ Secondary explosions cannot [Consume] [Freeze]
 {"k":"[CriticalDamageBonus|Critical Damage Bonus]@+{0}%","n":"[CriticalDamageBonus|Critical Damage Bonus]@+{0}%","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 116. [Critical|Attack Critical Hit Chance] with Supported Skills [ForksCrit|Bifurcates]
+### 109. [Critical|Attack Critical Hit Chance] with Supported Skills [ForksCrit|Bifurcates]
 
 - Match score: `105`
 - `k`: [Critical|Attack Critical Hit Chance] with Supported Skills [ForksCrit|Bifurcates]
@@ -9375,7 +9287,7 @@ Secondary explosions cannot [Consume] [Freeze]
 {"k":"[Critical|Attack Critical Hit Chance] with Supported Skills [ForksCrit|Bifurcates]","n":"[Critical|Attack Critical Hit Chance] with Supported Skills [ForksCrit|Bifurcates]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 117. [Critical|Critical Hits] [Poison] the enemy
+### 110. [Critical|Critical Hits] [Poison] the enemy
 
 - Match score: `105`
 - `k`: [Critical|Critical Hits] [Poison] the enemy
@@ -9387,7 +9299,7 @@ Secondary explosions cannot [Consume] [Freeze]
 {"k":"[Critical|Critical Hits] [Poison] the enemy","n":"[Critical|Critical Hits] [Poison] the enemy","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 118. [Critical|Critical Hits] deal no Damage
+### 111. [Critical|Critical Hits] deal no Damage
 
 - Match score: `105`
 - `k`: [Critical|Critical Hits] deal no Damage
@@ -9399,7 +9311,7 @@ Secondary explosions cannot [Consume] [Freeze]
 {"k":"[Critical|Critical Hits] deal no Damage","n":"[Critical|Critical Hits] deal no Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 119. [Critical|Critical Hits] do not inherently Ignite
+### 112. [Critical|Critical Hits] do not inherently Ignite
 
 - Match score: `105`
 - `k`: [Critical|Critical Hits] do not inherently Ignite
@@ -9411,7 +9323,7 @@ Secondary explosions cannot [Consume] [Freeze]
 {"k":"[Critical|Critical Hits] do not inherently Ignite","n":"[Critical|Critical Hits] do not inherently Ignite","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 120. [Critical|Critical Hits] with [Dagger|Daggers] [Poison] the Enemy
+### 113. [Critical|Critical Hits] with [Dagger|Daggers] [Poison] the Enemy
 
 - Match score: `105`
 - `k`: [Critical|Critical Hits] with [Dagger|Daggers] [Poison] the Enemy
@@ -9421,6 +9333,93 @@ Secondary explosions cannot [Consume] [Freeze]
 
 ```json
 {"k":"[Critical|Critical Hits] with [Dagger|Daggers] [Poison] the Enemy","n":"[Critical|Critical Hits] with [Dagger|Daggers] [Poison] the Enemy","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 114. [Critical|Critical Hits] with [Dagger|Daggers] have a {0}% chance to [Poison] the Enemy
+
+- Match score: `105`
+- `k`: [Critical|Critical Hits] with [Dagger|Daggers] have a {0}% chance to [Poison] the Enemy
+- `n`: [Critical|Critical Hits] with [Dagger|Daggers] have a {0}% chance to [Poison] the Enemy
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"[Critical|Critical Hits] with [Dagger|Daggers] have a {0}% chance to [Poison] the Enemy","n":"[Critical|Critical Hits] with [Dagger|Daggers] have a {0}% chance to [Poison] the Enemy","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 115. [Critical|Critical Hits] with [Spell|Spells] deal no extra damage
+
+- Match score: `105`
+- `k`: [Critical|Critical Hits] with [Spell|Spells] deal no extra damage
+- `n`: [Critical|Critical Hits] with [Spell|Spells] deal no extra damage
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"[Critical|Critical Hits] with [Spell|Spells] deal no extra damage","n":"[Critical|Critical Hits] with [Spell|Spells] deal no extra damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 116. [Critical|Critical Hits] with Bows have a {0}% chance to Poison the Enemy
+
+- Match score: `105`
+- `k`: [Critical|Critical Hits] with Bows have a {0}% chance to Poison the Enemy
+- `n`: [Critical|Critical Hits] with Bows have a {0}% chance to Poison the Enemy
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"[Critical|Critical Hits] with Bows have a {0}% chance to Poison the Enemy","n":"[Critical|Critical Hits] with Bows have a {0}% chance to Poison the Enemy","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 117. [Critical|Critical Hits] with Bows Poison the Enemy
+
+- Match score: `105`
+- `k`: [Critical|Critical Hits] with Bows Poison the Enemy
+- `n`: [Critical|Critical Hits] with Bows Poison the Enemy
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"[Critical|Critical Hits] with Bows Poison the Enemy","n":"[Critical|Critical Hits] with Bows Poison the Enemy","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 118. [Empowered] [Attack] [Aftershock|Aftershocks] deal {0}% more damage
+
+- Match score: `105`
+- `k`: [Empowered] [Attack] [Aftershock|Aftershocks] deal {0}% more damage
+- `n`: [Empowered] [Attack] [Aftershock|Aftershocks] deal {0}% more damage
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"[Empowered] [Attack] [Aftershock|Aftershocks] deal {0}% more damage","n":"[Empowered] [Attack] [Aftershock|Aftershocks] deal {0}% more damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 119. [Exposure] on [Cold] [Critical|Critical Hit]@{0}s
+
+- Match score: `105`
+- `k`: [Exposure] on [Cold] [Critical|Critical Hit]@{0}s
+- `n`: [Exposure] on [Cold] [Critical|Critical Hit]@{0}s
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"[Exposure] on [Cold] [Critical|Critical Hit]@{0}s","n":"[Exposure] on [Cold] [Critical|Critical Hit]@{0}s","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 120. [Fire] Area [Spell|Spells] summon a Spirit per {0} metres of radius
+[Projectile|Projectiles] from [Fire] [Spell|Spells] summon a Spirit on hit
+
+- Match score: `105`
+- `k`: [Fire] Area [Spell|Spells] summon a Spirit per {0} metres of radius
+[Projectile|Projectiles] from [Fire] [Spell|Spells] summon a Spirit on hit
+- `n`: [Fire] Area [Spell|Spells] summon a Spirit per {0} metres of radius
+[Projectile|Projectiles] from [Fire] [Spell|Spells] summon a Spirit on hit
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"[Fire] Area [Spell|Spells] summon a Spirit per {0} metres of radius\n[Projectile|Projectiles] from [Fire] [Spell|Spells] summon a Spirit on hit","n":"[Fire] Area [Spell|Spells] summon a Spirit per {0} metres of radius\n[Projectile|Projectiles] from [Fire] [Spell|Spells] summon a Spirit on hit","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ## Index match summary

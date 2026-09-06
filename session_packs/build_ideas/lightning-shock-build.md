@@ -1,6 +1,6 @@
 # Build Idea Pack — Lightning Shock Build
 
-- Generated UTC: `2026-09-05T13:27:48+00:00`
+- Generated UTC: `2026-09-06T13:41:07+00:00`
 - Idea slug: `lightning-shock-build`
 - Purpose: Engineer a lightning/shock build with high clear speed and strong damage amplification.
 - Keywords: `lightning, shock, shocked, electrocute, storm, spark, arc, exposure, penetration, ailment, elemental, critical, crit, cast speed, projectile, area, aoe, mana, energy shield, sorceress, stormweaver`
@@ -4566,13 +4566,13 @@ _No keyword matches in this index._
 ### 9. caster_critical
 
 - Match score: `70`
-- `k`: 1298
+- `k`: 1300
 - `n`: caster_critical
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1298","n":"caster_critical","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_critical"}
+{"k":"1300","n":"caster_critical","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_critical"}
 ```
 
 ### 10. Critical
@@ -5115,13 +5115,13 @@ _No keyword matches in this index._
 ### 51. amanamu_mod
 
 - Match score: `35`
-- `k`: 1183
+- `k`: 1185
 - `n`: amanamu_mod
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1183","n":"amanamu_mod","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"amanamu_mod"}
+{"k":"1185","n":"amanamu_mod","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"amanamu_mod"}
 ```
 
 ### 52. anarchy_leaguestone
@@ -5605,7 +5605,21 @@ _No keyword matches in this index._
 {"k":"401","n":"arena_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"arena_area"}
 ```
 
-### 88. atziri_area
+### 88. Atziri's Soul Core of Alacrity
+
+- Match score: `35`
+- `k`: Metadata/Items/SoulCores/SoulCoreSpecial31
+- `n`: Atziri's Soul Core of Alacrity
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["soul_core","soul_core_tier4","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/SoulCores/SoulCoreSpecial31","n":"Atziri's Soul Core of Alacrity","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["soul_core","soul_core_tier4","default"],"domain":"undefined"}
+```
+
+### 89. atziri_area
 
 - Match score: `35`
 - `k`: atziri_area
@@ -5617,7 +5631,7 @@ _No keyword matches in this index._
 {"k":"atziri_area","n":"atziri_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 89. atziri_area
+### 90. atziri_area
 
 - Match score: `35`
 - `k`: 824
@@ -5629,7 +5643,7 @@ _No keyword matches in this index._
 {"k":"824","n":"atziri_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"atziri_area"}
 ```
 
-### 90. Ball Lightning
+### 91. Ball Lightning
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemBallLightning
@@ -5643,7 +5657,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemBallLightning","n":"Ball Lightning","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 91. bandit_area
+### 92. bandit_area
 
 - Match score: `35`
 - `k`: bandit_area
@@ -5655,7 +5669,7 @@ _No keyword matches in this index._
 {"k":"bandit_area","n":"bandit_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 92. bandit_area
+### 93. bandit_area
 
 - Match score: `35`
 - `k`: 379
@@ -5667,7 +5681,7 @@ _No keyword matches in this index._
 {"k":"379","n":"bandit_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bandit_area"}
 ```
 
-### 93. belly_area
+### 94. belly_area
 
 - Match score: `35`
 - `k`: belly_area
@@ -5679,7 +5693,7 @@ _No keyword matches in this index._
 {"k":"belly_area","n":"belly_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 94. belly_area
+### 95. belly_area
 
 - Match score: `35`
 - `k`: 361
@@ -5691,7 +5705,7 @@ _No keyword matches in this index._
 {"k":"361","n":"belly_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"belly_area"}
 ```
 
-### 95. blight_death_lightning
+### 96. blight_death_lightning
 
 - Match score: `35`
 - `k`: blight_death_lightning
@@ -5703,7 +5717,7 @@ _No keyword matches in this index._
 {"k":"blight_death_lightning","n":"blight_death_lightning","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 96. blight_death_lightning
+### 97. blight_death_lightning
 
 - Match score: `35`
 - `k`: 466
@@ -5715,7 +5729,7 @@ _No keyword matches in this index._
 {"k":"466","n":"blight_death_lightning","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"blight_death_lightning"}
 ```
 
-### 97. Bonestorm
+### 98. Bonestorm
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemBonestorm
@@ -5729,7 +5743,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemBonestorm","n":"Bonestorm","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 98. breach_monster_lightning
+### 99. breach_monster_lightning
 
 - Match score: `35`
 - `k`: breach_monster_lightning
@@ -5741,7 +5755,7 @@ _No keyword matches in this index._
 {"k":"breach_monster_lightning","n":"breach_monster_lightning","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 99. breach_monster_lightning
+### 100. breach_monster_lightning
 
 - Match score: `35`
 - `k`: 1000
@@ -5753,7 +5767,7 @@ _No keyword matches in this index._
 {"k":"1000","n":"breach_monster_lightning","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"breach_monster_lightning"}
 ```
 
-### 100. bridge_area
+### 101. bridge_area
 
 - Match score: `35`
 - `k`: bridge_area
@@ -5765,7 +5779,7 @@ _No keyword matches in this index._
 {"k":"bridge_area","n":"bridge_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 101. bridge_area
+### 102. bridge_area
 
 - Match score: `35`
 - `k`: 877
@@ -5777,7 +5791,7 @@ _No keyword matches in this index._
 {"k":"877","n":"bridge_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bridge_area"}
 ```
 
-### 102. cannot_be_archnemesis
+### 103. cannot_be_archnemesis
 
 - Match score: `35`
 - `k`: cannot_be_archnemesis
@@ -5789,7 +5803,7 @@ _No keyword matches in this index._
 {"k":"cannot_be_archnemesis","n":"cannot_be_archnemesis","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 103. cannot_be_archnemesis
+### 104. cannot_be_archnemesis
 
 - Match score: `35`
 - `k`: 921
@@ -5801,7 +5815,7 @@ _No keyword matches in this index._
 {"k":"921","n":"cannot_be_archnemesis","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cannot_be_archnemesis"}
 ```
 
-### 104. cannot_be_map_archnemesis
+### 105. cannot_be_map_archnemesis
 
 - Match score: `35`
 - `k`: cannot_be_map_archnemesis
@@ -5813,7 +5827,7 @@ _No keyword matches in this index._
 {"k":"cannot_be_map_archnemesis","n":"cannot_be_map_archnemesis","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 105. cannot_be_map_archnemesis
+### 106. cannot_be_map_archnemesis
 
 - Match score: `35`
 - `k`: 926
@@ -5825,7 +5839,7 @@ _No keyword matches in this index._
 {"k":"926","n":"cannot_be_map_archnemesis","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cannot_be_map_archnemesis"}
 ```
 
-### 106. carver_culture_area
+### 107. carver_culture_area
 
 - Match score: `35`
 - `k`: carver_culture_area
@@ -5837,19 +5851,19 @@ _No keyword matches in this index._
 {"k":"carver_culture_area","n":"carver_culture_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 107. carver_culture_area
+### 108. carver_culture_area
 
 - Match score: `35`
-- `k`: 1231
+- `k`: 1233
 - `n`: carver_culture_area
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1231","n":"carver_culture_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"carver_culture_area"}
+{"k":"1233","n":"carver_culture_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"carver_culture_area"}
 ```
 
-### 108. Cast on Shock
+### 109. Cast on Shock
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemCastOnShock
@@ -5863,7 +5877,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemCastOnShock","n":"Cast on Shock","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 109. catacomb_area
+### 110. catacomb_area
 
 - Match score: `35`
 - `k`: catacomb_area
@@ -5875,7 +5889,7 @@ _No keyword matches in this index._
 {"k":"catacomb_area","n":"catacomb_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 110. catacomb_area
+### 111. catacomb_area
 
 - Match score: `35`
 - `k`: 371
@@ -5887,7 +5901,7 @@ _No keyword matches in this index._
 {"k":"371","n":"catacomb_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"catacomb_area"}
 ```
 
-### 111. cave_area
+### 112. cave_area
 
 - Match score: `35`
 - `k`: cave_area
@@ -5899,7 +5913,7 @@ _No keyword matches in this index._
 {"k":"cave_area","n":"cave_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 112. cave_area
+### 113. cave_area
 
 - Match score: `35`
 - `k`: 399
@@ -5911,7 +5925,7 @@ _No keyword matches in this index._
 {"k":"399","n":"cave_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cave_area"}
 ```
 
-### 113. cemetery_map_area
+### 114. cemetery_map_area
 
 - Match score: `35`
 - `k`: cemetery_map_area
@@ -5923,7 +5937,7 @@ _No keyword matches in this index._
 {"k":"cemetery_map_area","n":"cemetery_map_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 114. cemetery_map_area
+### 115. cemetery_map_area
 
 - Match score: `35`
 - `k`: 435
@@ -5935,7 +5949,7 @@ _No keyword matches in this index._
 {"k":"435","n":"cemetery_map_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cemetery_map_area"}
 ```
 
-### 115. chamber_of_sins_area
+### 116. chamber_of_sins_area
 
 - Match score: `35`
 - `k`: chamber_of_sins_area
@@ -5947,7 +5961,7 @@ _No keyword matches in this index._
 {"k":"chamber_of_sins_area","n":"chamber_of_sins_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 116. chamber_of_sins_area
+### 117. chamber_of_sins_area
 
 - Match score: `35`
 - `k`: 365
@@ -5959,7 +5973,7 @@ _No keyword matches in this index._
 {"k":"365","n":"chamber_of_sins_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chamber_of_sins_area"}
 ```
 
-### 117. chaos_golem_boss_area
+### 118. chaos_golem_boss_area
 
 - Match score: `35`
 - `k`: chaos_golem_boss_area
@@ -5971,7 +5985,7 @@ _No keyword matches in this index._
 {"k":"chaos_golem_boss_area","n":"chaos_golem_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 118. chaos_golem_boss_area
+### 119. chaos_golem_boss_area
 
 - Match score: `35`
 - `k`: 807
@@ -5983,7 +5997,7 @@ _No keyword matches in this index._
 {"k":"807","n":"chaos_golem_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_golem_boss_area"}
 ```
 
-### 119. coast_boat_area
+### 120. coast_boat_area
 
 - Match score: `35`
 - `k`: coast_boat_area
@@ -5993,18 +6007,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"coast_boat_area","n":"coast_boat_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
-```
-
-### 120. coast_boat_area
-
-- Match score: `35`
-- `k`: 414
-- `n`: coast_boat_area
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
-
-```json
-{"k":"414","n":"coast_boat_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"coast_boat_area"}
 ```
 
 ## Mods and affixes
@@ -7233,6 +7235,7 @@ _No keyword matches in this index._
 ```
 
 ### 76. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
+<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{All Damage can Shock}
 <rgb(135,134,253)>{All Damage can Chill}
 <rgb(135,134,253)>{All Damage can Ignite}
@@ -7241,6 +7244,7 @@ _No keyword matches in this index._
 - Match score: `70`
 - `k`: ExpeditionMonsterModRunePrismatic
 - `n`: <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
+<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{All Damage can Shock}
 <rgb(135,134,253)>{All Damage can Chill}
 <rgb(135,134,253)>{All Damage can Ignite}
@@ -7253,7 +7257,7 @@ _No keyword matches in this index._
 - `stats`: [{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}]
 
 ```json
-{"k":"ExpeditionMonsterModRunePrismatic","n":"<<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}\r\n<rgb(135,134,253)>{All Damage can Shock}\r\n<rgb(135,134,253)>{All Damage can Chill}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{All Elemental Resistance}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
+{"k":"ExpeditionMonsterModRunePrismatic","n":"<<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{All Damage can Shock}\r\n<rgb(135,134,253)>{All Damage can Chill}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{All Elemental Resistance}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
 ### 77. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
@@ -7285,14 +7289,14 @@ _No keyword matches in this index._
 ### 78. <<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Cannot be Shocked or Chilled}
-<rgb(135,134,253)>{All Damage can Shock and Chill}
+<rgb(135,134,253)>{[DamageTypes|All Damage] [Contributes|contributes] to chance to [Shock] and [Chill] Magnitude}
 
 - Match score: `70`
 - `k`: ExpeditionMonsterModRuneTempest
 - `n`: <<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Cannot be Shocked or Chilled}
-<rgb(135,134,253)>{All Damage can Shock and Chill}
+<rgb(135,134,253)>{[DamageTypes|All Damage] [Contributes|contributes] to chance to [Shock] and [Chill] Magnitude}
 - `cat`: repoe_mods
 - `src`: repoe_poe2/mods.json
 - `lvl`: 1
@@ -7301,20 +7305,20 @@ _No keyword matches in this index._
 - `stats`: [{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":0,"min":0},{"id":"base_cannot_be_chilled","max":0,"min":0},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60},{"id":"active_skill_shock_chance_+%_final","max":0,"min":0},{"id":"active_skill_chill_as_though_damage_+%_final","max":0,"min":0}]
 
 ```json
-{"k":"ExpeditionMonsterModRuneTempest","n":"<<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Cannot be Shocked or Chilled}\r\n<rgb(135,134,253)>{All Damage can Shock and Chill}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":0,"min":0},{"id":"base_cannot_be_chilled","max":0,"min":0},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60},{"id":"active_skill_shock_chance_+%_final","max":0,"min":0},{"id":"active_skill_chill_as_though_damage_+%_final","max":0,"min":0}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
+{"k":"ExpeditionMonsterModRuneTempest","n":"<<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Cannot be Shocked or Chilled}\r\n<rgb(135,134,253)>{[DamageTypes|All Damage] [Contributes|contributes] to chance to [Shock] and [Chill] Magnitude}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":0,"min":0},{"id":"base_cannot_be_chilled","max":0,"min":0},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60},{"id":"active_skill_shock_chance_+%_final","max":0,"min":0},{"id":"active_skill_chill_as_though_damage_+%_final","max":0,"min":0}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
 ### 79. <<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Cannot be Shocked or Chilled}
-<rgb(135,134,253)>{All Damage can Shock and Chill}
+<rgb(135,134,253)>{[DamageTypes|All Damage] [Contributes|contributes] to chance to [Shock] and [Chill] Magnitude}
 
 - Match score: `70`
 - `k`: ExpeditionMonsterModRuneTempestPower
 - `n`: <<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Cannot be Shocked or Chilled}
-<rgb(135,134,253)>{All Damage can Shock and Chill}
+<rgb(135,134,253)>{[DamageTypes|All Damage] [Contributes|contributes] to chance to [Shock] and [Chill] Magnitude}
 - `cat`: repoe_mods
 - `src`: repoe_poe2/mods.json
 - `lvl`: 1
@@ -7323,7 +7327,7 @@ _No keyword matches in this index._
 - `stats`: [{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":1,"min":1},{"id":"base_cannot_be_chilled","max":1,"min":1},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60},{"id":"active_skill_shock_chance_+%_final","max":100,"min":100},{"id":"active_skill_chill_as_though_damage_+%_final","max":100,"min":100}]
 
 ```json
-{"k":"ExpeditionMonsterModRuneTempestPower","n":"<<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Cannot be Shocked or Chilled}\r\n<rgb(135,134,253)>{All Damage can Shock and Chill}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":1,"min":1},{"id":"base_cannot_be_chilled","max":1,"min":1},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60},{"id":"active_skill_shock_chance_+%_final","max":100,"min":100},{"id":"active_skill_chill_as_though_damage_+%_final","max":100,"min":100}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
+{"k":"ExpeditionMonsterModRuneTempestPower","n":"<<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Cannot be Shocked or Chilled}\r\n<rgb(135,134,253)>{[DamageTypes|All Damage] [Contributes|contributes] to chance to [Shock] and [Chill] Magnitude}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":1,"min":1},{"id":"base_cannot_be_chilled","max":1,"min":1},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60},{"id":"active_skill_shock_chance_+%_final","max":100,"min":100},{"id":"active_skill_chill_as_though_damage_+%_final","max":100,"min":100}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
 ### 80. AdditionalCriticalStrikeChancePerPowerChargeUnique__1
@@ -8136,28 +8140,28 @@ _No keyword matches in this index._
 {"k":"100% of Physical Damage Converted to Cold Damage while Sphere has no Ailments\n100% of Physical Damage Converted to Lightning Damage while sphere is Shocked or Sapped\n100% of Physical Damage Converted to Cold Damage while Sphere is Frozen or Brittle","n":"100% of Physical Damage Converted to Cold Damage while Sphere has no Ailments\n100% of Physical Damage Converted to Lightning Damage while sphere is Shocked or Sapped\n100% of Physical Damage Converted to Cold Damage while Sphere is Frozen or Brittle","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 2. [Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]
+### 2. [Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]
 
 - Match score: `140`
-- `k`: [Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]
-- `n`: [Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]
+- `k`: [Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]
+- `n`: [Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]","n":"[Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]","n":"[Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 3. [Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]
+### 3. [Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]
 
 - Match score: `140`
-- `k`: [Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]
-- `n`: [Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]
+- `k`: [Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]
+- `n`: [Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]","n":"[Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]","n":"[Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 4. Always [Critical|Critical Hit] Shocked Enemies
@@ -8487,16 +8491,16 @@ by Elemental Ailments
 {"k":"{0}% to [CriticalDamageBonus|Critical Damage Bonus] against Enemies that are affected\nby Elemental Ailments","n":"{0}% to [CriticalDamageBonus|Critical Damage Bonus] against Enemies that are affected\nby Elemental Ailments","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 29. +1 Arctic Petal per [Power] of targets Killed with [Critical|Critical] [HitDamage|Hits]
+### 29. +1 Arctic Petal per [Power] of targets Killed with [Critical|Critical] [Hit|Hits]
 
 - Match score: `105`
-- `k`: +1 Arctic Petal per [Power] of targets Killed with [Critical|Critical] [HitDamage|Hits]
-- `n`: +1 Arctic Petal per [Power] of targets Killed with [Critical|Critical] [HitDamage|Hits]
+- `k`: +1 Arctic Petal per [Power] of targets Killed with [Critical|Critical] [Hit|Hits]
+- `n`: +1 Arctic Petal per [Power] of targets Killed with [Critical|Critical] [Hit|Hits]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"+1 Arctic Petal per [Power] of targets Killed with [Critical|Critical] [HitDamage|Hits]","n":"+1 Arctic Petal per [Power] of targets Killed with [Critical|Critical] [HitDamage|Hits]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"+1 Arctic Petal per [Power] of targets Killed with [Critical|Critical] [Hit|Hits]","n":"+1 Arctic Petal per [Power] of targets Killed with [Critical|Critical] [Hit|Hits]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 30. [Archon] Buffs also grant {0}% increased [CriticalDamageBonus|Critical Damage Bonus]
@@ -8619,19 +8623,19 @@ by Elemental Ailments
 {"k":"[Critical|Critical Hits] with Lightning Skills Sap the Enemy","n":"[Critical|Critical Hits] with Lightning Skills Sap the Enemy","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 40. [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
+### 40. [ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
 Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
 
 - Match score: `105`
-- `k`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
+- `k`: [ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
 Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
-- `n`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
+- `n`: [ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
 Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","n":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","n":"[ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 41. [EnergyShield|Energy Shield] Recovered on killing a [Shock|Shocked] Enemy@{0}%
@@ -8970,28 +8974,28 @@ as being boosted by [ShockedGround|Shocked] and [ChilledGround|Chilled] Ground
 {"k":"Adds {0} to {1} Lightning Damage if you've dealt a [Critical|Critical Hit] [Recently]","n":"Adds {0} to {1} Lightning Damage if you've dealt a [Critical|Critical Hit] [Recently]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 68. Arctic Petals on [Critical|Critical] [HitDamage|Hit] vs Rare or Unique@{0}
+### 68. Arctic Petals on [Critical|Critical] [Hit] vs Rare or Unique@{0}
 
 - Match score: `105`
-- `k`: Arctic Petals on [Critical|Critical] [HitDamage|Hit] vs Rare or Unique@{0}
-- `n`: Arctic Petals on [Critical|Critical] [HitDamage|Hit] vs Rare or Unique@{0}
+- `k`: Arctic Petals on [Critical|Critical] [Hit] vs Rare or Unique@{0}
+- `n`: Arctic Petals on [Critical|Critical] [Hit] vs Rare or Unique@{0}
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"Arctic Petals on [Critical|Critical] [HitDamage|Hit] vs Rare or Unique@{0}","n":"Arctic Petals on [Critical|Critical] [HitDamage|Hit] vs Rare or Unique@{0}","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"Arctic Petals on [Critical|Critical] [Hit] vs Rare or Unique@{0}","n":"Arctic Petals on [Critical|Critical] [Hit] vs Rare or Unique@{0}","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 69. Arctic Petals per [Power] of [Critical|Critical] [HitDamage|Hit] Kills@1
+### 69. Arctic Petals per [Power] of [Critical|Critical] [Hit] Kills@1
 
 - Match score: `105`
-- `k`: Arctic Petals per [Power] of [Critical|Critical] [HitDamage|Hit] Kills@1
-- `n`: Arctic Petals per [Power] of [Critical|Critical] [HitDamage|Hit] Kills@1
+- `k`: Arctic Petals per [Power] of [Critical|Critical] [Hit] Kills@1
+- `n`: Arctic Petals per [Power] of [Critical|Critical] [Hit] Kills@1
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"Arctic Petals per [Power] of [Critical|Critical] [HitDamage|Hit] Kills@1","n":"Arctic Petals per [Power] of [Critical|Critical] [HitDamage|Hit] Kills@1","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"Arctic Petals per [Power] of [Critical|Critical] [Hit] Kills@1","n":"Arctic Petals per [Power] of [Critical|Critical] [Hit] Kills@1","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 70. Area has patches of [ShockedGround|Shocked Ground]
@@ -9360,19 +9364,19 @@ as being boosted by [ShockedGround|Shocked] and [ChilledGround|Chilled] Ground
 {"k":"Knock Back Enemies if you get a [Critical|Critical Hit] with Projectile Damage","n":"Knock Back Enemies if you get a [Critical|Critical Hit] with Projectile Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 99. Lightning Bolts strike the targets of your next {0} [Attack|Attack] [HitDamage|Hits]
+### 99. Lightning Bolts strike the targets of your next {0} [Attack|Attack] [Hit|Hits]
 after killing a [Shock|Shocked] enemy with [Attack|Attack] damage
 
 - Match score: `105`
-- `k`: Lightning Bolts strike the targets of your next {0} [Attack|Attack] [HitDamage|Hits]
+- `k`: Lightning Bolts strike the targets of your next {0} [Attack|Attack] [Hit|Hits]
 after killing a [Shock|Shocked] enemy with [Attack|Attack] damage
-- `n`: Lightning Bolts strike the targets of your next {0} [Attack|Attack] [HitDamage|Hits]
+- `n`: Lightning Bolts strike the targets of your next {0} [Attack|Attack] [Hit|Hits]
 after killing a [Shock|Shocked] enemy with [Attack|Attack] damage
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"Lightning Bolts strike the targets of your next {0} [Attack|Attack] [HitDamage|Hits]\nafter killing a [Shock|Shocked] enemy with [Attack|Attack] damage","n":"Lightning Bolts strike the targets of your next {0} [Attack|Attack] [HitDamage|Hits]\nafter killing a [Shock|Shocked] enemy with [Attack|Attack] damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"Lightning Bolts strike the targets of your next {0} [Attack|Attack] [Hit|Hits]\nafter killing a [Shock|Shocked] enemy with [Attack|Attack] damage","n":"Lightning Bolts strike the targets of your next {0} [Attack|Attack] [Hit|Hits]\nafter killing a [Shock|Shocked] enemy with [Attack|Attack] damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 100. Lightning Damage of Enemies Hitting you while you're Shocked is Lucky
@@ -9423,28 +9427,28 @@ after killing a [Shock|Shocked] enemy with [Attack|Attack] damage
 {"k":"Mana [Leech] from [Critical|Critical Hits] is instant","n":"Mana [Leech] from [Critical|Critical Hits] is instant","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 104. Non-[Channelling] [Spell|Spells] have {0}% increased [Critical|Critical Hit Chance] per 100 maximum Mana
+### 104. Non-[Channelling] Skills have {0}% increased [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana
 
 - Match score: `105`
-- `k`: Non-[Channelling] [Spell|Spells] have {0}% increased [Critical|Critical Hit Chance] per 100 maximum Mana
-- `n`: Non-[Channelling] [Spell|Spells] have {0}% increased [Critical|Critical Hit Chance] per 100 maximum Mana
+- `k`: Non-[Channelling] Skills have {0}% increased [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana
+- `n`: Non-[Channelling] Skills have {0}% increased [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"Non-[Channelling] [Spell|Spells] have {0}% increased [Critical|Critical Hit Chance] per 100 maximum Mana","n":"Non-[Channelling] [Spell|Spells] have {0}% increased [Critical|Critical Hit Chance] per 100 maximum Mana","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"Non-[Channelling] Skills have {0}% increased [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana","n":"Non-[Channelling] Skills have {0}% increased [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 105. Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Mana
+### 105. Non-[Channelling] Skills have {0}% reduced [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana
 
 - Match score: `105`
-- `k`: Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Mana
-- `n`: Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Mana
+- `k`: Non-[Channelling] Skills have {0}% reduced [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana
+- `n`: Non-[Channelling] Skills have {0}% reduced [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Mana","n":"Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Mana","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"Non-[Channelling] Skills have {0}% reduced [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana","n":"Non-[Channelling] Skills have {0}% reduced [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 106. Non-[Channelling] Spells cost Double Mana and [Critical|Critically Hit]

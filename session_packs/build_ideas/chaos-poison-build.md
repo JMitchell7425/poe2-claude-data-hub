@@ -1,6 +1,6 @@
 # Build Idea Pack — Chaos Poison Build
 
-- Generated UTC: `2026-09-05T13:27:49+00:00`
+- Generated UTC: `2026-09-06T13:41:08+00:00`
 - Idea slug: `chaos-poison-build`
 - Purpose: Engineer a chaos/poison build with strong damage-over-time scaling and boss reliability.
 - Keywords: `chaos, poison, poisoned, wither, damage over time, dot, ailment, duration, projectile, attack, spell, critical, crit, area, clear, boss, resistance, pathfinder, ranger, witch, blood mage`
@@ -4612,13 +4612,13 @@ _No keyword matches in this index._
 ### 12. caster_critical
 
 - Match score: `70`
-- `k`: 1298
+- `k`: 1300
 - `n`: caster_critical
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1298","n":"caster_critical","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_critical"}
+{"k":"1300","n":"caster_critical","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_critical"}
 ```
 
 ### 13. chaos_resistance
@@ -4636,13 +4636,13 @@ _No keyword matches in this index._
 ### 14. chaos_resistance
 
 - Match score: `70`
-- `k`: 1293
+- `k`: 1295
 - `n`: chaos_resistance
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1293","n":"chaos_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_resistance"}
+{"k":"1295","n":"chaos_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_resistance"}
 ```
 
 ### 15. Critical
@@ -5068,17 +5068,17 @@ _No keyword matches in this index._
 
 ### 49. Withered Wand
 
-- Match score: `45`
+- Match score: `55`
 - `k`: Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand1
 - `n`: Withered Wand
 - `cat`: repoe_base_items
 - `src`: repoe_poe2/base_items.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","wand","onehand","default"]
+- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","chaos_implicit_skill","wand","onehand","default"]
 - `req`: {"dexterity":0,"intelligence":0,"level":1,"strength":0}
 - `domain`: item
 
 ```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand1","n":"Withered Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","wand","onehand","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
+{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand1","n":"Withered Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods","chaos_implicit_skill","wand","onehand","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
 ```
 
 ### 50. [DNT-UNUSED] Bone Cultist Shield Boss Drop
@@ -5684,13 +5684,13 @@ _No keyword matches in this index._
 ### 97. attack_catalyst
 
 - Match score: `35`
-- `k`: 1311
+- `k`: 1313
 - `n`: attack_catalyst
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1311","n":"attack_catalyst","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"attack_catalyst"}
+{"k":"1313","n":"attack_catalyst","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"attack_catalyst"}
 ```
 
 ### 98. attack_dagger
@@ -5741,7 +5741,21 @@ _No keyword matches in this index._
 {"k":"448","n":"attack_staff","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"attack_staff"}
 ```
 
-### 102. atziri_area
+### 102. Atziri's Soul Core of Alacrity
+
+- Match score: `35`
+- `k`: Metadata/Items/SoulCores/SoulCoreSpecial31
+- `n`: Atziri's Soul Core of Alacrity
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["soul_core","soul_core_tier4","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/SoulCores/SoulCoreSpecial31","n":"Atziri's Soul Core of Alacrity","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["soul_core","soul_core_tier4","default"],"domain":"undefined"}
+```
+
+### 103. atziri_area
 
 - Match score: `35`
 - `k`: atziri_area
@@ -5753,7 +5767,7 @@ _No keyword matches in this index._
 {"k":"atziri_area","n":"atziri_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 103. atziri_area
+### 104. atziri_area
 
 - Match score: `35`
 - `k`: 824
@@ -5765,7 +5779,7 @@ _No keyword matches in this index._
 {"k":"824","n":"atziri_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"atziri_area"}
 ```
 
-### 104. atziri_boss
+### 105. atziri_boss
 
 - Match score: `35`
 - `k`: atziri_boss
@@ -5777,7 +5791,7 @@ _No keyword matches in this index._
 {"k":"atziri_boss","n":"atziri_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 105. atziri_boss
+### 106. atziri_boss
 
 - Match score: `35`
 - `k`: 899
@@ -5789,7 +5803,7 @@ _No keyword matches in this index._
 {"k":"899","n":"atziri_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"atziri_boss"}
 ```
 
-### 106. bandit_area
+### 107. bandit_area
 
 - Match score: `35`
 - `k`: bandit_area
@@ -5801,7 +5815,7 @@ _No keyword matches in this index._
 {"k":"bandit_area","n":"bandit_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 107. bandit_area
+### 108. bandit_area
 
 - Match score: `35`
 - `k`: 379
@@ -5813,7 +5827,7 @@ _No keyword matches in this index._
 {"k":"379","n":"bandit_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bandit_area"}
 ```
 
-### 108. bear_boss_map
+### 109. bear_boss_map
 
 - Match score: `35`
 - `k`: bear_boss_map
@@ -5825,7 +5839,7 @@ _No keyword matches in this index._
 {"k":"bear_boss_map","n":"bear_boss_map","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 109. bear_boss_map
+### 110. bear_boss_map
 
 - Match score: `35`
 - `k`: 962
@@ -5837,7 +5851,7 @@ _No keyword matches in this index._
 {"k":"962","n":"bear_boss_map","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bear_boss_map"}
 ```
 
-### 110. belly_area
+### 111. belly_area
 
 - Match score: `35`
 - `k`: belly_area
@@ -5849,7 +5863,7 @@ _No keyword matches in this index._
 {"k":"belly_area","n":"belly_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 111. belly_area
+### 112. belly_area
 
 - Match score: `35`
 - `k`: 361
@@ -5861,7 +5875,7 @@ _No keyword matches in this index._
 {"k":"361","n":"belly_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"belly_area"}
 ```
 
-### 112. bestiary_beast_boss
+### 113. bestiary_beast_boss
 
 - Match score: `35`
 - `k`: bestiary_beast_boss
@@ -5873,7 +5887,7 @@ _No keyword matches in this index._
 {"k":"bestiary_beast_boss","n":"bestiary_beast_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 113. bestiary_beast_boss
+### 114. bestiary_beast_boss
 
 - Match score: `35`
 - `k`: 293
@@ -5885,7 +5899,7 @@ _No keyword matches in this index._
 {"k":"293","n":"bestiary_beast_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bestiary_beast_boss"}
 ```
 
-### 114. bestiary_spirit_boss
+### 115. bestiary_spirit_boss
 
 - Match score: `35`
 - `k`: bestiary_spirit_boss
@@ -5897,7 +5911,7 @@ _No keyword matches in this index._
 {"k":"bestiary_spirit_boss","n":"bestiary_spirit_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 115. bestiary_spirit_boss
+### 116. bestiary_spirit_boss
 
 - Match score: `35`
 - `k`: 833
@@ -5909,7 +5923,7 @@ _No keyword matches in this index._
 {"k":"833","n":"bestiary_spirit_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bestiary_spirit_boss"}
 ```
 
-### 116. blight_boss
+### 117. blight_boss
 
 - Match score: `35`
 - `k`: blight_boss
@@ -5921,7 +5935,7 @@ _No keyword matches in this index._
 {"k":"blight_boss","n":"blight_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 117. blight_boss
+### 118. blight_boss
 
 - Match score: `35`
 - `k`: 649
@@ -5933,7 +5947,7 @@ _No keyword matches in this index._
 {"k":"649","n":"blight_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"blight_boss"}
 ```
 
-### 118. blight_death_chaos
+### 119. blight_death_chaos
 
 - Match score: `35`
 - `k`: blight_death_chaos
@@ -5945,7 +5959,7 @@ _No keyword matches in this index._
 {"k":"blight_death_chaos","n":"blight_death_chaos","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 119. blight_death_chaos
+### 120. blight_death_chaos
 
 - Match score: `35`
 - `k`: 468
@@ -5955,18 +5969,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"468","n":"blight_death_chaos","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"blight_death_chaos"}
-```
-
-### 120. blood_mage_boss_map
-
-- Match score: `35`
-- `k`: blood_mage_boss_map
-- `n`: blood_mage_boss_map
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
-
-```json
-{"k":"blood_mage_boss_map","n":"blood_mage_boss_map","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
 ## Mods and affixes
@@ -7981,16 +7983,16 @@ Never deal [Critical|Critical Hits]
 {"k":"[Attack|Attacks] [Gain] {0}% of Damage as [Fire] Damage for {1} seconds on [Critical|Critically Hitting] with Supported Skills","n":"[Attack|Attacks] [Gain] {0}% of Damage as [Fire] Damage for {1} seconds on [Critical|Critically Hitting] with Supported Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 19. [Attack|Attacks] always [Maim|Maim] on [HitDamage|Hit] against [Poison|Poisoned] Enemies
+### 19. [Attack|Attacks] always [Maim|Maim] on [Hit] against [Poison|Poisoned] Enemies
 
 - Match score: `105`
-- `k`: [Attack|Attacks] always [Maim|Maim] on [HitDamage|Hit] against [Poison|Poisoned] Enemies
-- `n`: [Attack|Attacks] always [Maim|Maim] on [HitDamage|Hit] against [Poison|Poisoned] Enemies
+- `k`: [Attack|Attacks] always [Maim|Maim] on [Hit] against [Poison|Poisoned] Enemies
+- `n`: [Attack|Attacks] always [Maim|Maim] on [Hit] against [Poison|Poisoned] Enemies
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Attack|Attacks] always [Maim|Maim] on [HitDamage|Hit] against [Poison|Poisoned] Enemies","n":"[Attack|Attacks] always [Maim|Maim] on [HitDamage|Hit] against [Poison|Poisoned] Enemies","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Attack|Attacks] always [Maim|Maim] on [Hit] against [Poison|Poisoned] Enemies","n":"[Attack|Attacks] always [Maim|Maim] on [Hit] against [Poison|Poisoned] Enemies","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 20. [Attack|Attacks] consume an [Charges|Endurance Charge] to [Critical|Critically Hit]
@@ -8443,40 +8445,40 @@ Enemies affected by at least 5 Poisons
 {"k":"[Melee] [Critical|Critical Hit]s Poison the Enemy","n":"[Melee] [Critical|Critical Hit]s Poison the Enemy","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 57. [Meta] Skills gain {0}% increased [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]
+### 57. [Meta] Skills gain {0}% increased [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]
 
 - Match score: `105`
-- `k`: [Meta] Skills gain {0}% increased [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]
-- `n`: [Meta] Skills gain {0}% increased [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]
+- `k`: [Meta] Skills gain {0}% increased [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]
+- `n`: [Meta] Skills gain {0}% increased [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Meta] Skills gain {0}% increased [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]","n":"[Meta] Skills gain {0}% increased [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Meta] Skills gain {0}% increased [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]","n":"[Meta] Skills gain {0}% increased [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 58. [Meta] Skills gain {0}% reduced [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]
+### 58. [Meta] Skills gain {0}% reduced [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]
 
 - Match score: `105`
-- `k`: [Meta] Skills gain {0}% reduced [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]
-- `n`: [Meta] Skills gain {0}% reduced [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]
+- `k`: [Meta] Skills gain {0}% reduced [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]
+- `n`: [Meta] Skills gain {0}% reduced [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Meta] Skills gain {0}% reduced [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]","n":"[Meta] Skills gain {0}% reduced [Energy] for each [Critical] [HitDamage|Hit] you've dealt with [Spell|Spells] [Recently]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Meta] Skills gain {0}% reduced [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]","n":"[Meta] Skills gain {0}% reduced [Energy] for each [Critical] [Hit] you've dealt with [Spell|Spells] [Recently]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 59. [Physical] [Spell] [Critical] [HitDamage|Hits] build [Pinned|Pin]
+### 59. [Physical] [Spell] [Critical] [Hit|Hits] build [Pinned|Pin]
 
 - Match score: `105`
-- `k`: [Physical] [Spell] [Critical] [HitDamage|Hits] build [Pinned|Pin]
-- `n`: [Physical] [Spell] [Critical] [HitDamage|Hits] build [Pinned|Pin]
+- `k`: [Physical] [Spell] [Critical] [Hit|Hits] build [Pinned|Pin]
+- `n`: [Physical] [Spell] [Critical] [Hit|Hits] build [Pinned|Pin]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Physical] [Spell] [Critical] [HitDamage|Hits] build [Pinned|Pin]","n":"[Physical] [Spell] [Critical] [HitDamage|Hits] build [Pinned|Pin]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Physical] [Spell] [Critical] [Hit|Hits] build [Pinned|Pin]","n":"[Physical] [Spell] [Critical] [Hit|Hits] build [Pinned|Pin]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 60. [Projectile|Projectiles] have {0}% increased [Critical] Hit Chance against Enemies further than 6m
@@ -8563,28 +8565,28 @@ Enemies affected by at least 5 Poisons
 {"k":"[Projectile|Projectiles] have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] against Enemies within 2m","n":"[Projectile|Projectiles] have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus] against Enemies within 2m","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 67. [Spell] [HitDamage|Hits] against you have {0}% increased [Critical|Critical Hit Chance]
+### 67. [Spell] [Hit|Hits] against you have {0}% increased [Critical|Critical Hit Chance]
 
 - Match score: `105`
-- `k`: [Spell] [HitDamage|Hits] against you have {0}% increased [Critical|Critical Hit Chance]
-- `n`: [Spell] [HitDamage|Hits] against you have {0}% increased [Critical|Critical Hit Chance]
+- `k`: [Spell] [Hit|Hits] against you have {0}% increased [Critical|Critical Hit Chance]
+- `n`: [Spell] [Hit|Hits] against you have {0}% increased [Critical|Critical Hit Chance]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Spell] [HitDamage|Hits] against you have {0}% increased [Critical|Critical Hit Chance]","n":"[Spell] [HitDamage|Hits] against you have {0}% increased [Critical|Critical Hit Chance]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Spell] [Hit|Hits] against you have {0}% increased [Critical|Critical Hit Chance]","n":"[Spell] [Hit|Hits] against you have {0}% increased [Critical|Critical Hit Chance]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 68. [Spell] [HitDamage|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]
+### 68. [Spell] [Hit|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]
 
 - Match score: `105`
-- `k`: [Spell] [HitDamage|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]
-- `n`: [Spell] [HitDamage|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]
+- `k`: [Spell] [Hit|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]
+- `n`: [Spell] [Hit|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Spell] [HitDamage|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]","n":"[Spell] [HitDamage|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Spell] [Hit|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]","n":"[Spell] [Hit|Hits] against you have {0}% reduced [Critical|Critical Hit Chance]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 69. [Withered] chance per {0}% Enemy [AilmentThreshold|Ailment Threshold] dealt as [Chaos]@1%
@@ -8806,34 +8808,34 @@ dealt a [Critical|Critical Hit] [Recently]
 {"k":"Cause Poison on [Critical|Critical Hit]","n":"Cause Poison on [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 86. Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
-Gain additional [Critical|Critical Hit] Chance equal to excess chance to [HitDamage|Hit] with [Attack|Attacks]
+### 86. Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
+Gain additional [Critical|Critical Hit] Chance equal to excess chance to [Hit] with [Attack|Attacks]
 
 - Match score: `105`
-- `k`: Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
-Gain additional [Critical|Critical Hit] Chance equal to excess chance to [HitDamage|Hit] with [Attack|Attacks]
-- `n`: Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
-Gain additional [Critical|Critical Hit] Chance equal to excess chance to [HitDamage|Hit] with [Attack|Attacks]
+- `k`: Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
+Gain additional [Critical|Critical Hit] Chance equal to excess chance to [Hit] with [Attack|Attacks]
+- `n`: Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
+Gain additional [Critical|Critical Hit] Chance equal to excess chance to [Hit] with [Attack|Attacks]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to excess chance to [HitDamage|Hit] with [Attack|Attacks]","n":"Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to excess chance to [HitDamage|Hit] with [Attack|Attacks]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to excess chance to [Hit] with [Attack|Attacks]","n":"Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to excess chance to [Hit] with [Attack|Attacks]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 87. Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
-Gain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [HitDamage|Hit] with [Attack|Attacks]
+### 87. Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
+Gain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [Hit] with [Attack|Attacks]
 
 - Match score: `105`
-- `k`: Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
-Gain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [HitDamage|Hit] with [Attack|Attacks]
-- `n`: Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
-Gain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [HitDamage|Hit] with [Attack|Attacks]
+- `k`: Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
+Gain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [Hit] with [Attack|Attacks]
+- `n`: Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
+Gain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [Hit] with [Attack|Attacks]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [HitDamage|Hit] with [Attack|Attacks]","n":"Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [HitDamage|Hit] with [Attack|Attacks]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [Hit] with [Attack|Attacks]","n":"Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [Hit] with [Attack|Attacks]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 88. Deal your [Thorns] damage to enemies you [Critical|Critically Hit] with [Melee] [Attack|Attacks]
@@ -8848,16 +8850,16 @@ Gain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to
 {"k":"Deal your [Thorns] damage to enemies you [Critical|Critically Hit] with [Melee] [Attack|Attacks]","n":"Deal your [Thorns] damage to enemies you [Critical|Critically Hit] with [Melee] [Attack|Attacks]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 89. Enemies killed with [Attack] or [Spell] [HitDamage|Hits] explode, dealing {0}% of their Life as [Chaos] damage
+### 89. Enemies killed with [Attack] or [Spell] [Hit|Hits] explode, dealing {0}% of their Life as [Chaos] damage
 
 - Match score: `105`
-- `k`: Enemies killed with [Attack] or [Spell] [HitDamage|Hits] explode, dealing {0}% of their Life as [Chaos] damage
-- `n`: Enemies killed with [Attack] or [Spell] [HitDamage|Hits] explode, dealing {0}% of their Life as [Chaos] damage
+- `k`: Enemies killed with [Attack] or [Spell] [Hit|Hits] explode, dealing {0}% of their Life as [Chaos] damage
+- `n`: Enemies killed with [Attack] or [Spell] [Hit|Hits] explode, dealing {0}% of their Life as [Chaos] damage
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"Enemies killed with [Attack] or [Spell] [HitDamage|Hits] explode, dealing {0}% of their Life as [Chaos] damage","n":"Enemies killed with [Attack] or [Spell] [HitDamage|Hits] explode, dealing {0}% of their Life as [Chaos] damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"Enemies killed with [Attack] or [Spell] [Hit|Hits] explode, dealing {0}% of their Life as [Chaos] damage","n":"Enemies killed with [Attack] or [Spell] [Hit|Hits] explode, dealing {0}% of their Life as [Chaos] damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 90. Exerted [Attack|Attacks] have {0}% to [CriticalDamageBonus|Critical Damage Bonus]
@@ -9154,19 +9156,7 @@ Poisoned Enemies
 {"k":"Non-[Channelling] [Spell|Spells] have {0}% increased [Critical|Critical Hit Chance] per 100 maximum Life","n":"Non-[Channelling] [Spell|Spells] have {0}% increased [Critical|Critical Hit Chance] per 100 maximum Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 114. Non-[Channelling] [Spell|Spells] have {0}% increased [Critical|Critical Hit Chance] per 100 maximum Mana
-
-- Match score: `105`
-- `k`: Non-[Channelling] [Spell|Spells] have {0}% increased [Critical|Critical Hit Chance] per 100 maximum Mana
-- `n`: Non-[Channelling] [Spell|Spells] have {0}% increased [Critical|Critical Hit Chance] per 100 maximum Mana
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Non-[Channelling] [Spell|Spells] have {0}% increased [Critical|Critical Hit Chance] per 100 maximum Mana","n":"Non-[Channelling] [Spell|Spells] have {0}% increased [Critical|Critical Hit Chance] per 100 maximum Mana","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 115. Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Life
+### 114. Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Life
 
 - Match score: `105`
 - `k`: Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Life
@@ -9178,16 +9168,28 @@ Poisoned Enemies
 {"k":"Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Life","n":"Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 116. Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Mana
+### 115. Non-[Channelling] Skills have {0}% increased [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana
 
 - Match score: `105`
-- `k`: Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Mana
-- `n`: Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Mana
+- `k`: Non-[Channelling] Skills have {0}% increased [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana
+- `n`: Non-[Channelling] Skills have {0}% increased [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Mana","n":"Non-[Channelling] [Spell|Spells] have {0}% reduced [Critical|Critical Hit Chance] per 100 maximum Mana","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"Non-[Channelling] Skills have {0}% increased [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana","n":"Non-[Channelling] Skills have {0}% increased [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 116. Non-[Channelling] Skills have {0}% reduced [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana
+
+- Match score: `105`
+- `k`: Non-[Channelling] Skills have {0}% reduced [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana
+- `n`: Non-[Channelling] Skills have {0}% reduced [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"Non-[Channelling] Skills have {0}% reduced [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana","n":"Non-[Channelling] Skills have {0}% reduced [Spell] [Critical|Critical Hit Chance] per 100 maximum Mana","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 117. Non-[Channelling] Spells cost Double Mana and [Critical|Critically Hit]

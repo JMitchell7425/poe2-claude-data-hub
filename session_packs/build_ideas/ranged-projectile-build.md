@@ -1,6 +1,6 @@
 # Build Idea Pack — Ranged Projectile Build
 
-- Generated UTC: `2026-09-05T13:27:45+00:00`
+- Generated UTC: `2026-09-06T13:41:04+00:00`
 - Idea slug: `ranged-projectile-build`
 - Purpose: Engineer a ranged projectile build with high clear coverage and strong boss scaling.
 - Keywords: `projectile, bow, crossbow, wand, ranged, chain, fork, pierce, multiple projectiles, reload, grenade, bolt, arrow, attack, critical, crit, poison, shock, freeze, ignite, area, clear, boss, deadeye, mercenary, witchhunter`
@@ -3217,21 +3217,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemCrossbowRequiem","n":"Metadata/Items/Gem/SkillGemCrossbowRequiem","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Requiem","id":"Metadata/Items/Gem/SkillGemCrossbowRequiem","release_state":"released"},"tags":["grants_active_skill","attack","area","ammunition","projectile","cold","conditional"]}
 ```
 
-### 24. Metadata/Items/Gem/SkillGemPlayerDefaultCrossbow
-
-- Match score: `100`
-- `k`: Metadata/Items/Gem/SkillGemPlayerDefaultCrossbow
-- `n`: Metadata/Items/Gem/SkillGemPlayerDefaultCrossbow
-- `cat`: repoe_skill_gems
-- `src`: repoe_poe2/skill_gems.json
-- `tags`: ["grants_active_skill","attack","area","ammunition","projectile"]
-- `base`: {"display_name":"Crossbow Shot","id":"Metadata/Items/Gem/SkillGemPlayerDefaultCrossbow","release_state":"released"}
-
-```json
-{"k":"Metadata/Items/Gem/SkillGemPlayerDefaultCrossbow","n":"Metadata/Items/Gem/SkillGemPlayerDefaultCrossbow","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Crossbow Shot","id":"Metadata/Items/Gem/SkillGemPlayerDefaultCrossbow","release_state":"released"},"tags":["grants_active_skill","attack","area","ammunition","projectile"]}
-```
-
-### 25. Metadata/Items/Gem/SkillGemPoisonBurstArrow
+### 24. Metadata/Items/Gem/SkillGemPoisonBurstArrow
 
 - Match score: `100`
 - `k`: Metadata/Items/Gem/SkillGemPoisonBurstArrow
@@ -3245,7 +3231,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemPoisonBurstArrow","n":"Metadata/Items/Gem/SkillGemPoisonBurstArrow","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Poisonburst Arrow","id":"Metadata/Items/Gem/SkillGemPoisonBurstArrow","release_state":"released"},"tags":["dexterity","grants_active_skill","attack","area","projectile","chaos","duration","repeatable"]}
 ```
 
-### 26. Poisonburst Arrow
+### 25. Poisonburst Arrow
 
 - Match score: `100`
 - `k`: Metadata/Items/Gems/SkillGemPoisonBurstArrow
@@ -3258,7 +3244,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemPoisonBurstArrow","n":"Poisonburst Arrow","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"area":true,"attack":true,"chaos":true,"dexterity":true,"duration":true,"grants_active_skill":true,"projectile":true,"repeatable":true}}
 ```
 
-### 27. SupportBlazingCriticalPlayer
+### 26. SupportBlazingCriticalPlayer
 
 - Match score: `100`
 - `k`: SupportBlazingCriticalPlayer
@@ -3272,7 +3258,7 @@ _No keyword matches in this index._
 {"k":"SupportBlazingCriticalPlayer","n":"SupportBlazingCriticalPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Duration"],"allowed_types":["Attack","Damage","CrossbowAmmoSkill"],"excluded_types":["UsedByProxy","Triggered","Persistent"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 28. SupportIncreasedCriticalDamagePlayer
+### 27. SupportIncreasedCriticalDamagePlayer
 
 - Match score: `100`
 - `k`: SupportIncreasedCriticalDamagePlayer
@@ -3286,7 +3272,7 @@ _No keyword matches in this index._
 {"k":"SupportIncreasedCriticalDamagePlayer","n":"SupportIncreasedCriticalDamagePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 29. SupportInevitableCriticalsPlayer
+### 28. SupportInevitableCriticalsPlayer
 
 - Match score: `100`
 - `k`: SupportInevitableCriticalsPlayer
@@ -3300,7 +3286,7 @@ _No keyword matches in this index._
 {"k":"SupportInevitableCriticalsPlayer","n":"SupportInevitableCriticalsPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Attack","Damage","CrossbowAmmoSkill"],"excluded_types":["UsedByProxy","Triggered","Persistent"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 30. SupportInevitableCriticalsPlayerTwo
+### 29. SupportInevitableCriticalsPlayerTwo
 
 - Match score: `100`
 - `k`: SupportInevitableCriticalsPlayerTwo
@@ -3314,7 +3300,7 @@ _No keyword matches in this index._
 {"k":"SupportInevitableCriticalsPlayerTwo","n":"SupportInevitableCriticalsPlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Attack","Damage","CrossbowAmmoSkill"],"excluded_types":["UsedByProxy","Triggered","Persistent"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 31. SupportPinpointCriticalPlayer
+### 30. SupportPinpointCriticalPlayer
 
 - Match score: `100`
 - `k`: SupportPinpointCriticalPlayer
@@ -3326,6 +3312,20 @@ _No keyword matches in this index._
 
 ```json
 {"k":"SupportPinpointCriticalPlayer","n":"SupportPinpointCriticalPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
+```
+
+### 31. Metadata/Items/Gem/SkillGemPlayerDefaultCrossbow
+
+- Match score: `90`
+- `k`: Metadata/Items/Gem/SkillGemPlayerDefaultCrossbow
+- `n`: Metadata/Items/Gem/SkillGemPlayerDefaultCrossbow
+- `cat`: repoe_skill_gems
+- `src`: repoe_poe2/skill_gems.json
+- `tags`: ["grants_active_skill","attack","ammunition","projectile"]
+- `base`: {"display_name":"Crossbow Shot","id":"Metadata/Items/Gem/SkillGemPlayerDefaultCrossbow","release_state":"released"}
+
+```json
+{"k":"Metadata/Items/Gem/SkillGemPlayerDefaultCrossbow","n":"Metadata/Items/Gem/SkillGemPlayerDefaultCrossbow","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Crossbow Shot","id":"Metadata/Items/Gem/SkillGemPlayerDefaultCrossbow","release_state":"released"},"tags":["grants_active_skill","attack","ammunition","projectile"]}
 ```
 
 ### 32. [{'flags': 0, 'keywordFlags': 0, 'name': 'CritChance', 'type': 'INC', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Shocked'}}]
@@ -5131,13 +5131,13 @@ _No keyword matches in this index._
 ### 46. caster_critical
 
 - Match score: `70`
-- `k`: 1298
+- `k`: 1300
 - `n`: caster_critical
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1298","n":"caster_critical","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_critical"}
+{"k":"1300","n":"caster_critical","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_critical"}
 ```
 
 ### 47. chaos_golem_boss_area
@@ -7330,6 +7330,7 @@ _No keyword matches in this index._
 ```
 
 ### 79. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
+<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{All Damage can Shock}
 <rgb(135,134,253)>{All Damage can Chill}
 <rgb(135,134,253)>{All Damage can Ignite}
@@ -7338,6 +7339,7 @@ _No keyword matches in this index._
 - Match score: `70`
 - `k`: ExpeditionMonsterModRunePrismatic
 - `n`: <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
+<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{All Damage can Shock}
 <rgb(135,134,253)>{All Damage can Chill}
 <rgb(135,134,253)>{All Damage can Ignite}
@@ -7350,7 +7352,7 @@ _No keyword matches in this index._
 - `stats`: [{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}]
 
 ```json
-{"k":"ExpeditionMonsterModRunePrismatic","n":"<<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}\r\n<rgb(135,134,253)>{All Damage can Shock}\r\n<rgb(135,134,253)>{All Damage can Chill}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{All Elemental Resistance}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
+{"k":"ExpeditionMonsterModRunePrismatic","n":"<<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{All Damage can Shock}\r\n<rgb(135,134,253)>{All Damage can Chill}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{All Elemental Resistance}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
 ### 80. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
@@ -9017,16 +9019,16 @@ Never deal [Critical|Critical Hits]
 {"k":"[Critical|Critical Hits] with [Dagger|Daggers] have a {0}% chance to [Poison] the Enemy","n":"[Critical|Critical Hits] with [Dagger|Daggers] have a {0}% chance to [Poison] the Enemy","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 50. [DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+### 50. [DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 
 - Match score: `105`
-- `k`: [DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
-- `n`: [DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+- `k`: [DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+- `n`: [DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 51. [DNT-UNUSED] [Projectile] [Attack|Attacks] always [Chain] to [Mark|Marked] Enemies with {0}% increased [Chain|Chaining Distance]
@@ -9041,16 +9043,16 @@ Never deal [Critical|Critical Hits]
 {"k":"[DNT-UNUSED] [Projectile] [Attack|Attacks] always [Chain] to [Mark|Marked] Enemies with {0}% increased [Chain|Chaining Distance]","n":"[DNT-UNUSED] [Projectile] [Attack|Attacks] always [Chain] to [Mark|Marked] Enemies with {0}% increased [Chain|Chaining Distance]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 52. [ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+### 52. [ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 
 - Match score: `105`
-- `k`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
-- `n`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+- `k`: [ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+- `n`: [ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 53. [Empowered] [Attack|Attacks] have {0}% to [Critical|Critical Hit] Chance
@@ -9101,43 +9103,43 @@ Never deal [Critical|Critical Hits]
 {"k":"[Melee] [Critical|Critical Hit]s Poison the Enemy","n":"[Melee] [Critical|Critical Hit]s Poison the Enemy","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 57. [Physical] damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and
+### 57. [Physical] damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and
 [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 
 - Match score: `105`
-- `k`: [Physical] damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and
+- `k`: [Physical] damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and
 [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
-- `n`: [Physical] damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and
+- `n`: [Physical] damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and
 [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Physical] damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and\n[Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[Physical] damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and\n[Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Physical] damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and\n[Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[Physical] damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and\n[Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 58. [Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]
+### 58. [Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]
 
 - Match score: `105`
-- `k`: [Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]
-- `n`: [Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]
+- `k`: [Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]
+- `n`: [Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]","n":"[Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]","n":"[Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 59. [Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]
+### 59. [Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]
 
 - Match score: `105`
-- `k`: [Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]
-- `n`: [Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]
+- `k`: [Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]
+- `n`: [Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]","n":"[Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]","n":"[Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 60. [Projectile|Projectiles] [Pierce] [Ignite|Ignited] Enemies
@@ -9578,34 +9580,34 @@ dealt a [Critical|Critical Hit] [Recently]
 {"k":"Cause Poison on [Critical|Critical Hit]","n":"Cause Poison on [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 94. Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
-Gain additional [Critical|Critical Hit] Chance equal to excess chance to [HitDamage|Hit] with [Attack|Attacks]
+### 94. Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
+Gain additional [Critical|Critical Hit] Chance equal to excess chance to [Hit] with [Attack|Attacks]
 
 - Match score: `105`
-- `k`: Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
-Gain additional [Critical|Critical Hit] Chance equal to excess chance to [HitDamage|Hit] with [Attack|Attacks]
-- `n`: Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
-Gain additional [Critical|Critical Hit] Chance equal to excess chance to [HitDamage|Hit] with [Attack|Attacks]
+- `k`: Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
+Gain additional [Critical|Critical Hit] Chance equal to excess chance to [Hit] with [Attack|Attacks]
+- `n`: Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
+Gain additional [Critical|Critical Hit] Chance equal to excess chance to [Hit] with [Attack|Attacks]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to excess chance to [HitDamage|Hit] with [Attack|Attacks]","n":"Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to excess chance to [HitDamage|Hit] with [Attack|Attacks]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to excess chance to [Hit] with [Attack|Attacks]","n":"Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to excess chance to [Hit] with [Attack|Attacks]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 95. Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
-Gain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [HitDamage|Hit] with [Attack|Attacks]
+### 95. Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
+Gain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [Hit] with [Attack|Attacks]
 
 - Match score: `105`
-- `k`: Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
-Gain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [HitDamage|Hit] with [Attack|Attacks]
-- `n`: Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
-Gain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [HitDamage|Hit] with [Attack|Attacks]
+- `k`: Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
+Gain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [Hit] with [Attack|Attacks]
+- `n`: Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]
+Gain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [Hit] with [Attack|Attacks]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [HitDamage|Hit] with [Attack|Attacks]","n":"Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [HitDamage|Hit] with [Attack|Attacks]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [Hit] with [Attack|Attacks]","n":"Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to [Hit] with [Attack|Attacks]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 96. Chance to [Trigger] Explosion, Bolt, or Wave on [Melee] [Critical|Critical Hit]@{0}%
@@ -9824,19 +9826,19 @@ Gain additional [Critical|Critical Hit] Chance equal to {0}% of excess chance to
 {"k":"Knocks Back Enemies if you get a [Critical|Critical Hit] with a Wand","n":"Knocks Back Enemies if you get a [Critical|Critical Hit] with a Wand","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 114. Lightning Bolts strike the targets of your next {0} [Attack|Attack] [HitDamage|Hits]
+### 114. Lightning Bolts strike the targets of your next {0} [Attack|Attack] [Hit|Hits]
 after killing a [Shock|Shocked] enemy with [Attack|Attack] damage
 
 - Match score: `105`
-- `k`: Lightning Bolts strike the targets of your next {0} [Attack|Attack] [HitDamage|Hits]
+- `k`: Lightning Bolts strike the targets of your next {0} [Attack|Attack] [Hit|Hits]
 after killing a [Shock|Shocked] enemy with [Attack|Attack] damage
-- `n`: Lightning Bolts strike the targets of your next {0} [Attack|Attack] [HitDamage|Hits]
+- `n`: Lightning Bolts strike the targets of your next {0} [Attack|Attack] [Hit|Hits]
 after killing a [Shock|Shocked] enemy with [Attack|Attack] damage
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"Lightning Bolts strike the targets of your next {0} [Attack|Attack] [HitDamage|Hits]\nafter killing a [Shock|Shocked] enemy with [Attack|Attack] damage","n":"Lightning Bolts strike the targets of your next {0} [Attack|Attack] [HitDamage|Hits]\nafter killing a [Shock|Shocked] enemy with [Attack|Attack] damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"Lightning Bolts strike the targets of your next {0} [Attack|Attack] [Hit|Hits]\nafter killing a [Shock|Shocked] enemy with [Attack|Attack] damage","n":"Lightning Bolts strike the targets of your next {0} [Attack|Attack] [Hit|Hits]\nafter killing a [Shock|Shocked] enemy with [Attack|Attack] damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 115. Load a bolt into all [Crossbow] skills on dealing a [KillingBlow|Killing Blow] with Supported Skill

@@ -1,6 +1,6 @@
 # Build Idea Pack — Hardcore-Safe Build
 
-- Generated UTC: `2026-09-05T13:27:51+00:00`
+- Generated UTC: `2026-09-06T13:41:10+00:00`
 - Idea slug: `hardcore-safe-build`
 - Purpose: Engineer a conservative survival-first build with reliable damage and minimal mechanical risk.
 - Keywords: `hardcore, safe, survival, defense, life, maximum life, energy shield, armour, evasion, block, resistance, chaos resistance, recovery, regen, leech, recoup, ailment, stun, guard, boss, map, controller, ps5`
@@ -5697,13 +5697,13 @@ _No keyword matches in this index._
 ### 102. armourer_strongbox
 
 - Match score: `35`
-- `k`: 1118
+- `k`: 1119
 - `n`: armourer_strongbox
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1118","n":"armourer_strongbox","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"armourer_strongbox"}
+{"k":"1119","n":"armourer_strongbox","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"armourer_strongbox"}
 ```
 
 ### 103. armourer_strongbox_highertiermod
@@ -5721,13 +5721,13 @@ _No keyword matches in this index._
 ### 104. armourer_strongbox_highertiermod
 
 - Match score: `35`
-- `k`: 1278
+- `k`: 1280
 - `n`: armourer_strongbox_highertiermod
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1278","n":"armourer_strongbox_highertiermod","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"armourer_strongbox_highertiermod"}
+{"k":"1280","n":"armourer_strongbox_highertiermod","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"armourer_strongbox_highertiermod"}
 ```
 
 ### 105. atziri_boss
@@ -7231,7 +7231,7 @@ _No keyword matches in this index._
 
 ### 85. <<ExpedRuneStone>><rgb(219,217,206)>{Stone Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
-<rgb(135,134,253)>{Armoured}
+<rgb(135,134,253)>{[Armour|Armoured]}
 <rgb(135,134,253)>{Increased Stun Threshold}
 <rgb(135,134,253)>{Earthly Prison}
 
@@ -7239,7 +7239,7 @@ _No keyword matches in this index._
 - `k`: ExpeditionMonsterModRuneStone
 - `n`: <<ExpedRuneStone>><rgb(219,217,206)>{Stone Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
-<rgb(135,134,253)>{Armoured}
+<rgb(135,134,253)>{[Armour|Armoured]}
 <rgb(135,134,253)>{Increased Stun Threshold}
 <rgb(135,134,253)>{Earthly Prison}
 - `cat`: repoe_mods
@@ -7250,12 +7250,12 @@ _No keyword matches in this index._
 - `stats`: [{"id":"monster_additional_strength_ratio_%_for_armour","max":50,"min":50},{"id":"stun_threshold_+%","max":100,"min":100}]
 
 ```json
-{"k":"ExpeditionMonsterModRuneStone","n":"<<ExpedRuneStone>><rgb(219,217,206)>{Stone Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Armoured}\r\n<rgb(135,134,253)>{Increased Stun Threshold}\r\n<rgb(135,134,253)>{Earthly Prison}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_additional_strength_ratio_%_for_armour","max":50,"min":50},{"id":"stun_threshold_+%","max":100,"min":100}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
+{"k":"ExpeditionMonsterModRuneStone","n":"<<ExpedRuneStone>><rgb(219,217,206)>{Stone Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{[Armour|Armoured]}\r\n<rgb(135,134,253)>{Increased Stun Threshold}\r\n<rgb(135,134,253)>{Earthly Prison}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_additional_strength_ratio_%_for_armour","max":50,"min":50},{"id":"stun_threshold_+%","max":100,"min":100}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
 ### 86. <<ExpedRuneStone>><rgb(219,217,206)>{Stone Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
-<rgb(135,134,253)>{Armoured}
+<rgb(135,134,253)>{[Armour|Armoured]}
 <rgb(135,134,253)>{Increased Stun Threshold}
 <rgb(135,134,253)>{Earthly Prison}
 
@@ -7263,7 +7263,7 @@ _No keyword matches in this index._
 - `k`: ExpeditionMonsterModRuneStonePower
 - `n`: <<ExpedRuneStone>><rgb(219,217,206)>{Stone Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
-<rgb(135,134,253)>{Armoured}
+<rgb(135,134,253)>{[Armour|Armoured]}
 <rgb(135,134,253)>{Increased Stun Threshold}
 <rgb(135,134,253)>{Earthly Prison}
 - `cat`: repoe_mods
@@ -7274,7 +7274,7 @@ _No keyword matches in this index._
 - `stats`: [{"id":"monster_additional_strength_ratio_%_for_armour","max":100,"min":100},{"id":"stun_threshold_+%","max":200,"min":200}]
 
 ```json
-{"k":"ExpeditionMonsterModRuneStonePower","n":"<<ExpedRuneStone>><rgb(219,217,206)>{Stone Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Armoured}\r\n<rgb(135,134,253)>{Increased Stun Threshold}\r\n<rgb(135,134,253)>{Earthly Prison}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_additional_strength_ratio_%_for_armour","max":100,"min":100},{"id":"stun_threshold_+%","max":200,"min":200}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
+{"k":"ExpeditionMonsterModRuneStonePower","n":"<<ExpedRuneStone>><rgb(219,217,206)>{Stone Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{[Armour|Armoured]}\r\n<rgb(135,134,253)>{Increased Stun Threshold}\r\n<rgb(135,134,253)>{Earthly Prison}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_additional_strength_ratio_%_for_armour","max":100,"min":100},{"id":"stun_threshold_+%","max":200,"min":200}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
 ### 87. AdditionalCurseOnEnemiesMapBossGeofri_
@@ -8857,19 +8857,19 @@ You cannot Recover [EnergyShield|Energy Shield] to above [Armour]
 {"k":"[ContainsDelirium|Delirium] Bosses in your Maps have {0}% reduced maximum Life","n":"[ContainsDelirium|Delirium] Bosses in your Maps have {0}% reduced maximum Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 4. [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
+### 4. [ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
 Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
 
 - Match score: `140`
-- `k`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
+- `k`: [ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
 Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
-- `n`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
+- `n`: [ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
 Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","n":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","n":"[ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 5. [StatConversion|Convert] {0}% of Maximum Life to [Armour] per 1% maximum [Chaos] [Resistances|Resistance]

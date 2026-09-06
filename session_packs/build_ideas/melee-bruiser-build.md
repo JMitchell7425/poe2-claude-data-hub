@@ -1,6 +1,6 @@
 # Build Idea Pack — Melee Bruiser Build
 
-- Generated UTC: `2026-09-05T13:27:44+00:00`
+- Generated UTC: `2026-09-06T13:41:03+00:00`
 - Idea slug: `melee-bruiser-build`
 - Purpose: Engineer a close-range build with strong defenses, reliable recovery, and boss-capable damage.
 - Keywords: `melee, strike, slam, quarterstaff, mace, two handed, shield, attack, attack speed, stun, armour, evasion, block, life, leech, recovery, charge, rage, warcry, boss, clear, warrior, monk, mercenary`
@@ -9516,19 +9516,19 @@ _No keyword matches in this index._
 {"k":"[Bow] [Attack|Attacks] consume {0}% of your maximum Life [Flask] Charges if possible to deal added [Physical] damage equal to {1}% of [Flask]'s Life Recovery amount","n":"[Bow] [Attack|Attacks] consume {0}% of your maximum Life [Flask] Charges if possible to deal added [Physical] damage equal to {1}% of [Flask]'s Life Recovery amount","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 3. [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
+### 3. [ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
 Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
 
 - Match score: `140`
-- `k`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
+- `k`: [ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
 Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
-- `n`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
+- `n`: [ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
 Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","n":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","n":"[ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 4. [Empowered|Empowers] the next [Melee] [Slam] [Attack] you perform, plus an additional [Attack] per [Charges|Endurance Charge] consumed
@@ -10359,16 +10359,16 @@ Attribute Passive Skills can instead grant 5% increased Cost [Efficiency]
 {"k":"Deal your [Thorns] Damage to Enemies you [Stun] with [Melee] [Attack|Attacks]","n":"Deal your [Thorns] Damage to Enemies you [Stun] with [Melee] [Attack|Attacks]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 71. Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [HitDamage|Damage] they take from your Hits
+### 71. Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [Hit|Damage] they take from your Hits
 
 - Match score: `105`
-- `k`: Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [HitDamage|Damage] they take from your Hits
-- `n`: Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [HitDamage|Damage] they take from your Hits
+- `k`: Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [Hit|Damage] they take from your Hits
+- `n`: Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [Hit|Damage] they take from your Hits
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [HitDamage|Damage] they take from your Hits","n":"Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [HitDamage|Damage] they take from your Hits","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [Hit|Damage] they take from your Hits","n":"Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [Hit|Damage] they take from your Hits","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 72. Every 4 seconds, Regenerate Life equal to {0}% of [Armour] and [Evasion] Rating over 1 second

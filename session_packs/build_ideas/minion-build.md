@@ -1,6 +1,6 @@
 # Build Idea Pack — Minion Build
 
-- Generated UTC: `2026-09-05T13:27:43+00:00`
+- Generated UTC: `2026-09-06T13:41:02+00:00`
 - Idea slug: `minion-build`
 - Purpose: Engineer a minion-focused build for safe clear, boss damage, and low mechanical strain.
 - Keywords: `minion, summon, skeleton, zombie, spirit, persistent, aura, command, revive, ally, damage, life, resistance, energy shield, curse, support, boss, clear, witch, infernalist, blood mage`
@@ -4526,13 +4526,13 @@ _No keyword matches in this index._
 ### 4. minion_damage
 
 - Match score: `70`
-- `k`: 1296
+- `k`: 1298
 - `n`: minion_damage
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1296","n":"minion_damage","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"minion_damage"}
+{"k":"1298","n":"minion_damage","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"minion_damage"}
 ```
 
 ### 5. minion_resistance
@@ -4550,13 +4550,13 @@ _No keyword matches in this index._
 ### 6. minion_resistance
 
 - Match score: `70`
-- `k`: 1294
+- `k`: 1296
 - `n`: minion_resistance
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1294","n":"minion_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"minion_resistance"}
+{"k":"1296","n":"minion_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"minion_resistance"}
 ```
 
 ### 7. sea_witch_boss_area
@@ -5808,13 +5808,13 @@ _No keyword matches in this index._
 ### 103. chaos_resistance
 
 - Match score: `35`
-- `k`: 1293
+- `k`: 1295
 - `n`: chaos_resistance
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1293","n":"chaos_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_resistance"}
+{"k":"1295","n":"chaos_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_resistance"}
 ```
 
 ### 104. chayula_boss
@@ -5856,13 +5856,13 @@ _No keyword matches in this index._
 ### 107. cold_resistance
 
 - Match score: `35`
-- `k`: 1264
+- `k`: 1266
 - `n`: cold_resistance
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1264","n":"cold_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_resistance"}
+{"k":"1266","n":"cold_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_resistance"}
 ```
 
 ### 108. Colossal Life Flask
@@ -6769,6 +6769,7 @@ _No keyword matches in this index._
 ```
 
 ### 48. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
+<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{All Damage can Shock}
 <rgb(135,134,253)>{All Damage can Chill}
 <rgb(135,134,253)>{All Damage can Ignite}
@@ -6777,6 +6778,7 @@ _No keyword matches in this index._
 - Match score: `70`
 - `k`: ExpeditionMonsterModRunePrismatic
 - `n`: <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
+<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{All Damage can Shock}
 <rgb(135,134,253)>{All Damage can Chill}
 <rgb(135,134,253)>{All Damage can Ignite}
@@ -6789,7 +6791,7 @@ _No keyword matches in this index._
 - `stats`: [{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}]
 
 ```json
-{"k":"ExpeditionMonsterModRunePrismatic","n":"<<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}\r\n<rgb(135,134,253)>{All Damage can Shock}\r\n<rgb(135,134,253)>{All Damage can Chill}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{All Elemental Resistance}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
+{"k":"ExpeditionMonsterModRunePrismatic","n":"<<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{All Damage can Shock}\r\n<rgb(135,134,253)>{All Damage can Chill}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{All Elemental Resistance}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
 ### 49. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
@@ -8567,19 +8569,19 @@ Damage taken is Reserved from Darkness before being taken from Life or [EnergySh
 {"k":"[DNT-UNUSED] Deal [Cold] damage equal to {0}% of the killed [Minion|Minion's] maximum Life","n":"[DNT-UNUSED] Deal [Cold] damage equal to {0}% of the killed [Minion|Minion's] maximum Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 43. [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
+### 43. [ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
 Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
 
 - Match score: `105`
-- `k`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
+- `k`: [ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
 Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
-- `n`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
+- `n`: [ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]
 Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","n":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","n":"[ElementalDamage|Elemental Damage] from [Hit|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 44. [EnergyShield|Energy Shield] Recharge begins immediately and is not interrupted by Damage for {0} seconds when [Stun|Stunned] while using Supported Skills
@@ -8606,43 +8608,31 @@ Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armou
 {"k":"[GenesisTreeBeltMinionDamagePerDifferentCommandSkillUsedLast15SecondsCrafted|''Instructor's'']","n":"[GenesisTreeBeltMinionDamagePerDifferentCommandSkillUsedLast15SecondsCrafted|''Instructor's'']","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 46. [HitDamage|Hits] from Supported Skills ignore enemy [Fire|Fire Resistance]
+### 46. [Hit|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
 
 - Match score: `105`
-- `k`: [HitDamage|Hits] from Supported Skills ignore enemy [Fire|Fire Resistance]
-- `n`: [HitDamage|Hits] from Supported Skills ignore enemy [Fire|Fire Resistance]
+- `k`: [Hit|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
+- `n`: [Hit|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[HitDamage|Hits] from Supported Skills ignore enemy [Fire|Fire Resistance]","n":"[HitDamage|Hits] from Supported Skills ignore enemy [Fire|Fire Resistance]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Hit|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted","n":"[Hit|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 47. [HitDamage|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
+### 47. [Hit|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
 
 - Match score: `105`
-- `k`: [HitDamage|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
-- `n`: [HitDamage|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
+- `k`: [Hit|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
+- `n`: [Hit|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[HitDamage|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted","n":"[HitDamage|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Hit|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted","n":"[Hit|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 48. [HitDamage|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
-
-- Match score: `105`
-- `k`: [HitDamage|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
-- `n`: [HitDamage|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"[HitDamage|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted","n":"[HitDamage|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 49. [LifeLeech|Leech] {0}% of Physical [Attack] Damage from Supported Skills as Life
+### 48. [LifeLeech|Leech] {0}% of Physical [Attack] Damage from Supported Skills as Life
 
 - Match score: `105`
 - `k`: [LifeLeech|Leech] {0}% of Physical [Attack] Damage from Supported Skills as Life
@@ -8654,7 +8644,7 @@ Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armou
 {"k":"[LifeLeech|Leech] {0}% of Physical [Attack] Damage from Supported Skills as Life","n":"[LifeLeech|Leech] {0}% of Physical [Attack] Damage from Supported Skills as Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 50. [Minion|Minion] life Sacrificed for [Physical] damage@{0}%
+### 49. [Minion|Minion] life Sacrificed for [Physical] damage@{0}%
 
 - Match score: `105`
 - `k`: [Minion|Minion] life Sacrificed for [Physical] damage@{0}%
@@ -8666,7 +8656,7 @@ Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armou
 {"k":"[Minion|Minion] life Sacrificed for [Physical] damage@{0}%","n":"[Minion|Minion] life Sacrificed for [Physical] damage@{0}%","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 51. [Minion|Minions] [Recoup] {0}% of Damage taken as Life
+### 50. [Minion|Minions] [Recoup] {0}% of Damage taken as Life
 
 - Match score: `105`
 - `k`: [Minion|Minions] [Recoup] {0}% of Damage taken as Life
@@ -8678,7 +8668,7 @@ Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armou
 {"k":"[Minion|Minions] [Recoup] {0}% of Damage taken as Life","n":"[Minion|Minions] [Recoup] {0}% of Damage taken as Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 52. [Minion|Minions] deal {0}% increased Damage with [Command] Skills
+### 51. [Minion|Minions] deal {0}% increased Damage with [Command] Skills
 
 - Match score: `105`
 - `k`: [Minion|Minions] deal {0}% increased Damage with [Command] Skills
@@ -8690,7 +8680,7 @@ Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armou
 {"k":"[Minion|Minions] deal {0}% increased Damage with [Command] Skills","n":"[Minion|Minions] deal {0}% increased Damage with [Command] Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 53. [Minion|Minions] deal {0}% reduced Damage with [Command] Skills
+### 52. [Minion|Minions] deal {0}% reduced Damage with [Command] Skills
 
 - Match score: `105`
 - `k`: [Minion|Minions] deal {0}% reduced Damage with [Command] Skills
@@ -8702,22 +8692,22 @@ Barrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armou
 {"k":"[Minion|Minions] deal {0}% reduced Damage with [Command] Skills","n":"[Minion|Minions] deal {0}% reduced Damage with [Command] Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 54. [Minion|Minions] explode on death, dealing {0}% of their maximum
-life as [Physical] [HitDamage|Damage] to enemies within 2 metres
+### 53. [Minion|Minions] explode on death, dealing {0}% of their maximum
+life as [Physical] [Hit|Damage] to enemies within 2 metres
 
 - Match score: `105`
 - `k`: [Minion|Minions] explode on death, dealing {0}% of their maximum
-life as [Physical] [HitDamage|Damage] to enemies within 2 metres
+life as [Physical] [Hit|Damage] to enemies within 2 metres
 - `n`: [Minion|Minions] explode on death, dealing {0}% of their maximum
-life as [Physical] [HitDamage|Damage] to enemies within 2 metres
+life as [Physical] [Hit|Damage] to enemies within 2 metres
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Minion|Minions] explode on death, dealing {0}% of their maximum\nlife as [Physical] [HitDamage|Damage] to enemies within 2 metres","n":"[Minion|Minions] explode on death, dealing {0}% of their maximum\nlife as [Physical] [HitDamage|Damage] to enemies within 2 metres","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Minion|Minions] explode on death, dealing {0}% of their maximum\nlife as [Physical] [Hit|Damage] to enemies within 2 metres","n":"[Minion|Minions] explode on death, dealing {0}% of their maximum\nlife as [Physical] [Hit|Damage] to enemies within 2 metres","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 55. [Minion|Minions] from Supported Skills deal {0}% less Damage
+### 54. [Minion|Minions] from Supported Skills deal {0}% less Damage
 
 - Match score: `105`
 - `k`: [Minion|Minions] from Supported Skills deal {0}% less Damage
@@ -8729,7 +8719,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] from Supported Skills deal {0}% less Damage","n":"[Minion|Minions] from Supported Skills deal {0}% less Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 56. [Minion|Minions] from Supported Skills deal {0}% more Damage
+### 55. [Minion|Minions] from Supported Skills deal {0}% more Damage
 
 - Match score: `105`
 - `k`: [Minion|Minions] from Supported Skills deal {0}% more Damage
@@ -8741,7 +8731,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] from Supported Skills deal {0}% more Damage","n":"[Minion|Minions] from Supported Skills deal {0}% more Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 57. [Minion|Minions] from Supported Skills die {0} second after their Life is reduced to 0
+### 56. [Minion|Minions] from Supported Skills die {0} second after their Life is reduced to 0
 
 - Match score: `105`
 - `k`: [Minion|Minions] from Supported Skills die {0} second after their Life is reduced to 0
@@ -8753,7 +8743,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] from Supported Skills die {0} second after their Life is reduced to 0","n":"[Minion|Minions] from Supported Skills die {0} second after their Life is reduced to 0","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 58. [Minion|Minions] from Supported Skills die {0} seconds after their Life is reduced to 0
+### 57. [Minion|Minions] from Supported Skills die {0} seconds after their Life is reduced to 0
 
 - Match score: `105`
 - `k`: [Minion|Minions] from Supported Skills die {0} seconds after their Life is reduced to 0
@@ -8765,7 +8755,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] from Supported Skills die {0} seconds after their Life is reduced to 0","n":"[Minion|Minions] from Supported Skills die {0} seconds after their Life is reduced to 0","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 59. [Minion|Minions] from Supported Skills gain [SoulEater|Soul Eater] when their Life is reduced to 0
+### 58. [Minion|Minions] from Supported Skills gain [SoulEater|Soul Eater] when their Life is reduced to 0
 
 - Match score: `105`
 - `k`: [Minion|Minions] from Supported Skills gain [SoulEater|Soul Eater] when their Life is reduced to 0
@@ -8777,7 +8767,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] from Supported Skills gain [SoulEater|Soul Eater] when their Life is reduced to 0","n":"[Minion|Minions] from Supported Skills gain [SoulEater|Soul Eater] when their Life is reduced to 0","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 60. [Minion|Minions] from Supported Skills gain [UnholyMight|Unholy Might] for {0} second when [Command|Commanded]
+### 59. [Minion|Minions] from Supported Skills gain [UnholyMight|Unholy Might] for {0} second when [Command|Commanded]
 
 - Match score: `105`
 - `k`: [Minion|Minions] from Supported Skills gain [UnholyMight|Unholy Might] for {0} second when [Command|Commanded]
@@ -8789,7 +8779,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] from Supported Skills gain [UnholyMight|Unholy Might] for {0} second when [Command|Commanded]","n":"[Minion|Minions] from Supported Skills gain [UnholyMight|Unholy Might] for {0} second when [Command|Commanded]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 61. [Minion|Minions] from Supported Skills gain [UnholyMight|Unholy Might] for {0} seconds when [Command|Commanded]
+### 60. [Minion|Minions] from Supported Skills gain [UnholyMight|Unholy Might] for {0} seconds when [Command|Commanded]
 
 - Match score: `105`
 - `k`: [Minion|Minions] from Supported Skills gain [UnholyMight|Unholy Might] for {0} seconds when [Command|Commanded]
@@ -8801,7 +8791,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] from Supported Skills gain [UnholyMight|Unholy Might] for {0} seconds when [Command|Commanded]","n":"[Minion|Minions] from Supported Skills gain [UnholyMight|Unholy Might] for {0} seconds when [Command|Commanded]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 62. [Minion|Minions] from Supported Skills gain {0}% increased [Attack] and Cast Speed when their Life is reduced to 0
+### 61. [Minion|Minions] from Supported Skills gain {0}% increased [Attack] and Cast Speed when their Life is reduced to 0
 
 - Match score: `105`
 - `k`: [Minion|Minions] from Supported Skills gain {0}% increased [Attack] and Cast Speed when their Life is reduced to 0
@@ -8813,7 +8803,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] from Supported Skills gain {0}% increased [Attack] and Cast Speed when their Life is reduced to 0","n":"[Minion|Minions] from Supported Skills gain {0}% increased [Attack] and Cast Speed when their Life is reduced to 0","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 63. [Minion|Minions] from Supported Skills gain {0}% reduced [Attack] and Cast Speed when their Life is reduced to 0
+### 62. [Minion|Minions] from Supported Skills gain {0}% reduced [Attack] and Cast Speed when their Life is reduced to 0
 
 - Match score: `105`
 - `k`: [Minion|Minions] from Supported Skills gain {0}% reduced [Attack] and Cast Speed when their Life is reduced to 0
@@ -8825,7 +8815,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] from Supported Skills gain {0}% reduced [Attack] and Cast Speed when their Life is reduced to 0","n":"[Minion|Minions] from Supported Skills gain {0}% reduced [Attack] and Cast Speed when their Life is reduced to 0","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 64. [Minion|Minions] from Supported Skills have {0}% additional [Physical] Damage Reduction
+### 63. [Minion|Minions] from Supported Skills have {0}% additional [Physical] Damage Reduction
 
 - Match score: `105`
 - `k`: [Minion|Minions] from Supported Skills have {0}% additional [Physical] Damage Reduction
@@ -8837,7 +8827,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] from Supported Skills have {0}% additional [Physical] Damage Reduction","n":"[Minion|Minions] from Supported Skills have {0}% additional [Physical] Damage Reduction","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 65. [Minion|Minions] from Supported Skills have {0}% chance to deal Double Damage
+### 64. [Minion|Minions] from Supported Skills have {0}% chance to deal Double Damage
 
 - Match score: `105`
 - `k`: [Minion|Minions] from Supported Skills have {0}% chance to deal Double Damage
@@ -8849,7 +8839,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] from Supported Skills have {0}% chance to deal Double Damage","n":"[Minion|Minions] from Supported Skills have {0}% chance to deal Double Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 66. [Minion|Minions] from Supported Skills have {0}% less maximum Life
+### 65. [Minion|Minions] from Supported Skills have {0}% less maximum Life
 
 - Match score: `105`
 - `k`: [Minion|Minions] from Supported Skills have {0}% less maximum Life
@@ -8861,7 +8851,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] from Supported Skills have {0}% less maximum Life","n":"[Minion|Minions] from Supported Skills have {0}% less maximum Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 67. [Minion|Minions] from Supported Skills have {0}% more maximum Life
+### 66. [Minion|Minions] from Supported Skills have {0}% more maximum Life
 
 - Match score: `105`
 - `k`: [Minion|Minions] from Supported Skills have {0}% more maximum Life
@@ -8873,7 +8863,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] from Supported Skills have {0}% more maximum Life","n":"[Minion|Minions] from Supported Skills have {0}% more maximum Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 68. [Minion|Minions] from Supported Skills have {0}% to all [MaximumResistances|Maximum Elemental Resistances]
+### 67. [Minion|Minions] from Supported Skills have {0}% to all [MaximumResistances|Maximum Elemental Resistances]
 
 - Match score: `105`
 - `k`: [Minion|Minions] from Supported Skills have {0}% to all [MaximumResistances|Maximum Elemental Resistances]
@@ -8885,7 +8875,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] from Supported Skills have {0}% to all [MaximumResistances|Maximum Elemental Resistances]","n":"[Minion|Minions] from Supported Skills have {0}% to all [MaximumResistances|Maximum Elemental Resistances]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 69. [Minion|Minions] from Supported Skills have {0}% to all Elemental [Resistances]
+### 68. [Minion|Minions] from Supported Skills have {0}% to all Elemental [Resistances]
 
 - Match score: `105`
 - `k`: [Minion|Minions] from Supported Skills have {0}% to all Elemental [Resistances]
@@ -8897,7 +8887,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] from Supported Skills have {0}% to all Elemental [Resistances]","n":"[Minion|Minions] from Supported Skills have {0}% to all Elemental [Resistances]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 70. [Minion|Minions] from Supported Skills have {0}% to Fire [Resistances|Resistance]
+### 69. [Minion|Minions] from Supported Skills have {0}% to Fire [Resistances|Resistance]
 
 - Match score: `105`
 - `k`: [Minion|Minions] from Supported Skills have {0}% to Fire [Resistances|Resistance]
@@ -8909,7 +8899,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] from Supported Skills have {0}% to Fire [Resistances|Resistance]","n":"[Minion|Minions] from Supported Skills have {0}% to Fire [Resistances|Resistance]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 71. [Minion|Minions] from Supported Skills heal [Allies|Allied] [Minion|Minions] within {1} metres for {0}% of Supported [Minion|Minions'] life on death, as well as removing all [Ailments] from those [Minion|Minions]
+### 70. [Minion|Minions] from Supported Skills heal [Allies|Allied] [Minion|Minions] within {1} metres for {0}% of Supported [Minion|Minions'] life on death, as well as removing all [Ailments] from those [Minion|Minions]
 
 - Match score: `105`
 - `k`: [Minion|Minions] from Supported Skills heal [Allies|Allied] [Minion|Minions] within {1} metres for {0}% of Supported [Minion|Minions'] life on death, as well as removing all [Ailments] from those [Minion|Minions]
@@ -8921,7 +8911,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] from Supported Skills heal [Allies|Allied] [Minion|Minions] within {1} metres for {0}% of Supported [Minion|Minions'] life on death, as well as removing all [Ailments] from those [Minion|Minions]","n":"[Minion|Minions] from Supported Skills heal [Allies|Allied] [Minion|Minions] within {1} metres for {0}% of Supported [Minion|Minions'] life on death, as well as removing all [Ailments] from those [Minion|Minions]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 72. [Minion|Minions] from Supported Skills take {0}% less Damage
+### 71. [Minion|Minions] from Supported Skills take {0}% less Damage
 
 - Match score: `105`
 - `k`: [Minion|Minions] from Supported Skills take {0}% less Damage
@@ -8933,7 +8923,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] from Supported Skills take {0}% less Damage","n":"[Minion|Minions] from Supported Skills take {0}% less Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 73. [Minion|Minions] from Supported Skills take {0}% more Damage
+### 72. [Minion|Minions] from Supported Skills take {0}% more Damage
 
 - Match score: `105`
 - `k`: [Minion|Minions] from Supported Skills take {0}% more Damage
@@ -8945,7 +8935,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] from Supported Skills take {0}% more Damage","n":"[Minion|Minions] from Supported Skills take {0}% more Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 74. [Minion|Minions] gain {0}% of their maximum Life as Extra maximum [EnergyShield|Energy Shield]
+### 73. [Minion|Minions] gain {0}% of their maximum Life as Extra maximum [EnergyShield|Energy Shield]
 
 - Match score: `105`
 - `k`: [Minion|Minions] gain {0}% of their maximum Life as Extra maximum [EnergyShield|Energy Shield]
@@ -8957,7 +8947,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] gain {0}% of their maximum Life as Extra maximum [EnergyShield|Energy Shield]","n":"[Minion|Minions] gain {0}% of their maximum Life as Extra maximum [EnergyShield|Energy Shield]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 75. [Minion|Minions] have {0}% chance to deal Double Damage while they are on Full Life
+### 74. [Minion|Minions] have {0}% chance to deal Double Damage while they are on Full Life
 
 - Match score: `105`
 - `k`: [Minion|Minions] have {0}% chance to deal Double Damage while they are on Full Life
@@ -8969,7 +8959,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] have {0}% chance to deal Double Damage while they are on Full Life","n":"[Minion|Minions] have {0}% chance to deal Double Damage while they are on Full Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 76. [Minion|Minions] lose {0}% Life per 10 Tribute you have when following [Command|Commands]
+### 75. [Minion|Minions] lose {0}% Life per 10 Tribute you have when following [Command|Commands]
 
 - Match score: `105`
 - `k`: [Minion|Minions] lose {0}% Life per 10 Tribute you have when following [Command|Commands]
@@ -8981,7 +8971,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] lose {0}% Life per 10 Tribute you have when following [Command|Commands]","n":"[Minion|Minions] lose {0}% Life per 10 Tribute you have when following [Command|Commands]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 77. [Minion|Minions] lose {0}% Life per 10 Tribute you have when following [Command|Commands] per 10 Tribute
+### 76. [Minion|Minions] lose {0}% Life per 10 Tribute you have when following [Command|Commands] per 10 Tribute
 
 - Match score: `105`
 - `k`: [Minion|Minions] lose {0}% Life per 10 Tribute you have when following [Command|Commands] per 10 Tribute
@@ -8993,7 +8983,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Minion|Minions] lose {0}% Life per 10 Tribute you have when following [Command|Commands] per 10 Tribute","n":"[Minion|Minions] lose {0}% Life per 10 Tribute you have when following [Command|Commands] per 10 Tribute","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 78. [Poison|Poison] from Supported Skills also adds {0}% of Damage per Second to Enemy as Plague, up to a maximum of {1}% of Enemy's maximum Life
+### 77. [Poison|Poison] from Supported Skills also adds {0}% of Damage per Second to Enemy as Plague, up to a maximum of {1}% of Enemy's maximum Life
 
 - Match score: `105`
 - `k`: [Poison|Poison] from Supported Skills also adds {0}% of Damage per Second to Enemy as Plague, up to a maximum of {1}% of Enemy's maximum Life
@@ -9005,7 +8995,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Poison|Poison] from Supported Skills also adds {0}% of Damage per Second to Enemy as Plague, up to a maximum of {1}% of Enemy's maximum Life","n":"[Poison|Poison] from Supported Skills also adds {0}% of Damage per Second to Enemy as Plague, up to a maximum of {1}% of Enemy's maximum Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 79. [Recoup] {0}% of your maximum Mana when a [Persistent] [Reviving] [Minion] created by Supported Skill dies
+### 78. [Recoup] {0}% of your maximum Mana when a [Persistent] [Reviving] [Minion] created by Supported Skill dies
 
 - Match score: `105`
 - `k`: [Recoup] {0}% of your maximum Mana when a [Persistent] [Reviving] [Minion] created by Supported Skill dies
@@ -9017,31 +9007,31 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Recoup] {0}% of your maximum Mana when a [Persistent] [Reviving] [Minion] created by Supported Skill dies","n":"[Recoup] {0}% of your maximum Mana when a [Persistent] [Reviving] [Minion] created by Supported Skill dies","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 80. [SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps have {0}% chance to release [AzmeriSpirit|Spirits] on death
+### 79. [SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses [ReleaseAzmeriSpirits|Release Spirits] on death
 
 - Match score: `105`
-- `k`: [SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps have {0}% chance to release [AzmeriSpirit|Spirits] on death
-- `n`: [SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps have {0}% chance to release [AzmeriSpirit|Spirits] on death
+- `k`: [SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses [ReleaseAzmeriSpirits|Release Spirits] on death
+- `n`: [SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses [ReleaseAzmeriSpirits|Release Spirits] on death
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps have {0}% chance to release [AzmeriSpirit|Spirits] on death","n":"[SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps have {0}% chance to release [AzmeriSpirit|Spirits] on death","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses [ReleaseAzmeriSpirits|Release Spirits] on death","n":"[SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses [ReleaseAzmeriSpirits|Release Spirits] on death","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 81. [SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps release [AzmeriSpirit|Spirits] on death
+### 80. [SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses have {0}% chance to [ReleaseAzmeriSpirits|Release Spirits] on death
 
 - Match score: `105`
-- `k`: [SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps release [AzmeriSpirit|Spirits] on death
-- `n`: [SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps release [AzmeriSpirit|Spirits] on death
+- `k`: [SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses have {0}% chance to [ReleaseAzmeriSpirits|Release Spirits] on death
+- `n`: [SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses have {0}% chance to [ReleaseAzmeriSpirits|Release Spirits] on death
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps release [AzmeriSpirit|Spirits] on death","n":"[SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses in your Maps release [AzmeriSpirit|Spirits] on death","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses have {0}% chance to [ReleaseAzmeriSpirits|Release Spirits] on death","n":"[SpiritPossessed|Possessed] [StoneSummoningCircle|Summoning Circle] Bosses have {0}% chance to [ReleaseAzmeriSpirits|Release Spirits] on death","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 82. [Totem|Totems] created by Supported Skills create a Blood Font with a radius of {1} metres
+### 81. [Totem|Totems] created by Supported Skills create a Blood Font with a radius of {1} metres
 [Allies] in Blood Fonts [LifeLeech|Leech Life] equal to {0}% of [Physical] Damage dealt by Supported [Totem]
 
 - Match score: `105`
@@ -9056,7 +9046,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Totem|Totems] created by Supported Skills create a Blood Font with a radius of {1} metres\n[Allies] in Blood Fonts [LifeLeech|Leech Life] equal to {0}% of [Physical] Damage dealt by Supported [Totem]","n":"[Totem|Totems] created by Supported Skills create a Blood Font with a radius of {1} metres\n[Allies] in Blood Fonts [LifeLeech|Leech Life] equal to {0}% of [Physical] Damage dealt by Supported [Totem]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 83. [Totem|Totems] summoned by Supported Skills have {0}% to all [MaximumResistances|Maximum Elemental Resistances]
+### 82. [Totem|Totems] summoned by Supported Skills have {0}% to all [MaximumResistances|Maximum Elemental Resistances]
 
 - Match score: `105`
 - `k`: [Totem|Totems] summoned by Supported Skills have {0}% to all [MaximumResistances|Maximum Elemental Resistances]
@@ -9068,19 +9058,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"[Totem|Totems] summoned by Supported Skills have {0}% to all [MaximumResistances|Maximum Elemental Resistances]","n":"[Totem|Totems] summoned by Supported Skills have {0}% to all [MaximumResistances|Maximum Elemental Resistances]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 84. Absorbs first [HitDamage|Hit] dealing over {0}% of [Minion|Minion's] maximum life
-
-- Match score: `105`
-- `k`: Absorbs first [HitDamage|Hit] dealing over {0}% of [Minion|Minion's] maximum life
-- `n`: Absorbs first [HitDamage|Hit] dealing over {0}% of [Minion|Minion's] maximum life
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Absorbs first [HitDamage|Hit] dealing over {0}% of [Minion|Minion's] maximum life","n":"Absorbs first [HitDamage|Hit] dealing over {0}% of [Minion|Minion's] maximum life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 85. All Damage taken bypasses Energy Shield
+### 83. All Damage taken bypasses Energy Shield
 50% of Elemental Damage taken as Chaos Damage
 +5% to maximum Chaos Resistance
 
@@ -9098,7 +9076,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"All Damage taken bypasses Energy Shield\n50% of Elemental Damage taken as Chaos Damage\n+5% to maximum Chaos Resistance","n":"All Damage taken bypasses Energy Shield\n50% of Elemental Damage taken as Chaos Damage\n+5% to maximum Chaos Resistance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 86. Become [Ignite|Ignited] when you deal a [Critical|Critical Hit], taking {0}% of your maximum Life and [EnergyShield|Energy Shield] as [Fire] Damage per second
+### 84. Become [Ignite|Ignited] when you deal a [Critical|Critical Hit], taking {0}% of your maximum Life and [EnergyShield|Energy Shield] as [Fire] Damage per second
 
 - Match score: `105`
 - `k`: Become [Ignite|Ignited] when you deal a [Critical|Critical Hit], taking {0}% of your maximum Life and [EnergyShield|Energy Shield] as [Fire] Damage per second
@@ -9110,7 +9088,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"Become [Ignite|Ignited] when you deal a [Critical|Critical Hit], taking {0}% of your maximum Life and [EnergyShield|Energy Shield] as [Fire] Damage per second","n":"Become [Ignite|Ignited] when you deal a [Critical|Critical Hit], taking {0}% of your maximum Life and [EnergyShield|Energy Shield] as [Fire] Damage per second","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 87. Birthed Items have {0}% chance to be crafted with [GenesisTreeBeltMinionDamagePerDifferentCommandSkillUsedLast15SecondsCrafted|''Instructor's'']
+### 85. Birthed Items have {0}% chance to be crafted with [GenesisTreeBeltMinionDamagePerDifferentCommandSkillUsedLast15SecondsCrafted|''Instructor's'']
 
 - Match score: `105`
 - `k`: Birthed Items have {0}% chance to be crafted with [GenesisTreeBeltMinionDamagePerDifferentCommandSkillUsedLast15SecondsCrafted|''Instructor's'']
@@ -9122,7 +9100,7 @@ life as [Physical] [HitDamage|Damage] to enemies within 2 metres
 {"k":"Birthed Items have {0}% chance to be crafted with [GenesisTreeBeltMinionDamagePerDifferentCommandSkillUsedLast15SecondsCrafted|''Instructor's'']","n":"Birthed Items have {0}% chance to be crafted with [GenesisTreeBeltMinionDamagePerDifferentCommandSkillUsedLast15SecondsCrafted|''Instructor's'']","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 88. Damage over Time bypasses your [EnergyShield|Energy Shield]
+### 86. Damage over Time bypasses your [EnergyShield|Energy Shield]
 While not on Full Life, [Sacrifice|Sacrifice] {0}% of maximum Mana per Second to Recover that much Life
 
 - Match score: `105`
@@ -9137,7 +9115,7 @@ While not on Full Life, [Sacrifice|Sacrifice] {0}% of maximum Mana per Second to
 {"k":"Damage over Time bypasses your [EnergyShield|Energy Shield]\nWhile not on Full Life, [Sacrifice|Sacrifice] {0}% of maximum Mana per Second to Recover that much Life","n":"Damage over Time bypasses your [EnergyShield|Energy Shield]\nWhile not on Full Life, [Sacrifice|Sacrifice] {0}% of maximum Mana per Second to Recover that much Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 89. Damage over time with non-[Ailments|Ailment] [Debuff|Debuffs] inflicted on full-life enemies by Supported Skills deal {0}% more damage
+### 87. Damage over time with non-[Ailments|Ailment] [Debuff|Debuffs] inflicted on full-life enemies by Supported Skills deal {0}% more damage
 
 - Match score: `105`
 - `k`: Damage over time with non-[Ailments|Ailment] [Debuff|Debuffs] inflicted on full-life enemies by Supported Skills deal {0}% more damage
@@ -9149,7 +9127,7 @@ While not on Full Life, [Sacrifice|Sacrifice] {0}% of maximum Mana per Second to
 {"k":"Damage over time with non-[Ailments|Ailment] [Debuff|Debuffs] inflicted on full-life enemies by Supported Skills deal {0}% more damage","n":"Damage over time with non-[Ailments|Ailment] [Debuff|Debuffs] inflicted on full-life enemies by Supported Skills deal {0}% more damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 90. Damage Penetrates {0}% Elemental Resistances against [Curse|Cursed] Enemies
+### 88. Damage Penetrates {0}% Elemental Resistances against [Curse|Cursed] Enemies
 
 - Match score: `105`
 - `k`: Damage Penetrates {0}% Elemental Resistances against [Curse|Cursed] Enemies
@@ -9161,7 +9139,7 @@ While not on Full Life, [Sacrifice|Sacrifice] {0}% of maximum Mana per Second to
 {"k":"Damage Penetrates {0}% Elemental Resistances against [Curse|Cursed] Enemies","n":"Damage Penetrates {0}% Elemental Resistances against [Curse|Cursed] Enemies","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 91. Damage taken [Recoup|Recouped] as Life is also [Recoup|Recouped] as [EnergyShield|Energy Shield]
+### 89. Damage taken [Recoup|Recouped] as Life is also [Recoup|Recouped] as [EnergyShield|Energy Shield]
 
 - Match score: `105`
 - `k`: Damage taken [Recoup|Recouped] as Life is also [Recoup|Recouped] as [EnergyShield|Energy Shield]
@@ -9173,7 +9151,7 @@ While not on Full Life, [Sacrifice|Sacrifice] {0}% of maximum Mana per Second to
 {"k":"Damage taken [Recoup|Recouped] as Life is also [Recoup|Recouped] as [EnergyShield|Energy Shield]","n":"Damage taken [Recoup|Recouped] as Life is also [Recoup|Recouped] as [EnergyShield|Energy Shield]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 92. Deal {0}% increased [Attack] Damage while on [LowLife|Low Life] while a Supported Skill is active
+### 90. Deal {0}% increased [Attack] Damage while on [LowLife|Low Life] while a Supported Skill is active
 
 - Match score: `105`
 - `k`: Deal {0}% increased [Attack] Damage while on [LowLife|Low Life] while a Supported Skill is active
@@ -9185,7 +9163,7 @@ While not on Full Life, [Sacrifice|Sacrifice] {0}% of maximum Mana per Second to
 {"k":"Deal {0}% increased [Attack] Damage while on [LowLife|Low Life] while a Supported Skill is active","n":"Deal {0}% increased [Attack] Damage while on [LowLife|Low Life] while a Supported Skill is active","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 93. Deal {0}% increased [Spell] Damage while on full [EnergyShield|Energy Shield] while a Supported Skill is active
+### 91. Deal {0}% increased [Spell] Damage while on full [EnergyShield|Energy Shield] while a Supported Skill is active
 
 - Match score: `105`
 - `k`: Deal {0}% increased [Spell] Damage while on full [EnergyShield|Energy Shield] while a Supported Skill is active
@@ -9197,7 +9175,7 @@ While not on Full Life, [Sacrifice|Sacrifice] {0}% of maximum Mana per Second to
 {"k":"Deal {0}% increased [Spell] Damage while on full [EnergyShield|Energy Shield] while a Supported Skill is active","n":"Deal {0}% increased [Spell] Damage while on full [EnergyShield|Energy Shield] while a Supported Skill is active","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 94. Deal {0}% reduced [Attack] Damage while on [LowLife|Low Life] while a Supported Skill is active
+### 92. Deal {0}% reduced [Attack] Damage while on [LowLife|Low Life] while a Supported Skill is active
 
 - Match score: `105`
 - `k`: Deal {0}% reduced [Attack] Damage while on [LowLife|Low Life] while a Supported Skill is active
@@ -9209,7 +9187,7 @@ While not on Full Life, [Sacrifice|Sacrifice] {0}% of maximum Mana per Second to
 {"k":"Deal {0}% reduced [Attack] Damage while on [LowLife|Low Life] while a Supported Skill is active","n":"Deal {0}% reduced [Attack] Damage while on [LowLife|Low Life] while a Supported Skill is active","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 95. Deal {0}% reduced [Spell] Damage while on full [EnergyShield|Energy Shield] while a Supported Skill is active
+### 93. Deal {0}% reduced [Spell] Damage while on full [EnergyShield|Energy Shield] while a Supported Skill is active
 
 - Match score: `105`
 - `k`: Deal {0}% reduced [Spell] Damage while on full [EnergyShield|Energy Shield] while a Supported Skill is active
@@ -9221,7 +9199,7 @@ While not on Full Life, [Sacrifice|Sacrifice] {0}% of maximum Mana per Second to
 {"k":"Deal {0}% reduced [Spell] Damage while on full [EnergyShield|Energy Shield] while a Supported Skill is active","n":"Deal {0}% reduced [Spell] Damage while on full [EnergyShield|Energy Shield] while a Supported Skill is active","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 96. Deals additional [Fire] damage equal to {0}% of [Minion]'s maximum Life
+### 94. Deals additional [Fire] damage equal to {0}% of [Minion]'s maximum Life
 
 - Match score: `105`
 - `k`: Deals additional [Fire] damage equal to {0}% of [Minion]'s maximum Life
@@ -9233,7 +9211,7 @@ While not on Full Life, [Sacrifice|Sacrifice] {0}% of maximum Mana per Second to
 {"k":"Deals additional [Fire] damage equal to {0}% of [Minion]'s maximum Life","n":"Deals additional [Fire] damage equal to {0}% of [Minion]'s maximum Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 97. Destroying an [IceCrystals|Ice Crystal] grants Supported Skills {0}% of Damage [Gain|Gained] as extra [Cold] for {1} seconds, per two thousand maximum Life of the destroyed [IceCrystals|Ice Crystal]
+### 95. Destroying an [IceCrystals|Ice Crystal] grants Supported Skills {0}% of Damage [Gain|Gained] as extra [Cold] for {1} seconds, per two thousand maximum Life of the destroyed [IceCrystals|Ice Crystal]
 
 - Match score: `105`
 - `k`: Destroying an [IceCrystals|Ice Crystal] grants Supported Skills {0}% of Damage [Gain|Gained] as extra [Cold] for {1} seconds, per two thousand maximum Life of the destroyed [IceCrystals|Ice Crystal]
@@ -9245,7 +9223,7 @@ While not on Full Life, [Sacrifice|Sacrifice] {0}% of maximum Mana per Second to
 {"k":"Destroying an [IceCrystals|Ice Crystal] grants Supported Skills {0}% of Damage [Gain|Gained] as extra [Cold] for {1} seconds, per two thousand maximum Life of the destroyed [IceCrystals|Ice Crystal]","n":"Destroying an [IceCrystals|Ice Crystal] grants Supported Skills {0}% of Damage [Gain|Gained] as extra [Cold] for {1} seconds, per two thousand maximum Life of the destroyed [IceCrystals|Ice Crystal]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 98. Each [Curse|Cursed] Ground area from Supported Skills spawns a Witchtoad every {0} second, up to a [Limit] of {1}
+### 96. Each [Curse|Cursed] Ground area from Supported Skills spawns a Witchtoad every {0} second, up to a [Limit] of {1}
 
 - Match score: `105`
 - `k`: Each [Curse|Cursed] Ground area from Supported Skills spawns a Witchtoad every {0} second, up to a [Limit] of {1}
@@ -9257,7 +9235,7 @@ While not on Full Life, [Sacrifice|Sacrifice] {0}% of maximum Mana per Second to
 {"k":"Each [Curse|Cursed] Ground area from Supported Skills spawns a Witchtoad every {0} second, up to a [Limit] of {1}","n":"Each [Curse|Cursed] Ground area from Supported Skills spawns a Witchtoad every {0} second, up to a [Limit] of {1}","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 99. Each [Curse|Cursed] Ground area from Supported Skills spawns a Witchtoad every {0} seconds, up to a [Limit] of {1}
+### 97. Each [Curse|Cursed] Ground area from Supported Skills spawns a Witchtoad every {0} seconds, up to a [Limit] of {1}
 
 - Match score: `105`
 - `k`: Each [Curse|Cursed] Ground area from Supported Skills spawns a Witchtoad every {0} seconds, up to a [Limit] of {1}
@@ -9269,19 +9247,19 @@ While not on Full Life, [Sacrifice|Sacrifice] {0}% of maximum Mana per Second to
 {"k":"Each [Curse|Cursed] Ground area from Supported Skills spawns a Witchtoad every {0} seconds, up to a [Limit] of {1}","n":"Each [Curse|Cursed] Ground area from Supported Skills spawns a Witchtoad every {0} seconds, up to a [Limit] of {1}","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 100. Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [HitDamage|Damage] they take from your Hits
+### 98. Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [Hit|Damage] they take from your Hits
 
 - Match score: `105`
-- `k`: Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [HitDamage|Damage] they take from your Hits
-- `n`: Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [HitDamage|Damage] they take from your Hits
+- `k`: Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [Hit|Damage] they take from your Hits
+- `n`: Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [Hit|Damage] they take from your Hits
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [HitDamage|Damage] they take from your Hits","n":"Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [HitDamage|Damage] they take from your Hits","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [Hit|Damage] they take from your Hits","n":"Enemies [Mark|Marked] by Supported Skills cause you to [LifeLeech|Leech Life] equal to {0}% of [Physical] [Attack] [Hit|Damage] they take from your Hits","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 101. Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% increased Life regeneration rate
+### 99. Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% increased Life regeneration rate
 
 - Match score: `105`
 - `k`: Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% increased Life regeneration rate
@@ -9293,7 +9271,7 @@ While not on Full Life, [Sacrifice|Sacrifice] {0}% of maximum Mana per Second to
 {"k":"Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% increased Life regeneration rate","n":"Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% increased Life regeneration rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 102. Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% reduced Life regeneration rate
+### 100. Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% reduced Life regeneration rate
 
 - Match score: `105`
 - `k`: Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% reduced Life regeneration rate
@@ -9305,31 +9283,7 @@ While not on Full Life, [Sacrifice|Sacrifice] {0}% of maximum Mana per Second to
 {"k":"Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% reduced Life regeneration rate","n":"Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% reduced Life regeneration rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 103. Enemies killed by [HitDamage|Hits] from Supported Skills grant {0}% less Life [Flask] Charges
-
-- Match score: `105`
-- `k`: Enemies killed by [HitDamage|Hits] from Supported Skills grant {0}% less Life [Flask] Charges
-- `n`: Enemies killed by [HitDamage|Hits] from Supported Skills grant {0}% less Life [Flask] Charges
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Enemies killed by [HitDamage|Hits] from Supported Skills grant {0}% less Life [Flask] Charges","n":"Enemies killed by [HitDamage|Hits] from Supported Skills grant {0}% less Life [Flask] Charges","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 104. Enemies killed by [HitDamage|Hits] from Supported Skills grant {0}% more Life [Flask] Charges
-
-- Match score: `105`
-- `k`: Enemies killed by [HitDamage|Hits] from Supported Skills grant {0}% more Life [Flask] Charges
-- `n`: Enemies killed by [HitDamage|Hits] from Supported Skills grant {0}% more Life [Flask] Charges
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Enemies killed by [HitDamage|Hits] from Supported Skills grant {0}% more Life [Flask] Charges","n":"Enemies killed by [HitDamage|Hits] from Supported Skills grant {0}% more Life [Flask] Charges","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 105. Enemies Killed by Zombies' Hits Explode, dealing {0}% of their Life as Fire Damage
+### 101. Enemies Killed by Zombies' Hits Explode, dealing {0}% of their Life as Fire Damage
 
 - Match score: `105`
 - `k`: Enemies Killed by Zombies' Hits Explode, dealing {0}% of their Life as Fire Damage
@@ -9341,7 +9295,7 @@ While not on Full Life, [Sacrifice|Sacrifice] {0}% of maximum Mana per Second to
 {"k":"Enemies Killed by Zombies' Hits Explode, dealing {0}% of their Life as Fire Damage","n":"Enemies Killed by Zombies' Hits Explode, dealing {0}% of their Life as Fire Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 106. Enemies near corpses affected by your [Curse|Curses] are Blinded
+### 102. Enemies near corpses affected by your [Curse|Curses] are Blinded
 Enemies Killed near corpses affected by your [Curse|Curses] explode, dealing
 {0}% of their Life as Physical Damage
 
@@ -9359,67 +9313,7 @@ Enemies Killed near corpses affected by your [Curse|Curses] explode, dealing
 {"k":"Enemies near corpses affected by your [Curse|Curses] are Blinded\nEnemies Killed near corpses affected by your [Curse|Curses] explode, dealing\n{0}% of their Life as Physical Damage","n":"Enemies near corpses affected by your [Curse|Curses] are Blinded\nEnemies Killed near corpses affected by your [Curse|Curses] explode, dealing\n{0}% of their Life as Physical Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 107. Enemies you [Critical|Critically] [HitDamage|Hit] get {0}% increased Life Regeneration Rate for 4 seconds
-
-- Match score: `105`
-- `k`: Enemies you [Critical|Critically] [HitDamage|Hit] get {0}% increased Life Regeneration Rate for 4 seconds
-- `n`: Enemies you [Critical|Critically] [HitDamage|Hit] get {0}% increased Life Regeneration Rate for 4 seconds
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Enemies you [Critical|Critically] [HitDamage|Hit] get {0}% increased Life Regeneration Rate for 4 seconds","n":"Enemies you [Critical|Critically] [HitDamage|Hit] get {0}% increased Life Regeneration Rate for 4 seconds","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 108. Enemies you [Critical|Critically] [HitDamage|Hit] get {0}% reduced Life Regeneration Rate for 4 seconds
-
-- Match score: `105`
-- `k`: Enemies you [Critical|Critically] [HitDamage|Hit] get {0}% reduced Life Regeneration Rate for 4 seconds
-- `n`: Enemies you [Critical|Critically] [HitDamage|Hit] get {0}% reduced Life Regeneration Rate for 4 seconds
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Enemies you [Critical|Critically] [HitDamage|Hit] get {0}% reduced Life Regeneration Rate for 4 seconds","n":"Enemies you [Critical|Critically] [HitDamage|Hit] get {0}% reduced Life Regeneration Rate for 4 seconds","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 109. Enemy [HitDamage|Hits] have {0}% chance to treat all your [Resistances] as being 90% while a Supported Skill is active
-
-- Match score: `105`
-- `k`: Enemy [HitDamage|Hits] have {0}% chance to treat all your [Resistances] as being 90% while a Supported Skill is active
-- `n`: Enemy [HitDamage|Hits] have {0}% chance to treat all your [Resistances] as being 90% while a Supported Skill is active
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Enemy [HitDamage|Hits] have {0}% chance to treat all your [Resistances] as being 90% while a Supported Skill is active","n":"Enemy [HitDamage|Hits] have {0}% chance to treat all your [Resistances] as being 90% while a Supported Skill is active","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 110. Explosion applies Supported [Curse] for {0} second on [HitDamage|Hit]
-
-- Match score: `105`
-- `k`: Explosion applies Supported [Curse] for {0} second on [HitDamage|Hit]
-- `n`: Explosion applies Supported [Curse] for {0} second on [HitDamage|Hit]
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Explosion applies Supported [Curse] for {0} second on [HitDamage|Hit]","n":"Explosion applies Supported [Curse] for {0} second on [HitDamage|Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 111. Explosion applies Supported [Curse] for {0} seconds on [HitDamage|Hit]
-
-- Match score: `105`
-- `k`: Explosion applies Supported [Curse] for {0} seconds on [HitDamage|Hit]
-- `n`: Explosion applies Supported [Curse] for {0} seconds on [HitDamage|Hit]
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Explosion applies Supported [Curse] for {0} seconds on [HitDamage|Hit]","n":"Explosion applies Supported [Curse] for {0} seconds on [HitDamage|Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 112. Explosion deals base [Fire|Fire] Damage equal to {0}% of the [Minion|Minion's] maximum Life
+### 103. Explosion deals base [Fire|Fire] Damage equal to {0}% of the [Minion|Minion's] maximum Life
 
 - Match score: `105`
 - `k`: Explosion deals base [Fire|Fire] Damage equal to {0}% of the [Minion|Minion's] maximum Life
@@ -9431,7 +9325,7 @@ Enemies Killed near corpses affected by your [Curse|Curses] explode, dealing
 {"k":"Explosion deals base [Fire|Fire] Damage equal to {0}% of the [Minion|Minion's] maximum Life","n":"Explosion deals base [Fire|Fire] Damage equal to {0}% of the [Minion|Minion's] maximum Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 113. First minion summoned have no base spirit reservation
+### 104. First minion summoned have no base spirit reservation
 
 - Match score: `105`
 - `k`: First minion summoned have no base spirit reservation
@@ -9443,7 +9337,7 @@ Enemies Killed near corpses affected by your [Curse|Curses] explode, dealing
 {"k":"First minion summoned have no base spirit reservation","n":"First minion summoned have no base spirit reservation","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 114. First {0} minions summoned have no base spirit reservation
+### 105. First {0} minions summoned have no base spirit reservation
 
 - Match score: `105`
 - `k`: First {0} minions summoned have no base spirit reservation
@@ -9455,7 +9349,7 @@ Enemies Killed near corpses affected by your [Curse|Curses] explode, dealing
 {"k":"First {0} minions summoned have no base spirit reservation","n":"First {0} minions summoned have no base spirit reservation","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 115. Gain [UnholyMight|Unholy Might] for {0} second on [Command|Commanding] [Minion|Minions] from Supported Skills
+### 106. Gain [UnholyMight|Unholy Might] for {0} second on [Command|Commanding] [Minion|Minions] from Supported Skills
 
 - Match score: `105`
 - `k`: Gain [UnholyMight|Unholy Might] for {0} second on [Command|Commanding] [Minion|Minions] from Supported Skills
@@ -9467,7 +9361,7 @@ Enemies Killed near corpses affected by your [Curse|Curses] explode, dealing
 {"k":"Gain [UnholyMight|Unholy Might] for {0} second on [Command|Commanding] [Minion|Minions] from Supported Skills","n":"Gain [UnholyMight|Unholy Might] for {0} second on [Command|Commanding] [Minion|Minions] from Supported Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 116. Gain [UnholyMight|Unholy Might] for {0} seconds on [Command|Commanding] [Minion|Minions] from Supported Skills
+### 107. Gain [UnholyMight|Unholy Might] for {0} seconds on [Command|Commanding] [Minion|Minions] from Supported Skills
 
 - Match score: `105`
 - `k`: Gain [UnholyMight|Unholy Might] for {0} seconds on [Command|Commanding] [Minion|Minions] from Supported Skills
@@ -9479,7 +9373,7 @@ Enemies Killed near corpses affected by your [Curse|Curses] explode, dealing
 {"k":"Gain [UnholyMight|Unholy Might] for {0} seconds on [Command|Commanding] [Minion|Minions] from Supported Skills","n":"Gain [UnholyMight|Unholy Might] for {0} seconds on [Command|Commanding] [Minion|Minions] from Supported Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 117. GenesisTreeBeltMinionDamagePerDifferentCommandSkillUsedLast15SecondsCrafted
+### 108. GenesisTreeBeltMinionDamagePerDifferentCommandSkillUsedLast15SecondsCrafted
 
 - Match score: `105`
 - `k`: GenesisTreeBeltMinionDamagePerDifferentCommandSkillUsedLast15SecondsCrafted
@@ -9491,19 +9385,7 @@ Enemies Killed near corpses affected by your [Curse|Curses] explode, dealing
 {"k":"GenesisTreeBeltMinionDamagePerDifferentCommandSkillUsedLast15SecondsCrafted","n":"GenesisTreeBeltMinionDamagePerDifferentCommandSkillUsedLast15SecondsCrafted","cat":"repoe_keywords","src":"repoe_poe2/keywords.json"}
 ```
 
-### 118. Kill enemies that have 10% Life or lower when [HitDamage|Hit] by Supported Skills
-
-- Match score: `105`
-- `k`: Kill enemies that have 10% Life or lower when [HitDamage|Hit] by Supported Skills
-- `n`: Kill enemies that have 10% Life or lower when [HitDamage|Hit] by Supported Skills
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Kill enemies that have 10% Life or lower when [HitDamage|Hit] by Supported Skills","n":"Kill enemies that have 10% Life or lower when [HitDamage|Hit] by Supported Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 119. Lose {0}% of maximum Life, Mana, and [EnergyShield|Energy Shield] when you use Supported Skills
+### 109. Lose {0}% of maximum Life, Mana, and [EnergyShield|Energy Shield] when you use Supported Skills
 
 - Match score: `105`
 - `k`: Lose {0}% of maximum Life, Mana, and [EnergyShield|Energy Shield] when you use Supported Skills
@@ -9515,7 +9397,7 @@ Enemies Killed near corpses affected by your [Curse|Curses] explode, dealing
 {"k":"Lose {0}% of maximum Life, Mana, and [EnergyShield|Energy Shield] when you use Supported Skills","n":"Lose {0}% of maximum Life, Mana, and [EnergyShield|Energy Shield] when you use Supported Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 120. Maximum [Ward|Runic Ward] spent
+### 110. Maximum [Ward|Runic Ward] spent
 Total [Minion] Life [Reviving|Revived] per [Ward|Runic Ward] spent@{0}
 {1}
 
@@ -9531,6 +9413,129 @@ Total [Minion] Life [Reviving|Revived] per [Ward|Runic Ward] spent@{0}
 
 ```json
 {"k":"Maximum [Ward|Runic Ward] spent\nTotal [Minion] Life [Reviving|Revived] per [Ward|Runic Ward] spent@{0}\n{1}","n":"Maximum [Ward|Runic Ward] spent\nTotal [Minion] Life [Reviving|Revived] per [Ward|Runic Ward] spent@{0}\n{1}","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 111. Minion Life is increased by their Overcapped Fire Resistance
+
+- Match score: `105`
+- `k`: Minion Life is increased by their Overcapped Fire Resistance
+- `n`: Minion Life is increased by their Overcapped Fire Resistance
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"Minion Life is increased by their Overcapped Fire Resistance","n":"Minion Life is increased by their Overcapped Fire Resistance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 112. Minions [Ignite|Ignite] Enemies within a radius of {1} metre as though dealt Base [Fire] Damage equal to {0}% of Minion's Maximum Life
+
+- Match score: `105`
+- `k`: Minions [Ignite|Ignite] Enemies within a radius of {1} metre as though dealt Base [Fire] Damage equal to {0}% of Minion's Maximum Life
+- `n`: Minions [Ignite|Ignite] Enemies within a radius of {1} metre as though dealt Base [Fire] Damage equal to {0}% of Minion's Maximum Life
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"Minions [Ignite|Ignite] Enemies within a radius of {1} metre as though dealt Base [Fire] Damage equal to {0}% of Minion's Maximum Life","n":"Minions [Ignite|Ignite] Enemies within a radius of {1} metre as though dealt Base [Fire] Damage equal to {0}% of Minion's Maximum Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 113. Minions [Ignite|Ignite] Enemies within a radius of {1} metres as though dealt Base [Fire] Damage equal to {0}% of Minion's Maximum Life
+
+- Match score: `105`
+- `k`: Minions [Ignite|Ignite] Enemies within a radius of {1} metres as though dealt Base [Fire] Damage equal to {0}% of Minion's Maximum Life
+- `n`: Minions [Ignite|Ignite] Enemies within a radius of {1} metres as though dealt Base [Fire] Damage equal to {0}% of Minion's Maximum Life
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"Minions [Ignite|Ignite] Enemies within a radius of {1} metres as though dealt Base [Fire] Damage equal to {0}% of Minion's Maximum Life","n":"Minions [Ignite|Ignite] Enemies within a radius of {1} metres as though dealt Base [Fire] Damage equal to {0}% of Minion's Maximum Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 114. Minions [StatConversion|Convert] {0}% of their Maximum Life to Maximum Energy
+Shield per 1% Chaos Resistance they have
+
+- Match score: `105`
+- `k`: Minions [StatConversion|Convert] {0}% of their Maximum Life to Maximum Energy
+Shield per 1% Chaos Resistance they have
+- `n`: Minions [StatConversion|Convert] {0}% of their Maximum Life to Maximum Energy
+Shield per 1% Chaos Resistance they have
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"Minions [StatConversion|Convert] {0}% of their Maximum Life to Maximum Energy\nShield per 1% Chaos Resistance they have","n":"Minions [StatConversion|Convert] {0}% of their Maximum Life to Maximum Energy\nShield per 1% Chaos Resistance they have","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 115. Minions can't be Damaged for {0} second after being Summoned
+
+- Match score: `105`
+- `k`: Minions can't be Damaged for {0} second after being Summoned
+- `n`: Minions can't be Damaged for {0} second after being Summoned
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"Minions can't be Damaged for {0} second after being Summoned","n":"Minions can't be Damaged for {0} second after being Summoned","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 116. Minions can't be Damaged for {0} seconds after being Summoned
+
+- Match score: `105`
+- `k`: Minions can't be Damaged for {0} seconds after being Summoned
+- `n`: Minions can't be Damaged for {0} seconds after being Summoned
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"Minions can't be Damaged for {0} seconds after being Summoned","n":"Minions can't be Damaged for {0} seconds after being Summoned","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 117. Minions deal {0}% increased Damage while on Full Life
+
+- Match score: `105`
+- `k`: Minions deal {0}% increased Damage while on Full Life
+- `n`: Minions deal {0}% increased Damage while on Full Life
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"Minions deal {0}% increased Damage while on Full Life","n":"Minions deal {0}% increased Damage while on Full Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 118. Minions deal {0}% of your Life as additional [Cold] Damage with [Attack|Attacks]
+
+- Match score: `105`
+- `k`: Minions deal {0}% of your Life as additional [Cold] Damage with [Attack|Attacks]
+- `n`: Minions deal {0}% of your Life as additional [Cold] Damage with [Attack|Attacks]
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"Minions deal {0}% of your Life as additional [Cold] Damage with [Attack|Attacks]","n":"Minions deal {0}% of your Life as additional [Cold] Damage with [Attack|Attacks]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 119. Minions deal {0}% reduced Damage while on Full Life
+
+- Match score: `105`
+- `k`: Minions deal {0}% reduced Damage while on Full Life
+- `n`: Minions deal {0}% reduced Damage while on Full Life
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"Minions deal {0}% reduced Damage while on Full Life","n":"Minions deal {0}% reduced Damage while on Full Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 120. Minions Explode when reduced to [LowLife|Low Life], dealing 33% of their Life as Fire Damage to surrounding Enemies
+
+- Match score: `105`
+- `k`: Minions Explode when reduced to [LowLife|Low Life], dealing 33% of their Life as Fire Damage to surrounding Enemies
+- `n`: Minions Explode when reduced to [LowLife|Low Life], dealing 33% of their Life as Fire Damage to surrounding Enemies
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"Minions Explode when reduced to [LowLife|Low Life], dealing 33% of their Life as Fire Damage to surrounding Enemies","n":"Minions Explode when reduced to [LowLife|Low Life], dealing 33% of their Life as Fire Damage to surrounding Enemies","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ## Index match summary

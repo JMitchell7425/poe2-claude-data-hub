@@ -1,6 +1,6 @@
 # Build Idea Pack — Cold Freeze Build
 
-- Generated UTC: `2026-09-05T13:27:46+00:00`
+- Generated UTC: `2026-09-06T13:41:05+00:00`
 - Idea slug: `cold-freeze-build`
 - Purpose: Engineer a cold/freeze/shatter build for safe clear and controlled bossing.
 - Keywords: `cold, freeze, frozen, chill, chilled, shatter, ice, glacial, frost, exposure, penetration, ailment, elemental, critical, crit, herald, spirit, support, resistance, monk, sorceress`
@@ -4629,13 +4629,13 @@ _No keyword matches in this index._
 ### 11. caster_critical
 
 - Match score: `70`
-- `k`: 1298
+- `k`: 1300
 - `n`: caster_critical
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1298","n":"caster_critical","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_critical"}
+{"k":"1300","n":"caster_critical","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_critical"}
 ```
 
 ### 12. cold_resistance
@@ -4653,13 +4653,13 @@ _No keyword matches in this index._
 ### 13. cold_resistance
 
 - Match score: `70`
-- `k`: 1264
+- `k`: 1266
 - `n`: cold_resistance
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1264","n":"cold_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_resistance"}
+{"k":"1266","n":"cold_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_resistance"}
 ```
 
 ### 14. Critical
@@ -4740,13 +4740,13 @@ _No keyword matches in this index._
 ### 20. elemental_resistance
 
 - Match score: `70`
-- `k`: 1262
+- `k`: 1264
 - `n`: elemental_resistance
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1262","n":"elemental_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elemental_resistance"}
+{"k":"1264","n":"elemental_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elemental_resistance"}
 ```
 
 ### 21. grants_crit_chance_support
@@ -5525,7 +5525,21 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Currency/CurrencyAddEquipmentSocketShard","n":"Artificer's Shard","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"StackableCurrency","tags":["currency_shard","currency","default"],"domain":"undefined"}
 ```
 
-### 77. bestiary_spirit_boss
+### 77. Atziri's Soul Core of Alacrity
+
+- Match score: `35`
+- `k`: Metadata/Items/SoulCores/SoulCoreSpecial31
+- `n`: Atziri's Soul Core of Alacrity
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["soul_core","soul_core_tier4","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/SoulCores/SoulCoreSpecial31","n":"Atziri's Soul Core of Alacrity","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["soul_core","soul_core_tier4","default"],"domain":"undefined"}
+```
+
+### 78. bestiary_spirit_boss
 
 - Match score: `35`
 - `k`: bestiary_spirit_boss
@@ -5537,7 +5551,7 @@ _No keyword matches in this index._
 {"k":"bestiary_spirit_boss","n":"bestiary_spirit_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 78. bestiary_spirit_boss
+### 79. bestiary_spirit_boss
 
 - Match score: `35`
 - `k`: 833
@@ -5549,7 +5563,7 @@ _No keyword matches in this index._
 {"k":"833","n":"bestiary_spirit_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bestiary_spirit_boss"}
 ```
 
-### 79. blight_death_cold
+### 80. blight_death_cold
 
 - Match score: `35`
 - `k`: blight_death_cold
@@ -5561,7 +5575,7 @@ _No keyword matches in this index._
 {"k":"blight_death_cold","n":"blight_death_cold","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 80. blight_death_cold
+### 81. blight_death_cold
 
 - Match score: `35`
 - `k`: 465
@@ -5573,7 +5587,7 @@ _No keyword matches in this index._
 {"k":"465","n":"blight_death_cold","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"blight_death_cold"}
 ```
 
-### 81. Blueprint: Records Office
+### 82. Blueprint: Records Office
 
 - Match score: `35`
 - `k`: Metadata/Items/Heist/HeistBlueprintCourts
@@ -5587,7 +5601,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Heist/HeistBlueprintCourts","n":"Blueprint: Records Office","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HeistBlueprint","tags":["heist_blueprint","default"],"domain":"heist_area"}
 ```
 
-### 82. Boneshatter
+### 83. Boneshatter
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemBoneshatter
@@ -5601,7 +5615,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemBoneshatter","n":"Boneshatter","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 83. breach_monster_cold
+### 84. breach_monster_cold
 
 - Match score: `35`
 - `k`: breach_monster_cold
@@ -5613,7 +5627,7 @@ _No keyword matches in this index._
 {"k":"breach_monster_cold","n":"breach_monster_cold","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 84. breach_monster_cold
+### 85. breach_monster_cold
 
 - Match score: `35`
 - `k`: 998
@@ -5625,7 +5639,7 @@ _No keyword matches in this index._
 {"k":"998","n":"breach_monster_cold","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"breach_monster_cold"}
 ```
 
-### 85. Cast on Freeze
+### 86. Cast on Freeze
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemCastOnFreeze
@@ -5639,7 +5653,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemCastOnFreeze","n":"Cast on Freeze","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 86. chaos_resistance
+### 87. chaos_resistance
 
 - Match score: `35`
 - `k`: chaos_resistance
@@ -5651,19 +5665,19 @@ _No keyword matches in this index._
 {"k":"chaos_resistance","n":"chaos_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 87. chaos_resistance
+### 88. chaos_resistance
 
 - Match score: `35`
-- `k`: 1293
+- `k`: 1295
 - `n`: chaos_resistance
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1293","n":"chaos_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_resistance"}
+{"k":"1295","n":"chaos_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_resistance"}
 ```
 
-### 88. Cold
+### 89. Cold
 
 - Match score: `35`
 - `k`: cold
@@ -5675,7 +5689,7 @@ _No keyword matches in this index._
 {"k":"cold","n":"Cold","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 89. cold
+### 90. cold
 
 - Match score: `35`
 - `k`: 312
@@ -5687,7 +5701,7 @@ _No keyword matches in this index._
 {"k":"312","n":"cold","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold"}
 ```
 
-### 90. Cold Tattoo of Tasalio
+### 91. Cold Tattoo of Tasalio
 
 - Match score: `35`
 - `k`: Metadata/Items/QuestItems/Gallows/Act4/Tattoo2_2
@@ -5701,7 +5715,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/QuestItems/Gallows/Act4/Tattoo2_2","n":"Cold Tattoo of Tasalio","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"QuestItem","tags":["quest_item","quest_item","default"],"domain":"undefined"}
 ```
 
-### 91. cold_affinity
+### 92. cold_affinity
 
 - Match score: `35`
 - `k`: cold_affinity
@@ -5713,7 +5727,7 @@ _No keyword matches in this index._
 {"k":"cold_affinity","n":"cold_affinity","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 92. cold_affinity
+### 93. cold_affinity
 
 - Match score: `35`
 - `k`: 721
@@ -5725,7 +5739,7 @@ _No keyword matches in this index._
 {"k":"721","n":"cold_affinity","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_affinity"}
 ```
 
-### 93. cold_catalyst
+### 94. cold_catalyst
 
 - Match score: `35`
 - `k`: cold_catalyst
@@ -5737,19 +5751,19 @@ _No keyword matches in this index._
 {"k":"cold_catalyst","n":"cold_catalyst","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 94. cold_catalyst
+### 95. cold_catalyst
 
 - Match score: `35`
-- `k`: 1308
+- `k`: 1310
 - `n`: cold_catalyst
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1308","n":"cold_catalyst","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_catalyst"}
+{"k":"1310","n":"cold_catalyst","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_catalyst"}
 ```
 
-### 95. cold_crafting_option
+### 96. cold_crafting_option
 
 - Match score: `35`
 - `k`: cold_crafting_option
@@ -5761,19 +5775,43 @@ _No keyword matches in this index._
 {"k":"cold_crafting_option","n":"cold_crafting_option","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 96. cold_crafting_option
+### 97. cold_crafting_option
 
 - Match score: `35`
-- `k`: 1126
+- `k`: 1127
 - `n`: cold_crafting_option
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1126","n":"cold_crafting_option","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_crafting_option"}
+{"k":"1127","n":"cold_crafting_option","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_crafting_option"}
 ```
 
-### 97. Contract: Records Office
+### 98. cold_implicit_skill
+
+- Match score: `35`
+- `k`: cold_implicit_skill
+- `n`: cold_implicit_skill
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"cold_implicit_skill","n":"cold_implicit_skill","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 99. cold_implicit_skill
+
+- Match score: `35`
+- `k`: 1330
+- `n`: cold_implicit_skill
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"1330","n":"cold_implicit_skill","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_implicit_skill"}
+```
+
+### 100. Contract: Records Office
 
 - Match score: `35`
 - `k`: Metadata/Items/Heist/HeistContractCourts
@@ -5787,7 +5825,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Heist/HeistContractCourts","n":"Contract: Records Office","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HeistContract","tags":["heist_contract","default"],"domain":"heist_area"}
 ```
 
-### 98. Craiceann's Rune of Recovery
+### 101. Craiceann's Rune of Recovery
 
 - Match score: `35`
 - `k`: Metadata/Items/SoulCores/RuneSpecial14
@@ -5801,7 +5839,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/SoulCores/RuneSpecial14","n":"Craiceann's Rune of Recovery","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","default"],"domain":"undefined"}
 ```
 
-### 99. Craiceann's Rune of Warding
+### 102. Craiceann's Rune of Warding
 
 - Match score: `35`
 - `k`: Metadata/Items/SoulCores/RuneSpecial10
@@ -5815,7 +5853,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/SoulCores/RuneSpecial10","n":"Craiceann's Rune of Warding","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","default"],"domain":"undefined"}
 ```
 
-### 100. earth_elemental
+### 103. earth_elemental
 
 - Match score: `35`
 - `k`: earth_elemental
@@ -5827,7 +5865,7 @@ _No keyword matches in this index._
 {"k":"earth_elemental","n":"earth_elemental","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 101. earth_elemental
+### 104. earth_elemental
 
 - Match score: `35`
 - `k`: 54
@@ -5839,7 +5877,7 @@ _No keyword matches in this index._
 {"k":"54","n":"earth_elemental","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"earth_elemental"}
 ```
 
-### 102. Earthshatter
+### 105. Earthshatter
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemEarthshatter
@@ -5853,7 +5891,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemEarthshatter","n":"Earthshatter","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 103. einharmonkey
+### 106. einharmonkey
 
 - Match score: `35`
 - `k`: einharmonkey
@@ -5865,7 +5903,7 @@ _No keyword matches in this index._
 {"k":"einharmonkey","n":"einharmonkey","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 104. einharmonkey
+### 107. einharmonkey
 
 - Match score: `35`
 - `k`: 329
@@ -5877,7 +5915,7 @@ _No keyword matches in this index._
 {"k":"329","n":"einharmonkey","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"einharmonkey"}
 ```
 
-### 105. Elemental
+### 108. Elemental
 
 - Match score: `35`
 - `k`: elemental
@@ -5889,7 +5927,7 @@ _No keyword matches in this index._
 {"k":"elemental","n":"Elemental","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 106. elemental
+### 109. elemental
 
 - Match score: `35`
 - `k`: 320
@@ -5901,7 +5939,7 @@ _No keyword matches in this index._
 {"k":"320","n":"elemental","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elemental"}
 ```
 
-### 107. Elemental Conflux
+### 110. Elemental Conflux
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemElementalConflux
@@ -5915,7 +5953,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemElementalConflux","n":"Elemental Conflux","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 108. Elemental Expression
+### 111. Elemental Expression
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemAscendancyElementalExpression
@@ -5929,7 +5967,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemAscendancyElementalExpression","n":"Elemental Expression","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 109. Elemental Invocation
+### 112. Elemental Invocation
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemElementalInvocation
@@ -5943,7 +5981,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemElementalInvocation","n":"Elemental Invocation","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 110. Elemental Siphon
+### 113. Elemental Siphon
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemElementalSiphon
@@ -5957,7 +5995,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemElementalSiphon","n":"Elemental Siphon","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 111. Elemental Storm
+### 114. Elemental Storm
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemAscendancyElementalStorm
@@ -5971,7 +6009,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemAscendancyElementalStorm","n":"Elemental Storm","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 112. Elemental Sundering
+### 115. Elemental Sundering
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemElementalSundering
@@ -5985,7 +6023,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemElementalSundering","n":"Elemental Sundering","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 113. Elemental Surge
+### 116. Elemental Surge
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemAscendancyInfuseWeapon
@@ -5999,7 +6037,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemAscendancyInfuseWeapon","n":"Elemental Surge","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 114. Elemental Weakness
+### 117. Elemental Weakness
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemElementalWeakness
@@ -6013,7 +6051,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemElementalWeakness","n":"Elemental Weakness","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 115. elemental_damage
+### 118. elemental_damage
 
 - Match score: `35`
 - `k`: elemental_damage
@@ -6025,7 +6063,7 @@ _No keyword matches in this index._
 {"k":"elemental_damage","n":"elemental_damage","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 116. elemental_damage
+### 119. elemental_damage
 
 - Match score: `35`
 - `k`: 611
@@ -6037,7 +6075,7 @@ _No keyword matches in this index._
 {"k":"611","n":"elemental_damage","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elemental_damage"}
 ```
 
-### 117. Elemental_onhit_audio
+### 120. Elemental_onhit_audio
 
 - Match score: `35`
 - `k`: Elemental_onhit_audio
@@ -6047,47 +6085,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"Elemental_onhit_audio","n":"Elemental_onhit_audio","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
-```
-
-### 118. Elemental_onhit_audio
-
-- Match score: `35`
-- `k`: 1032
-- `n`: Elemental_onhit_audio
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
-
-```json
-{"k":"1032","n":"Elemental_onhit_audio","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"Elemental_onhit_audio"}
-```
-
-### 119. Elementalist Robe
-
-- Match score: `35`
-- `k`: Metadata/Items/Armours/BodyArmours/FourBodyInt9
-- `n`: Elementalist Robe
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["int_armour","karui_basetype","body_armour","armour","default"]
-- `req`: {"dexterity":0,"intelligence":72,"level":45,"strength":0}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Armours/BodyArmours/FourBodyInt9","n":"Elementalist Robe","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Body Armour","tags":["int_armour","karui_basetype","body_armour","armour","default"],"req":{"dexterity":0,"intelligence":72,"level":45,"strength":0},"domain":"item"}
-```
-
-### 120. Essence of Alacrity
-
-- Match score: `35`
-- `k`: Metadata/Items/Currency/CurrencyEssenceSpeedCaster
-- `n`: Essence of Alacrity
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["essence","currency","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Currency/CurrencyEssenceSpeedCaster","n":"Essence of Alacrity","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"StackableCurrency","tags":["essence","currency","default"],"domain":"undefined"}
 ```
 
 ## Mods and affixes
@@ -6176,6 +6173,7 @@ _No keyword matches in this index._
 ```
 
 ### 6. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
+<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{All Damage can Shock}
 <rgb(135,134,253)>{All Damage can Chill}
 <rgb(135,134,253)>{All Damage can Ignite}
@@ -6184,6 +6182,7 @@ _No keyword matches in this index._
 - Match score: `105`
 - `k`: ExpeditionMonsterModRunePrismatic
 - `n`: <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
+<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{All Damage can Shock}
 <rgb(135,134,253)>{All Damage can Chill}
 <rgb(135,134,253)>{All Damage can Ignite}
@@ -6196,7 +6195,7 @@ _No keyword matches in this index._
 - `stats`: [{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}]
 
 ```json
-{"k":"ExpeditionMonsterModRunePrismatic","n":"<<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}\r\n<rgb(135,134,253)>{All Damage can Shock}\r\n<rgb(135,134,253)>{All Damage can Chill}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{All Elemental Resistance}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
+{"k":"ExpeditionMonsterModRunePrismatic","n":"<<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{All Damage can Shock}\r\n<rgb(135,134,253)>{All Damage can Chill}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{All Elemental Resistance}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
 ### 7. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
@@ -7424,14 +7423,14 @@ _No keyword matches in this index._
 ### 86. <<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Cannot be Shocked or Chilled}
-<rgb(135,134,253)>{All Damage can Shock and Chill}
+<rgb(135,134,253)>{[DamageTypes|All Damage] [Contributes|contributes] to chance to [Shock] and [Chill] Magnitude}
 
 - Match score: `70`
 - `k`: ExpeditionMonsterModRuneTempest
 - `n`: <<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Cannot be Shocked or Chilled}
-<rgb(135,134,253)>{All Damage can Shock and Chill}
+<rgb(135,134,253)>{[DamageTypes|All Damage] [Contributes|contributes] to chance to [Shock] and [Chill] Magnitude}
 - `cat`: repoe_mods
 - `src`: repoe_poe2/mods.json
 - `lvl`: 1
@@ -7440,20 +7439,20 @@ _No keyword matches in this index._
 - `stats`: [{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":0,"min":0},{"id":"base_cannot_be_chilled","max":0,"min":0},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60},{"id":"active_skill_shock_chance_+%_final","max":0,"min":0},{"id":"active_skill_chill_as_though_damage_+%_final","max":0,"min":0}]
 
 ```json
-{"k":"ExpeditionMonsterModRuneTempest","n":"<<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Cannot be Shocked or Chilled}\r\n<rgb(135,134,253)>{All Damage can Shock and Chill}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":0,"min":0},{"id":"base_cannot_be_chilled","max":0,"min":0},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60},{"id":"active_skill_shock_chance_+%_final","max":0,"min":0},{"id":"active_skill_chill_as_though_damage_+%_final","max":0,"min":0}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
+{"k":"ExpeditionMonsterModRuneTempest","n":"<<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Cannot be Shocked or Chilled}\r\n<rgb(135,134,253)>{[DamageTypes|All Damage] [Contributes|contributes] to chance to [Shock] and [Chill] Magnitude}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":0,"min":0},{"id":"base_cannot_be_chilled","max":0,"min":0},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60},{"id":"active_skill_shock_chance_+%_final","max":0,"min":0},{"id":"active_skill_chill_as_though_damage_+%_final","max":0,"min":0}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
 ### 87. <<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Cannot be Shocked or Chilled}
-<rgb(135,134,253)>{All Damage can Shock and Chill}
+<rgb(135,134,253)>{[DamageTypes|All Damage] [Contributes|contributes] to chance to [Shock] and [Chill] Magnitude}
 
 - Match score: `70`
 - `k`: ExpeditionMonsterModRuneTempestPower
 - `n`: <<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Cannot be Shocked or Chilled}
-<rgb(135,134,253)>{All Damage can Shock and Chill}
+<rgb(135,134,253)>{[DamageTypes|All Damage] [Contributes|contributes] to chance to [Shock] and [Chill] Magnitude}
 - `cat`: repoe_mods
 - `src`: repoe_poe2/mods.json
 - `lvl`: 1
@@ -7462,7 +7461,7 @@ _No keyword matches in this index._
 - `stats`: [{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":1,"min":1},{"id":"base_cannot_be_chilled","max":1,"min":1},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60},{"id":"active_skill_shock_chance_+%_final","max":100,"min":100},{"id":"active_skill_chill_as_though_damage_+%_final","max":100,"min":100}]
 
 ```json
-{"k":"ExpeditionMonsterModRuneTempestPower","n":"<<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Cannot be Shocked or Chilled}\r\n<rgb(135,134,253)>{All Damage can Shock and Chill}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":1,"min":1},{"id":"base_cannot_be_chilled","max":1,"min":1},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60},{"id":"active_skill_shock_chance_+%_final","max":100,"min":100},{"id":"active_skill_chill_as_though_damage_+%_final","max":100,"min":100}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
+{"k":"ExpeditionMonsterModRuneTempestPower","n":"<<ExpedRuneTempest>><rgb(219,217,206)>{Tempest Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Cannot be Shocked or Chilled}\r\n<rgb(135,134,253)>{[DamageTypes|All Damage] [Contributes|contributes] to chance to [Shock] and [Chill] Magnitude}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"base_cannot_be_shocked","max":1,"min":1},{"id":"base_cannot_be_chilled","max":1,"min":1},{"id":"base_avoid_shock_%","max":60,"min":60},{"id":"base_avoid_chill_%","max":60,"min":60},{"id":"active_skill_shock_chance_+%_final","max":100,"min":100},{"id":"active_skill_chill_as_though_damage_+%_final","max":100,"min":100}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
 ### 88. AdditionalCriticalStrikeChancePerPowerChargeUnique__1
@@ -8324,52 +8323,52 @@ _No keyword matches in this index._
 {"k":"[Exposure] on [Cold] [Critical|Critical Hit]@{0}s","n":"[Exposure] on [Cold] [Critical|Critical Hit]@{0}s","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 11. [HitDamage|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% less Damage
+### 11. [Hit|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% less Damage
 
 - Match score: `140`
-- `k`: [HitDamage|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% less Damage
-- `n`: [HitDamage|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% less Damage
+- `k`: [Hit|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% less Damage
+- `n`: [Hit|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% less Damage
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[HitDamage|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% less Damage","n":"[HitDamage|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% less Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Hit|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% less Damage","n":"[Hit|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% less Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 12. [HitDamage|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% more Damage
+### 12. [Hit|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% more Damage
 
 - Match score: `140`
-- `k`: [HitDamage|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% more Damage
-- `n`: [HitDamage|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% more Damage
+- `k`: [Hit|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% more Damage
+- `n`: [Hit|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% more Damage
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[HitDamage|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% more Damage","n":"[HitDamage|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% more Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Hit|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% more Damage","n":"[Hit|Hits] against Enemies in [ChilledGround|Chilled Ground] created by Supported Skills build up [Freeze] as though dealing {0}% more Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 13. [HitDamage|Hits] against you have {0}% increased [Critical|Critical Hit Chance] while you are [Chill|Chilled]
+### 13. [Hit|Hits] against you have {0}% increased [Critical|Critical Hit Chance] while you are [Chill|Chilled]
 
 - Match score: `140`
-- `k`: [HitDamage|Hits] against you have {0}% increased [Critical|Critical Hit Chance] while you are [Chill|Chilled]
-- `n`: [HitDamage|Hits] against you have {0}% increased [Critical|Critical Hit Chance] while you are [Chill|Chilled]
+- `k`: [Hit|Hits] against you have {0}% increased [Critical|Critical Hit Chance] while you are [Chill|Chilled]
+- `n`: [Hit|Hits] against you have {0}% increased [Critical|Critical Hit Chance] while you are [Chill|Chilled]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[HitDamage|Hits] against you have {0}% increased [Critical|Critical Hit Chance] while you are [Chill|Chilled]","n":"[HitDamage|Hits] against you have {0}% increased [Critical|Critical Hit Chance] while you are [Chill|Chilled]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Hit|Hits] against you have {0}% increased [Critical|Critical Hit Chance] while you are [Chill|Chilled]","n":"[Hit|Hits] against you have {0}% increased [Critical|Critical Hit Chance] while you are [Chill|Chilled]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 14. [HitDamage|Hits] against you have {0}% reduced [Critical|Critical Hit Chance] while you are [Chill|Chilled]
+### 14. [Hit|Hits] against you have {0}% reduced [Critical|Critical Hit Chance] while you are [Chill|Chilled]
 
 - Match score: `140`
-- `k`: [HitDamage|Hits] against you have {0}% reduced [Critical|Critical Hit Chance] while you are [Chill|Chilled]
-- `n`: [HitDamage|Hits] against you have {0}% reduced [Critical|Critical Hit Chance] while you are [Chill|Chilled]
+- `k`: [Hit|Hits] against you have {0}% reduced [Critical|Critical Hit Chance] while you are [Chill|Chilled]
+- `n`: [Hit|Hits] against you have {0}% reduced [Critical|Critical Hit Chance] while you are [Chill|Chilled]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[HitDamage|Hits] against you have {0}% reduced [Critical|Critical Hit Chance] while you are [Chill|Chilled]","n":"[HitDamage|Hits] against you have {0}% reduced [Critical|Critical Hit Chance] while you are [Chill|Chilled]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Hit|Hits] against you have {0}% reduced [Critical|Critical Hit Chance] while you are [Chill|Chilled]","n":"[Hit|Hits] against you have {0}% reduced [Critical|Critical Hit Chance] while you are [Chill|Chilled]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 15. Adds {0} to {1} Cold Damage against Chilled or Frozen Enemies
@@ -8447,16 +8446,16 @@ _No keyword matches in this index._
 {"k":"Damage Penetrates {0}% Elemental Resistances while you are Chilled","n":"Damage Penetrates {0}% Elemental Resistances while you are Chilled","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 21. Enemies [Chill|Chilled] by your [HitDamage|Hits] can be [Shatter|Shattered] as though [Frozen]
+### 21. Enemies [Chill|Chilled] by your [Hit|Hits] can be [Shatter|Shattered] as though [Frozen]
 
 - Match score: `140`
-- `k`: Enemies [Chill|Chilled] by your [HitDamage|Hits] can be [Shatter|Shattered] as though [Frozen]
-- `n`: Enemies [Chill|Chilled] by your [HitDamage|Hits] can be [Shatter|Shattered] as though [Frozen]
+- `k`: Enemies [Chill|Chilled] by your [Hit|Hits] can be [Shatter|Shattered] as though [Frozen]
+- `n`: Enemies [Chill|Chilled] by your [Hit|Hits] can be [Shatter|Shattered] as though [Frozen]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"Enemies [Chill|Chilled] by your [HitDamage|Hits] can be [Shatter|Shattered] as though [Frozen]","n":"Enemies [Chill|Chilled] by your [HitDamage|Hits] can be [Shatter|Shattered] as though [Frozen]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"Enemies [Chill|Chilled] by your [Hit|Hits] can be [Shatter|Shattered] as though [Frozen]","n":"Enemies [Chill|Chilled] by your [Hit|Hits] can be [Shatter|Shattered] as though [Frozen]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 22. Enemies [Freeze|Frozen] by you have {0}% to Cold Resistance
@@ -8978,16 +8977,16 @@ by Elemental Ailments
 {"k":"[Cold] [Resistances|Resistance] [Penetration]@{0}%","n":"[Cold] [Resistances|Resistance] [Penetration]@{0}%","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 63. [Cold] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup
+### 63. [Cold] Damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup
 
 - Match score: `105`
-- `k`: [Cold] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup
-- `n`: [Cold] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup
+- `k`: [Cold] Damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup
+- `n`: [Cold] Damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[Cold] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup","n":"[Cold] Damage from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Cold] Damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup","n":"[Cold] Damage from [Hit|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes] instead of [Chill] Magnitude or [Freeze] Buildup","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 64. [Cold] damage per second if [ChilledGround|Chilled Ground] absorbed@{0}
@@ -9062,16 +9061,16 @@ by Elemental Ailments
 {"k":"[ElementalAilments|Elemental Ailments] other than [Freeze] you inflict are Reflected to you","n":"[ElementalAilments|Elemental Ailments] other than [Freeze] you inflict are Reflected to you","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 70. [ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+### 70. [ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 
 - Match score: `105`
-- `k`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
-- `n`: [ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+- `k`: [ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
+- `n`: [ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[ElementalDamage|Elemental Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","n":"[ElementalDamage|Elemental Damage] from [Hit|Hits] [Contributes|Contributes] to [Flammability], [Ignite], and [Chill] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 71. [Exposure] lowers Total [ElementalDamage|Elemental]
@@ -9149,64 +9148,64 @@ by Elemental Ailments
 {"k":"[Gain] {0}% of Damage as Extra [Cold] Damage while on [ChilledGround|Chilled Ground]","n":"[Gain] {0}% of Damage as Extra [Cold] Damage while on [ChilledGround|Chilled Ground]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 77. [HitDamage|Hits] against targets [Freeze|Frozen] by Supported Skills [ArmourBreak|Break Armour] equal to {0}% of [Physical] damage dealt
+### 77. [Hit|Hits] against targets [Freeze|Frozen] by Supported Skills [ArmourBreak|Break Armour] equal to {0}% of [Physical] damage dealt
 
 - Match score: `105`
-- `k`: [HitDamage|Hits] against targets [Freeze|Frozen] by Supported Skills [ArmourBreak|Break Armour] equal to {0}% of [Physical] damage dealt
-- `n`: [HitDamage|Hits] against targets [Freeze|Frozen] by Supported Skills [ArmourBreak|Break Armour] equal to {0}% of [Physical] damage dealt
+- `k`: [Hit|Hits] against targets [Freeze|Frozen] by Supported Skills [ArmourBreak|Break Armour] equal to {0}% of [Physical] damage dealt
+- `n`: [Hit|Hits] against targets [Freeze|Frozen] by Supported Skills [ArmourBreak|Break Armour] equal to {0}% of [Physical] damage dealt
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[HitDamage|Hits] against targets [Freeze|Frozen] by Supported Skills [ArmourBreak|Break Armour] equal to {0}% of [Physical] damage dealt","n":"[HitDamage|Hits] against targets [Freeze|Frozen] by Supported Skills [ArmourBreak|Break Armour] equal to {0}% of [Physical] damage dealt","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Hit|Hits] against targets [Freeze|Frozen] by Supported Skills [ArmourBreak|Break Armour] equal to {0}% of [Physical] damage dealt","n":"[Hit|Hits] against targets [Freeze|Frozen] by Supported Skills [ArmourBreak|Break Armour] equal to {0}% of [Physical] damage dealt","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 78. [HitDamage|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies
+### 78. [Hit|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies
 
 - Match score: `105`
-- `k`: [HitDamage|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies
-- `n`: [HitDamage|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies
+- `k`: [Hit|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies
+- `n`: [Hit|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[HitDamage|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies","n":"[HitDamage|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Hit|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies","n":"[Hit|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 79. [HitDamage|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
+### 79. [Hit|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
 
 - Match score: `105`
-- `k`: [HitDamage|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
-- `n`: [HitDamage|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
+- `k`: [Hit|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
+- `n`: [Hit|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[HitDamage|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted","n":"[HitDamage|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Hit|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted","n":"[Hit|Hits] with Supported Skills have {0}% chance to treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 80. [HitDamage|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
+### 80. [Hit|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
 
 - Match score: `105`
-- `k`: [HitDamage|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
-- `n`: [HitDamage|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
+- `k`: [Hit|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
+- `n`: [Hit|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[HitDamage|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted","n":"[HitDamage|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[Hit|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted","n":"[Hit|Hits] with Supported Skills treat Enemy Monster [ElementalDamage|Elemental] [Resistances|Resistance] values as inverted","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 81. [IceCrystals|Ice Crystals] created by Supported Skills can [Impale] with [Cold] [HitDamage|Damage] as though it was [Physical]
+### 81. [IceCrystals|Ice Crystals] created by Supported Skills can [Impale] with [Cold] [Hit|Damage] as though it was [Physical]
 
 - Match score: `105`
-- `k`: [IceCrystals|Ice Crystals] created by Supported Skills can [Impale] with [Cold] [HitDamage|Damage] as though it was [Physical]
-- `n`: [IceCrystals|Ice Crystals] created by Supported Skills can [Impale] with [Cold] [HitDamage|Damage] as though it was [Physical]
+- `k`: [IceCrystals|Ice Crystals] created by Supported Skills can [Impale] with [Cold] [Hit|Damage] as though it was [Physical]
+- `n`: [IceCrystals|Ice Crystals] created by Supported Skills can [Impale] with [Cold] [Hit|Damage] as though it was [Physical]
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"[IceCrystals|Ice Crystals] created by Supported Skills can [Impale] with [Cold] [HitDamage|Damage] as though it was [Physical]","n":"[IceCrystals|Ice Crystals] created by Supported Skills can [Impale] with [Cold] [HitDamage|Damage] as though it was [Physical]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"[IceCrystals|Ice Crystals] created by Supported Skills can [Impale] with [Cold] [Hit|Damage] as though it was [Physical]","n":"[IceCrystals|Ice Crystals] created by Supported Skills can [Impale] with [Cold] [Hit|Damage] as though it was [Physical]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 82. [IceCrystals|Ice Crystals] have {0}% increased maximum Life per 5% [Resistances|Cold Resistance] you have
@@ -9687,24 +9686,24 @@ Skills Supported by Nightblade
 ```
 
 ### 120. For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
 •Blue: Skills have {1}% less cost
 •Green: {2}% less Movement Speed Penalty from using Skills while Moving
 
 - Match score: `105`
 - `k`: For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
 •Blue: Skills have {1}% less cost
 •Green: {2}% less Movement Speed Penalty from using Skills while Moving
 - `n`: For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
 •Blue: Skills have {1}% less cost
 •Green: {2}% less Movement Speed Penalty from using Skills while Moving
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","n":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","n":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ## Index match summary

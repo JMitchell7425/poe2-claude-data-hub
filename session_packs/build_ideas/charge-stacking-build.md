@@ -1,6 +1,6 @@
 # Build Idea Pack — Charge-Stacking Build
 
-- Generated UTC: `2026-09-05T13:27:50+00:00`
+- Generated UTC: `2026-09-06T13:41:09+00:00`
 - Idea slug: `charge-stacking-build`
 - Purpose: Engineer around power, frenzy, endurance, charge generation, charge consumption, and charge scaling.
 - Keywords: `charge, charges, power charge, frenzy charge, endurance charge, gain charge, consume charge, maximum charge, critical, crit, duration, killing palm, charge profusion, overflowing power, damage, speed, boss, clear`
@@ -4484,13 +4484,13 @@ _No keyword matches in this index._
 ### 4. caster_critical
 
 - Match score: `70`
-- `k`: 1298
+- `k`: 1300
 - `n`: caster_critical
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1298","n":"caster_critical","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_critical"}
+{"k":"1300","n":"caster_critical","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_critical"}
 ```
 
 ### 5. Charge Profusion I
@@ -4998,7 +4998,21 @@ _No keyword matches in this index._
 {"k":"835","n":"archer_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"archer_boss_area"}
 ```
 
-### 43. atziri_boss
+### 43. Atziri's Soul Core of Alacrity
+
+- Match score: `35`
+- `k`: Metadata/Items/SoulCores/SoulCoreSpecial31
+- `n`: Atziri's Soul Core of Alacrity
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["soul_core","soul_core_tier4","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/SoulCores/SoulCoreSpecial31","n":"Atziri's Soul Core of Alacrity","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["soul_core","soul_core_tier4","default"],"domain":"undefined"}
+```
+
+### 44. atziri_boss
 
 - Match score: `35`
 - `k`: atziri_boss
@@ -5010,7 +5024,7 @@ _No keyword matches in this index._
 {"k":"atziri_boss","n":"atziri_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 44. atziri_boss
+### 45. atziri_boss
 
 - Match score: `35`
 - `k`: 899
@@ -5022,7 +5036,7 @@ _No keyword matches in this index._
 {"k":"899","n":"atziri_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"atziri_boss"}
 ```
 
-### 45. bear_boss_map
+### 46. bear_boss_map
 
 - Match score: `35`
 - `k`: bear_boss_map
@@ -5034,7 +5048,7 @@ _No keyword matches in this index._
 {"k":"bear_boss_map","n":"bear_boss_map","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 46. bear_boss_map
+### 47. bear_boss_map
 
 - Match score: `35`
 - `k`: 962
@@ -5046,7 +5060,7 @@ _No keyword matches in this index._
 {"k":"962","n":"bear_boss_map","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bear_boss_map"}
 ```
 
-### 47. bestiary_beast_boss
+### 48. bestiary_beast_boss
 
 - Match score: `35`
 - `k`: bestiary_beast_boss
@@ -5058,7 +5072,7 @@ _No keyword matches in this index._
 {"k":"bestiary_beast_boss","n":"bestiary_beast_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 48. bestiary_beast_boss
+### 49. bestiary_beast_boss
 
 - Match score: `35`
 - `k`: 293
@@ -5070,7 +5084,7 @@ _No keyword matches in this index._
 {"k":"293","n":"bestiary_beast_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bestiary_beast_boss"}
 ```
 
-### 49. bestiary_spirit_boss
+### 50. bestiary_spirit_boss
 
 - Match score: `35`
 - `k`: bestiary_spirit_boss
@@ -5082,7 +5096,7 @@ _No keyword matches in this index._
 {"k":"bestiary_spirit_boss","n":"bestiary_spirit_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 50. bestiary_spirit_boss
+### 51. bestiary_spirit_boss
 
 - Match score: `35`
 - `k`: 833
@@ -5094,7 +5108,7 @@ _No keyword matches in this index._
 {"k":"833","n":"bestiary_spirit_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bestiary_spirit_boss"}
 ```
 
-### 51. blight_boss
+### 52. blight_boss
 
 - Match score: `35`
 - `k`: blight_boss
@@ -5106,7 +5120,7 @@ _No keyword matches in this index._
 {"k":"blight_boss","n":"blight_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 52. blight_boss
+### 53. blight_boss
 
 - Match score: `35`
 - `k`: 649
@@ -5118,7 +5132,7 @@ _No keyword matches in this index._
 {"k":"649","n":"blight_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"blight_boss"}
 ```
 
-### 53. blood_mage_boss_map
+### 54. blood_mage_boss_map
 
 - Match score: `35`
 - `k`: blood_mage_boss_map
@@ -5130,7 +5144,7 @@ _No keyword matches in this index._
 {"k":"blood_mage_boss_map","n":"blood_mage_boss_map","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 54. blood_mage_boss_map
+### 55. blood_mage_boss_map
 
 - Match score: `35`
 - `k`: 944
@@ -5142,7 +5156,7 @@ _No keyword matches in this index._
 {"k":"944","n":"blood_mage_boss_map","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"blood_mage_boss_map"}
 ```
 
-### 55. boss
+### 56. boss
 
 - Match score: `35`
 - `k`: boss
@@ -5154,7 +5168,7 @@ _No keyword matches in this index._
 {"k":"boss","n":"boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 56. boss
+### 57. boss
 
 - Match score: `35`
 - `k`: 1103
@@ -5166,7 +5180,7 @@ _No keyword matches in this index._
 {"k":"1103","n":"boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"boss"}
 ```
 
-### 57. breachlord_boss_domain
+### 58. breachlord_boss_domain
 
 - Match score: `35`
 - `k`: breachlord_boss_domain
@@ -5178,7 +5192,7 @@ _No keyword matches in this index._
 {"k":"breachlord_boss_domain","n":"breachlord_boss_domain","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 58. breachlord_boss_domain
+### 59. breachlord_boss_domain
 
 - Match score: `35`
 - `k`: 887
@@ -5190,7 +5204,7 @@ _No keyword matches in this index._
 {"k":"887","n":"breachlord_boss_domain","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"breachlord_boss_domain"}
 ```
 
-### 59. brute_boss
+### 60. brute_boss
 
 - Match score: `35`
 - `k`: brute_boss
@@ -5202,7 +5216,7 @@ _No keyword matches in this index._
 {"k":"brute_boss","n":"brute_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 60. brute_boss
+### 61. brute_boss
 
 - Match score: `35`
 - `k`: 967
@@ -5214,7 +5228,7 @@ _No keyword matches in this index._
 {"k":"967","n":"brute_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"brute_boss"}
 ```
 
-### 61. cannot_possess_boss
+### 62. cannot_possess_boss
 
 - Match score: `35`
 - `k`: cannot_possess_boss
@@ -5226,7 +5240,7 @@ _No keyword matches in this index._
 {"k":"cannot_possess_boss","n":"cannot_possess_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 62. cannot_possess_boss
+### 63. cannot_possess_boss
 
 - Match score: `35`
 - `k`: 948
@@ -5238,7 +5252,7 @@ _No keyword matches in this index._
 {"k":"948","n":"cannot_possess_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cannot_possess_boss"}
 ```
 
-### 63. Cast when Damage Taken
+### 64. Cast when Damage Taken
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemCastWhenDamageTaken
@@ -5252,7 +5266,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemCastWhenDamageTaken","n":"Cast when Damage Taken","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 64. caster_damage
+### 65. caster_damage
 
 - Match score: `35`
 - `k`: caster_damage
@@ -5264,7 +5278,7 @@ _No keyword matches in this index._
 {"k":"caster_damage","n":"caster_damage","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 65. caster_damage
+### 66. caster_damage
 
 - Match score: `35`
 - `k`: 614
@@ -5276,7 +5290,7 @@ _No keyword matches in this index._
 {"k":"614","n":"caster_damage","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_damage"}
 ```
 
-### 66. caster_speed
+### 67. caster_speed
 
 - Match score: `35`
 - `k`: caster_speed
@@ -5288,19 +5302,19 @@ _No keyword matches in this index._
 {"k":"caster_speed","n":"caster_speed","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 67. caster_speed
+### 68. caster_speed
 
 - Match score: `35`
-- `k`: 1297
+- `k`: 1299
 - `n`: caster_speed
 - `cat`: repoe_tags
 - `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"1297","n":"caster_speed","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_speed"}
+{"k":"1299","n":"caster_speed","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_speed"}
 ```
 
-### 68. chaos_damage
+### 69. chaos_damage
 
 - Match score: `35`
 - `k`: chaos_damage
@@ -5312,7 +5326,7 @@ _No keyword matches in this index._
 {"k":"chaos_damage","n":"chaos_damage","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 69. chaos_damage
+### 70. chaos_damage
 
 - Match score: `35`
 - `k`: 659
@@ -5324,7 +5338,7 @@ _No keyword matches in this index._
 {"k":"659","n":"chaos_damage","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_damage"}
 ```
 
-### 70. chaos_golem_boss_area
+### 71. chaos_golem_boss_area
 
 - Match score: `35`
 - `k`: chaos_golem_boss_area
@@ -5336,7 +5350,7 @@ _No keyword matches in this index._
 {"k":"chaos_golem_boss_area","n":"chaos_golem_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 71. chaos_golem_boss_area
+### 72. chaos_golem_boss_area
 
 - Match score: `35`
 - `k`: 807
@@ -5348,7 +5362,7 @@ _No keyword matches in this index._
 {"k":"807","n":"chaos_golem_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_golem_boss_area"}
 ```
 
-### 72. Charge Regulation
+### 73. Charge Regulation
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SkillGemChargeInfusion
@@ -5362,7 +5376,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemChargeInfusion","n":"Charge Regulation","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 73. Charged Compass
+### 74. Charged Compass
 
 - Match score: `35`
 - `k`: Metadata/Items/Currency/CurrencyItemisedSextantModifier
@@ -5376,7 +5390,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Currency/CurrencyItemisedSextantModifier","n":"Charged Compass","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"StackableCurrency","tags":["currency","default"],"domain":"undefined"}
 ```
 
-### 74. Charged Mark
+### 75. Charged Mark
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SupportGemChargedMark
@@ -5390,7 +5404,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemChargedMark","n":"Charged Mark","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
 ```
 
-### 75. Charged Shots I
+### 76. Charged Shots I
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SupportGemChargedShots
@@ -5404,7 +5418,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SupportGemChargedShots","n":"Charged Shots I","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
 ```
 
-### 76. Charged Shots II
+### 77. Charged Shots II
 
 - Match score: `35`
 - `k`: Metadata/Items/Gem/SupportGemChargedShotsTwo
@@ -5418,7 +5432,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SupportGemChargedShotsTwo","n":"Charged Shots II","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
 ```
 
-### 77. Charged Staff
+### 78. Charged Staff
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SkillGemChargedStaff
@@ -5432,7 +5446,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemChargedStaff","n":"Charged Staff","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 78. Chayula's Charged Breachstone
+### 79. Chayula's Charged Breachstone
 
 - Match score: `35`
 - `k`: Metadata/Items/MapFragments/CurrencyBreachFragmentChaos2
@@ -5446,7 +5460,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/MapFragments/CurrencyBreachFragmentChaos2","n":"Chayula's Charged Breachstone","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Breachstone","tags":["breachstone2","default"],"domain":"undefined"}
 ```
 
-### 79. chayula_boss
+### 80. chayula_boss
 
 - Match score: `35`
 - `k`: chayula_boss
@@ -5458,7 +5472,7 @@ _No keyword matches in this index._
 {"k":"chayula_boss","n":"chayula_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 80. chayula_boss
+### 81. chayula_boss
 
 - Match score: `35`
 - `k`: 862
@@ -5470,7 +5484,7 @@ _No keyword matches in this index._
 {"k":"862","n":"chayula_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chayula_boss"}
 ```
 
-### 81. Compressed Duration I
+### 82. Compressed Duration I
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SupportGemFastForward
@@ -5484,7 +5498,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemFastForward","n":"Compressed Duration I","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
 ```
 
-### 82. Compressed Duration II
+### 83. Compressed Duration II
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SupportGemFastForwardTwo
@@ -5498,7 +5512,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemFastForwardTwo","n":"Compressed Duration II","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
 ```
 
-### 83. cortex_boss
+### 84. cortex_boss
 
 - Match score: `35`
 - `k`: cortex_boss
@@ -5510,7 +5524,7 @@ _No keyword matches in this index._
 {"k":"cortex_boss","n":"cortex_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 84. cortex_boss
+### 85. cortex_boss
 
 - Match score: `35`
 - `k`: 938
@@ -5522,7 +5536,7 @@ _No keyword matches in this index._
 {"k":"938","n":"cortex_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cortex_boss"}
 ```
 
-### 85. crusader_conqueror_boss
+### 86. crusader_conqueror_boss
 
 - Match score: `35`
 - `k`: crusader_conqueror_boss
@@ -5534,7 +5548,7 @@ _No keyword matches in this index._
 {"k":"crusader_conqueror_boss","n":"crusader_conqueror_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 86. crusader_conqueror_boss
+### 87. crusader_conqueror_boss
 
 - Match score: `35`
 - `k`: 886
@@ -5546,7 +5560,7 @@ _No keyword matches in this index._
 {"k":"886","n":"crusader_conqueror_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"crusader_conqueror_boss"}
 ```
 
-### 87. Damage
+### 88. Damage
 
 - Match score: `35`
 - `k`: damage
@@ -5558,7 +5572,7 @@ _No keyword matches in this index._
 {"k":"damage","n":"Damage","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 88. damage
+### 89. damage
 
 - Match score: `35`
 - `k`: 582
@@ -5570,7 +5584,7 @@ _No keyword matches in this index._
 {"k":"582","n":"damage","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"damage"}
 ```
 
-### 89. delve_lich_boss
+### 90. delve_lich_boss
 
 - Match score: `35`
 - `k`: delve_lich_boss
@@ -5582,7 +5596,7 @@ _No keyword matches in this index._
 {"k":"delve_lich_boss","n":"delve_lich_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 90. delve_lich_boss
+### 91. delve_lich_boss
 
 - Match score: `35`
 - `k`: 902
@@ -5594,7 +5608,7 @@ _No keyword matches in this index._
 {"k":"902","n":"delve_lich_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"delve_lich_boss"}
 ```
 
-### 91. delve_protovaal_boss
+### 92. delve_protovaal_boss
 
 - Match score: `35`
 - `k`: delve_protovaal_boss
@@ -5606,7 +5620,7 @@ _No keyword matches in this index._
 {"k":"delve_protovaal_boss","n":"delve_protovaal_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 92. delve_protovaal_boss
+### 93. delve_protovaal_boss
 
 - Match score: `35`
 - `k`: 900
@@ -5618,7 +5632,7 @@ _No keyword matches in this index._
 {"k":"900","n":"delve_protovaal_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"delve_protovaal_boss"}
 ```
 
-### 93. delve_vaal_boss
+### 94. delve_vaal_boss
 
 - Match score: `35`
 - `k`: delve_vaal_boss
@@ -5630,7 +5644,7 @@ _No keyword matches in this index._
 {"k":"delve_vaal_boss","n":"delve_vaal_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 94. delve_vaal_boss
+### 95. delve_vaal_boss
 
 - Match score: `35`
 - `k`: 901
@@ -5642,7 +5656,7 @@ _No keyword matches in this index._
 {"k":"901","n":"delve_vaal_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"delve_vaal_boss"}
 ```
 
-### 95. elder_boss
+### 96. elder_boss
 
 - Match score: `35`
 - `k`: elder_boss
@@ -5654,7 +5668,7 @@ _No keyword matches in this index._
 {"k":"elder_boss","n":"elder_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 96. elder_boss
+### 97. elder_boss
 
 - Match score: `35`
 - `k`: 884
@@ -5666,7 +5680,7 @@ _No keyword matches in this index._
 {"k":"884","n":"elder_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elder_boss"}
 ```
 
-### 97. elder_guardian_boss
+### 98. elder_guardian_boss
 
 - Match score: `35`
 - `k`: elder_guardian_boss
@@ -5678,7 +5692,7 @@ _No keyword matches in this index._
 {"k":"elder_guardian_boss","n":"elder_guardian_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 98. elder_guardian_boss
+### 99. elder_guardian_boss
 
 - Match score: `35`
 - `k`: 861
@@ -5690,7 +5704,7 @@ _No keyword matches in this index._
 {"k":"861","n":"elder_guardian_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elder_guardian_boss"}
 ```
 
-### 99. elder_map_boss
+### 100. elder_map_boss
 
 - Match score: `35`
 - `k`: elder_map_boss
@@ -5702,7 +5716,7 @@ _No keyword matches in this index._
 {"k":"elder_map_boss","n":"elder_map_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 100. elder_map_boss
+### 101. elder_map_boss
 
 - Match score: `35`
 - `k`: 783
@@ -5714,7 +5728,7 @@ _No keyword matches in this index._
 {"k":"783","n":"elder_map_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elder_map_boss"}
 ```
 
-### 101. eldritch_pinnacle_boss
+### 102. eldritch_pinnacle_boss
 
 - Match score: `35`
 - `k`: eldritch_pinnacle_boss
@@ -5726,7 +5740,7 @@ _No keyword matches in this index._
 {"k":"eldritch_pinnacle_boss","n":"eldritch_pinnacle_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 102. eldritch_pinnacle_boss
+### 103. eldritch_pinnacle_boss
 
 - Match score: `35`
 - `k`: 990
@@ -5738,7 +5752,7 @@ _No keyword matches in this index._
 {"k":"990","n":"eldritch_pinnacle_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"eldritch_pinnacle_boss"}
 ```
 
-### 103. Elemental Discharge
+### 104. Elemental Discharge
 
 - Match score: `35`
 - `k`: Metadata/Items/Gems/SupportGemElementalDischarge
@@ -5752,7 +5766,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemElementalDischarge","n":"Elemental Discharge","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
 ```
 
-### 104. elemental_damage
+### 105. elemental_damage
 
 - Match score: `35`
 - `k`: elemental_damage
@@ -5764,7 +5778,7 @@ _No keyword matches in this index._
 {"k":"elemental_damage","n":"elemental_damage","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 105. elemental_damage
+### 106. elemental_damage
 
 - Match score: `35`
 - `k`: 611
@@ -5776,7 +5790,7 @@ _No keyword matches in this index._
 {"k":"611","n":"elemental_damage","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elemental_damage"}
 ```
 
-### 106. Embossed Boots
+### 107. Embossed Boots
 
 - Match score: `35`
 - `k`: Metadata/Items/Armours/Boots/FourBootsDex3
@@ -5791,7 +5805,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Armours/Boots/FourBootsDex3","n":"Embossed Boots","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Boots","tags":["dex_armour","maraketh_basetype","boots","armour","default"],"req":{"dexterity":23,"intelligence":0,"level":16,"strength":0},"domain":"item"}
 ```
 
-### 107. endurance_charge
+### 108. endurance_charge
 
 - Match score: `35`
 - `k`: endurance_charge
@@ -5803,7 +5817,7 @@ _No keyword matches in this index._
 {"k":"endurance_charge","n":"endurance_charge","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 108. endurance_charge
+### 109. endurance_charge
 
 - Match score: `35`
 - `k`: 581
@@ -5815,7 +5829,7 @@ _No keyword matches in this index._
 {"k":"581","n":"endurance_charge","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"endurance_charge"}
 ```
 
-### 109. Esh's Charged Breachstone
+### 110. Esh's Charged Breachstone
 
 - Match score: `35`
 - `k`: Metadata/Items/MapFragments/CurrencyBreachFragmentLightning2
@@ -5829,7 +5843,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/MapFragments/CurrencyBreachFragmentLightning2","n":"Esh's Charged Breachstone","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Breachstone","tags":["breachstone2","default"],"domain":"undefined"}
 ```
 
-### 110. frenzy_charge
+### 111. frenzy_charge
 
 - Match score: `35`
 - `k`: frenzy_charge
@@ -5841,7 +5855,7 @@ _No keyword matches in this index._
 {"k":"frenzy_charge","n":"frenzy_charge","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 111. frenzy_charge
+### 112. frenzy_charge
 
 - Match score: `35`
 - `k`: 580
@@ -5853,7 +5867,7 @@ _No keyword matches in this index._
 {"k":"580","n":"frenzy_charge","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"frenzy_charge"}
 ```
 
-### 112. goatman_boss_area
+### 113. goatman_boss_area
 
 - Match score: `35`
 - `k`: goatman_boss_area
@@ -5865,7 +5879,7 @@ _No keyword matches in this index._
 {"k":"goatman_boss_area","n":"goatman_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 113. goatman_boss_area
+### 114. goatman_boss_area
 
 - Match score: `35`
 - `k`: 844
@@ -5877,7 +5891,7 @@ _No keyword matches in this index._
 {"k":"844","n":"goatman_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"goatman_boss_area"}
 ```
 
-### 114. god_boss_map_area
+### 115. god_boss_map_area
 
 - Match score: `35`
 - `k`: god_boss_map_area
@@ -5889,7 +5903,7 @@ _No keyword matches in this index._
 {"k":"god_boss_map_area","n":"god_boss_map_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 115. god_boss_map_area
+### 116. god_boss_map_area
 
 - Match score: `35`
 - `k`: 879
@@ -5901,7 +5915,7 @@ _No keyword matches in this index._
 {"k":"879","n":"god_boss_map_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"god_boss_map_area"}
 ```
 
-### 116. golem_boss_area
+### 117. golem_boss_area
 
 - Match score: `35`
 - `k`: golem_boss_area
@@ -5913,7 +5927,7 @@ _No keyword matches in this index._
 {"k":"golem_boss_area","n":"golem_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 117. golem_boss_area
+### 118. golem_boss_area
 
 - Match score: `35`
 - `k`: 806
@@ -5925,7 +5939,7 @@ _No keyword matches in this index._
 {"k":"806","n":"golem_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"golem_boss_area"}
 ```
 
-### 118. grants_crit_chance_support
+### 119. grants_crit_chance_support
 
 - Match score: `35`
 - `k`: grants_crit_chance_support
@@ -5937,7 +5951,7 @@ _No keyword matches in this index._
 {"k":"grants_crit_chance_support","n":"grants_crit_chance_support","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 119. grants_crit_chance_support
+### 120. grants_crit_chance_support
 
 - Match score: `35`
 - `k`: 291
@@ -5947,20 +5961,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"291","n":"grants_crit_chance_support","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"grants_crit_chance_support"}
-```
-
-### 120. Greater Rune of Alacrity
-
-- Match score: `35`
-- `k`: Metadata/Items/SoulCores/RuneSpecial3
-- `n`: Greater Rune of Alacrity
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["rune","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/SoulCores/RuneSpecial3","n":"Greater Rune of Alacrity","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","default"],"domain":"undefined"}
 ```
 
 ## Mods and affixes
@@ -8161,19 +8161,7 @@ Supported Skills have {0}% more chance to [Critical|Critically Hit] when consumi
 {"k":"{0}% Chance to gain up to maximum [Charges|Endurance Charges] when you take a [Critical|Critical Hit]","n":"{0}% Chance to gain up to maximum [Charges|Endurance Charges] when you take a [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 31. {0}% chance to refresh [Charges|Endurance Charge] Duration when you are [HitDamage|Hit]
-
-- Match score: `175`
-- `k`: {0}% chance to refresh [Charges|Endurance Charge] Duration when you are [HitDamage|Hit]
-- `n`: {0}% chance to refresh [Charges|Endurance Charge] Duration when you are [HitDamage|Hit]
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"{0}% chance to refresh [Charges|Endurance Charge] Duration when you are [HitDamage|Hit]","n":"{0}% chance to refresh [Charges|Endurance Charge] Duration when you are [HitDamage|Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 32. {0}% Global [CriticalDamageBonus|Critical Damage Bonus] while you have a Frenzy Charge
+### 31. {0}% Global [CriticalDamageBonus|Critical Damage Bonus] while you have a Frenzy Charge
 
 - Match score: `175`
 - `k`: {0}% Global [CriticalDamageBonus|Critical Damage Bonus] while you have a Frenzy Charge
@@ -8185,7 +8173,7 @@ Supported Skills have {0}% more chance to [Critical|Critically Hit] when consumi
 {"k":"{0}% Global [CriticalDamageBonus|Critical Damage Bonus] while you have a Frenzy Charge","n":"{0}% Global [CriticalDamageBonus|Critical Damage Bonus] while you have a Frenzy Charge","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 33. {0}% less [Critical|Critical Hit] Chance while
+### 32. {0}% less [Critical|Critical Hit] Chance while
 you have a [Charges|Power Charge]
 
 - Match score: `175`
@@ -8200,7 +8188,7 @@ you have a [Charges|Power Charge]
 {"k":"{0}% less [Critical|Critical Hit] Chance while\nyou have a [Charges|Power Charge]","n":"{0}% less [Critical|Critical Hit] Chance while\nyou have a [Charges|Power Charge]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 34. {0}% more [Critical|Critical Hit] Chance while
+### 33. {0}% more [Critical|Critical Hit] Chance while
 you have a [Charges|Power Charge]
 
 - Match score: `175`
@@ -8215,7 +8203,7 @@ you have a [Charges|Power Charge]
 {"k":"{0}% more [Critical|Critical Hit] Chance while\nyou have a [Charges|Power Charge]","n":"{0}% more [Critical|Critical Hit] Chance while\nyou have a [Charges|Power Charge]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 35. {0}% to [CriticalDamageBonus|Critical Damage Bonus] per Power Charge when used by Traps
+### 34. {0}% to [CriticalDamageBonus|Critical Damage Bonus] per Power Charge when used by Traps
 
 - Match score: `175`
 - `k`: {0}% to [CriticalDamageBonus|Critical Damage Bonus] per Power Charge when used by Traps
@@ -8227,7 +8215,7 @@ you have a [Charges|Power Charge]
 {"k":"{0}% to [CriticalDamageBonus|Critical Damage Bonus] per Power Charge when used by Traps","n":"{0}% to [CriticalDamageBonus|Critical Damage Bonus] per Power Charge when used by Traps","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 36. [Buff] duration is {0} seconds per [Charges|Power Charge] Consumed
+### 35. [Buff] duration is {0} seconds per [Charges|Power Charge] Consumed
 
 - Match score: `140`
 - `k`: [Buff] duration is {0} seconds per [Charges|Power Charge] Consumed
@@ -8239,7 +8227,7 @@ you have a [Charges|Power Charge]
 {"k":"[Buff] duration is {0} seconds per [Charges|Power Charge] Consumed","n":"[Buff] duration is {0} seconds per [Charges|Power Charge] Consumed","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 37. [Buff] duration per [Charges|Power Charge]@{0}s
+### 36. [Buff] duration per [Charges|Power Charge]@{0}s
 
 - Match score: `140`
 - `k`: [Buff] duration per [Charges|Power Charge]@{0}s
@@ -8251,7 +8239,7 @@ you have a [Charges|Power Charge]
 {"k":"[Buff] duration per [Charges|Power Charge]@{0}s","n":"[Buff] duration per [Charges|Power Charge]@{0}s","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 38. [Flask|Flasks] gain {1} Charges when you take a [Critical|Critical Hit]
+### 37. [Flask|Flasks] gain {1} Charges when you take a [Critical|Critical Hit]
 
 - Match score: `140`
 - `k`: [Flask|Flasks] gain {1} Charges when you take a [Critical|Critical Hit]
@@ -8263,7 +8251,7 @@ you have a [Charges|Power Charge]
 {"k":"[Flask|Flasks] gain {1} Charges when you take a [Critical|Critical Hit]","n":"[Flask|Flasks] gain {1} Charges when you take a [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 39. [Gain] {0}% of [Physical] Damage as Extra [Chaos] Damage while at maximum [Charges|Power Charges]
+### 38. [Gain] {0}% of [Physical] Damage as Extra [Chaos] Damage while at maximum [Charges|Power Charges]
 
 - Match score: `140`
 - `k`: [Gain] {0}% of [Physical] Damage as Extra [Chaos] Damage while at maximum [Charges|Power Charges]
@@ -8275,7 +8263,7 @@ you have a [Charges|Power Charge]
 {"k":"[Gain] {0}% of [Physical] Damage as Extra [Chaos] Damage while at maximum [Charges|Power Charges]","n":"[Gain] {0}% of [Physical] Damage as Extra [Chaos] Damage while at maximum [Charges|Power Charges]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 40. [Lightning|Lightning] damage per [Charges|Power Charge]@{0}–{1}
+### 39. [Lightning|Lightning] damage per [Charges|Power Charge]@{0}–{1}
 
 - Match score: `140`
 - `k`: [Lightning|Lightning] damage per [Charges|Power Charge]@{0}–{1}
@@ -8287,7 +8275,7 @@ you have a [Charges|Power Charge]
 {"k":"[Lightning|Lightning] damage per [Charges|Power Charge]@{0}–{1}","n":"[Lightning|Lightning] damage per [Charges|Power Charge]@{0}–{1}","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 41. [Spell|Spells] consume a [Charges|Power Charge] if able to deal {0}% less Damage
+### 40. [Spell|Spells] consume a [Charges|Power Charge] if able to deal {0}% less Damage
 
 - Match score: `140`
 - `k`: [Spell|Spells] consume a [Charges|Power Charge] if able to deal {0}% less Damage
@@ -8299,7 +8287,7 @@ you have a [Charges|Power Charge]
 {"k":"[Spell|Spells] consume a [Charges|Power Charge] if able to deal {0}% less Damage","n":"[Spell|Spells] consume a [Charges|Power Charge] if able to deal {0}% less Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 42. [Spell|Spells] consume a [Charges|Power Charge] if able to deal {0}% more Damage
+### 41. [Spell|Spells] consume a [Charges|Power Charge] if able to deal {0}% more Damage
 
 - Match score: `140`
 - `k`: [Spell|Spells] consume a [Charges|Power Charge] if able to deal {0}% more Damage
@@ -8311,7 +8299,7 @@ you have a [Charges|Power Charge]
 {"k":"[Spell|Spells] consume a [Charges|Power Charge] if able to deal {0}% more Damage","n":"[Spell|Spells] consume a [Charges|Power Charge] if able to deal {0}% more Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 43. Avoid Elemental Damage from Hits while you have Frenzy Charges
+### 42. Avoid Elemental Damage from Hits while you have Frenzy Charges
 
 - Match score: `140`
 - `k`: Avoid Elemental Damage from Hits while you have Frenzy Charges
@@ -8323,7 +8311,7 @@ you have a [Charges|Power Charge]
 {"k":"Avoid Elemental Damage from Hits while you have Frenzy Charges","n":"Avoid Elemental Damage from Hits while you have Frenzy Charges","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 44. Barrage and Frenzy have {0}% increased [Critical|Critical Hit] Chance per Endurance Charge
+### 43. Barrage and Frenzy have {0}% increased [Critical|Critical Hit] Chance per Endurance Charge
 
 - Match score: `140`
 - `k`: Barrage and Frenzy have {0}% increased [Critical|Critical Hit] Chance per Endurance Charge
@@ -8335,7 +8323,7 @@ you have a [Charges|Power Charge]
 {"k":"Barrage and Frenzy have {0}% increased [Critical|Critical Hit] Chance per Endurance Charge","n":"Barrage and Frenzy have {0}% increased [Critical|Critical Hit] Chance per Endurance Charge","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 45. Barrage and Frenzy have {0}% reduced [Critical|Critical Hit] Chance per Endurance Charge
+### 44. Barrage and Frenzy have {0}% reduced [Critical|Critical Hit] Chance per Endurance Charge
 
 - Match score: `140`
 - `k`: Barrage and Frenzy have {0}% reduced [Critical|Critical Hit] Chance per Endurance Charge
@@ -8347,7 +8335,7 @@ you have a [Charges|Power Charge]
 {"k":"Barrage and Frenzy have {0}% reduced [Critical|Critical Hit] Chance per Endurance Charge","n":"Barrage and Frenzy have {0}% reduced [Critical|Critical Hit] Chance per Endurance Charge","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 46. Buff duration is {0} seconds per [Charges|Power Charge] Consumed
+### 45. Buff duration is {0} seconds per [Charges|Power Charge] Consumed
 
 - Match score: `140`
 - `k`: Buff duration is {0} seconds per [Charges|Power Charge] Consumed
@@ -8359,7 +8347,7 @@ you have a [Charges|Power Charge]
 {"k":"Buff duration is {0} seconds per [Charges|Power Charge] Consumed","n":"Buff duration is {0} seconds per [Charges|Power Charge] Consumed","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 47. Buff duration per [Charges|Power Charge]@{0}s
+### 46. Buff duration per [Charges|Power Charge]@{0}s
 
 - Match score: `140`
 - `k`: Buff duration per [Charges|Power Charge]@{0}s
@@ -8371,7 +8359,7 @@ you have a [Charges|Power Charge]
 {"k":"Buff duration per [Charges|Power Charge]@{0}s","n":"Buff duration per [Charges|Power Charge]@{0}s","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 48. Buff grants {0} to {1} Added [Quarterstaff|Quarterstaff] [Attack|Attack] [Lightning|Lightning] damage per [Charges|Power Charge] Consumed, up to your maximum [Charges|Power Charges]
+### 47. Buff grants {0} to {1} Added [Quarterstaff|Quarterstaff] [Attack|Attack] [Lightning|Lightning] damage per [Charges|Power Charge] Consumed, up to your maximum [Charges|Power Charges]
 
 - Match score: `140`
 - `k`: Buff grants {0} to {1} Added [Quarterstaff|Quarterstaff] [Attack|Attack] [Lightning|Lightning] damage per [Charges|Power Charge] Consumed, up to your maximum [Charges|Power Charges]
@@ -8383,7 +8371,7 @@ you have a [Charges|Power Charge]
 {"k":"Buff grants {0} to {1} Added [Quarterstaff|Quarterstaff] [Attack|Attack] [Lightning|Lightning] damage per [Charges|Power Charge] Consumed, up to your maximum [Charges|Power Charges]","n":"Buff grants {0} to {1} Added [Quarterstaff|Quarterstaff] [Attack|Attack] [Lightning|Lightning] damage per [Charges|Power Charge] Consumed, up to your maximum [Charges|Power Charges]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 49. Can [Attack] as though using a [Quarterstaff] while both of your hand slots are empty
+### 48. Can [Attack] as though using a [Quarterstaff] while both of your hand slots are empty
 [UnarmedAttack|Unarmed Attacks] that would use an [Equipped] [Quarterstaff]'s damage have:
 • Base [UnarmedDamage|Unarmed] [Physical] damage replaced with damage based on their Skill Level
 • 1% more [Attack] Speed per 75 [ItemEvasion|Item Evasion] on [EquipArmour|Equipped Armour Items]
@@ -8407,7 +8395,7 @@ you have a [Charges|Power Charge]
 {"k":"Can [Attack] as though using a [Quarterstaff] while both of your hand slots are empty\n[UnarmedAttack|Unarmed Attacks] that would use an [Equipped] [Quarterstaff]'s damage have:\n• Base [UnarmedDamage|Unarmed] [Physical] damage replaced with damage based on their Skill Level\n• 1% more [Attack] Speed per 75 [ItemEvasion|Item Evasion] on [EquipArmour|Equipped Armour Items]\n• +0.1% to [Critical|Critical Hit Chance] per 10 [ItemEnergyShield|Item Energy Shield] on [EquipArmour|Equipped Armour Items]","n":"Can [Attack] as though using a [Quarterstaff] while both of your hand slots are empty\n[UnarmedAttack|Unarmed Attacks] that would use an [Equipped] [Quarterstaff]'s damage have:\n• Base [UnarmedDamage|Unarmed] [Physical] damage replaced with damage based on their Skill Level\n• 1% more [Attack] Speed per 75 [ItemEvasion|Item Evasion] on [EquipArmour|Equipped Armour Items]\n• +0.1% to...[trimmed]
 ```
 
-### 50. Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area
+### 49. Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area
 Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 
 - Match score: `140`
@@ -8422,7 +8410,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area\nCold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges","n":"Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area\nCold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 51. Consumes all [Charges|Endurance Charges] to increase [Warcry] duration by {0}% per charge
+### 50. Consumes all [Charges|Endurance Charges] to increase [Warcry] duration by {0}% per charge
 
 - Match score: `140`
 - `k`: Consumes all [Charges|Endurance Charges] to increase [Warcry] duration by {0}% per charge
@@ -8434,7 +8422,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Consumes all [Charges|Endurance Charges] to increase [Warcry] duration by {0}% per charge","n":"Consumes all [Charges|Endurance Charges] to increase [Warcry] duration by {0}% per charge","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 52. Damage per [Charges|Power Charge] Consumed@{0}
+### 51. Damage per [Charges|Power Charge] Consumed@{0}
 
 - Match score: `140`
 - `k`: Damage per [Charges|Power Charge] Consumed@{0}
@@ -8446,7 +8434,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Damage per [Charges|Power Charge] Consumed@{0}","n":"Damage per [Charges|Power Charge] Consumed@{0}","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 53. Deals {0} to {1} base [Lightning|Lightning] Damage per [Charges|Power Charge] removed
+### 52. Deals {0} to {1} base [Lightning|Lightning] Damage per [Charges|Power Charge] removed
 
 - Match score: `140`
 - `k`: Deals {0} to {1} base [Lightning|Lightning] Damage per [Charges|Power Charge] removed
@@ -8458,7 +8446,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Deals {0} to {1} base [Lightning|Lightning] Damage per [Charges|Power Charge] removed","n":"Deals {0} to {1} base [Lightning|Lightning] Damage per [Charges|Power Charge] removed","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 54. Deals {0}% more damage when Consuming a [Charges|Frenzy Charge]
+### 53. Deals {0}% more damage when Consuming a [Charges|Frenzy Charge]
 
 - Match score: `140`
 - `k`: Deals {0}% more damage when Consuming a [Charges|Frenzy Charge]
@@ -8470,7 +8458,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Deals {0}% more damage when Consuming a [Charges|Frenzy Charge]","n":"Deals {0}% more damage when Consuming a [Charges|Frenzy Charge]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 55. Duration per [Charges|Endurance Charge] Consumed@{0}
+### 54. Duration per [Charges|Endurance Charge] Consumed@{0}
 
 - Match score: `140`
 - `k`: Duration per [Charges|Endurance Charge] Consumed@{0}
@@ -8482,7 +8470,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Duration per [Charges|Endurance Charge] Consumed@{0}","n":"Duration per [Charges|Endurance Charge] Consumed@{0}","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 56. Flicker Strike and Vigilant Strike's Cooldown can be bypassed by Power Charges instead of Frenzy or Endurance Charges
+### 55. Flicker Strike and Vigilant Strike's Cooldown can be bypassed by Power Charges instead of Frenzy or Endurance Charges
 
 - Match score: `140`
 - `k`: Flicker Strike and Vigilant Strike's Cooldown can be bypassed by Power Charges instead of Frenzy or Endurance Charges
@@ -8494,91 +8482,91 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Flicker Strike and Vigilant Strike's Cooldown can be bypassed by Power Charges instead of Frenzy or Endurance Charges","n":"Flicker Strike and Vigilant Strike's Cooldown can be bypassed by Power Charges instead of Frenzy or Endurance Charges","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 57. For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+### 56. For each colour of Socketed Support Gem that is most numerous, gain:
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
 •Blue: Skills have {1}% less cost
 •Green: {2}% less Movement Speed Penalty from using Skills while Moving
 
 - Match score: `140`
 - `k`: For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
 •Blue: Skills have {1}% less cost
 •Green: {2}% less Movement Speed Penalty from using Skills while Moving
 - `n`: For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
 •Blue: Skills have {1}% less cost
 •Green: {2}% less Movement Speed Penalty from using Skills while Moving
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","n":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","n":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 57. For each colour of Socketed Support Gem that is most numerous, gain:
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Blue: Skills have {1}% less cost
+•Green: {2}% more Movement Speed Penalty from using Skills while Moving
+
+- Match score: `140`
+- `k`: For each colour of Socketed Support Gem that is most numerous, gain:
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Blue: Skills have {1}% less cost
+•Green: {2}% more Movement Speed Penalty from using Skills while Moving
+- `n`: For each colour of Socketed Support Gem that is most numerous, gain:
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Blue: Skills have {1}% less cost
+•Green: {2}% more Movement Speed Penalty from using Skills while Moving
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% more Movement Speed Penalty from using Skills while Moving","n":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% more Movement Speed Penalty from using Skills while Moving","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 58. For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
-•Blue: Skills have {1}% less cost
-•Green: {2}% more Movement Speed Penalty from using Skills while Moving
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Blue: Skills have {1}% more cost
+•Green: {2}% less Movement Speed Penalty from using Skills while Moving
 
 - Match score: `140`
 - `k`: For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
-•Blue: Skills have {1}% less cost
-•Green: {2}% more Movement Speed Penalty from using Skills while Moving
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Blue: Skills have {1}% more cost
+•Green: {2}% less Movement Speed Penalty from using Skills while Moving
 - `n`: For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
-•Blue: Skills have {1}% less cost
-•Green: {2}% more Movement Speed Penalty from using Skills while Moving
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Blue: Skills have {1}% more cost
+•Green: {2}% less Movement Speed Penalty from using Skills while Moving
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% more Movement Speed Penalty from using Skills while Moving","n":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% more Movement Speed Penalty from using Skills while Moving","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% more cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","n":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% more cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ### 59. For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
-•Blue: Skills have {1}% more cost
-•Green: {2}% less Movement Speed Penalty from using Skills while Moving
-
-- Match score: `140`
-- `k`: For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
-•Blue: Skills have {1}% more cost
-•Green: {2}% less Movement Speed Penalty from using Skills while Moving
-- `n`: For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
-•Blue: Skills have {1}% more cost
-•Green: {2}% less Movement Speed Penalty from using Skills while Moving
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% more cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","n":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% more cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 60. For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
 •Blue: Skills have {1}% more cost
 •Green: {2}% more Movement Speed Penalty from using Skills while Moving
 
 - Match score: `140`
 - `k`: For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
 •Blue: Skills have {1}% more cost
 •Green: {2}% more Movement Speed Penalty from using Skills while Moving
 - `n`: For each colour of Socketed Support Gem that is most numerous, gain:
-•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
+•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]
 •Blue: Skills have {1}% more cost
 •Green: {2}% more Movement Speed Penalty from using Skills while Moving
 - `cat`: repoe_stats_by_file
 - `src`: repoe_poe2/stats_by_file.json
 
 ```json
-{"k":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% more cost\n•Green: {2}% more Movement Speed Penalty from using Skills while Moving","n":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% more cost\n•Green: {2}% more Movement Speed Penalty from using Skills while Moving","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+{"k":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% more cost\n•Green: {2}% more Movement Speed Penalty from using Skills while Moving","n":"For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% more cost\n•Green: {2}% more Movement Speed Penalty from using Skills while Moving","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 61. Gain [ArcaneSurgeDuration|Arcane Surge] on Hit with Spells while at maximum Power Charges
+### 60. Gain [ArcaneSurgeDuration|Arcane Surge] on Hit with Spells while at maximum Power Charges
 
 - Match score: `140`
 - `k`: Gain [ArcaneSurgeDuration|Arcane Surge] on Hit with Spells while at maximum Power Charges
@@ -8590,7 +8578,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Gain [ArcaneSurgeDuration|Arcane Surge] on Hit with Spells while at maximum Power Charges","n":"Gain [ArcaneSurgeDuration|Arcane Surge] on Hit with Spells while at maximum Power Charges","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 62. Gain a Frenzy Charge for each Enemy you hit with a [Critical|Critical Hit]
+### 61. Gain a Frenzy Charge for each Enemy you hit with a [Critical|Critical Hit]
 
 - Match score: `140`
 - `k`: Gain a Frenzy Charge for each Enemy you hit with a [Critical|Critical Hit]
@@ -8602,7 +8590,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Gain a Frenzy Charge for each Enemy you hit with a [Critical|Critical Hit]","n":"Gain a Frenzy Charge for each Enemy you hit with a [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 63. Gain a Frenzy Charge on [Critical|Critical Hit]
+### 62. Gain a Frenzy Charge on [Critical|Critical Hit]
 
 - Match score: `140`
 - `k`: Gain a Frenzy Charge on [Critical|Critical Hit]
@@ -8614,7 +8602,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Gain a Frenzy Charge on [Critical|Critical Hit]","n":"Gain a Frenzy Charge on [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 64. Gain a Frenzy Charge on reaching Maximum Power Charges
+### 63. Gain a Frenzy Charge on reaching Maximum Power Charges
 
 - Match score: `140`
 - `k`: Gain a Frenzy Charge on reaching Maximum Power Charges
@@ -8626,7 +8614,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Gain a Frenzy Charge on reaching Maximum Power Charges","n":"Gain a Frenzy Charge on reaching Maximum Power Charges","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 65. Gain a Power Charge for each Enemy you hit with a [Critical|Critical Hit]
+### 64. Gain a Power Charge for each Enemy you hit with a [Critical|Critical Hit]
 
 - Match score: `140`
 - `k`: Gain a Power Charge for each Enemy you hit with a [Critical|Critical Hit]
@@ -8638,7 +8626,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Gain a Power Charge for each Enemy you hit with a [Critical|Critical Hit]","n":"Gain a Power Charge for each Enemy you hit with a [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 66. Gain a Power Charge on [Critical|Critical Hit]
+### 65. Gain a Power Charge on [Critical|Critical Hit]
 
 - Match score: `140`
 - `k`: Gain a Power Charge on [Critical|Critical Hit]
@@ -8650,7 +8638,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Gain a Power Charge on [Critical|Critical Hit]","n":"Gain a Power Charge on [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 67. Gain a Power Charge on [Melee] [Critical|Critical Hit]
+### 66. Gain a Power Charge on [Melee] [Critical|Critical Hit]
 
 - Match score: `140`
 - `k`: Gain a Power Charge on [Melee] [Critical|Critical Hit]
@@ -8662,7 +8650,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Gain a Power Charge on [Melee] [Critical|Critical Hit]","n":"Gain a Power Charge on [Melee] [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 68. Gain a Power Charge on Non-[Critical|Critical Hit]
+### 67. Gain a Power Charge on Non-[Critical|Critical Hit]
 
 - Match score: `140`
 - `k`: Gain a Power Charge on Non-[Critical|Critical Hit]
@@ -8674,7 +8662,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Gain a Power Charge on Non-[Critical|Critical Hit]","n":"Gain a Power Charge on Non-[Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 69. Gain an Endurance Charge on [Critical|Critical Hit]
+### 68. Gain an Endurance Charge on [Critical|Critical Hit]
 
 - Match score: `140`
 - `k`: Gain an Endurance Charge on [Critical|Critical Hit]
@@ -8686,7 +8674,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Gain an Endurance Charge on [Critical|Critical Hit]","n":"Gain an Endurance Charge on [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 70. Gain an Endurance Charge on [Melee] [Critical|Critical Hit]
+### 69. Gain an Endurance Charge on [Melee] [Critical|Critical Hit]
 
 - Match score: `140`
 - `k`: Gain an Endurance Charge on [Melee] [Critical|Critical Hit]
@@ -8698,7 +8686,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Gain an Endurance Charge on [Melee] [Critical|Critical Hit]","n":"Gain an Endurance Charge on [Melee] [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 71. Gain an Endurance Charge on Bow [Critical|Critical Hit]
+### 70. Gain an Endurance Charge on Bow [Critical|Critical Hit]
 
 - Match score: `140`
 - `k`: Gain an Endurance Charge on Bow [Critical|Critical Hit]
@@ -8710,7 +8698,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Gain an Endurance Charge on Bow [Critical|Critical Hit]","n":"Gain an Endurance Charge on Bow [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 72. Gain an Endurance Charge when you take a [Critical|Critical Hit]
+### 71. Gain an Endurance Charge when you take a [Critical|Critical Hit]
 
 - Match score: `140`
 - `k`: Gain an Endurance Charge when you take a [Critical|Critical Hit]
@@ -8722,7 +8710,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Gain an Endurance Charge when you take a [Critical|Critical Hit]","n":"Gain an Endurance Charge when you take a [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 73. Gain an Endurance Charge, Frenzy Charge, and Power Charge when you use a Vaal Skill
+### 72. Gain an Endurance Charge, Frenzy Charge, and Power Charge when you use a Vaal Skill
 
 - Match score: `140`
 - `k`: Gain an Endurance Charge, Frenzy Charge, and Power Charge when you use a Vaal Skill
@@ -8734,7 +8722,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Gain an Endurance Charge, Frenzy Charge, and Power Charge when you use a Vaal Skill","n":"Gain an Endurance Charge, Frenzy Charge, and Power Charge when you use a Vaal Skill","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 74. Gain {0} [Flask] Charges when you deal a [Critical|Critical Hit]
+### 73. Gain {0} [Flask] Charges when you deal a [Critical|Critical Hit]
 
 - Match score: `140`
 - `k`: Gain {0} [Flask] Charges when you deal a [Critical|Critical Hit]
@@ -8746,7 +8734,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Gain {0} [Flask] Charges when you deal a [Critical|Critical Hit]","n":"Gain {0} [Flask] Charges when you deal a [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 75. Gain {0}% of [Lightning|Lightning] Damage as [Chaos|Chaos] Damage per [Charges|Power Charge]
+### 74. Gain {0}% of [Lightning|Lightning] Damage as [Chaos|Chaos] Damage per [Charges|Power Charge]
 
 - Match score: `140`
 - `k`: Gain {0}% of [Lightning|Lightning] Damage as [Chaos|Chaos] Damage per [Charges|Power Charge]
@@ -8758,7 +8746,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Gain {0}% of [Lightning|Lightning] Damage as [Chaos|Chaos] Damage per [Charges|Power Charge]","n":"Gain {0}% of [Lightning|Lightning] Damage as [Chaos|Chaos] Damage per [Charges|Power Charge]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 76. Gain {0}% of Damage as Extra [Fire] Damage per [Charges|Endurance Charge] consumed [Recently]
+### 75. Gain {0}% of Damage as Extra [Fire] Damage per [Charges|Endurance Charge] consumed [Recently]
 
 - Match score: `140`
 - `k`: Gain {0}% of Damage as Extra [Fire] Damage per [Charges|Endurance Charge] consumed [Recently]
@@ -8770,43 +8758,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Gain {0}% of Damage as Extra [Fire] Damage per [Charges|Endurance Charge] consumed [Recently]","n":"Gain {0}% of Damage as Extra [Fire] Damage per [Charges|Endurance Charge] consumed [Recently]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 77. Grant a [Charges|Frenzy Charge] to [Allies] in your [Presence] on [HitDamage|Hit]
-
-- Match score: `140`
-- `k`: Grant a [Charges|Frenzy Charge] to [Allies] in your [Presence] on [HitDamage|Hit]
-- `n`: Grant a [Charges|Frenzy Charge] to [Allies] in your [Presence] on [HitDamage|Hit]
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Grant a [Charges|Frenzy Charge] to [Allies] in your [Presence] on [HitDamage|Hit]","n":"Grant a [Charges|Frenzy Charge] to [Allies] in your [Presence] on [HitDamage|Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 78. Grant an [Charges|Endurance Charge] to [Allies] in your [Presence] on [HitDamage|Hit]
-
-- Match score: `140`
-- `k`: Grant an [Charges|Endurance Charge] to [Allies] in your [Presence] on [HitDamage|Hit]
-- `n`: Grant an [Charges|Endurance Charge] to [Allies] in your [Presence] on [HitDamage|Hit]
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Grant an [Charges|Endurance Charge] to [Allies] in your [Presence] on [HitDamage|Hit]","n":"Grant an [Charges|Endurance Charge] to [Allies] in your [Presence] on [HitDamage|Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 79. Grant an [Charges|Power Charge] to [Allies] in your [Presence] on [HitDamage|Hit]
-
-- Match score: `140`
-- `k`: Grant an [Charges|Power Charge] to [Allies] in your [Presence] on [HitDamage|Hit]
-- `n`: Grant an [Charges|Power Charge] to [Allies] in your [Presence] on [HitDamage|Hit]
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Grant an [Charges|Power Charge] to [Allies] in your [Presence] on [HitDamage|Hit]","n":"Grant an [Charges|Power Charge] to [Allies] in your [Presence] on [HitDamage|Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 80. If Diamond [Flask] Charges are consumed, {0}% increased [Critical|Critical Hit] Chance
+### 76. If Diamond [Flask] Charges are consumed, {0}% increased [Critical|Critical Hit] Chance
 
 - Match score: `140`
 - `k`: If Diamond [Flask] Charges are consumed, {0}% increased [Critical|Critical Hit] Chance
@@ -8818,7 +8770,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"If Diamond [Flask] Charges are consumed, {0}% increased [Critical|Critical Hit] Chance","n":"If Diamond [Flask] Charges are consumed, {0}% increased [Critical|Critical Hit] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 81. If Diamond [Flask] Charges are consumed, {0}% reduced [Critical|Critical Hit] Chance
+### 77. If Diamond [Flask] Charges are consumed, {0}% reduced [Critical|Critical Hit] Chance
 
 - Match score: `140`
 - `k`: If Diamond [Flask] Charges are consumed, {0}% reduced [Critical|Critical Hit] Chance
@@ -8830,7 +8782,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"If Diamond [Flask] Charges are consumed, {0}% reduced [Critical|Critical Hit] Chance","n":"If Diamond [Flask] Charges are consumed, {0}% reduced [Critical|Critical Hit] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 82. If Poisonous Concoction or Explosive Concoction consume Charges from a Sulphur Flask, Enemies Killed by their Hits have {0}% chance to Explode, dealing 10% of their Life as Physical Damage
+### 78. If Poisonous Concoction or Explosive Concoction consume Charges from a Sulphur Flask, Enemies Killed by their Hits have {0}% chance to Explode, dealing 10% of their Life as Physical Damage
 
 - Match score: `140`
 - `k`: If Poisonous Concoction or Explosive Concoction consume Charges from a Sulphur Flask, Enemies Killed by their Hits have {0}% chance to Explode, dealing 10% of their Life as Physical Damage
@@ -8842,7 +8794,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"If Poisonous Concoction or Explosive Concoction consume Charges from a Sulphur Flask, Enemies Killed by their Hits have {0}% chance to Explode, dealing 10% of their Life as Physical Damage","n":"If Poisonous Concoction or Explosive Concoction consume Charges from a Sulphur Flask, Enemies Killed by their Hits have {0}% chance to Explode, dealing 10% of their Life as Physical Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 83. Immortal Call increases Duration without removing Endurance Charges
+### 79. Immortal Call increases Duration without removing Endurance Charges
 
 - Match score: `140`
 - `k`: Immortal Call increases Duration without removing Endurance Charges
@@ -8854,7 +8806,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Immortal Call increases Duration without removing Endurance Charges","n":"Immortal Call increases Duration without removing Endurance Charges","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 84. Increased [SkillSpeed|Skill Speed] with [Charges|Frenzy Charge]@{0}%
+### 80. Increased [SkillSpeed|Skill Speed] with [Charges|Frenzy Charge]@{0}%
 
 - Match score: `140`
 - `k`: Increased [SkillSpeed|Skill Speed] with [Charges|Frenzy Charge]@{0}%
@@ -8866,7 +8818,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Increased [SkillSpeed|Skill Speed] with [Charges|Frenzy Charge]@{0}%","n":"Increased [SkillSpeed|Skill Speed] with [Charges|Frenzy Charge]@{0}%","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 85. Less duration when consuming a [Charges|Power Charge]@{0}%
+### 81. Less duration when consuming a [Charges|Power Charge]@{0}%
 
 - Match score: `140`
 - `k`: Less duration when consuming a [Charges|Power Charge]@{0}%
@@ -8878,7 +8830,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Less duration when consuming a [Charges|Power Charge]@{0}%","n":"Less duration when consuming a [Charges|Power Charge]@{0}%","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 86. More [ElementalDamage|Elemental Damage] granted per [Charges|Power Charge]@{0}%
+### 82. More [ElementalDamage|Elemental Damage] granted per [Charges|Power Charge]@{0}%
 
 - Match score: `140`
 - `k`: More [ElementalDamage|Elemental Damage] granted per [Charges|Power Charge]@{0}%
@@ -8890,7 +8842,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"More [ElementalDamage|Elemental Damage] granted per [Charges|Power Charge]@{0}%","n":"More [ElementalDamage|Elemental Damage] granted per [Charges|Power Charge]@{0}%","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 87. More [SkillSpeed|Skill Speed] on [Charges|Frenzy Charge] Consumption@{0}%
+### 83. More [SkillSpeed|Skill Speed] on [Charges|Frenzy Charge] Consumption@{0}%
 
 - Match score: `140`
 - `k`: More [SkillSpeed|Skill Speed] on [Charges|Frenzy Charge] Consumption@{0}%
@@ -8902,7 +8854,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"More [SkillSpeed|Skill Speed] on [Charges|Frenzy Charge] Consumption@{0}%","n":"More [SkillSpeed|Skill Speed] on [Charges|Frenzy Charge] Consumption@{0}%","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 88. More [SkillSpeed|Skill Speed] with [Charges|Frenzy Charge]@{0}%
+### 84. More [SkillSpeed|Skill Speed] with [Charges|Frenzy Charge]@{0}%
 
 - Match score: `140`
 - `k`: More [SkillSpeed|Skill Speed] with [Charges|Frenzy Charge]@{0}%
@@ -8914,7 +8866,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"More [SkillSpeed|Skill Speed] with [Charges|Frenzy Charge]@{0}%","n":"More [SkillSpeed|Skill Speed] with [Charges|Frenzy Charge]@{0}%","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 89. More Damage if [Charges|Frenzy Charge] Consumed@{0}%
+### 85. More Damage if [Charges|Frenzy Charge] Consumed@{0}%
 
 - Match score: `140`
 - `k`: More Damage if [Charges|Frenzy Charge] Consumed@{0}%
@@ -8926,7 +8878,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"More Damage if [Charges|Frenzy Charge] Consumed@{0}%","n":"More Damage if [Charges|Frenzy Charge] Consumed@{0}%","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 90. More Damage if [Charges|Power Charge] Consumed@{0}%
+### 86. More Damage if [Charges|Power Charge] Consumed@{0}%
 
 - Match score: `140`
 - `k`: More Damage if [Charges|Power Charge] Consumed@{0}%
@@ -8938,7 +8890,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"More Damage if [Charges|Power Charge] Consumed@{0}%","n":"More Damage if [Charges|Power Charge] Consumed@{0}%","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 91. More Damage per [Charges|Frenzy Charge] Consumed@{0}%
+### 87. More Damage per [Charges|Frenzy Charge] Consumed@{0}%
 
 - Match score: `140`
 - `k`: More Damage per [Charges|Frenzy Charge] Consumed@{0}%
@@ -8950,7 +8902,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"More Damage per [Charges|Frenzy Charge] Consumed@{0}%","n":"More Damage per [Charges|Frenzy Charge] Consumed@{0}%","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 92. More Damage per [Charges|Power Charge] Consumed@{0}%
+### 88. More Damage per [Charges|Power Charge] Consumed@{0}%
 
 - Match score: `140`
 - `k`: More Damage per [Charges|Power Charge] Consumed@{0}%
@@ -8962,7 +8914,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"More Damage per [Charges|Power Charge] Consumed@{0}%","n":"More Damage per [Charges|Power Charge] Consumed@{0}%","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 93. More damage when Consuming [Charges|Frenzy Charge]@{0}%
+### 89. More damage when Consuming [Charges|Frenzy Charge]@{0}%
 
 - Match score: `140`
 - `k`: More damage when Consuming [Charges|Frenzy Charge]@{0}%
@@ -8974,7 +8926,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"More damage when Consuming [Charges|Frenzy Charge]@{0}%","n":"More damage when Consuming [Charges|Frenzy Charge]@{0}%","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 94. More duration when consuming a [Charges|Power Charge]@{0}%
+### 90. More duration when consuming a [Charges|Power Charge]@{0}%
 
 - Match score: `140`
 - `k`: More duration when consuming a [Charges|Power Charge]@{0}%
@@ -8986,7 +8938,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"More duration when consuming a [Charges|Power Charge]@{0}%","n":"More duration when consuming a [Charges|Power Charge]@{0}%","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 95. Phase Run increases Duration without removing Frenzy Charges
+### 91. Phase Run increases Duration without removing Frenzy Charges
 
 - Match score: `140`
 - `k`: Phase Run increases Duration without removing Frenzy Charges
@@ -8998,7 +8950,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Phase Run increases Duration without removing Frenzy Charges","n":"Phase Run increases Duration without removing Frenzy Charges","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 96. Recharges {0} Charge when you deal a [Critical|Critical Hit]
+### 92. Recharges {0} Charge when you deal a [Critical|Critical Hit]
 
 - Match score: `140`
 - `k`: Recharges {0} Charge when you deal a [Critical|Critical Hit]
@@ -9010,7 +8962,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Recharges {0} Charge when you deal a [Critical|Critical Hit]","n":"Recharges {0} Charge when you deal a [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 97. Recharges {0} Charge when you take a [Critical|Critical Hit]
+### 93. Recharges {0} Charge when you take a [Critical|Critical Hit]
 
 - Match score: `140`
 - `k`: Recharges {0} Charge when you take a [Critical|Critical Hit]
@@ -9022,7 +8974,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Recharges {0} Charge when you take a [Critical|Critical Hit]","n":"Recharges {0} Charge when you take a [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 98. Recharges {0} Charges when you deal a [Critical|Critical Hit]
+### 94. Recharges {0} Charges when you deal a [Critical|Critical Hit]
 
 - Match score: `140`
 - `k`: Recharges {0} Charges when you deal a [Critical|Critical Hit]
@@ -9034,7 +8986,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Recharges {0} Charges when you deal a [Critical|Critical Hit]","n":"Recharges {0} Charges when you deal a [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 99. Recharges {0} Charges when you take a [Critical|Critical Hit]
+### 95. Recharges {0} Charges when you take a [Critical|Critical Hit]
 
 - Match score: `140`
 - `k`: Recharges {0} Charges when you take a [Critical|Critical Hit]
@@ -9046,7 +8998,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Recharges {0} Charges when you take a [Critical|Critical Hit]","n":"Recharges {0} Charges when you take a [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 100. Socketed Gems are Supported by Level {0} Power Charge On Critical
+### 96. Socketed Gems are Supported by Level {0} Power Charge On Critical
 
 - Match score: `140`
 - `k`: Socketed Gems are Supported by Level {0} Power Charge On Critical
@@ -9058,7 +9010,7 @@ Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 {"k":"Socketed Gems are Supported by Level {0} Power Charge On Critical","n":"Socketed Gems are Supported by Level {0} Power Charge On Critical","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 101. Socketed Skills deal {0}% more
+### 97. Socketed Skills deal {0}% more
 damage per [Charges|Power Charge] Consumed
 
 - Match score: `140`
@@ -9073,31 +9025,7 @@ damage per [Charges|Power Charge] Consumed
 {"k":"Socketed Skills deal {0}% more\ndamage per [Charges|Power Charge] Consumed","n":"Socketed Skills deal {0}% more\ndamage per [Charges|Power Charge] Consumed","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 102. Supported Skills [Consume] [Parry|Parried] Debuff on [HitDamage|Hit] to grant a [Charges|Frenzy Charge]
-
-- Match score: `140`
-- `k`: Supported Skills [Consume] [Parry|Parried] Debuff on [HitDamage|Hit] to grant a [Charges|Frenzy Charge]
-- `n`: Supported Skills [Consume] [Parry|Parried] Debuff on [HitDamage|Hit] to grant a [Charges|Frenzy Charge]
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Supported Skills [Consume] [Parry|Parried] Debuff on [HitDamage|Hit] to grant a [Charges|Frenzy Charge]","n":"Supported Skills [Consume] [Parry|Parried] Debuff on [HitDamage|Hit] to grant a [Charges|Frenzy Charge]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 103. Supported Skills [Consume] [Parry|Parried] Debuff on [HitDamage|Hit] to grant {0} [Charges|Frenzy Charges]
-
-- Match score: `140`
-- `k`: Supported Skills [Consume] [Parry|Parried] Debuff on [HitDamage|Hit] to grant {0} [Charges|Frenzy Charges]
-- `n`: Supported Skills [Consume] [Parry|Parried] Debuff on [HitDamage|Hit] to grant {0} [Charges|Frenzy Charges]
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Supported Skills [Consume] [Parry|Parried] Debuff on [HitDamage|Hit] to grant {0} [Charges|Frenzy Charges]","n":"Supported Skills [Consume] [Parry|Parried] Debuff on [HitDamage|Hit] to grant {0} [Charges|Frenzy Charges]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 104. Supported Skills [Consume] a [Charges|Frenzy Charge] on use to [ArmourBreak|Break Armour] equal to {0}% of [Physical|Physical Damage] dealt
+### 98. Supported Skills [Consume] a [Charges|Frenzy Charge] on use to [ArmourBreak|Break Armour] equal to {0}% of [Physical|Physical Damage] dealt
 
 - Match score: `140`
 - `k`: Supported Skills [Consume] a [Charges|Frenzy Charge] on use to [ArmourBreak|Break Armour] equal to {0}% of [Physical|Physical Damage] dealt
@@ -9109,7 +9037,7 @@ damage per [Charges|Power Charge] Consumed
 {"k":"Supported Skills [Consume] a [Charges|Frenzy Charge] on use to [ArmourBreak|Break Armour] equal to {0}% of [Physical|Physical Damage] dealt","n":"Supported Skills [Consume] a [Charges|Frenzy Charge] on use to [ArmourBreak|Break Armour] equal to {0}% of [Physical|Physical Damage] dealt","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 105. Supported Skills consume a [Charges|Power Charge] on use
+### 99. Supported Skills consume a [Charges|Power Charge] on use
 Supported Skills have {0}% less duration when consuming a [Charges|Power Charge]
 
 - Match score: `140`
@@ -9124,7 +9052,7 @@ Supported Skills have {0}% less duration when consuming a [Charges|Power Charge]
 {"k":"Supported Skills consume a [Charges|Power Charge] on use\nSupported Skills have {0}% less duration when consuming a [Charges|Power Charge]","n":"Supported Skills consume a [Charges|Power Charge] on use\nSupported Skills have {0}% less duration when consuming a [Charges|Power Charge]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 106. Supported Skills consume a [Charges|Power Charge] on use
+### 100. Supported Skills consume a [Charges|Power Charge] on use
 Supported Skills have {0}% more duration when consuming a [Charges|Power Charge]
 
 - Match score: `140`
@@ -9139,7 +9067,7 @@ Supported Skills have {0}% more duration when consuming a [Charges|Power Charge]
 {"k":"Supported Skills consume a [Charges|Power Charge] on use\nSupported Skills have {0}% more duration when consuming a [Charges|Power Charge]","n":"Supported Skills consume a [Charges|Power Charge] on use\nSupported Skills have {0}% more duration when consuming a [Charges|Power Charge]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 107. Supported Skills deal {0}% increased Damage per [Charges|Power Charge]
+### 101. Supported Skills deal {0}% increased Damage per [Charges|Power Charge]
 
 - Match score: `140`
 - `k`: Supported Skills deal {0}% increased Damage per [Charges|Power Charge]
@@ -9151,7 +9079,7 @@ Supported Skills have {0}% more duration when consuming a [Charges|Power Charge]
 {"k":"Supported Skills deal {0}% increased Damage per [Charges|Power Charge]","n":"Supported Skills deal {0}% increased Damage per [Charges|Power Charge]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 108. Supported Skills deal {0}% less Damage per [Charges|Power Charge]
+### 102. Supported Skills deal {0}% less Damage per [Charges|Power Charge]
 
 - Match score: `140`
 - `k`: Supported Skills deal {0}% less Damage per [Charges|Power Charge]
@@ -9163,7 +9091,7 @@ Supported Skills have {0}% more duration when consuming a [Charges|Power Charge]
 {"k":"Supported Skills deal {0}% less Damage per [Charges|Power Charge]","n":"Supported Skills deal {0}% less Damage per [Charges|Power Charge]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 109. Supported Skills deal {0}% more Damage per [Charges|Power Charge]
+### 103. Supported Skills deal {0}% more Damage per [Charges|Power Charge]
 
 - Match score: `140`
 - `k`: Supported Skills deal {0}% more Damage per [Charges|Power Charge]
@@ -9175,7 +9103,7 @@ Supported Skills have {0}% more duration when consuming a [Charges|Power Charge]
 {"k":"Supported Skills deal {0}% more Damage per [Charges|Power Charge]","n":"Supported Skills deal {0}% more Damage per [Charges|Power Charge]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 110. Supported Skills deal {0}% reduced Damage per [Charges|Power Charge]
+### 104. Supported Skills deal {0}% reduced Damage per [Charges|Power Charge]
 
 - Match score: `140`
 - `k`: Supported Skills deal {0}% reduced Damage per [Charges|Power Charge]
@@ -9187,7 +9115,7 @@ Supported Skills have {0}% more duration when consuming a [Charges|Power Charge]
 {"k":"Supported Skills deal {0}% reduced Damage per [Charges|Power Charge]","n":"Supported Skills deal {0}% reduced Damage per [Charges|Power Charge]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 111. Supported Skills gain a Power Charge on [Critical|Critical Hit]
+### 105. Supported Skills gain a Power Charge on [Critical|Critical Hit]
 
 - Match score: `140`
 - `k`: Supported Skills gain a Power Charge on [Critical|Critical Hit]
@@ -9199,7 +9127,7 @@ Supported Skills have {0}% more duration when consuming a [Charges|Power Charge]
 {"k":"Supported Skills gain a Power Charge on [Critical|Critical Hit]","n":"Supported Skills gain a Power Charge on [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 112. Supported Skills have {0}% chance to gain a Power Charge on [Critical|Critical Hit]
+### 106. Supported Skills have {0}% chance to gain a Power Charge on [Critical|Critical Hit]
 
 - Match score: `140`
 - `k`: Supported Skills have {0}% chance to gain a Power Charge on [Critical|Critical Hit]
@@ -9211,7 +9139,7 @@ Supported Skills have {0}% more duration when consuming a [Charges|Power Charge]
 {"k":"Supported Skills have {0}% chance to gain a Power Charge on [Critical|Critical Hit]","n":"Supported Skills have {0}% chance to gain a Power Charge on [Critical|Critical Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 113. Supported Skills have {0}% increased [Critical|Critical Hit] Chance per
+### 107. Supported Skills have {0}% increased [Critical|Critical Hit] Chance per
 Power Charge when used by Mines
 
 - Match score: `140`
@@ -9226,7 +9154,7 @@ Power Charge when used by Mines
 {"k":"Supported Skills have {0}% increased [Critical|Critical Hit] Chance per\nPower Charge when used by Mines","n":"Supported Skills have {0}% increased [Critical|Critical Hit] Chance per\nPower Charge when used by Mines","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 114. Supported Skills have {0}% reduced [Critical|Critical Hit] Chance per
+### 108. Supported Skills have {0}% reduced [Critical|Critical Hit] Chance per
 Power Charge when used by Mines
 
 - Match score: `140`
@@ -9241,7 +9169,7 @@ Power Charge when used by Mines
 {"k":"Supported Skills have {0}% reduced [Critical|Critical Hit] Chance per\nPower Charge when used by Mines","n":"Supported Skills have {0}% reduced [Critical|Critical Hit] Chance per\nPower Charge when used by Mines","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 115. Supported Skills will consume a [Charges|Frenzy Charge] on use if possible
+### 109. Supported Skills will consume a [Charges|Frenzy Charge] on use if possible
 Supported Skills have {0}% less [SkillSpeed|Skill Speed] when consuming [Charges|Frenzy Charges]
 
 - Match score: `140`
@@ -9256,7 +9184,7 @@ Supported Skills have {0}% less [SkillSpeed|Skill Speed] when consuming [Charges
 {"k":"Supported Skills will consume a [Charges|Frenzy Charge] on use if possible\nSupported Skills have {0}% less [SkillSpeed|Skill Speed] when consuming [Charges|Frenzy Charges]","n":"Supported Skills will consume a [Charges|Frenzy Charge] on use if possible\nSupported Skills have {0}% less [SkillSpeed|Skill Speed] when consuming [Charges|Frenzy Charges]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 116. Supported Skills will consume a [Charges|Frenzy Charge] on use if possible
+### 110. Supported Skills will consume a [Charges|Frenzy Charge] on use if possible
 Supported Skills have {0}% more [SkillSpeed|Skill Speed] when consuming [Charges|Frenzy Charges]
 
 - Match score: `140`
@@ -9271,7 +9199,7 @@ Supported Skills have {0}% more [SkillSpeed|Skill Speed] when consuming [Charges
 {"k":"Supported Skills will consume a [Charges|Frenzy Charge] on use if possible\nSupported Skills have {0}% more [SkillSpeed|Skill Speed] when consuming [Charges|Frenzy Charges]","n":"Supported Skills will consume a [Charges|Frenzy Charge] on use if possible\nSupported Skills have {0}% more [SkillSpeed|Skill Speed] when consuming [Charges|Frenzy Charges]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 117. Take {0} [Chaos] damage per second per [Charges|Endurance Charge]
+### 111. Take {0} [Chaos] damage per second per [Charges|Endurance Charge]
 
 - Match score: `140`
 - `k`: Take {0} [Chaos] damage per second per [Charges|Endurance Charge]
@@ -9283,7 +9211,7 @@ Supported Skills have {0}% more [SkillSpeed|Skill Speed] when consuming [Charges
 {"k":"Take {0} [Chaos] damage per second per [Charges|Endurance Charge]","n":"Take {0} [Chaos] damage per second per [Charges|Endurance Charge]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 118. Take {0} Cold Damage on reaching Maximum Power Charges
+### 112. Take {0} Cold Damage on reaching Maximum Power Charges
 
 - Match score: `140`
 - `k`: Take {0} Cold Damage on reaching Maximum Power Charges
@@ -9295,7 +9223,7 @@ Supported Skills have {0}% more [SkillSpeed|Skill Speed] when consuming [Charges
 {"k":"Take {0} Cold Damage on reaching Maximum Power Charges","n":"Take {0} Cold Damage on reaching Maximum Power Charges","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 119. Teleports and [Strike|Strikes] {0} additional time per [Charges|Power Charge], with 285% more [Attack] Speed
+### 113. Teleports and [Strike|Strikes] {0} additional time per [Charges|Power Charge], with 285% more [Attack] Speed
 
 - Match score: `140`
 - `k`: Teleports and [Strike|Strikes] {0} additional time per [Charges|Power Charge], with 285% more [Attack] Speed
@@ -9307,7 +9235,7 @@ Supported Skills have {0}% more [SkillSpeed|Skill Speed] when consuming [Charges
 {"k":"Teleports and [Strike|Strikes] {0} additional time per [Charges|Power Charge], with 285% more [Attack] Speed","n":"Teleports and [Strike|Strikes] {0} additional time per [Charges|Power Charge], with 285% more [Attack] Speed","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 120. Teleports and [Strike|Strikes] {0} additional times per [Charges|Power Charge], with 285% more [Attack] Speed
+### 114. Teleports and [Strike|Strikes] {0} additional times per [Charges|Power Charge], with 285% more [Attack] Speed
 
 - Match score: `140`
 - `k`: Teleports and [Strike|Strikes] {0} additional times per [Charges|Power Charge], with 285% more [Attack] Speed
@@ -9317,6 +9245,81 @@ Supported Skills have {0}% more [SkillSpeed|Skill Speed] when consuming [Charges
 
 ```json
 {"k":"Teleports and [Strike|Strikes] {0} additional times per [Charges|Power Charge], with 285% more [Attack] Speed","n":"Teleports and [Strike|Strikes] {0} additional times per [Charges|Power Charge], with 285% more [Attack] Speed","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 115. This Skill has {0}% increased [Critical|Critical Hit] Chance per Power Charge if used by a Mine
+
+- Match score: `140`
+- `k`: This Skill has {0}% increased [Critical|Critical Hit] Chance per Power Charge if used by a Mine
+- `n`: This Skill has {0}% increased [Critical|Critical Hit] Chance per Power Charge if used by a Mine
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"This Skill has {0}% increased [Critical|Critical Hit] Chance per Power Charge if used by a Mine","n":"This Skill has {0}% increased [Critical|Critical Hit] Chance per Power Charge if used by a Mine","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 116. This Skill has {0}% reduced [Critical|Critical Hit] Chance per Power Charge if used by a Mine
+
+- Match score: `140`
+- `k`: This Skill has {0}% reduced [Critical|Critical Hit] Chance per Power Charge if used by a Mine
+- `n`: This Skill has {0}% reduced [Critical|Critical Hit] Chance per Power Charge if used by a Mine
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"This Skill has {0}% reduced [Critical|Critical Hit] Chance per Power Charge if used by a Mine","n":"This Skill has {0}% reduced [Critical|Critical Hit] Chance per Power Charge if used by a Mine","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 117. With at least 40 [Intelligence] in Radius, Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area
+With at least 40 [Intelligence] in Radius, Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
+
+- Match score: `140`
+- `k`: With at least 40 [Intelligence] in Radius, Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area
+With at least 40 [Intelligence] in Radius, Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
+- `n`: With at least 40 [Intelligence] in Radius, Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area
+With at least 40 [Intelligence] in Radius, Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"With at least 40 [Intelligence] in Radius, Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area\nWith at least 40 [Intelligence] in Radius, Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges","n":"With at least 40 [Intelligence] in Radius, Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area\nWith at least 40 [Intelligence] in Radius, Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 118. Your Maximum Endurance Charges is equal to your Maximum Frenzy Charges
+
+- Match score: `140`
+- `k`: Your Maximum Endurance Charges is equal to your Maximum Frenzy Charges
+- `n`: Your Maximum Endurance Charges is equal to your Maximum Frenzy Charges
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"Your Maximum Endurance Charges is equal to your Maximum Frenzy Charges","n":"Your Maximum Endurance Charges is equal to your Maximum Frenzy Charges","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 119. Your Maximum Frenzy Charges is equal to your Maximum Power Charges
+
+- Match score: `140`
+- `k`: Your Maximum Frenzy Charges is equal to your Maximum Power Charges
+- `n`: Your Maximum Frenzy Charges is equal to your Maximum Power Charges
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"Your Maximum Frenzy Charges is equal to your Maximum Power Charges","n":"Your Maximum Frenzy Charges is equal to your Maximum Power Charges","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 120. {0} seconds to Duration of Frenzy and Power Charges on [CullingStrike|Culling Strike]
+
+- Match score: `140`
+- `k`: {0} seconds to Duration of Frenzy and Power Charges on [CullingStrike|Culling Strike]
+- `n`: {0} seconds to Duration of Frenzy and Power Charges on [CullingStrike|Culling Strike]
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"{0} seconds to Duration of Frenzy and Power Charges on [CullingStrike|Culling Strike]","n":"{0} seconds to Duration of Frenzy and Power Charges on [CullingStrike|Culling Strike]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ## Index match summary
