@@ -1,11 +1,11 @@
 # Build Idea Pack — Fastest Mapper + Boss Killer
 
-- Generated UTC: `2026-09-09T14:35:06+00:00`
+- Generated UTC: `2026-09-10T14:25:33+00:00`
 - Idea slug: `fastest-map-boss-build`
 - Purpose: Find the fastest practical build that still deletes bosses without becoming fragile.
 - Keywords: `fast, fastest, map, mapping, clear, clearing, boss, bossing, single target, area, aoe, projectile, chain, fork, pierce, explosion, explode, movement speed, attack speed, cast speed, critical, crit, charge, damage, more damage, penetration, exposure, shock, freeze, ignite, poison, minion, spirit, recovery, defense`
 - Max matched records per index: `120`
-- Total included matches: `727`
+- Total included matches: `728`
 
 
 ## Claude usage rules
@@ -7807,9 +7807,21 @@ _No keyword matches in this index._
 ## Rune mods
 
 - Source: `build_knowledge/compact/rune_mod_index.json`
-- Matches included: `3`
+- Matches included: `4`
 
-### 1. Craiceann's Rune of Recovery
+### 1. Atziri's Soul Core of Alacrity
+
+- Match score: `35`
+- `k`: Atziri's Soul Core of Alacrity
+- `n`: Atziri's Soul Core of Alacrity
+- `cat`: pob_mod_runes
+- `src`: pob_data_poe2/ModRunes.json
+
+```json
+{"k":"Atziri's Soul Core of Alacrity","n":"Atziri's Soul Core of Alacrity","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
+```
+
+### 2. Craiceann's Rune of Recovery
 
 - Match score: `35`
 - `k`: Craiceann's Rune of Recovery
@@ -7821,7 +7833,7 @@ _No keyword matches in this index._
 {"k":"Craiceann's Rune of Recovery","n":"Craiceann's Rune of Recovery","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 2. Greater Rune of Alacrity
+### 3. Greater Rune of Alacrity
 
 - Match score: `35`
 - `k`: Greater Rune of Alacrity
@@ -7833,7 +7845,7 @@ _No keyword matches in this index._
 {"k":"Greater Rune of Alacrity","n":"Greater Rune of Alacrity","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 3. Xipocado's Soul Core of Dominion
+### 4. Xipocado's Soul Core of Dominion
 
 - Match score: `35`
 - `k`: Xipocado's Soul Core of Dominion
@@ -9432,6 +9444,6 @@ Never deal [Critical|Critical Hits]
 | Gems and skills | OK | 120 |
 | Item bases/classes | OK | 120 |
 | Mods and affixes | OK | 120 |
-| Rune mods | OK | 3 |
+| Rune mods | OK | 4 |
 | Uniques | OK | 4 |
 | Misc | OK | 120 |

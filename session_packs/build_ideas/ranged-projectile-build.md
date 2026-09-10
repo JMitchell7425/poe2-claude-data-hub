@@ -1,11 +1,11 @@
 # Build Idea Pack — Ranged Projectile Build
 
-- Generated UTC: `2026-09-09T14:35:10+00:00`
+- Generated UTC: `2026-09-10T14:25:36+00:00`
 - Idea slug: `ranged-projectile-build`
 - Purpose: Engineer a ranged projectile build with high clear coverage and strong boss scaling.
 - Keywords: `projectile, bow, crossbow, wand, ranged, chain, fork, pierce, multiple projectiles, reload, grenade, bolt, arrow, attack, critical, crit, poison, shock, freeze, ignite, area, clear, boss, deadeye, mercenary, witchhunter`
 - Max matched records per index: `120`
-- Total included matches: `751`
+- Total included matches: `752`
 
 
 ## Claude usage rules
@@ -3190,20 +3190,7 @@ _No keyword matches in this index._
 {"k":"SupportMetaRangedAttackOnShockPlayer","n":"SupportMetaRangedAttackOnShockPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":null,"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 22. Crossbow Shot
-
-- Match score: `100`
-- `k`: Metadata/Items/Gems/SkillGemPlayerDefaultCrossbow
-- `n`: Crossbow Shot
-- `cat`: pob_gems
-- `src`: pob_data_poe2/Gems.json
-- `tags`: {"ammunition":true,"area":true,"attack":true,"grants_active_skill":true,"projectile":true}
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemPlayerDefaultCrossbow","n":"Crossbow Shot","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"ammunition":true,"area":true,"attack":true,"grants_active_skill":true,"projectile":true}}
-```
-
-### 23. Metadata/Items/Gem/SkillGemCrossbowRequiem
+### 22. Metadata/Items/Gem/SkillGemCrossbowRequiem
 
 - Match score: `100`
 - `k`: Metadata/Items/Gem/SkillGemCrossbowRequiem
@@ -3217,7 +3204,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemCrossbowRequiem","n":"Metadata/Items/Gem/SkillGemCrossbowRequiem","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Requiem","id":"Metadata/Items/Gem/SkillGemCrossbowRequiem","release_state":"released"},"tags":["grants_active_skill","attack","area","ammunition","projectile","cold","conditional"]}
 ```
 
-### 24. Metadata/Items/Gem/SkillGemPoisonBurstArrow
+### 23. Metadata/Items/Gem/SkillGemPoisonBurstArrow
 
 - Match score: `100`
 - `k`: Metadata/Items/Gem/SkillGemPoisonBurstArrow
@@ -3231,7 +3218,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemPoisonBurstArrow","n":"Metadata/Items/Gem/SkillGemPoisonBurstArrow","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Poisonburst Arrow","id":"Metadata/Items/Gem/SkillGemPoisonBurstArrow","release_state":"released"},"tags":["dexterity","grants_active_skill","attack","area","projectile","chaos","duration","repeatable"]}
 ```
 
-### 25. Poisonburst Arrow
+### 24. Poisonburst Arrow
 
 - Match score: `100`
 - `k`: Metadata/Items/Gems/SkillGemPoisonBurstArrow
@@ -3244,7 +3231,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemPoisonBurstArrow","n":"Poisonburst Arrow","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"area":true,"attack":true,"chaos":true,"dexterity":true,"duration":true,"grants_active_skill":true,"projectile":true,"repeatable":true}}
 ```
 
-### 26. SupportBlazingCriticalPlayer
+### 25. SupportBlazingCriticalPlayer
 
 - Match score: `100`
 - `k`: SupportBlazingCriticalPlayer
@@ -3258,7 +3245,7 @@ _No keyword matches in this index._
 {"k":"SupportBlazingCriticalPlayer","n":"SupportBlazingCriticalPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Duration"],"allowed_types":["Attack","Damage","CrossbowAmmoSkill"],"excluded_types":["UsedByProxy","Triggered","Persistent"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 27. SupportIncreasedCriticalDamagePlayer
+### 26. SupportIncreasedCriticalDamagePlayer
 
 - Match score: `100`
 - `k`: SupportIncreasedCriticalDamagePlayer
@@ -3272,7 +3259,7 @@ _No keyword matches in this index._
 {"k":"SupportIncreasedCriticalDamagePlayer","n":"SupportIncreasedCriticalDamagePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 28. SupportInevitableCriticalsPlayer
+### 27. SupportInevitableCriticalsPlayer
 
 - Match score: `100`
 - `k`: SupportInevitableCriticalsPlayer
@@ -3286,7 +3273,7 @@ _No keyword matches in this index._
 {"k":"SupportInevitableCriticalsPlayer","n":"SupportInevitableCriticalsPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Attack","Damage","CrossbowAmmoSkill"],"excluded_types":["UsedByProxy","Triggered","Persistent"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 29. SupportInevitableCriticalsPlayerTwo
+### 28. SupportInevitableCriticalsPlayerTwo
 
 - Match score: `100`
 - `k`: SupportInevitableCriticalsPlayerTwo
@@ -3300,7 +3287,7 @@ _No keyword matches in this index._
 {"k":"SupportInevitableCriticalsPlayerTwo","n":"SupportInevitableCriticalsPlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Attack","Damage","CrossbowAmmoSkill"],"excluded_types":["UsedByProxy","Triggered","Persistent"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 30. SupportPinpointCriticalPlayer
+### 29. SupportPinpointCriticalPlayer
 
 - Match score: `100`
 - `k`: SupportPinpointCriticalPlayer
@@ -3312,6 +3299,19 @@ _No keyword matches in this index._
 
 ```json
 {"k":"SupportPinpointCriticalPlayer","n":"SupportPinpointCriticalPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
+```
+
+### 30. Crossbow Shot
+
+- Match score: `90`
+- `k`: Metadata/Items/Gems/SkillGemPlayerDefaultCrossbow
+- `n`: Crossbow Shot
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"ammunition":true,"attack":true,"grants_active_skill":true,"projectile":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemPlayerDefaultCrossbow","n":"Crossbow Shot","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"ammunition":true,"attack":true,"grants_active_skill":true,"projectile":true}}
 ```
 
 ### 31. Metadata/Items/Gem/SkillGemPlayerDefaultCrossbow
@@ -7976,9 +7976,21 @@ _No keyword matches in this index._
 ## Rune mods
 
 - Source: `build_knowledge/compact/rune_mod_index.json`
-- Matches included: `2`
+- Matches included: `3`
 
-### 1. Greater Rune of Alacrity
+### 1. Atziri's Soul Core of Alacrity
+
+- Match score: `35`
+- `k`: Atziri's Soul Core of Alacrity
+- `n`: Atziri's Soul Core of Alacrity
+- `cat`: pob_mod_runes
+- `src`: pob_data_poe2/ModRunes.json
+
+```json
+{"k":"Atziri's Soul Core of Alacrity","n":"Atziri's Soul Core of Alacrity","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
+```
+
+### 2. Greater Rune of Alacrity
 
 - Match score: `35`
 - `k`: Greater Rune of Alacrity
@@ -7990,7 +8002,7 @@ _No keyword matches in this index._
 {"k":"Greater Rune of Alacrity","n":"Greater Rune of Alacrity","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 2. Legacy of Wanderlust
+### 3. Legacy of Wanderlust
 
 - Match score: `35`
 - `k`: Legacy of Wanderlust
@@ -9926,6 +9938,6 @@ Chain instead cause them to change direction additional times
 | Gems and skills | OK | 120 |
 | Item bases/classes | OK | 120 |
 | Mods and affixes | OK | 120 |
-| Rune mods | OK | 2 |
+| Rune mods | OK | 3 |
 | Uniques | OK | 29 |
 | Misc | OK | 120 |

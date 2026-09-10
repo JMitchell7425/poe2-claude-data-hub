@@ -1,11 +1,11 @@
 # Build Idea Pack — Cold Freeze Build
 
-- Generated UTC: `2026-09-09T14:35:11+00:00`
+- Generated UTC: `2026-09-10T14:25:36+00:00`
 - Idea slug: `cold-freeze-build`
 - Purpose: Engineer a cold/freeze/shatter build for safe clear and controlled bossing.
 - Keywords: `cold, freeze, frozen, chill, chilled, shatter, ice, glacial, frost, exposure, penetration, ailment, elemental, critical, crit, herald, spirit, support, resistance, monk, sorceress`
 - Max matched records per index: `120`
-- Total included matches: `740`
+- Total included matches: `741`
 
 
 ## Claude usage rules
@@ -7939,7 +7939,7 @@ _No keyword matches in this index._
 ## Rune mods
 
 - Source: `build_knowledge/compact/rune_mod_index.json`
-- Matches included: `8`
+- Matches included: `9`
 
 ### 1. Ancient Rune of Shattering
 
@@ -7953,7 +7953,19 @@ _No keyword matches in this index._
 {"k":"Ancient Rune of Shattering","n":"Ancient Rune of Shattering","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 2. Craiceann's Rune of Recovery
+### 2. Atziri's Soul Core of Alacrity
+
+- Match score: `35`
+- `k`: Atziri's Soul Core of Alacrity
+- `n`: Atziri's Soul Core of Alacrity
+- `cat`: pob_mod_runes
+- `src`: pob_data_poe2/ModRunes.json
+
+```json
+{"k":"Atziri's Soul Core of Alacrity","n":"Atziri's Soul Core of Alacrity","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
+```
+
+### 3. Craiceann's Rune of Recovery
 
 - Match score: `35`
 - `k`: Craiceann's Rune of Recovery
@@ -7965,7 +7977,7 @@ _No keyword matches in this index._
 {"k":"Craiceann's Rune of Recovery","n":"Craiceann's Rune of Recovery","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 3. Craiceann's Rune of Warding
+### 4. Craiceann's Rune of Warding
 
 - Match score: `35`
 - `k`: Craiceann's Rune of Warding
@@ -7977,7 +7989,7 @@ _No keyword matches in this index._
 {"k":"Craiceann's Rune of Warding","n":"Craiceann's Rune of Warding","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 4. Glacial Rune
+### 5. Glacial Rune
 
 - Match score: `35`
 - `k`: Glacial Rune
@@ -7989,7 +8001,7 @@ _No keyword matches in this index._
 {"k":"Glacial Rune","n":"Glacial Rune","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 5. Greater Glacial Rune
+### 6. Greater Glacial Rune
 
 - Match score: `35`
 - `k`: Greater Glacial Rune
@@ -8001,7 +8013,7 @@ _No keyword matches in this index._
 {"k":"Greater Glacial Rune","n":"Greater Glacial Rune","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 6. Greater Rune of Alacrity
+### 7. Greater Rune of Alacrity
 
 - Match score: `35`
 - `k`: Greater Rune of Alacrity
@@ -8013,7 +8025,7 @@ _No keyword matches in this index._
 {"k":"Greater Rune of Alacrity","n":"Greater Rune of Alacrity","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 7. Lesser Glacial Rune
+### 8. Lesser Glacial Rune
 
 - Match score: `35`
 - `k`: Lesser Glacial Rune
@@ -8025,7 +8037,7 @@ _No keyword matches in this index._
 {"k":"Lesser Glacial Rune","n":"Lesser Glacial Rune","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 8. Perfect Glacial Rune
+### 9. Perfect Glacial Rune
 
 - Match score: `35`
 - `k`: Perfect Glacial Rune
@@ -9716,6 +9728,6 @@ Skills Supported by Nightblade
 | Gems and skills | OK | 120 |
 | Item bases/classes | OK | 120 |
 | Mods and affixes | OK | 120 |
-| Rune mods | OK | 8 |
+| Rune mods | OK | 9 |
 | Uniques | OK | 12 |
 | Misc | OK | 120 |

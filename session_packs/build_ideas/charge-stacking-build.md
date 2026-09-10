@@ -1,11 +1,11 @@
 # Build Idea Pack — Charge-Stacking Build
 
-- Generated UTC: `2026-09-09T14:35:15+00:00`
+- Generated UTC: `2026-09-10T14:25:39+00:00`
 - Idea slug: `charge-stacking-build`
 - Purpose: Engineer around power, frenzy, endurance, charge generation, charge consumption, and charge scaling.
 - Keywords: `charge, charges, power charge, frenzy charge, endurance charge, gain charge, consume charge, maximum charge, critical, crit, duration, killing palm, charge profusion, overflowing power, damage, speed, boss, clear`
 - Max matched records per index: `120`
-- Total included matches: `722`
+- Total included matches: `723`
 
 
 ## Claude usage rules
@@ -7743,9 +7743,21 @@ _No keyword matches in this index._
 ## Rune mods
 
 - Source: `build_knowledge/compact/rune_mod_index.json`
-- Matches included: `1`
+- Matches included: `2`
 
-### 1. Greater Rune of Alacrity
+### 1. Atziri's Soul Core of Alacrity
+
+- Match score: `35`
+- `k`: Atziri's Soul Core of Alacrity
+- `n`: Atziri's Soul Core of Alacrity
+- `cat`: pob_mod_runes
+- `src`: pob_data_poe2/ModRunes.json
+
+```json
+{"k":"Atziri's Soul Core of Alacrity","n":"Atziri's Soul Core of Alacrity","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
+```
+
+### 2. Greater Rune of Alacrity
 
 - Match score: `35`
 - `k`: Greater Rune of Alacrity
@@ -9332,6 +9344,6 @@ With at least 40 [Intelligence] in Radius, Cold Snap's Cooldown can be bypassed 
 | Gems and skills | OK | 120 |
 | Item bases/classes | OK | 120 |
 | Mods and affixes | OK | 120 |
-| Rune mods | OK | 1 |
+| Rune mods | OK | 2 |
 | Uniques | OK | 1 |
 | Misc | OK | 120 |

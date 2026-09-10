@@ -1,11 +1,11 @@
 # Build Idea Pack — Support / Party Build
 
-- Generated UTC: `2026-09-09T14:35:17+00:00`
+- Generated UTC: `2026-09-10T14:25:41+00:00`
 - Idea slug: `support-party-build`
 - Purpose: Engineer party support builds focused on curses, auras, control, debuffs, and ally amplification.
 - Keywords: `support, party, ally, aura, curse, blasphemy, temporal chains, enfeeble, exposure, shock, freeze, resistance, spirit, reservation, duration, cooldown, chronomancer, witch, sorceress, debuff, control`
 - Max matched records per index: `120`
-- Total included matches: `728`
+- Total included matches: `729`
 
 
 ## Claude usage rules
@@ -8023,7 +8023,7 @@ _No keyword matches in this index._
 ## Rune mods
 
 - Source: `build_knowledge/compact/rune_mod_index.json`
-- Matches included: `4`
+- Matches included: `5`
 
 ### 1. Ancient Rune of Control
 
@@ -8061,7 +8061,19 @@ _No keyword matches in this index._
 {"k":"Hedgewitch Assandra's Rune of Wisdom","n":"Hedgewitch Assandra's Rune of Wisdom","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 4. Legacy of Cursecarver
+### 4. Jiquani's Soul Core of Rallying
+
+- Match score: `35`
+- `k`: Jiquani's Soul Core of Rallying
+- `n`: Jiquani's Soul Core of Rallying
+- `cat`: pob_mod_runes
+- `src`: pob_data_poe2/ModRunes.json
+
+```json
+{"k":"Jiquani's Soul Core of Rallying","n":"Jiquani's Soul Core of Rallying","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
+```
+
+### 5. Legacy of Cursecarver
 
 - Match score: `35`
 - `k`: Legacy of Cursecarver
@@ -9633,6 +9645,6 @@ Skills erupt after {0}% reduced delay
 | Gems and skills | OK | 120 |
 | Item bases/classes | OK | 120 |
 | Mods and affixes | OK | 120 |
-| Rune mods | OK | 4 |
+| Rune mods | OK | 5 |
 | Uniques | OK | 4 |
 | Misc | OK | 120 |

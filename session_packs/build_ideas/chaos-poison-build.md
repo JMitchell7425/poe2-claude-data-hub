@@ -1,11 +1,11 @@
 # Build Idea Pack — Chaos Poison Build
 
-- Generated UTC: `2026-09-09T14:35:14+00:00`
+- Generated UTC: `2026-09-10T14:25:39+00:00`
 - Idea slug: `chaos-poison-build`
 - Purpose: Engineer a chaos/poison build with strong damage-over-time scaling and boss reliability.
 - Keywords: `chaos, poison, poisoned, wither, damage over time, dot, ailment, duration, projectile, attack, spell, critical, crit, area, clear, boss, resistance, pathfinder, ranger, witch, blood mage`
 - Max matched records per index: `120`
-- Total included matches: `724`
+- Total included matches: `725`
 
 
 ## Claude usage rules
@@ -7703,7 +7703,7 @@ _No keyword matches in this index._
 ## Rune mods
 
 - Source: `build_knowledge/compact/rune_mod_index.json`
-- Matches included: `3`
+- Matches included: `4`
 
 ### 1. Ancient Rune of Witchcraft
 
@@ -7717,7 +7717,19 @@ _No keyword matches in this index._
 {"k":"Ancient Rune of Witchcraft","n":"Ancient Rune of Witchcraft","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 2. Greater Rune of Alacrity
+### 2. Atziri's Soul Core of Alacrity
+
+- Match score: `35`
+- `k`: Atziri's Soul Core of Alacrity
+- `n`: Atziri's Soul Core of Alacrity
+- `cat`: pob_mod_runes
+- `src`: pob_data_poe2/ModRunes.json
+
+```json
+{"k":"Atziri's Soul Core of Alacrity","n":"Atziri's Soul Core of Alacrity","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
+```
+
+### 3. Greater Rune of Alacrity
 
 - Match score: `35`
 - `k`: Greater Rune of Alacrity
@@ -7729,7 +7741,7 @@ _No keyword matches in this index._
 {"k":"Greater Rune of Alacrity","n":"Greater Rune of Alacrity","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 3. Hedgewitch Assandra's Rune of Wisdom
+### 4. Hedgewitch Assandra's Rune of Wisdom
 
 - Match score: `35`
 - `k`: Hedgewitch Assandra's Rune of Wisdom
@@ -9253,6 +9265,6 @@ you have a Bestial Minion
 | Gems and skills | OK | 120 |
 | Item bases/classes | OK | 120 |
 | Mods and affixes | OK | 120 |
-| Rune mods | OK | 3 |
+| Rune mods | OK | 4 |
 | Uniques | OK | 1 |
 | Misc | OK | 120 |

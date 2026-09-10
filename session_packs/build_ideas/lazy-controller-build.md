@@ -1,11 +1,11 @@
 # Build Idea Pack — Lazy Controller-Friendly Build
 
-- Generated UTC: `2026-09-09T14:35:07+00:00`
+- Generated UTC: `2026-09-10T14:25:33+00:00`
 - Idea slug: `lazy-controller-build`
 - Purpose: Find low-button, low-aim, PS5-friendly builds with high clear reliability and safe bossing.
 - Keywords: `controller, ps5, persistent, aura, herald, minion, totem, trigger, auto, duration, area, aoe, nearby, radius, nova, chain, projectile, slam, strike, movement, cooldown, spirit, reservation, defense, recovery, map, boss`
 - Max matched records per index: `120`
-- Total included matches: `724`
+- Total included matches: `725`
 
 
 ## Claude usage rules
@@ -7920,7 +7920,7 @@ _No keyword matches in this index._
 ## Rune mods
 
 - Source: `build_knowledge/compact/rune_mod_index.json`
-- Matches included: `2`
+- Matches included: `3`
 
 ### 1. Craiceann's Rune of Recovery
 
@@ -7934,7 +7934,19 @@ _No keyword matches in this index._
 {"k":"Craiceann's Rune of Recovery","n":"Craiceann's Rune of Recovery","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 2. Xipocado's Soul Core of Dominion
+### 2. Jiquani's Soul Core of Automation
+
+- Match score: `35`
+- `k`: Jiquani's Soul Core of Automation
+- `n`: Jiquani's Soul Core of Automation
+- `cat`: pob_mod_runes
+- `src`: pob_data_poe2/ModRunes.json
+
+```json
+{"k":"Jiquani's Soul Core of Automation","n":"Jiquani's Soul Core of Automation","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
+```
+
+### 3. Xipocado's Soul Core of Dominion
 
 - Match score: `35`
 - `k`: Xipocado's Soul Core of Dominion
@@ -9498,6 +9510,6 @@ Map when [MapBoss|Map Bosses] are slain within Fog
 | Gems and skills | OK | 120 |
 | Item bases/classes | OK | 120 |
 | Mods and affixes | OK | 120 |
-| Rune mods | OK | 2 |
+| Rune mods | OK | 3 |
 | Uniques | OK | 2 |
 | Misc | OK | 120 |

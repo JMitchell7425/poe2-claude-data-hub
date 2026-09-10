@@ -1,11 +1,11 @@
 # Build Idea Pack — Caster Build
 
-- Generated UTC: `2026-09-09T14:35:05+00:00`
+- Generated UTC: `2026-09-10T14:25:32+00:00`
 - Idea slug: `caster-build`
 - Purpose: Engineer a high-damage spellcaster with strong map clear, bossing, sustain, and PS5-friendly execution.
 - Keywords: `spell, caster, cast speed, critical, crit, mana, energy shield, spirit, lightning, cold, fire, chaos, projectile, area, aoe, exposure, penetration, shock, freeze, ignite, wand, staff, focus, sorceress, witch, chronomancer, stormweaver, blood mage`
 - Max matched records per index: `120`
-- Total included matches: `761`
+- Total included matches: `762`
 
 
 ## Claude usage rules
@@ -7719,7 +7719,7 @@ _No keyword matches in this index._
 ## Rune mods
 
 - Source: `build_knowledge/compact/rune_mod_index.json`
-- Matches included: `5`
+- Matches included: `6`
 
 ### 1. Amanamu's Gaze
 
@@ -7745,7 +7745,19 @@ _No keyword matches in this index._
 {"k":"Ancient Rune of Witchcraft","n":"Ancient Rune of Witchcraft","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 3. Greater Rune of Alacrity
+### 3. Atziri's Soul Core of Alacrity
+
+- Match score: `35`
+- `k`: Atziri's Soul Core of Alacrity
+- `n`: Atziri's Soul Core of Alacrity
+- `cat`: pob_mod_runes
+- `src`: pob_data_poe2/ModRunes.json
+
+```json
+{"k":"Atziri's Soul Core of Alacrity","n":"Atziri's Soul Core of Alacrity","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
+```
+
+### 4. Greater Rune of Alacrity
 
 - Match score: `35`
 - `k`: Greater Rune of Alacrity
@@ -7757,7 +7769,7 @@ _No keyword matches in this index._
 {"k":"Greater Rune of Alacrity","n":"Greater Rune of Alacrity","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 4. Hedgewitch Assandra's Rune of Wisdom
+### 5. Hedgewitch Assandra's Rune of Wisdom
 
 - Match score: `35`
 - `k`: Hedgewitch Assandra's Rune of Wisdom
@@ -7769,7 +7781,7 @@ _No keyword matches in this index._
 {"k":"Hedgewitch Assandra's Rune of Wisdom","n":"Hedgewitch Assandra's Rune of Wisdom","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 5. Legacy of Wanderlust
+### 6. Legacy of Wanderlust
 
 - Match score: `35`
 - `k`: Legacy of Wanderlust
@@ -9757,6 +9769,6 @@ Create [Fire] [ElementalInfusion|Infusion] [Remnant|Remnants] instead of [Cold]
 | Gems and skills | OK | 120 |
 | Item bases/classes | OK | 120 |
 | Mods and affixes | OK | 120 |
-| Rune mods | OK | 5 |
+| Rune mods | OK | 6 |
 | Uniques | OK | 36 |
 | Misc | OK | 120 |

@@ -1,11 +1,11 @@
 # Build Idea Pack — Lightning Shock Build
 
-- Generated UTC: `2026-09-09T14:35:13+00:00`
+- Generated UTC: `2026-09-10T14:25:38+00:00`
 - Idea slug: `lightning-shock-build`
 - Purpose: Engineer a lightning/shock build with high clear speed and strong damage amplification.
 - Keywords: `lightning, shock, shocked, electrocute, storm, spark, arc, exposure, penetration, ailment, elemental, critical, crit, cast speed, projectile, area, aoe, mana, energy shield, sorceress, stormweaver`
 - Max matched records per index: `120`
-- Total included matches: `737`
+- Total included matches: `738`
 
 
 ## Claude usage rules
@@ -7897,7 +7897,7 @@ _No keyword matches in this index._
 ## Rune mods
 
 - Source: `build_knowledge/compact/rune_mod_index.json`
-- Matches included: `8`
+- Matches included: `9`
 
 ### 1. Amanamu's Gaze
 
@@ -7911,7 +7911,19 @@ _No keyword matches in this index._
 {"k":"Amanamu's Gaze","n":"Amanamu's Gaze","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 2. Countess Seske's Rune of Archery
+### 2. Atziri's Soul Core of Alacrity
+
+- Match score: `35`
+- `k`: Atziri's Soul Core of Alacrity
+- `n`: Atziri's Soul Core of Alacrity
+- `cat`: pob_mod_runes
+- `src`: pob_data_poe2/ModRunes.json
+
+```json
+{"k":"Atziri's Soul Core of Alacrity","n":"Atziri's Soul Core of Alacrity","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
+```
+
+### 3. Countess Seske's Rune of Archery
 
 - Match score: `35`
 - `k`: Countess Seske's Rune of Archery
@@ -7923,7 +7935,7 @@ _No keyword matches in this index._
 {"k":"Countess Seske's Rune of Archery","n":"Countess Seske's Rune of Archery","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 3. Greater Rune of Alacrity
+### 4. Greater Rune of Alacrity
 
 - Match score: `35`
 - `k`: Greater Rune of Alacrity
@@ -7935,7 +7947,7 @@ _No keyword matches in this index._
 {"k":"Greater Rune of Alacrity","n":"Greater Rune of Alacrity","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 4. Greater Storm Rune
+### 5. Greater Storm Rune
 
 - Match score: `35`
 - `k`: Greater Storm Rune
@@ -7947,7 +7959,7 @@ _No keyword matches in this index._
 {"k":"Greater Storm Rune","n":"Greater Storm Rune","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 5. Legacy of Keeper of the Arc
+### 6. Legacy of Keeper of the Arc
 
 - Match score: `35`
 - `k`: Legacy of Keeper of the Arc
@@ -7959,7 +7971,7 @@ _No keyword matches in this index._
 {"k":"Legacy of Keeper of the Arc","n":"Legacy of Keeper of the Arc","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 6. Lesser Storm Rune
+### 7. Lesser Storm Rune
 
 - Match score: `35`
 - `k`: Lesser Storm Rune
@@ -7971,7 +7983,7 @@ _No keyword matches in this index._
 {"k":"Lesser Storm Rune","n":"Lesser Storm Rune","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 7. Perfect Storm Rune
+### 8. Perfect Storm Rune
 
 - Match score: `35`
 - `k`: Perfect Storm Rune
@@ -7983,7 +7995,7 @@ _No keyword matches in this index._
 {"k":"Perfect Storm Rune","n":"Perfect Storm Rune","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 8. Storm Rune
+### 9. Storm Rune
 
 - Match score: `35`
 - `k`: Storm Rune
@@ -9641,6 +9653,6 @@ after killing a [Shock|Shocked] enemy with [Attack|Attack] damage
 | Gems and skills | OK | 120 |
 | Item bases/classes | OK | 120 |
 | Mods and affixes | OK | 120 |
-| Rune mods | OK | 8 |
+| Rune mods | OK | 9 |
 | Uniques | OK | 9 |
 | Misc | OK | 120 |

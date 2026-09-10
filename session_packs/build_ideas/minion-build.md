@@ -1,11 +1,11 @@
 # Build Idea Pack — Minion Build
 
-- Generated UTC: `2026-09-09T14:35:08+00:00`
+- Generated UTC: `2026-09-10T14:25:34+00:00`
 - Idea slug: `minion-build`
 - Purpose: Engineer a minion-focused build for safe clear, boss damage, and low mechanical strain.
 - Keywords: `minion, summon, skeleton, zombie, spirit, persistent, aura, command, revive, ally, damage, life, resistance, energy shield, curse, support, boss, clear, witch, infernalist, blood mage`
 - Max matched records per index: `120`
-- Total included matches: `730`
+- Total included matches: `731`
 
 
 ## Claude usage rules
@@ -7922,7 +7922,7 @@ _No keyword matches in this index._
 ## Rune mods
 
 - Source: `build_knowledge/compact/rune_mod_index.json`
-- Matches included: `5`
+- Matches included: `6`
 
 ### 1. Ancient Rune of Witchcraft
 
@@ -7948,7 +7948,19 @@ _No keyword matches in this index._
 {"k":"Hedgewitch Assandra's Rune of Wisdom","n":"Hedgewitch Assandra's Rune of Wisdom","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 3. Legacy of Cursecarver
+### 3. Jiquani's Soul Core of Rallying
+
+- Match score: `35`
+- `k`: Jiquani's Soul Core of Rallying
+- `n`: Jiquani's Soul Core of Rallying
+- `cat`: pob_mod_runes
+- `src`: pob_data_poe2/ModRunes.json
+
+```json
+{"k":"Jiquani's Soul Core of Rallying","n":"Jiquani's Soul Core of Rallying","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
+```
+
+### 4. Legacy of Cursecarver
 
 - Match score: `35`
 - `k`: Legacy of Cursecarver
@@ -7960,7 +7972,7 @@ _No keyword matches in this index._
 {"k":"Legacy of Cursecarver","n":"Legacy of Cursecarver","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 4. Legacy of Lifesprig
+### 5. Legacy of Lifesprig
 
 - Match score: `35`
 - `k`: Legacy of Lifesprig
@@ -7972,7 +7984,7 @@ _No keyword matches in this index._
 {"k":"Legacy of Lifesprig","n":"Legacy of Lifesprig","cat":"pob_mod_runes","src":"pob_data_poe2/ModRunes.json"}
 ```
 
-### 5. Xipocado's Soul Core of Dominion
+### 6. Xipocado's Soul Core of Dominion
 
 - Match score: `35`
 - `k`: Xipocado's Soul Core of Dominion
@@ -9548,6 +9560,6 @@ Shield per 1% Chaos Resistance they have
 | Gems and skills | OK | 120 |
 | Item bases/classes | OK | 120 |
 | Mods and affixes | OK | 120 |
-| Rune mods | OK | 5 |
+| Rune mods | OK | 6 |
 | Uniques | OK | 5 |
 | Misc | OK | 120 |
