@@ -1,6 +1,6 @@
 # PoE2 Data Manifest Summary
 
-- Generated UTC: `2026-10-14T15:06:46+00:00`
+- Generated UTC: `2026-10-15T14:59:31+00:00`
 - Source priority: GGG passive tree -> RePoE PoE2 -> PoB-data PoE2 -> community sources only as benchmarks
 
 ## Download results
@@ -14,7 +14,7 @@
 | OK | `sources/repoe_poe2/active_skill_types.json` | 290 | 6,285 | https://repoe-fork.github.io/poe2/active_skill_types.json |
 | OK | `sources/repoe_poe2/cost_types.json` | 18 | 1,769 | https://repoe-fork.github.io/poe2/cost_types.json |
 | OK | `sources/repoe_poe2/keywords.json` | 1,030 | 257,857 | https://repoe-fork.github.io/poe2/keywords.json |
-| OK | `sources/repoe_poe2/base_items.json` | 5,496 | 8,199,055 | https://repoe-fork.github.io/poe2/base_items.json |
+| FAILED | `sources/repoe_poe2/base_items.json` | 0 | 0 | https://repoe-fork.github.io/poe2/base_items.json -- ERROR: HTTP Error 503: Service Unavailable |
 | OK | `sources/repoe_poe2/item_classes.json` | 118 | 15,998 | https://repoe-fork.github.io/poe2/item_classes.json |
 | OK | `sources/repoe_poe2/tags.json` | 1,339 | 29,102 | https://repoe-fork.github.io/poe2/tags.json |
 | OK | `sources/repoe_poe2/tag_details.json` | 1,339 | 100,198 | https://repoe-fork.github.io/poe2/tag_details.json |
@@ -44,7 +44,7 @@
 |---|---:|---:|---|
 | `CLAUDE_DATA_HUB_INSTRUCTIONS.md` | 1 | 951 | YES |
 | `gem_index.json` | 11,836 | 2,255,439 | YES |
-| `item_base_index.json` | 8,292 | 1,729,795 | YES |
+| `item_base_index.json` | 2,796 | 300,233 | YES |
 | `manifest_summary.md` | 1 | 5,604 | YES |
 | `misc_index.json` | 27,933 | 5,563,416 | OPTIONAL |
 | `mod_index.json` | 19,434 | 5,442,251 | YES, if size allows |
