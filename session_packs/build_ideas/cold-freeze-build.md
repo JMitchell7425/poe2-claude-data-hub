@@ -1,11 +1,11 @@
 # Build Idea Pack — Cold Freeze Build
 
-- Generated UTC: `2026-10-14T15:07:18+00:00`
+- Generated UTC: `2026-10-15T14:59:57+00:00`
 - Idea slug: `cold-freeze-build`
 - Purpose: Engineer a cold/freeze/shatter build for safe clear and controlled bossing.
 - Keywords: `cold, freeze, frozen, chill, chilled, shatter, ice, glacial, frost, exposure, penetration, ailment, elemental, critical, crit, herald, spirit, support, resistance, monk, sorceress`
 - Max matched records per index: `120`
-- Total included matches: `741`
+- Total included matches: `699`
 
 
 ## Claude usage rules
@@ -4486,135 +4486,9 @@ _No keyword matches in this index._
 ## Item bases/classes
 
 - Source: `build_knowledge/compact/item_base_index.json`
-- Matches included: `120`
+- Matches included: `78`
 
-### 1. Blazing Critical
-
-- Match score: `80`
-- `k`: Metadata/Items/Gems/SupportGemBlazingCritical
-- `n`: Blazing Critical
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemBlazingCritical","n":"Blazing Critical","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 2. Cold Exposure
-
-- Match score: `80`
-- `k`: Metadata/Items/Gems/SupportGemColdExposure
-- `n`: Cold Exposure
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemColdExposure","n":"Cold Exposure","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 3. Cold Penetration
-
-- Match score: `80`
-- `k`: Metadata/Items/Gems/SupportGemColdPenetration
-- `n`: Cold Penetration
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemColdPenetration","n":"Cold Penetration","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 4. Inexorable Critical I
-
-- Match score: `80`
-- `k`: Metadata/Items/Gems/SupportGemInevitableCritical
-- `n`: Inexorable Critical I
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemInevitableCritical","n":"Inexorable Critical I","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 5. Inexorable Critical II
-
-- Match score: `80`
-- `k`: Metadata/Items/Gems/SupportGemInevitableCriticalTwo
-- `n`: Inexorable Critical II
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemInevitableCriticalTwo","n":"Inexorable Critical II","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 6. Pinpoint Critical
-
-- Match score: `80`
-- `k`: Metadata/Items/Gems/SupportGemPinpointCritical
-- `n`: Pinpoint Critical
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemPinpointCritical","n":"Pinpoint Critical","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 7. Supercritical
-
-- Match score: `80`
-- `k`: Metadata/Items/Gems/SupportGemSupercritical
-- `n`: Supercritical
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemSupercritical","n":"Supercritical","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 8. Cast on Critical
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SkillGemCastOnCritical
-- `n`: Cast on Critical
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemCastOnCritical","n":"Cast on Critical","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 9. Cast on Elemental Ailment
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SkillGemCastOnElementalAilment
-- `n`: Cast on Elemental Ailment
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemCastOnElementalAilment","n":"Cast on Elemental Ailment","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 10. caster_critical
+### 1. caster_critical
 
 - Match score: `70`
 - `k`: caster_critical
@@ -4626,7 +4500,7 @@ _No keyword matches in this index._
 {"k":"caster_critical","n":"caster_critical","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 11. caster_critical
+### 2. caster_critical
 
 - Match score: `70`
 - `k`: 1300
@@ -4638,7 +4512,7 @@ _No keyword matches in this index._
 {"k":"1300","n":"caster_critical","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_critical"}
 ```
 
-### 12. cold_resistance
+### 3. cold_resistance
 
 - Match score: `70`
 - `k`: cold_resistance
@@ -4650,7 +4524,7 @@ _No keyword matches in this index._
 {"k":"cold_resistance","n":"cold_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 13. cold_resistance
+### 4. cold_resistance
 
 - Match score: `70`
 - `k`: 1266
@@ -4662,7 +4536,7 @@ _No keyword matches in this index._
 {"k":"1266","n":"cold_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_resistance"}
 ```
 
-### 14. Critical
+### 5. Critical
 
 - Match score: `70`
 - `k`: critical
@@ -4674,7 +4548,7 @@ _No keyword matches in this index._
 {"k":"critical","n":"Critical","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 15. critical
+### 6. critical
 
 - Match score: `70`
 - `k`: 575
@@ -4686,22 +4560,7 @@ _No keyword matches in this index._
 {"k":"575","n":"critical","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"critical"}
 ```
 
-### 16. Critical Wand
-
-- Match score: `70`
-- `k`: Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand11
-- `n`: Critical Wand
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["wand","onehand","default"]
-- `req`: {"dexterity":0,"intelligence":92,"level":52,"strength":0}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand11","n":"Critical Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["wand","onehand","default"],"req":{"dexterity":0,"intelligence":92,"level":52,"strength":0},"domain":"item"}
-```
-
-### 17. critical_utility_flask
+### 7. critical_utility_flask
 
 - Match score: `70`
 - `k`: critical_utility_flask
@@ -4713,7 +4572,7 @@ _No keyword matches in this index._
 {"k":"critical_utility_flask","n":"critical_utility_flask","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 18. critical_utility_flask
+### 8. critical_utility_flask
 
 - Match score: `70`
 - `k`: 47
@@ -4725,7 +4584,7 @@ _No keyword matches in this index._
 {"k":"47","n":"critical_utility_flask","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"critical_utility_flask"}
 ```
 
-### 19. elemental_resistance
+### 9. elemental_resistance
 
 - Match score: `70`
 - `k`: elemental_resistance
@@ -4737,7 +4596,7 @@ _No keyword matches in this index._
 {"k":"elemental_resistance","n":"elemental_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 20. elemental_resistance
+### 10. elemental_resistance
 
 - Match score: `70`
 - `k`: 1264
@@ -4749,7 +4608,7 @@ _No keyword matches in this index._
 {"k":"1264","n":"elemental_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elemental_resistance"}
 ```
 
-### 21. grants_crit_chance_support
+### 11. grants_crit_chance_support
 
 - Match score: `70`
 - `k`: grants_crit_chance_support
@@ -4761,7 +4620,7 @@ _No keyword matches in this index._
 {"k":"grants_crit_chance_support","n":"grants_crit_chance_support","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 22. grants_crit_chance_support
+### 12. grants_crit_chance_support
 
 - Match score: `70`
 - `k`: 291
@@ -4773,651 +4632,7 @@ _No keyword matches in this index._
 {"k":"291","n":"grants_crit_chance_support","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"grants_crit_chance_support"}
 ```
 
-### 23. Herald of Ice
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SkillGemHeraldOfIce
-- `n`: Herald of Ice
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemHeraldOfIce","n":"Herald of Ice","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 24. Herald of Ice
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/UniqueSkillGemHeraldOfIce
-- `n`: Herald of Ice
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/UniqueSkillGemHeraldOfIce","n":"Herald of Ice","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 25. Biting Frost I
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemBitingFrost
-- `n`: Biting Frost I
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemBitingFrost","n":"Biting Frost I","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 26. Biting Frost II
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemBitingFrostTwo
-- `n`: Biting Frost II
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemBitingFrostTwo","n":"Biting Frost II","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 27. Chance to Freeze
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemChanceToFreeze
-- `n`: Chance to Freeze
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemChanceToFreeze","n":"Chance to Freeze","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 28. Chaotic Freeze
-
-- Match score: `45`
-- `k`: Metadata/Items/Gem/SupportGemChaoticFreeze
-- `n`: Chaotic Freeze
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SupportGemChaoticFreeze","n":"Chaotic Freeze","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 29. Chilling Flux
-
-- Match score: `45`
-- `k`: Metadata/Items/Currency/CurrencyArcaneFluxCold
-- `n`: Chilling Flux
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["currency","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Currency/CurrencyArcaneFluxCold","n":"Chilling Flux","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"StackableCurrency","tags":["currency","default"],"domain":"undefined"}
-```
-
-### 30. Cold Attunement
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemColdInfusion
-- `n`: Cold Attunement
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemColdInfusion","n":"Cold Attunement","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 31. Cold Mastery
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemColdMastery
-- `n`: Cold Mastery
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemColdMastery","n":"Cold Mastery","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 32. Creeping Chill
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemCreepingChill
-- `n`: Creeping Chill
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemCreepingChill","n":"Creeping Chill","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 33. Deadly Herald
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemDeadlyHeralds
-- `n`: Deadly Herald
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemDeadlyHeralds","n":"Deadly Herald","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 34. Deep Freeze
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemDeepFreeze
-- `n`: Deep Freeze
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemDeepFreeze","n":"Deep Freeze","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 35. Drain Ailments
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemDrainAilments
-- `n`: Drain Ailments
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemDrainAilments","n":"Drain Ailments","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 36. Elemental Armament I
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemPrimalArmament
-- `n`: Elemental Armament I
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemPrimalArmament","n":"Elemental Armament I","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 37. Elemental Armament II
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemPrimalArmamentTwo
-- `n`: Elemental Armament II
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemPrimalArmamentTwo","n":"Elemental Armament II","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 38. Elemental Armament III
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemPrimalArmamentThree
-- `n`: Elemental Armament III
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemPrimalArmamentThree","n":"Elemental Armament III","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 39. Elemental Army
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemElementalArmy
-- `n`: Elemental Army
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemElementalArmy","n":"Elemental Army","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 40. Elemental Discharge
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemElementalDischarge
-- `n`: Elemental Discharge
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemElementalDischarge","n":"Elemental Discharge","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 41. Elemental Focus
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemElementalFocus
-- `n`: Elemental Focus
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemElementalFocus","n":"Elemental Focus","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 42. Essence of Ice
-
-- Match score: `45`
-- `k`: Metadata/Items/Currency/CurrencyEssenceCold
-- `n`: Essence of Ice
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["essence","currency","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Currency/CurrencyEssenceCold","n":"Essence of Ice","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"StackableCurrency","tags":["essence","currency","default"],"domain":"undefined"}
-```
-
-### 43. Fire Exposure
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemFireExposure
-- `n`: Fire Exposure
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemFireExposure","n":"Fire Exposure","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 44. Fire Penetration I
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemFirePenetration
-- `n`: Fire Penetration I
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemFirePenetration","n":"Fire Penetration I","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 45. Fire Penetration II
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemFirePenetrationTwo
-- `n`: Fire Penetration II
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemFirePenetrationTwo","n":"Fire Penetration II","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 46. Freeze
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemGlaciation
-- `n`: Freeze
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemGlaciation","n":"Freeze","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 47. Freezefork
-
-- Match score: `45`
-- `k`: Metadata/Items/Gem/SupportGemFreezefork
-- `n`: Freezefork
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SupportGemFreezefork","n":"Freezefork","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 48. Frost Nexus
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemFrostNexus
-- `n`: Frost Nexus
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemFrostNexus","n":"Frost Nexus","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 49. Frostfire
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemFrostfire
-- `n`: Frostfire
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemFrostfire","n":"Frostfire","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 50. Frozen Spite
-
-- Match score: `45`
-- `k`: Metadata/Items/Gem/SupportGemFrozenSpite
-- `n`: Frozen Spite
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SupportGemFrozenSpite","n":"Frozen Spite","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 51. Frozen Vortex
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemFrozenVortex
-- `n`: Frozen Vortex
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemFrozenVortex","n":"Frozen Vortex","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 52. Glacial Rune
-
-- Match score: `45`
-- `k`: Metadata/Items/SoulCores/RuneCold
-- `n`: Glacial Rune
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["rune","rune_normal","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/SoulCores/RuneCold","n":"Glacial Rune","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","rune_normal","default"],"domain":"undefined"}
-```
-
-### 53. Greater Essence of Ice
-
-- Match score: `45`
-- `k`: Metadata/Items/Currency/CurrencyGreaterEssenceCold
-- `n`: Greater Essence of Ice
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["essence","currency","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Currency/CurrencyGreaterEssenceCold","n":"Greater Essence of Ice","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"StackableCurrency","tags":["essence","currency","default"],"domain":"undefined"}
-```
-
-### 54. Greater Glacial Rune
-
-- Match score: `45`
-- `k`: Metadata/Items/SoulCores/RuneColdGreater
-- `n`: Greater Glacial Rune
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["rune","rune_greater","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/SoulCores/RuneColdGreater","n":"Greater Glacial Rune","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","rune_greater","default"],"domain":"undefined"}
-```
-
-### 55. Hoarfrost
-
-- Match score: `45`
-- `k`: Metadata/Items/Gem/SupportGemHoarfrost
-- `n`: Hoarfrost
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SupportGemHoarfrost","n":"Hoarfrost","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 56. Ice Bite I
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemIceBite
-- `n`: Ice Bite I
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemIceBite","n":"Ice Bite I","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 57. Ice Bite II
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemIceBiteTwo
-- `n`: Ice Bite II
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemIceBiteTwo","n":"Ice Bite II","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 58. Lesser Essence of Ice
-
-- Match score: `45`
-- `k`: Metadata/Items/Currency/CurrencyLesserEssenceCold
-- `n`: Lesser Essence of Ice
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["essence","currency","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Currency/CurrencyLesserEssenceCold","n":"Lesser Essence of Ice","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"StackableCurrency","tags":["essence","currency","default"],"domain":"undefined"}
-```
-
-### 59. Lesser Glacial Rune
-
-- Match score: `45`
-- `k`: Metadata/Items/SoulCores/RuneColdLesser
-- `n`: Lesser Glacial Rune
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["rune","rune_lesser","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/SoulCores/RuneColdLesser","n":"Lesser Glacial Rune","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","rune_lesser","default"],"domain":"undefined"}
-```
-
-### 60. Lightning Exposure
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemLightningExposure
-- `n`: Lightning Exposure
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemLightningExposure","n":"Lightning Exposure","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 61. Lightning Penetration
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemLightningPenetration
-- `n`: Lightning Penetration
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemLightningPenetration","n":"Lightning Penetration","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 62. Perfect Essence of Ice
-
-- Match score: `45`
-- `k`: Metadata/Items/Currency/CurrencyPerfectEssenceCold
-- `n`: Perfect Essence of Ice
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["essence","currency","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Currency/CurrencyPerfectEssenceCold","n":"Perfect Essence of Ice","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"StackableCurrency","tags":["essence","currency","default"],"domain":"undefined"}
-```
-
-### 63. Perfect Glacial Rune
-
-- Match score: `45`
-- `k`: Metadata/Items/SoulCores/RuneColdPerfect
-- `n`: Perfect Glacial Rune
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["rune","rune_perfect","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/SoulCores/RuneColdPerfect","n":"Perfect Glacial Rune","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","rune_perfect","default"],"domain":"undefined"}
-```
-
-### 64. Potent Exposure
-
-- Match score: `45`
-- `k`: Metadata/Items/Gem/SupportGemStripAway
-- `n`: Potent Exposure
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SupportGemStripAway","n":"Potent Exposure","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 65. Practiced Combo
-
-- Match score: `45`
-- `k`: Metadata/Items/Gem/SupportGemPracticedCombo
-- `n`: Practiced Combo
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SupportGemPracticedCombo","n":"Practiced Combo","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 66. Spreading Frost
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/SupportGemSpreadingFrost
-- `n`: Spreading Frost
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemSpreadingFrost","n":"Spreading Frost","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 67. [DNT-UNUSED] Flame Slice
-
-- Match score: `35`
-- `k`: Metadata/Items/Gems/SkillGemFlameSlice
-- `n`: [DNT-UNUSED] Flame Slice
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemFlameSlice","n":"[DNT-UNUSED] Flame Slice","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 68. [DNT] Meta Ranged Attack on Freeze
-
-- Match score: `35`
-- `k`: Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnFreeze
-- `n`: [DNT] Meta Ranged Attack on Freeze
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnFreeze","n":"[DNT] Meta Ranged Attack on Freeze","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 69. Ailment
+### 13. Ailment
 
 - Match score: `35`
 - `k`: ailment
@@ -5429,7 +4644,7 @@ _No keyword matches in this index._
 {"k":"ailment","n":"Ailment","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 70. ailment
+### 14. ailment
 
 - Match score: `35`
 - `k`: 589
@@ -5441,105 +4656,7 @@ _No keyword matches in this index._
 {"k":"589","n":"ailment","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"ailment"}
 ```
 
-### 71. Alchemical Chalice
-
-- Match score: `35`
-- `k`: Metadata/Items/Heist/HeistFinalObjective9
-- `n`: Alchemical Chalice
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Heist/HeistFinalObjective9","n":"Alchemical Chalice","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HeistObjective","tags":["default"],"domain":"undefined"}
-```
-
-### 72. Ancestral Spirits
-
-- Match score: `35`
-- `k`: Metadata/Items/Gem/SkillGemAscendancyAncestralSpirits
-- `n`: Ancestral Spirits
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SkillGemAscendancyAncestralSpirits","n":"Ancestral Spirits","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 73. Ancient Rune of Shattering
-
-- Match score: `35`
-- `k`: Metadata/Items/SoulCores/RuneOfTheAncients4
-- `n`: Ancient Rune of Shattering
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["rune","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/SoulCores/RuneOfTheAncients4","n":"Ancient Rune of Shattering","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","default"],"domain":"undefined"}
-```
-
-### 74. Apprentice Cartographer's Seal
-
-- Match score: `35`
-- `k`: Metadata/Items/Currency/CurrencySealMapLow
-- `n`: Apprentice Cartographer's Seal
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["currency","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Currency/CurrencySealMapLow","n":"Apprentice Cartographer's Seal","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"StackableCurrency","tags":["currency","default"],"domain":"undefined"}
-```
-
-### 75. Artificer's Orb
-
-- Match score: `35`
-- `k`: Metadata/Items/Currency/CurrencyAddEquipmentSocket
-- `n`: Artificer's Orb
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["socket_currency","currency","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Currency/CurrencyAddEquipmentSocket","n":"Artificer's Orb","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"StackableCurrency","tags":["socket_currency","currency","default"],"domain":"undefined"}
-```
-
-### 76. Artificer's Shard
-
-- Match score: `35`
-- `k`: Metadata/Items/Currency/CurrencyAddEquipmentSocketShard
-- `n`: Artificer's Shard
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["currency_shard","currency","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Currency/CurrencyAddEquipmentSocketShard","n":"Artificer's Shard","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"StackableCurrency","tags":["currency_shard","currency","default"],"domain":"undefined"}
-```
-
-### 77. Atziri's Soul Core of Alacrity
-
-- Match score: `35`
-- `k`: Metadata/Items/SoulCores/SoulCoreSpecial31
-- `n`: Atziri's Soul Core of Alacrity
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["soul_core","soul_core_tier4","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/SoulCores/SoulCoreSpecial31","n":"Atziri's Soul Core of Alacrity","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["soul_core","soul_core_tier4","default"],"domain":"undefined"}
-```
-
-### 78. bestiary_spirit_boss
+### 15. bestiary_spirit_boss
 
 - Match score: `35`
 - `k`: bestiary_spirit_boss
@@ -5551,7 +4668,7 @@ _No keyword matches in this index._
 {"k":"bestiary_spirit_boss","n":"bestiary_spirit_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 79. bestiary_spirit_boss
+### 16. bestiary_spirit_boss
 
 - Match score: `35`
 - `k`: 833
@@ -5563,7 +4680,7 @@ _No keyword matches in this index._
 {"k":"833","n":"bestiary_spirit_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bestiary_spirit_boss"}
 ```
 
-### 80. blight_death_cold
+### 17. blight_death_cold
 
 - Match score: `35`
 - `k`: blight_death_cold
@@ -5575,7 +4692,7 @@ _No keyword matches in this index._
 {"k":"blight_death_cold","n":"blight_death_cold","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 81. blight_death_cold
+### 18. blight_death_cold
 
 - Match score: `35`
 - `k`: 465
@@ -5587,35 +4704,7 @@ _No keyword matches in this index._
 {"k":"465","n":"blight_death_cold","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"blight_death_cold"}
 ```
 
-### 82. Blueprint: Records Office
-
-- Match score: `35`
-- `k`: Metadata/Items/Heist/HeistBlueprintCourts
-- `n`: Blueprint: Records Office
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["heist_blueprint","default"]
-- `domain`: heist_area
-
-```json
-{"k":"Metadata/Items/Heist/HeistBlueprintCourts","n":"Blueprint: Records Office","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HeistBlueprint","tags":["heist_blueprint","default"],"domain":"heist_area"}
-```
-
-### 83. Boneshatter
-
-- Match score: `35`
-- `k`: Metadata/Items/Gems/SkillGemBoneshatter
-- `n`: Boneshatter
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemBoneshatter","n":"Boneshatter","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 84. breach_monster_cold
+### 19. breach_monster_cold
 
 - Match score: `35`
 - `k`: breach_monster_cold
@@ -5627,7 +4716,7 @@ _No keyword matches in this index._
 {"k":"breach_monster_cold","n":"breach_monster_cold","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 85. breach_monster_cold
+### 20. breach_monster_cold
 
 - Match score: `35`
 - `k`: 998
@@ -5639,21 +4728,7 @@ _No keyword matches in this index._
 {"k":"998","n":"breach_monster_cold","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"breach_monster_cold"}
 ```
 
-### 86. Cast on Freeze
-
-- Match score: `35`
-- `k`: Metadata/Items/Gems/SkillGemCastOnFreeze
-- `n`: Cast on Freeze
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemCastOnFreeze","n":"Cast on Freeze","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 87. chaos_resistance
+### 21. chaos_resistance
 
 - Match score: `35`
 - `k`: chaos_resistance
@@ -5665,7 +4740,7 @@ _No keyword matches in this index._
 {"k":"chaos_resistance","n":"chaos_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 88. chaos_resistance
+### 22. chaos_resistance
 
 - Match score: `35`
 - `k`: 1295
@@ -5677,7 +4752,7 @@ _No keyword matches in this index._
 {"k":"1295","n":"chaos_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_resistance"}
 ```
 
-### 89. Cold
+### 23. Cold
 
 - Match score: `35`
 - `k`: cold
@@ -5689,7 +4764,7 @@ _No keyword matches in this index._
 {"k":"cold","n":"Cold","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 90. cold
+### 24. cold
 
 - Match score: `35`
 - `k`: 312
@@ -5701,21 +4776,7 @@ _No keyword matches in this index._
 {"k":"312","n":"cold","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold"}
 ```
 
-### 91. Cold Tattoo of Tasalio
-
-- Match score: `35`
-- `k`: Metadata/Items/QuestItems/Gallows/Act4/Tattoo2_2
-- `n`: Cold Tattoo of Tasalio
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["quest_item","quest_item","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/QuestItems/Gallows/Act4/Tattoo2_2","n":"Cold Tattoo of Tasalio","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"QuestItem","tags":["quest_item","quest_item","default"],"domain":"undefined"}
-```
-
-### 92. cold_affinity
+### 25. cold_affinity
 
 - Match score: `35`
 - `k`: cold_affinity
@@ -5727,7 +4788,7 @@ _No keyword matches in this index._
 {"k":"cold_affinity","n":"cold_affinity","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 93. cold_affinity
+### 26. cold_affinity
 
 - Match score: `35`
 - `k`: 721
@@ -5739,7 +4800,7 @@ _No keyword matches in this index._
 {"k":"721","n":"cold_affinity","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_affinity"}
 ```
 
-### 94. cold_catalyst
+### 27. cold_catalyst
 
 - Match score: `35`
 - `k`: cold_catalyst
@@ -5751,7 +4812,7 @@ _No keyword matches in this index._
 {"k":"cold_catalyst","n":"cold_catalyst","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 95. cold_catalyst
+### 28. cold_catalyst
 
 - Match score: `35`
 - `k`: 1310
@@ -5763,7 +4824,7 @@ _No keyword matches in this index._
 {"k":"1310","n":"cold_catalyst","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_catalyst"}
 ```
 
-### 96. cold_crafting_option
+### 29. cold_crafting_option
 
 - Match score: `35`
 - `k`: cold_crafting_option
@@ -5775,7 +4836,7 @@ _No keyword matches in this index._
 {"k":"cold_crafting_option","n":"cold_crafting_option","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 97. cold_crafting_option
+### 30. cold_crafting_option
 
 - Match score: `35`
 - `k`: 1127
@@ -5787,7 +4848,7 @@ _No keyword matches in this index._
 {"k":"1127","n":"cold_crafting_option","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_crafting_option"}
 ```
 
-### 98. cold_implicit_skill
+### 31. cold_implicit_skill
 
 - Match score: `35`
 - `k`: cold_implicit_skill
@@ -5799,7 +4860,7 @@ _No keyword matches in this index._
 {"k":"cold_implicit_skill","n":"cold_implicit_skill","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 99. cold_implicit_skill
+### 32. cold_implicit_skill
 
 - Match score: `35`
 - `k`: 1330
@@ -5811,49 +4872,7 @@ _No keyword matches in this index._
 {"k":"1330","n":"cold_implicit_skill","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_implicit_skill"}
 ```
 
-### 100. Contract: Records Office
-
-- Match score: `35`
-- `k`: Metadata/Items/Heist/HeistContractCourts
-- `n`: Contract: Records Office
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["heist_contract","default"]
-- `domain`: heist_area
-
-```json
-{"k":"Metadata/Items/Heist/HeistContractCourts","n":"Contract: Records Office","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HeistContract","tags":["heist_contract","default"],"domain":"heist_area"}
-```
-
-### 101. Craiceann's Rune of Recovery
-
-- Match score: `35`
-- `k`: Metadata/Items/SoulCores/RuneSpecial14
-- `n`: Craiceann's Rune of Recovery
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["rune","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/SoulCores/RuneSpecial14","n":"Craiceann's Rune of Recovery","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","default"],"domain":"undefined"}
-```
-
-### 102. Craiceann's Rune of Warding
-
-- Match score: `35`
-- `k`: Metadata/Items/SoulCores/RuneSpecial10
-- `n`: Craiceann's Rune of Warding
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["rune","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/SoulCores/RuneSpecial10","n":"Craiceann's Rune of Warding","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","default"],"domain":"undefined"}
-```
-
-### 103. earth_elemental
+### 33. earth_elemental
 
 - Match score: `35`
 - `k`: earth_elemental
@@ -5865,7 +4884,7 @@ _No keyword matches in this index._
 {"k":"earth_elemental","n":"earth_elemental","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 104. earth_elemental
+### 34. earth_elemental
 
 - Match score: `35`
 - `k`: 54
@@ -5877,21 +4896,7 @@ _No keyword matches in this index._
 {"k":"54","n":"earth_elemental","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"earth_elemental"}
 ```
 
-### 105. Earthshatter
-
-- Match score: `35`
-- `k`: Metadata/Items/Gems/SkillGemEarthshatter
-- `n`: Earthshatter
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemEarthshatter","n":"Earthshatter","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 106. einharmonkey
+### 35. einharmonkey
 
 - Match score: `35`
 - `k`: einharmonkey
@@ -5903,7 +4908,7 @@ _No keyword matches in this index._
 {"k":"einharmonkey","n":"einharmonkey","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 107. einharmonkey
+### 36. einharmonkey
 
 - Match score: `35`
 - `k`: 329
@@ -5915,7 +4920,7 @@ _No keyword matches in this index._
 {"k":"329","n":"einharmonkey","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"einharmonkey"}
 ```
 
-### 108. Elemental
+### 37. Elemental
 
 - Match score: `35`
 - `k`: elemental
@@ -5927,7 +4932,7 @@ _No keyword matches in this index._
 {"k":"elemental","n":"Elemental","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 109. elemental
+### 38. elemental
 
 - Match score: `35`
 - `k`: 320
@@ -5939,119 +4944,7 @@ _No keyword matches in this index._
 {"k":"320","n":"elemental","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elemental"}
 ```
 
-### 110. Elemental Conflux
-
-- Match score: `35`
-- `k`: Metadata/Items/Gem/SkillGemElementalConflux
-- `n`: Elemental Conflux
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SkillGemElementalConflux","n":"Elemental Conflux","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 111. Elemental Expression
-
-- Match score: `35`
-- `k`: Metadata/Items/Gem/SkillGemAscendancyElementalExpression
-- `n`: Elemental Expression
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SkillGemAscendancyElementalExpression","n":"Elemental Expression","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 112. Elemental Invocation
-
-- Match score: `35`
-- `k`: Metadata/Items/Gem/SkillGemElementalInvocation
-- `n`: Elemental Invocation
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SkillGemElementalInvocation","n":"Elemental Invocation","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 113. Elemental Siphon
-
-- Match score: `35`
-- `k`: Metadata/Items/Gem/SkillGemElementalSiphon
-- `n`: Elemental Siphon
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SkillGemElementalSiphon","n":"Elemental Siphon","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 114. Elemental Storm
-
-- Match score: `35`
-- `k`: Metadata/Items/Gem/SkillGemAscendancyElementalStorm
-- `n`: Elemental Storm
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SkillGemAscendancyElementalStorm","n":"Elemental Storm","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 115. Elemental Sundering
-
-- Match score: `35`
-- `k`: Metadata/Items/Gem/SkillGemElementalSundering
-- `n`: Elemental Sundering
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SkillGemElementalSundering","n":"Elemental Sundering","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 116. Elemental Surge
-
-- Match score: `35`
-- `k`: Metadata/Items/Gem/SkillGemAscendancyInfuseWeapon
-- `n`: Elemental Surge
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SkillGemAscendancyInfuseWeapon","n":"Elemental Surge","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 117. Elemental Weakness
-
-- Match score: `35`
-- `k`: Metadata/Items/Gem/SkillGemElementalWeakness
-- `n`: Elemental Weakness
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SkillGemElementalWeakness","n":"Elemental Weakness","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 118. elemental_damage
+### 39. elemental_damage
 
 - Match score: `35`
 - `k`: elemental_damage
@@ -6063,7 +4956,7 @@ _No keyword matches in this index._
 {"k":"elemental_damage","n":"elemental_damage","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 119. elemental_damage
+### 40. elemental_damage
 
 - Match score: `35`
 - `k`: 611
@@ -6075,7 +4968,7 @@ _No keyword matches in this index._
 {"k":"611","n":"elemental_damage","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elemental_damage"}
 ```
 
-### 120. Elemental_onhit_audio
+### 41. Elemental_onhit_audio
 
 - Match score: `35`
 - `k`: Elemental_onhit_audio
@@ -6085,6 +4978,450 @@ _No keyword matches in this index._
 
 ```json
 {"k":"Elemental_onhit_audio","n":"Elemental_onhit_audio","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 42. Elemental_onhit_audio
+
+- Match score: `35`
+- `k`: 1032
+- `n`: Elemental_onhit_audio
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"1032","n":"Elemental_onhit_audio","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"Elemental_onhit_audio"}
+```
+
+### 43. expedition_faction_order_of_the_chalice
+
+- Match score: `35`
+- `k`: expedition_faction_order_of_the_chalice
+- `n`: expedition_faction_order_of_the_chalice
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"expedition_faction_order_of_the_chalice","n":"expedition_faction_order_of_the_chalice","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 44. expedition_faction_order_of_the_chalice
+
+- Match score: `35`
+- `k`: 696
+- `n`: expedition_faction_order_of_the_chalice
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"696","n":"expedition_faction_order_of_the_chalice","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"expedition_faction_order_of_the_chalice"}
+```
+
+### 45. expedition_monkeytribe_remnant
+
+- Match score: `35`
+- `k`: expedition_monkeytribe_remnant
+- `n`: expedition_monkeytribe_remnant
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"expedition_monkeytribe_remnant","n":"expedition_monkeytribe_remnant","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 46. expedition_monkeytribe_remnant
+
+- Match score: `35`
+- `k`: 678
+- `n`: expedition_monkeytribe_remnant
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"678","n":"expedition_monkeytribe_remnant","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"expedition_monkeytribe_remnant"}
+```
+
+### 47. fire_resistance
+
+- Match score: `35`
+- `k`: fire_resistance
+- `n`: fire_resistance
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"fire_resistance","n":"fire_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 48. fire_resistance
+
+- Match score: `35`
+- `k`: 1265
+- `n`: fire_resistance
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"1265","n":"fire_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"fire_resistance"}
+```
+
+### 49. frost_shrine
+
+- Match score: `35`
+- `k`: frost_shrine
+- `n`: frost_shrine
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"frost_shrine","n":"frost_shrine","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 50. frost_shrine
+
+- Match score: `35`
+- `k`: 1187
+- `n`: frost_shrine
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"1187","n":"frost_shrine","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"frost_shrine"}
+```
+
+### 51. grants_2h_support
+
+- Match score: `35`
+- `k`: grants_2h_support
+- `n`: grants_2h_support
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"grants_2h_support","n":"grants_2h_support","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 52. grants_2h_support
+
+- Match score: `35`
+- `k`: 567
+- `n`: grants_2h_support
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"567","n":"grants_2h_support","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"grants_2h_support"}
+```
+
+### 53. lightning_resistance
+
+- Match score: `35`
+- `k`: lightning_resistance
+- `n`: lightning_resistance
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"lightning_resistance","n":"lightning_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 54. lightning_resistance
+
+- Match score: `35`
+- `k`: 1267
+- `n`: lightning_resistance
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"1267","n":"lightning_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"lightning_resistance"}
+```
+
+### 55. map_device
+
+- Match score: `35`
+- `k`: map_device
+- `n`: map_device
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"map_device","n":"map_device","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 56. map_device
+
+- Match score: `35`
+- `k`: 573
+- `n`: map_device
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"573","n":"map_device","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"map_device"}
+```
+
+### 57. minion_resistance
+
+- Match score: `35`
+- `k`: minion_resistance
+- `n`: minion_resistance
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"minion_resistance","n":"minion_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 58. minion_resistance
+
+- Match score: `35`
+- `k`: 1296
+- `n`: minion_resistance
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"1296","n":"minion_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"minion_resistance"}
+```
+
+### 59. no_cold_spell_mods
+
+- Match score: `35`
+- `k`: no_cold_spell_mods
+- `n`: no_cold_spell_mods
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"no_cold_spell_mods","n":"no_cold_spell_mods","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 60. no_cold_spell_mods
+
+- Match score: `35`
+- `k`: 1054
+- `n`: no_cold_spell_mods
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"1054","n":"no_cold_spell_mods","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"no_cold_spell_mods"}
+```
+
+### 61. no_spirit_walkers_archnemesis
+
+- Match score: `35`
+- `k`: no_spirit_walkers_archnemesis
+- `n`: no_spirit_walkers_archnemesis
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"no_spirit_walkers_archnemesis","n":"no_spirit_walkers_archnemesis","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 62. no_spirit_walkers_archnemesis
+
+- Match score: `35`
+- `k`: 964
+- `n`: no_spirit_walkers_archnemesis
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"964","n":"no_spirit_walkers_archnemesis","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"no_spirit_walkers_archnemesis"}
+```
+
+### 63. Resistance
+
+- Match score: `35`
+- `k`: resistance
+- `n`: Resistance
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"resistance","n":"Resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 64. resistance
+
+- Match score: `35`
+- `k`: 583
+- `n`: resistance
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"583","n":"resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"resistance"}
+```
+
+### 65. Slice1HMetal_onhit_audio
+
+- Match score: `35`
+- `k`: Slice1HMetal_onhit_audio
+- `n`: Slice1HMetal_onhit_audio
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"Slice1HMetal_onhit_audio","n":"Slice1HMetal_onhit_audio","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 66. Slice1HMetal_onhit_audio
+
+- Match score: `35`
+- `k`: 1029
+- `n`: Slice1HMetal_onhit_audio
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"1029","n":"Slice1HMetal_onhit_audio","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"Slice1HMetal_onhit_audio"}
+```
+
+### 67. support
+
+- Match score: `35`
+- `k`: support
+- `n`: support
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"support","n":"support","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 68. support
+
+- Match score: `35`
+- `k`: 592
+- `n`: support
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"592","n":"support","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"support"}
+```
+
+### 69. Support Gems
+
+- Match score: `35`
+- `k`: Support Skill Gem
+- `n`: Support Gems
+- `cat`: repoe_item_classes
+- `src`: repoe_poe2/item_classes.json
+
+```json
+{"k":"Support Skill Gem","n":"Support Gems","cat":"repoe_item_classes","src":"repoe_poe2/item_classes.json"}
+```
+
+### 70. support_gem
+
+- Match score: `35`
+- `k`: support_gem
+- `n`: support_gem
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"support_gem","n":"support_gem","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 71. support_gem
+
+- Match score: `35`
+- `k`: 167
+- `n`: support_gem
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"167","n":"support_gem","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"support_gem"}
+```
+
+### 72. Uncut Spirit Gems
+
+- Match score: `35`
+- `k`: UncutReservationGemStackable
+- `n`: Uncut Spirit Gems
+- `cat`: repoe_item_classes
+- `src`: repoe_poe2/item_classes.json
+
+```json
+{"k":"UncutReservationGemStackable","n":"Uncut Spirit Gems","cat":"repoe_item_classes","src":"repoe_poe2/item_classes.json"}
+```
+
+### 73. Uncut Support Gems
+
+- Match score: `35`
+- `k`: UncutSupportGemStackable
+- `n`: Uncut Support Gems
+- `cat`: repoe_item_classes
+- `src`: repoe_poe2/item_classes.json
+
+```json
+{"k":"UncutSupportGemStackable","n":"Uncut Support Gems","cat":"repoe_item_classes","src":"repoe_poe2/item_classes.json"}
+```
+
+### 74. UncutSupportGem_OLD
+
+- Match score: `35`
+- `k`: UncutSupportGem_OLD
+- `n`: UncutSupportGem_OLD
+- `cat`: repoe_item_classes
+- `src`: repoe_poe2/item_classes.json
+
+```json
+{"k":"UncutSupportGem_OLD","n":"UncutSupportGem_OLD","cat":"repoe_item_classes","src":"repoe_poe2/item_classes.json"}
+```
+
+### 75. water_elemental
+
+- Match score: `35`
+- `k`: water_elemental
+- `n`: water_elemental
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"water_elemental","n":"water_elemental","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 76. water_elemental
+
+- Match score: `35`
+- `k`: 55
+- `n`: water_elemental
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"55","n":"water_elemental","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"water_elemental"}
+```
+
+### 77. wb_support
+
+- Match score: `35`
+- `k`: wb_support
+- `n`: wb_support
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"wb_support","n":"wb_support","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 78. wb_support
+
+- Match score: `35`
+- `k`: 129
+- `n`: wb_support
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"129","n":"wb_support","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"wb_support"}
 ```
 
 ## Mods and affixes
@@ -9726,7 +9063,7 @@ Skills Supported by Nightblade
 | Passive full compact | OK | 120 |
 | Passive edges | OK | 0 |
 | Gems and skills | OK | 120 |
-| Item bases/classes | OK | 120 |
+| Item bases/classes | OK | 78 |
 | Mods and affixes | OK | 120 |
 | Rune mods | OK | 9 |
 | Uniques | OK | 12 |

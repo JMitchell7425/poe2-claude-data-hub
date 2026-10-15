@@ -1,6 +1,6 @@
 # Build Idea Pack — Lazy Controller-Friendly Build
 
-- Generated UTC: `2026-10-14T15:07:14+00:00`
+- Generated UTC: `2026-10-15T14:59:54+00:00`
 - Idea slug: `lazy-controller-build`
 - Purpose: Find low-button, low-aim, PS5-friendly builds with high clear reliability and safe bossing.
 - Keywords: `controller, ps5, persistent, aura, herald, minion, totem, trigger, auto, duration, area, aoe, nearby, radius, nova, chain, projectile, slam, strike, movement, cooldown, spirit, reservation, defense, recovery, map, boss`
@@ -4707,35 +4707,7 @@ _No keyword matches in this index._
 {"k":"807","n":"chaos_golem_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_golem_boss_area"}
 ```
 
-### 21. Cooldown Recovery I
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SupportGemIngenuity
-- `n`: Cooldown Recovery I
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemIngenuity","n":"Cooldown Recovery I","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 22. Cooldown Recovery II
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SupportGemIngenuityTwo
-- `n`: Cooldown Recovery II
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemIngenuityTwo","n":"Cooldown Recovery II","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 23. core_map_area
+### 21. core_map_area
 
 - Match score: `70`
 - `k`: core_map_area
@@ -4747,7 +4719,7 @@ _No keyword matches in this index._
 {"k":"core_map_area","n":"core_map_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 24. core_map_area
+### 22. core_map_area
 
 - Match score: `70`
 - `k`: 438
@@ -4759,7 +4731,7 @@ _No keyword matches in this index._
 {"k":"438","n":"core_map_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"core_map_area"}
 ```
 
-### 25. desert_map_area
+### 23. desert_map_area
 
 - Match score: `70`
 - `k`: desert_map_area
@@ -4771,7 +4743,7 @@ _No keyword matches in this index._
 {"k":"desert_map_area","n":"desert_map_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 26. desert_map_area
+### 24. desert_map_area
 
 - Match score: `70`
 - `k`: 424
@@ -4783,7 +4755,7 @@ _No keyword matches in this index._
 {"k":"424","n":"desert_map_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"desert_map_area"}
 ```
 
-### 27. doedre_map_area
+### 25. doedre_map_area
 
 - Match score: `70`
 - `k`: doedre_map_area
@@ -4795,7 +4767,7 @@ _No keyword matches in this index._
 {"k":"doedre_map_area","n":"doedre_map_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 28. doedre_map_area
+### 26. doedre_map_area
 
 - Match score: `70`
 - `k`: 1007
@@ -4807,7 +4779,7 @@ _No keyword matches in this index._
 {"k":"1007","n":"doedre_map_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"doedre_map_area"}
 ```
 
-### 29. elder_map_boss
+### 27. elder_map_boss
 
 - Match score: `70`
 - `k`: elder_map_boss
@@ -4819,7 +4791,7 @@ _No keyword matches in this index._
 {"k":"elder_map_boss","n":"elder_map_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 30. elder_map_boss
+### 28. elder_map_boss
 
 - Match score: `70`
 - `k`: 783
@@ -4831,7 +4803,7 @@ _No keyword matches in this index._
 {"k":"783","n":"elder_map_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elder_map_boss"}
 ```
 
-### 31. forest_map_area
+### 29. forest_map_area
 
 - Match score: `70`
 - `k`: forest_map_area
@@ -4843,7 +4815,7 @@ _No keyword matches in this index._
 {"k":"forest_map_area","n":"forest_map_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 32. forest_map_area
+### 30. forest_map_area
 
 - Match score: `70`
 - `k`: 375
@@ -4855,7 +4827,7 @@ _No keyword matches in this index._
 {"k":"375","n":"forest_map_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"forest_map_area"}
 ```
 
-### 33. goatman_boss_area
+### 31. goatman_boss_area
 
 - Match score: `70`
 - `k`: goatman_boss_area
@@ -4867,7 +4839,7 @@ _No keyword matches in this index._
 {"k":"goatman_boss_area","n":"goatman_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 34. goatman_boss_area
+### 32. goatman_boss_area
 
 - Match score: `70`
 - `k`: 844
@@ -4879,7 +4851,7 @@ _No keyword matches in this index._
 {"k":"844","n":"goatman_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"goatman_boss_area"}
 ```
 
-### 35. golem_boss_area
+### 33. golem_boss_area
 
 - Match score: `70`
 - `k`: golem_boss_area
@@ -4891,7 +4863,7 @@ _No keyword matches in this index._
 {"k":"golem_boss_area","n":"golem_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 36. golem_boss_area
+### 34. golem_boss_area
 
 - Match score: `70`
 - `k`: 806
@@ -4903,7 +4875,7 @@ _No keyword matches in this index._
 {"k":"806","n":"golem_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"golem_boss_area"}
 ```
 
-### 37. king_boss_area
+### 35. king_boss_area
 
 - Match score: `70`
 - `k`: king_boss_area
@@ -4915,7 +4887,7 @@ _No keyword matches in this index._
 {"k":"king_boss_area","n":"king_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 38. king_boss_area
+### 36. king_boss_area
 
 - Match score: `70`
 - `k`: 869
@@ -4927,7 +4899,7 @@ _No keyword matches in this index._
 {"k":"869","n":"king_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"king_boss_area"}
 ```
 
-### 39. king_boss_map
+### 37. king_boss_map
 
 - Match score: `70`
 - `k`: king_boss_map
@@ -4939,7 +4911,7 @@ _No keyword matches in this index._
 {"k":"king_boss_map","n":"king_boss_map","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 40. king_boss_map
+### 38. king_boss_map
 
 - Match score: `70`
 - `k`: 868
@@ -4951,7 +4923,7 @@ _No keyword matches in this index._
 {"k":"868","n":"king_boss_map","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"king_boss_map"}
 ```
 
-### 41. kitava_map_boss
+### 39. kitava_map_boss
 
 - Match score: `70`
 - `k`: kitava_map_boss
@@ -4963,7 +4935,7 @@ _No keyword matches in this index._
 {"k":"kitava_map_boss","n":"kitava_map_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 42. kitava_map_boss
+### 40. kitava_map_boss
 
 - Match score: `70`
 - `k`: 881
@@ -4975,7 +4947,7 @@ _No keyword matches in this index._
 {"k":"881","n":"kitava_map_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"kitava_map_boss"}
 ```
 
-### 43. malachai_boss_map
+### 41. malachai_boss_map
 
 - Match score: `70`
 - `k`: malachai_boss_map
@@ -4987,7 +4959,7 @@ _No keyword matches in this index._
 {"k":"malachai_boss_map","n":"malachai_boss_map","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 44. malachai_boss_map
+### 42. malachai_boss_map
 
 - Match score: `70`
 - `k`: 908
@@ -4999,7 +4971,7 @@ _No keyword matches in this index._
 {"k":"908","n":"malachai_boss_map","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"malachai_boss_map"}
 ```
 
-### 45. map_area_with_open_water
+### 43. map_area_with_open_water
 
 - Match score: `70`
 - `k`: map_area_with_open_water
@@ -5011,7 +4983,7 @@ _No keyword matches in this index._
 {"k":"map_area_with_open_water","n":"map_area_with_open_water","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 46. map_area_with_open_water
+### 44. map_area_with_open_water
 
 - Match score: `70`
 - `k`: 470
@@ -5023,7 +4995,7 @@ _No keyword matches in this index._
 {"k":"470","n":"map_area_with_open_water","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"map_area_with_open_water"}
 ```
 
-### 47. non_unique_map_boss
+### 45. non_unique_map_boss
 
 - Match score: `70`
 - `k`: non_unique_map_boss
@@ -5035,7 +5007,7 @@ _No keyword matches in this index._
 {"k":"non_unique_map_boss","n":"non_unique_map_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 48. non_unique_map_boss
+### 46. non_unique_map_boss
 
 - Match score: `70`
 - `k`: 781
@@ -5047,35 +5019,7 @@ _No keyword matches in this index._
 {"k":"781","n":"non_unique_map_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"non_unique_map_boss"}
 ```
 
-### 49. Nova Projectiles I
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SupportGemNovaProjectiles
-- `n`: Nova Projectiles I
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemNovaProjectiles","n":"Nova Projectiles I","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 50. Nova Projectiles II
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SupportGemNovaProjectilesTwo
-- `n`: Nova Projectiles II
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemNovaProjectilesTwo","n":"Nova Projectiles II","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 51. rhoa_map_boss
+### 47. rhoa_map_boss
 
 - Match score: `70`
 - `k`: rhoa_map_boss
@@ -5087,7 +5031,7 @@ _No keyword matches in this index._
 {"k":"rhoa_map_boss","n":"rhoa_map_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 52. rhoa_map_boss
+### 48. rhoa_map_boss
 
 - Match score: `70`
 - `k`: 913
@@ -5099,7 +5043,7 @@ _No keyword matches in this index._
 {"k":"913","n":"rhoa_map_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"rhoa_map_boss"}
 ```
 
-### 53. rigwald_map_boss
+### 49. rigwald_map_boss
 
 - Match score: `70`
 - `k`: rigwald_map_boss
@@ -5111,7 +5055,7 @@ _No keyword matches in this index._
 {"k":"rigwald_map_boss","n":"rigwald_map_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 54. rigwald_map_boss
+### 50. rigwald_map_boss
 
 - Match score: `70`
 - `k`: 889
@@ -5123,7 +5067,7 @@ _No keyword matches in this index._
 {"k":"889","n":"rigwald_map_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"rigwald_map_boss"}
 ```
 
-### 55. rogue_exile_boss_area
+### 51. rogue_exile_boss_area
 
 - Match score: `70`
 - `k`: rogue_exile_boss_area
@@ -5135,7 +5079,7 @@ _No keyword matches in this index._
 {"k":"rogue_exile_boss_area","n":"rogue_exile_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 56. rogue_exile_boss_area
+### 52. rogue_exile_boss_area
 
 - Match score: `70`
 - `k`: 857
@@ -5147,7 +5091,7 @@ _No keyword matches in this index._
 {"k":"857","n":"rogue_exile_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"rogue_exile_boss_area"}
 ```
 
-### 57. scavenger_boss_area
+### 53. scavenger_boss_area
 
 - Match score: `70`
 - `k`: scavenger_boss_area
@@ -5159,7 +5103,7 @@ _No keyword matches in this index._
 {"k":"scavenger_boss_area","n":"scavenger_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 58. scavenger_boss_area
+### 54. scavenger_boss_area
 
 - Match score: `70`
 - `k`: 843
@@ -5171,7 +5115,7 @@ _No keyword matches in this index._
 {"k":"843","n":"scavenger_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"scavenger_boss_area"}
 ```
 
-### 59. sea_witch_boss_area
+### 55. sea_witch_boss_area
 
 - Match score: `70`
 - `k`: sea_witch_boss_area
@@ -5183,7 +5127,7 @@ _No keyword matches in this index._
 {"k":"sea_witch_boss_area","n":"sea_witch_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 60. sea_witch_boss_area
+### 56. sea_witch_boss_area
 
 - Match score: `70`
 - `k`: 805
@@ -5195,7 +5139,7 @@ _No keyword matches in this index._
 {"k":"805","n":"sea_witch_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"sea_witch_boss_area"}
 ```
 
-### 61. solaris_boss_map
+### 57. solaris_boss_map
 
 - Match score: `70`
 - `k`: solaris_boss_map
@@ -5207,7 +5151,7 @@ _No keyword matches in this index._
 {"k":"solaris_boss_map","n":"solaris_boss_map","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 62. solaris_boss_map
+### 58. solaris_boss_map
 
 - Match score: `70`
 - `k`: 849
@@ -5219,7 +5163,7 @@ _No keyword matches in this index._
 {"k":"849","n":"solaris_boss_map","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"solaris_boss_map"}
 ```
 
-### 63. spider_boss_area
+### 59. spider_boss_area
 
 - Match score: `70`
 - `k`: spider_boss_area
@@ -5231,7 +5175,7 @@ _No keyword matches in this index._
 {"k":"spider_boss_area","n":"spider_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 64. spider_boss_area
+### 60. spider_boss_area
 
 - Match score: `70`
 - `k`: 840
@@ -5243,7 +5187,7 @@ _No keyword matches in this index._
 {"k":"840","n":"spider_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"spider_boss_area"}
 ```
 
-### 65. standalone_map_boss
+### 61. standalone_map_boss
 
 - Match score: `70`
 - `k`: standalone_map_boss
@@ -5255,7 +5199,7 @@ _No keyword matches in this index._
 {"k":"standalone_map_boss","n":"standalone_map_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 66. standalone_map_boss
+### 62. standalone_map_boss
 
 - Match score: `70`
 - `k`: 782
@@ -5267,7 +5211,7 @@ _No keyword matches in this index._
 {"k":"782","n":"standalone_map_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"standalone_map_boss"}
 ```
 
-### 67. templar_boss_area
+### 63. templar_boss_area
 
 - Match score: `70`
 - `k`: templar_boss_area
@@ -5279,7 +5223,7 @@ _No keyword matches in this index._
 {"k":"templar_boss_area","n":"templar_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 68. templar_boss_area
+### 64. templar_boss_area
 
 - Match score: `70`
 - `k`: 809
@@ -5291,7 +5235,7 @@ _No keyword matches in this index._
 {"k":"809","n":"templar_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"templar_boss_area"}
 ```
 
-### 69. tower_augment_map_boss
+### 65. tower_augment_map_boss
 
 - Match score: `70`
 - `k`: tower_augment_map_boss
@@ -5303,7 +5247,7 @@ _No keyword matches in this index._
 {"k":"tower_augment_map_boss","n":"tower_augment_map_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 70. tower_augment_map_boss
+### 66. tower_augment_map_boss
 
 - Match score: `70`
 - `k`: 1090
@@ -5315,7 +5259,7 @@ _No keyword matches in this index._
 {"k":"1090","n":"tower_augment_map_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"tower_augment_map_boss"}
 ```
 
-### 71. triple_boss_map
+### 67. triple_boss_map
 
 - Match score: `70`
 - `k`: triple_boss_map
@@ -5327,7 +5271,7 @@ _No keyword matches in this index._
 {"k":"triple_boss_map","n":"triple_boss_map","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 72. triple_boss_map
+### 68. triple_boss_map
 
 - Match score: `70`
 - `k`: 410
@@ -5339,7 +5283,7 @@ _No keyword matches in this index._
 {"k":"410","n":"triple_boss_map","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"triple_boss_map"}
 ```
 
-### 73. undying_boss_area
+### 69. undying_boss_area
 
 - Match score: `70`
 - `k`: undying_boss_area
@@ -5351,7 +5295,7 @@ _No keyword matches in this index._
 {"k":"undying_boss_area","n":"undying_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 74. undying_boss_area
+### 70. undying_boss_area
 
 - Match score: `70`
 - `k`: 803
@@ -5363,7 +5307,7 @@ _No keyword matches in this index._
 {"k":"803","n":"undying_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"undying_boss_area"}
 ```
 
-### 75. unholy_trio_boss_map
+### 71. unholy_trio_boss_map
 
 - Match score: `70`
 - `k`: unholy_trio_boss_map
@@ -5375,7 +5319,7 @@ _No keyword matches in this index._
 {"k":"unholy_trio_boss_map","n":"unholy_trio_boss_map","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 76. unholy_trio_boss_map
+### 72. unholy_trio_boss_map
 
 - Match score: `70`
 - `k`: 1008
@@ -5387,7 +5331,7 @@ _No keyword matches in this index._
 {"k":"1008","n":"unholy_trio_boss_map","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"unholy_trio_boss_map"}
 ```
 
-### 77. unholy_trio_combined_boss_map
+### 73. unholy_trio_combined_boss_map
 
 - Match score: `70`
 - `k`: unholy_trio_combined_boss_map
@@ -5399,7 +5343,7 @@ _No keyword matches in this index._
 {"k":"unholy_trio_combined_boss_map","n":"unholy_trio_combined_boss_map","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 78. unholy_trio_combined_boss_map
+### 74. unholy_trio_combined_boss_map
 
 - Match score: `70`
 - `k`: 855
@@ -5411,7 +5355,7 @@ _No keyword matches in this index._
 {"k":"855","n":"unholy_trio_combined_boss_map","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"unholy_trio_combined_boss_map"}
 ```
 
-### 79. unique_map_boss
+### 75. unique_map_boss
 
 - Match score: `70`
 - `k`: unique_map_boss
@@ -5423,7 +5367,7 @@ _No keyword matches in this index._
 {"k":"unique_map_boss","n":"unique_map_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 80. unique_map_boss
+### 76. unique_map_boss
 
 - Match score: `70`
 - `k`: 780
@@ -5435,7 +5379,7 @@ _No keyword matches in this index._
 {"k":"780","n":"unique_map_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"unique_map_boss"}
 ```
 
-### 81. vaalsidearea_boss
+### 77. vaalsidearea_boss
 
 - Match score: `70`
 - `k`: vaalsidearea_boss
@@ -5447,7 +5391,7 @@ _No keyword matches in this index._
 {"k":"vaalsidearea_boss","n":"vaalsidearea_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 82. vaalsidearea_boss
+### 78. vaalsidearea_boss
 
 - Match score: `70`
 - `k`: 939
@@ -5459,259 +5403,7 @@ _No keyword matches in this index._
 {"k":"939","n":"vaalsidearea_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"vaalsidearea_boss"}
 ```
 
-### 83. Uncut Spirit Gem
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/ReservationGemUncut
-- `n`: Uncut Spirit Gem
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/ReservationGemUncut","n":"Uncut Spirit Gem","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGem_OLD","tags":["default"],"domain":"undefined"}
-```
-
-### 84. Uncut Spirit Gem (Level 10)
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/ReservationGemUncut10
-- `n`: Uncut Spirit Gem (Level 10)
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/ReservationGemUncut10","n":"Uncut Spirit Gem (Level 10)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
-```
-
-### 85. Uncut Spirit Gem (Level 11)
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/ReservationGemUncut11
-- `n`: Uncut Spirit Gem (Level 11)
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/ReservationGemUncut11","n":"Uncut Spirit Gem (Level 11)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
-```
-
-### 86. Uncut Spirit Gem (Level 12)
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/ReservationGemUncut12
-- `n`: Uncut Spirit Gem (Level 12)
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/ReservationGemUncut12","n":"Uncut Spirit Gem (Level 12)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
-```
-
-### 87. Uncut Spirit Gem (Level 13)
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/ReservationGemUncut13
-- `n`: Uncut Spirit Gem (Level 13)
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/ReservationGemUncut13","n":"Uncut Spirit Gem (Level 13)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
-```
-
-### 88. Uncut Spirit Gem (Level 14)
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/ReservationGemUncut14
-- `n`: Uncut Spirit Gem (Level 14)
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/ReservationGemUncut14","n":"Uncut Spirit Gem (Level 14)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
-```
-
-### 89. Uncut Spirit Gem (Level 15)
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/ReservationGemUncut15
-- `n`: Uncut Spirit Gem (Level 15)
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/ReservationGemUncut15","n":"Uncut Spirit Gem (Level 15)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
-```
-
-### 90. Uncut Spirit Gem (Level 16)
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/ReservationGemUncut16
-- `n`: Uncut Spirit Gem (Level 16)
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/ReservationGemUncut16","n":"Uncut Spirit Gem (Level 16)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
-```
-
-### 91. Uncut Spirit Gem (Level 17)
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/ReservationGemUncut17
-- `n`: Uncut Spirit Gem (Level 17)
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/ReservationGemUncut17","n":"Uncut Spirit Gem (Level 17)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
-```
-
-### 92. Uncut Spirit Gem (Level 18)
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/ReservationGemUncut18
-- `n`: Uncut Spirit Gem (Level 18)
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/ReservationGemUncut18","n":"Uncut Spirit Gem (Level 18)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
-```
-
-### 93. Uncut Spirit Gem (Level 19)
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/ReservationGemUncut19
-- `n`: Uncut Spirit Gem (Level 19)
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/ReservationGemUncut19","n":"Uncut Spirit Gem (Level 19)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
-```
-
-### 94. Uncut Spirit Gem (Level 20)
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/ReservationGemUncut20
-- `n`: Uncut Spirit Gem (Level 20)
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/ReservationGemUncut20","n":"Uncut Spirit Gem (Level 20)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
-```
-
-### 95. Uncut Spirit Gem (Level 4)
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/ReservationGemUncut4
-- `n`: Uncut Spirit Gem (Level 4)
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/ReservationGemUncut4","n":"Uncut Spirit Gem (Level 4)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
-```
-
-### 96. Uncut Spirit Gem (Level 5)
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/ReservationGemUncut5
-- `n`: Uncut Spirit Gem (Level 5)
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/ReservationGemUncut5","n":"Uncut Spirit Gem (Level 5)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
-```
-
-### 97. Uncut Spirit Gem (Level 6)
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/ReservationGemUncut6
-- `n`: Uncut Spirit Gem (Level 6)
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/ReservationGemUncut6","n":"Uncut Spirit Gem (Level 6)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
-```
-
-### 98. Uncut Spirit Gem (Level 7)
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/ReservationGemUncut7
-- `n`: Uncut Spirit Gem (Level 7)
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/ReservationGemUncut7","n":"Uncut Spirit Gem (Level 7)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
-```
-
-### 99. Uncut Spirit Gem (Level 8)
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/ReservationGemUncut8
-- `n`: Uncut Spirit Gem (Level 8)
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/ReservationGemUncut8","n":"Uncut Spirit Gem (Level 8)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
-```
-
-### 100. Uncut Spirit Gem (Level 9)
-
-- Match score: `45`
-- `k`: Metadata/Items/Gems/ReservationGemUncut9
-- `n`: Uncut Spirit Gem (Level 9)
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/ReservationGemUncut9","n":"Uncut Spirit Gem (Level 9)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
-```
-
-### 101. Uncut Spirit Gems
+### 79. Uncut Spirit Gems
 
 - Match score: `45`
 - `k`: UncutReservationGemStackable
@@ -5723,270 +5415,496 @@ _No keyword matches in this index._
 {"k":"UncutReservationGemStackable","n":"Uncut Spirit Gems","cat":"repoe_item_classes","src":"repoe_poe2/item_classes.json"}
 ```
 
-### 102. [DNT-UNUSED] Blade Nova
+### 80. abyss_lich_boss
 
 - Match score: `35`
-- `k`: Metadata/Items/Gems/SkillGemBladeNova
-- `n`: [DNT-UNUSED] Blade Nova
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
+- `k`: abyss_lich_boss
+- `n`: abyss_lich_boss
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/Gems/SkillGemBladeNova","n":"[DNT-UNUSED] Blade Nova","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
+{"k":"abyss_lich_boss","n":"abyss_lich_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 103. [DNT-UNUSED] Bone Cultist Shield Boss Drop
+### 81. abyss_lich_boss
 
 - Match score: `35`
-- `k`: Metadata/Items/QuestItems/Gallows/Act2/BoneCultistShieldBossDrop
-- `n`: [DNT-UNUSED] Bone Cultist Shield Boss Drop
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["quest_item","quest_item","default"]
-- `domain`: undefined
+- `k`: 860
+- `n`: abyss_lich_boss
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/QuestItems/Gallows/Act2/BoneCultistShieldBossDrop","n":"[DNT-UNUSED] Bone Cultist Shield Boss Drop","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"QuestItem","tags":["quest_item","quest_item","default"],"domain":"undefined"}
+{"k":"860","n":"abyss_lich_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"abyss_lich_boss"}
 ```
 
-### 104. [DNT-UNUSED] Cyclops Boss Drop
+### 82. act6_karui_area
 
 - Match score: `35`
-- `k`: Metadata/Items/QuestItems/Gallows/Act5/CyclopsBossDrop
-- `n`: [DNT-UNUSED] Cyclops Boss Drop
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["quest_item","quest_item","default"]
-- `domain`: undefined
+- `k`: act6_karui_area
+- `n`: act6_karui_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/QuestItems/Gallows/Act5/CyclopsBossDrop","n":"[DNT-UNUSED] Cyclops Boss Drop","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"QuestItem","tags":["quest_item","quest_item","default"],"domain":"undefined"}
+{"k":"act6_karui_area","n":"act6_karui_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 105. [DNT-UNUSED] Dominating Aura
+### 83. act6_karui_area
 
 - Match score: `35`
-- `k`: Metadata/Items/Gems/SkillGemDominatingAura
-- `n`: [DNT-UNUSED] Dominating Aura
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
+- `k`: 356
+- `n`: act6_karui_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/Gems/SkillGemDominatingAura","n":"[DNT-UNUSED] Dominating Aura","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
+{"k":"356","n":"act6_karui_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"act6_karui_area"}
 ```
 
-### 106. [DNT-UNUSED] Dredge Fiend Shaman Boss Drop
+### 84. affliction_boss
 
 - Match score: `35`
-- `k`: Metadata/Items/QuestItems/Gallows/Act3/DredgeFiendShamanBossDrop
-- `n`: [DNT-UNUSED] Dredge Fiend Shaman Boss Drop
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["quest_item","quest_item","default"]
-- `domain`: undefined
+- `k`: affliction_boss
+- `n`: affliction_boss
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/QuestItems/Gallows/Act3/DredgeFiendShamanBossDrop","n":"[DNT-UNUSED] Dredge Fiend Shaman Boss Drop","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"QuestItem","tags":["quest_item","quest_item","default"],"domain":"undefined"}
+{"k":"affliction_boss","n":"affliction_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 107. [DNT-UNUSED] Eel Monster Boss Drop
+### 85. affliction_boss
 
 - Match score: `35`
-- `k`: Metadata/Items/QuestItems/Gallows/Act3/EelMonsterBossDrop
-- `n`: [DNT-UNUSED] Eel Monster Boss Drop
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["quest_item","quest_item","default"]
-- `domain`: undefined
+- `k`: 993
+- `n`: affliction_boss
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/QuestItems/Gallows/Act3/EelMonsterBossDrop","n":"[DNT-UNUSED] Eel Monster Boss Drop","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"QuestItem","tags":["quest_item","quest_item","default"],"domain":"undefined"}
+{"k":"993","n":"affliction_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"affliction_boss"}
 ```
 
-### 108. [DNT-UNUSED] Evasive Strike
+### 86. alira_area
 
 - Match score: `35`
-- `k`: Metadata/Items/Gems/SkillGemEvasiveStrike
-- `n`: [DNT-UNUSED] Evasive Strike
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
+- `k`: alira_area
+- `n`: alira_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/Gems/SkillGemEvasiveStrike","n":"[DNT-UNUSED] Evasive Strike","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
+{"k":"alira_area","n":"alira_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 109. [DNT-UNUSED] Fallen God Miniboss Drop
+### 87. alira_area
 
 - Match score: `35`
-- `k`: Metadata/Items/QuestItems/Gallows/Act5/FallenGodMinibossDrop
-- `n`: [DNT-UNUSED] Fallen God Miniboss Drop
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["quest_item","quest_item","default"]
-- `domain`: undefined
+- `k`: 794
+- `n`: alira_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/QuestItems/Gallows/Act5/FallenGodMinibossDrop","n":"[DNT-UNUSED] Fallen God Miniboss Drop","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"QuestItem","tags":["quest_item","quest_item","default"],"domain":"undefined"}
+{"k":"794","n":"alira_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"alira_area"}
 ```
 
-### 110. [DNT-UNUSED] Fountain Statue Boss Drop
+### 88. allows_additional_projectiles
 
 - Match score: `35`
-- `k`: Metadata/Items/QuestItems/Gallows/Act4/FountainStatueBossDrop
-- `n`: [DNT-UNUSED] Fountain Statue Boss Drop
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["quest_item","quest_item","default"]
-- `domain`: undefined
+- `k`: allows_additional_projectiles
+- `n`: allows_additional_projectiles
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/QuestItems/Gallows/Act4/FountainStatueBossDrop","n":"[DNT-UNUSED] Fountain Statue Boss Drop","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"QuestItem","tags":["quest_item","quest_item","default"],"domain":"undefined"}
+{"k":"allows_additional_projectiles","n":"allows_additional_projectiles","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 111. [DNT-UNUSED] Meta Bow Totem
+### 89. allows_additional_projectiles
 
 - Match score: `35`
-- `k`: Metadata/Items/Gems/SkillGemMetaBowTotem
-- `n`: [DNT-UNUSED] Meta Bow Totem
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
+- `k`: 728
+- `n`: allows_additional_projectiles
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/Gems/SkillGemMetaBowTotem","n":"[DNT-UNUSED] Meta Bow Totem","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
+{"k":"728","n":"allows_additional_projectiles","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"allows_additional_projectiles"}
 ```
 
-### 112. [DNT-UNUSED] Quadrilla Boss Drop
+### 90. allows_inc_aoe
 
 - Match score: `35`
-- `k`: Metadata/Items/QuestItems/Gallows/Act3/QuadrillaBossDrop
-- `n`: [DNT-UNUSED] Quadrilla Boss Drop
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["quest_item","quest_item","default"]
-- `domain`: undefined
+- `k`: allows_inc_aoe
+- `n`: allows_inc_aoe
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/QuestItems/Gallows/Act3/QuadrillaBossDrop","n":"[DNT-UNUSED] Quadrilla Boss Drop","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"QuestItem","tags":["quest_item","quest_item","default"],"domain":"undefined"}
+{"k":"allows_inc_aoe","n":"allows_inc_aoe","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 113. [DNT-UNUSED] Shipwreck Boss Drop
+### 91. allows_inc_aoe
 
 - Match score: `35`
-- `k`: Metadata/Items/QuestItems/Gallows/Act4/ShipwreckBossDrop
-- `n`: [DNT-UNUSED] Shipwreck Boss Drop
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["quest_item","quest_item","default"]
-- `domain`: undefined
+- `k`: 729
+- `n`: allows_inc_aoe
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/QuestItems/Gallows/Act4/ShipwreckBossDrop","n":"[DNT-UNUSED] Shipwreck Boss Drop","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"QuestItem","tags":["quest_item","quest_item","default"],"domain":"undefined"}
+{"k":"729","n":"allows_inc_aoe","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"allows_inc_aoe"}
 ```
 
-### 114. [DNT-UNUSED] Spiral Projectiles I
+### 92. aqueduct_area
 
 - Match score: `35`
-- `k`: Metadata/Items/Gems/SupportGemSpiralProjectiles
-- `n`: [DNT-UNUSED] Spiral Projectiles I
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
+- `k`: aqueduct_area
+- `n`: aqueduct_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/Gems/SupportGemSpiralProjectiles","n":"[DNT-UNUSED] Spiral Projectiles I","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+{"k":"aqueduct_area","n":"aqueduct_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 115. [DNT-UNUSED] Sudoku Boss Drop
+### 93. aqueduct_area
 
 - Match score: `35`
-- `k`: Metadata/Items/QuestItems/Gallows/Act4/SudokuBossDrop
-- `n`: [DNT-UNUSED] Sudoku Boss Drop
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["quest_item","quest_item","default"]
-- `domain`: undefined
+- `k`: 377
+- `n`: aqueduct_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/QuestItems/Gallows/Act4/SudokuBossDrop","n":"[DNT-UNUSED] Sudoku Boss Drop","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"QuestItem","tags":["quest_item","quest_item","default"],"domain":"undefined"}
+{"k":"377","n":"aqueduct_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"aqueduct_area"}
 ```
 
-### 116. [DNT-UNUSED] Twilight Order Guard Boss
+### 94. arakaali_area
 
 - Match score: `35`
-- `k`: Metadata/Items/QuestItems/Gallows/Act4/TwilightOrderGuardBoss
-- `n`: [DNT-UNUSED] Twilight Order Guard Boss
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["quest_item","quest_item","default"]
-- `domain`: undefined
+- `k`: arakaali_area
+- `n`: arakaali_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/QuestItems/Gallows/Act4/TwilightOrderGuardBoss","n":"[DNT-UNUSED] Twilight Order Guard Boss","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"QuestItem","tags":["quest_item","quest_item","default"],"domain":"undefined"}
+{"k":"arakaali_area","n":"arakaali_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 117. [DNT-UNUSED] Vaal Blood Priestess Boss Drop
+### 95. arakaali_area
 
 - Match score: `35`
-- `k`: Metadata/Items/QuestItems/Gallows/Act3/VaalBloodPriestessBossDrop
-- `n`: [DNT-UNUSED] Vaal Blood Priestess Boss Drop
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["quest_item","quest_item","default"]
-- `domain`: undefined
+- `k`: 992
+- `n`: arakaali_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/QuestItems/Gallows/Act3/VaalBloodPriestessBossDrop","n":"[DNT-UNUSED] Vaal Blood Priestess Boss Drop","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"QuestItem","tags":["quest_item","quest_item","default"],"domain":"undefined"}
+{"k":"992","n":"arakaali_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"arakaali_area"}
 ```
 
-### 118. [DNT-UNUSED] Vaal Sun Worshipper Boss Drop
+### 96. archer_boss
 
 - Match score: `35`
-- `k`: Metadata/Items/QuestItems/Gallows/Act3/VaalSunWorshipperBossDrop
-- `n`: [DNT-UNUSED] Vaal Sun Worshipper Boss Drop
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["quest_item","quest_item","default"]
-- `domain`: undefined
+- `k`: archer_boss
+- `n`: archer_boss
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/QuestItems/Gallows/Act3/VaalSunWorshipperBossDrop","n":"[DNT-UNUSED] Vaal Sun Worshipper Boss Drop","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"QuestItem","tags":["quest_item","quest_item","default"],"domain":"undefined"}
+{"k":"archer_boss","n":"archer_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 119. [DNT] Primal Quadrilla Slam
+### 97. archer_boss
 
 - Match score: `35`
-- `k`: Metadata/Items/Gem/SkillGemPrimalAvatarQuadrillaSlam
-- `n`: [DNT] Primal Quadrilla Slam
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
+- `k`: 834
+- `n`: archer_boss
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/Gem/SkillGemPrimalAvatarQuadrillaSlam","n":"[DNT] Primal Quadrilla Slam","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
+{"k":"834","n":"archer_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"archer_boss"}
 ```
 
-### 120. [DNT] Stone Slam Aegis
+### 98. archives_area
 
 - Match score: `35`
-- `k`: Metadata/Items/Gem/SupportGemStoneSlamAegis
-- `n`: [DNT] Stone Slam Aegis
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
+- `k`: archives_area
+- `n`: archives_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/Gem/SupportGemStoneSlamAegis","n":"[DNT] Stone Slam Aegis","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+{"k":"archives_area","n":"archives_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 99. archives_area
+
+- Match score: `35`
+- `k`: 431
+- `n`: archives_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"431","n":"archives_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"archives_area"}
+```
+
+### 100. area_with_water
+
+- Match score: `35`
+- `k`: area_with_water
+- `n`: area_with_water
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"area_with_water","n":"area_with_water","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 101. area_with_water
+
+- Match score: `35`
+- `k`: 170
+- `n`: area_with_water
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"170","n":"area_with_water","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"area_with_water"}
+```
+
+### 102. arena_area
+
+- Match score: `35`
+- `k`: arena_area
+- `n`: arena_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"arena_area","n":"arena_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 103. arena_area
+
+- Match score: `35`
+- `k`: 401
+- `n`: arena_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"401","n":"arena_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"arena_area"}
+```
+
+### 104. atziri_area
+
+- Match score: `35`
+- `k`: atziri_area
+- `n`: atziri_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"atziri_area","n":"atziri_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 105. atziri_area
+
+- Match score: `35`
+- `k`: 824
+- `n`: atziri_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"824","n":"atziri_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"atziri_area"}
+```
+
+### 106. atziri_boss
+
+- Match score: `35`
+- `k`: atziri_boss
+- `n`: atziri_boss
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"atziri_boss","n":"atziri_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 107. atziri_boss
+
+- Match score: `35`
+- `k`: 899
+- `n`: atziri_boss
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"899","n":"atziri_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"atziri_boss"}
+```
+
+### 108. Aura
+
+- Match score: `35`
+- `k`: aura
+- `n`: Aura
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"aura","n":"Aura","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 109. aura
+
+- Match score: `35`
+- `k`: 323
+- `n`: aura
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"323","n":"aura","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"aura"}
+```
+
+### 110. aura_bearer
+
+- Match score: `35`
+- `k`: aura_bearer
+- `n`: aura_bearer
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"aura_bearer","n":"aura_bearer","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 111. aura_bearer
+
+- Match score: `35`
+- `k`: 724
+- `n`: aura_bearer
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"724","n":"aura_bearer","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"aura_bearer"}
+```
+
+### 112. bandit_area
+
+- Match score: `35`
+- `k`: bandit_area
+- `n`: bandit_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"bandit_area","n":"bandit_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 113. bandit_area
+
+- Match score: `35`
+- `k`: 379
+- `n`: bandit_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"379","n":"bandit_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bandit_area"}
+```
+
+### 114. belly_area
+
+- Match score: `35`
+- `k`: belly_area
+- `n`: belly_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"belly_area","n":"belly_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 115. belly_area
+
+- Match score: `35`
+- `k`: 361
+- `n`: belly_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"361","n":"belly_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"belly_area"}
+```
+
+### 116. bestiary_beast_boss
+
+- Match score: `35`
+- `k`: bestiary_beast_boss
+- `n`: bestiary_beast_boss
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"bestiary_beast_boss","n":"bestiary_beast_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 117. bestiary_beast_boss
+
+- Match score: `35`
+- `k`: 293
+- `n`: bestiary_beast_boss
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"293","n":"bestiary_beast_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bestiary_beast_boss"}
+```
+
+### 118. blight_boss
+
+- Match score: `35`
+- `k`: blight_boss
+- `n`: blight_boss
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"blight_boss","n":"blight_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 119. blight_boss
+
+- Match score: `35`
+- `k`: 649
+- `n`: blight_boss
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"649","n":"blight_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"blight_boss"}
+```
+
+### 120. boss
+
+- Match score: `35`
+- `k`: boss
+- `n`: boss
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"boss","n":"boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
 ## Mods and affixes

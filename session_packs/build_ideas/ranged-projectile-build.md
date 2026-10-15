@@ -1,6 +1,6 @@
 # Build Idea Pack — Ranged Projectile Build
 
-- Generated UTC: `2026-10-14T15:07:17+00:00`
+- Generated UTC: `2026-10-15T14:59:56+00:00`
 - Idea slug: `ranged-projectile-build`
 - Purpose: Engineer a ranged projectile build with high clear coverage and strong boss scaling.
 - Keywords: `projectile, bow, crossbow, wand, ranged, chain, fork, pierce, multiple projectiles, reload, grenade, bolt, arrow, attack, critical, crit, poison, shock, freeze, ignite, area, clear, boss, deadeye, mercenary, witchhunter`
@@ -4474,573 +4474,7 @@ _No keyword matches in this index._
 - Source: `build_knowledge/compact/item_base_index.json`
 - Matches included: `120`
 
-### 1. [DNT] Meta Ranged Attack on Freeze
-
-- Match score: `105`
-- `k`: Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnFreeze
-- `n`: [DNT] Meta Ranged Attack on Freeze
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnFreeze","n":"[DNT] Meta Ranged Attack on Freeze","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 2. [DNT] Meta Ranged Attack on Ignite
-
-- Match score: `105`
-- `k`: Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnIgnite
-- `n`: [DNT] Meta Ranged Attack on Ignite
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnIgnite","n":"[DNT] Meta Ranged Attack on Ignite","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 3. [DNT] Meta Ranged Attack on Shock
-
-- Match score: `105`
-- `k`: Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnShock
-- `n`: [DNT] Meta Ranged Attack on Shock
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnShock","n":"[DNT] Meta Ranged Attack on Shock","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 4. Critical Wand
-
-- Match score: `105`
-- `k`: Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand11
-- `n`: Critical Wand
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["wand","onehand","default"]
-- `req`: {"dexterity":0,"intelligence":92,"level":52,"strength":0}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand11","n":"Critical Wand","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Wand","tags":["wand","onehand","default"],"req":{"dexterity":0,"intelligence":92,"level":52,"strength":0},"domain":"item"}
-```
-
-### 5. Shockchain Arrow
-
-- Match score: `105`
-- `k`: Metadata/Items/Gem/SkillGemShockchainArrow
-- `n`: Shockchain Arrow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SkillGemShockchainArrow","n":"Shockchain Arrow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 6. Alloy Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow6
-- `n`: Alloy Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["maraketh_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":28,"intelligence":0,"level":26,"strength":28}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow6","n":"Alloy Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["maraketh_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":28,"intelligence":0,"level":26,"strength":28},"domain":"item"}
-```
-
-### 7. Blackfire Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow9
-- `n`: Blackfire Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["karui_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":45,"intelligence":0,"level":45,"strength":45}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow9","n":"Blackfire Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["karui_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":45,"intelligence":0,"level":45,"strength":45},"domain":"item"}
-```
-
-### 8. Bleak Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow8Cruel
-- `n`: Bleak Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":60,"intelligence":0,"level":62,"strength":60}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow8Cruel","n":"Bleak Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":60,"intelligence":0,"level":62,"strength":60},"domain":"item"}
-```
-
-### 9. Bombard Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow7
-- `n`: Bombard Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["vaal_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":34,"intelligence":0,"level":33,"strength":34}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow7","n":"Bombard Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["vaal_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":34,"intelligence":0,"level":33,"strength":34},"domain":"item"}
-```
-
-### 10. Cannonade Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow7Cruel
-- `n`: Cannonade Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":58,"intelligence":0,"level":59,"strength":58}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow7Cruel","n":"Cannonade Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":58,"intelligence":0,"level":59,"strength":58},"domain":"item"}
-```
-
-### 11. Construct Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow8
-- `n`: Construct Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["vaal_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":39,"intelligence":0,"level":38,"strength":39}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow8","n":"Construct Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["vaal_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":39,"intelligence":0,"level":38,"strength":39},"domain":"item"}
-```
-
-### 12. Cumbrous Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow11
-- `n`: Cumbrous Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":51,"intelligence":0,"level":52,"strength":51}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow11","n":"Cumbrous Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":51,"intelligence":0,"level":52,"strength":51},"domain":"item"}
-```
-
-### 13. Dedalian Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow12
-- `n`: Dedalian Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":55,"intelligence":0,"level":56,"strength":55}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow12","n":"Dedalian Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":55,"intelligence":0,"level":56,"strength":55},"domain":"item"}
-```
-
-### 14. Desolate Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow8Endgame
-- `n`: Desolate Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":89,"intelligence":0,"level":77,"strength":89}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow8Endgame","n":"Desolate Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":89,"intelligence":0,"level":77,"strength":89},"domain":"item"}
-```
-
-### 15. Dyad Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow5
-- `n`: Dyad Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["maraketh_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":22,"intelligence":0,"level":20,"strength":22}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow5","n":"Dyad Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["maraketh_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":22,"intelligence":0,"level":20,"strength":22},"domain":"item"}
-```
-
-### 16. Elegant Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow10Endgame
-- `n`: Elegant Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["karui_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":89,"intelligence":0,"level":78,"strength":89}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow10Endgame","n":"Elegant Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["karui_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":89,"intelligence":0,"level":78,"strength":89},"domain":"item"}
-```
-
-### 17. Engraved Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow4Endgame
-- `n`: Engraved Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":82,"intelligence":0,"level":72,"strength":82}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow4Endgame","n":"Engraved Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":82,"intelligence":0,"level":72,"strength":82},"domain":"item"}
-```
-
-### 18. Esoteric Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow13
-- `n`: Esoteric Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":63,"intelligence":0,"level":65,"strength":63}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow13","n":"Esoteric Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":63,"intelligence":0,"level":65,"strength":63},"domain":"item"}
-```
-
-### 19. Flexed Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow2Endgame
-- `n`: Flexed Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":89,"intelligence":0,"level":77,"strength":89}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow2Endgame","n":"Flexed Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":89,"intelligence":0,"level":77,"strength":89},"domain":"item"}
-```
-
-### 20. Gemini Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow5Endgame
-- `n`: Gemini Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":89,"intelligence":0,"level":78,"strength":89}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow5Endgame","n":"Gemini Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":89,"intelligence":0,"level":78,"strength":89},"domain":"item"}
-```
-
-### 21. Makeshift Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow1
-- `n`: Makeshift Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["ezomyte_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":0,"intelligence":0,"level":1,"strength":0}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow1","n":"Makeshift Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["ezomyte_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
-```
-
-### 22. Painted Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow4Cruel
-- `n`: Painted Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":50,"intelligence":0,"level":51,"strength":50}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow4Cruel","n":"Painted Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":50,"intelligence":0,"level":51,"strength":50},"domain":"item"}
-```
-
-### 23. Piercing Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow10
-- `n`: Piercing Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["karui_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":49,"intelligence":0,"level":50,"strength":49}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow10","n":"Piercing Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["karui_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":49,"intelligence":0,"level":50,"strength":49},"domain":"item"}
-```
-
-### 24. Robust Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow3Cruel
-- `n`: Robust Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":48,"intelligence":0,"level":48,"strength":48}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow3Cruel","n":"Robust Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":48,"intelligence":0,"level":48,"strength":48},"domain":"item"}
-```
-
-### 25. Runeforged Bombard Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbowVerisium7
-- `n`: Runeforged Bombard Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["vaal_basetype","runeforged","crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":54,"intelligence":0,"level":55,"strength":54}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbowVerisium7","n":"Runeforged Bombard Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["vaal_basetype","runeforged","crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":54,"intelligence":0,"level":55,"strength":54},"domain":"item"}
-```
-
-### 26. Runeforged Dyad Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbowVerisium5a
-- `n`: Runeforged Dyad Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["maraketh_basetype","runeforged","crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":40,"intelligence":0,"level":40,"strength":40}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbowVerisium5a","n":"Runeforged Dyad Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["maraketh_basetype","runeforged","crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":40,"intelligence":0,"level":40,"strength":40},"domain":"item"}
-```
-
-### 27. Runeforged Makeshift Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbowVerisium1
-- `n`: Runeforged Makeshift Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["ezomyte_basetype","runeforged","crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":39,"intelligence":0,"level":38,"strength":39}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbowVerisium1","n":"Runeforged Makeshift Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["ezomyte_basetype","runeforged","crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":39,"intelligence":0,"level":38,"strength":39},"domain":"item"}
-```
-
-### 28. Runeforged Sturdy Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbowVerisium3
-- `n`: Runeforged Sturdy Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["ezomyte_basetype","runeforged","crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":39,"intelligence":0,"level":38,"strength":39}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbowVerisium3","n":"Runeforged Sturdy Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["ezomyte_basetype","runeforged","crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":39,"intelligence":0,"level":38,"strength":39},"domain":"item"}
-```
-
-### 29. Runeforged Tense Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbowVerisium2a
-- `n`: Runeforged Tense Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["ezomyte_basetype","runeforged","crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":39,"intelligence":0,"level":38,"strength":39}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbowVerisium2a","n":"Runeforged Tense Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["ezomyte_basetype","runeforged","crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":39,"intelligence":0,"level":38,"strength":39},"domain":"item"}
-```
-
-### 30. Runemastered Dyad Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbowVerisium5b
-- `n`: Runemastered Dyad Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["maraketh_basetype","runeforged","crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":63,"intelligence":0,"level":65,"strength":63}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbowVerisium5b","n":"Runemastered Dyad Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["maraketh_basetype","runeforged","crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":63,"intelligence":0,"level":65,"strength":63},"domain":"item"}
-```
-
-### 31. Runemastered Tense Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbowVerisium2b
-- `n`: Runemastered Tense Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["ezomyte_basetype","runeforged","crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":54,"intelligence":0,"level":55,"strength":54}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbowVerisium2b","n":"Runemastered Tense Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["ezomyte_basetype","runeforged","crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":54,"intelligence":0,"level":55,"strength":54},"domain":"item"}
-```
-
-### 32. Siege Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow7Endgame
-- `n`: Siege Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":89,"intelligence":0,"level":79,"strength":89}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow7Endgame","n":"Siege Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":89,"intelligence":0,"level":79,"strength":89},"domain":"item"}
-```
-
-### 33. Stout Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow3Endgame
-- `n`: Stout Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":74,"intelligence":0,"level":67,"strength":74}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow3Endgame","n":"Stout Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":74,"intelligence":0,"level":67,"strength":74},"domain":"item"}
-```
-
-### 34. Sturdy Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow3
-- `n`: Sturdy Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["ezomyte_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":13,"intelligence":0,"level":10,"strength":13}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow3","n":"Sturdy Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["ezomyte_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":13,"intelligence":0,"level":10,"strength":13},"domain":"item"}
-```
-
-### 35. Taut Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow2Cruel
-- `n`: Taut Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":45,"intelligence":0,"level":45,"strength":45}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow2Cruel","n":"Taut Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":45,"intelligence":0,"level":45,"strength":45},"domain":"item"}
-```
-
-### 36. Tense Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow2
-- `n`: Tense Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["ezomyte_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":8,"intelligence":0,"level":4,"strength":8}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow2","n":"Tense Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["ezomyte_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":8,"intelligence":0,"level":4,"strength":8},"domain":"item"}
-```
-
-### 37. Twin Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow5Cruel
-- `n`: Twin Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":53,"intelligence":0,"level":54,"strength":53}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow5Cruel","n":"Twin Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":53,"intelligence":0,"level":54,"strength":53},"domain":"item"}
-```
-
-### 38. Varnished Crossbow
-
-- Match score: `80`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow4
-- `n`: Varnished Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["maraketh_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":19,"intelligence":0,"level":16,"strength":19}
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow4","n":"Varnished Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Crossbow","tags":["maraketh_basetype","crossbow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":19,"intelligence":0,"level":16,"strength":19},"domain":"item"}
-```
-
-### 39. act_boss_area
+### 1. act_boss_area
 
 - Match score: `70`
 - `k`: act_boss_area
@@ -5052,7 +4486,7 @@ _No keyword matches in this index._
 {"k":"act_boss_area","n":"act_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 40. act_boss_area
+### 2. act_boss_area
 
 - Match score: `70`
 - `k`: 159
@@ -5064,7 +4498,7 @@ _No keyword matches in this index._
 {"k":"159","n":"act_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"act_boss_area"}
 ```
 
-### 41. archer_boss_area
+### 3. archer_boss_area
 
 - Match score: `70`
 - `k`: archer_boss_area
@@ -5076,7 +4510,7 @@ _No keyword matches in this index._
 {"k":"archer_boss_area","n":"archer_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 42. archer_boss_area
+### 4. archer_boss_area
 
 - Match score: `70`
 - `k`: 835
@@ -5088,35 +4522,7 @@ _No keyword matches in this index._
 {"k":"835","n":"archer_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"archer_boss_area"}
 ```
 
-### 43. Blazing Critical
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SupportGemBlazingCritical
-- `n`: Blazing Critical
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemBlazingCritical","n":"Blazing Critical","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 44. Cast on Critical
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SkillGemCastOnCritical
-- `n`: Cast on Critical
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemCastOnCritical","n":"Cast on Critical","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 45. caster_critical
+### 5. caster_critical
 
 - Match score: `70`
 - `k`: caster_critical
@@ -5128,7 +4534,7 @@ _No keyword matches in this index._
 {"k":"caster_critical","n":"caster_critical","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 46. caster_critical
+### 6. caster_critical
 
 - Match score: `70`
 - `k`: 1300
@@ -5140,7 +4546,7 @@ _No keyword matches in this index._
 {"k":"1300","n":"caster_critical","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"caster_critical"}
 ```
 
-### 47. chaos_golem_boss_area
+### 7. chaos_golem_boss_area
 
 - Match score: `70`
 - `k`: chaos_golem_boss_area
@@ -5152,7 +4558,7 @@ _No keyword matches in this index._
 {"k":"chaos_golem_boss_area","n":"chaos_golem_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 48. chaos_golem_boss_area
+### 8. chaos_golem_boss_area
 
 - Match score: `70`
 - `k`: 807
@@ -5164,7 +4570,7 @@ _No keyword matches in this index._
 {"k":"807","n":"chaos_golem_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_golem_boss_area"}
 ```
 
-### 49. Critical
+### 9. Critical
 
 - Match score: `70`
 - `k`: critical
@@ -5176,7 +4582,7 @@ _No keyword matches in this index._
 {"k":"critical","n":"Critical","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 50. critical
+### 10. critical
 
 - Match score: `70`
 - `k`: 575
@@ -5188,7 +4594,7 @@ _No keyword matches in this index._
 {"k":"575","n":"critical","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"critical"}
 ```
 
-### 51. critical_utility_flask
+### 11. critical_utility_flask
 
 - Match score: `70`
 - `k`: critical_utility_flask
@@ -5200,7 +4606,7 @@ _No keyword matches in this index._
 {"k":"critical_utility_flask","n":"critical_utility_flask","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 52. critical_utility_flask
+### 12. critical_utility_flask
 
 - Match score: `70`
 - `k`: 47
@@ -5212,7 +4618,7 @@ _No keyword matches in this index._
 {"k":"47","n":"critical_utility_flask","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"critical_utility_flask"}
 ```
 
-### 53. crossbow
+### 13. crossbow
 
 - Match score: `70`
 - `k`: crossbow
@@ -5224,7 +4630,7 @@ _No keyword matches in this index._
 {"k":"crossbow","n":"crossbow","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 54. crossbow
+### 14. crossbow
 
 - Match score: `70`
 - `k`: 1017
@@ -5236,7 +4642,7 @@ _No keyword matches in this index._
 {"k":"1017","n":"crossbow","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"crossbow"}
 ```
 
-### 55. Crossbow Attachment REMOVE
+### 15. Crossbow Attachment REMOVE
 
 - Match score: `70`
 - `k`: Crossbow Attachment REMOVE
@@ -5248,21 +4654,7 @@ _No keyword matches in this index._
 {"k":"Crossbow Attachment REMOVE","n":"Crossbow Attachment REMOVE","cat":"repoe_item_classes","src":"repoe_poe2/item_classes.json"}
 ```
 
-### 56. Crossbow Shot
-
-- Match score: `70`
-- `k`: Metadata/Items/Gem/SkillGemPlayerDefaultCrossbow
-- `n`: Crossbow Shot
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SkillGemPlayerDefaultCrossbow","n":"Crossbow Shot","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 57. crossbow_attachment
+### 16. crossbow_attachment
 
 - Match score: `70`
 - `k`: crossbow_attachment
@@ -5274,7 +4666,7 @@ _No keyword matches in this index._
 {"k":"crossbow_attachment","n":"crossbow_attachment","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 58. crossbow_attachment
+### 17. crossbow_attachment
 
 - Match score: `70`
 - `k`: 1049
@@ -5286,7 +4678,7 @@ _No keyword matches in this index._
 {"k":"1049","n":"crossbow_attachment","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"crossbow_attachment"}
 ```
 
-### 59. Crossbows
+### 18. Crossbows
 
 - Match score: `70`
 - `k`: Crossbow
@@ -5298,21 +4690,7 @@ _No keyword matches in this index._
 {"k":"Crossbow","n":"Crossbows","cat":"repoe_item_classes","src":"repoe_poe2/item_classes.json"}
 ```
 
-### 60. Freezefork
-
-- Match score: `70`
-- `k`: Metadata/Items/Gem/SupportGemFreezefork
-- `n`: Freezefork
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SupportGemFreezefork","n":"Freezefork","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 61. goatman_boss_area
+### 19. goatman_boss_area
 
 - Match score: `70`
 - `k`: goatman_boss_area
@@ -5324,7 +4702,7 @@ _No keyword matches in this index._
 {"k":"goatman_boss_area","n":"goatman_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 62. goatman_boss_area
+### 20. goatman_boss_area
 
 - Match score: `70`
 - `k`: 844
@@ -5336,7 +4714,7 @@ _No keyword matches in this index._
 {"k":"844","n":"goatman_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"goatman_boss_area"}
 ```
 
-### 63. god_boss_map_area
+### 21. god_boss_map_area
 
 - Match score: `70`
 - `k`: god_boss_map_area
@@ -5348,7 +4726,7 @@ _No keyword matches in this index._
 {"k":"god_boss_map_area","n":"god_boss_map_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 64. god_boss_map_area
+### 22. god_boss_map_area
 
 - Match score: `70`
 - `k`: 879
@@ -5360,7 +4738,7 @@ _No keyword matches in this index._
 {"k":"879","n":"god_boss_map_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"god_boss_map_area"}
 ```
 
-### 65. golem_boss_area
+### 23. golem_boss_area
 
 - Match score: `70`
 - `k`: golem_boss_area
@@ -5372,7 +4750,7 @@ _No keyword matches in this index._
 {"k":"golem_boss_area","n":"golem_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 66. golem_boss_area
+### 24. golem_boss_area
 
 - Match score: `70`
 - `k`: 806
@@ -5384,7 +4762,7 @@ _No keyword matches in this index._
 {"k":"806","n":"golem_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"golem_boss_area"}
 ```
 
-### 67. has_crossbow
+### 25. has_crossbow
 
 - Match score: `70`
 - `k`: has_crossbow
@@ -5396,7 +4774,7 @@ _No keyword matches in this index._
 {"k":"has_crossbow","n":"has_crossbow","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 68. has_crossbow
+### 26. has_crossbow
 
 - Match score: `70`
 - `k`: 1044
@@ -5408,35 +4786,7 @@ _No keyword matches in this index._
 {"k":"1044","n":"has_crossbow","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"has_crossbow"}
 ```
 
-### 69. Inexorable Critical I
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SupportGemInevitableCritical
-- `n`: Inexorable Critical I
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemInevitableCritical","n":"Inexorable Critical I","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 70. Inexorable Critical II
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SupportGemInevitableCriticalTwo
-- `n`: Inexorable Critical II
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemInevitableCriticalTwo","n":"Inexorable Critical II","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 71. king_boss_area
+### 27. king_boss_area
 
 - Match score: `70`
 - `k`: king_boss_area
@@ -5448,7 +4798,7 @@ _No keyword matches in this index._
 {"k":"king_boss_area","n":"king_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 72. king_boss_area
+### 28. king_boss_area
 
 - Match score: `70`
 - `k`: 869
@@ -5460,49 +4810,7 @@ _No keyword matches in this index._
 {"k":"869","n":"king_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"king_boss_area"}
 ```
 
-### 73. Pinpoint Critical
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SupportGemPinpointCritical
-- `n`: Pinpoint Critical
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemPinpointCritical","n":"Pinpoint Critical","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 74. Poisonburst Arrow
-
-- Match score: `70`
-- `k`: Metadata/Items/Gem/SkillGemPoisonBurstArrow
-- `n`: Poisonburst Arrow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gem/SkillGemPoisonBurstArrow","n":"Poisonburst Arrow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
-```
-
-### 75. Random Crossbow
-
-- Match score: `70`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbowGamble
-- `n`: Random Crossbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["crossbow","default"]
-- `domain`: item
-
-```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbowGamble","n":"Random Crossbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HiddenItem","tags":["crossbow","default"],"domain":"item"}
-```
-
-### 76. rogue_exile_boss_area
+### 29. rogue_exile_boss_area
 
 - Match score: `70`
 - `k`: rogue_exile_boss_area
@@ -5514,7 +4822,7 @@ _No keyword matches in this index._
 {"k":"rogue_exile_boss_area","n":"rogue_exile_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 77. rogue_exile_boss_area
+### 30. rogue_exile_boss_area
 
 - Match score: `70`
 - `k`: 857
@@ -5526,7 +4834,7 @@ _No keyword matches in this index._
 {"k":"857","n":"rogue_exile_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"rogue_exile_boss_area"}
 ```
 
-### 78. scavenger_boss_area
+### 31. scavenger_boss_area
 
 - Match score: `70`
 - `k`: scavenger_boss_area
@@ -5538,7 +4846,7 @@ _No keyword matches in this index._
 {"k":"scavenger_boss_area","n":"scavenger_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 79. scavenger_boss_area
+### 32. scavenger_boss_area
 
 - Match score: `70`
 - `k`: 843
@@ -5550,7 +4858,7 @@ _No keyword matches in this index._
 {"k":"843","n":"scavenger_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"scavenger_boss_area"}
 ```
 
-### 80. sea_witch_boss_area
+### 33. sea_witch_boss_area
 
 - Match score: `70`
 - `k`: sea_witch_boss_area
@@ -5562,7 +4870,7 @@ _No keyword matches in this index._
 {"k":"sea_witch_boss_area","n":"sea_witch_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 81. sea_witch_boss_area
+### 34. sea_witch_boss_area
 
 - Match score: `70`
 - `k`: 805
@@ -5574,7 +4882,7 @@ _No keyword matches in this index._
 {"k":"805","n":"sea_witch_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"sea_witch_boss_area"}
 ```
 
-### 82. spider_boss_area
+### 35. spider_boss_area
 
 - Match score: `70`
 - `k`: spider_boss_area
@@ -5586,7 +4894,7 @@ _No keyword matches in this index._
 {"k":"spider_boss_area","n":"spider_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 83. spider_boss_area
+### 36. spider_boss_area
 
 - Match score: `70`
 - `k`: 840
@@ -5598,21 +4906,7 @@ _No keyword matches in this index._
 {"k":"840","n":"spider_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"spider_boss_area"}
 ```
 
-### 84. Supercritical
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SupportGemSupercritical
-- `n`: Supercritical
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["support_gem","gem","default"]
-- `domain`: undefined
-
-```json
-{"k":"Metadata/Items/Gems/SupportGemSupercritical","n":"Supercritical","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
-```
-
-### 85. templar_boss_area
+### 37. templar_boss_area
 
 - Match score: `70`
 - `k`: templar_boss_area
@@ -5624,7 +4918,7 @@ _No keyword matches in this index._
 {"k":"templar_boss_area","n":"templar_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 86. templar_boss_area
+### 38. templar_boss_area
 
 - Match score: `70`
 - `k`: 809
@@ -5636,7 +4930,7 @@ _No keyword matches in this index._
 {"k":"809","n":"templar_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"templar_boss_area"}
 ```
 
-### 87. totem_boss_area
+### 39. totem_boss_area
 
 - Match score: `70`
 - `k`: totem_boss_area
@@ -5648,7 +4942,7 @@ _No keyword matches in this index._
 {"k":"totem_boss_area","n":"totem_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 88. totem_boss_area
+### 40. totem_boss_area
 
 - Match score: `70`
 - `k`: 845
@@ -5660,7 +4954,7 @@ _No keyword matches in this index._
 {"k":"845","n":"totem_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"totem_boss_area"}
 ```
 
-### 89. undying_boss_area
+### 41. undying_boss_area
 
 - Match score: `70`
 - `k`: undying_boss_area
@@ -5672,7 +4966,7 @@ _No keyword matches in this index._
 {"k":"undying_boss_area","n":"undying_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 90. undying_boss_area
+### 42. undying_boss_area
 
 - Match score: `70`
 - `k`: 803
@@ -5684,7 +4978,7 @@ _No keyword matches in this index._
 {"k":"803","n":"undying_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"undying_boss_area"}
 ```
 
-### 91. vaalsidearea_boss
+### 43. vaalsidearea_boss
 
 - Match score: `70`
 - `k`: vaalsidearea_boss
@@ -5696,7 +4990,7 @@ _No keyword matches in this index._
 {"k":"vaalsidearea_boss","n":"vaalsidearea_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 92. vaalsidearea_boss
+### 44. vaalsidearea_boss
 
 - Match score: `70`
 - `k`: 939
@@ -5708,420 +5002,916 @@ _No keyword matches in this index._
 {"k":"939","n":"vaalsidearea_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"vaalsidearea_boss"}
 ```
 
-### 93. Adherent Bow
+### 45. abyss_jewel_ranged
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow7Cruel
-- `n`: Adherent Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":104,"intelligence":0,"level":59,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: abyss_jewel_ranged
+- `n`: abyss_jewel_ranged
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow7Cruel","n":"Adherent Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":104,"intelligence":0,"level":59,"strength":0},"domain":"item"}
+{"k":"abyss_jewel_ranged","n":"abyss_jewel_ranged","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 94. Artillery Bow
+### 46. abyss_jewel_ranged
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow9
-- `n`: Artillery Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["karui_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":80,"intelligence":0,"level":45,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: 236
+- `n`: abyss_jewel_ranged
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow9","n":"Artillery Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["karui_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":80,"intelligence":0,"level":45,"strength":0},"domain":"item"}
+{"k":"236","n":"abyss_jewel_ranged","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"abyss_jewel_ranged"}
 ```
 
-### 95. Cavalry Bow
+### 47. abyss_lich_boss
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow5Endgame
-- `n`: Cavalry Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":149,"intelligence":0,"level":72,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: abyss_lich_boss
+- `n`: abyss_lich_boss
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow5Endgame","n":"Cavalry Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":149,"intelligence":0,"level":72,"strength":0},"domain":"item"}
+{"k":"abyss_lich_boss","n":"abyss_lich_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 96. Composite Bow
+### 48. abyss_lich_boss
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow5
-- `n`: Composite Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["maraketh_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":41,"intelligence":0,"level":22,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: 860
+- `n`: abyss_lich_boss
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow5","n":"Composite Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["maraketh_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":41,"intelligence":0,"level":22,"strength":0},"domain":"item"}
+{"k":"860","n":"abyss_lich_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"abyss_lich_boss"}
 ```
 
-### 97. Crude Bow
+### 49. act6_karui_area
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow1
-- `n`: Crude Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["ezomyte_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":0,"intelligence":0,"level":1,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: act6_karui_area
+- `n`: act6_karui_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow1","n":"Crude Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["ezomyte_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
+{"k":"act6_karui_area","n":"act6_karui_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 98. Cultist Bow
+### 50. act6_karui_area
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow7
-- `n`: Cultist Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["vaal_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":60,"intelligence":0,"level":33,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: 356
+- `n`: act6_karui_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow7","n":"Cultist Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["vaal_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":60,"intelligence":0,"level":33,"strength":0},"domain":"item"}
+{"k":"356","n":"act6_karui_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"act6_karui_area"}
 ```
 
-### 99. Double Limb Bow
+### 51. affliction_boss
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow12
-- `n`: Double Limb Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":99,"intelligence":0,"level":56,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: affliction_boss
+- `n`: affliction_boss
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow12","n":"Double Limb Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":99,"intelligence":0,"level":56,"strength":0},"domain":"item"}
+{"k":"affliction_boss","n":"affliction_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 100. Dualstring Bow
+### 52. affliction_boss
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow6
-- `n`: Dualstring Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["maraketh_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":52,"intelligence":0,"level":28,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: 993
+- `n`: affliction_boss
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow6","n":"Dualstring Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["maraketh_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":52,"intelligence":0,"level":28,"strength":0},"domain":"item"}
+{"k":"993","n":"affliction_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"affliction_boss"}
 ```
 
-### 101. Fanatic Bow
+### 53. alira_area
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow7Endgame
-- `n`: Fanatic Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":163,"intelligence":0,"level":79,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: alira_area
+- `n`: alira_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow7Endgame","n":"Fanatic Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":163,"intelligence":0,"level":79,"strength":0},"domain":"item"}
+{"k":"alira_area","n":"alira_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 102. Flanged Arrowhead
+### 54. alira_area
 
-- Match score: `45`
-- `k`: Metadata/Items/Heist/HeistEquipmentRanged1
-- `n`: Flanged Arrowhead
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["heist_equipment_weapon","heist_equipment_ranged","heist_equipment","default"]
-- `domain`: heist_npc
+- Match score: `35`
+- `k`: 794
+- `n`: alira_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/Heist/HeistEquipmentRanged1","n":"Flanged Arrowhead","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HeistEquipmentWeapon","tags":["heist_equipment_weapon","heist_equipment_ranged","heist_equipment","default"],"domain":"heist_npc"}
+{"k":"794","n":"alira_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"alira_area"}
 ```
 
-### 103. Fragmenting Arrowhead
+### 55. allows_additional_projectiles
 
-- Match score: `45`
-- `k`: Metadata/Items/Heist/HeistEquipmentRanged2
-- `n`: Fragmenting Arrowhead
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["heist_equipment_weapon","heist_equipment_ranged","heist_equipment","default"]
-- `domain`: heist_npc
+- Match score: `35`
+- `k`: allows_additional_projectiles
+- `n`: allows_additional_projectiles
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/Heist/HeistEquipmentRanged2","n":"Fragmenting Arrowhead","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HeistEquipmentWeapon","tags":["heist_equipment_weapon","heist_equipment_ranged","heist_equipment","default"],"domain":"heist_npc"}
+{"k":"allows_additional_projectiles","n":"allows_additional_projectiles","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 104. Gemini Bow
+### 56. allows_additional_projectiles
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow6Endgame
-- `n`: Gemini Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":163,"intelligence":0,"level":78,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: 728
+- `n`: allows_additional_projectiles
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow6Endgame","n":"Gemini Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":163,"intelligence":0,"level":78,"strength":0},"domain":"item"}
+{"k":"728","n":"allows_additional_projectiles","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"allows_additional_projectiles"}
 ```
 
-### 105. Greatbow
+### 57. aqueduct_area
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow11
-- `n`: Greatbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":92,"intelligence":0,"level":52,"strength":92}
-- `domain`: item
+- Match score: `35`
+- `k`: aqueduct_area
+- `n`: aqueduct_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow11","n":"Greatbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":92,"intelligence":0,"level":52,"strength":92},"domain":"item"}
+{"k":"aqueduct_area","n":"aqueduct_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 106. Guardian Bow
+### 58. aqueduct_area
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow3Endgame
-- `n`: Guardian Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":163,"intelligence":0,"level":77,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: 377
+- `n`: aqueduct_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow3Endgame","n":"Guardian Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":163,"intelligence":0,"level":77,"strength":0},"domain":"item"}
+{"k":"377","n":"aqueduct_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"aqueduct_area"}
 ```
 
-### 107. Heartwood Shortbow
+### 59. arachnid_tomb_map_area
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowUnique1
-- `n`: Heartwood Shortbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":134,"intelligence":0,"level":67,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: arachnid_tomb_map_area
+- `n`: arachnid_tomb_map_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowUnique1","n":"Heartwood Shortbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":134,"intelligence":0,"level":67,"strength":0},"domain":"item"}
+{"k":"arachnid_tomb_map_area","n":"arachnid_tomb_map_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 108. Heavy Bow
+### 60. arachnid_tomb_map_area
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow13
-- `n`: Heavy Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":114,"intelligence":0,"level":65,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: 434
+- `n`: arachnid_tomb_map_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow13","n":"Heavy Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":114,"intelligence":0,"level":65,"strength":0},"domain":"item"}
+{"k":"434","n":"arachnid_tomb_map_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"arachnid_tomb_map_area"}
 ```
 
-### 109. Hollowpoint Arrowhead
+### 61. arakaali_area
 
-- Match score: `45`
-- `k`: Metadata/Items/Heist/HeistEquipmentRanged3
-- `n`: Hollowpoint Arrowhead
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["heist_equipment_weapon","heist_equipment_ranged","heist_equipment","default"]
-- `domain`: heist_npc
+- Match score: `35`
+- `k`: arakaali_area
+- `n`: arakaali_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/Heist/HeistEquipmentRanged3","n":"Hollowpoint Arrowhead","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HeistEquipmentWeapon","tags":["heist_equipment_weapon","heist_equipment_ranged","heist_equipment","default"],"domain":"heist_npc"}
+{"k":"arakaali_area","n":"arakaali_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 110. Ironwood Shortbow
+### 62. arakaali_area
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow2Endgame
-- `n`: Ironwood Shortbow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":134,"intelligence":0,"level":67,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: 992
+- `n`: arakaali_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow2Endgame","n":"Ironwood Shortbow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":134,"intelligence":0,"level":67,"strength":0},"domain":"item"}
+{"k":"992","n":"arakaali_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"arakaali_area"}
 ```
 
-### 111. Militant Bow
+### 63. archer_boss
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow8Cruel
-- `n`: Militant Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":109,"intelligence":0,"level":62,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: archer_boss
+- `n`: archer_boss
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow8Cruel","n":"Militant Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":109,"intelligence":0,"level":62,"strength":0},"domain":"item"}
+{"k":"archer_boss","n":"archer_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 112. Obliterator Bow
+### 64. archer_boss
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow9Endgame
-- `n`: Obliterator Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["karui_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":163,"intelligence":0,"level":78,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: 834
+- `n`: archer_boss
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow9Endgame","n":"Obliterator Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["karui_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":163,"intelligence":0,"level":78,"strength":0},"domain":"item"}
+{"k":"834","n":"archer_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"archer_boss"}
 ```
 
-### 113. Precise Arrowhead
+### 65. archives_area
 
-- Match score: `45`
-- `k`: Metadata/Items/Heist/HeistEquipmentRanged4
-- `n`: Precise Arrowhead
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["heist_equipment_weapon","heist_equipment_ranged","heist_equipment","default"]
-- `domain`: heist_npc
+- Match score: `35`
+- `k`: archives_area
+- `n`: archives_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/Heist/HeistEquipmentRanged4","n":"Precise Arrowhead","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HeistEquipmentWeapon","tags":["heist_equipment_weapon","heist_equipment_ranged","heist_equipment","default"],"domain":"heist_npc"}
+{"k":"archives_area","n":"archives_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 114. Protector Bow
+### 66. archives_area
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow3Cruel
-- `n`: Protector Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":86,"intelligence":0,"level":48,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: 431
+- `n`: archives_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow3Cruel","n":"Protector Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":86,"intelligence":0,"level":48,"strength":0},"domain":"item"}
+{"k":"431","n":"archives_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"archives_area"}
 ```
 
-### 115. Recurve Bow
+### 67. area_with_water
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow4
-- `n`: Recurve Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["maraketh_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":31,"intelligence":0,"level":16,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: area_with_water
+- `n`: area_with_water
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow4","n":"Recurve Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["maraketh_basetype","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":31,"intelligence":0,"level":16,"strength":0},"domain":"item"}
+{"k":"area_with_water","n":"area_with_water","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 116. Rider Bow
+### 68. area_with_water
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow5Cruel
-- `n`: Rider Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":91,"intelligence":0,"level":51,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: 170
+- `n`: area_with_water
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow5Cruel","n":"Rider Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":91,"intelligence":0,"level":51,"strength":0},"domain":"item"}
+{"k":"170","n":"area_with_water","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"area_with_water"}
 ```
 
-### 117. Runeforged Composite Bow
+### 69. arena_area
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowVerisium5
-- `n`: Runeforged Composite Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["maraketh_basetype","runeforged","bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":97,"intelligence":0,"level":55,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: arena_area
+- `n`: arena_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowVerisium5","n":"Runeforged Composite Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["maraketh_basetype","runeforged","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":97,"intelligence":0,"level":55,"strength":0},"domain":"item"}
+{"k":"arena_area","n":"arena_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 118. Runeforged Crude Bow
+### 70. arena_area
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowVerisium1
-- `n`: Runeforged Crude Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["ezomyte_basetype","runeforged","bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":97,"intelligence":0,"level":55,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: 401
+- `n`: arena_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowVerisium1","n":"Runeforged Crude Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["ezomyte_basetype","runeforged","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":97,"intelligence":0,"level":55,"strength":0},"domain":"item"}
+{"k":"401","n":"arena_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"arena_area"}
 ```
 
-### 119. Runeforged Dualstring Bow
+### 71. Arrow_onhit_audio
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowVerisium6
-- `n`: Runeforged Dualstring Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["maraketh_basetype","runeforged","bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":97,"intelligence":0,"level":55,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: Arrow_onhit_audio
+- `n`: Arrow_onhit_audio
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowVerisium6","n":"Runeforged Dualstring Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["maraketh_basetype","runeforged","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":97,"intelligence":0,"level":55,"strength":0},"domain":"item"}
+{"k":"Arrow_onhit_audio","n":"Arrow_onhit_audio","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 120. Runeforged Recurve Bow
+### 72. Arrow_onhit_audio
 
-- Match score: `45`
-- `k`: Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowVerisium4
-- `n`: Runeforged Recurve Bow
-- `cat`: repoe_base_items
-- `src`: repoe_poe2/base_items.json
-- `tags`: ["maraketh_basetype","runeforged","bow","ranged","two_hand_weapon","twohand","weapon","default"]
-- `req`: {"dexterity":72,"intelligence":0,"level":40,"strength":0}
-- `domain`: item
+- Match score: `35`
+- `k`: 1031
+- `n`: Arrow_onhit_audio
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
 
 ```json
-{"k":"Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowVerisium4","n":"Runeforged Recurve Bow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Bow","tags":["maraketh_basetype","runeforged","bow","ranged","two_hand_weapon","twohand","weapon","default"],"req":{"dexterity":72,"intelligence":0,"level":40,"strength":0},"domain":"item"}
+{"k":"1031","n":"Arrow_onhit_audio","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"Arrow_onhit_audio"}
+```
+
+### 73. Attack
+
+- Match score: `35`
+- `k`: attack
+- `n`: Attack
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"attack","n":"Attack","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 74. attack
+
+- Match score: `35`
+- `k`: 321
+- `n`: attack
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"321","n":"attack","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"attack"}
+```
+
+### 75. attack_catalyst
+
+- Match score: `35`
+- `k`: attack_catalyst
+- `n`: attack_catalyst
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"attack_catalyst","n":"attack_catalyst","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 76. attack_catalyst
+
+- Match score: `35`
+- `k`: 1313
+- `n`: attack_catalyst
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"1313","n":"attack_catalyst","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"attack_catalyst"}
+```
+
+### 77. attack_dagger
+
+- Match score: `35`
+- `k`: attack_dagger
+- `n`: attack_dagger
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"attack_dagger","n":"attack_dagger","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 78. attack_dagger
+
+- Match score: `35`
+- `k`: 449
+- `n`: attack_dagger
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"449","n":"attack_dagger","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"attack_dagger"}
+```
+
+### 79. attack_staff
+
+- Match score: `35`
+- `k`: attack_staff
+- `n`: attack_staff
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"attack_staff","n":"attack_staff","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 80. attack_staff
+
+- Match score: `35`
+- `k`: 448
+- `n`: attack_staff
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"448","n":"attack_staff","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"attack_staff"}
+```
+
+### 81. atziri_area
+
+- Match score: `35`
+- `k`: atziri_area
+- `n`: atziri_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"atziri_area","n":"atziri_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 82. atziri_area
+
+- Match score: `35`
+- `k`: 824
+- `n`: atziri_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"824","n":"atziri_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"atziri_area"}
+```
+
+### 83. atziri_boss
+
+- Match score: `35`
+- `k`: atziri_boss
+- `n`: atziri_boss
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"atziri_boss","n":"atziri_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 84. atziri_boss
+
+- Match score: `35`
+- `k`: 899
+- `n`: atziri_boss
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"899","n":"atziri_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"atziri_boss"}
+```
+
+### 85. bandit_area
+
+- Match score: `35`
+- `k`: bandit_area
+- `n`: bandit_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"bandit_area","n":"bandit_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 86. bandit_area
+
+- Match score: `35`
+- `k`: 379
+- `n`: bandit_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"379","n":"bandit_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bandit_area"}
+```
+
+### 87. bear_boss_map
+
+- Match score: `35`
+- `k`: bear_boss_map
+- `n`: bear_boss_map
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"bear_boss_map","n":"bear_boss_map","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 88. bear_boss_map
+
+- Match score: `35`
+- `k`: 962
+- `n`: bear_boss_map
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"962","n":"bear_boss_map","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bear_boss_map"}
+```
+
+### 89. belly_area
+
+- Match score: `35`
+- `k`: belly_area
+- `n`: belly_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"belly_area","n":"belly_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 90. belly_area
+
+- Match score: `35`
+- `k`: 361
+- `n`: belly_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"361","n":"belly_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"belly_area"}
+```
+
+### 91. bestiary_beast_boss
+
+- Match score: `35`
+- `k`: bestiary_beast_boss
+- `n`: bestiary_beast_boss
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"bestiary_beast_boss","n":"bestiary_beast_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 92. bestiary_beast_boss
+
+- Match score: `35`
+- `k`: 293
+- `n`: bestiary_beast_boss
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"293","n":"bestiary_beast_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bestiary_beast_boss"}
+```
+
+### 93. bestiary_spirit_boss
+
+- Match score: `35`
+- `k`: bestiary_spirit_boss
+- `n`: bestiary_spirit_boss
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"bestiary_spirit_boss","n":"bestiary_spirit_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 94. bestiary_spirit_boss
+
+- Match score: `35`
+- `k`: 833
+- `n`: bestiary_spirit_boss
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"833","n":"bestiary_spirit_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bestiary_spirit_boss"}
+```
+
+### 95. blight_boss
+
+- Match score: `35`
+- `k`: blight_boss
+- `n`: blight_boss
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"blight_boss","n":"blight_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 96. blight_boss
+
+- Match score: `35`
+- `k`: 649
+- `n`: blight_boss
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"649","n":"blight_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"blight_boss"}
+```
+
+### 97. blood_mage_boss_map
+
+- Match score: `35`
+- `k`: blood_mage_boss_map
+- `n`: blood_mage_boss_map
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"blood_mage_boss_map","n":"blood_mage_boss_map","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 98. blood_mage_boss_map
+
+- Match score: `35`
+- `k`: 944
+- `n`: blood_mage_boss_map
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"944","n":"blood_mage_boss_map","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"blood_mage_boss_map"}
+```
+
+### 99. boss
+
+- Match score: `35`
+- `k`: boss
+- `n`: boss
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"boss","n":"boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 100. boss
+
+- Match score: `35`
+- `k`: 1103
+- `n`: boss
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"1103","n":"boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"boss"}
+```
+
+### 101. bow
+
+- Match score: `35`
+- `k`: bow
+- `n`: bow
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"bow","n":"bow","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 102. bow
+
+- Match score: `35`
+- `k`: 5
+- `n`: bow
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"5","n":"bow","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bow"}
+```
+
+### 103. bow_adjudicator
+
+- Match score: `35`
+- `k`: bow_adjudicator
+- `n`: bow_adjudicator
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"bow_adjudicator","n":"bow_adjudicator","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 104. bow_adjudicator
+
+- Match score: `35`
+- `k`: 560
+- `n`: bow_adjudicator
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"560","n":"bow_adjudicator","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bow_adjudicator"}
+```
+
+### 105. bow_basilisk
+
+- Match score: `35`
+- `k`: bow_basilisk
+- `n`: bow_basilisk
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"bow_basilisk","n":"bow_basilisk","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 106. bow_basilisk
+
+- Match score: `35`
+- `k`: 546
+- `n`: bow_basilisk
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"546","n":"bow_basilisk","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bow_basilisk"}
+```
+
+### 107. bow_crusader
+
+- Match score: `35`
+- `k`: bow_crusader
+- `n`: bow_crusader
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"bow_crusader","n":"bow_crusader","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 108. bow_crusader
+
+- Match score: `35`
+- `k`: 518
+- `n`: bow_crusader
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"518","n":"bow_crusader","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bow_crusader"}
+```
+
+### 109. bow_elder
+
+- Match score: `35`
+- `k`: bow_elder
+- `n`: bow_elder
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"bow_elder","n":"bow_elder","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 110. bow_elder
+
+- Match score: `35`
+- `k`: 274
+- `n`: bow_elder
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"274","n":"bow_elder","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bow_elder"}
+```
+
+### 111. bow_eyrie
+
+- Match score: `35`
+- `k`: bow_eyrie
+- `n`: bow_eyrie
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"bow_eyrie","n":"bow_eyrie","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 112. bow_eyrie
+
+- Match score: `35`
+- `k`: 532
+- `n`: bow_eyrie
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"532","n":"bow_eyrie","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bow_eyrie"}
+```
+
+### 113. bow_shaper
+
+- Match score: `35`
+- `k`: bow_shaper
+- `n`: bow_shaper
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"bow_shaper","n":"bow_shaper","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 114. bow_shaper
+
+- Match score: `35`
+- `k`: 273
+- `n`: bow_shaper
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"273","n":"bow_shaper","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bow_shaper"}
+```
+
+### 115. Bows
+
+- Match score: `35`
+- `k`: Bow
+- `n`: Bows
+- `cat`: repoe_item_classes
+- `src`: repoe_poe2/item_classes.json
+
+```json
+{"k":"Bow","n":"Bows","cat":"repoe_item_classes","src":"repoe_poe2/item_classes.json"}
+```
+
+### 116. breachlord_boss_domain
+
+- Match score: `35`
+- `k`: breachlord_boss_domain
+- `n`: breachlord_boss_domain
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"breachlord_boss_domain","n":"breachlord_boss_domain","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 117. breachlord_boss_domain
+
+- Match score: `35`
+- `k`: 887
+- `n`: breachlord_boss_domain
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"887","n":"breachlord_boss_domain","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"breachlord_boss_domain"}
+```
+
+### 118. bridge_area
+
+- Match score: `35`
+- `k`: bridge_area
+- `n`: bridge_area
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"bridge_area","n":"bridge_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+```
+
+### 119. bridge_area
+
+- Match score: `35`
+- `k`: 877
+- `n`: bridge_area
+- `cat`: repoe_tags
+- `src`: repoe_poe2/tags.json
+
+```json
+{"k":"877","n":"bridge_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bridge_area"}
+```
+
+### 120. brute_boss
+
+- Match score: `35`
+- `k`: brute_boss
+- `n`: brute_boss
+- `cat`: repoe_tag_details
+- `src`: repoe_poe2/tag_details.json
+
+```json
+{"k":"brute_boss","n":"brute_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
 ## Mods and affixes
