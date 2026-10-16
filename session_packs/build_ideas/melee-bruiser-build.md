@@ -1,6 +1,6 @@
 # Build Idea Pack — Melee Bruiser Build
 
-- Generated UTC: `2026-10-15T14:59:55+00:00`
+- Generated UTC: `2026-10-16T14:50:30+00:00`
 - Idea slug: `melee-bruiser-build`
 - Purpose: Engineer a close-range build with strong defenses, reliable recovery, and boss-capable damage.
 - Keywords: `melee, strike, slam, quarterstaff, mace, two handed, shield, attack, attack speed, stun, armour, evasion, block, life, leech, recovery, charge, rage, warcry, boss, clear, warrior, monk, mercenary`
@@ -4429,1444 +4429,1785 @@ _No keyword matches in this index._
 - Source: `build_knowledge/compact/item_base_index.json`
 - Matches included: `120`
 
-### 1. 2h_mace_adjudicator
+### 1. [DNT-UNUSED] Bone Cultist Shield Boss Drop
 
-- Match score: `35`
-- `k`: 2h_mace_adjudicator
-- `n`: 2h_mace_adjudicator
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `70`
+- `k`: Metadata/Items/QuestItems/Gallows/Act2/BoneCultistShieldBossDrop
+- `n`: [DNT-UNUSED] Bone Cultist Shield Boss Drop
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["quest_item","quest_item","default"]
+- `domain`: undefined
 
 ```json
-{"k":"2h_mace_adjudicator","n":"2h_mace_adjudicator","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/QuestItems/Gallows/Act2/BoneCultistShieldBossDrop","n":"[DNT-UNUSED] Bone Cultist Shield Boss Drop","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"QuestItem","tags":["quest_item","quest_item","default"],"domain":"undefined"}
 ```
 
-### 2. 2h_mace_adjudicator
+### 2. Cast on Melee Stun
 
-- Match score: `35`
-- `k`: 564
-- `n`: 2h_mace_adjudicator
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `70`
+- `k`: Metadata/Items/Gems/SkillGemCastOnMeleeStun
+- `n`: Cast on Melee Stun
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
 
 ```json
-{"k":"564","n":"2h_mace_adjudicator","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"2h_mace_adjudicator"}
+{"k":"Metadata/Items/Gems/SkillGemCastOnMeleeStun","n":"Cast on Melee Stun","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 3. 2h_mace_basilisk
+### 3. Enraged Warcry I
 
-- Match score: `35`
-- `k`: 2h_mace_basilisk
-- `n`: 2h_mace_basilisk
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `70`
+- `k`: Metadata/Items/Gems/SupportGemEnragedWarcry
+- `n`: Enraged Warcry I
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
 
 ```json
-{"k":"2h_mace_basilisk","n":"2h_mace_basilisk","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Gems/SupportGemEnragedWarcry","n":"Enraged Warcry I","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
 ```
 
-### 4. 2h_mace_basilisk
+### 4. Enraged Warcry II
 
-- Match score: `35`
-- `k`: 550
-- `n`: 2h_mace_basilisk
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `70`
+- `k`: Metadata/Items/Gems/SupportGemEnragedWarcryTwo
+- `n`: Enraged Warcry II
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
 
 ```json
-{"k":"550","n":"2h_mace_basilisk","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"2h_mace_basilisk"}
+{"k":"Metadata/Items/Gems/SupportGemEnragedWarcryTwo","n":"Enraged Warcry II","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
 ```
 
-### 5. 2h_mace_crusader
+### 5. Life Leech I
 
-- Match score: `35`
-- `k`: 2h_mace_crusader
-- `n`: 2h_mace_crusader
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `70`
+- `k`: Metadata/Items/Gems/SupportGemLifeThief
+- `n`: Life Leech I
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
 
 ```json
-{"k":"2h_mace_crusader","n":"2h_mace_crusader","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Gems/SupportGemLifeThief","n":"Life Leech I","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
 ```
 
-### 6. 2h_mace_crusader
+### 6. Life Leech II
 
-- Match score: `35`
-- `k`: 522
-- `n`: 2h_mace_crusader
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `70`
+- `k`: Metadata/Items/Gems/SupportGemLifeThiefTwo
+- `n`: Life Leech II
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
 
 ```json
-{"k":"522","n":"2h_mace_crusader","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"2h_mace_crusader"}
+{"k":"Metadata/Items/Gems/SupportGemLifeThiefTwo","n":"Life Leech II","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
 ```
 
-### 7. 2h_mace_elder
+### 7. Life Leech III
 
-- Match score: `35`
-- `k`: 2h_mace_elder
-- `n`: 2h_mace_elder
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `70`
+- `k`: Metadata/Items/Gems/SupportGemLifeThiefThree
+- `n`: Life Leech III
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
 
 ```json
-{"k":"2h_mace_elder","n":"2h_mace_elder","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Gems/SupportGemLifeThiefThree","n":"Life Leech III","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
 ```
 
-### 8. 2h_mace_elder
+### 8. Mace Strike
 
-- Match score: `35`
-- `k`: 280
-- `n`: 2h_mace_elder
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `70`
+- `k`: Metadata/Items/Gem/SkillGemPlayerDefault1HMace
+- `n`: Mace Strike
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
 
 ```json
-{"k":"280","n":"2h_mace_elder","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"2h_mace_elder"}
+{"k":"Metadata/Items/Gem/SkillGemPlayerDefault1HMace","n":"Mace Strike","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 9. 2h_mace_eyrie
+### 9. Mace Strike
 
-- Match score: `35`
-- `k`: 2h_mace_eyrie
-- `n`: 2h_mace_eyrie
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `70`
+- `k`: Metadata/Items/Gem/SkillGemPlayerDefault2HMace
+- `n`: Mace Strike
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
 
 ```json
-{"k":"2h_mace_eyrie","n":"2h_mace_eyrie","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Gem/SkillGemPlayerDefault2HMace","n":"Mace Strike","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 10. 2h_mace_eyrie
+### 10. Mace Strike
 
-- Match score: `35`
-- `k`: 536
-- `n`: 2h_mace_eyrie
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `70`
+- `k`: Metadata/Items/Gem/SkillGemPlayerDefaultMaceMace
+- `n`: Mace Strike
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
 
 ```json
-{"k":"536","n":"2h_mace_eyrie","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"2h_mace_eyrie"}
+{"k":"Metadata/Items/Gem/SkillGemPlayerDefaultMaceMace","n":"Mace Strike","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 11. 2h_mace_shaper
+### 11. Quarterstaff Strike
 
-- Match score: `35`
-- `k`: 2h_mace_shaper
-- `n`: 2h_mace_shaper
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `70`
+- `k`: Metadata/Items/Gem/SkillGemPlayerDefaultQuarterstaff
+- `n`: Quarterstaff Strike
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
 
 ```json
-{"k":"2h_mace_shaper","n":"2h_mace_shaper","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Gem/SkillGemPlayerDefaultQuarterstaff","n":"Quarterstaff Strike","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 12. 2h_mace_shaper
+### 12. Random Two Handed Mace
 
-- Match score: `35`
-- `k`: 279
-- `n`: 2h_mace_shaper
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `70`
+- `k`: Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMaceGamble
+- `n`: Random Two Handed Mace
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["two_hand_weapon","mace","default"]
+- `domain`: item
 
 ```json
-{"k":"279","n":"2h_mace_shaper","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"2h_mace_shaper"}
+{"k":"Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMaceGamble","n":"Random Two Handed Mace","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HiddenItem","tags":["two_hand_weapon","mace","default"],"domain":"item"}
 ```
 
-### 13. abyss_jewel_melee
+### 13. Shield Charge
 
-- Match score: `35`
-- `k`: abyss_jewel_melee
-- `n`: abyss_jewel_melee
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `70`
+- `k`: Metadata/Items/Gems/SkillGemShieldCharge
+- `n`: Shield Charge
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["up_to_level_8_gem","gem","default"]
+- `domain`: undefined
 
 ```json
-{"k":"abyss_jewel_melee","n":"abyss_jewel_melee","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Gems/SkillGemShieldCharge","n":"Shield Charge","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["up_to_level_8_gem","gem","default"],"domain":"undefined"}
 ```
 
-### 14. abyss_jewel_melee
+### 14. Supercharged Slam
 
-- Match score: `35`
-- `k`: 235
-- `n`: abyss_jewel_melee
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `70`
+- `k`: Metadata/Items/Gems/SkillGemSuperchargedSlam
+- `n`: Supercharged Slam
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
 
 ```json
-{"k":"235","n":"abyss_jewel_melee","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"abyss_jewel_melee"}
+{"k":"Metadata/Items/Gems/SkillGemSuperchargedSlam","n":"Supercharged Slam","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 15. abyss_lich_boss
+### 15. Mercenary Targe
 
-- Match score: `35`
-- `k`: abyss_lich_boss
-- `n`: abyss_lich_boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `55`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrDex3Cruel
+- `n`: Mercenary Targe
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_dex_armour","str_dex_shield","shield","armour","default"]
+- `req`: {"dexterity":40,"intelligence":0,"level":51,"strength":40}
+- `domain`: item
 
 ```json
-{"k":"abyss_lich_boss","n":"abyss_lich_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrDex3Cruel","n":"Mercenary Targe","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_dex_armour","str_dex_shield","shield","armour","default"],"req":{"dexterity":40,"intelligence":0,"level":51,"strength":40},"domain":"item"}
 ```
 
-### 16. abyss_lich_boss
+### 16. Aged Tower Shield
 
-- Match score: `35`
-- `k`: 860
-- `n`: abyss_lich_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr2Cruel
+- `n`: Aged Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":45,"strength":64}
+- `domain`: item
 
 ```json
-{"k":"860","n":"abyss_lich_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"abyss_lich_boss"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr2Cruel","n":"Aged Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":45,"strength":64},"domain":"item"}
 ```
 
-### 17. act_boss_area
+### 17. Ancestor Tower Shield
 
-- Match score: `35`
-- `k`: act_boss_area
-- `n`: act_boss_area
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr10
+- `n`: Ancestor Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","karui_basetype","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":50,"strength":71}
+- `domain`: item
 
 ```json
-{"k":"act_boss_area","n":"act_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr10","n":"Ancestor Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","karui_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":50,"strength":71},"domain":"item"}
 ```
 
-### 18. act_boss_area
+### 18. Barricade Tower Shield
 
-- Match score: `35`
-- `k`: 159
-- `n`: act_boss_area
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr4
+- `n`: Barricade Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","maraketh_basetype","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":16,"strength":25}
+- `domain`: item
 
 ```json
-{"k":"159","n":"act_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"act_boss_area"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr4","n":"Barricade Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","maraketh_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":16,"strength":25},"domain":"item"}
 ```
 
-### 19. adaptation_armour
+### 19. Blacksteel Crest Shield
 
-- Match score: `35`
-- `k`: adaptation_armour
-- `n`: adaptation_armour
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt7Endgame
+- `n`: Blacksteel Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","karui_basetype","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":63,"level":80,"strength":63}
+- `domain`: item
 
 ```json
-{"k":"adaptation_armour","n":"adaptation_armour","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt7Endgame","n":"Blacksteel Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","karui_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":63,"level":80,"strength":63},"domain":"item"}
 ```
 
-### 20. adaptation_armour
+### 20. Blacksteel Tower Shield
 
-- Match score: `35`
-- `k`: 682
-- `n`: adaptation_armour
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr13
+- `n`: Blacksteel Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":65,"strength":91}
+- `domain`: item
 
 ```json
-{"k":"682","n":"adaptation_armour","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"adaptation_armour"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr13","n":"Blacksteel Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":65,"strength":91},"domain":"item"}
 ```
 
-### 21. affliction_boss
+### 21. Blazon Crest Shield
 
-- Match score: `35`
-- `k`: affliction_boss
-- `n`: affliction_boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt1
+- `n`: Blazon Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","ezomyte_basetype","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":1,"strength":0}
+- `domain`: item
 
 ```json
-{"k":"affliction_boss","n":"affliction_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt1","n":"Blazon Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","ezomyte_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
 ```
 
-### 22. affliction_boss
+### 22. Braced Tower Shield
 
-- Match score: `35`
-- `k`: 993
-- `n`: affliction_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr3
+- `n`: Braced Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","ezomyte_basetype","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":12,"strength":19}
+- `domain`: item
 
 ```json
-{"k":"993","n":"affliction_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"affliction_boss"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr3","n":"Braced Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","ezomyte_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":12,"strength":19},"domain":"item"}
 ```
 
-### 23. archer_boss
+### 23. Bulwark Tower Shield
 
-- Match score: `35`
-- `k`: archer_boss
-- `n`: archer_boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr6Cruel
+- `n`: Bulwark Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":54,"strength":77}
+- `domain`: item
 
 ```json
-{"k":"archer_boss","n":"archer_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr6Cruel","n":"Bulwark Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":54,"strength":77},"domain":"item"}
 ```
 
-### 24. archer_boss
+### 24. Crucible Tower Shield
 
-- Match score: `35`
-- `k`: 834
-- `n`: archer_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr9
+- `n`: Crucible Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","karui_basetype","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":45,"strength":64}
+- `domain`: item
 
 ```json
-{"k":"834","n":"archer_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"archer_boss"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr9","n":"Crucible Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","karui_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":45,"strength":64},"domain":"item"}
 ```
 
-### 25. archer_boss_area
+### 25. Cultist Tower Shield
 
-- Match score: `35`
-- `k`: archer_boss_area
-- `n`: archer_boss_area
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr5Cruel
+- `n`: Cultist Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":51,"strength":73}
+- `domain`: item
 
 ```json
-{"k":"archer_boss_area","n":"archer_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr5Cruel","n":"Cultist Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":51,"strength":73},"domain":"item"}
 ```
 
-### 26. archer_boss_area
+### 26. Defiant Tower Shield
 
-- Match score: `35`
-- `k`: 835
-- `n`: archer_boss_area
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr12
+- `n`: Defiant Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":58,"strength":82}
+- `domain`: item
 
 ```json
-{"k":"835","n":"archer_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"archer_boss_area"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr12","n":"Defiant Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":58,"strength":82},"domain":"item"}
 ```
 
-### 27. Armour
+### 27. Deified Crest Shield
 
-- Match score: `35`
-- `k`: armour
-- `n`: Armour
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt11
+- `n`: Deified Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":50,"level":65,"strength":50}
+- `domain`: item
 
 ```json
-{"k":"armour","n":"Armour","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt11","n":"Deified Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
 ```
 
-### 28. armour
+### 28. Dekharan Crest Shield
 
-- Match score: `35`
-- `k`: 7
-- `n`: armour
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt4Cruel
+- `n`: Dekharan Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":42,"level":54,"strength":42}
+- `domain`: item
 
 ```json
-{"k":"7","n":"armour","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"armour"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt4Cruel","n":"Dekharan Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":42,"level":54,"strength":42},"domain":"item"}
 ```
 
-### 29. armour_divination
+### 29. Descry Crest Shield
 
-- Match score: `35`
-- `k`: armour_divination
-- `n`: armour_divination
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt3Cruel
+- `n`: Descry Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":40,"level":51,"strength":40}
+- `domain`: item
 
 ```json
-{"k":"armour_divination","n":"armour_divination","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt3Cruel","n":"Descry Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":40,"level":51,"strength":40},"domain":"item"}
 ```
 
-### 30. armour_divination
+### 30. Effigial Tower Shield
 
-- Match score: `35`
-- `k`: 306
-- `n`: armour_divination
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr5
+- `n`: Effigial Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","maraketh_basetype","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":21,"strength":32}
+- `domain`: item
 
 ```json
-{"k":"306","n":"armour_divination","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"armour_divination"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr5","n":"Effigial Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","maraketh_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":21,"strength":32},"domain":"item"}
 ```
 
-### 31. armourer_strongbox
+### 31. Emblem Crest Shield
 
-- Match score: `35`
-- `k`: armourer_strongbox
-- `n`: armourer_strongbox
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt3
+- `n`: Emblem Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","maraketh_basetype","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":15,"level":16,"strength":15}
+- `domain`: item
 
 ```json
-{"k":"armourer_strongbox","n":"armourer_strongbox","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt3","n":"Emblem Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","maraketh_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":15,"level":16,"strength":15},"domain":"item"}
 ```
 
-### 32. armourer_strongbox
+### 32. Embossed Boots
 
-- Match score: `35`
-- `k`: 1119
-- `n`: armourer_strongbox
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Boots/FourBootsDex3
+- `n`: Embossed Boots
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["dex_armour","maraketh_basetype","boots","armour","default"]
+- `req`: {"dexterity":23,"intelligence":0,"level":16,"strength":0}
+- `domain`: item
 
 ```json
-{"k":"1119","n":"armourer_strongbox","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"armourer_strongbox"}
+{"k":"Metadata/Items/Armours/Boots/FourBootsDex3","n":"Embossed Boots","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Boots","tags":["dex_armour","maraketh_basetype","boots","armour","default"],"req":{"dexterity":23,"intelligence":0,"level":16,"strength":0},"domain":"item"}
 ```
 
-### 33. armourer_strongbox_highertiermod
+### 33. Empyreal Crest Shield
 
-- Match score: `35`
-- `k`: armourer_strongbox_highertiermod
-- `n`: armourer_strongbox_highertiermod
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt10
+- `n`: Empyreal Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":45,"level":57,"strength":45}
+- `domain`: item
 
 ```json
-{"k":"armourer_strongbox_highertiermod","n":"armourer_strongbox_highertiermod","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt10","n":"Empyreal Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":45,"level":57,"strength":45},"domain":"item"}
 ```
 
-### 34. armourer_strongbox_highertiermod
+### 34. Engraved Crest Shield
 
-- Match score: `35`
-- `k`: 1280
-- `n`: armourer_strongbox_highertiermod
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt2Cruel
+- `n`: Engraved Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":38,"level":48,"strength":38}
+- `domain`: item
 
 ```json
-{"k":"1280","n":"armourer_strongbox_highertiermod","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"armourer_strongbox_highertiermod"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt2Cruel","n":"Engraved Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":38,"level":48,"strength":38},"domain":"item"}
 ```
 
-### 35. Attack
+### 35. Fortress Tower Shield
 
-- Match score: `35`
-- `k`: attack
-- `n`: Attack
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr6Endgame
+- `n`: Fortress Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":70,"strength":99}
+- `domain`: item
 
 ```json
-{"k":"attack","n":"Attack","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr6Endgame","n":"Fortress Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":70,"strength":99},"domain":"item"}
 ```
 
-### 36. attack
+### 36. Glowering Crest Shield
 
-- Match score: `35`
-- `k`: 321
-- `n`: attack
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt6Cruel
+- `n`: Glowering Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":48,"level":62,"strength":48}
+- `domain`: item
 
 ```json
-{"k":"321","n":"attack","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"attack"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt6Cruel","n":"Glowering Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":48,"level":62,"strength":48},"domain":"item"}
 ```
 
-### 37. attack_catalyst
+### 37. Golden Shield
 
-- Match score: `35`
-- `k`: attack_catalyst
-- `n`: attack_catalyst
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldDemigod
+- `n`: Golden Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":1,"strength":0}
+- `domain`: item
 
 ```json
-{"k":"attack_catalyst","n":"attack_catalyst","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldDemigod","n":"Golden Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
 ```
 
-### 38. attack_catalyst
+### 38. Goldworked Tower Shield
 
-- Match score: `35`
-- `k`: 1313
-- `n`: attack_catalyst
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr8Cruel
+- `n`: Goldworked Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":61,"strength":86}
+- `domain`: item
 
 ```json
-{"k":"1313","n":"attack_catalyst","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"attack_catalyst"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr8Cruel","n":"Goldworked Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":61,"strength":86},"domain":"item"}
 ```
 
-### 39. attack_dagger
+### 39. Heraldric Tower Shield
 
-- Match score: `35`
-- `k`: attack_dagger
-- `n`: attack_dagger
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr7
+- `n`: Heraldric Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","vaal_basetype","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":33,"strength":48}
+- `domain`: item
 
 ```json
-{"k":"attack_dagger","n":"attack_dagger","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr7","n":"Heraldric Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","vaal_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":33,"strength":48},"domain":"item"}
 ```
 
-### 40. attack_dagger
+### 40. Intricate Crest Shield
 
-- Match score: `35`
-- `k`: 449
-- `n`: attack_dagger
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt2Endgame
+- `n`: Intricate Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":50,"level":65,"strength":50}
+- `domain`: item
 
 ```json
-{"k":"449","n":"attack_dagger","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"attack_dagger"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt2Endgame","n":"Intricate Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
 ```
 
-### 41. attack_staff
+### 41. Jingling Crest Shield
 
-- Match score: `35`
-- `k`: attack_staff
-- `n`: attack_staff
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt4
+- `n`: Jingling Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","maraketh_basetype","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":23,"level":28,"strength":23}
+- `domain`: item
 
 ```json
-{"k":"attack_staff","n":"attack_staff","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt4","n":"Jingling Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","maraketh_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":23,"level":28,"strength":23},"domain":"item"}
 ```
 
-### 42. attack_staff
+### 42. Mercenary Greathelm
 
-- Match score: `35`
-- `k`: 448
-- `n`: attack_staff
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Helmets/FourHelmetStr2Cruel
+- `n`: Mercenary Greathelm
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","helmet","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":48,"strength":69}
+- `domain`: item
 
 ```json
-{"k":"448","n":"attack_staff","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"attack_staff"}
+{"k":"Metadata/Items/Armours/Helmets/FourHelmetStr2Cruel","n":"Mercenary Greathelm","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_armour","helmet","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":48,"strength":69},"domain":"item"}
 ```
 
-### 43. atziri_boss
+### 43. Metalworked Tower Shield
 
-- Match score: `35`
-- `k`: atziri_boss
-- `n`: atziri_boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr3Cruel
+- `n`: Metalworked Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":48,"strength":69}
+- `domain`: item
 
 ```json
-{"k":"atziri_boss","n":"atziri_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr3Cruel","n":"Metalworked Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":48,"strength":69},"domain":"item"}
 ```
 
-### 44. atziri_boss
+### 44. Noble Tower Shield
 
-- Match score: `35`
-- `k`: 899
-- `n`: atziri_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr7Cruel
+- `n`: Noble Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":59,"strength":83}
+- `domain`: item
 
 ```json
-{"k":"899","n":"atziri_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"atziri_boss"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr7Cruel","n":"Noble Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":59,"strength":83},"domain":"item"}
 ```
 
-### 45. bear_boss_map
+### 45. Omen Crest Shield
 
-- Match score: `35`
-- `k`: bear_boss_map
-- `n`: bear_boss_map
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt6
+- `n`: Omen Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","vaal_basetype","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":30,"level":36,"strength":30}
+- `domain`: item
 
 ```json
-{"k":"bear_boss_map","n":"bear_boss_map","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt6","n":"Omen Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","vaal_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":30,"level":36,"strength":30},"domain":"item"}
 ```
 
-### 46. bear_boss_map
+### 46. Painted Crest Shield
 
-- Match score: `35`
-- `k`: 962
-- `n`: bear_boss_map
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt1Cruel
+- `n`: Painted Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":36,"level":45,"strength":36}
+- `domain`: item
 
 ```json
-{"k":"962","n":"bear_boss_map","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bear_boss_map"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt1Cruel","n":"Painted Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":36,"level":45,"strength":36},"domain":"item"}
 ```
 
-### 47. bestiary_beast_boss
+### 47. Painted Tower Shield
 
-- Match score: `35`
-- `k`: bestiary_beast_boss
-- `n`: bestiary_beast_boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr2
+- `n`: Painted Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","ezomyte_basetype","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":6,"strength":11}
+- `domain`: item
 
 ```json
-{"k":"bestiary_beast_boss","n":"bestiary_beast_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr2","n":"Painted Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","ezomyte_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":6,"strength":11},"domain":"item"}
 ```
 
-### 48. bestiary_beast_boss
+### 48. Phalanx Tower Shield
 
-- Match score: `35`
-- `k`: 293
-- `n`: bestiary_beast_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr11
+- `n`: Phalanx Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":52,"strength":74}
+- `domain`: item
 
 ```json
-{"k":"293","n":"bestiary_beast_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bestiary_beast_boss"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr11","n":"Phalanx Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":52,"strength":74},"domain":"item"}
 ```
 
-### 49. bestiary_spirit_boss
+### 49. Quartered Crest Shield
 
-- Match score: `35`
-- `k`: bestiary_spirit_boss
-- `n`: bestiary_spirit_boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt5Cruel
+- `n`: Quartered Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":46,"level":59,"strength":46}
+- `domain`: item
 
 ```json
-{"k":"bestiary_spirit_boss","n":"bestiary_spirit_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt5Cruel","n":"Quartered Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":46,"level":59,"strength":46},"domain":"item"}
 ```
 
-### 50. bestiary_spirit_boss
+### 50. Raise Shield
 
-- Match score: `35`
-- `k`: 833
-- `n`: bestiary_spirit_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Gem/SkillGemShieldBlock
+- `n`: Raise Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
 
 ```json
-{"k":"833","n":"bestiary_spirit_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bestiary_spirit_boss"}
+{"k":"Metadata/Items/Gem/SkillGemShieldBlock","n":"Raise Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 51. blight_boss
+### 51. Rampart Tower Shield
 
-- Match score: `35`
-- `k`: blight_boss
-- `n`: blight_boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr6
+- `n`: Rampart Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","maraketh_basetype","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":28,"strength":42}
+- `domain`: item
 
 ```json
-{"k":"blight_boss","n":"blight_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr6","n":"Rampart Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","maraketh_basetype","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":28,"strength":42},"domain":"item"}
 ```
 
-### 52. blight_boss
+### 52. Random Shield
 
-- Match score: `35`
-- `k`: 649
-- `n`: blight_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrDexGamble
+- `n`: Random Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_dex_armour","shield","default"]
+- `domain`: item
 
 ```json
-{"k":"649","n":"blight_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"blight_boss"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrDexGamble","n":"Random Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HiddenItem","tags":["str_dex_armour","shield","default"],"domain":"item"}
 ```
 
-### 53. block
+### 53. Random Shield
 
-- Match score: `35`
-- `k`: block
-- `n`: block
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrGamble
+- `n`: Random Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","shield","default"]
+- `domain`: item
 
 ```json
-{"k":"block","n":"block","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrGamble","n":"Random Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HiddenItem","tags":["str_armour","shield","default"],"domain":"item"}
 ```
 
-### 54. block
+### 54. Random Shield
 
-- Match score: `35`
-- `k`: 588
-- `n`: block
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrIntGamble
+- `n`: Random Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","shield","default"]
+- `domain`: item
 
 ```json
-{"k":"588","n":"block","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"block"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrIntGamble","n":"Random Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"HiddenItem","tags":["str_int_armour","shield","default"],"domain":"item"}
 ```
 
-### 55. blood_mage_boss_map
+### 55. Royal Tower Shield
 
-- Match score: `35`
-- `k`: blood_mage_boss_map
-- `n`: blood_mage_boss_map
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr3Endgame
+- `n`: Royal Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":65,"strength":91}
+- `domain`: item
 
 ```json
-{"k":"blood_mage_boss_map","n":"blood_mage_boss_map","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr3Endgame","n":"Royal Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":65,"strength":91},"domain":"item"}
 ```
 
-### 56. blood_mage_boss_map
+### 56. Runeforged Ancestor Tower Shield
 
-- Match score: `35`
-- `k`: 944
-- `n`: blood_mage_boss_map
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr10Verisium
+- `n`: Runeforged Ancestor Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":50,"strength":71}
+- `domain`: item
 
 ```json
-{"k":"944","n":"blood_mage_boss_map","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"blood_mage_boss_map"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr10Verisium","n":"Runeforged Ancestor Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":50,"strength":71},"domain":"item"}
 ```
 
-### 57. Body Armours
+### 57. Runeforged Barricade Tower Shield
 
-- Match score: `35`
-- `k`: Body Armour
-- `n`: Body Armours
-- `cat`: repoe_item_classes
-- `src`: repoe_poe2/item_classes.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr4Verisium
+- `n`: Runeforged Barricade Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","maraketh_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":16,"strength":25}
+- `domain`: item
 
 ```json
-{"k":"Body Armour","n":"Body Armours","cat":"repoe_item_classes","src":"repoe_poe2/item_classes.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr4Verisium","n":"Runeforged Barricade Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":16,"strength":25},"domain":"item"}
 ```
 
-### 58. body_armour
+### 58. Runeforged Blacksteel Crest Shield
 
-- Match score: `35`
-- `k`: body_armour
-- `n`: body_armour
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt7EndgameVerisium
+- `n`: Runeforged Blacksteel Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","karui_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":63,"level":80,"strength":63}
+- `domain`: item
 
 ```json
-{"k":"body_armour","n":"body_armour","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt7EndgameVerisium","n":"Runeforged Blacksteel Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":63,"level":80,"strength":63},"domain":"item"}
 ```
 
-### 59. body_armour
+### 59. Runeforged Blacksteel Tower Shield
 
-- Match score: `35`
-- `k`: 16
-- `n`: body_armour
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr13Verisium
+- `n`: Runeforged Blacksteel Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":65,"strength":91}
+- `domain`: item
 
 ```json
-{"k":"16","n":"body_armour","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"body_armour"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr13Verisium","n":"Runeforged Blacksteel Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":65,"strength":91},"domain":"item"}
 ```
 
-### 60. body_armour_adjudicator
+### 60. Runeforged Blazon Crest Shield
 
-- Match score: `35`
-- `k`: body_armour_adjudicator
-- `n`: body_armour_adjudicator
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt1Verisium
+- `n`: Runeforged Blazon Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","ezomyte_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":1,"strength":0}
+- `domain`: item
 
 ```json
-{"k":"body_armour_adjudicator","n":"body_armour_adjudicator","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt1Verisium","n":"Runeforged Blazon Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
 ```
 
-### 61. body_armour_adjudicator
+### 61. Runeforged Braced Tower Shield
 
-- Match score: `35`
-- `k`: 488
-- `n`: body_armour_adjudicator
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr3Verisium
+- `n`: Runeforged Braced Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","ezomyte_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":12,"strength":19}
+- `domain`: item
 
 ```json
-{"k":"488","n":"body_armour_adjudicator","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"body_armour_adjudicator"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr3Verisium","n":"Runeforged Braced Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":12,"strength":19},"domain":"item"}
 ```
 
-### 62. body_armour_basilisk
+### 62. Runeforged Bulwark Tower Shield
 
-- Match score: `35`
-- `k`: body_armour_basilisk
-- `n`: body_armour_basilisk
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr6CruelVerisium
+- `n`: Runeforged Bulwark Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":54,"strength":77}
+- `domain`: item
 
 ```json
-{"k":"body_armour_basilisk","n":"body_armour_basilisk","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr6CruelVerisium","n":"Runeforged Bulwark Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":54,"strength":77},"domain":"item"}
 ```
 
-### 63. body_armour_basilisk
+### 63. Runeforged Crucible Tower Shield
 
-- Match score: `35`
-- `k`: 490
-- `n`: body_armour_basilisk
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr9Verisium
+- `n`: Runeforged Crucible Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":45,"strength":64}
+- `domain`: item
 
 ```json
-{"k":"490","n":"body_armour_basilisk","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"body_armour_basilisk"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr9Verisium","n":"Runeforged Crucible Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":45,"strength":64},"domain":"item"}
 ```
 
-### 64. body_armour_crusader
+### 64. Runeforged Defiant Tower Shield
 
-- Match score: `35`
-- `k`: body_armour_crusader
-- `n`: body_armour_crusader
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr12Verisium
+- `n`: Runeforged Defiant Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":58,"strength":82}
+- `domain`: item
 
 ```json
-{"k":"body_armour_crusader","n":"body_armour_crusader","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr12Verisium","n":"Runeforged Defiant Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":58,"strength":82},"domain":"item"}
 ```
 
-### 65. body_armour_crusader
+### 65. Runeforged Deified Crest Shield
 
-- Match score: `35`
-- `k`: 487
-- `n`: body_armour_crusader
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt11Verisium
+- `n`: Runeforged Deified Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":50,"level":65,"strength":50}
+- `domain`: item
 
 ```json
-{"k":"487","n":"body_armour_crusader","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"body_armour_crusader"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt11Verisium","n":"Runeforged Deified Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
 ```
 
-### 66. body_armour_elder
+### 66. Runeforged Dekharan Crest Shield
 
-- Match score: `35`
-- `k`: body_armour_elder
-- `n`: body_armour_elder
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt4CruelVerisium
+- `n`: Runeforged Dekharan Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":42,"level":54,"strength":42}
+- `domain`: item
 
 ```json
-{"k":"body_armour_elder","n":"body_armour_elder","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt4CruelVerisium","n":"Runeforged Dekharan Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":42,"level":54,"strength":42},"domain":"item"}
 ```
 
-### 67. body_armour_elder
+### 67. Runeforged Effigial Tower Shield
 
-- Match score: `35`
-- `k`: 254
-- `n`: body_armour_elder
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr5Verisium
+- `n`: Runeforged Effigial Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","maraketh_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":21,"strength":32}
+- `domain`: item
 
 ```json
-{"k":"254","n":"body_armour_elder","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"body_armour_elder"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr5Verisium","n":"Runeforged Effigial Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":21,"strength":32},"domain":"item"}
 ```
 
-### 68. body_armour_eyrie
+### 68. Runeforged Emblem Crest Shield
 
-- Match score: `35`
-- `k`: body_armour_eyrie
-- `n`: body_armour_eyrie
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt3Verisium
+- `n`: Runeforged Emblem Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","maraketh_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":15,"level":16,"strength":15}
+- `domain`: item
 
 ```json
-{"k":"body_armour_eyrie","n":"body_armour_eyrie","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt3Verisium","n":"Runeforged Emblem Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":15,"level":16,"strength":15},"domain":"item"}
 ```
 
-### 69. body_armour_eyrie
+### 69. Runeforged Embossed Boots
 
-- Match score: `35`
-- `k`: 489
-- `n`: body_armour_eyrie
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Boots/FourBootsDex3Verisium
+- `n`: Runeforged Embossed Boots
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["dex_armour","maraketh_basetype","runeforged","boots","armour","default"]
+- `req`: {"dexterity":23,"intelligence":0,"level":16,"strength":0}
+- `domain`: item
 
 ```json
-{"k":"489","n":"body_armour_eyrie","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"body_armour_eyrie"}
+{"k":"Metadata/Items/Armours/Boots/FourBootsDex3Verisium","n":"Runeforged Embossed Boots","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Boots","tags":["dex_armour","maraketh_basetype","runeforged","boots","armour","default"],"req":{"dexterity":23,"intelligence":0,"level":16,"strength":0},"domain":"item"}
 ```
 
-### 70. body_armour_shaper
+### 70. Runeforged Empyreal Crest Shield
 
-- Match score: `35`
-- `k`: body_armour_shaper
-- `n`: body_armour_shaper
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt10Verisium
+- `n`: Runeforged Empyreal Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":45,"level":57,"strength":45}
+- `domain`: item
 
 ```json
-{"k":"body_armour_shaper","n":"body_armour_shaper","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt10Verisium","n":"Runeforged Empyreal Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":45,"level":57,"strength":45},"domain":"item"}
 ```
 
-### 71. body_armour_shaper
+### 71. Runeforged Fortress Tower Shield
 
-- Match score: `35`
-- `k`: 253
-- `n`: body_armour_shaper
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr6EndgameVerisium
+- `n`: Runeforged Fortress Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":70,"strength":99}
+- `domain`: item
 
 ```json
-{"k":"253","n":"body_armour_shaper","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"body_armour_shaper"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr6EndgameVerisium","n":"Runeforged Fortress Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":70,"strength":99},"domain":"item"}
 ```
 
-### 72. bone_armour
+### 72. Runeforged Glowering Crest Shield
 
-- Match score: `35`
-- `k`: bone_armour
-- `n`: bone_armour
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt6CruelVerisium
+- `n`: Runeforged Glowering Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":48,"level":62,"strength":48}
+- `domain`: item
 
 ```json
-{"k":"bone_armour","n":"bone_armour","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt6CruelVerisium","n":"Runeforged Glowering Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":48,"level":62,"strength":48},"domain":"item"}
 ```
 
-### 73. bone_armour
+### 73. Runeforged Goldworked Tower Shield
 
-- Match score: `35`
-- `k`: 769
-- `n`: bone_armour
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr8CruelVerisium
+- `n`: Runeforged Goldworked Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":61,"strength":86}
+- `domain`: item
 
 ```json
-{"k":"769","n":"bone_armour","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bone_armour"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr8CruelVerisium","n":"Runeforged Goldworked Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":61,"strength":86},"domain":"item"}
 ```
 
-### 74. boss
+### 74. Runeforged Heraldric Tower Shield
 
-- Match score: `35`
-- `k`: boss
-- `n`: boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr7Verisium
+- `n`: Runeforged Heraldric Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","vaal_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":33,"strength":48}
+- `domain`: item
 
 ```json
-{"k":"boss","n":"boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr7Verisium","n":"Runeforged Heraldric Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","vaal_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":33,"strength":48},"domain":"item"}
 ```
 
-### 75. boss
+### 75. Runeforged Intricate Crest Shield
 
-- Match score: `35`
-- `k`: 1103
-- `n`: boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt2EndgameVerisium
+- `n`: Runeforged Intricate Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":50,"level":65,"strength":50}
+- `domain`: item
 
 ```json
-{"k":"1103","n":"boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"boss"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt2EndgameVerisium","n":"Runeforged Intricate Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
 ```
 
-### 76. breachlord_boss_domain
+### 76. Runeforged Jingling Crest Shield
 
-- Match score: `35`
-- `k`: breachlord_boss_domain
-- `n`: breachlord_boss_domain
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt4Verisium
+- `n`: Runeforged Jingling Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","maraketh_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":23,"level":28,"strength":23}
+- `domain`: item
 
 ```json
-{"k":"breachlord_boss_domain","n":"breachlord_boss_domain","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt4Verisium","n":"Runeforged Jingling Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":23,"level":28,"strength":23},"domain":"item"}
 ```
 
-### 77. breachlord_boss_domain
+### 77. Runeforged Noble Tower Shield
 
-- Match score: `35`
-- `k`: 887
-- `n`: breachlord_boss_domain
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr7CruelVerisium
+- `n`: Runeforged Noble Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":59,"strength":83}
+- `domain`: item
 
 ```json
-{"k":"887","n":"breachlord_boss_domain","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"breachlord_boss_domain"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr7CruelVerisium","n":"Runeforged Noble Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":59,"strength":83},"domain":"item"}
 ```
 
-### 78. brute_boss
+### 78. Runeforged Omen Crest Shield
 
-- Match score: `35`
-- `k`: brute_boss
-- `n`: brute_boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt6Verisium
+- `n`: Runeforged Omen Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","vaal_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":30,"level":36,"strength":30}
+- `domain`: item
 
 ```json
-{"k":"brute_boss","n":"brute_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt6Verisium","n":"Runeforged Omen Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","vaal_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":30,"level":36,"strength":30},"domain":"item"}
 ```
 
-### 79. brute_boss
+### 79. Runeforged Painted Tower Shield
 
-- Match score: `35`
-- `k`: 967
-- `n`: brute_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr2Verisium
+- `n`: Runeforged Painted Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","ezomyte_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":6,"strength":11}
+- `domain`: item
 
 ```json
-{"k":"967","n":"brute_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"brute_boss"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr2Verisium","n":"Runeforged Painted Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":6,"strength":11},"domain":"item"}
 ```
 
-### 80. cannot_possess_boss
+### 80. Runeforged Phalanx Tower Shield
 
-- Match score: `35`
-- `k`: cannot_possess_boss
-- `n`: cannot_possess_boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr11Verisium
+- `n`: Runeforged Phalanx Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":52,"strength":74}
+- `domain`: item
 
 ```json
-{"k":"cannot_possess_boss","n":"cannot_possess_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr11Verisium","n":"Runeforged Phalanx Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":52,"strength":74},"domain":"item"}
 ```
 
-### 81. cannot_possess_boss
+### 81. Runeforged Quartered Crest Shield
 
-- Match score: `35`
-- `k`: 948
-- `n`: cannot_possess_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt5CruelVerisium
+- `n`: Runeforged Quartered Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":46,"level":59,"strength":46}
+- `domain`: item
 
 ```json
-{"k":"948","n":"cannot_possess_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cannot_possess_boss"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt5CruelVerisium","n":"Runeforged Quartered Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":46,"level":59,"strength":46},"domain":"item"}
 ```
 
-### 82. chaos_golem_boss_area
+### 82. Runeforged Rampart Tower Shield
 
-- Match score: `35`
-- `k`: chaos_golem_boss_area
-- `n`: chaos_golem_boss_area
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr6Verisium
+- `n`: Runeforged Rampart Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","maraketh_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":28,"strength":42}
+- `domain`: item
 
 ```json
-{"k":"chaos_golem_boss_area","n":"chaos_golem_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr6Verisium","n":"Runeforged Rampart Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":28,"strength":42},"domain":"item"}
 ```
 
-### 83. chaos_golem_boss_area
+### 83. Runeforged Royal Tower Shield
 
-- Match score: `35`
-- `k`: 807
-- `n`: chaos_golem_boss_area
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr3EndgameVerisium
+- `n`: Runeforged Royal Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":65,"strength":91}
+- `domain`: item
 
 ```json
-{"k":"807","n":"chaos_golem_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_golem_boss_area"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr3EndgameVerisium","n":"Runeforged Royal Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":65,"strength":91},"domain":"item"}
 ```
 
-### 84. chayula_boss
+### 84. Runeforged Sectarian Crest Shield
 
-- Match score: `35`
-- `k`: chayula_boss
-- `n`: chayula_boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt5Verisium
+- `n`: Runeforged Sectarian Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","vaal_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":27,"level":33,"strength":27}
+- `domain`: item
 
 ```json
-{"k":"chayula_boss","n":"chayula_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt5Verisium","n":"Runeforged Sectarian Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","vaal_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":27,"level":33,"strength":27},"domain":"item"}
 ```
 
-### 85. chayula_boss
+### 85. Runeforged Seer Crest Shield
 
-- Match score: `35`
-- `k`: 862
-- `n`: chayula_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt8Verisium
+- `n`: Runeforged Seer Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","karui_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":39,"level":50,"strength":39}
+- `domain`: item
 
 ```json
-{"k":"862","n":"chayula_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chayula_boss"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt8Verisium","n":"Runeforged Seer Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":39,"level":50,"strength":39},"domain":"item"}
 ```
 
-### 86. cortex_boss
+### 86. Runeforged Sekheman Crest Shield
 
-- Match score: `35`
-- `k`: cortex_boss
-- `n`: cortex_boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt4EndgameVerisium
+- `n`: Runeforged Sekheman Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":54,"level":70,"strength":54}
+- `domain`: item
 
 ```json
-{"k":"cortex_boss","n":"cortex_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt4EndgameVerisium","n":"Runeforged Sekheman Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":54,"level":70,"strength":54},"domain":"item"}
 ```
 
-### 87. cortex_boss
+### 87. Runeforged Shielded Helm
 
-- Match score: `35`
-- `k`: 938
-- `n`: cortex_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Helmets/FourHelmetStrDex5Verisium
+- `n`: Runeforged Shielded Helm
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_dex_armour","vaal_basetype","runeforged","helmet","armour","default"]
+- `req`: {"dexterity":27,"intelligence":0,"level":33,"strength":27}
+- `domain`: item
 
 ```json
-{"k":"938","n":"cortex_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cortex_boss"}
+{"k":"Metadata/Items/Armours/Helmets/FourHelmetStrDex5Verisium","n":"Runeforged Shielded Helm","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_dex_armour","vaal_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":27,"intelligence":0,"level":33,"strength":27},"domain":"item"}
 ```
 
-### 88. crusader_conqueror_boss
+### 88. Runeforged Sigil Crest Shield
 
-- Match score: `35`
-- `k`: crusader_conqueror_boss
-- `n`: crusader_conqueror_boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt2Verisium
+- `n`: Runeforged Sigil Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","ezomyte_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":8,"level":7,"strength":8}
+- `domain`: item
 
 ```json
-{"k":"crusader_conqueror_boss","n":"crusader_conqueror_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt2Verisium","n":"Runeforged Sigil Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":8,"level":7,"strength":8},"domain":"item"}
 ```
 
-### 89. crusader_conqueror_boss
+### 89. Runeforged Slipstrike Vest
 
-- Match score: `35`
-- `k`: 886
-- `n`: crusader_conqueror_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/BodyArmours/FourBodyDex6EndgameVerisium
+- `n`: Runeforged Slipstrike Vest
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["dex_armour","runeforged","body_armour","armour","default"]
+- `req`: {"dexterity":121,"intelligence":0,"level":70,"strength":0}
+- `domain`: item
 
 ```json
-{"k":"886","n":"crusader_conqueror_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"crusader_conqueror_boss"}
+{"k":"Metadata/Items/Armours/BodyArmours/FourBodyDex6EndgameVerisium","n":"Runeforged Slipstrike Vest","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Body Armour","tags":["dex_armour","runeforged","body_armour","armour","default"],"req":{"dexterity":121,"intelligence":0,"level":70,"strength":0},"domain":"item"}
 ```
 
-### 90. delve_lich_boss
+### 90. Runeforged Splintered Tower Shield
 
-- Match score: `35`
-- `k`: delve_lich_boss
-- `n`: delve_lich_boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr1Verisium
+- `n`: Runeforged Splintered Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","ezomyte_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":1,"strength":0}
+- `domain`: item
 
 ```json
-{"k":"delve_lich_boss","n":"delve_lich_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr1Verisium","n":"Runeforged Splintered Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":1,"strength":0},"domain":"item"}
 ```
 
-### 91. delve_lich_boss
+### 91. Runeforged Stoic Crest Shield
 
-- Match score: `35`
-- `k`: 902
-- `n`: delve_lich_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt9Verisium
+- `n`: Runeforged Stoic Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":41,"level":52,"strength":41}
+- `domain`: item
 
 ```json
-{"k":"902","n":"delve_lich_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"delve_lich_boss"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt9Verisium","n":"Runeforged Stoic Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":41,"level":52,"strength":41},"domain":"item"}
 ```
 
-### 92. delve_protovaal_boss
+### 92. Runeforged Stone Tower Shield
 
-- Match score: `35`
-- `k`: delve_protovaal_boss
-- `n`: delve_protovaal_boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr8Verisium
+- `n`: Runeforged Stone Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","vaal_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":36,"strength":52}
+- `domain`: item
 
 ```json
-{"k":"delve_protovaal_boss","n":"delve_protovaal_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr8Verisium","n":"Runeforged Stone Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","vaal_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":36,"strength":52},"domain":"item"}
 ```
 
-### 93. delve_protovaal_boss
+### 93. Runeforged Tawhoan Tower Shield
 
-- Match score: `35`
-- `k`: 900
-- `n`: delve_protovaal_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr10EndgameVerisium
+- `n`: Runeforged Tawhoan Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":80,"strength":115}
+- `domain`: item
 
 ```json
-{"k":"900","n":"delve_protovaal_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"delve_protovaal_boss"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr10EndgameVerisium","n":"Runeforged Tawhoan Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":80,"strength":115},"domain":"item"}
 ```
 
-### 94. delve_vaal_boss
+### 94. Runeforged Vaal Crest Shield
 
-- Match score: `35`
-- `k`: delve_vaal_boss
-- `n`: delve_vaal_boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt6EndgameVerisium
+- `n`: Runeforged Vaal Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":59,"level":75,"strength":59}
+- `domain`: item
 
 ```json
-{"k":"delve_vaal_boss","n":"delve_vaal_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt6EndgameVerisium","n":"Runeforged Vaal Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":59,"level":75,"strength":59},"domain":"item"}
 ```
 
-### 95. delve_vaal_boss
+### 95. Runeforged Vaal Tower Shield
 
-- Match score: `35`
-- `k`: 901
-- `n`: delve_vaal_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr8EndgameVerisium
+- `n`: Runeforged Vaal Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":75,"strength":107}
+- `domain`: item
 
 ```json
-{"k":"901","n":"delve_vaal_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"delve_vaal_boss"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr8EndgameVerisium","n":"Runeforged Vaal Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":75,"strength":107},"domain":"item"}
 ```
 
-### 96. dex_armour
+### 96. Runeforged Warrior Greathelm
 
-- Match score: `35`
-- `k`: dex_armour
-- `n`: dex_armour
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Helmets/FourHelmetStr6Verisium
+- `n`: Runeforged Warrior Greathelm
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","vaal_basetype","runeforged","helmet","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":36,"strength":52}
+- `domain`: item
 
 ```json
-{"k":"dex_armour","n":"dex_armour","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Helmets/FourHelmetStr6Verisium","n":"Runeforged Warrior Greathelm","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_armour","vaal_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":36,"strength":52},"domain":"item"}
 ```
 
-### 97. dex_armour
+### 97. Runeforged Wayward Crest Shield
 
-- Match score: `35`
-- `k`: 39
-- `n`: dex_armour
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt7Verisium
+- `n`: Runeforged Wayward Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","karui_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":36,"level":45,"strength":36}
+- `domain`: item
 
 ```json
-{"k":"39","n":"dex_armour","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"dex_armour"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt7Verisium","n":"Runeforged Wayward Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":36,"level":45,"strength":36},"domain":"item"}
 ```
 
-### 98. dex_int_armour
+### 98. Runemastered Barricade Tower Shield
 
-- Match score: `35`
-- `k`: dex_int_armour
-- `n`: dex_int_armour
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr4VerisiumUnique1
+- `n`: Runemastered Barricade Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","maraketh_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":38,"strength":54}
+- `domain`: item
 
 ```json
-{"k":"dex_int_armour","n":"dex_int_armour","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr4VerisiumUnique1","n":"Runemastered Barricade Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":38,"strength":54},"domain":"item"}
 ```
 
-### 99. dex_int_armour
+### 99. Runemastered Blacksteel Tower Shield
 
-- Match score: `35`
-- `k`: 43
-- `n`: dex_int_armour
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr13VerisiumUnique1
+- `n`: Runemastered Blacksteel Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":65,"strength":91}
+- `domain`: item
 
 ```json
-{"k":"43","n":"dex_int_armour","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"dex_int_armour"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr13VerisiumUnique1","n":"Runemastered Blacksteel Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":65,"strength":91},"domain":"item"}
 ```
 
-### 100. dex_int_shield
+### 100. Runemastered Blazon Crest Shield
 
-- Match score: `35`
-- `k`: dex_int_shield
-- `n`: dex_int_shield
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt1VerisiumUnique1
+- `n`: Runemastered Blazon Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","ezomyte_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":32,"level":40,"strength":32}
+- `domain`: item
 
 ```json
-{"k":"dex_int_shield","n":"dex_int_shield","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt1VerisiumUnique1","n":"Runemastered Blazon Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":32,"level":40,"strength":32},"domain":"item"}
 ```
 
-### 101. dex_int_shield
+### 101. Runemastered Braced Tower Shield
 
-- Match score: `35`
-- `k`: 231
-- `n`: dex_int_shield
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr3VerisiumUnique1
+- `n`: Runemastered Braced Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","ezomyte_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":38,"strength":54}
+- `domain`: item
 
 ```json
-{"k":"231","n":"dex_int_shield","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"dex_int_shield"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr3VerisiumUnique1","n":"Runemastered Braced Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":38,"strength":54},"domain":"item"}
 ```
 
-### 102. dex_shield
+### 102. Runemastered Crucible Tower Shield
 
-- Match score: `35`
-- `k`: dex_shield
-- `n`: dex_shield
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr9VerisiumUnique1
+- `n`: Runemastered Crucible Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":65,"strength":91}
+- `domain`: item
 
 ```json
-{"k":"dex_shield","n":"dex_shield","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr9VerisiumUnique1","n":"Runemastered Crucible Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":65,"strength":91},"domain":"item"}
 ```
 
-### 103. dex_shield
+### 103. Runemastered Crucible Tower Shield
 
-- Match score: `35`
-- `k`: 228
-- `n`: dex_shield
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr9VerisiumUnique2
+- `n`: Runemastered Crucible Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":65,"strength":91}
+- `domain`: item
 
 ```json
-{"k":"228","n":"dex_shield","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"dex_shield"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr9VerisiumUnique2","n":"Runemastered Crucible Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":65,"strength":91},"domain":"item"}
 ```
 
-### 104. einharmonkey
+### 104. Runemastered Crucible Tower Shield
 
-- Match score: `35`
-- `k`: einharmonkey
-- `n`: einharmonkey
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr9VerisiumUnique3
+- `n`: Runemastered Crucible Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":91,"intelligence":0,"level":65,"strength":0}
+- `domain`: item
 
 ```json
-{"k":"einharmonkey","n":"einharmonkey","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr9VerisiumUnique3","n":"Runemastered Crucible Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":91,"intelligence":0,"level":65,"strength":0},"domain":"item"}
 ```
 
-### 105. einharmonkey
+### 105. Runemastered Crucible Tower Shield
 
-- Match score: `35`
-- `k`: 329
-- `n`: einharmonkey
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr9VerisiumUnique4
+- `n`: Runemastered Crucible Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":65,"strength":91}
+- `domain`: item
 
 ```json
-{"k":"329","n":"einharmonkey","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"einharmonkey"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr9VerisiumUnique4","n":"Runemastered Crucible Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","karui_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":65,"strength":91},"domain":"item"}
 ```
 
-### 106. einharshieldcrab
+### 106. Runemastered Effigial Tower Shield
 
-- Match score: `35`
-- `k`: einharshieldcrab
-- `n`: einharshieldcrab
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr5VerisiumUnique1
+- `n`: Runemastered Effigial Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","maraketh_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":38,"strength":54}
+- `domain`: item
 
 ```json
-{"k":"einharshieldcrab","n":"einharshieldcrab","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr5VerisiumUnique1","n":"Runemastered Effigial Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":38,"strength":54},"domain":"item"}
 ```
 
-### 107. einharshieldcrab
+### 107. Runemastered Emblem Crest Shield
 
-- Match score: `35`
-- `k`: 346
-- `n`: einharshieldcrab
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt3VerisiumUnique1
+- `n`: Runemastered Emblem Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","maraketh_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":31,"level":38,"strength":31}
+- `domain`: item
 
 ```json
-{"k":"346","n":"einharshieldcrab","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"einharshieldcrab"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt3VerisiumUnique1","n":"Runemastered Emblem Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":31,"level":38,"strength":31},"domain":"item"}
 ```
 
-### 108. elder_boss
+### 108. Runemastered Embossed Boots
 
-- Match score: `35`
-- `k`: elder_boss
-- `n`: elder_boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Boots/FourBootsDex3VerisiumUnique1
+- `n`: Runemastered Embossed Boots
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["dex_armour","maraketh_basetype","runeforged","boots","armour","default"]
+- `req`: {"dexterity":51,"intelligence":0,"level":38,"strength":0}
+- `domain`: item
 
 ```json
-{"k":"elder_boss","n":"elder_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Boots/FourBootsDex3VerisiumUnique1","n":"Runemastered Embossed Boots","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Boots","tags":["dex_armour","maraketh_basetype","runeforged","boots","armour","default"],"req":{"dexterity":51,"intelligence":0,"level":38,"strength":0},"domain":"item"}
 ```
 
-### 109. elder_boss
+### 109. Runemastered Heraldric Tower Shield
 
-- Match score: `35`
-- `k`: 884
-- `n`: elder_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr7VerisiumUnique1
+- `n`: Runemastered Heraldric Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","vaal_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":50,"strength":71}
+- `domain`: item
 
 ```json
-{"k":"884","n":"elder_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elder_boss"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr7VerisiumUnique1","n":"Runemastered Heraldric Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","vaal_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":50,"strength":71},"domain":"item"}
 ```
 
-### 110. elder_guardian_boss
+### 110. Runemastered Intricate Crest Shield
 
-- Match score: `35`
-- `k`: elder_guardian_boss
-- `n`: elder_guardian_boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt2EndgameVerisiumUnique1
+- `n`: Runemastered Intricate Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":50,"level":65,"strength":50}
+- `domain`: item
 
 ```json
-{"k":"elder_guardian_boss","n":"elder_guardian_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt2EndgameVerisiumUnique1","n":"Runemastered Intricate Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
 ```
 
-### 111. elder_guardian_boss
+### 111. Runemastered Jingling Crest Shield
 
-- Match score: `35`
-- `k`: 861
-- `n`: elder_guardian_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt4VerisiumUnique1
+- `n`: Runemastered Jingling Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","maraketh_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":31,"level":38,"strength":31}
+- `domain`: item
 
 ```json
-{"k":"861","n":"elder_guardian_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elder_guardian_boss"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt4VerisiumUnique1","n":"Runemastered Jingling Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":31,"level":38,"strength":31},"domain":"item"}
 ```
 
-### 112. elder_map_boss
+### 112. Runemastered Omen Crest Shield
 
-- Match score: `35`
-- `k`: elder_map_boss
-- `n`: elder_map_boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt6VerisiumUnique1
+- `n`: Runemastered Omen Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","vaal_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":38,"level":48,"strength":38}
+- `domain`: item
 
 ```json
-{"k":"elder_map_boss","n":"elder_map_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt6VerisiumUnique1","n":"Runemastered Omen Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","vaal_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":38,"level":48,"strength":38},"domain":"item"}
 ```
 
-### 113. elder_map_boss
+### 113. Runemastered Painted Tower Shield
 
-- Match score: `35`
-- `k`: 783
-- `n`: elder_map_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr2VerisiumUnique1
+- `n`: Runemastered Painted Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","ezomyte_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":38,"strength":54}
+- `domain`: item
 
 ```json
-{"k":"783","n":"elder_map_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elder_map_boss"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr2VerisiumUnique1","n":"Runemastered Painted Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":38,"strength":54},"domain":"item"}
 ```
 
-### 114. eldritch_pinnacle_boss
+### 114. Runemastered Rampart Tower Shield
 
-- Match score: `35`
-- `k`: eldritch_pinnacle_boss
-- `n`: eldritch_pinnacle_boss
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr6VerisiumUnique1
+- `n`: Runemastered Rampart Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","maraketh_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":40,"strength":58}
+- `domain`: item
 
 ```json
-{"k":"eldritch_pinnacle_boss","n":"eldritch_pinnacle_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr6VerisiumUnique1","n":"Runemastered Rampart Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","maraketh_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":40,"strength":58},"domain":"item"}
 ```
 
-### 115. eldritch_pinnacle_boss
+### 115. Runemastered Shielded Helm
 
-- Match score: `35`
-- `k`: 990
-- `n`: eldritch_pinnacle_boss
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Helmets/FourHelmetStrDex5VerisiumUnique1
+- `n`: Runemastered Shielded Helm
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_dex_armour","vaal_basetype","runeforged","helmet","armour","default"]
+- `req`: {"dexterity":43,"intelligence":0,"level":55,"strength":43}
+- `domain`: item
 
 ```json
-{"k":"990","n":"eldritch_pinnacle_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"eldritch_pinnacle_boss"}
+{"k":"Metadata/Items/Armours/Helmets/FourHelmetStrDex5VerisiumUnique1","n":"Runemastered Shielded Helm","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_dex_armour","vaal_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":43,"intelligence":0,"level":55,"strength":43},"domain":"item"}
 ```
 
-### 116. endurance_charge
+### 116. Runemastered Sigil Crest Shield
 
-- Match score: `35`
-- `k`: endurance_charge
-- `n`: endurance_charge
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStrInt2VerisiumUnique1
+- `n`: Runemastered Sigil Crest Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","str_int_shield","ezomyte_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":32,"level":40,"strength":32}
+- `domain`: item
 
 ```json
-{"k":"endurance_charge","n":"endurance_charge","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStrInt2VerisiumUnique1","n":"Runemastered Sigil Crest Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_int_armour","str_int_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":32,"level":40,"strength":32},"domain":"item"}
 ```
 
-### 117. endurance_charge
+### 117. Runemastered Splintered Tower Shield
 
-- Match score: `35`
-- `k`: 581
-- `n`: endurance_charge
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr1VerisiumUnique1
+- `n`: Runemastered Splintered Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","ezomyte_basetype","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":38,"strength":54}
+- `domain`: item
 
 ```json
-{"k":"581","n":"endurance_charge","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"endurance_charge"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr1VerisiumUnique1","n":"Runemastered Splintered Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","ezomyte_basetype","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":38,"strength":54},"domain":"item"}
 ```
 
-### 118. Energy Shield
+### 118. Runemastered Vaal Tower Shield
 
-- Match score: `35`
-- `k`: energy_shield
-- `n`: Energy Shield
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Shields/FourShieldStr8EndgameVerisiumUnique1
+- `n`: Runemastered Vaal Tower Shield
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","str_shield","runeforged","shield","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":75,"strength":107}
+- `domain`: item
 
 ```json
-{"k":"energy_shield","n":"Energy Shield","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Shields/FourShieldStr8EndgameVerisiumUnique1","n":"Runemastered Vaal Tower Shield","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Shield","tags":["str_armour","str_shield","runeforged","shield","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":75,"strength":107},"domain":"item"}
 ```
 
-### 119. energy_armour
+### 119. Runemastered Warrior Greathelm
 
-- Match score: `35`
-- `k`: energy_armour
-- `n`: energy_armour
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
+- Match score: `45`
+- `k`: Metadata/Items/Armours/Helmets/FourHelmetStr6VerisiumUnique1
+- `n`: Runemastered Warrior Greathelm
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_armour","vaal_basetype","runeforged","helmet","armour","default"]
+- `req`: {"dexterity":0,"intelligence":0,"level":55,"strength":78}
+- `domain`: item
 
 ```json
-{"k":"energy_armour","n":"energy_armour","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
+{"k":"Metadata/Items/Armours/Helmets/FourHelmetStr6VerisiumUnique1","n":"Runemastered Warrior Greathelm","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_armour","vaal_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":0,"intelligence":0,"level":55,"strength":78},"domain":"item"}
 ```
 
-### 120. energy_armour
+### 120. Sacred Crystallised Lifeforce
 
-- Match score: `35`
-- `k`: 768
-- `n`: energy_armour
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
+- Match score: `45`
+- `k`: Metadata/Items/Currency/HarvestSeedBoss
+- `n`: Sacred Crystallised Lifeforce
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["currency","default"]
+- `domain`: undefined
 
 ```json
-{"k":"768","n":"energy_armour","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"energy_armour"}
+{"k":"Metadata/Items/Currency/HarvestSeedBoss","n":"Sacred Crystallised Lifeforce","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"StackableCurrency","tags":["currency","default"],"domain":"undefined"}
 ```
 
 ## Mods and affixes

@@ -1,11 +1,11 @@
 # Build Idea Pack — Support / Party Build
 
-- Generated UTC: `2026-10-15T15:00:00+00:00`
+- Generated UTC: `2026-10-16T14:50:38+00:00`
 - Idea slug: `support-party-build`
 - Purpose: Engineer party support builds focused on curses, auras, control, debuffs, and ally amplification.
 - Keywords: `support, party, ally, aura, curse, blasphemy, temporal chains, enfeeble, exposure, shock, freeze, resistance, spirit, reservation, duration, cooldown, chronomancer, witch, sorceress, debuff, control`
 - Max matched records per index: `120`
-- Total included matches: `652`
+- Total included matches: `729`
 
 
 ## Claude usage rules
@@ -4504,9 +4504,737 @@ _No keyword matches in this index._
 ## Item bases/classes
 
 - Source: `build_knowledge/compact/item_base_index.json`
-- Matches included: `43`
+- Matches included: `120`
 
-### 1. Uncut Spirit Gems
+### 1. Aftershock I
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemAftershock
+- `n`: Aftershock I
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemAftershock","n":"Aftershock I","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 2. Aftershock II
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemAftershockTwo
+- `n`: Aftershock II
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemAftershockTwo","n":"Aftershock II","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 3. Aftershock III
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemAftershockThree
+- `n`: Aftershock III
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemAftershockThree","n":"Aftershock III","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 4. Chance to Freeze
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemChanceToFreeze
+- `n`: Chance to Freeze
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemChanceToFreeze","n":"Chance to Freeze","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 5. Chaotic Freeze
+
+- Match score: `45`
+- `k`: Metadata/Items/Gem/SupportGemChaoticFreeze
+- `n`: Chaotic Freeze
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gem/SupportGemChaoticFreeze","n":"Chaotic Freeze","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 6. Cold Exposure
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemColdExposure
+- `n`: Cold Exposure
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemColdExposure","n":"Cold Exposure","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 7. Compressed Duration I
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemFastForward
+- `n`: Compressed Duration I
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemFastForward","n":"Compressed Duration I","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 8. Compressed Duration II
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemFastForwardTwo
+- `n`: Compressed Duration II
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemFastForwardTwo","n":"Compressed Duration II","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 9. Controlled Destruction
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemControlledDestruction
+- `n`: Controlled Destruction
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemControlledDestruction","n":"Controlled Destruction","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 10. Controlled Hazard
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemControlledHazard
+- `n`: Controlled Hazard
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemControlledHazard","n":"Controlled Hazard","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 11. Cooldown Recovery I
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemIngenuity
+- `n`: Cooldown Recovery I
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemIngenuity","n":"Cooldown Recovery I","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 12. Cooldown Recovery II
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemIngenuityTwo
+- `n`: Cooldown Recovery II
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemIngenuityTwo","n":"Cooldown Recovery II","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 13. Cursed Ground
+
+- Match score: `45`
+- `k`: Metadata/Items/Gem/SupportGemCursedGround
+- `n`: Cursed Ground
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gem/SupportGemCursedGround","n":"Cursed Ground","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 14. Deep Freeze
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemDeepFreeze
+- `n`: Deep Freeze
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemDeepFreeze","n":"Deep Freeze","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 15. Fire Exposure
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemFireExposure
+- `n`: Fire Exposure
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemFireExposure","n":"Fire Exposure","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 16. Focused Curse
+
+- Match score: `45`
+- `k`: Metadata/Items/Gem/SupportGemFocusedCurse
+- `n`: Focused Curse
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gem/SupportGemFocusedCurse","n":"Focused Curse","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 17. Freeze
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemGlaciation
+- `n`: Freeze
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemGlaciation","n":"Freeze","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 18. Freezefork
+
+- Match score: `45`
+- `k`: Metadata/Items/Gem/SupportGemFreezefork
+- `n`: Freezefork
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gem/SupportGemFreezefork","n":"Freezefork","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 19. Heightened Curse
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemHeightenedCurse
+- `n`: Heightened Curse
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemHeightenedCurse","n":"Heightened Curse","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 20. Impact Shockwave
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemImpactShockwave
+- `n`: Impact Shockwave
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemImpactShockwave","n":"Impact Shockwave","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 21. Lasting Shock
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemLastingShock
+- `n`: Lasting Shock
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemLastingShock","n":"Lasting Shock","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 22. Lightning Exposure
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemLightningExposure
+- `n`: Lightning Exposure
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemLightningExposure","n":"Lightning Exposure","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 23. Potent Exposure
+
+- Match score: `45`
+- `k`: Metadata/Items/Gem/SupportGemStripAway
+- `n`: Potent Exposure
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gem/SupportGemStripAway","n":"Potent Exposure","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 24. Prolonged Duration I
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemPersistence
+- `n`: Prolonged Duration I
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemPersistence","n":"Prolonged Duration I","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 25. Prolonged Duration II
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemPersistenceTwo
+- `n`: Prolonged Duration II
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemPersistenceTwo","n":"Prolonged Duration II","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 26. Prolonged Duration III
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemPersistenceThree
+- `n`: Prolonged Duration III
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemPersistenceThree","n":"Prolonged Duration III","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 27. Rally
+
+- Match score: `45`
+- `k`: Metadata/Items/Gem/SupportGemRally
+- `n`: Rally
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gem/SupportGemRally","n":"Rally","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 28. Ritualistic Curse
+
+- Match score: `45`
+- `k`: Metadata/Items/Gem/SupportGemRitualisticCurse
+- `n`: Ritualistic Curse
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gem/SupportGemRitualisticCurse","n":"Ritualistic Curse","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 29. Shock
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemConduction
+- `n`: Shock
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemConduction","n":"Shock","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 30. Shock Conduction
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemCoursingCurrent
+- `n`: Shock Conduction
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemCoursingCurrent","n":"Shock Conduction","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 31. Shock Conduction II
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemCoursingCurrentTwo
+- `n`: Shock Conduction II
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemCoursingCurrentTwo","n":"Shock Conduction II","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 32. Shock Siphon
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/SupportGemShockSiphon
+- `n`: Shock Siphon
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SupportGemShockSiphon","n":"Shock Siphon","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 33. Shocking Leap
+
+- Match score: `45`
+- `k`: Metadata/Items/Gem/SupportGemShockingLeap
+- `n`: Shocking Leap
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gem/SupportGemShockingLeap","n":"Shocking Leap","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 34. Static Shocks
+
+- Match score: `45`
+- `k`: Metadata/Items/Gem/SupportGemStaticShocks
+- `n`: Static Shocks
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["support_gem","gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gem/SupportGemStaticShocks","n":"Static Shocks","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Support Skill Gem","tags":["support_gem","gem","default"],"domain":"undefined"}
+```
+
+### 35. Uncut Spirit Gem
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/ReservationGemUncut
+- `n`: Uncut Spirit Gem
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/ReservationGemUncut","n":"Uncut Spirit Gem","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGem_OLD","tags":["default"],"domain":"undefined"}
+```
+
+### 36. Uncut Spirit Gem (Level 10)
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/ReservationGemUncut10
+- `n`: Uncut Spirit Gem (Level 10)
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/ReservationGemUncut10","n":"Uncut Spirit Gem (Level 10)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
+```
+
+### 37. Uncut Spirit Gem (Level 11)
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/ReservationGemUncut11
+- `n`: Uncut Spirit Gem (Level 11)
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/ReservationGemUncut11","n":"Uncut Spirit Gem (Level 11)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
+```
+
+### 38. Uncut Spirit Gem (Level 12)
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/ReservationGemUncut12
+- `n`: Uncut Spirit Gem (Level 12)
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/ReservationGemUncut12","n":"Uncut Spirit Gem (Level 12)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
+```
+
+### 39. Uncut Spirit Gem (Level 13)
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/ReservationGemUncut13
+- `n`: Uncut Spirit Gem (Level 13)
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/ReservationGemUncut13","n":"Uncut Spirit Gem (Level 13)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
+```
+
+### 40. Uncut Spirit Gem (Level 14)
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/ReservationGemUncut14
+- `n`: Uncut Spirit Gem (Level 14)
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/ReservationGemUncut14","n":"Uncut Spirit Gem (Level 14)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
+```
+
+### 41. Uncut Spirit Gem (Level 15)
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/ReservationGemUncut15
+- `n`: Uncut Spirit Gem (Level 15)
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/ReservationGemUncut15","n":"Uncut Spirit Gem (Level 15)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
+```
+
+### 42. Uncut Spirit Gem (Level 16)
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/ReservationGemUncut16
+- `n`: Uncut Spirit Gem (Level 16)
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/ReservationGemUncut16","n":"Uncut Spirit Gem (Level 16)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
+```
+
+### 43. Uncut Spirit Gem (Level 17)
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/ReservationGemUncut17
+- `n`: Uncut Spirit Gem (Level 17)
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/ReservationGemUncut17","n":"Uncut Spirit Gem (Level 17)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
+```
+
+### 44. Uncut Spirit Gem (Level 18)
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/ReservationGemUncut18
+- `n`: Uncut Spirit Gem (Level 18)
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/ReservationGemUncut18","n":"Uncut Spirit Gem (Level 18)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
+```
+
+### 45. Uncut Spirit Gem (Level 19)
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/ReservationGemUncut19
+- `n`: Uncut Spirit Gem (Level 19)
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/ReservationGemUncut19","n":"Uncut Spirit Gem (Level 19)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
+```
+
+### 46. Uncut Spirit Gem (Level 20)
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/ReservationGemUncut20
+- `n`: Uncut Spirit Gem (Level 20)
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/ReservationGemUncut20","n":"Uncut Spirit Gem (Level 20)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
+```
+
+### 47. Uncut Spirit Gem (Level 4)
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/ReservationGemUncut4
+- `n`: Uncut Spirit Gem (Level 4)
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/ReservationGemUncut4","n":"Uncut Spirit Gem (Level 4)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
+```
+
+### 48. Uncut Spirit Gem (Level 5)
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/ReservationGemUncut5
+- `n`: Uncut Spirit Gem (Level 5)
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/ReservationGemUncut5","n":"Uncut Spirit Gem (Level 5)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
+```
+
+### 49. Uncut Spirit Gem (Level 6)
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/ReservationGemUncut6
+- `n`: Uncut Spirit Gem (Level 6)
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/ReservationGemUncut6","n":"Uncut Spirit Gem (Level 6)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
+```
+
+### 50. Uncut Spirit Gem (Level 7)
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/ReservationGemUncut7
+- `n`: Uncut Spirit Gem (Level 7)
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/ReservationGemUncut7","n":"Uncut Spirit Gem (Level 7)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
+```
+
+### 51. Uncut Spirit Gem (Level 8)
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/ReservationGemUncut8
+- `n`: Uncut Spirit Gem (Level 8)
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/ReservationGemUncut8","n":"Uncut Spirit Gem (Level 8)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
+```
+
+### 52. Uncut Spirit Gem (Level 9)
+
+- Match score: `45`
+- `k`: Metadata/Items/Gems/ReservationGemUncut9
+- `n`: Uncut Spirit Gem (Level 9)
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/ReservationGemUncut9","n":"Uncut Spirit Gem (Level 9)","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"UncutReservationGemStackable","tags":["default"],"domain":"undefined"}
+```
+
+### 53. Uncut Spirit Gems
 
 - Match score: `45`
 - `k`: UncutReservationGemStackable
@@ -4518,7 +5246,91 @@ _No keyword matches in this index._
 {"k":"UncutReservationGemStackable","n":"Uncut Spirit Gems","cat":"repoe_item_classes","src":"repoe_poe2/item_classes.json"}
 ```
 
-### 2. Aura
+### 54. [DNT-UNUSED] Dominating Aura
+
+- Match score: `35`
+- `k`: Metadata/Items/Gems/SkillGemDominatingAura
+- `n`: [DNT-UNUSED] Dominating Aura
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemDominatingAura","n":"[DNT-UNUSED] Dominating Aura","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
+```
+
+### 55. [DNT] Meta Ranged Attack on Freeze
+
+- Match score: `35`
+- `k`: Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnFreeze
+- `n`: [DNT] Meta Ranged Attack on Freeze
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnFreeze","n":"[DNT] Meta Ranged Attack on Freeze","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
+```
+
+### 56. [DNT] Meta Ranged Attack on Shock
+
+- Match score: `35`
+- `k`: Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnShock
+- `n`: [DNT] Meta Ranged Attack on Shock
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnShock","n":"[DNT] Meta Ranged Attack on Shock","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
+```
+
+### 57. Ancestral Spirits
+
+- Match score: `35`
+- `k`: Metadata/Items/Gem/SkillGemAscendancyAncestralSpirits
+- `n`: Ancestral Spirits
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gem/SkillGemAscendancyAncestralSpirits","n":"Ancestral Spirits","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
+```
+
+### 58. Ancient Rune of Control
+
+- Match score: `35`
+- `k`: Metadata/Items/SoulCores/RuneOfTheAncients6
+- `n`: Ancient Rune of Control
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["rune","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/SoulCores/RuneOfTheAncients6","n":"Ancient Rune of Control","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","default"],"domain":"undefined"}
+```
+
+### 59. Ancient Rune of Witchcraft
+
+- Match score: `35`
+- `k`: Metadata/Items/SoulCores/RuneOfTheAncients9
+- `n`: Ancient Rune of Witchcraft
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["rune","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/SoulCores/RuneOfTheAncients9","n":"Ancient Rune of Witchcraft","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","default"],"domain":"undefined"}
+```
+
+### 60. Aura
 
 - Match score: `35`
 - `k`: aura
@@ -4530,7 +5342,7 @@ _No keyword matches in this index._
 {"k":"aura","n":"Aura","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 3. aura
+### 61. aura
 
 - Match score: `35`
 - `k`: 323
@@ -4542,7 +5354,7 @@ _No keyword matches in this index._
 {"k":"323","n":"aura","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"aura"}
 ```
 
-### 4. aura_bearer
+### 62. aura_bearer
 
 - Match score: `35`
 - `k`: aura_bearer
@@ -4554,7 +5366,7 @@ _No keyword matches in this index._
 {"k":"aura_bearer","n":"aura_bearer","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 5. aura_bearer
+### 63. aura_bearer
 
 - Match score: `35`
 - `k`: 724
@@ -4566,7 +5378,7 @@ _No keyword matches in this index._
 {"k":"724","n":"aura_bearer","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"aura_bearer"}
 ```
 
-### 6. bestiary_spirit_boss
+### 64. bestiary_spirit_boss
 
 - Match score: `35`
 - `k`: bestiary_spirit_boss
@@ -4578,7 +5390,7 @@ _No keyword matches in this index._
 {"k":"bestiary_spirit_boss","n":"bestiary_spirit_boss","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 7. bestiary_spirit_boss
+### 65. bestiary_spirit_boss
 
 - Match score: `35`
 - `k`: 833
@@ -4590,7 +5402,63 @@ _No keyword matches in this index._
 {"k":"833","n":"bestiary_spirit_boss","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"bestiary_spirit_boss"}
 ```
 
-### 8. chaos_resistance
+### 66. Blasphemy
+
+- Match score: `35`
+- `k`: Metadata/Items/Gems/SkillGemBlasphemy
+- `n`: Blasphemy
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemBlasphemy","n":"Blasphemy","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
+```
+
+### 67. Captured Soul of Captain Clayborne, The Accursed
+
+- Match score: `35`
+- `k`: Metadata/Items/PantheonSouls/PantheonSoulLunarisUpgrade3
+- `n`: Captured Soul of Captain Clayborne, The Accursed
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/PantheonSouls/PantheonSoulLunarisUpgrade3","n":"Captured Soul of Captain Clayborne, The Accursed","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"PantheonSoul","tags":["default"],"domain":"undefined"}
+```
+
+### 68. Cast on Freeze
+
+- Match score: `35`
+- `k`: Metadata/Items/Gems/SkillGemCastOnFreeze
+- `n`: Cast on Freeze
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemCastOnFreeze","n":"Cast on Freeze","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
+```
+
+### 69. Cast on Shock
+
+- Match score: `35`
+- `k`: Metadata/Items/Gems/SkillGemCastOnShock
+- `n`: Cast on Shock
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemCastOnShock","n":"Cast on Shock","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
+```
+
+### 70. chaos_resistance
 
 - Match score: `35`
 - `k`: chaos_resistance
@@ -4602,7 +5470,7 @@ _No keyword matches in this index._
 {"k":"chaos_resistance","n":"chaos_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 9. chaos_resistance
+### 71. chaos_resistance
 
 - Match score: `35`
 - `k`: 1295
@@ -4614,7 +5482,7 @@ _No keyword matches in this index._
 {"k":"1295","n":"chaos_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"chaos_resistance"}
 ```
 
-### 10. cold_resistance
+### 72. cold_resistance
 
 - Match score: `35`
 - `k`: cold_resistance
@@ -4626,7 +5494,7 @@ _No keyword matches in this index._
 {"k":"cold_resistance","n":"cold_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 11. cold_resistance
+### 73. cold_resistance
 
 - Match score: `35`
 - `k`: 1266
@@ -4638,7 +5506,7 @@ _No keyword matches in this index._
 {"k":"1266","n":"cold_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"cold_resistance"}
 ```
 
-### 12. Curse
+### 74. Curse
 
 - Match score: `35`
 - `k`: curse
@@ -4650,7 +5518,7 @@ _No keyword matches in this index._
 {"k":"curse","n":"Curse","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 13. curse
+### 75. curse
 
 - Match score: `35`
 - `k`: 593
@@ -4662,7 +5530,64 @@ _No keyword matches in this index._
 {"k":"593","n":"curse","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"curse"}
 ```
 
-### 14. elemental_resistance
+### 76. Curse on Block
+
+- Match score: `35`
+- `k`: Metadata/Items/Gems/SkillGemCastCurseOnBlock
+- `n`: Curse on Block
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemCastCurseOnBlock","n":"Curse on Block","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
+```
+
+### 77. Cursespeaker's Robe
+
+- Match score: `35`
+- `k`: Metadata/Items/Armours/BodyArmours/FourBodyInt3Cruel
+- `n`: Cursespeaker's Robe
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["int_armour","body_armour","armour","default"]
+- `req`: {"dexterity":0,"intelligence":77,"level":48,"strength":0}
+- `domain`: item
+
+```json
+{"k":"Metadata/Items/Armours/BodyArmours/FourBodyInt3Cruel","n":"Cursespeaker's Robe","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Body Armour","tags":["int_armour","body_armour","armour","default"],"req":{"dexterity":0,"intelligence":77,"level":48,"strength":0},"domain":"item"}
+```
+
+### 78. Dance - Witch
+
+- Match score: `35`
+- `k`: Metadata/Items/MicrotransactionAnimations/MicrotransactionDanceWitch
+- `n`: Dance - Witch
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["not_for_sale","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/MicrotransactionAnimations/MicrotransactionDanceWitch","n":"Dance - Witch","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Microtransaction","tags":["not_for_sale","default"],"domain":"undefined"}
+```
+
+### 79. Electroshock Scroll
+
+- Match score: `35`
+- `k`: Metadata/Items/Currency/CurrencyHarbingerBlessingSword
+- `n`: Electroshock Scroll
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["currency","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Currency/CurrencyHarbingerBlessingSword","n":"Electroshock Scroll","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"StackableCurrency","tags":["currency","default"],"domain":"undefined"}
+```
+
+### 80. elemental_resistance
 
 - Match score: `35`
 - `k`: elemental_resistance
@@ -4674,7 +5599,7 @@ _No keyword matches in this index._
 {"k":"elemental_resistance","n":"elemental_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 15. elemental_resistance
+### 81. elemental_resistance
 
 - Match score: `35`
 - `k`: 1264
@@ -4686,7 +5611,21 @@ _No keyword matches in this index._
 {"k":"1264","n":"elemental_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"elemental_resistance"}
 ```
 
-### 16. fire_resistance
+### 82. Enfeeble
+
+- Match score: `35`
+- `k`: Metadata/Items/Gems/SkillGemEnfeeble
+- `n`: Enfeeble
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemEnfeeble","n":"Enfeeble","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
+```
+
+### 83. fire_resistance
 
 - Match score: `35`
 - `k`: fire_resistance
@@ -4698,7 +5637,7 @@ _No keyword matches in this index._
 {"k":"fire_resistance","n":"fire_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 17. fire_resistance
+### 84. fire_resistance
 
 - Match score: `35`
 - `k`: 1265
@@ -4710,7 +5649,7 @@ _No keyword matches in this index._
 {"k":"1265","n":"fire_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"fire_resistance"}
 ```
 
-### 18. grants_2h_support
+### 85. grants_2h_support
 
 - Match score: `35`
 - `k`: grants_2h_support
@@ -4722,7 +5661,7 @@ _No keyword matches in this index._
 {"k":"grants_2h_support","n":"grants_2h_support","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 19. grants_2h_support
+### 86. grants_2h_support
 
 - Match score: `35`
 - `k`: 567
@@ -4734,7 +5673,7 @@ _No keyword matches in this index._
 {"k":"567","n":"grants_2h_support","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"grants_2h_support"}
 ```
 
-### 20. grants_crit_chance_support
+### 87. grants_crit_chance_support
 
 - Match score: `35`
 - `k`: grants_crit_chance_support
@@ -4746,7 +5685,7 @@ _No keyword matches in this index._
 {"k":"grants_crit_chance_support","n":"grants_crit_chance_support","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 21. grants_crit_chance_support
+### 88. grants_crit_chance_support
 
 - Match score: `35`
 - `k`: 291
@@ -4758,7 +5697,49 @@ _No keyword matches in this index._
 {"k":"291","n":"grants_crit_chance_support","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"grants_crit_chance_support"}
 ```
 
-### 22. lightning_resistance
+### 89. Hedgewitch Assandra's Rune of Wisdom
+
+- Match score: `35`
+- `k`: Metadata/Items/SoulCores/RuneSpecial5
+- `n`: Hedgewitch Assandra's Rune of Wisdom
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["rune","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/SoulCores/RuneSpecial5","n":"Hedgewitch Assandra's Rune of Wisdom","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","default"],"domain":"undefined"}
+```
+
+### 90. Jiquani's Soul Core of Rallying
+
+- Match score: `35`
+- `k`: Metadata/Items/SoulCores/SoulCoreSpecial19
+- `n`: Jiquani's Soul Core of Rallying
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["soul_core","soul_core_tier3","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/SoulCores/SoulCoreSpecial19","n":"Jiquani's Soul Core of Rallying","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["soul_core","soul_core_tier3","default"],"domain":"undefined"}
+```
+
+### 91. Legacy of Cursecarver
+
+- Match score: `35`
+- `k`: Metadata/Items/SoulCores/RuneOlrothsLegacyCursecarver
+- `n`: Legacy of Cursecarver
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["rune","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/SoulCores/RuneOlrothsLegacyCursecarver","n":"Legacy of Cursecarver","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"SoulCore","tags":["rune","default"],"domain":"undefined"}
+```
+
+### 92. lightning_resistance
 
 - Match score: `35`
 - `k`: lightning_resistance
@@ -4770,7 +5751,7 @@ _No keyword matches in this index._
 {"k":"lightning_resistance","n":"lightning_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 23. lightning_resistance
+### 93. lightning_resistance
 
 - Match score: `35`
 - `k`: 1267
@@ -4782,7 +5763,7 @@ _No keyword matches in this index._
 {"k":"1267","n":"lightning_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"lightning_resistance"}
 ```
 
-### 24. minion_resistance
+### 94. minion_resistance
 
 - Match score: `35`
 - `k`: minion_resistance
@@ -4794,7 +5775,7 @@ _No keyword matches in this index._
 {"k":"minion_resistance","n":"minion_resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 25. minion_resistance
+### 95. minion_resistance
 
 - Match score: `35`
 - `k`: 1296
@@ -4806,7 +5787,7 @@ _No keyword matches in this index._
 {"k":"1296","n":"minion_resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"minion_resistance"}
 ```
 
-### 26. no_cannot_die_aura
+### 96. no_cannot_die_aura
 
 - Match score: `35`
 - `k`: no_cannot_die_aura
@@ -4818,7 +5799,7 @@ _No keyword matches in this index._
 {"k":"no_cannot_die_aura","n":"no_cannot_die_aura","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 27. no_cannot_die_aura
+### 97. no_cannot_die_aura
 
 - Match score: `35`
 - `k`: 299
@@ -4830,7 +5811,7 @@ _No keyword matches in this index._
 {"k":"299","n":"no_cannot_die_aura","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"no_cannot_die_aura"}
 ```
 
-### 28. no_spirit_walkers_archnemesis
+### 98. no_spirit_walkers_archnemesis
 
 - Match score: `35`
 - `k`: no_spirit_walkers_archnemesis
@@ -4842,7 +5823,7 @@ _No keyword matches in this index._
 {"k":"no_spirit_walkers_archnemesis","n":"no_spirit_walkers_archnemesis","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 29. no_spirit_walkers_archnemesis
+### 99. no_spirit_walkers_archnemesis
 
 - Match score: `35`
 - `k`: 964
@@ -4854,7 +5835,21 @@ _No keyword matches in this index._
 {"k":"964","n":"no_spirit_walkers_archnemesis","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"no_spirit_walkers_archnemesis"}
 ```
 
-### 30. Resistance
+### 100. Raging Spirits
+
+- Match score: `35`
+- `k`: Metadata/Items/Gem/SkillGemRagingSpirits
+- `n`: Raging Spirits
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gem/SkillGemRagingSpirits","n":"Raging Spirits","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
+```
+
+### 101. Resistance
 
 - Match score: `35`
 - `k`: resistance
@@ -4866,7 +5861,7 @@ _No keyword matches in this index._
 {"k":"resistance","n":"Resistance","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 31. resistance
+### 102. resistance
 
 - Match score: `35`
 - `k`: 583
@@ -4878,7 +5873,67 @@ _No keyword matches in this index._
 {"k":"583","n":"resistance","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"resistance"}
 ```
 
-### 32. sea_witch_boss_area
+### 103. Runeforged Spiritbone Crown
+
+- Match score: `35`
+- `k`: Metadata/Items/Armours/Helmets/FourHelmetStrInt6Verisium
+- `n`: Runeforged Spiritbone Crown
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","karui_basetype","runeforged","helmet","armour","default"]
+- `req`: {"dexterity":0,"intelligence":36,"level":45,"strength":36}
+- `domain`: item
+
+```json
+{"k":"Metadata/Items/Armours/Helmets/FourHelmetStrInt6Verisium","n":"Runeforged Spiritbone Crown","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_int_armour","karui_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":0,"intelligence":36,"level":45,"strength":36},"domain":"item"}
+```
+
+### 104. Runemastered Spiritbone Crown
+
+- Match score: `35`
+- `k`: Metadata/Items/Armours/Helmets/FourHelmetStrInt6VerisiumUnique1
+- `n`: Runemastered Spiritbone Crown
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","karui_basetype","runeforged","helmet","armour","default"]
+- `req`: {"dexterity":0,"intelligence":50,"level":65,"strength":50}
+- `domain`: item
+
+```json
+{"k":"Metadata/Items/Armours/Helmets/FourHelmetStrInt6VerisiumUnique1","n":"Runemastered Spiritbone Crown","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_int_armour","karui_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
+```
+
+### 105. Runemastered Spiritbone Crown
+
+- Match score: `35`
+- `k`: Metadata/Items/Armours/Helmets/FourHelmetStrInt6VerisiumUnique2
+- `n`: Runemastered Spiritbone Crown
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","karui_basetype","runeforged","helmet","armour","default"]
+- `req`: {"dexterity":0,"intelligence":50,"level":65,"strength":50}
+- `domain`: item
+
+```json
+{"k":"Metadata/Items/Armours/Helmets/FourHelmetStrInt6VerisiumUnique2","n":"Runemastered Spiritbone Crown","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_int_armour","karui_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
+```
+
+### 106. Runemastered Spiritbone Crown
+
+- Match score: `35`
+- `k`: Metadata/Items/Armours/Helmets/FourHelmetStrInt6VerisiumUnique3
+- `n`: Runemastered Spiritbone Crown
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","karui_basetype","runeforged","helmet","armour","default"]
+- `req`: {"dexterity":0,"intelligence":50,"level":65,"strength":50}
+- `domain`: item
+
+```json
+{"k":"Metadata/Items/Armours/Helmets/FourHelmetStrInt6VerisiumUnique3","n":"Runemastered Spiritbone Crown","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_int_armour","karui_basetype","runeforged","helmet","armour","default"],"req":{"dexterity":0,"intelligence":50,"level":65,"strength":50},"domain":"item"}
+```
+
+### 107. sea_witch_boss_area
 
 - Match score: `35`
 - `k`: sea_witch_boss_area
@@ -4890,7 +5945,7 @@ _No keyword matches in this index._
 {"k":"sea_witch_boss_area","n":"sea_witch_boss_area","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 33. sea_witch_boss_area
+### 108. sea_witch_boss_area
 
 - Match score: `35`
 - `k`: 805
@@ -4902,7 +5957,78 @@ _No keyword matches in this index._
 {"k":"805","n":"sea_witch_boss_area","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"sea_witch_boss_area"}
 ```
 
-### 34. support
+### 109. Shockburst Rounds
+
+- Match score: `35`
+- `k`: Metadata/Items/Gem/SkillGemShockburstRounds
+- `n`: Shockburst Rounds
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gem/SkillGemShockburstRounds","n":"Shockburst Rounds","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
+```
+
+### 110. Shockchain Arrow
+
+- Match score: `35`
+- `k`: Metadata/Items/Gem/SkillGemShockchainArrow
+- `n`: Shockchain Arrow
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gem/SkillGemShockchainArrow","n":"Shockchain Arrow","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
+```
+
+### 111. Shockwave Totem
+
+- Match score: `35`
+- `k`: Metadata/Items/Gems/SkillGemShockwaveTotem
+- `n`: Shockwave Totem
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemShockwaveTotem","n":"Shockwave Totem","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
+```
+
+### 112. Spirit Vessel
+
+- Match score: `35`
+- `k`: Metadata/Items/Gems/SkillGemSpiritVessel
+- `n`: Spirit Vessel
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemSpiritVessel","n":"Spirit Vessel","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Meta Skill Gem","tags":["gem","default"],"domain":"undefined"}
+```
+
+### 113. Spiritbone Crown
+
+- Match score: `35`
+- `k`: Metadata/Items/Armours/Helmets/FourHelmetStrInt6
+- `n`: Spiritbone Crown
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["str_int_armour","karui_basetype","helmet","armour","default"]
+- `req`: {"dexterity":0,"intelligence":36,"level":45,"strength":36}
+- `domain`: item
+
+```json
+{"k":"Metadata/Items/Armours/Helmets/FourHelmetStrInt6","n":"Spiritbone Crown","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Helmet","tags":["str_int_armour","karui_basetype","helmet","armour","default"],"req":{"dexterity":0,"intelligence":36,"level":45,"strength":36},"domain":"item"}
+```
+
+### 114. support
 
 - Match score: `35`
 - `k`: support
@@ -4914,7 +6040,7 @@ _No keyword matches in this index._
 {"k":"support","n":"support","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 35. support
+### 115. support
 
 - Match score: `35`
 - `k`: 592
@@ -4926,7 +6052,7 @@ _No keyword matches in this index._
 {"k":"592","n":"support","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"support"}
 ```
 
-### 36. Support Gems
+### 116. Support Gems
 
 - Match score: `35`
 - `k`: Support Skill Gem
@@ -4938,7 +6064,7 @@ _No keyword matches in this index._
 {"k":"Support Skill Gem","n":"Support Gems","cat":"repoe_item_classes","src":"repoe_poe2/item_classes.json"}
 ```
 
-### 37. support_gem
+### 117. support_gem
 
 - Match score: `35`
 - `k`: support_gem
@@ -4950,7 +6076,7 @@ _No keyword matches in this index._
 {"k":"support_gem","n":"support_gem","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
 ```
 
-### 38. support_gem
+### 118. support_gem
 
 - Match score: `35`
 - `k`: 167
@@ -4962,64 +6088,32 @@ _No keyword matches in this index._
 {"k":"167","n":"support_gem","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"support_gem"}
 ```
 
-### 39. Uncut Support Gems
+### 119. Supporting Fire
 
 - Match score: `35`
-- `k`: UncutSupportGemStackable
-- `n`: Uncut Support Gems
-- `cat`: repoe_item_classes
-- `src`: repoe_poe2/item_classes.json
+- `k`: Metadata/Items/Gems/SkillGemAscendancySupportingFire
+- `n`: Supporting Fire
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
 
 ```json
-{"k":"UncutSupportGemStackable","n":"Uncut Support Gems","cat":"repoe_item_classes","src":"repoe_poe2/item_classes.json"}
+{"k":"Metadata/Items/Gems/SkillGemAscendancySupportingFire","n":"Supporting Fire","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
-### 40. UncutReservationGem_OLD
+### 120. Temporal Chains
 
 - Match score: `35`
-- `k`: UncutReservationGem_OLD
-- `n`: UncutReservationGem_OLD
-- `cat`: repoe_item_classes
-- `src`: repoe_poe2/item_classes.json
+- `k`: Metadata/Items/Gems/SkillGemTemporalChains
+- `n`: Temporal Chains
+- `cat`: repoe_base_items
+- `src`: repoe_poe2/base_items.json
+- `tags`: ["gem","default"]
+- `domain`: undefined
 
 ```json
-{"k":"UncutReservationGem_OLD","n":"UncutReservationGem_OLD","cat":"repoe_item_classes","src":"repoe_poe2/item_classes.json"}
-```
-
-### 41. UncutSupportGem_OLD
-
-- Match score: `35`
-- `k`: UncutSupportGem_OLD
-- `n`: UncutSupportGem_OLD
-- `cat`: repoe_item_classes
-- `src`: repoe_poe2/item_classes.json
-
-```json
-{"k":"UncutSupportGem_OLD","n":"UncutSupportGem_OLD","cat":"repoe_item_classes","src":"repoe_poe2/item_classes.json"}
-```
-
-### 42. wb_support
-
-- Match score: `35`
-- `k`: wb_support
-- `n`: wb_support
-- `cat`: repoe_tag_details
-- `src`: repoe_poe2/tag_details.json
-
-```json
-{"k":"wb_support","n":"wb_support","cat":"repoe_tag_details","src":"repoe_poe2/tag_details.json"}
-```
-
-### 43. wb_support
-
-- Match score: `35`
-- `k`: 129
-- `n`: wb_support
-- `cat`: repoe_tags
-- `src`: repoe_poe2/tags.json
-
-```json
-{"k":"129","n":"wb_support","cat":"repoe_tags","src":"repoe_poe2/tags.json","v":"wb_support"}
+{"k":"Metadata/Items/Gems/SkillGemTemporalChains","n":"Temporal Chains","cat":"repoe_base_items","src":"repoe_poe2/base_items.json","item_class":"Active Skill Gem","tags":["gem","default"],"domain":"undefined"}
 ```
 
 ## Mods and affixes
@@ -8549,7 +9643,7 @@ Skills erupt after {0}% reduced delay
 | Passive full compact | OK | 120 |
 | Passive edges | OK | 0 |
 | Gems and skills | OK | 120 |
-| Item bases/classes | OK | 43 |
+| Item bases/classes | OK | 120 |
 | Mods and affixes | OK | 120 |
 | Rune mods | OK | 5 |
 | Uniques | OK | 4 |
