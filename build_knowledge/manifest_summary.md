@@ -1,6 +1,6 @@
 # PoE2 Data Manifest Summary
 
-- Generated UTC: `2026-10-18T13:59:54+00:00`
+- Generated UTC: `2026-10-19T16:58:43+00:00`
 - Source priority: GGG passive tree -> RePoE PoE2 -> PoB-data PoE2 -> community sources only as benchmarks
 
 ## Download results
@@ -14,7 +14,7 @@
 | OK | `sources/repoe_poe2/active_skill_types.json` | 290 | 6,285 | https://repoe-fork.github.io/poe2/active_skill_types.json |
 | OK | `sources/repoe_poe2/cost_types.json` | 18 | 1,769 | https://repoe-fork.github.io/poe2/cost_types.json |
 | OK | `sources/repoe_poe2/keywords.json` | 1,030 | 257,857 | https://repoe-fork.github.io/poe2/keywords.json |
-| OK | `sources/repoe_poe2/base_items.json` | 5,496 | 8,199,055 | https://repoe-fork.github.io/poe2/base_items.json |
+| OK | `sources/repoe_poe2/base_items.json` | 5,496 | 8,229,009 | https://repoe-fork.github.io/poe2/base_items.json |
 | OK | `sources/repoe_poe2/item_classes.json` | 118 | 15,998 | https://repoe-fork.github.io/poe2/item_classes.json |
 | OK | `sources/repoe_poe2/tags.json` | 1,339 | 29,102 | https://repoe-fork.github.io/poe2/tags.json |
 | OK | `sources/repoe_poe2/tag_details.json` | 1,339 | 100,198 | https://repoe-fork.github.io/poe2/tag_details.json |
