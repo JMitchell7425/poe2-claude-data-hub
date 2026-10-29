@@ -1,6 +1,6 @@
 # PoE2 Data Manifest Summary
 
-- Generated UTC: `2026-10-28T16:36:35+00:00`
+- Generated UTC: `2026-10-29T16:55:09+00:00`
 - Source priority: GGG passive tree -> RePoE PoE2 -> PoB-data PoE2 -> community sources only as benchmarks
 
 ## Download results
