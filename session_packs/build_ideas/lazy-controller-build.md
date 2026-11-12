@@ -1,6 +1,6 @@
 # Build Idea Pack — Lazy Controller-Friendly Build
 
-- Generated UTC: `2026-11-11T17:52:55+00:00`
+- Generated UTC: `2026-11-12T18:17:56+00:00`
 - Idea slug: `lazy-controller-build`
 - Purpose: Find low-button, low-aim, PS5-friendly builds with high clear reliability and safe bossing.
 - Keywords: `controller, ps5, persistent, aura, herald, minion, totem, trigger, auto, duration, area, aoe, nearby, radius, nova, chain, projectile, slam, strike, movement, cooldown, spirit, reservation, defense, recovery, map, boss`
@@ -2917,19 +2917,7 @@ _No keyword matches in this index._
 - Source: `build_knowledge/compact/gem_index.json`
 - Matches included: `120`
 
-### 1. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC', '1': {'type': 'Condition', 'var': 'CommandableSkill'}}}}]
-
-- Match score: `115`
-- `k`: minion_command_skill_cooldown_speed_+%
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC', '1': {'type': 'Condition', 'var': 'CommandableSkill'}}}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"minion_command_skill_cooldown_speed_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC', '1': {'type': 'Condition', 'var': 'CommandableSkill'}}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"CooldownRecovery","type":"INC","1":{"type":"Condition","var":"CommandableSkill"}}}}]}
-```
-
-### 2. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}}}]
+### 1. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}}}]
 
 - Match score: `115`
 - `k`: golem_cooldown_recovery_+%
@@ -2941,7 +2929,7 @@ _No keyword matches in this index._
 {"k":"golem_cooldown_recovery_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"CooldownRecovery","type":"INC"}}}]}
 ```
 
-### 3. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}}}]
+### 2. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}}}]
 
 - Match score: `115`
 - `k`: minion_cooldown_recovery_+%
@@ -2953,7 +2941,7 @@ _No keyword matches in this index._
 {"k":"minion_cooldown_recovery_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"CooldownRecovery","type":"INC"}}}]}
 ```
 
-### 4. [{'flags': 0, 'keywordFlags': 0, 'name': 'NoCooldownRecoveryInDuration', 'type': 'FLAG', 'value': True}]
+### 3. [{'flags': 0, 'keywordFlags': 0, 'name': 'NoCooldownRecoveryInDuration', 'type': 'FLAG', 'value': True}]
 
 - Match score: `115`
 - `k`: display_this_skill_cooldown_does_not_recover_during_buff
@@ -2965,7 +2953,7 @@ _No keyword matches in this index._
 {"k":"display_this_skill_cooldown_does_not_recover_during_buff","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'NoCooldownRecoveryInDuration', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"NoCooldownRecoveryInDuration","type":"FLAG","value":true}]}
 ```
 
-### 5. SupportNovaProjectilesTwoPlayer
+### 4. SupportNovaProjectilesTwoPlayer
 
 - Match score: `110`
 - `k`: SupportNovaProjectilesTwoPlayer
@@ -2979,7 +2967,7 @@ _No keyword matches in this index._
 {"k":"SupportNovaProjectilesTwoPlayer","n":"SupportNovaProjectilesTwoPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Cooldown","SupportedByNovaProjectiles"],"allowed_types":["Projectile","ProjectileNumber","CrossbowSkill","CrossbowAmmoSkill"],"excluded_types":["Cooldown","SupportedByNovaProjectiles","NOT","AND","SummonsTotem","UsedByTotem","Trapped","RemoteMined","Persistent","Vaal","Rain","ProjectilesNumberModifiersNotApplied"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 6. DTTChainedBeastBossLeapSlam
+### 5. DTTChainedBeastBossLeapSlam
 
 - Match score: `105`
 - `k`: DTTChainedBeastBossLeapSlam
@@ -2992,7 +2980,7 @@ _No keyword matches in this index._
 {"k":"DTTChainedBeastBossLeapSlam","n":"DTTChainedBeastBossLeapSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 7. EAAChainedBeastBossMultiSlam
+### 6. EAAChainedBeastBossMultiSlam
 
 - Match score: `105`
 - `k`: EAAChainedBeastBossMultiSlam
@@ -3005,7 +2993,7 @@ _No keyword matches in this index._
 {"k":"EAAChainedBeastBossMultiSlam","n":"EAAChainedBeastBossMultiSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 8. GAChainedBeastBossGroundSlam
+### 7. GAChainedBeastBossGroundSlam
 
 - Match score: `105`
 - `k`: GAChainedBeastBossGroundSlam
@@ -3018,7 +3006,7 @@ _No keyword matches in this index._
 {"k":"GAChainedBeastBossGroundSlam","n":"GAChainedBeastBossGroundSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 9. GAChainedBeastBossLeapSlamImpact
+### 8. GAChainedBeastBossLeapSlamImpact
 
 - Match score: `105`
 - `k`: GAChainedBeastBossLeapSlamImpact
@@ -3031,7 +3019,7 @@ _No keyword matches in this index._
 {"k":"GAChainedBeastBossLeapSlamImpact","n":"GAChainedBeastBossLeapSlamImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 10. GAChainedBeastBossMultiSlam
+### 9. GAChainedBeastBossMultiSlam
 
 - Match score: `105`
 - `k`: GAChainedBeastBossMultiSlam
@@ -3044,7 +3032,7 @@ _No keyword matches in this index._
 {"k":"GAChainedBeastBossMultiSlam","n":"GAChainedBeastBossMultiSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 11. GAChainedBeastBossMultiSlamFinal
+### 10. GAChainedBeastBossMultiSlamFinal
 
 - Match score: `105`
 - `k`: GAChainedBeastBossMultiSlamFinal
@@ -3057,7 +3045,7 @@ _No keyword matches in this index._
 {"k":"GAChainedBeastBossMultiSlamFinal","n":"GAChainedBeastBossMultiSlamFinal","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 12. GADoomBossMinionPhaseSecondSlam
+### 11. GADoomBossMinionPhaseSecondSlam
 
 - Match score: `105`
 - `k`: GADoomBossMinionPhaseSecondSlam
@@ -3070,7 +3058,7 @@ _No keyword matches in this index._
 {"k":"GADoomBossMinionPhaseSecondSlam","n":"GADoomBossMinionPhaseSecondSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 13. GADoomBossMinionPhaseSlam
+### 12. GADoomBossMinionPhaseSlam
 
 - Match score: `105`
 - `k`: GADoomBossMinionPhaseSlam
@@ -3083,7 +3071,7 @@ _No keyword matches in this index._
 {"k":"GADoomBossMinionPhaseSlam","n":"GADoomBossMinionPhaseSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 14. GAHellscapeFleshBossSlamNearby
+### 13. GAHellscapeFleshBossSlamNearby
 
 - Match score: `105`
 - `k`: GAHellscapeFleshBossSlamNearby
@@ -3096,7 +3084,7 @@ _No keyword matches in this index._
 {"k":"GAHellscapeFleshBossSlamNearby","n":"GAHellscapeFleshBossSlamNearby","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 15. GAKaruiCaptainBossSpiritChieftainSlam
+### 14. GAKaruiCaptainBossSpiritChieftainSlam
 
 - Match score: `105`
 - `k`: GAKaruiCaptainBossSpiritChieftainSlam
@@ -3109,7 +3097,7 @@ _No keyword matches in this index._
 {"k":"GAKaruiCaptainBossSpiritChieftainSlam","n":"GAKaruiCaptainBossSpiritChieftainSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 16. GAKulemakBossTeleportSlamTriggered
+### 15. GAKulemakBossTeleportSlamTriggered
 
 - Match score: `105`
 - `k`: GAKulemakBossTeleportSlamTriggered
@@ -3122,7 +3110,7 @@ _No keyword matches in this index._
 {"k":"GAKulemakBossTeleportSlamTriggered","n":"GAKulemakBossTeleportSlamTriggered","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 17. GATrialMasterBossSlamSpikeNova
+### 16. GATrialMasterBossSlamSpikeNova
 
 - Match score: `105`
 - `k`: GATrialMasterBossSlamSpikeNova
@@ -3135,7 +3123,7 @@ _No keyword matches in this index._
 {"k":"GATrialMasterBossSlamSpikeNova","n":"GATrialMasterBossSlamSpikeNova","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 18. GPSKaruiSpiritMinionProjectile
+### 17. GPSKaruiSpiritMinionProjectile
 
 - Match score: `105`
 - `k`: GPSKaruiSpiritMinionProjectile
@@ -3148,7 +3136,7 @@ _No keyword matches in this index._
 {"k":"GPSKaruiSpiritMinionProjectile","n":"GPSKaruiSpiritMinionProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 19. GTTrialMasterBossSpikeNovaSlam
+### 18. GTTrialMasterBossSpikeNovaSlam
 
 - Match score: `105`
 - `k`: GTTrialMasterBossSpikeNovaSlam
@@ -3161,7 +3149,7 @@ _No keyword matches in this index._
 {"k":"GTTrialMasterBossSpikeNovaSlam","n":"GTTrialMasterBossSpikeNovaSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 20. MAASExecutionerBossTriggerSlam
+### 19. MAASExecutionerBossTriggerSlam
 
 - Match score: `105`
 - `k`: MAASExecutionerBossTriggerSlam
@@ -3174,7 +3162,7 @@ _No keyword matches in this index._
 {"k":"MAASExecutionerBossTriggerSlam","n":"MAASExecutionerBossTriggerSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 21. MPSAncestralTotemSpiritSoulCasterProjectile
+### 20. MPSAncestralTotemSpiritSoulCasterProjectile
 
 - Match score: `105`
 - `k`: MPSAncestralTotemSpiritSoulCasterProjectile
@@ -3187,7 +3175,7 @@ _No keyword matches in this index._
 {"k":"MPSAncestralTotemSpiritSoulCasterProjectile","n":"MPSAncestralTotemSpiritSoulCasterProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 22. ProtoVaalMapBossProjectileSanctum
+### 21. ProtoVaalMapBossProjectileSanctum
 
 - Match score: `105`
 - `k`: ProtoVaalMapBossProjectileSanctum
@@ -3200,7 +3188,7 @@ _No keyword matches in this index._
 {"k":"ProtoVaalMapBossProjectileSanctum","n":"ProtoVaalMapBossProjectileSanctum","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 23. ProtoVaalMapBossVolatileProjectileSanctum
+### 22. ProtoVaalMapBossVolatileProjectileSanctum
 
 - Match score: `105`
 - `k`: ProtoVaalMapBossVolatileProjectileSanctum
@@ -3213,19 +3201,7 @@ _No keyword matches in this index._
 {"k":"ProtoVaalMapBossVolatileProjectileSanctum","n":"ProtoVaalMapBossVolatileProjectileSanctum","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 24. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionFreeSpiritCount', 'type': 'BASE'}]
-
-- Match score: `90`
-- `k`: first_X_minions_have_0_base_spirit_reservation
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionFreeSpiritCount', 'type': 'BASE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"first_X_minions_have_0_base_spirit_reservation","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionFreeSpiritCount', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionFreeSpiritCount","type":"BASE"}]}
-```
-
-### 25. [{'flags': 0, 'keywordFlags': 0, 'name': 'TrapTriggerAreaOfEffect', 'type': 'INC'}]
+### 23. [{'flags': 0, 'keywordFlags': 0, 'name': 'TrapTriggerAreaOfEffect', 'type': 'INC'}]
 
 - Match score: `90`
 - `k`: trap_trigger_radius_+%
@@ -3237,7 +3213,7 @@ _No keyword matches in this index._
 {"k":"trap_trigger_radius_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'TrapTriggerAreaOfEffect', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"TrapTriggerAreaOfEffect","type":"INC"}]}
 ```
 
-### 26. ProlongedDurationSupportPlayerThree
+### 24. ProlongedDurationSupportPlayerThree
 
 - Match score: `85`
 - `k`: ProlongedDurationSupportPlayerThree
@@ -3251,7 +3227,7 @@ _No keyword matches in this index._
 {"k":"ProlongedDurationSupportPlayerThree","n":"ProlongedDurationSupportPlayerThree","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Cooldown","SupportedByDurationThree"],"allowed_types":["Duration"],"excluded_types":["Cooldown","SupportedByDurationThree","NOT","AND","SummonsTotem","UsedByTotem","Trapped","RemoteMined","Persistent","Vaal","Triggered"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 27. [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]
+### 25. [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]
 
 - Match score: `80`
 - `k`: base_cooldown_speed_+%
@@ -3263,7 +3239,7 @@ _No keyword matches in this index._
 {"k":"base_cooldown_speed_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CooldownRecovery","type":"INC"}]}
 ```
 
-### 28. [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]
+### 26. [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]
 
 - Match score: `80`
 - `k`: base_spell_cooldown_speed_+%
@@ -3275,43 +3251,7 @@ _No keyword matches in this index._
 {"k":"base_spell_cooldown_speed_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CooldownRecovery","type":"INC"}]}
 ```
 
-### 29. [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]
-
-- Match score: `80`
-- `k`: grenade_skill_cooldown_speed_+%
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"grenade_skill_cooldown_speed_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CooldownRecovery","type":"INC"}]}
-```
-
-### 30. [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]
-
-- Match score: `80`
-- `k`: support_cooldown_reduction_cooldown_recovery_+%
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"support_cooldown_reduction_cooldown_recovery_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CooldownRecovery","type":"INC"}]}
-```
-
-### 31. [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'MORE'}]
-
-- Match score: `80`
-- `k`: base_cooldown_speed_+%_final
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'MORE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"base_cooldown_speed_+%_final","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'MORE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CooldownRecovery","type":"MORE"}]}
-```
-
-### 32. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'AreaOfEffect', 'type': 'INC'}}}]
+### 27. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'AreaOfEffect', 'type': 'INC'}}}]
 
 - Match score: `80`
 - `k`: minion_skill_area_of_effect_+%
@@ -3323,7 +3263,7 @@ _No keyword matches in this index._
 {"k":"minion_skill_area_of_effect_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'AreaOfEffect', 'type': 'INC'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"AreaOfEffect","type":"INC"}}}]}
 ```
 
-### 33. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'MovementSpeed', 'type': 'INC'}}}]
+### 28. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'MovementSpeed', 'type': 'INC'}}}]
 
 - Match score: `80`
 - `k`: minion_movement_speed_+%
@@ -3335,7 +3275,7 @@ _No keyword matches in this index._
 {"k":"minion_movement_speed_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'MovementSpeed', 'type': 'INC'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"MovementSpeed","type":"INC"}}}]}
 ```
 
-### 34. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'MovementSpeed', 'type': 'MORE'}}}]
+### 29. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'MovementSpeed', 'type': 'MORE'}}}]
 
 - Match score: `80`
 - `k`: active_skill_minion_movement_velocity_+%_final
@@ -3347,7 +3287,7 @@ _No keyword matches in this index._
 {"k":"active_skill_minion_movement_velocity_+%_final","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'MovementSpeed', 'type': 'MORE'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"MovementSpeed","type":"MORE"}}}]}
 ```
 
-### 35. [{'flags': 0, 'keywordFlags': 0, 'name': 'NoAdditionalProjectiles', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'AdditionalProjectilesAddChainsInstead', 'type': 'FLAG', 'value': True}]
+### 30. [{'flags': 0, 'keywordFlags': 0, 'name': 'NoAdditionalProjectiles', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'AdditionalProjectilesAddChainsInstead', 'type': 'FLAG', 'value': True}]
 
 - Match score: `80`
 - `k`: modifiers_to_number_of_projectiles_instead_apply_to_chaining
@@ -3359,43 +3299,31 @@ _No keyword matches in this index._
 {"k":"modifiers_to_number_of_projectiles_instead_apply_to_chaining","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'NoAdditionalProjectiles', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'AdditionalProjectilesAddChainsInstead', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"NoAdditionalProjectiles","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"AdditionalProjectilesAddChainsInstead","type":"FLAG","value":true}]}
 ```
 
-### 36. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'minionLevelIsTriggeredSkillLevel', 'value': True}}]
-
-- Match score: `80`
-- `k`: display_minion_level_from_triggering_skill_level
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'minionLevelIsTriggeredSkillLevel', 'value': True}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"display_minion_level_from_triggering_skill_level","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'minionLevelIsTriggeredSkillLevel', 'value': True}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillData","type":"LIST","value":{"key":"minionLevelIsTriggeredSkillLevel","value":true}}]}
-```
-
-### 37. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'triggeredByAutoCry'}, '1': {'skillType': 31, 'type': 'SkillType'}, '2': {'skillType': 63, 'type': 'SkillType'}}]
+### 31. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'triggeredByAutoCry'}, '1': {'skillType': 35, 'type': 'SkillType'}, '2': {'skillType': 73, 'type': 'SkillType'}}]
 
 - Match score: `80`
 - `k`: support_autocast_warcries
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'triggeredByAutoCry'}, '1': {'skillType': 31, 'type': 'SkillType'}, '2': {'skillType': 63, 'type': 'SkillType'}}]
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'triggeredByAutoCry'}, '1': {'skillType': 35, 'type': 'SkillType'}, '2': {'skillType': 73, 'type': 'SkillType'}}]
 - `cat`: pob_skill_stat_map
 - `src`: pob_data_poe2/SkillStatMap.json
 
 ```json
-{"k":"support_autocast_warcries","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'triggeredByAutoCry'}, '1': {'skillType': 31, 'type': 'SkillType'}, '2': {'skillType': 63, 'type': 'SkillType'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillData","type":"LIST","value":{"key":"triggeredByAutoCry"},"1":{"skillType":31,"type":"SkillType"},"2":{"skillType":63,"type":"SkillType"}}]}
+{"k":"support_autocast_warcries","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'triggeredByAutoCry'}, '1': {'skillType': 35, 'type': 'SkillType'}, '2': {'skillType': 73, 'type': 'SkillType'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillData","type":"LIST","value":{"key":"triggeredByAutoCry"},"1":{"skillType":35,"type":"SkillType"},"2":{"skillType":73,"type":"SkillType"}}]}
 ```
 
-### 38. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'triggeredByAutomation'}, '1': {'skillTypeList': [31, 2, 64], 'type': 'SkillType'}}]
+### 32. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'triggeredByAutomation'}, '1': {'skillTypeList': [35, 2, 74], 'type': 'SkillType'}}]
 
 - Match score: `80`
 - `k`: support_autocast_instant_spells
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'triggeredByAutomation'}, '1': {'skillTypeList': [31, 2, 64], 'type': 'SkillType'}}]
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'triggeredByAutomation'}, '1': {'skillTypeList': [35, 2, 74], 'type': 'SkillType'}}]
 - `cat`: pob_skill_stat_map
 - `src`: pob_data_poe2/SkillStatMap.json
 
 ```json
-{"k":"support_autocast_instant_spells","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'triggeredByAutomation'}, '1': {'skillTypeList': [31, 2, 64], 'type': 'SkillType'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillData","type":"LIST","value":{"key":"triggeredByAutomation"},"1":{"skillTypeList":[31,2,64],"type":"SkillType"}}]}
+{"k":"support_autocast_instant_spells","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'triggeredByAutomation'}, '1': {'skillTypeList': [35, 2, 74], 'type': 'SkillType'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillData","type":"LIST","value":{"key":"triggeredByAutomation"},"1":{"skillTypeList":[35,2,74],"type":"SkillType"}}]}
 ```
 
-### 39. [{'flags': 0, 'keywordFlags': 0, 'name': 'SpellCastTimeAddedToCooldownIfTriggered', 'type': 'FLAG', 'value': True}]
+### 33. [{'flags': 0, 'keywordFlags': 0, 'name': 'SpellCastTimeAddedToCooldownIfTriggered', 'type': 'FLAG', 'value': True}]
 
 - Match score: `80`
 - `k`: spell_cast_time_added_to_cooldown_if_triggered
@@ -3407,19 +3335,7 @@ _No keyword matches in this index._
 {"k":"spell_cast_time_added_to_cooldown_if_triggered","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SpellCastTimeAddedToCooldownIfTriggered', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SpellCastTimeAddedToCooldownIfTriggered","type":"FLAG","value":true}]}
 ```
 
-### 40. [{'flags': 0, 'keywordFlags': 0, 'name': 'SpiritReservationEfficiency', 'type': 'INC'}]
-
-- Match score: `80`
-- `k`: base_spirit_reservation_efficiency_+%
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SpiritReservationEfficiency', 'type': 'INC'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"base_spirit_reservation_efficiency_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SpiritReservationEfficiency', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SpiritReservationEfficiency","type":"INC"}]}
-```
-
-### 41. [{'flags': 0, 'keywordFlags': 0, 'name': 'TotemDuration', 'type': 'INC'}]
+### 34. [{'flags': 0, 'keywordFlags': 0, 'name': 'TotemDuration', 'type': 'INC'}]
 
 - Match score: `80`
 - `k`: totem_duration_+%
@@ -3431,7 +3347,7 @@ _No keyword matches in this index._
 {"k":"totem_duration_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'TotemDuration', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"TotemDuration","type":"INC"}]}
 ```
 
-### 42. [{'flags': 0, 'keywordFlags': 4096, 'name': 'CooldownRecovery', 'type': 'INC'}]
+### 35. [{'flags': 0, 'keywordFlags': 4096, 'name': 'CooldownRecovery', 'type': 'INC'}]
 
 - Match score: `80`
 - `k`: placing_traps_cooldown_recovery_+%
@@ -3443,7 +3359,7 @@ _No keyword matches in this index._
 {"k":"placing_traps_cooldown_recovery_+%","n":"[{'flags': 0, 'keywordFlags': 4096, 'name': 'CooldownRecovery', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":4096,"name":"CooldownRecovery","type":"INC"}]}
 ```
 
-### 43. base_totem_duration
+### 36. base_totem_duration
 
 - Match score: `80`
 - `k`: base_totem_duration
@@ -3455,7 +3371,7 @@ _No keyword matches in this index._
 {"k":"base_totem_duration","n":"base_totem_duration","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 44. SupportCooldownRecoveryPlayer
+### 37. SupportCooldownRecoveryPlayer
 
 - Match score: `80`
 - `k`: SupportCooldownRecoveryPlayer
@@ -3469,7 +3385,7 @@ _No keyword matches in this index._
 {"k":"SupportCooldownRecoveryPlayer","n":"SupportCooldownRecoveryPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Cooldown","AffectedByCooldownRate"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 45. SupportCooldownRecoveryPlayerTwo
+### 38. SupportCooldownRecoveryPlayerTwo
 
 - Match score: `80`
 - `k`: SupportCooldownRecoveryPlayerTwo
@@ -3483,7 +3399,7 @@ _No keyword matches in this index._
 {"k":"SupportCooldownRecoveryPlayerTwo","n":"SupportCooldownRecoveryPlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Cooldown","AffectedByCooldownRate"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 46. SupportNovaProjectilesPlayer
+### 39. SupportNovaProjectilesPlayer
 
 - Match score: `80`
 - `k`: SupportNovaProjectilesPlayer
@@ -3497,7 +3413,7 @@ _No keyword matches in this index._
 {"k":"SupportNovaProjectilesPlayer","n":"SupportNovaProjectilesPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["SupportedByNovaProjectiles"],"allowed_types":["Projectile","ProjectileNumber","CrossbowSkill","CrossbowAmmoSkill"],"excluded_types":["Rain","ProjectilesNumberModifiersNotApplied"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 47. Metadata/Items/Gems/SkillGemDominatingAura
+### 40. Metadata/Items/Gems/SkillGemDominatingAura
 
 - Match score: `75`
 - `k`: Metadata/Items/Gems/SkillGemDominatingAura
@@ -3511,7 +3427,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemDominatingAura","n":"Metadata/Items/Gems/SkillGemDominatingAura","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"[DNT-UNUSED] Dominating Aura","id":"Metadata/Items/Gems/SkillGemDominatingAura","release_state":"released"},"tags":["grants_active_skill","spell","minion","persistent","area","aura","duration"]}
 ```
 
-### 48. Metadata/Items/Gems/SkillGemShockwaveTotem
+### 41. Metadata/Items/Gems/SkillGemShockwaveTotem
 
 - Match score: `75`
 - `k`: Metadata/Items/Gems/SkillGemShockwaveTotem
@@ -3525,20 +3441,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemShockwaveTotem","n":"Metadata/Items/Gems/SkillGemShockwaveTotem","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Shockwave Totem","id":"Metadata/Items/Gems/SkillGemShockwaveTotem","release_state":"released"},"tags":["strength","grants_active_skill","attack","totem","area","melee","slam","duration","nova"]}
 ```
 
-### 49. Shockwave Totem
-
-- Match score: `75`
-- `k`: Metadata/Items/Gems/SkillGemShockwaveTotem
-- `n`: Shockwave Totem
-- `cat`: pob_gems
-- `src`: pob_data_poe2/Gems.json
-- `tags`: {"area":true,"attack":true,"duration":true,"grants_active_skill":true,"melee":true,"nova":true,"slam":true,"strength":true,"totem":true}
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemShockwaveTotem","n":"Shockwave Totem","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"area":true,"attack":true,"duration":true,"grants_active_skill":true,"melee":true,"nova":true,"slam":true,"strength":true,"totem":true}}
-```
-
-### 50. SupportAncestralWarriorTotemPlayer
+### 42. SupportAncestralWarriorTotemPlayer
 
 - Match score: `75`
 - `k`: SupportAncestralWarriorTotemPlayer
@@ -3552,7 +3455,7 @@ _No keyword matches in this index._
 {"k":"SupportAncestralWarriorTotemPlayer","n":"SupportAncestralWarriorTotemPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["UsedByTotem","UsedByProxy","SupportedByAncestralWarriorTotem"],"allowed_types":["Attack","Totemable","AND"],"excluded_types":["Meta","HasUsageCondition","Cooldown","Channel","Triggered","Persistent","UsedByProxy","SupportedByAncestralWarriorTotem","NOT","AND"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 51. SupportMetaTotemBallistaPlayer
+### 43. SupportMetaTotemBallistaPlayer
 
 - Match score: `75`
 - `k`: SupportMetaTotemBallistaPlayer
@@ -3566,7 +3469,7 @@ _No keyword matches in this index._
 {"k":"SupportMetaTotemBallistaPlayer","n":"SupportMetaTotemBallistaPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["UsedByTotem","UsedByProxy","SupportedByBallistaTotem"],"allowed_types":["RangedAttack"],"excluded_types":["Meta","HasUsageCondition","Cooldown","Triggered","Persistent","UsedByProxy","SupportedByBallistaTotem","NOT","AND"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 52. SupportMetaTotemSpellTotemPlayer
+### 44. SupportMetaTotemSpellTotemPlayer
 
 - Match score: `75`
 - `k`: SupportMetaTotemSpellTotemPlayer
@@ -3580,7 +3483,7 @@ _No keyword matches in this index._
 {"k":"SupportMetaTotemSpellTotemPlayer","n":"SupportMetaTotemSpellTotemPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["UsedByTotem","UsedByProxy","SupportedBySpellTotem"],"allowed_types":["Spell","Totemable","AND"],"excluded_types":["Meta","HasUsageCondition","Cooldown","Triggered","Persistent","UsedByProxy","SupportedBySpellTotem","NOT","AND"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 53. AuraDuration
+### 45. AuraDuration
 
 - Match score: `70`
 - `k`: 70
@@ -3592,7 +3495,7 @@ _No keyword matches in this index._
 {"k":"70","n":"AuraDuration","cat":"repoe_active_skill_types","src":"repoe_poe2/active_skill_types.json","v":"AuraDuration"}
 ```
 
-### 54. BaronBossMapShapeShiftFromWolf
+### 46. BaronBossMapShapeShiftFromWolf
 
 - Match score: `70`
 - `k`: BaronBossMapShapeShiftFromWolf
@@ -3605,7 +3508,7 @@ _No keyword matches in this index._
 {"k":"BaronBossMapShapeShiftFromWolf","n":"BaronBossMapShapeShiftFromWolf","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 55. BaronBossMapShapeShiftToWolf
+### 47. BaronBossMapShapeShiftToWolf
 
 - Match score: `70`
 - `k`: BaronBossMapShapeShiftToWolf
@@ -3618,7 +3521,7 @@ _No keyword matches in this index._
 {"k":"BaronBossMapShapeShiftToWolf","n":"BaronBossMapShapeShiftToWolf","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 56. BrambleHulkSlamTriggered
+### 48. BrambleHulkSlamTriggered
 
 - Match score: `70`
 - `k`: BrambleHulkSlamTriggered
@@ -3631,7 +3534,7 @@ _No keyword matches in this index._
 {"k":"BrambleHulkSlamTriggered","n":"BrambleHulkSlamTriggered","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 57. CannotSpiritStrike
+### 49. CannotSpiritStrike
 
 - Match score: `70`
 - `k`: 208
@@ -3643,7 +3546,7 @@ _No keyword matches in this index._
 {"k":"208","n":"CannotSpiritStrike","cat":"repoe_active_skill_types","src":"repoe_poe2/active_skill_types.json","v":"CannotSpiritStrike"}
 ```
 
-### 58. CGEArchitectBossRepulseSlamSlowZone
+### 50. CGEArchitectBossRepulseSlamSlowZone
 
 - Match score: `70`
 - `k`: CGEArchitectBossRepulseSlamSlowZone
@@ -3656,7 +3559,7 @@ _No keyword matches in this index._
 {"k":"CGEArchitectBossRepulseSlamSlowZone","n":"CGEArchitectBossRepulseSlamSlowZone","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 59. CGERitualWendigoBossHeadSlamDarkness
+### 51. CGERitualWendigoBossHeadSlamDarkness
 
 - Match score: `70`
 - `k`: CGERitualWendigoBossHeadSlamDarkness
@@ -3669,7 +3572,7 @@ _No keyword matches in this index._
 {"k":"CGERitualWendigoBossHeadSlamDarkness","n":"CGERitualWendigoBossHeadSlamDarkness","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 60. CGETangmazuMinionSlamBurn
+### 52. CGETangmazuMinionSlamBurn
 
 - Match score: `70`
 - `k`: CGETangmazuMinionSlamBurn
@@ -3682,7 +3585,7 @@ _No keyword matches in this index._
 {"k":"CGETangmazuMinionSlamBurn","n":"CGETangmazuMinionSlamBurn","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 61. ChaosArchitectProjectileNova
+### 53. ChaosArchitectProjectileNova
 
 - Match score: `70`
 - `k`: ChaosArchitectProjectileNova
@@ -3695,33 +3598,7 @@ _No keyword matches in this index._
 {"k":"ChaosArchitectProjectileNova","n":"ChaosArchitectProjectileNova","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 62. Cooldown Recovery I
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SkillGemCooldownRecoverySupport
-- `n`: Cooldown Recovery I
-- `cat`: pob_gems
-- `src`: pob_data_poe2/Gems.json
-- `tags`: {"support":true}
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemCooldownRecoverySupport","n":"Cooldown Recovery I","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"support":true}}
-```
-
-### 63. Cooldown Recovery II
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SkillGemCooldownRecoverySupportTwo
-- `n`: Cooldown Recovery II
-- `cat`: pob_gems
-- `src`: pob_data_poe2/Gems.json
-- `tags`: {"support":true}
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemCooldownRecoverySupportTwo","n":"Cooldown Recovery II","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"support":true}}
-```
-
-### 64. CourtesanMinionProjectile
+### 54. CourtesanMinionProjectile
 
 - Match score: `70`
 - `k`: CourtesanMinionProjectile
@@ -3734,7 +3611,7 @@ _No keyword matches in this index._
 {"k":"CourtesanMinionProjectile","n":"CourtesanMinionProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 65. CrowbellBellSlamTriggerGA1
+### 55. CrowbellBellSlamTriggerGA1
 
 - Match score: `70`
 - `k`: CrowbellBellSlamTriggerGA1
@@ -3747,7 +3624,7 @@ _No keyword matches in this index._
 {"k":"CrowbellBellSlamTriggerGA1","n":"CrowbellBellSlamTriggerGA1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 66. CrowbellBellSlamTriggerGA2
+### 56. CrowbellBellSlamTriggerGA2
 
 - Match score: `70`
 - `k`: CrowbellBellSlamTriggerGA2
@@ -3760,7 +3637,7 @@ _No keyword matches in this index._
 {"k":"CrowbellBellSlamTriggerGA2","n":"CrowbellBellSlamTriggerGA2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 67. CrowbellDoubleSlamTriggerGA1
+### 57. CrowbellDoubleSlamTriggerGA1
 
 - Match score: `70`
 - `k`: CrowbellDoubleSlamTriggerGA1
@@ -3773,7 +3650,7 @@ _No keyword matches in this index._
 {"k":"CrowbellDoubleSlamTriggerGA1","n":"CrowbellDoubleSlamTriggerGA1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 68. CrowbellDoubleSlamTriggerGA1Enraged
+### 58. CrowbellDoubleSlamTriggerGA1Enraged
 
 - Match score: `70`
 - `k`: CrowbellDoubleSlamTriggerGA1Enraged
@@ -3786,7 +3663,7 @@ _No keyword matches in this index._
 {"k":"CrowbellDoubleSlamTriggerGA1Enraged","n":"CrowbellDoubleSlamTriggerGA1Enraged","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 69. CrowbellDoubleSlamTriggerGA2
+### 59. CrowbellDoubleSlamTriggerGA2
 
 - Match score: `70`
 - `k`: CrowbellDoubleSlamTriggerGA2
@@ -3799,7 +3676,7 @@ _No keyword matches in this index._
 {"k":"CrowbellDoubleSlamTriggerGA2","n":"CrowbellDoubleSlamTriggerGA2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 70. CrowbellDoubleSlamTriggerGA2Enraged
+### 60. CrowbellDoubleSlamTriggerGA2Enraged
 
 - Match score: `70`
 - `k`: CrowbellDoubleSlamTriggerGA2Enraged
@@ -3812,7 +3689,7 @@ _No keyword matches in this index._
 {"k":"CrowbellDoubleSlamTriggerGA2Enraged","n":"CrowbellDoubleSlamTriggerGA2Enraged","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 71. CrowbellLeapSlamTriggerGA
+### 61. CrowbellLeapSlamTriggerGA
 
 - Match score: `70`
 - `k`: CrowbellLeapSlamTriggerGA
@@ -3825,7 +3702,7 @@ _No keyword matches in this index._
 {"k":"CrowbellLeapSlamTriggerGA","n":"CrowbellLeapSlamTriggerGA","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 72. CTS5ChimeraBossGroundToOffscreenNoCooldown
+### 62. CTS5ChimeraBossGroundToOffscreenNoCooldown
 
 - Match score: `70`
 - `k`: CTS5ChimeraBossGroundToOffscreenNoCooldown
@@ -3838,7 +3715,7 @@ _No keyword matches in this index._
 {"k":"CTS5ChimeraBossGroundToOffscreenNoCooldown","n":"CTS5ChimeraBossGroundToOffscreenNoCooldown","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 73. DeceleratingProjectileDeliriumMinion
+### 63. DeceleratingProjectileDeliriumMinion
 
 - Match score: `70`
 - `k`: DeceleratingProjectileDeliriumMinion
@@ -3851,7 +3728,7 @@ _No keyword matches in this index._
 {"k":"DeceleratingProjectileDeliriumMinion","n":"DeceleratingProjectileDeliriumMinion","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 74. DeceleratingProjectileDeliriumMinionExplode
+### 64. DeceleratingProjectileDeliriumMinionExplode
 
 - Match score: `70`
 - `k`: DeceleratingProjectileDeliriumMinionExplode
@@ -3864,7 +3741,7 @@ _No keyword matches in this index._
 {"k":"DeceleratingProjectileDeliriumMinionExplode","n":"DeceleratingProjectileDeliriumMinionExplode","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 75. DeceleratingProjectileDwarvenBossSmoke
+### 65. DeceleratingProjectileDwarvenBossSmoke
 
 - Match score: `70`
 - `k`: DeceleratingProjectileDwarvenBossSmoke
@@ -3877,7 +3754,7 @@ _No keyword matches in this index._
 {"k":"DeceleratingProjectileDwarvenBossSmoke","n":"DeceleratingProjectileDwarvenBossSmoke","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 76. DeceleratingProjectileSerpentClanBoss
+### 66. DeceleratingProjectileSerpentClanBoss
 
 - Match score: `70`
 - `k`: DeceleratingProjectileSerpentClanBoss
@@ -3890,7 +3767,7 @@ _No keyword matches in this index._
 {"k":"DeceleratingProjectileSerpentClanBoss","n":"DeceleratingProjectileSerpentClanBoss","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 77. DeceleratingProjectileSerpentClanBossIdleForImpact
+### 67. DeceleratingProjectileSerpentClanBossIdleForImpact
 
 - Match score: `70`
 - `k`: DeceleratingProjectileSerpentClanBossIdleForImpact
@@ -3903,7 +3780,7 @@ _No keyword matches in this index._
 {"k":"DeceleratingProjectileSerpentClanBossIdleForImpact","n":"DeceleratingProjectileSerpentClanBossIdleForImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 78. DeceleratingProjectileSerpentClanSanctumEliteTriggered
+### 68. DeceleratingProjectileSerpentClanSanctumEliteTriggered
 
 - Match score: `70`
 - `k`: DeceleratingProjectileSerpentClanSanctumEliteTriggered
@@ -3916,7 +3793,7 @@ _No keyword matches in this index._
 {"k":"DeceleratingProjectileSerpentClanSanctumEliteTriggered","n":"DeceleratingProjectileSerpentClanSanctumEliteTriggered","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 79. DeliriumBossPhysLeapSlam
+### 69. DeliriumBossPhysLeapSlam
 
 - Match score: `70`
 - `k`: DeliriumBossPhysLeapSlam
@@ -3929,7 +3806,7 @@ _No keyword matches in this index._
 {"k":"DeliriumBossPhysLeapSlam","n":"DeliriumBossPhysLeapSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 80. DeliriumMinionDemonProjectile
+### 70. DeliriumMinionDemonProjectile
 
 - Match score: `70`
 - `k`: DeliriumMinionDemonProjectile
@@ -3942,7 +3819,7 @@ _No keyword matches in this index._
 {"k":"DeliriumMinionDemonProjectile","n":"DeliriumMinionDemonProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 81. DeliriumMinionLeapSlam
+### 71. DeliriumMinionLeapSlam
 
 - Match score: `70`
 - `k`: DeliriumMinionLeapSlam
@@ -3955,7 +3832,7 @@ _No keyword matches in this index._
 {"k":"DeliriumMinionLeapSlam","n":"DeliriumMinionLeapSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 82. DeliriumMinionPhysSlamCircleBig
+### 72. DeliriumMinionPhysSlamCircleBig
 
 - Match score: `70`
 - `k`: DeliriumMinionPhysSlamCircleBig
@@ -3968,7 +3845,7 @@ _No keyword matches in this index._
 {"k":"DeliriumMinionPhysSlamCircleBig","n":"DeliriumMinionPhysSlamCircleBig","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 83. DeliriumMinionPhysSlamCircleRectangle
+### 73. DeliriumMinionPhysSlamCircleRectangle
 
 - Match score: `70`
 - `k`: DeliriumMinionPhysSlamCircleRectangle
@@ -3981,7 +3858,7 @@ _No keyword matches in this index._
 {"k":"DeliriumMinionPhysSlamCircleRectangle","n":"DeliriumMinionPhysSlamCircleRectangle","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 84. DeliriumMinionPhysSlamCircleSmall
+### 74. DeliriumMinionPhysSlamCircleSmall
 
 - Match score: `70`
 - `k`: DeliriumMinionPhysSlamCircleSmall
@@ -3994,7 +3871,7 @@ _No keyword matches in this index._
 {"k":"DeliriumMinionPhysSlamCircleSmall","n":"DeliriumMinionPhysSlamCircleSmall","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 85. DeliriumMinionSpawnNova
+### 75. DeliriumMinionSpawnNova
 
 - Match score: `70`
 - `k`: DeliriumMinionSpawnNova
@@ -4007,7 +3884,7 @@ _No keyword matches in this index._
 {"k":"DeliriumMinionSpawnNova","n":"DeliriumMinionSpawnNova","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 86. DeliriumNoodleMinionTriggerBeam
+### 76. DeliriumNoodleMinionTriggerBeam
 
 - Match score: `70`
 - `k`: DeliriumNoodleMinionTriggerBeam
@@ -4020,7 +3897,7 @@ _No keyword matches in this index._
 {"k":"DeliriumNoodleMinionTriggerBeam","n":"DeliriumNoodleMinionTriggerBeam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 87. DeliriumPhysBossGeometryAttackGroundSlam1
+### 77. DeliriumPhysBossGeometryAttackGroundSlam1
 
 - Match score: `70`
 - `k`: DeliriumPhysBossGeometryAttackGroundSlam1
@@ -4033,7 +3910,7 @@ _No keyword matches in this index._
 {"k":"DeliriumPhysBossGeometryAttackGroundSlam1","n":"DeliriumPhysBossGeometryAttackGroundSlam1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 88. DeliriumPhysBossGeometryAttackGroundSlam2
+### 78. DeliriumPhysBossGeometryAttackGroundSlam2
 
 - Match score: `70`
 - `k`: DeliriumPhysBossGeometryAttackGroundSlam2
@@ -4046,7 +3923,7 @@ _No keyword matches in this index._
 {"k":"DeliriumPhysBossGeometryAttackGroundSlam2","n":"DeliriumPhysBossGeometryAttackGroundSlam2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 89. DeliriumPhysBossGeometryAttackLeapSlam1
+### 79. DeliriumPhysBossGeometryAttackLeapSlam1
 
 - Match score: `70`
 - `k`: DeliriumPhysBossGeometryAttackLeapSlam1
@@ -4059,7 +3936,7 @@ _No keyword matches in this index._
 {"k":"DeliriumPhysBossGeometryAttackLeapSlam1","n":"DeliriumPhysBossGeometryAttackLeapSlam1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 90. DeliriumPhysBossGeometryAttackMultiSlam1
+### 80. DeliriumPhysBossGeometryAttackMultiSlam1
 
 - Match score: `70`
 - `k`: DeliriumPhysBossGeometryAttackMultiSlam1
@@ -4072,7 +3949,7 @@ _No keyword matches in this index._
 {"k":"DeliriumPhysBossGeometryAttackMultiSlam1","n":"DeliriumPhysBossGeometryAttackMultiSlam1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 91. DeliriumPhysBossGeometryAttackMultiSlam2
+### 81. DeliriumPhysBossGeometryAttackMultiSlam2
 
 - Match score: `70`
 - `k`: DeliriumPhysBossGeometryAttackMultiSlam2
@@ -4085,7 +3962,7 @@ _No keyword matches in this index._
 {"k":"DeliriumPhysBossGeometryAttackMultiSlam2","n":"DeliriumPhysBossGeometryAttackMultiSlam2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 92. DeliriumPhysBossMeleeSlam
+### 82. DeliriumPhysBossMeleeSlam
 
 - Match score: `70`
 - `k`: DeliriumPhysBossMeleeSlam
@@ -4098,7 +3975,7 @@ _No keyword matches in this index._
 {"k":"DeliriumPhysBossMeleeSlam","n":"DeliriumPhysBossMeleeSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 93. DemonHulkSlamTriggered
+### 83. DemonHulkSlamTriggered
 
 - Match score: `70`
 - `k`: DemonHulkSlamTriggered
@@ -4111,7 +3988,7 @@ _No keyword matches in this index._
 {"k":"DemonHulkSlamTriggered","n":"DemonHulkSlamTriggered","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 94. DTTKaruiCaptainBossLeapSlam
+### 84. DTTKaruiCaptainBossLeapSlam
 
 - Match score: `70`
 - `k`: DTTKaruiCaptainBossLeapSlam
@@ -4124,7 +4001,7 @@ _No keyword matches in this index._
 {"k":"DTTKaruiCaptainBossLeapSlam","n":"DTTKaruiCaptainBossLeapSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 95. DTTWildBreachBossLeapSlam
+### 85. DTTWildBreachBossLeapSlam
 
 - Match score: `70`
 - `k`: DTTWildBreachBossLeapSlam
@@ -4137,7 +4014,7 @@ _No keyword matches in this index._
 {"k":"DTTWildBreachBossLeapSlam","n":"DTTWildBreachBossLeapSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 96. DTTYamaCloneTotemSlam
+### 86. DTTYamaCloneTotemSlam
 
 - Match score: `70`
 - `k`: DTTYamaCloneTotemSlam
@@ -4150,7 +4027,7 @@ _No keyword matches in this index._
 {"k":"DTTYamaCloneTotemSlam","n":"DTTYamaCloneTotemSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 97. EAABreachBossHandSlamPuppeteer
+### 87. EAABreachBossHandSlamPuppeteer
 
 - Match score: `70`
 - `k`: EAABreachBossHandSlamPuppeteer
@@ -4163,7 +4040,7 @@ _No keyword matches in this index._
 {"k":"EAABreachBossHandSlamPuppeteer","n":"EAABreachBossHandSlamPuppeteer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 98. EAADemonClawBossChasmSlamLong
+### 88. EAADemonClawBossChasmSlamLong
 
 - Match score: `70`
 - `k`: EAADemonClawBossChasmSlamLong
@@ -4176,7 +4053,7 @@ _No keyword matches in this index._
 {"k":"EAADemonClawBossChasmSlamLong","n":"EAADemonClawBossChasmSlamLong","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 99. EAADemonClawBossChasmSlamMid
+### 89. EAADemonClawBossChasmSlamMid
 
 - Match score: `70`
 - `k`: EAADemonClawBossChasmSlamMid
@@ -4189,7 +4066,7 @@ _No keyword matches in this index._
 {"k":"EAADemonClawBossChasmSlamMid","n":"EAADemonClawBossChasmSlamMid","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 100. EAADemonClawBossChasmSlamShort
+### 90. EAADemonClawBossChasmSlamShort
 
 - Match score: `70`
 - `k`: EAADemonClawBossChasmSlamShort
@@ -4202,7 +4079,7 @@ _No keyword matches in this index._
 {"k":"EAADemonClawBossChasmSlamShort","n":"EAADemonClawBossChasmSlamShort","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 101. EAADemonClawBossJumpSlamCombo
+### 91. EAADemonClawBossJumpSlamCombo
 
 - Match score: `70`
 - `k`: EAADemonClawBossJumpSlamCombo
@@ -4215,7 +4092,7 @@ _No keyword matches in this index._
 {"k":"EAADemonClawBossJumpSlamCombo","n":"EAADemonClawBossJumpSlamCombo","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 102. EAADemonClawBossMeleeSlamSeeds
+### 92. EAADemonClawBossMeleeSlamSeeds
 
 - Match score: `70`
 - `k`: EAADemonClawBossMeleeSlamSeeds
@@ -4228,7 +4105,7 @@ _No keyword matches in this index._
 {"k":"EAADemonClawBossMeleeSlamSeeds","n":"EAADemonClawBossMeleeSlamSeeds","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 103. EAAGiantSnakeBossMultiSlam
+### 93. EAAGiantSnakeBossMultiSlam
 
 - Match score: `70`
 - `k`: EAAGiantSnakeBossMultiSlam
@@ -4241,7 +4118,7 @@ _No keyword matches in this index._
 {"k":"EAAGiantSnakeBossMultiSlam","n":"EAAGiantSnakeBossMultiSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 104. EAAHellscapeDemonBossFissureSlam
+### 94. EAAHellscapeDemonBossFissureSlam
 
 - Match score: `70`
 - `k`: EAAHellscapeDemonBossFissureSlam
@@ -4254,7 +4131,7 @@ _No keyword matches in this index._
 {"k":"EAAHellscapeDemonBossFissureSlam","n":"EAAHellscapeDemonBossFissureSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 105. EAAKaruiCaptainBoss2LeapSlam
+### 95. EAAKaruiCaptainBoss2LeapSlam
 
 - Match score: `70`
 - `k`: EAAKaruiCaptainBoss2LeapSlam
@@ -4267,7 +4144,7 @@ _No keyword matches in this index._
 {"k":"EAAKaruiCaptainBoss2LeapSlam","n":"EAAKaruiCaptainBoss2LeapSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 106. EAAKaruiCaptainBoss2SlamCombo
+### 96. EAAKaruiCaptainBoss2SlamCombo
 
 - Match score: `70`
 - `k`: EAAKaruiCaptainBoss2SlamCombo
@@ -4280,7 +4157,7 @@ _No keyword matches in this index._
 {"k":"EAAKaruiCaptainBoss2SlamCombo","n":"EAAKaruiCaptainBoss2SlamCombo","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 107. EAAKaruiCaptainBoss3JuicedUpSlamStart
+### 97. EAAKaruiCaptainBoss3JuicedUpSlamStart
 
 - Match score: `70`
 - `k`: EAAKaruiCaptainBoss3JuicedUpSlamStart
@@ -4293,7 +4170,7 @@ _No keyword matches in this index._
 {"k":"EAAKaruiCaptainBoss3JuicedUpSlamStart","n":"EAAKaruiCaptainBoss3JuicedUpSlamStart","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 108. EAAKaruiCaptainBossRollingSlamCombo
+### 98. EAAKaruiCaptainBossRollingSlamCombo
 
 - Match score: `70`
 - `k`: EAAKaruiCaptainBossRollingSlamCombo
@@ -4306,7 +4183,7 @@ _No keyword matches in this index._
 {"k":"EAAKaruiCaptainBossRollingSlamCombo","n":"EAAKaruiCaptainBossRollingSlamCombo","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 109. EAAKulemakBossDoubleSlam
+### 99. EAAKulemakBossDoubleSlam
 
 - Match score: `70`
 - `k`: EAAKulemakBossDoubleSlam
@@ -4319,7 +4196,7 @@ _No keyword matches in this index._
 {"k":"EAAKulemakBossDoubleSlam","n":"EAAKulemakBossDoubleSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 110. EAAMarakethSentinelMaceBossMarkerSlam
+### 100. EAAMarakethSentinelMaceBossMarkerSlam
 
 - Match score: `70`
 - `k`: EAAMarakethSentinelMaceBossMarkerSlam
@@ -4332,7 +4209,7 @@ _No keyword matches in this index._
 {"k":"EAAMarakethSentinelMaceBossMarkerSlam","n":"EAAMarakethSentinelMaceBossMarkerSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 111. EAAMarakethSentinelMaceBossMultiSlam
+### 101. EAAMarakethSentinelMaceBossMultiSlam
 
 - Match score: `70`
 - `k`: EAAMarakethSentinelMaceBossMultiSlam
@@ -4345,7 +4222,7 @@ _No keyword matches in this index._
 {"k":"EAAMarakethSentinelMaceBossMultiSlam","n":"EAAMarakethSentinelMaceBossMultiSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 112. EAAMarakethSentinelUnarmedBossFootSlam
+### 102. EAAMarakethSentinelUnarmedBossFootSlam
 
 - Match score: `70`
 - `k`: EAAMarakethSentinelUnarmedBossFootSlam
@@ -4358,7 +4235,7 @@ _No keyword matches in this index._
 {"k":"EAAMarakethSentinelUnarmedBossFootSlam","n":"EAAMarakethSentinelUnarmedBossFootSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 113. EAAQuadrillaBossSlam
+### 103. EAAQuadrillaBossSlam
 
 - Match score: `70`
 - `k`: EAAQuadrillaBossSlam
@@ -4371,7 +4248,7 @@ _No keyword matches in this index._
 {"k":"EAAQuadrillaBossSlam","n":"EAAQuadrillaBossSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 114. EAASoulCoreQuadrillaBossSlam
+### 104. EAASoulCoreQuadrillaBossSlam
 
 - Match score: `70`
 - `k`: EAASoulCoreQuadrillaBossSlam
@@ -4384,7 +4261,7 @@ _No keyword matches in this index._
 {"k":"EAASoulCoreQuadrillaBossSlam","n":"EAASoulCoreQuadrillaBossSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 115. EAATormentedSpiritoftheBearSlam
+### 105. EAATormentedSpiritoftheBearSlam
 
 - Match score: `70`
 - `k`: EAATormentedSpiritoftheBearSlam
@@ -4397,7 +4274,7 @@ _No keyword matches in this index._
 {"k":"EAATormentedSpiritoftheBearSlam","n":"EAATormentedSpiritoftheBearSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 116. EAAVaalSentinelBossMarkerSlam
+### 106. EAAVaalSentinelBossMarkerSlam
 
 - Match score: `70`
 - `k`: EAAVaalSentinelBossMarkerSlam
@@ -4410,7 +4287,7 @@ _No keyword matches in this index._
 {"k":"EAAVaalSentinelBossMarkerSlam","n":"EAAVaalSentinelBossMarkerSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 117. EAAVaalSentinelUnarmedBossFootSlam
+### 107. EAAVaalSentinelUnarmedBossFootSlam
 
 - Match score: `70`
 - `k`: EAAVaalSentinelUnarmedBossFootSlam
@@ -4423,7 +4300,7 @@ _No keyword matches in this index._
 {"k":"EAAVaalSentinelUnarmedBossFootSlam","n":"EAAVaalSentinelUnarmedBossFootSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 118. EAAVolcanicMinibossFissureSlams
+### 108. EAAVolcanicMinibossFissureSlams
 
 - Match score: `70`
 - `k`: EAAVolcanicMinibossFissureSlams
@@ -4436,7 +4313,7 @@ _No keyword matches in this index._
 {"k":"EAAVolcanicMinibossFissureSlams","n":"EAAVolcanicMinibossFissureSlams","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 119. EASArenaBeastBossFissureSlams
+### 109. EASArenaBeastBossFissureSlams
 
 - Match score: `70`
 - `k`: EASArenaBeastBossFissureSlams
@@ -4449,7 +4326,7 @@ _No keyword matches in this index._
 {"k":"EASArenaBeastBossFissureSlams","n":"EASArenaBeastBossFissureSlams","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 120. EASArenaBeastBossFissureSlamsPoEM
+### 110. EASArenaBeastBossFissureSlamsPoEM
 
 - Match score: `70`
 - `k`: EASArenaBeastBossFissureSlamsPoEM
@@ -4460,6 +4337,136 @@ _No keyword matches in this index._
 
 ```json
 {"k":"EASArenaBeastBossFissureSlamsPoEM","n":"EASArenaBeastBossFissureSlamsPoEM","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 111. EASBreachBossHandSlam
+
+- Match score: `70`
+- `k`: EASBreachBossHandSlam
+- `n`: EASBreachBossHandSlam
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"EASBreachBossHandSlam","n":"EASBreachBossHandSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 112. EASCarnivorousPlantBossHammerSlam
+
+- Match score: `70`
+- `k`: EASCarnivorousPlantBossHammerSlam
+- `n`: EASCarnivorousPlantBossHammerSlam
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"EASCarnivorousPlantBossHammerSlam","n":"EASCarnivorousPlantBossHammerSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 113. EASConsumeBossDarknessSlam
+
+- Match score: `70`
+- `k`: EASConsumeBossDarknessSlam
+- `n`: EASConsumeBossDarknessSlam
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"EASConsumeBossDarknessSlam","n":"EASConsumeBossDarknessSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 114. EASDoomBossMinionPhase
+
+- Match score: `70`
+- `k`: EASDoomBossMinionPhase
+- `n`: EASDoomBossMinionPhase
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"EASDoomBossMinionPhase","n":"EASDoomBossMinionPhase","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 115. EASDwarvenPipeBossSummonMinions
+
+- Match score: `70`
+- `k`: EASDwarvenPipeBossSummonMinions
+- `n`: EASDwarvenPipeBossSummonMinions
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"EASDwarvenPipeBossSummonMinions","n":"EASDwarvenPipeBossSummonMinions","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 116. EASFallenGodBossGigaSlam
+
+- Match score: `70`
+- `k`: EASFallenGodBossGigaSlam
+- `n`: EASFallenGodBossGigaSlam
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"EASFallenGodBossGigaSlam","n":"EASFallenGodBossGigaSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 117. EASFallenGodBossMinionAddBuff
+
+- Match score: `70`
+- `k`: EASFallenGodBossMinionAddBuff
+- `n`: EASFallenGodBossMinionAddBuff
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"EASFallenGodBossMinionAddBuff","n":"EASFallenGodBossMinionAddBuff","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 118. EASFallenGodBossMinionRerollBuff
+
+- Match score: `70`
+- `k`: EASFallenGodBossMinionRerollBuff
+- `n`: EASFallenGodBossMinionRerollBuff
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"EASFallenGodBossMinionRerollBuff","n":"EASFallenGodBossMinionRerollBuff","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 119. EASFallenGodBossMinionResurrection
+
+- Match score: `70`
+- `k`: EASFallenGodBossMinionResurrection
+- `n`: EASFallenGodBossMinionResurrection
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"EASFallenGodBossMinionResurrection","n":"EASFallenGodBossMinionResurrection","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 120. EASFallenGodBossMinionSiphonHeal
+
+- Match score: `70`
+- `k`: EASFallenGodBossMinionSiphonHeal
+- `n`: EASFallenGodBossMinionSiphonHeal
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"EASFallenGodBossMinionSiphonHeal","n":"EASFallenGodBossMinionSiphonHeal","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
 ## Item bases/classes
@@ -6058,19 +6065,7 @@ _No keyword matches in this index._
 {"k":"UltimatumUniqueMapAreaProjectileSpeed","n":"UltimatumUniqueMapAreaProjectileSpeed","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_ultimatum_unique_map_boss_area_projectile_speed","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 5. GenesisTreeRingMinionCooldownRecoveryCrafted
-
-- Match score: `105`
-- `k`: GenesisTreeRingMinionCooldownRecoveryCrafted
-- `n`: GenesisTreeRingMinionCooldownRecoveryCrafted
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"GenesisTreeRingMinionCooldownRecoveryCrafted","n":"GenesisTreeRingMinionCooldownRecoveryCrafted","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
-```
-
-### 6. MapAreaContainsInvasionBosses
+### 5. MapAreaContainsInvasionBosses
 
 - Match score: `105`
 - `k`: MapAreaContainsInvasionBosses
@@ -6086,7 +6081,7 @@ _No keyword matches in this index._
 {"k":"MapAreaContainsInvasionBosses","n":"MapAreaContainsInvasionBosses","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_num_extra_invasion_bosses","max":5,"min":5},{"id":"dummy_stat_display_nothing","max":0,"min":0},{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_extra_content_weighting","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 7. MapAreaContainsTormentedSpirits
+### 6. MapAreaContainsTormentedSpirits
 
 - Match score: `105`
 - `k`: MapAreaContainsTormentedSpirits
@@ -6102,7 +6097,7 @@ _No keyword matches in this index._
 {"k":"MapAreaContainsTormentedSpirits","n":"MapAreaContainsTormentedSpirits","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_spawn_extra_torment_spirits","max":5,"min":5},{"id":"map_extra_content_weighting","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 8. MapBossLessIgnitePoisonBleedDuration
+### 7. MapBossLessIgnitePoisonBleedDuration
 
 - Match score: `105`
 - `k`: MapBossLessIgnitePoisonBleedDuration
@@ -6118,7 +6113,7 @@ _No keyword matches in this index._
 {"k":"MapBossLessIgnitePoisonBleedDuration","n":"MapBossLessIgnitePoisonBleedDuration","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"self_ignite_duration_+%_final","max":-50,"min":-50},{"id":"self_bleed_duration_+%_final","max":-50,"min":-50},{"id":"self_poison_duration_+%_final","max":-50,"min":-50}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 9. MapBossSurroundedByTormentedSpirits
+### 8. MapBossSurroundedByTormentedSpirits
 
 - Match score: `105`
 - `k`: MapBossSurroundedByTormentedSpirits
@@ -6134,7 +6129,7 @@ _No keyword matches in this index._
 {"k":"MapBossSurroundedByTormentedSpirits","n":"MapBossSurroundedByTormentedSpirits","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_boss_surrounded_by_tormented_spirits","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 10. MonsterAuraSlowTotemDaemonUniqueMap1
+### 9. MonsterAuraSlowTotemDaemonUniqueMap1
 
 - Match score: `105`
 - `k`: MonsterAuraSlowTotemDaemonUniqueMap1
@@ -6149,7 +6144,7 @@ _No keyword matches in this index._
 {"k":"MonsterAuraSlowTotemDaemonUniqueMap1","n":"MonsterAuraSlowTotemDaemonUniqueMap1","cat":"repoe_mods","src":"repoe_poe2/mods.json","domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 11. MonsterTotemLifeMapBoss
+### 10. MonsterTotemLifeMapBoss
 
 - Match score: `105`
 - `k`: MonsterTotemLifeMapBoss
@@ -6165,7 +6160,46 @@ _No keyword matches in this index._
 {"k":"MonsterTotemLifeMapBoss","n":"MonsterTotemLifeMapBoss","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"totem_life_+%","max":857,"min":857}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 12. TauntImmunityDurationMapBoss
+### 11. SupportedBySpiritStrikeAreaUber1_
+
+- Match score: `105`
+- `k`: SupportedBySpiritStrikeAreaUber1_
+- `n`: SupportedBySpiritStrikeAreaUber1_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["has_attack_mod"]
+
+```json
+{"k":"SupportedBySpiritStrikeAreaUber1_","n":"SupportedBySpiritStrikeAreaUber1_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["has_attack_mod"],"level":68}
+```
+
+### 12. SupportedBySpiritStrikeAreaUber2
+
+- Match score: `105`
+- `k`: SupportedBySpiritStrikeAreaUber2
+- `n`: SupportedBySpiritStrikeAreaUber2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["has_attack_mod"]
+
+```json
+{"k":"SupportedBySpiritStrikeAreaUber2","n":"SupportedBySpiritStrikeAreaUber2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["has_attack_mod"],"level":75}
+```
+
+### 13. SupportedBySpiritStrikeAreaUber3
+
+- Match score: `105`
+- `k`: SupportedBySpiritStrikeAreaUber3
+- `n`: SupportedBySpiritStrikeAreaUber3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["has_attack_mod"]
+
+```json
+{"k":"SupportedBySpiritStrikeAreaUber3","n":"SupportedBySpiritStrikeAreaUber3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["has_attack_mod"],"level":80}
+```
+
+### 14. TauntImmunityDurationMapBoss
 
 - Match score: `105`
 - `k`: TauntImmunityDurationMapBoss
@@ -6181,7 +6215,7 @@ _No keyword matches in this index._
 {"k":"TauntImmunityDurationMapBoss","n":"TauntImmunityDurationMapBoss","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"cannot_be_taunted_when_taunted_ms","max":0,"min":0}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 13. TauntImmunityDurationMapBossUber
+### 15. TauntImmunityDurationMapBossUber
 
 - Match score: `105`
 - `k`: TauntImmunityDurationMapBossUber
@@ -6197,7 +6231,7 @@ _No keyword matches in this index._
 {"k":"TauntImmunityDurationMapBossUber","n":"TauntImmunityDurationMapBossUber","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"cannot_be_taunted_when_taunted_ms","max":8000,"min":8000}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 14. TotemHasMovementSkillDamageAuraText
+### 16. TotemHasMovementSkillDamageAuraText
 
 - Match score: `105`
 - `k`: TotemHasMovementSkillDamageAuraText
@@ -6213,7 +6247,7 @@ _No keyword matches in this index._
 {"k":"TotemHasMovementSkillDamageAuraText","n":"TotemHasMovementSkillDamageAuraText","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_has_movement_skill_damage_aura_text","max":1,"min":1}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 15. TotemHasTemporalChainsAuraText
+### 17. TotemHasTemporalChainsAuraText
 
 - Match score: `105`
 - `k`: TotemHasTemporalChainsAuraText
@@ -6229,7 +6263,43 @@ _No keyword matches in this index._
 {"k":"TotemHasTemporalChainsAuraText","n":"TotemHasTemporalChainsAuraText","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_has_temporal_chains_aura_text","max":1,"min":1}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 16. DexMissionRhoaBossMinionCausticCloudOnDeath
+### 18. TrapCooldownRecoveryAndDurationEnhancedLevel50Mod__
+
+- Match score: `105`
+- `k`: TrapCooldownRecoveryAndDurationEnhancedLevel50Mod__
+- `n`: TrapCooldownRecoveryAndDurationEnhancedLevel50Mod__
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"TrapCooldownRecoveryAndDurationEnhancedLevel50Mod__","n":"TrapCooldownRecoveryAndDurationEnhancedLevel50Mod__","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":50}
+```
+
+### 19. TrapCooldownRecoveryAndDurationEnhancedMod
+
+- Match score: `105`
+- `k`: TrapCooldownRecoveryAndDurationEnhancedMod
+- `n`: TrapCooldownRecoveryAndDurationEnhancedMod
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"TrapCooldownRecoveryAndDurationEnhancedMod","n":"TrapCooldownRecoveryAndDurationEnhancedMod","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
+```
+
+### 20. TrapCooldownRecoveryAndDurationTwoHandEnhancedLevel50Mod
+
+- Match score: `105`
+- `k`: TrapCooldownRecoveryAndDurationTwoHandEnhancedLevel50Mod
+- `n`: TrapCooldownRecoveryAndDurationTwoHandEnhancedLevel50Mod
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"TrapCooldownRecoveryAndDurationTwoHandEnhancedLevel50Mod","n":"TrapCooldownRecoveryAndDurationTwoHandEnhancedLevel50Mod","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":50}
+```
+
+### 21. DexMissionRhoaBossMinionCausticCloudOnDeath
 
 - Match score: `100`
 - `k`: DexMissionRhoaBossMinionCausticCloudOnDeath
@@ -6245,7 +6315,7 @@ _No keyword matches in this index._
 {"k":"DexMissionRhoaBossMinionCausticCloudOnDeath","n":"DexMissionRhoaBossMinionCausticCloudOnDeath","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_caustic_cloud_on_death_%_max_damage_to_deal_per_minute","max":800,"min":800},{"id":"monster_caustic_cloud_on_death_base_area_of_effect_radius","max":12,"min":12},{"id":"monster_ground_effect_on_death_base_duration_ms","max":3000,"min":3000}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 17. MapMassiveBossIncursionTemple1
+### 22. MapMassiveBossIncursionTemple1
 
 - Match score: `90`
 - `k`: MapMassiveBossIncursionTemple1
@@ -6261,7 +6331,7 @@ _No keyword matches in this index._
 {"k":"MapMassiveBossIncursionTemple1","n":"MapMassiveBossIncursionTemple1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":20,"min":20},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_pack_size_+%","max":0,"min":0},{"id":"map_boss_maximum_life_+%","max":15,"min":15},{"id":"map_packs_are_mechanical_totems","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 18. MapMassiveBossIncursionTemple2
+### 23. MapMassiveBossIncursionTemple2
 
 - Match score: `90`
 - `k`: MapMassiveBossIncursionTemple2
@@ -6277,7 +6347,7 @@ _No keyword matches in this index._
 {"k":"MapMassiveBossIncursionTemple2","n":"MapMassiveBossIncursionTemple2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":40,"min":40},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_pack_size_+%","max":0,"min":0},{"id":"map_boss_maximum_life_+%","max":25,"min":25},{"id":"map_packs_are_mechanical_totems","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 19. MapMassiveBossIncursionTemple3
+### 24. MapMassiveBossIncursionTemple3
 
 - Match score: `90`
 - `k`: MapMassiveBossIncursionTemple3
@@ -6293,7 +6363,7 @@ _No keyword matches in this index._
 {"k":"MapMassiveBossIncursionTemple3","n":"MapMassiveBossIncursionTemple3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":60,"min":60},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_pack_size_+%","max":0,"min":0},{"id":"map_boss_maximum_life_+%","max":35,"min":35},{"id":"map_packs_are_mechanical_totems","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 20. UltimatumUniqueMapAurasAffectAllies
+### 25. UltimatumUniqueMapAurasAffectAllies
 
 - Match score: `90`
 - `k`: UltimatumUniqueMapAurasAffectAllies
@@ -6309,7 +6379,7 @@ _No keyword matches in this index._
 {"k":"UltimatumUniqueMapAurasAffectAllies","n":"UltimatumUniqueMapAurasAffectAllies","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_ultimatum_unique_map_boss_auras_affect_allies","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 21. UltimatumUniqueMapCooldownSpeed
+### 26. UltimatumUniqueMapCooldownSpeed
 
 - Match score: `90`
 - `k`: UltimatumUniqueMapCooldownSpeed
@@ -6325,7 +6395,7 @@ _No keyword matches in this index._
 {"k":"UltimatumUniqueMapCooldownSpeed","n":"UltimatumUniqueMapCooldownSpeed","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_ultimatum_unique_map_boss_cooldown_speed","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 22. UltimatumUniqueMapElementalTotem
+### 27. UltimatumUniqueMapElementalTotem
 
 - Match score: `90`
 - `k`: UltimatumUniqueMapElementalTotem
@@ -6341,7 +6411,7 @@ _No keyword matches in this index._
 {"k":"UltimatumUniqueMapElementalTotem","n":"UltimatumUniqueMapElementalTotem","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_ultimatum_unique_map_boss_elemental_totem","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 23. UltimatumUniqueMapPhysicalTotem
+### 28. UltimatumUniqueMapPhysicalTotem
 
 - Match score: `90`
 - `k`: UltimatumUniqueMapPhysicalTotem
@@ -6357,7 +6427,7 @@ _No keyword matches in this index._
 {"k":"UltimatumUniqueMapPhysicalTotem","n":"UltimatumUniqueMapPhysicalTotem","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_ultimatum_unique_map_boss_physical_totem","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 24. UltimatumUniqueMapRecoveryReduction
+### 29. UltimatumUniqueMapRecoveryReduction
 
 - Match score: `90`
 - `k`: UltimatumUniqueMapRecoveryReduction
@@ -6373,7 +6443,7 @@ _No keyword matches in this index._
 {"k":"UltimatumUniqueMapRecoveryReduction","n":"UltimatumUniqueMapRecoveryReduction","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_ultimatum_unique_map_boss_recovery_reduction","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 25. BestiarySpiritBossFerocity
+### 30. BestiarySpiritBossFerocity
 
 - Match score: `80`
 - `k`: BestiarySpiritBossFerocity
@@ -6389,7 +6459,7 @@ _No keyword matches in this index._
 {"k":"BestiarySpiritBossFerocity","n":"BestiarySpiritBossFerocity","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%","max":0,"min":0},{"id":"attack_speed_+%","max":20,"min":20},{"id":"base_movement_velocity_+%","max":40,"min":40},{"id":"base_damage_taken_+%","max":-25,"min":-25}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 26. BlackguardZombieBossSideAreaSpeedStance
+### 31. BlackguardZombieBossSideAreaSpeedStance
 
 - Match score: `80`
 - `k`: BlackguardZombieBossSideAreaSpeedStance
@@ -6405,7 +6475,7 @@ _No keyword matches in this index._
 {"k":"BlackguardZombieBossSideAreaSpeedStance","n":"BlackguardZombieBossSideAreaSpeedStance","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"stance_movement_speed_+%_final","max":600,"min":600},{"id":"attack_speed_+%","max":150,"min":150}],"domain":"monster","gen":"unique","lvl":0}
 ```
 
-### 27. DemonBossSideAreaEnrageOnLowLife
+### 32. DemonBossSideAreaEnrageOnLowLife
 
 - Match score: `80`
 - `k`: DemonBossSideAreaEnrageOnLowLife
@@ -6421,7 +6491,7 @@ _No keyword matches in this index._
 {"k":"DemonBossSideAreaEnrageOnLowLife","n":"DemonBossSideAreaEnrageOnLowLife","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"attack_speed_+%_when_on_low_life","max":60,"min":60},{"id":"cast_speed_+%_when_on_low_life","max":60,"min":60},{"id":"movement_velocity_+%_when_on_low_life","max":60,"min":60},{"id":"damage_+%_when_on_low_life","max":35,"min":35},{"id":"monster_enrages_on_low_life_text","max":1,"min":1}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 28. DisplayMapFinalBossDropsHigherLevelGearUniqueMap10
+### 33. DisplayMapFinalBossDropsHigherLevelGearUniqueMap10
 
 - Match score: `80`
 - `k`: DisplayMapFinalBossDropsHigherLevelGearUniqueMap10
@@ -6437,7 +6507,7 @@ _No keyword matches in this index._
 {"k":"DisplayMapFinalBossDropsHigherLevelGearUniqueMap10","n":"DisplayMapFinalBossDropsHigherLevelGearUniqueMap10","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"display_map_final_boss_drops_higher_level_gear","max":4,"min":4}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 29. DisplayMapTwoBosses
+### 34. DisplayMapTwoBosses
 
 - Match score: `80`
 - `k`: DisplayMapTwoBosses
@@ -6453,7 +6523,7 @@ _No keyword matches in this index._
 {"k":"DisplayMapTwoBosses","n":"DisplayMapTwoBosses","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"display_map_two_bosses","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 30. DisplayNearbyAlliesHaveCullingStrikeUniqueTwoHandAxe9
+### 35. DisplayNearbyAlliesHaveCullingStrikeUniqueTwoHandAxe9
 
 - Match score: `80`
 - `k`: DisplayNearbyAlliesHaveCullingStrikeUniqueTwoHandAxe9
@@ -6469,7 +6539,7 @@ _No keyword matches in this index._
 {"k":"DisplayNearbyAlliesHaveCullingStrikeUniqueTwoHandAxe9","n":"DisplayNearbyAlliesHaveCullingStrikeUniqueTwoHandAxe9","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_aura_allies_have_culling_strike","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 31. ExpeditionLogbookMapExpeditionExplosionRadius
+### 36. ExpeditionLogbookMapExpeditionExplosionRadius
 
 - Match score: `80`
 - `k`: ExpeditionLogbookMapExpeditionExplosionRadius
@@ -6485,7 +6555,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionLogbookMapExpeditionExplosionRadius","n":"ExpeditionLogbookMapExpeditionExplosionRadius","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_expedition_explosion_radius_+%","max":50,"min":25}],"domain":"area","gen":"expedition_logbook","weights":[{"tag":"default","weight":1}],"lvl":1}
 ```
 
-### 32. ExpeditionLogbookMapExpeditionSagaContainsBoss2_
+### 37. ExpeditionLogbookMapExpeditionSagaContainsBoss2_
 
 - Match score: `80`
 - `k`: ExpeditionLogbookMapExpeditionSagaContainsBoss2_
@@ -6501,7 +6571,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionLogbookMapExpeditionSagaContainsBoss2_","n":"ExpeditionLogbookMapExpeditionSagaContainsBoss2_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_expedition_saga_contains_boss","max":2,"min":2}],"domain":"area","gen":"expedition_logbook","weights":[{"tag":"expedition_faction_black_scythe","weight":0},{"tag":"default","weight":0}],"lvl":68}
 ```
 
-### 33. ExpeditionLogbookMapExpeditionSagaContainsBoss3
+### 38. ExpeditionLogbookMapExpeditionSagaContainsBoss3
 
 - Match score: `80`
 - `k`: ExpeditionLogbookMapExpeditionSagaContainsBoss3
@@ -6517,7 +6587,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionLogbookMapExpeditionSagaContainsBoss3","n":"ExpeditionLogbookMapExpeditionSagaContainsBoss3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_expedition_saga_contains_boss","max":3,"min":3}],"domain":"area","gen":"expedition_logbook","weights":[{"tag":"expedition_faction_order_of_the_chalice","weight":0},{"tag":"default","weight":0}],"lvl":75}
 ```
 
-### 34. ExpeditionLogbookMapExpeditionSagaContainsBoss4
+### 39. ExpeditionLogbookMapExpeditionSagaContainsBoss4
 
 - Match score: `80`
 - `k`: ExpeditionLogbookMapExpeditionSagaContainsBoss4
@@ -6533,7 +6603,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionLogbookMapExpeditionSagaContainsBoss4","n":"ExpeditionLogbookMapExpeditionSagaContainsBoss4","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_expedition_saga_contains_boss","max":4,"min":4}],"domain":"area","gen":"expedition_logbook","weights":[{"tag":"expedition_faction_knights_of_the_sun","weight":0},{"tag":"default","weight":0}],"lvl":81}
 ```
 
-### 35. ExpeditionLogbookMapExpeditionSagaContainsBoss_
+### 40. ExpeditionLogbookMapExpeditionSagaContainsBoss_
 
 - Match score: `80`
 - `k`: ExpeditionLogbookMapExpeditionSagaContainsBoss_
@@ -6549,7 +6619,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionLogbookMapExpeditionSagaContainsBoss_","n":"ExpeditionLogbookMapExpeditionSagaContainsBoss_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_expedition_saga_contains_boss","max":1,"min":1}],"domain":"area","gen":"expedition_logbook","weights":[{"tag":"expedition_faction_druids_of_the_broken_circle","weight":0},{"tag":"default","weight":0}],"lvl":68}
 ```
 
-### 36. FairgravesMapBossRunning
+### 41. FairgravesMapBossRunning
 
 - Match score: `80`
 - `k`: FairgravesMapBossRunning
@@ -6565,7 +6635,7 @@ _No keyword matches in this index._
 {"k":"FairgravesMapBossRunning","n":"FairgravesMapBossRunning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"stance_movement_speed_+%_final","max":250,"min":250},{"id":"attack_speed_+%","max":0,"min":0}],"domain":"monster","gen":"unique","lvl":0}
 ```
 
-### 37. IncreasedAuraRadiusUnique__1
+### 42. IncreasedAuraRadiusUnique__1
 
 - Match score: `80`
 - `k`: IncreasedAuraRadiusUnique__1
@@ -6581,7 +6651,7 @@ _No keyword matches in this index._
 {"k":"IncreasedAuraRadiusUnique__1","n":"IncreasedAuraRadiusUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_aura_area_of_effect_+%","max":20,"min":20}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 38. IncreasedAuraRadiusUniqueBodyDexInt4
+### 43. IncreasedAuraRadiusUniqueBodyDexInt4
 
 - Match score: `80`
 - `k`: IncreasedAuraRadiusUniqueBodyDexInt4
@@ -6597,7 +6667,7 @@ _No keyword matches in this index._
 {"k":"IncreasedAuraRadiusUniqueBodyDexInt4","n":"IncreasedAuraRadiusUniqueBodyDexInt4","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_aura_area_of_effect_+%","max":40,"min":20}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 39. MapBellyTotems_
+### 44. MapBellyTotems_
 
 - Match score: `80`
 - `k`: MapBellyTotems_
@@ -6613,7 +6683,7 @@ _No keyword matches in this index._
 {"k":"MapBellyTotems_","n":"MapBellyTotems_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_packs_have_belly_totems","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 40. MapBlockBossRituals
+### 45. MapBlockBossRituals
 
 - Match score: `80`
 - `k`: MapBlockBossRituals
@@ -6629,7 +6699,7 @@ _No keyword matches in this index._
 {"k":"MapBlockBossRituals","n":"MapBlockBossRituals","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_block_ritual_at_boss_area","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 41. MapBossCurrencyDropsUniqueMap13_
+### 46. MapBossCurrencyDropsUniqueMap13_
 
 - Match score: `80`
 - `k`: MapBossCurrencyDropsUniqueMap13_
@@ -6645,7 +6715,7 @@ _No keyword matches in this index._
 {"k":"MapBossCurrencyDropsUniqueMap13_","n":"MapBossCurrencyDropsUniqueMap13_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_death_and_taxes_boss_drops_additional_currency","max":20,"min":12}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 42. MapBossesSpawnZombieGiant
+### 47. MapBossesSpawnZombieGiant
 
 - Match score: `80`
 - `k`: MapBossesSpawnZombieGiant
@@ -6661,7 +6731,7 @@ _No keyword matches in this index._
 {"k":"MapBossesSpawnZombieGiant","n":"MapBossesSpawnZombieGiant","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_bosses_have_summon_zombie_giant","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 43. MapChainingStrDexIntMission
+### 48. MapChainingStrDexIntMission
 
 - Match score: `80`
 - `k`: MapChainingStrDexIntMission
@@ -6677,7 +6747,7 @@ _No keyword matches in this index._
 {"k":"MapChainingStrDexIntMission","n":"MapChainingStrDexIntMission","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_monster_skills_chain_X_additional_times","max":2,"min":2}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 44. MapConquerorContainsBoss1_
+### 49. MapConquerorContainsBoss1_
 
 - Match score: `80`
 - `k`: MapConquerorContainsBoss1_
@@ -6693,7 +6763,7 @@ _No keyword matches in this index._
 {"k":"MapConquerorContainsBoss1_","n":"MapConquerorContainsBoss1_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_contains_citadel","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 45. MapConquerorContainsBoss2
+### 50. MapConquerorContainsBoss2
 
 - Match score: `80`
 - `k`: MapConquerorContainsBoss2
@@ -6709,7 +6779,7 @@ _No keyword matches in this index._
 {"k":"MapConquerorContainsBoss2","n":"MapConquerorContainsBoss2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_contains_citadel","max":2,"min":2}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 46. MapConquerorContainsBoss3_
+### 51. MapConquerorContainsBoss3_
 
 - Match score: `80`
 - `k`: MapConquerorContainsBoss3_
@@ -6725,7 +6795,7 @@ _No keyword matches in this index._
 {"k":"MapConquerorContainsBoss3_","n":"MapConquerorContainsBoss3_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_contains_citadel","max":3,"min":3}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 47. MapConquerorContainsBoss4
+### 52. MapConquerorContainsBoss4
 
 - Match score: `80`
 - `k`: MapConquerorContainsBoss4
@@ -6741,7 +6811,7 @@ _No keyword matches in this index._
 {"k":"MapConquerorContainsBoss4","n":"MapConquerorContainsBoss4","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_contains_citadel","max":4,"min":4}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 48. MapConquerorContainsBossAny
+### 53. MapConquerorContainsBossAny
 
 - Match score: `80`
 - `k`: MapConquerorContainsBossAny
@@ -6757,7 +6827,7 @@ _No keyword matches in this index._
 {"k":"MapConquerorContainsBossAny","n":"MapConquerorContainsBossAny","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_contains_citadel","max":4,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 49. MapDangerousBossStrDexIntMission
+### 54. MapDangerousBossStrDexIntMission
 
 - Match score: `80`
 - `k`: MapDangerousBossStrDexIntMission
@@ -6773,7 +6843,7 @@ _No keyword matches in this index._
 {"k":"MapDangerousBossStrDexIntMission","n":"MapDangerousBossStrDexIntMission","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_boss_damage_+%","max":20,"min":20},{"id":"map_boss_attack_and_cast_speed_+%","max":20,"min":20}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 50. MapDangerousBossUniqueMap13
+### 55. MapDangerousBossUniqueMap13
 
 - Match score: `80`
 - `k`: MapDangerousBossUniqueMap13
@@ -6789,7 +6859,7 @@ _No keyword matches in this index._
 {"k":"MapDangerousBossUniqueMap13","n":"MapDangerousBossUniqueMap13","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":150,"min":150},{"id":"map_boss_damage_+%","max":35,"min":30},{"id":"map_boss_attack_and_cast_speed_+%","max":30,"min":25}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 51. MapDealNoDamageIfLessThanNumPlayersNearby
+### 56. MapDealNoDamageIfLessThanNumPlayersNearby
 
 - Match score: `80`
 - `k`: MapDealNoDamageIfLessThanNumPlayersNearby
@@ -6805,7 +6875,7 @@ _No keyword matches in this index._
 {"k":"MapDealNoDamageIfLessThanNumPlayersNearby","n":"MapDealNoDamageIfLessThanNumPlayersNearby","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_deal_no_damage_if_less_than_X_players_nearby","max":2,"min":2}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 52. MapDisplayBossDropsAdditionalMapsUniqueMap11
+### 57. MapDisplayBossDropsAdditionalMapsUniqueMap11
 
 - Match score: `80`
 - `k`: MapDisplayBossDropsAdditionalMapsUniqueMap11
@@ -6821,7 +6891,7 @@ _No keyword matches in this index._
 {"k":"MapDisplayBossDropsAdditionalMapsUniqueMap11","n":"MapDisplayBossDropsAdditionalMapsUniqueMap11","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_display_unique_boss_drops_X_maps","max":4,"min":4}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 53. MapDisplayBossDropsAdditionalMapsUniqueMap__1
+### 58. MapDisplayBossDropsAdditionalMapsUniqueMap__1
 
 - Match score: `80`
 - `k`: MapDisplayBossDropsAdditionalMapsUniqueMap__1
@@ -6837,7 +6907,7 @@ _No keyword matches in this index._
 {"k":"MapDisplayBossDropsAdditionalMapsUniqueMap__1","n":"MapDisplayBossDropsAdditionalMapsUniqueMap__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_display_unique_boss_drops_X_maps","max":3,"min":3}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 54. MapDisplayBossDropsDivinationCardsUnique__1
+### 59. MapDisplayBossDropsDivinationCardsUnique__1
 
 - Match score: `80`
 - `k`: MapDisplayBossDropsDivinationCardsUnique__1
@@ -6853,7 +6923,7 @@ _No keyword matches in this index._
 {"k":"MapDisplayBossDropsDivinationCardsUnique__1","n":"MapDisplayBossDropsDivinationCardsUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_unique_boss_drops_divination_cards","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 55. MapDisplayIncreasedBossExperienceUniqueMap13
+### 60. MapDisplayIncreasedBossExperienceUniqueMap13
 
 - Match score: `80`
 - `k`: MapDisplayIncreasedBossExperienceUniqueMap13
@@ -6869,7 +6939,7 @@ _No keyword matches in this index._
 {"k":"MapDisplayIncreasedBossExperienceUniqueMap13","n":"MapDisplayIncreasedBossExperienceUniqueMap13","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"display_map_boss_gives_experience_+%","max":20000,"min":20000}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 56. MapDoubleBossStrDexIntMission
+### 61. MapDoubleBossStrDexIntMission
 
 - Match score: `80`
 - `k`: MapDoubleBossStrDexIntMission
@@ -6885,7 +6955,7 @@ _No keyword matches in this index._
 {"k":"MapDoubleBossStrDexIntMission","n":"MapDoubleBossStrDexIntMission","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":40,"min":40},{"id":"map_item_drop_rarity_+%","max":20,"min":20},{"id":"map_spawn_two_bosses","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 57. MapElderContainsBoss1
+### 62. MapElderContainsBoss1
 
 - Match score: `80`
 - `k`: MapElderContainsBoss1
@@ -6901,7 +6971,7 @@ _No keyword matches in this index._
 {"k":"MapElderContainsBoss1","n":"MapElderContainsBoss1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_elder_boss_variation","max":1,"min":1},{"id":"map_atlas_influence_type","max":2,"min":2}],"domain":"area","gen":"unique","adds_tags":["cannot_be_twinned"],"lvl":1}
 ```
 
-### 58. MapElderContainsBoss2
+### 63. MapElderContainsBoss2
 
 - Match score: `80`
 - `k`: MapElderContainsBoss2
@@ -6917,7 +6987,7 @@ _No keyword matches in this index._
 {"k":"MapElderContainsBoss2","n":"MapElderContainsBoss2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_elder_boss_variation","max":2,"min":2},{"id":"map_atlas_influence_type","max":2,"min":2}],"domain":"area","gen":"unique","adds_tags":["cannot_be_twinned"],"lvl":1}
 ```
 
-### 59. MapElderContainsBoss3
+### 64. MapElderContainsBoss3
 
 - Match score: `80`
 - `k`: MapElderContainsBoss3
@@ -6933,7 +7003,7 @@ _No keyword matches in this index._
 {"k":"MapElderContainsBoss3","n":"MapElderContainsBoss3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_elder_boss_variation","max":3,"min":3},{"id":"map_atlas_influence_type","max":2,"min":2}],"domain":"area","gen":"unique","adds_tags":["cannot_be_twinned"],"lvl":1}
 ```
 
-### 60. MapElderContainsBoss4_
+### 65. MapElderContainsBoss4_
 
 - Match score: `80`
 - `k`: MapElderContainsBoss4_
@@ -6949,7 +7019,7 @@ _No keyword matches in this index._
 {"k":"MapElderContainsBoss4_","n":"MapElderContainsBoss4_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_elder_boss_variation","max":4,"min":4},{"id":"map_atlas_influence_type","max":2,"min":2}],"domain":"area","gen":"unique","adds_tags":["cannot_be_twinned"],"lvl":1}
 ```
 
-### 61. MapElderContainsBossAny___
+### 66. MapElderContainsBossAny___
 
 - Match score: `80`
 - `k`: MapElderContainsBossAny___
@@ -6965,7 +7035,7 @@ _No keyword matches in this index._
 {"k":"MapElderContainsBossAny___","n":"MapElderContainsBossAny___","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_elder_boss_variation","max":4,"min":1},{"id":"map_atlas_influence_type","max":2,"min":2}],"domain":"area","gen":"unique","adds_tags":["cannot_be_twinned"],"lvl":1}
 ```
 
-### 62. MapExtraInvasionBosses
+### 67. MapExtraInvasionBosses
 
 - Match score: `80`
 - `k`: MapExtraInvasionBosses
@@ -6981,7 +7051,7 @@ _No keyword matches in this index._
 {"k":"MapExtraInvasionBosses","n":"MapExtraInvasionBosses","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_num_extra_invasion_bosses","max":1,"min":1},{"id":"dummy_stat_display_nothing","max":0,"min":0},{"id":"map_item_drop_quantity_+%","max":20,"min":20},{"id":"map_extra_content_weighting","max":1,"min":1}],"domain":"area","gen":"unique","lvl":0}
 ```
 
-### 63. MapExtraInvasionBossesEvent
+### 68. MapExtraInvasionBossesEvent
 
 - Match score: `80`
 - `k`: MapExtraInvasionBossesEvent
@@ -6997,7 +7067,7 @@ _No keyword matches in this index._
 {"k":"MapExtraInvasionBossesEvent","n":"MapExtraInvasionBossesEvent","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_num_extra_invasion_bosses","max":1,"min":1},{"id":"map_extra_content_weighting","max":1,"min":1}],"domain":"area","gen":"unique","lvl":0}
 ```
 
-### 64. MapFlaskChargeRecoveryUnique__1_
+### 69. MapFlaskChargeRecoveryUnique__1_
 
 - Match score: `80`
 - `k`: MapFlaskChargeRecoveryUnique__1_
@@ -7013,7 +7083,7 @@ _No keyword matches in this index._
 {"k":"MapFlaskChargeRecoveryUnique__1_","n":"MapFlaskChargeRecoveryUnique__1_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_flask_charges_recovered_per_3_seconds_%","max":50,"min":50}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 65. MapLabyrinthHiddenDamageLifeBoss
+### 70. MapLabyrinthHiddenDamageLifeBoss
 
 - Match score: `80`
 - `k`: MapLabyrinthHiddenDamageLifeBoss
@@ -7029,7 +7099,7 @@ _No keyword matches in this index._
 {"k":"MapLabyrinthHiddenDamageLifeBoss","n":"MapLabyrinthHiddenDamageLifeBoss","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_hidden_monster_life_+%_final","max":220,"min":220},{"id":"map_hidden_monster_damage_+%_final","max":7,"min":7}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 66. MapMapBossesEverywhere
+### 71. MapMapBossesEverywhere
 
 - Match score: `80`
 - `k`: MapMapBossesEverywhere
@@ -7045,7 +7115,7 @@ _No keyword matches in this index._
 {"k":"MapMapBossesEverywhere","n":"MapMapBossesEverywhere","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_spawn_x_random_map_bosses","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 67. MapMonsterChainDelve
+### 72. MapMonsterChainDelve
 
 - Match score: `80`
 - `k`: MapMonsterChainDelve
@@ -7061,7 +7131,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterChainDelve","n":"MapMonsterChainDelve","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monster_skills_chain_X_additional_times","max":1,"min":1}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":1}
 ```
 
-### 68. MapMonsterChainDelve2
+### 73. MapMonsterChainDelve2
 
 - Match score: `80`
 - `k`: MapMonsterChainDelve2
@@ -7077,7 +7147,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterChainDelve2","n":"MapMonsterChainDelve2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monster_skills_chain_X_additional_times","max":2,"min":2}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":52}
 ```
 
-### 69. MapMonsterChainDelve3
+### 74. MapMonsterChainDelve3
 
 - Match score: `80`
 - `k`: MapMonsterChainDelve3
@@ -7093,7 +7163,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterChainDelve3","n":"MapMonsterChainDelve3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monster_skills_chain_X_additional_times","max":3,"min":3}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":173}
 ```
 
-### 70. MapMonsterChainLabyrinth
+### 75. MapMonsterChainLabyrinth
 
 - Match score: `80`
 - `k`: MapMonsterChainLabyrinth
@@ -7109,7 +7179,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterChainLabyrinth","n":"MapMonsterChainLabyrinth","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":20,"min":20},{"id":"map_monster_skills_chain_X_additional_times","max":2,"min":2}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 71. MapMonsterChainPathOfEndurance
+### 76. MapMonsterChainPathOfEndurance
 
 - Match score: `80`
 - `k`: MapMonsterChainPathOfEndurance
@@ -7125,7 +7195,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterChainPathOfEndurance","n":"MapMonsterChainPathOfEndurance","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_monster_skills_chain_X_additional_times","max":2,"min":2}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 72. MapMonsterCriticalStrikesAndDamageDelve
+### 77. MapMonsterCriticalStrikesAndDamageDelve
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamageDelve
@@ -7141,7 +7211,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCriticalStrikesAndDamageDelve","n":"MapMonsterCriticalStrikesAndDamageDelve","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":150,"min":100},{"id":"map_monsters_critical_strike_multiplier_+","max":25,"min":20}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":1}
 ```
 
-### 73. MapMonsterCriticalStrikesAndDamageDelve2
+### 78. MapMonsterCriticalStrikesAndDamageDelve2
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamageDelve2
@@ -7157,7 +7227,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCriticalStrikesAndDamageDelve2","n":"MapMonsterCriticalStrikesAndDamageDelve2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":200,"min":151},{"id":"map_monsters_critical_strike_multiplier_+","max":30,"min":26}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":20}
 ```
 
-### 74. MapMonsterCriticalStrikesAndDamageDelve3
+### 79. MapMonsterCriticalStrikesAndDamageDelve3
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamageDelve3
@@ -7173,7 +7243,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCriticalStrikesAndDamageDelve3","n":"MapMonsterCriticalStrikesAndDamageDelve3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":250,"min":201},{"id":"map_monsters_critical_strike_multiplier_+","max":35,"min":31}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":52}
 ```
 
-### 75. MapMonsterCriticalStrikesAndDamageDelve4
+### 80. MapMonsterCriticalStrikesAndDamageDelve4
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamageDelve4
@@ -7189,7 +7259,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCriticalStrikesAndDamageDelve4","n":"MapMonsterCriticalStrikesAndDamageDelve4","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":300,"min":251},{"id":"map_monsters_critical_strike_multiplier_+","max":40,"min":36}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":92}
 ```
 
-### 76. MapMonsterCriticalStrikesAndDamageDelve5
+### 81. MapMonsterCriticalStrikesAndDamageDelve5
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamageDelve5
@@ -7205,7 +7275,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCriticalStrikesAndDamageDelve5","n":"MapMonsterCriticalStrikesAndDamageDelve5","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_critical_strike_chance_+%","max":400,"min":301},{"id":"map_monsters_critical_strike_multiplier_+","max":45,"min":41}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":173}
 ```
 
-### 77. MapMonsterCriticalStrikesAndDamageLabyrinth1
+### 82. MapMonsterCriticalStrikesAndDamageLabyrinth1
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamageLabyrinth1
@@ -7221,7 +7291,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCriticalStrikesAndDamageLabyrinth1","n":"MapMonsterCriticalStrikesAndDamageLabyrinth1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":15,"min":15},{"id":"map_item_drop_rarity_+%","max":30,"min":30},{"id":"map_monsters_critical_strike_chance_+%","max":180,"min":180},{"id":"map_monsters_critical_strike_multiplier_+","max":33,"min":33}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 78. MapMonsterCriticalStrikesAndDamageLabyrinth2
+### 83. MapMonsterCriticalStrikesAndDamageLabyrinth2
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamageLabyrinth2
@@ -7237,7 +7307,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCriticalStrikesAndDamageLabyrinth2","n":"MapMonsterCriticalStrikesAndDamageLabyrinth2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":15,"min":15},{"id":"map_item_drop_rarity_+%","max":30,"min":30},{"id":"map_monsters_critical_strike_chance_+%","max":280,"min":280},{"id":"map_monsters_critical_strike_multiplier_+","max":38,"min":38}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 79. MapMonsterCriticalStrikesAndDamageLabyrinth3
+### 84. MapMonsterCriticalStrikesAndDamageLabyrinth3
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamageLabyrinth3
@@ -7253,7 +7323,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCriticalStrikesAndDamageLabyrinth3","n":"MapMonsterCriticalStrikesAndDamageLabyrinth3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":15,"min":15},{"id":"map_item_drop_rarity_+%","max":30,"min":30},{"id":"map_monsters_critical_strike_chance_+%","max":380,"min":380},{"id":"map_monsters_critical_strike_multiplier_+","max":43,"min":43}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 80. MapMonsterCriticalStrikesAndDamagePathOfEndurance
+### 85. MapMonsterCriticalStrikesAndDamagePathOfEndurance
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamagePathOfEndurance
@@ -7269,7 +7339,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCriticalStrikesAndDamagePathOfEndurance","n":"MapMonsterCriticalStrikesAndDamagePathOfEndurance","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_monsters_critical_strike_chance_+%","max":400,"min":400},{"id":"map_monsters_critical_strike_multiplier_+","max":45,"min":45}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 81. MapMonsterCriticalStrikesAndDamageUnique__1
+### 86. MapMonsterCriticalStrikesAndDamageUnique__1
 
 - Match score: `80`
 - `k`: MapMonsterCriticalStrikesAndDamageUnique__1
@@ -7285,7 +7355,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCriticalStrikesAndDamageUnique__1","n":"MapMonsterCriticalStrikesAndDamageUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_pack_size_+%","max":50,"min":50},{"id":"map_monsters_critical_strike_chance_+%","max":1000,"min":500},{"id":"map_monsters_critical_strike_multiplier_+","max":100,"min":60}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 82. MapMonsterMultipleProjectilesDelve
+### 87. MapMonsterMultipleProjectilesDelve
 
 - Match score: `80`
 - `k`: MapMonsterMultipleProjectilesDelve
@@ -7301,7 +7371,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterMultipleProjectilesDelve","n":"MapMonsterMultipleProjectilesDelve","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":19,"min":19},{"id":"map_item_drop_rarity_+%","max":11,"min":11},{"id":"map_pack_size_+%","max":7,"min":7},{"id":"map_monsters_additional_number_of_projecitles","max":2,"min":2}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":1}
 ```
 
-### 83. MapMonsterMultipleProjectilesPathOfEndurance
+### 88. MapMonsterMultipleProjectilesPathOfEndurance
 
 - Match score: `80`
 - `k`: MapMonsterMultipleProjectilesPathOfEndurance
@@ -7317,7 +7387,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterMultipleProjectilesPathOfEndurance","n":"MapMonsterMultipleProjectilesPathOfEndurance","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_monsters_additional_number_of_projecitles","max":2,"min":2}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 84. MapMonsterMultipleProjectilesRaceEvent
+### 89. MapMonsterMultipleProjectilesRaceEvent
 
 - Match score: `80`
 - `k`: MapMonsterMultipleProjectilesRaceEvent
@@ -7333,7 +7403,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterMultipleProjectilesRaceEvent","n":"MapMonsterMultipleProjectilesRaceEvent","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_monsters_additional_number_of_projecitles","max":4,"min":4}],"domain":"area","gen":"unique","lvl":0}
 ```
 
-### 85. MapMultipleProjectilesStrDexIntMission
+### 90. MapMultipleProjectilesStrDexIntMission
 
 - Match score: `80`
 - `k`: MapMultipleProjectilesStrDexIntMission
@@ -7349,7 +7419,7 @@ _No keyword matches in this index._
 {"k":"MapMultipleProjectilesStrDexIntMission","n":"MapMultipleProjectilesStrDexIntMission","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":35,"min":25},{"id":"map_item_drop_rarity_+%","max":35,"min":25},{"id":"map_monsters_additional_number_of_projecitles","max":2,"min":2}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 86. MapPathOfEnduranceBoss1_
+### 91. MapPathOfEnduranceBoss1_
 
 - Match score: `80`
 - `k`: MapPathOfEnduranceBoss1_
@@ -7365,7 +7435,7 @@ _No keyword matches in this index._
 {"k":"MapPathOfEnduranceBoss1_","n":"MapPathOfEnduranceBoss1_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_boss_maximum_life_+%","max":50,"min":50},{"id":"map_boss_damage_+%","max":10,"min":10},{"id":"map_boss_attack_and_cast_speed_+%","max":5,"min":5},{"id":"map_boss_area_of_effect_+%","max":0,"min":0}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 87. MapPathOfEnduranceBoss2
+### 92. MapPathOfEnduranceBoss2
 
 - Match score: `80`
 - `k`: MapPathOfEnduranceBoss2
@@ -7381,7 +7451,7 @@ _No keyword matches in this index._
 {"k":"MapPathOfEnduranceBoss2","n":"MapPathOfEnduranceBoss2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_boss_maximum_life_+%","max":75,"min":75},{"id":"map_boss_damage_+%","max":20,"min":20},{"id":"map_boss_attack_and_cast_speed_+%","max":10,"min":10},{"id":"map_boss_area_of_effect_+%","max":20,"min":20}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 88. MapPathOfEnduranceBoss3
+### 93. MapPathOfEnduranceBoss3
 
 - Match score: `80`
 - `k`: MapPathOfEnduranceBoss3
@@ -7397,7 +7467,7 @@ _No keyword matches in this index._
 {"k":"MapPathOfEnduranceBoss3","n":"MapPathOfEnduranceBoss3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_boss_maximum_life_+%","max":100,"min":100},{"id":"map_boss_damage_+%","max":30,"min":30},{"id":"map_boss_attack_and_cast_speed_+%","max":15,"min":15},{"id":"map_boss_area_of_effect_+%","max":45,"min":45}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 89. MapPlayerCurseProjectileWeaknessUnique__1
+### 94. MapPlayerCurseProjectileWeaknessUnique__1
 
 - Match score: `80`
 - `k`: MapPlayerCurseProjectileWeaknessUnique__1
@@ -7413,7 +7483,7 @@ _No keyword matches in this index._
 {"k":"MapPlayerCurseProjectileWeaknessUnique__1","n":"MapPlayerCurseProjectileWeaknessUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":18,"min":18},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_player_has_level_X_despair","max":15,"min":15}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 90. MapPlayerCurseTemporalChainsPathOfEndurance
+### 95. MapPlayerCurseTemporalChainsPathOfEndurance
 
 - Match score: `80`
 - `k`: MapPlayerCurseTemporalChainsPathOfEndurance
@@ -7429,7 +7499,7 @@ _No keyword matches in this index._
 {"k":"MapPlayerCurseTemporalChainsPathOfEndurance","n":"MapPlayerCurseTemporalChainsPathOfEndurance","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_player_has_level_X_temporal_chains","max":15,"min":15}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 91. MapPlayerNoProjectileDamage
+### 96. MapPlayerNoProjectileDamage
 
 - Match score: `80`
 - `k`: MapPlayerNoProjectileDamage
@@ -7445,7 +7515,7 @@ _No keyword matches in this index._
 {"k":"MapPlayerNoProjectileDamage","n":"MapPlayerNoProjectileDamage","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_player_projectile_damage_+%_final","max":-100,"min":-100}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 92. MapProjectileSpeed
+### 97. MapProjectileSpeed
 
 - Match score: `80`
 - `k`: MapProjectileSpeed
@@ -7461,7 +7531,7 @@ _No keyword matches in this index._
 {"k":"MapProjectileSpeed","n":"MapProjectileSpeed","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_projectile_speed_+%","max":-50,"min":-50}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 93. MapSimulacrumMovementSpeedAndUnstoppable1
+### 98. MapSimulacrumMovementSpeedAndUnstoppable1
 
 - Match score: `80`
 - `k`: MapSimulacrumMovementSpeedAndUnstoppable1
@@ -7477,7 +7547,7 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumMovementSpeedAndUnstoppable1","n":"MapSimulacrumMovementSpeedAndUnstoppable1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_movement_speed_+%","max":0,"min":0},{"id":"map_monsters_movement_speed_cannot_be_reduced_below_base","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 94. MapSimulacrumMovementSpeedAndUnstoppable2
+### 99. MapSimulacrumMovementSpeedAndUnstoppable2
 
 - Match score: `80`
 - `k`: MapSimulacrumMovementSpeedAndUnstoppable2
@@ -7493,7 +7563,7 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumMovementSpeedAndUnstoppable2","n":"MapSimulacrumMovementSpeedAndUnstoppable2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_movement_speed_+%","max":0,"min":0},{"id":"map_monsters_movement_speed_cannot_be_reduced_below_base","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 95. MapSimulacrumProjectileAdditional1_
+### 100. MapSimulacrumProjectileAdditional1_
 
 - Match score: `80`
 - `k`: MapSimulacrumProjectileAdditional1_
@@ -7509,7 +7579,7 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumProjectileAdditional1_","n":"MapSimulacrumProjectileAdditional1_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_additional_number_of_projecitles","max":2,"min":2}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 96. MapSimulacrumProjectileAdditional2
+### 101. MapSimulacrumProjectileAdditional2
 
 - Match score: `80`
 - `k`: MapSimulacrumProjectileAdditional2
@@ -7525,7 +7595,7 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumProjectileAdditional2","n":"MapSimulacrumProjectileAdditional2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_additional_number_of_projecitles","max":3,"min":3}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 97. MapTemporalChainsAndLessMonsterCurseEffectBreachstone
+### 102. MapTemporalChainsAndLessMonsterCurseEffectBreachstone
 
 - Match score: `80`
 - `k`: MapTemporalChainsAndLessMonsterCurseEffectBreachstone
@@ -7541,7 +7611,7 @@ _No keyword matches in this index._
 {"k":"MapTemporalChainsAndLessMonsterCurseEffectBreachstone","n":"MapTemporalChainsAndLessMonsterCurseEffectBreachstone","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_player_has_level_X_temporal_chains","max":15,"min":15},{"id":"map_monsters_curse_effect_on_self_+%_final","max":-30,"min":-30}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 98. MapTormentSpiritsEverywhere
+### 103. MapTormentSpiritsEverywhere
 
 - Match score: `80`
 - `k`: MapTormentSpiritsEverywhere
@@ -7557,7 +7627,7 @@ _No keyword matches in this index._
 {"k":"MapTormentSpiritsEverywhere","n":"MapTormentSpiritsEverywhere","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_spawn_extra_torment_spirits","max":10,"min":10},{"id":"map_override_rogue_exile_min_level","max":2,"min":2},{"id":"map_extra_content_weighting","max":0,"min":0}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 99. MapTotemsCrafted
+### 104. MapTotemsCrafted
 
 - Match score: `80`
 - `k`: MapTotemsCrafted
@@ -7573,7 +7643,7 @@ _No keyword matches in this index._
 {"k":"MapTotemsCrafted","n":"MapTotemsCrafted","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":12,"min":12},{"id":"map_item_drop_rarity_+%","max":6,"min":6},{"id":"map_packs_are_totems","max":1,"min":1}],"domain":"area","gen":"unique","lvl":0}
 ```
 
-### 100. MapTotemsStrDexIntMission
+### 105. MapTotemsStrDexIntMission
 
 - Match score: `80`
 - `k`: MapTotemsStrDexIntMission
@@ -7589,7 +7659,7 @@ _No keyword matches in this index._
 {"k":"MapTotemsStrDexIntMission","n":"MapTotemsStrDexIntMission","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_packs_are_totems","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 101. MapTotemsStrMission_
+### 106. MapTotemsStrMission_
 
 - Match score: `80`
 - `k`: MapTotemsStrMission_
@@ -7605,7 +7675,7 @@ _No keyword matches in this index._
 {"k":"MapTotemsStrMission_","n":"MapTotemsStrMission_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_packs_are_str_mission_totems","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 102. MapTotemsUniqueMap15
+### 107. MapTotemsUniqueMap15
 
 - Match score: `80`
 - `k`: MapTotemsUniqueMap15
@@ -7621,7 +7691,7 @@ _No keyword matches in this index._
 {"k":"MapTotemsUniqueMap15","n":"MapTotemsUniqueMap15","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_packs_are_totems","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 103. MapTwoBossesCrafted
+### 108. MapTwoBossesCrafted
 
 - Match score: `80`
 - `k`: MapTwoBossesCrafted
@@ -7637,7 +7707,7 @@ _No keyword matches in this index._
 {"k":"MapTwoBossesCrafted","n":"MapTwoBossesCrafted","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":12,"min":12},{"id":"map_item_drop_rarity_+%","max":6,"min":6},{"id":"map_spawn_two_bosses","max":1,"min":1}],"domain":"area","gen":"unique","weights":[{"tag":"cannot_be_twinned","weight":0},{"tag":"default","weight":0}],"lvl":0}
 ```
 
-### 104. MonsterAuraSlowUniqueMap1
+### 109. MonsterAuraSlowUniqueMap1
 
 - Match score: `80`
 - `k`: MonsterAuraSlowUniqueMap1
@@ -7653,7 +7723,7 @@ _No keyword matches in this index._
 {"k":"MonsterAuraSlowUniqueMap1","n":"MonsterAuraSlowUniqueMap1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_movement_velocity_+%","max":-25,"min":-25}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 105. MonsterAuraSpeedUniqueMap1
+### 110. MonsterAuraSpeedUniqueMap1
 
 - Match score: `80`
 - `k`: MonsterAuraSpeedUniqueMap1
@@ -7669,7 +7739,7 @@ _No keyword matches in this index._
 {"k":"MonsterAuraSpeedUniqueMap1","n":"MonsterAuraSpeedUniqueMap1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"attack_speed_+%","max":35,"min":35},{"id":"base_cast_speed_+%","max":35,"min":35},{"id":"base_movement_velocity_+%","max":75,"min":75}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 106. MonsterTotemAuraSlow1_
+### 111. MonsterTotemAuraSlow1_
 
 - Match score: `80`
 - `k`: MonsterTotemAuraSlow1_
@@ -7685,7 +7755,7 @@ _No keyword matches in this index._
 {"k":"MonsterTotemAuraSlow1_","n":"MonsterTotemAuraSlow1_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_movement_velocity_+%","max":-25,"min":-25}],"domain":"monster","gen":"unique","lvl":4}
 ```
 
-### 107. MonsterTotemAuraSpeed1___
+### 112. MonsterTotemAuraSpeed1___
 
 - Match score: `80`
 - `k`: MonsterTotemAuraSpeed1___
@@ -7701,7 +7771,7 @@ _No keyword matches in this index._
 {"k":"MonsterTotemAuraSpeed1___","n":"MonsterTotemAuraSpeed1___","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"attack_speed_+%","max":35,"min":35},{"id":"base_cast_speed_+%","max":35,"min":35},{"id":"base_movement_velocity_+%","max":75,"min":75}],"domain":"monster","gen":"unique","lvl":4}
 ```
 
-### 108. MonsterTotemIncreasedAuraRange1
+### 113. MonsterTotemIncreasedAuraRange1
 
 - Match score: `80`
 - `k`: MonsterTotemIncreasedAuraRange1
@@ -7717,7 +7787,7 @@ _No keyword matches in this index._
 {"k":"MonsterTotemIncreasedAuraRange1","n":"MonsterTotemIncreasedAuraRange1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_aura_area_of_effect_+%","max":800,"min":800}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 109. ShieldCrabBossDefenseStance
+### 114. ShieldCrabBossDefenseStance
 
 - Match score: `80`
 - `k`: ShieldCrabBossDefenseStance
@@ -7733,7 +7803,7 @@ _No keyword matches in this index._
 {"k":"ShieldCrabBossDefenseStance","n":"ShieldCrabBossDefenseStance","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_damage_taken_+%","max":-50,"min":-50},{"id":"stance_movement_speed_+%_final","max":-100,"min":-100}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 110. StanceNovasoulMinionRun
+### 115. StanceNovasoulMinionRun
 
 - Match score: `80`
 - `k`: StanceNovasoulMinionRun
@@ -7749,7 +7819,7 @@ _No keyword matches in this index._
 {"k":"StanceNovasoulMinionRun","n":"StanceNovasoulMinionRun","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"stance_movement_speed_+%_final","max":200,"min":200}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 111. TormentPossessedFairgravesMapBoss
+### 116. TormentPossessedFairgravesMapBoss
 
 - Match score: `80`
 - `k`: TormentPossessedFairgravesMapBoss
@@ -7765,7 +7835,7 @@ _No keyword matches in this index._
 {"k":"TormentPossessedFairgravesMapBoss","n":"TormentPossessedFairgravesMapBoss","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"from_league_item_rarity_+%_permyriad","max":0,"min":0},{"id":"base_movement_velocity_+%","max":35,"min":35},{"id":"attack_speed_+%","max":35,"min":35},{"id":"base_cast_speed_+%","max":21,"min":21},{"id":"damage_+%","max":1,"min":1},{"id":"monster_is_possessed","max":0,"min":0}],"domain":"monster","gen":"torment","lvl":1}
 ```
 
-### 112. UniqueMapBossDropsExtraItemsOfClass
+### 117. UniqueMapBossDropsExtraItemsOfClass
 
 - Match score: `80`
 - `k`: UniqueMapBossDropsExtraItemsOfClass
@@ -7781,7 +7851,7 @@ _No keyword matches in this index._
 {"k":"UniqueMapBossDropsExtraItemsOfClass","n":"UniqueMapBossDropsExtraItemsOfClass","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"unique_map_boss_number_of_rare_items_to_drop","max":15,"min":10},{"id":"unique_map_boss_class_of_rare_items_to_drop","max":23,"min":0}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 113. <<ExpedRuneArcane>><rgb(219,217,206)>{Arcane Rune}
+### 118. <<ExpedRuneArcane>><rgb(219,217,206)>{Arcane Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Extra Energy Shield}
 <rgb(135,134,253)>{Trigger a Stunning nova when Energy Shield is depleted}
@@ -7803,7 +7873,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRuneArcane","n":"<<ExpedRuneArcane>><rgb(219,217,206)>{Arcane Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Extra Energy Shield}\r\n<rgb(135,134,253)>{Trigger a Stunning nova when Energy Shield is depleted}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_maximum_life_%_to_gain_as_total_energy_shield","max":30,"min":30}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 114. <<ExpedRuneArcane>><rgb(219,217,206)>{Arcane Rune}
+### 119. <<ExpedRuneArcane>><rgb(219,217,206)>{Arcane Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Extra Energy Shield}
 <rgb(135,134,253)>{Trigger a Stunning nova when Energy Shield is depleted}
@@ -7825,7 +7895,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRuneArcanePower","n":"<<ExpedRuneArcane>><rgb(219,217,206)>{Arcane Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Extra Energy Shield}\r\n<rgb(135,134,253)>{Trigger a Stunning nova when Energy Shield is depleted}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_maximum_life_%_to_gain_as_total_energy_shield","max":60,"min":60}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 115. AdditionalCurseOnEnemiesMapBossGeofri_
+### 120. AdditionalCurseOnEnemiesMapBossGeofri_
 
 - Match score: `70`
 - `k`: AdditionalCurseOnEnemiesMapBossGeofri_
@@ -7839,82 +7909,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"AdditionalCurseOnEnemiesMapBossGeofri_","n":"AdditionalCurseOnEnemiesMapBossGeofri_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"number_of_additional_curses_allowed","max":3,"min":3}],"domain":"monster","gen":"unique","lvl":1}
-```
-
-### 116. AdditionalTotemProjectilesUniqueJewel26
-
-- Match score: `70`
-- `k`: AdditionalTotemProjectilesUniqueJewel26
-- `n`: AdditionalTotemProjectilesUniqueJewel26
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: misc
-- `stats`: [{"id":"totem_number_of_additional_projectiles","max":2,"min":2}]
-
-```json
-{"k":"AdditionalTotemProjectilesUniqueJewel26","n":"AdditionalTotemProjectilesUniqueJewel26","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"totem_number_of_additional_projectiles","max":2,"min":2}],"domain":"misc","gen":"unique","lvl":1}
-```
-
-### 117. AlloySpiritPresenceAreaOfEffectHybrid1
-
-- Match score: `70`
-- `k`: AlloySpiritPresenceAreaOfEffectHybrid1
-- `n`: AlloySpiritPresenceAreaOfEffectHybrid1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"AlloySpiritPresenceAreaOfEffectHybrid1","n":"AlloySpiritPresenceAreaOfEffectHybrid1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":65}
-```
-
-### 118. AttackAndMovementSpeedBeastialMinionUnique__1
-
-- Match score: `70`
-- `k`: AttackAndMovementSpeedBeastialMinionUnique__1
-- `n`: AttackAndMovementSpeedBeastialMinionUnique__1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"attack_and_movement_speed_+%_if_you_have_beast_minion","max":15,"min":10}]
-
-```json
-{"k":"AttackAndMovementSpeedBeastialMinionUnique__1","n":"AttackAndMovementSpeedBeastialMinionUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"attack_and_movement_speed_+%_if_you_have_beast_minion","max":15,"min":10}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 119. AuraEffectOnMinionsUnique__1_
-
-- Match score: `70`
-- `k`: AuraEffectOnMinionsUnique__1_
-- `n`: AuraEffectOnMinionsUnique__1_
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"minions_have_non_curse_aura_effect_+%_from_parent_skills","max":20,"min":20}]
-
-```json
-{"k":"AuraEffectOnMinionsUnique__1_","n":"AuraEffectOnMinionsUnique__1_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"minions_have_non_curse_aura_effect_+%_from_parent_skills","max":20,"min":20}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 120. AuraEffectOnMinionsUniqueShieldInt2
-
-- Match score: `70`
-- `k`: AuraEffectOnMinionsUniqueShieldInt2
-- `n`: AuraEffectOnMinionsUniqueShieldInt2
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"minions_have_non_curse_aura_effect_+%_from_parent_skills","max":20,"min":20}]
-
-```json
-{"k":"AuraEffectOnMinionsUniqueShieldInt2","n":"AuraEffectOnMinionsUniqueShieldInt2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"minions_have_non_curse_aura_effect_+%_from_parent_skills","max":20,"min":20}],"domain":"item","gen":"unique","lvl":1}
 ```
 
 ## Rune mods
@@ -8768,19 +8762,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Harbingers in your Maps have {0}% reduced Cooldown Recovery Rate","n":"Harbingers in your Maps have {0}% reduced Cooldown Recovery Rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 64. JewelRadiusMinionArea
-
-- Match score: `105`
-- `k`: JewelRadiusMinionArea
-- `n`: JewelRadiusMinionArea
-- `cat`: pob_mod_jewel
-- `src`: pob_data_poe2/ModJewel.json
-
-```json
-{"k":"JewelRadiusMinionArea","n":"JewelRadiusMinionArea","cat":"pob_mod_jewel","src":"pob_data_poe2/ModJewel.json","level":1}
-```
-
-### 65. Map Boss is surrounded by Tormented Spirits
+### 64. Map Boss is surrounded by Tormented Spirits
 
 - Match score: `105`
 - `k`: Map Boss is surrounded by Tormented Spirits
@@ -8792,7 +8774,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Map Boss is surrounded by Tormented Spirits","n":"Map Boss is surrounded by Tormented Spirits","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 66. Map Bosses have {0}% chance to be surrounded by Tormented Spirits
+### 65. Map Bosses have {0}% chance to be surrounded by Tormented Spirits
 
 - Match score: `105`
 - `k`: Map Bosses have {0}% chance to be surrounded by Tormented Spirits
@@ -8804,7 +8786,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Map Bosses have {0}% chance to be surrounded by Tormented Spirits","n":"Map Bosses have {0}% chance to be surrounded by Tormented Spirits","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 67. Minions from Supported Skills have {0}% increased Cooldown Recovery Rate
+### 66. Minions from Supported Skills have {0}% increased Cooldown Recovery Rate
 
 - Match score: `105`
 - `k`: Minions from Supported Skills have {0}% increased Cooldown Recovery Rate
@@ -8816,7 +8798,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Minions from Supported Skills have {0}% increased Cooldown Recovery Rate","n":"Minions from Supported Skills have {0}% increased Cooldown Recovery Rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 68. Minions from Supported Skills have {0}% reduced Cooldown Recovery Rate
+### 67. Minions from Supported Skills have {0}% reduced Cooldown Recovery Rate
 
 - Match score: `105`
 - `k`: Minions from Supported Skills have {0}% reduced Cooldown Recovery Rate
@@ -8828,7 +8810,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Minions from Supported Skills have {0}% reduced Cooldown Recovery Rate","n":"Minions from Supported Skills have {0}% reduced Cooldown Recovery Rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 69. Minions have {0}% increased Cooldown Recovery Rate
+### 68. Minions have {0}% increased Cooldown Recovery Rate
 
 - Match score: `105`
 - `k`: Minions have {0}% increased Cooldown Recovery Rate
@@ -8840,7 +8822,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Minions have {0}% increased Cooldown Recovery Rate","n":"Minions have {0}% increased Cooldown Recovery Rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 70. Minions have {0}% increased Movement Speed for each Herald affecting you
+### 69. Minions have {0}% increased Movement Speed for each Herald affecting you
 
 - Match score: `105`
 - `k`: Minions have {0}% increased Movement Speed for each Herald affecting you
@@ -8852,7 +8834,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Minions have {0}% increased Movement Speed for each Herald affecting you","n":"Minions have {0}% increased Movement Speed for each Herald affecting you","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 71. Minions have {0}% reduced Cooldown Recovery Rate
+### 70. Minions have {0}% reduced Cooldown Recovery Rate
 
 - Match score: `105`
 - `k`: Minions have {0}% reduced Cooldown Recovery Rate
@@ -8864,7 +8846,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Minions have {0}% reduced Cooldown Recovery Rate","n":"Minions have {0}% reduced Cooldown Recovery Rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 72. Minions have {0}% reduced Movement Speed for each Herald affecting you
+### 71. Minions have {0}% reduced Movement Speed for each Herald affecting you
 
 - Match score: `105`
 - `k`: Minions have {0}% reduced Movement Speed for each Herald affecting you
@@ -8876,7 +8858,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Minions have {0}% reduced Movement Speed for each Herald affecting you","n":"Minions have {0}% reduced Movement Speed for each Herald affecting you","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 73. Modifiers to [Melee] Strike Range also apply to this Skill's Area radius
+### 72. Modifiers to [Melee] Strike Range also apply to this Skill's Area radius
 
 - Match score: `105`
 - `k`: Modifiers to [Melee] Strike Range also apply to this Skill's Area radius
@@ -8888,7 +8870,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Modifiers to [Melee] Strike Range also apply to this Skill's Area radius","n":"Modifiers to [Melee] Strike Range also apply to this Skill's Area radius","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 74. Molten Strike Projectiles Chain when impacting the ground
+### 73. Molten Strike Projectiles Chain when impacting the ground
 
 - Match score: `105`
 - `k`: Molten Strike Projectiles Chain when impacting the ground
@@ -8900,7 +8882,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Molten Strike Projectiles Chain when impacting the ground","n":"Molten Strike Projectiles Chain when impacting the ground","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 75. Molten Strike Projectiles Chain {0} time
+### 74. Molten Strike Projectiles Chain {0} time
 
 - Match score: `105`
 - `k`: Molten Strike Projectiles Chain {0} time
@@ -8912,7 +8894,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Molten Strike Projectiles Chain {0} time","n":"Molten Strike Projectiles Chain {0} time","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 76. Molten Strike Projectiles Chain {0} times
+### 75. Molten Strike Projectiles Chain {0} times
 
 - Match score: `105`
 - `k`: Molten Strike Projectiles Chain {0} times
@@ -8924,7 +8906,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Molten Strike Projectiles Chain {0} times","n":"Molten Strike Projectiles Chain {0} times","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 77. Nearby Enemies have {0}% increased [CooldownRecovery|Cooldown Recovery Rate]
+### 76. Nearby Enemies have {0}% increased [CooldownRecovery|Cooldown Recovery Rate]
 
 - Match score: `105`
 - `k`: Nearby Enemies have {0}% increased [CooldownRecovery|Cooldown Recovery Rate]
@@ -8936,7 +8918,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Nearby Enemies have {0}% increased [CooldownRecovery|Cooldown Recovery Rate]","n":"Nearby Enemies have {0}% increased [CooldownRecovery|Cooldown Recovery Rate]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 78. Nearby Enemies have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate]
+### 77. Nearby Enemies have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate]
 
 - Match score: `105`
 - `k`: Nearby Enemies have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate]
@@ -8948,7 +8930,7 @@ Areas with [PowerfulMapBoss|Powerful Map Bosses] contain {0} Reactivation Runes
 {"k":"Nearby Enemies have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate]","n":"Nearby Enemies have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 79. Notable Passive Skills in Radius are Transformed to
+### 78. Notable Passive Skills in Radius are Transformed to
 instead grant: Minions have {0}% increased Movement Speed
 
 - Match score: `105`
@@ -8963,7 +8945,7 @@ instead grant: Minions have {0}% increased Movement Speed
 {"k":"Notable Passive Skills in Radius are Transformed to\ninstead grant: Minions have {0}% increased Movement Speed","n":"Notable Passive Skills in Radius are Transformed to\ninstead grant: Minions have {0}% increased Movement Speed","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 80. Notable Passive Skills in Radius are Transformed to
+### 79. Notable Passive Skills in Radius are Transformed to
 instead grant: Minions have {0}% reduced Movement Speed
 
 - Match score: `105`
@@ -8978,7 +8960,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Notable Passive Skills in Radius are Transformed to\ninstead grant: Minions have {0}% reduced Movement Speed","n":"Notable Passive Skills in Radius are Transformed to\ninstead grant: Minions have {0}% reduced Movement Speed","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 81. Players have {0}% increased Cooldown Recovery Rate for Movement Skills
+### 80. Players have {0}% increased Cooldown Recovery Rate for Movement Skills
 
 - Match score: `105`
 - `k`: Players have {0}% increased Cooldown Recovery Rate for Movement Skills
@@ -8990,7 +8972,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Players have {0}% increased Cooldown Recovery Rate for Movement Skills","n":"Players have {0}% increased Cooldown Recovery Rate for Movement Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 82. Raised Zombies' Slam [Attack] has {0}% increased Cooldown Recovery Rate
+### 81. Raised Zombies' Slam [Attack] has {0}% increased Cooldown Recovery Rate
 
 - Match score: `105`
 - `k`: Raised Zombies' Slam [Attack] has {0}% increased Cooldown Recovery Rate
@@ -9002,7 +8984,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Raised Zombies' Slam [Attack] has {0}% increased Cooldown Recovery Rate","n":"Raised Zombies' Slam [Attack] has {0}% increased Cooldown Recovery Rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 83. Rare and Unique Monsters in Area are Possessed by up to {0} Tormented Spirits and their Minions are Touched
+### 82. Rare and Unique Monsters in Area are Possessed by up to {0} Tormented Spirits and their Minions are Touched
 
 - Match score: `105`
 - `k`: Rare and Unique Monsters in Area are Possessed by up to {0} Tormented Spirits and their Minions are Touched
@@ -9014,7 +8996,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Rare and Unique Monsters in Area are Possessed by up to {0} Tormented Spirits and their Minions are Touched","n":"Rare and Unique Monsters in Area are Possessed by up to {0} Tormented Spirits and their Minions are Touched","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 84. Supported [Minion|Minions] have {0}% increased [CooldownRecovery|Cooldown Recovery Rate] for Command Skills
+### 83. Supported [Minion|Minions] have {0}% increased [CooldownRecovery|Cooldown Recovery Rate] for Command Skills
 
 - Match score: `105`
 - `k`: Supported [Minion|Minions] have {0}% increased [CooldownRecovery|Cooldown Recovery Rate] for Command Skills
@@ -9026,7 +9008,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Supported [Minion|Minions] have {0}% increased [CooldownRecovery|Cooldown Recovery Rate] for Command Skills","n":"Supported [Minion|Minions] have {0}% increased [CooldownRecovery|Cooldown Recovery Rate] for Command Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 85. Supported [Minion|Minions] have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate] for Command Skills
+### 84. Supported [Minion|Minions] have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate] for Command Skills
 
 - Match score: `105`
 - `k`: Supported [Minion|Minions] have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate] for Command Skills
@@ -9038,7 +9020,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Supported [Minion|Minions] have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate] for Command Skills","n":"Supported [Minion|Minions] have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate] for Command Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 86. Temporal Chains has no Reservation if Cast as an Aura
+### 85. Temporal Chains has no Reservation if Cast as an Aura
 
 - Match score: `105`
 - `k`: Temporal Chains has no Reservation if Cast as an Aura
@@ -9050,7 +9032,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Temporal Chains has no Reservation if Cast as an Aura","n":"Temporal Chains has no Reservation if Cast as an Aura","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 87. Temporal Chains has {0}% increased Reservation if Cast as an Aura
+### 86. Temporal Chains has {0}% increased Reservation if Cast as an Aura
 
 - Match score: `105`
 - `k`: Temporal Chains has {0}% increased Reservation if Cast as an Aura
@@ -9062,7 +9044,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Temporal Chains has {0}% increased Reservation if Cast as an Aura","n":"Temporal Chains has {0}% increased Reservation if Cast as an Aura","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 88. Temporal Chains has {0}% reduced Reservation if Cast as an Aura
+### 87. Temporal Chains has {0}% reduced Reservation if Cast as an Aura
 
 - Match score: `105`
 - `k`: Temporal Chains has {0}% reduced Reservation if Cast as an Aura
@@ -9074,7 +9056,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Temporal Chains has {0}% reduced Reservation if Cast as an Aura","n":"Temporal Chains has {0}% reduced Reservation if Cast as an Aura","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 89. Tormented Spirits in next Area will have {0}% increased Duration
+### 88. Tormented Spirits in next Area will have {0}% increased Duration
 
 - Match score: `105`
 - `k`: Tormented Spirits in next Area will have {0}% increased Duration
@@ -9086,7 +9068,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Tormented Spirits in next Area will have {0}% increased Duration","n":"Tormented Spirits in next Area will have {0}% increased Duration","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 90. Tormented Spirits in next Area will have {0}% increased Movement Speed
+### 89. Tormented Spirits in next Area will have {0}% increased Movement Speed
 
 - Match score: `105`
 - `k`: Tormented Spirits in next Area will have {0}% increased Movement Speed
@@ -9098,7 +9080,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Tormented Spirits in next Area will have {0}% increased Movement Speed","n":"Tormented Spirits in next Area will have {0}% increased Movement Speed","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 91. Tormented Spirits in next Area will have {0}% reduced Duration
+### 90. Tormented Spirits in next Area will have {0}% reduced Duration
 
 - Match score: `105`
 - `k`: Tormented Spirits in next Area will have {0}% reduced Duration
@@ -9110,7 +9092,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Tormented Spirits in next Area will have {0}% reduced Duration","n":"Tormented Spirits in next Area will have {0}% reduced Duration","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 92. Tormented Spirits in next Area will have {0}% reduced Movement Speed
+### 91. Tormented Spirits in next Area will have {0}% reduced Movement Speed
 
 - Match score: `105`
 - `k`: Tormented Spirits in next Area will have {0}% reduced Movement Speed
@@ -9122,7 +9104,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Tormented Spirits in next Area will have {0}% reduced Movement Speed","n":"Tormented Spirits in next Area will have {0}% reduced Movement Speed","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 93. Trigger Ancestral Spirits when you Summon a [Totem]
+### 92. Trigger Ancestral Spirits when you Summon a [Totem]
 
 - Match score: `105`
 - `k`: Trigger Ancestral Spirits when you Summon a [Totem]
@@ -9134,7 +9116,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Trigger Ancestral Spirits when you Summon a [Totem]","n":"Trigger Ancestral Spirits when you Summon a [Totem]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 94. Trigger Level {0} Tawhoa's Chosen when you [Attack] with a Non-Vaal Slam or Strike Skill near an Enemy
+### 93. Trigger Level {0} Tawhoa's Chosen when you [Attack] with a Non-Vaal Slam or Strike Skill near an Enemy
 
 - Match score: `105`
 - `k`: Trigger Level {0} Tawhoa's Chosen when you [Attack] with a Non-Vaal Slam or Strike Skill near an Enemy
@@ -9146,7 +9128,7 @@ instead grant: Minions have {0}% reduced Movement Speed
 {"k":"Trigger Level {0} Tawhoa's Chosen when you [Attack] with a Non-Vaal Slam or Strike Skill near an Enemy","n":"Trigger Level {0} Tawhoa's Chosen when you [Attack] with a Non-Vaal Slam or Strike Skill near an Enemy","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 95. Trigger Socketed Minion Spells on Kill with this Weapon
+### 94. Trigger Socketed Minion Spells on Kill with this Weapon
 Minion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses
 
 - Match score: `105`
@@ -9161,7 +9143,7 @@ Minion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses
 {"k":"Trigger Socketed Minion Spells on Kill with this Weapon\nMinion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses","n":"Trigger Socketed Minion Spells on Kill with this Weapon\nMinion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 96. With at least 40 [Dexterity] in Radius, Double Strike has a {0}% chance Trigger On Kill Effects twice
+### 95. With at least 40 [Dexterity] in Radius, Double Strike has a {0}% chance Trigger On Kill Effects twice
 
 - Match score: `105`
 - `k`: With at least 40 [Dexterity] in Radius, Double Strike has a {0}% chance Trigger On Kill Effects twice
@@ -9173,7 +9155,7 @@ Minion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses
 {"k":"With at least 40 [Dexterity] in Radius, Double Strike has a {0}% chance Trigger On Kill Effects twice","n":"With at least 40 [Dexterity] in Radius, Double Strike has a {0}% chance Trigger On Kill Effects twice","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 97. With at least 40 [Intelligence] in Radius, Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area
+### 96. With at least 40 [Intelligence] in Radius, Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area
 With at least 40 [Intelligence] in Radius, Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges
 
 - Match score: `105`
@@ -9188,7 +9170,7 @@ With at least 40 [Intelligence] in Radius, Cold Snap's Cooldown can be bypassed 
 {"k":"With at least 40 [Intelligence] in Radius, Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area\nWith at least 40 [Intelligence] in Radius, Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges","n":"With at least 40 [Intelligence] in Radius, Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area\nWith at least 40 [Intelligence] in Radius, Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 98. With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% increased Area of Effect
+### 97. With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% increased Area of Effect
 
 - Match score: `105`
 - `k`: With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% increased Area of Effect
@@ -9200,7 +9182,7 @@ With at least 40 [Intelligence] in Radius, Cold Snap's Cooldown can be bypassed 
 {"k":"With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% increased Area of Effect","n":"With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% increased Area of Effect","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 99. With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% reduced Area of Effect
+### 98. With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% reduced Area of Effect
 
 - Match score: `105`
 - `k`: With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% reduced Area of Effect
@@ -9212,7 +9194,7 @@ With at least 40 [Intelligence] in Radius, Cold Snap's Cooldown can be bypassed 
 {"k":"With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% reduced Area of Effect","n":"With at least 40 [Intelligence] in Radius, Fireball Projectiles gain Area as they travel farther, up to {0}% reduced Area of Effect","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 100. With at least 40 [Intelligence] in Radius, Rolling Magma
+### 99. With at least 40 [Intelligence] in Radius, Rolling Magma
 has {0}% increased Area of Effect per Chain
 
 - Match score: `105`
@@ -9227,7 +9209,7 @@ has {0}% increased Area of Effect per Chain
 {"k":"With at least 40 [Intelligence] in Radius, Rolling Magma\nhas {0}% increased Area of Effect per Chain","n":"With at least 40 [Intelligence] in Radius, Rolling Magma\nhas {0}% increased Area of Effect per Chain","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 101. With at least 40 [Intelligence] in Radius, Rolling Magma
+### 100. With at least 40 [Intelligence] in Radius, Rolling Magma
 has {0}% reduced Area of Effect per Chain
 
 - Match score: `105`
@@ -9242,7 +9224,7 @@ has {0}% reduced Area of Effect per Chain
 {"k":"With at least 40 [Intelligence] in Radius, Rolling Magma\nhas {0}% reduced Area of Effect per Chain","n":"With at least 40 [Intelligence] in Radius, Rolling Magma\nhas {0}% reduced Area of Effect per Chain","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 102. With at least 40 [Intelligence] in Radius, Spark Projectiles chain an additional time
+### 101. With at least 40 [Intelligence] in Radius, Spark Projectiles chain an additional time
 
 - Match score: `105`
 - `k`: With at least 40 [Intelligence] in Radius, Spark Projectiles chain an additional time
@@ -9254,7 +9236,7 @@ has {0}% reduced Area of Effect per Chain
 {"k":"With at least 40 [Intelligence] in Radius, Spark Projectiles chain an additional time","n":"With at least 40 [Intelligence] in Radius, Spark Projectiles chain an additional time","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 103. With at least 40 [Intelligence] in Radius, Spark Projectiles chain {0} additional times
+### 102. With at least 40 [Intelligence] in Radius, Spark Projectiles chain {0} additional times
 
 - Match score: `105`
 - `k`: With at least 40 [Intelligence] in Radius, Spark Projectiles chain {0} additional times
@@ -9266,7 +9248,7 @@ has {0}% reduced Area of Effect per Chain
 {"k":"With at least 40 [Intelligence] in Radius, Spark Projectiles chain {0} additional times","n":"With at least 40 [Intelligence] in Radius, Spark Projectiles chain {0} additional times","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 104. With at least 40 [Strength] in Radius, Hits with Vigilant Strike Fortify you and Nearby Allies for {0} seconds
+### 103. With at least 40 [Strength] in Radius, Hits with Vigilant Strike Fortify you and Nearby Allies for {0} seconds
 
 - Match score: `105`
 - `k`: With at least 40 [Strength] in Radius, Hits with Vigilant Strike Fortify you and Nearby Allies for {0} seconds
@@ -9278,7 +9260,7 @@ has {0}% reduced Area of Effect per Chain
 {"k":"With at least 40 [Strength] in Radius, Hits with Vigilant Strike Fortify you and Nearby Allies for {0} seconds","n":"With at least 40 [Strength] in Radius, Hits with Vigilant Strike Fortify you and Nearby Allies for {0} seconds","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 105. With at least 40 [Strength] in Radius, Molten Strike has {0}% increased Area of Effect
+### 104. With at least 40 [Strength] in Radius, Molten Strike has {0}% increased Area of Effect
 
 - Match score: `105`
 - `k`: With at least 40 [Strength] in Radius, Molten Strike has {0}% increased Area of Effect
@@ -9290,7 +9272,7 @@ has {0}% reduced Area of Effect per Chain
 {"k":"With at least 40 [Strength] in Radius, Molten Strike has {0}% increased Area of Effect","n":"With at least 40 [Strength] in Radius, Molten Strike has {0}% increased Area of Effect","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 106. With at least 40 [Strength|Strength] in Radius, Molten Strike fires an additional [Projectile|Projectile]
+### 105. With at least 40 [Strength|Strength] in Radius, Molten Strike fires an additional [Projectile|Projectile]
 
 - Match score: `105`
 - `k`: With at least 40 [Strength|Strength] in Radius, Molten Strike fires an additional [Projectile|Projectile]
@@ -9302,7 +9284,7 @@ has {0}% reduced Area of Effect per Chain
 {"k":"With at least 40 [Strength|Strength] in Radius, Molten Strike fires an additional [Projectile|Projectile]","n":"With at least 40 [Strength|Strength] in Radius, Molten Strike fires an additional [Projectile|Projectile]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 107. With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0} additional [Projectile|Projectiles]
+### 106. With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0} additional [Projectile|Projectiles]
 
 - Match score: `105`
 - `k`: With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0} additional [Projectile|Projectiles]
@@ -9314,7 +9296,7 @@ has {0}% reduced Area of Effect per Chain
 {"k":"With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0} additional [Projectile|Projectiles]","n":"With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0} additional [Projectile|Projectiles]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 108. With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% less [Projectile|Projectiles]
+### 107. With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% less [Projectile|Projectiles]
 
 - Match score: `105`
 - `k`: With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% less [Projectile|Projectiles]
@@ -9326,7 +9308,7 @@ has {0}% reduced Area of Effect per Chain
 {"k":"With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% less [Projectile|Projectiles]","n":"With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% less [Projectile|Projectiles]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 109. With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% more [Projectile|Projectiles]
+### 108. With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% more [Projectile|Projectiles]
 
 - Match score: `105`
 - `k`: With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% more [Projectile|Projectiles]
@@ -9338,7 +9320,7 @@ has {0}% reduced Area of Effect per Chain
 {"k":"With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% more [Projectile|Projectiles]","n":"With at least 40 [Strength|Strength] in Radius, Molten Strike fires {0}% more [Projectile|Projectiles]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 110. You can equip a non-[ItemRarity|Unique] [Sceptre] while wielding a [Talisman]
+### 109. You can equip a non-[ItemRarity|Unique] [Sceptre] while wielding a [Talisman]
 50% less [Spirit]
 Non-[Minion] Skills have 50% less [Reservation] [Efficiency]
 
@@ -9356,7 +9338,7 @@ Non-[Minion] Skills have 50% less [Reservation] [Efficiency]
 {"k":"You can equip a non-[ItemRarity|Unique] [Sceptre] while wielding a [Talisman]\n50% less [Spirit]\nNon-[Minion] Skills have 50% less [Reservation] [Efficiency]","n":"You can equip a non-[ItemRarity|Unique] [Sceptre] while wielding a [Talisman]\n50% less [Spirit]\nNon-[Minion] Skills have 50% less [Reservation] [Efficiency]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 111. You can only have one Herald
+### 110. You can only have one Herald
 50% more Effect of Herald Buffs on you
 100% more Damage with Hits from Herald Skills
 50% more Damage Over Time with Herald Skills
@@ -9383,7 +9365,7 @@ Your Aura Skills are Disabled
 {"k":"You can only have one Herald\n50% more Effect of Herald Buffs on you\n100% more Damage with Hits from Herald Skills\n50% more Damage Over Time with Herald Skills\nMinions from Herald Skills deal 25% more Damage\nYour Aura Skills are Disabled","n":"You can only have one Herald\n50% more Effect of Herald Buffs on you\n100% more Damage with Hits from Herald Skills\n50% more Damage Over Time with Herald Skills\nMinions from Herald Skills deal 25% more Damage\nYour Aura Skills are Disabled","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 112. {0} metre to [Minion] [Aura] radius
+### 111. {0} metre to [Minion] [Aura] radius
 
 - Match score: `105`
 - `k`: {0} metre to [Minion] [Aura] radius
@@ -9395,7 +9377,7 @@ Your Aura Skills are Disabled
 {"k":"{0} metre to [Minion] [Aura] radius","n":"{0} metre to [Minion] [Aura] radius","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 113. {0} metres to [Minion] [Aura] radius
+### 112. {0} metres to [Minion] [Aura] radius
 
 - Match score: `105`
 - `k`: {0} metres to [Minion] [Aura] radius
@@ -9407,7 +9389,7 @@ Your Aura Skills are Disabled
 {"k":"{0} metres to [Minion] [Aura] radius","n":"{0} metres to [Minion] [Aura] radius","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 114. {0}% chance to Trigger Socketed Minion Spells on Kill with this Weapon
+### 113. {0}% chance to Trigger Socketed Minion Spells on Kill with this Weapon
 Minion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses
 
 - Match score: `105`
@@ -9422,7 +9404,7 @@ Minion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses
 {"k":"{0}% chance to Trigger Socketed Minion Spells on Kill with this Weapon\nMinion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses","n":"{0}% chance to Trigger Socketed Minion Spells on Kill with this Weapon\nMinion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 115. {0}% chance to upgrade the boss of a nearby Map into a [PowerfulMapBoss|Powerful Map Boss] when completing [StoneSummoningCircle|Summoning Circles]
+### 114. {0}% chance to upgrade the boss of a nearby Map into a [PowerfulMapBoss|Powerful Map Boss] when completing [StoneSummoningCircle|Summoning Circles]
 
 - Match score: `105`
 - `k`: {0}% chance to upgrade the boss of a nearby Map into a [PowerfulMapBoss|Powerful Map Boss] when completing [StoneSummoningCircle|Summoning Circles]
@@ -9434,7 +9416,7 @@ Minion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses
 {"k":"{0}% chance to upgrade the boss of a nearby Map into a [PowerfulMapBoss|Powerful Map Boss] when completing [StoneSummoningCircle|Summoning Circles]","n":"{0}% chance to upgrade the boss of a nearby Map into a [PowerfulMapBoss|Powerful Map Boss] when completing [StoneSummoningCircle|Summoning Circles]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 116. {0}% increased chance for a [DeliriumGigaMirror|Grand Mirror] to appear on a nearby
+### 115. {0}% increased chance for a [DeliriumGigaMirror|Grand Mirror] to appear on a nearby
 Map when [MapBoss|Map Bosses] are slain within Fog
 
 - Match score: `105`
@@ -9449,7 +9431,7 @@ Map when [MapBoss|Map Bosses] are slain within Fog
 {"k":"{0}% increased chance for a [DeliriumGigaMirror|Grand Mirror] to appear on a nearby\nMap when [MapBoss|Map Bosses] are slain within Fog","n":"{0}% increased chance for a [DeliriumGigaMirror|Grand Mirror] to appear on a nearby\nMap when [MapBoss|Map Bosses] are slain within Fog","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 117. {0}% increased Cooldown Recovery Rate for each Normal or Magic Enemy in Area
+### 116. {0}% increased Cooldown Recovery Rate for each Normal or Magic Enemy in Area
 {1}% increased Cooldown Recovery Rate for each Rare or Unique Enemy in Area
 
 - Match score: `105`
@@ -9464,7 +9446,7 @@ Map when [MapBoss|Map Bosses] are slain within Fog
 {"k":"{0}% increased Cooldown Recovery Rate for each Normal or Magic Enemy in Area\n{1}% increased Cooldown Recovery Rate for each Rare or Unique Enemy in Area","n":"{0}% increased Cooldown Recovery Rate for each Normal or Magic Enemy in Area\n{1}% increased Cooldown Recovery Rate for each Rare or Unique Enemy in Area","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 118. {0}% increased Cooldown Recovery Rate if you've cast Temporal Chains in the past 10 seconds
+### 117. {0}% increased Cooldown Recovery Rate if you've cast Temporal Chains in the past 10 seconds
 
 - Match score: `105`
 - `k`: {0}% increased Cooldown Recovery Rate if you've cast Temporal Chains in the past 10 seconds
@@ -9476,7 +9458,7 @@ Map when [MapBoss|Map Bosses] are slain within Fog
 {"k":"{0}% increased Cooldown Recovery Rate if you've cast Temporal Chains in the past 10 seconds","n":"{0}% increased Cooldown Recovery Rate if you've cast Temporal Chains in the past 10 seconds","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 119. {0}% increased Cooldown Recovery Rate of Movement Skills
+### 118. {0}% increased Cooldown Recovery Rate of Movement Skills
 
 - Match score: `105`
 - `k`: {0}% increased Cooldown Recovery Rate of Movement Skills
@@ -9488,7 +9470,7 @@ Map when [MapBoss|Map Bosses] are slain within Fog
 {"k":"{0}% increased Cooldown Recovery Rate of Movement Skills","n":"{0}% increased Cooldown Recovery Rate of Movement Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 120. {0}% increased Cooldown Recovery Rate of Movement Skills used while affected by Haste
+### 119. {0}% increased Cooldown Recovery Rate of Movement Skills used while affected by Haste
 
 - Match score: `105`
 - `k`: {0}% increased Cooldown Recovery Rate of Movement Skills used while affected by Haste
@@ -9498,6 +9480,18 @@ Map when [MapBoss|Map Bosses] are slain within Fog
 
 ```json
 {"k":"{0}% increased Cooldown Recovery Rate of Movement Skills used while affected by Haste","n":"{0}% increased Cooldown Recovery Rate of Movement Skills used while affected by Haste","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 120. {0}% increased Movement Speed while Sprinting per [Persistent] [Minion]
+
+- Match score: `105`
+- `k`: {0}% increased Movement Speed while Sprinting per [Persistent] [Minion]
+- `n`: {0}% increased Movement Speed while Sprinting per [Persistent] [Minion]
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"{0}% increased Movement Speed while Sprinting per [Persistent] [Minion]","n":"{0}% increased Movement Speed while Sprinting per [Persistent] [Minion]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ## Index match summary

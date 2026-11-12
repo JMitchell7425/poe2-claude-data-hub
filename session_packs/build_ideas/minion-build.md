@@ -1,6 +1,6 @@
 # Build Idea Pack — Minion Build
 
-- Generated UTC: `2026-11-11T17:52:56+00:00`
+- Generated UTC: `2026-11-12T18:17:57+00:00`
 - Idea slug: `minion-build`
 - Purpose: Engineer a minion-focused build for safe clear, boss damage, and low mechanical strain.
 - Keywords: `minion, summon, skeleton, zombie, spirit, persistent, aura, command, revive, ally, damage, life, resistance, energy shield, curse, support, boss, clear, witch, infernalist, blood mage`
@@ -2917,19 +2917,7 @@ _No keyword matches in this index._
 - Source: `build_knowledge/compact/gem_index.json`
 - Matches included: `120`
 
-### 1. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'type': 'Condition', 'var': 'CommandableSkill'}}}}]
-
-- Match score: `115`
-- `k`: support_command_skill_damage_+%_final
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'type': 'Condition', 'var': 'CommandableSkill'}}}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"support_command_skill_damage_+%_final","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'type': 'Condition', 'var': 'CommandableSkill'}}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"Damage","type":"MORE","1":{"type":"Condition","var":"CommandableSkill"}}}}]}
-```
-
-### 2. EASDwarvenPipeBossSummonMinions
+### 1. EASDwarvenPipeBossSummonMinions
 
 - Match score: `115`
 - `k`: EASDwarvenPipeBossSummonMinions
@@ -2942,7 +2930,7 @@ _No keyword matches in this index._
 {"k":"EASDwarvenPipeBossSummonMinions","n":"EASDwarvenPipeBossSummonMinions","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 3. GASkeletonSnakeBossHeadSlamBodyDamage
+### 2. GASkeletonSnakeBossHeadSlamBodyDamage
 
 - Match score: `115`
 - `k`: GASkeletonSnakeBossHeadSlamBodyDamage
@@ -2955,7 +2943,7 @@ _No keyword matches in this index._
 {"k":"GASkeletonSnakeBossHeadSlamBodyDamage","n":"GASkeletonSnakeBossHeadSlamBodyDamage","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 4. RustKingBossSummonSkeleton
+### 3. RustKingBossSummonSkeleton
 
 - Match score: `115`
 - `k`: RustKingBossSummonSkeleton
@@ -2968,7 +2956,7 @@ _No keyword matches in this index._
 {"k":"RustKingBossSummonSkeleton","n":"RustKingBossSummonSkeleton","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 5. RustKingBossSummonSkeletonsGT
+### 4. RustKingBossSummonSkeletonsGT
 
 - Match score: `115`
 - `k`: RustKingBossSummonSkeletonsGT
@@ -2981,7 +2969,7 @@ _No keyword matches in this index._
 {"k":"RustKingBossSummonSkeletonsGT","n":"RustKingBossSummonSkeletonsGT","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 6. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'FullLife'}}}}]
+### 5. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'FullLife'}}}}]
 
 - Match score: `105`
 - `k`: minion_damage_+%_on_full_life
@@ -2993,7 +2981,7 @@ _No keyword matches in this index._
 {"k":"minion_damage_+%_on_full_life","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'FullLife'}}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"Damage","type":"INC","1":{"type":"Condition","var":"FullLife"}}}}]}
 ```
 
-### 7. minion_life_leech_from_elemental_damage_permyriad
+### 6. minion_life_leech_from_elemental_damage_permyriad
 
 - Match score: `105`
 - `k`: minion_life_leech_from_elemental_damage_permyriad
@@ -3005,7 +2993,7 @@ _No keyword matches in this index._
 {"k":"minion_life_leech_from_elemental_damage_permyriad","n":"minion_life_leech_from_elemental_damage_permyriad","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 8. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Life', 'type': 'MORE'}}}]
+### 7. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Life', 'type': 'MORE'}}}]
 
 - Match score: `90`
 - `k`: support_minion_damage_minion_life_+%_final
@@ -3017,7 +3005,7 @@ _No keyword matches in this index._
 {"k":"support_minion_damage_minion_life_+%_final","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Life', 'type': 'MORE'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"Life","type":"MORE"}}}]}
 ```
 
-### 9. SummonMercenaryCompanionSupportPlayer
+### 8. SummonMercenaryCompanionSupportPlayer
 
 - Match score: `90`
 - `k`: SummonMercenaryCompanionSupportPlayer
@@ -3031,7 +3019,7 @@ _No keyword matches in this index._
 {"k":"SummonMercenaryCompanionSupportPlayer","n":"SummonMercenaryCompanionSupportPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Attack","CrossbowAmmoSkill"],"excluded_types":["Meta","Persistent","InbuiltTrigger","UsableWhileShapeshifted","CreatesMinion"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 10. SupportHandOfChayulaRogueExileWitch2
+### 9. SupportHandOfChayulaRogueExileWitch2
 
 - Match score: `90`
 - `k`: SupportHandOfChayulaRogueExileWitch2
@@ -3045,7 +3033,7 @@ _No keyword matches in this index._
 {"k":"SupportHandOfChayulaRogueExileWitch2","n":"SupportHandOfChayulaRogueExileWitch2","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["AppliesCurse","Mark","OR"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 11. SupportLifeFlaskPlayer
+### 10. SupportLifeFlaskPlayer
 
 - Match score: `90`
 - `k`: SupportLifeFlaskPlayer
@@ -3059,7 +3047,7 @@ _No keyword matches in this index._
 {"k":"SupportLifeFlaskPlayer","n":"SupportLifeFlaskPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Attack","Damage","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 12. SupportLifeOnCullPlayer
+### 11. SupportLifeOnCullPlayer
 
 - Match score: `90`
 - `k`: SupportLifeOnCullPlayer
@@ -3073,7 +3061,7 @@ _No keyword matches in this index._
 {"k":"SupportLifeOnCullPlayer","n":"SupportLifeOnCullPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 13. SupportMinionPactPlayer
+### 12. SupportMinionPactPlayer
 
 - Match score: `90`
 - `k`: SupportMinionPactPlayer
@@ -3087,7 +3075,7 @@ _No keyword matches in this index._
 {"k":"SupportMinionPactPlayer","n":"SupportMinionPactPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","DamageOverTime","CrossbowAmmoSkill"],"excluded_types":["UsedByProxy","Triggered","Persistent"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 14. SupportMinionPactPlayerTwo
+### 13. SupportMinionPactPlayerTwo
 
 - Match score: `90`
 - `k`: SupportMinionPactPlayerTwo
@@ -3101,7 +3089,7 @@ _No keyword matches in this index._
 {"k":"SupportMinionPactPlayerTwo","n":"SupportMinionPactPlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","DamageOverTime","CrossbowAmmoSkill"],"excluded_types":["UsedByProxy","Triggered","Persistent"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 15. SupportRallyPlayer
+### 14. SupportRallyPlayer
 
 - Match score: `90`
 - `k`: SupportRallyPlayer
@@ -3115,7 +3103,7 @@ _No keyword matches in this index._
 {"k":"SupportRallyPlayer","n":"SupportRallyPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["ConsumesCharges","SkillConsumesEnduranceChargesOnUse","SupportedByRally"],"allowed_types":["Melee"],"excluded_types":["UsedByProxy","Triggered","Persistent","SkillConsumesEnduranceChargesOnUse","SupportedByRally","NOT","AND"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 16. ArcSkeletonMageMinion
+### 15. ArcSkeletonMageMinion
 
 - Match score: `80`
 - `k`: ArcSkeletonMageMinion
@@ -3128,7 +3116,7 @@ _No keyword matches in this index._
 {"k":"ArcSkeletonMageMinion","n":"ArcSkeletonMageMinion","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 17. AttackEssenceSummonSkeleton
+### 16. AttackEssenceSummonSkeleton
 
 - Match score: `80`
 - `k`: AttackEssenceSummonSkeleton
@@ -3139,6 +3127,19 @@ _No keyword matches in this index._
 
 ```json
 {"k":"AttackEssenceSummonSkeleton","n":"AttackEssenceSummonSkeleton","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 17. Awakened Minion Damage
+
+- Match score: `80`
+- `k`: Metadata/Items/Gems/SkillGemSupportAwakenedMinionDamage
+- `n`: Awakened Minion Damage
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"awakened":true,"intelligence":true,"minion":true,"support":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemSupportAwakenedMinionDamage","n":"Awakened Minion Damage","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"awakened":true,"intelligence":true,"minion":true,"support":true}}
 ```
 
 ### 18. BoneCultistReviveSkeletons
@@ -3180,7 +3181,20 @@ _No keyword matches in this index._
 {"k":"CGEGiantSkeletonSnakeBossFlameGeyser","n":"CGEGiantSkeletonSnakeBossFlameGeyser","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 21. DeathStormSkeletonStormMageMinion
+### 21. Damage on Full Life
+
+- Match score: `80`
+- `k`: Metadata/Items/Gems/SkillGemSupportDamageOnFullLife
+- `n`: Damage on Full Life
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"attack":true,"strength":true,"support":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemSupportDamageOnFullLife","n":"Damage on Full Life","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"attack":true,"strength":true,"support":true}}
+```
+
+### 22. DeathStormSkeletonStormMageMinion
 
 - Match score: `80`
 - `k`: DeathStormSkeletonStormMageMinion
@@ -3193,7 +3207,7 @@ _No keyword matches in this index._
 {"k":"DeathStormSkeletonStormMageMinion","n":"DeathStormSkeletonStormMageMinion","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 22. DeliriumDaemonSummonDemonMinion1
+### 23. DeliriumDaemonSummonDemonMinion1
 
 - Match score: `80`
 - `k`: DeliriumDaemonSummonDemonMinion1
@@ -3206,7 +3220,7 @@ _No keyword matches in this index._
 {"k":"DeliriumDaemonSummonDemonMinion1","n":"DeliriumDaemonSummonDemonMinion1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 23. DeliriumDaemonSummonDemonMinion2
+### 24. DeliriumDaemonSummonDemonMinion2
 
 - Match score: `80`
 - `k`: DeliriumDaemonSummonDemonMinion2
@@ -3219,7 +3233,7 @@ _No keyword matches in this index._
 {"k":"DeliriumDaemonSummonDemonMinion2","n":"DeliriumDaemonSummonDemonMinion2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 24. DeliriumDaemonSummonDemonMinion3
+### 25. DeliriumDaemonSummonDemonMinion3
 
 - Match score: `80`
 - `k`: DeliriumDaemonSummonDemonMinion3
@@ -3232,7 +3246,7 @@ _No keyword matches in this index._
 {"k":"DeliriumDaemonSummonDemonMinion3","n":"DeliriumDaemonSummonDemonMinion3","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 25. DeliriumDaemonSummonDemonMinionMagic1
+### 26. DeliriumDaemonSummonDemonMinionMagic1
 
 - Match score: `80`
 - `k`: DeliriumDaemonSummonDemonMinionMagic1
@@ -3245,7 +3259,7 @@ _No keyword matches in this index._
 {"k":"DeliriumDaemonSummonDemonMinionMagic1","n":"DeliriumDaemonSummonDemonMinionMagic1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 26. DeliriumDaemonSummonDemonMinionMagic2
+### 27. DeliriumDaemonSummonDemonMinionMagic2
 
 - Match score: `80`
 - `k`: DeliriumDaemonSummonDemonMinionMagic2
@@ -3258,7 +3272,7 @@ _No keyword matches in this index._
 {"k":"DeliriumDaemonSummonDemonMinionMagic2","n":"DeliriumDaemonSummonDemonMinionMagic2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 27. DeliriumDaemonSummonDemonMinionMagic3
+### 28. DeliriumDaemonSummonDemonMinionMagic3
 
 - Match score: `80`
 - `k`: DeliriumDaemonSummonDemonMinionMagic3
@@ -3271,7 +3285,7 @@ _No keyword matches in this index._
 {"k":"DeliriumDaemonSummonDemonMinionMagic3","n":"DeliriumDaemonSummonDemonMinionMagic3","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 28. DestructiveLinkSkeletonBombadierMinion
+### 29. DestructiveLinkSkeletonBombadierMinion
 
 - Match score: `80`
 - `k`: DestructiveLinkSkeletonBombadierMinion
@@ -3284,7 +3298,7 @@ _No keyword matches in this index._
 {"k":"DestructiveLinkSkeletonBombadierMinion","n":"DestructiveLinkSkeletonBombadierMinion","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 29. EASAncestralBattlehornAllyRevive
+### 30. EASAncestralBattlehornAllyRevive
 
 - Match score: `80`
 - `k`: EASAncestralBattlehornAllyRevive
@@ -3297,7 +3311,7 @@ _No keyword matches in this index._
 {"k":"EASAncestralBattlehornAllyRevive","n":"EASAncestralBattlehornAllyRevive","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 30. EASBloodPriestBossSummonBloodPool
+### 31. EASBloodPriestBossSummonBloodPool
 
 - Match score: `80`
 - `k`: EASBloodPriestBossSummonBloodPool
@@ -3310,7 +3324,7 @@ _No keyword matches in this index._
 {"k":"EASBloodPriestBossSummonBloodPool","n":"EASBloodPriestBossSummonBloodPool","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 31. EASBreachBossSummonEsh
+### 32. EASBreachBossSummonEsh
 
 - Match score: `80`
 - `k`: EASBreachBossSummonEsh
@@ -3323,7 +3337,7 @@ _No keyword matches in this index._
 {"k":"EASBreachBossSummonEsh","n":"EASBreachBossSummonEsh","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 32. EASBreachBossSummonEshTul
+### 33. EASBreachBossSummonEshTul
 
 - Match score: `80`
 - `k`: EASBreachBossSummonEshTul
@@ -3336,7 +3350,7 @@ _No keyword matches in this index._
 {"k":"EASBreachBossSummonEshTul","n":"EASBreachBossSummonEshTul","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 33. EASBreachBossSummonTul
+### 34. EASBreachBossSummonTul
 
 - Match score: `80`
 - `k`: EASBreachBossSummonTul
@@ -3349,7 +3363,7 @@ _No keyword matches in this index._
 {"k":"EASBreachBossSummonTul","n":"EASBreachBossSummonTul","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 34. EASConsumeBossSummonTheAbyss
+### 35. EASConsumeBossSummonTheAbyss
 
 - Match score: `80`
 - `k`: EASConsumeBossSummonTheAbyss
@@ -3362,7 +3376,7 @@ _No keyword matches in this index._
 {"k":"EASConsumeBossSummonTheAbyss","n":"EASConsumeBossSummonTheAbyss","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 35. EASDoomBossMinionPhase
+### 36. EASDoomBossMinionPhase
 
 - Match score: `80`
 - `k`: EASDoomBossMinionPhase
@@ -3375,7 +3389,7 @@ _No keyword matches in this index._
 {"k":"EASDoomBossMinionPhase","n":"EASDoomBossMinionPhase","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 36. EASDwarvenPipeBossSummonMiniboss
+### 37. EASDwarvenPipeBossSummonMiniboss
 
 - Match score: `80`
 - `k`: EASDwarvenPipeBossSummonMiniboss
@@ -3388,7 +3402,7 @@ _No keyword matches in this index._
 {"k":"EASDwarvenPipeBossSummonMiniboss","n":"EASDwarvenPipeBossSummonMiniboss","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 37. EASDwarvenPipeBossSummonSmokeClones
+### 38. EASDwarvenPipeBossSummonSmokeClones
 
 - Match score: `80`
 - `k`: EASDwarvenPipeBossSummonSmokeClones
@@ -3401,7 +3415,7 @@ _No keyword matches in this index._
 {"k":"EASDwarvenPipeBossSummonSmokeClones","n":"EASDwarvenPipeBossSummonSmokeClones","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 38. EASFallenGodBossMinionAddBuff
+### 39. EASFallenGodBossMinionAddBuff
 
 - Match score: `80`
 - `k`: EASFallenGodBossMinionAddBuff
@@ -3414,7 +3428,7 @@ _No keyword matches in this index._
 {"k":"EASFallenGodBossMinionAddBuff","n":"EASFallenGodBossMinionAddBuff","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 39. EASFallenGodBossMinionRerollBuff
+### 40. EASFallenGodBossMinionRerollBuff
 
 - Match score: `80`
 - `k`: EASFallenGodBossMinionRerollBuff
@@ -3427,7 +3441,7 @@ _No keyword matches in this index._
 {"k":"EASFallenGodBossMinionRerollBuff","n":"EASFallenGodBossMinionRerollBuff","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 40. EASFallenGodBossMinionResurrection
+### 41. EASFallenGodBossMinionResurrection
 
 - Match score: `80`
 - `k`: EASFallenGodBossMinionResurrection
@@ -3440,7 +3454,7 @@ _No keyword matches in this index._
 {"k":"EASFallenGodBossMinionResurrection","n":"EASFallenGodBossMinionResurrection","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 41. EASFallenGodBossMinionSiphonHeal
+### 42. EASFallenGodBossMinionSiphonHeal
 
 - Match score: `80`
 - `k`: EASFallenGodBossMinionSiphonHeal
@@ -3453,7 +3467,7 @@ _No keyword matches in this index._
 {"k":"EASFallenGodBossMinionSiphonHeal","n":"EASFallenGodBossMinionSiphonHeal","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 42. EASImperialGraveyardKnightMinionSwordSummon
+### 43. EASImperialGraveyardKnightMinionSwordSummon
 
 - Match score: `80`
 - `k`: EASImperialGraveyardKnightMinionSwordSummon
@@ -3466,7 +3480,7 @@ _No keyword matches in this index._
 {"k":"EASImperialGraveyardKnightMinionSwordSummon","n":"EASImperialGraveyardKnightMinionSwordSummon","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 43. EASSerpentBossCurseWallNuke
+### 44. EASSerpentBossCurseWallNuke
 
 - Match score: `80`
 - `k`: EASSerpentBossCurseWallNuke
@@ -3479,7 +3493,7 @@ _No keyword matches in this index._
 {"k":"EASSerpentBossCurseWallNuke","n":"EASSerpentBossCurseWallNuke","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 44. EASVoodooKingSummonDeathAuraEffigy
+### 45. EASVoodooKingSummonDeathAuraEffigy
 
 - Match score: `80`
 - `k`: EASVoodooKingSummonDeathAuraEffigy
@@ -3492,7 +3506,7 @@ _No keyword matches in this index._
 {"k":"EASVoodooKingSummonDeathAuraEffigy","n":"EASVoodooKingSummonDeathAuraEffigy","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 45. EGDredgeFiendBossZombieCall
+### 46. EGDredgeFiendBossZombieCall
 
 - Match score: `80`
 - `k`: EGDredgeFiendBossZombieCall
@@ -3505,7 +3519,7 @@ _No keyword matches in this index._
 {"k":"EGDredgeFiendBossZombieCall","n":"EGDredgeFiendBossZombieCall","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 46. EGWildSpiritRevive
+### 47. EGWildSpiritRevive
 
 - Match score: `80`
 - `k`: EGWildSpiritRevive
@@ -3518,7 +3532,7 @@ _No keyword matches in this index._
 {"k":"EGWildSpiritRevive","n":"EGWildSpiritRevive","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 47. EnrageSkeletonReaverMinion
+### 48. EnrageSkeletonReaverMinion
 
 - Match score: `80`
 - `k`: EnrageSkeletonReaverMinion
@@ -3531,7 +3545,7 @@ _No keyword matches in this index._
 {"k":"EnrageSkeletonReaverMinion","n":"EnrageSkeletonReaverMinion","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 48. FireBombSkeletonMinion
+### 49. FireBombSkeletonMinion
 
 - Match score: `80`
 - `k`: FireBombSkeletonMinion
@@ -3544,7 +3558,7 @@ _No keyword matches in this index._
 {"k":"FireBombSkeletonMinion","n":"FireBombSkeletonMinion","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 49. FrostBoltSkeletonMageMinion
+### 50. FrostBoltSkeletonMageMinion
 
 - Match score: `80`
 - `k`: FrostBoltSkeletonMageMinion
@@ -3557,7 +3571,7 @@ _No keyword matches in this index._
 {"k":"FrostBoltSkeletonMageMinion","n":"FrostBoltSkeletonMageMinion","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 50. GAArenaBeastBossFissureDamage
+### 51. GAArenaBeastBossFissureDamage
 
 - Match score: `80`
 - `k`: GAArenaBeastBossFissureDamage
@@ -3570,7 +3584,7 @@ _No keyword matches in this index._
 {"k":"GAArenaBeastBossFissureDamage","n":"GAArenaBeastBossFissureDamage","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 51. GAChaosGodOwlBossBatDamage
+### 52. GAChaosGodOwlBossBatDamage
 
 - Match score: `80`
 - `k`: GAChaosGodOwlBossBatDamage
@@ -3583,7 +3597,7 @@ _No keyword matches in this index._
 {"k":"GAChaosGodOwlBossBatDamage","n":"GAChaosGodOwlBossBatDamage","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 52. GADeliriumMinionDisgustTentacleSlamDamage
+### 53. GADeliriumMinionDisgustTentacleSlamDamage
 
 - Match score: `80`
 - `k`: GADeliriumMinionDisgustTentacleSlamDamage
@@ -3596,7 +3610,7 @@ _No keyword matches in this index._
 {"k":"GADeliriumMinionDisgustTentacleSlamDamage","n":"GADeliriumMinionDisgustTentacleSlamDamage","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 53. GADoomBossMinionPhaseSecondSlam
+### 54. GADoomBossMinionPhaseSecondSlam
 
 - Match score: `80`
 - `k`: GADoomBossMinionPhaseSecondSlam
@@ -3609,7 +3623,7 @@ _No keyword matches in this index._
 {"k":"GADoomBossMinionPhaseSecondSlam","n":"GADoomBossMinionPhaseSecondSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 54. GADoomBossMinionPhaseSlam
+### 55. GADoomBossMinionPhaseSlam
 
 - Match score: `80`
 - `k`: GADoomBossMinionPhaseSlam
@@ -3622,7 +3636,7 @@ _No keyword matches in this index._
 {"k":"GADoomBossMinionPhaseSlam","n":"GADoomBossMinionPhaseSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 55. GAHellscapeDemonBossLeapSlamDamage
+### 56. GAHellscapeDemonBossLeapSlamDamage
 
 - Match score: `80`
 - `k`: GAHellscapeDemonBossLeapSlamDamage
@@ -3635,7 +3649,7 @@ _No keyword matches in this index._
 {"k":"GAHellscapeDemonBossLeapSlamDamage","n":"GAHellscapeDemonBossLeapSlamDamage","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 56. GAKaruiCaptainBoss2JadeSunderMinionSpike
+### 57. GAKaruiCaptainBoss2JadeSunderMinionSpike
 
 - Match score: `80`
 - `k`: GAKaruiCaptainBoss2JadeSunderMinionSpike
@@ -3648,7 +3662,7 @@ _No keyword matches in this index._
 {"k":"GAKaruiCaptainBoss2JadeSunderMinionSpike","n":"GAKaruiCaptainBoss2JadeSunderMinionSpike","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 57. GAKaruiCaptainBossJadeSunderMinionSpike
+### 58. GAKaruiCaptainBossJadeSunderMinionSpike
 
 - Match score: `80`
 - `k`: GAKaruiCaptainBossJadeSunderMinionSpike
@@ -3661,7 +3675,7 @@ _No keyword matches in this index._
 {"k":"GAKaruiCaptainBossJadeSunderMinionSpike","n":"GAKaruiCaptainBossJadeSunderMinionSpike","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 58. GAKaruiCaptainBossSpiritChieftainSlam
+### 59. GAKaruiCaptainBossSpiritChieftainSlam
 
 - Match score: `80`
 - `k`: GAKaruiCaptainBossSpiritChieftainSlam
@@ -3674,7 +3688,7 @@ _No keyword matches in this index._
 {"k":"GAKaruiCaptainBossSpiritChieftainSlam","n":"GAKaruiCaptainBossSpiritChieftainSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 59. GASerpentCasterBossTailSwipeDamage
+### 60. GASerpentCasterBossTailSwipeDamage
 
 - Match score: `80`
 - `k`: GASerpentCasterBossTailSwipeDamage
@@ -3687,7 +3701,7 @@ _No keyword matches in this index._
 {"k":"GASerpentCasterBossTailSwipeDamage","n":"GASerpentCasterBossTailSwipeDamage","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 60. GASkeletonSnakeBossHeadSlam
+### 61. GASkeletonSnakeBossHeadSlam
 
 - Match score: `80`
 - `k`: GASkeletonSnakeBossHeadSlam
@@ -3700,7 +3714,7 @@ _No keyword matches in this index._
 {"k":"GASkeletonSnakeBossHeadSlam","n":"GASkeletonSnakeBossHeadSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 61. GASkeletonSnakeBossHeadSlam180
+### 62. GASkeletonSnakeBossHeadSlam180
 
 - Match score: `80`
 - `k`: GASkeletonSnakeBossHeadSlam180
@@ -3713,7 +3727,7 @@ _No keyword matches in this index._
 {"k":"GASkeletonSnakeBossHeadSlam180","n":"GASkeletonSnakeBossHeadSlam180","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 62. GASoulcoreFusedSkeletonBossCascadeSlam
+### 63. GASoulcoreFusedSkeletonBossCascadeSlam
 
 - Match score: `80`
 - `k`: GASoulcoreFusedSkeletonBossCascadeSlam
@@ -3726,7 +3740,7 @@ _No keyword matches in this index._
 {"k":"GASoulcoreFusedSkeletonBossCascadeSlam","n":"GASoulcoreFusedSkeletonBossCascadeSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 63. GASoulcoreFusedSkeletonBossDoubleSlam
+### 64. GASoulcoreFusedSkeletonBossDoubleSlam
 
 - Match score: `80`
 - `k`: GASoulcoreFusedSkeletonBossDoubleSlam
@@ -3739,7 +3753,7 @@ _No keyword matches in this index._
 {"k":"GASoulcoreFusedSkeletonBossDoubleSlam","n":"GASoulcoreFusedSkeletonBossDoubleSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 64. GASoulcoreFusedSkeletonBossWaveSlam
+### 65. GASoulcoreFusedSkeletonBossWaveSlam
 
 - Match score: `80`
 - `k`: GASoulcoreFusedSkeletonBossWaveSlam
@@ -3752,7 +3766,7 @@ _No keyword matches in this index._
 {"k":"GASoulcoreFusedSkeletonBossWaveSlam","n":"GASoulcoreFusedSkeletonBossWaveSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 65. GasShotSkeletonSniperMinion
+### 66. GasShotSkeletonSniperMinion
 
 - Match score: `80`
 - `k`: GasShotSkeletonSniperMinion
@@ -3765,7 +3779,7 @@ _No keyword matches in this index._
 {"k":"GasShotSkeletonSniperMinion","n":"GasShotSkeletonSniperMinion","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 66. GATitanBossFissureDamage
+### 67. GATitanBossFissureDamage
 
 - Match score: `80`
 - `k`: GATitanBossFissureDamage
@@ -3778,7 +3792,7 @@ _No keyword matches in this index._
 {"k":"GATitanBossFissureDamage","n":"GATitanBossFissureDamage","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 67. GAVolcanicMinibossFissureDamage
+### 68. GAVolcanicMinibossFissureDamage
 
 - Match score: `80`
 - `k`: GAVolcanicMinibossFissureDamage
@@ -3791,7 +3805,7 @@ _No keyword matches in this index._
 {"k":"GAVolcanicMinibossFissureDamage","n":"GAVolcanicMinibossFissureDamage","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 68. GenericMinionCommandPlayer
+### 69. GenericMinionCommandPlayer
 
 - Match score: `80`
 - `k`: GenericMinionCommandPlayer
@@ -3804,7 +3818,7 @@ _No keyword matches in this index._
 {"k":"GenericMinionCommandPlayer","n":"GenericMinionCommandPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 69. GhoulCommanderVomitBoss
+### 70. GhoulCommanderVomitBoss
 
 - Match score: `80`
 - `k`: GhoulCommanderVomitBoss
@@ -3817,7 +3831,7 @@ _No keyword matches in this index._
 {"k":"GhoulCommanderVomitBoss","n":"GhoulCommanderVomitBoss","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 70. GPSKaruiSpiritMinionProjectile
+### 71. GPSKaruiSpiritMinionProjectile
 
 - Match score: `80`
 - `k`: GPSKaruiSpiritMinionProjectile
@@ -3830,7 +3844,7 @@ _No keyword matches in this index._
 {"k":"GPSKaruiSpiritMinionProjectile","n":"GPSKaruiSpiritMinionProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 71. GSCyclopsSpiderBossComboBeamDamage
+### 72. GSCyclopsSpiderBossComboBeamDamage
 
 - Match score: `80`
 - `k`: GSCyclopsSpiderBossComboBeamDamage
@@ -3843,7 +3857,7 @@ _No keyword matches in this index._
 {"k":"GSCyclopsSpiderBossComboBeamDamage","n":"GSCyclopsSpiderBossComboBeamDamage","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 72. GSCyclopsSpiderBossWebRockFlyingDamage
+### 73. GSCyclopsSpiderBossWebRockFlyingDamage
 
 - Match score: `80`
 - `k`: GSCyclopsSpiderBossWebRockFlyingDamage
@@ -3856,7 +3870,7 @@ _No keyword matches in this index._
 {"k":"GSCyclopsSpiderBossWebRockFlyingDamage","n":"GSCyclopsSpiderBossWebRockFlyingDamage","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 73. GSDemonClawBossBulletHellDamageHigh
+### 74. GSDemonClawBossBulletHellDamageHigh
 
 - Match score: `80`
 - `k`: GSDemonClawBossBulletHellDamageHigh
@@ -3869,7 +3883,7 @@ _No keyword matches in this index._
 {"k":"GSDemonClawBossBulletHellDamageHigh","n":"GSDemonClawBossBulletHellDamageHigh","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 74. GSDemonClawBossBulletHellDamageLow
+### 75. GSDemonClawBossBulletHellDamageLow
 
 - Match score: `80`
 - `k`: GSDemonClawBossBulletHellDamageLow
@@ -3882,7 +3896,7 @@ _No keyword matches in this index._
 {"k":"GSDemonClawBossBulletHellDamageLow","n":"GSDemonClawBossBulletHellDamageLow","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 75. GSDoomBossSummoningSlam
+### 76. GSDoomBossSummoningSlam
 
 - Match score: `80`
 - `k`: GSDoomBossSummoningSlam
@@ -3895,7 +3909,7 @@ _No keyword matches in this index._
 {"k":"GSDoomBossSummoningSlam","n":"GSDoomBossSummoningSlam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 76. GSDoomBossSummoningSlamMarker
+### 77. GSDoomBossSummoningSlamMarker
 
 - Match score: `80`
 - `k`: GSDoomBossSummoningSlamMarker
@@ -3908,7 +3922,7 @@ _No keyword matches in this index._
 {"k":"GSDoomBossSummoningSlamMarker","n":"GSDoomBossSummoningSlamMarker","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 77. GSFallenGodBossWaveRevive
+### 78. GSFallenGodBossWaveRevive
 
 - Match score: `80`
 - `k`: GSFallenGodBossWaveRevive
@@ -3921,7 +3935,7 @@ _No keyword matches in this index._
 {"k":"GSFallenGodBossWaveRevive","n":"GSFallenGodBossWaveRevive","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 78. GSIceOwlBossIceSpikeDamage
+### 79. GSIceOwlBossIceSpikeDamage
 
 - Match score: `80`
 - `k`: GSIceOwlBossIceSpikeDamage
@@ -3934,7 +3948,7 @@ _No keyword matches in this index._
 {"k":"GSIceOwlBossIceSpikeDamage","n":"GSIceOwlBossIceSpikeDamage","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 79. GSKaruiCaptainBoss2LaserDamage
+### 80. GSKaruiCaptainBoss2LaserDamage
 
 - Match score: `80`
 - `k`: GSKaruiCaptainBoss2LaserDamage
@@ -3947,7 +3961,7 @@ _No keyword matches in this index._
 {"k":"GSKaruiCaptainBoss2LaserDamage","n":"GSKaruiCaptainBoss2LaserDamage","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 80. GSOverlordBossRaiseAndRazeExplosionDamage
+### 81. GSOverlordBossRaiseAndRazeExplosionDamage
 
 - Match score: `80`
 - `k`: GSOverlordBossRaiseAndRazeExplosionDamage
@@ -3960,7 +3974,7 @@ _No keyword matches in this index._
 {"k":"GSOverlordBossRaiseAndRazeExplosionDamage","n":"GSOverlordBossRaiseAndRazeExplosionDamage","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 81. GSOverlordBossRaiseAndRazeRockUpwardDamage
+### 82. GSOverlordBossRaiseAndRazeRockUpwardDamage
 
 - Match score: `80`
 - `k`: GSOverlordBossRaiseAndRazeRockUpwardDamage
@@ -3973,7 +3987,7 @@ _No keyword matches in this index._
 {"k":"GSOverlordBossRaiseAndRazeRockUpwardDamage","n":"GSOverlordBossRaiseAndRazeRockUpwardDamage","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 82. GSSerpentCasterBossMinionEmerge
+### 83. GSSerpentCasterBossMinionEmerge
 
 - Match score: `80`
 - `k`: GSSerpentCasterBossMinionEmerge
@@ -3986,7 +4000,7 @@ _No keyword matches in this index._
 {"k":"GSSerpentCasterBossMinionEmerge","n":"GSSerpentCasterBossMinionEmerge","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 83. GSShipwreckBossWaveDamage
+### 84. GSShipwreckBossWaveDamage
 
 - Match score: `80`
 - `k`: GSShipwreckBossWaveDamage
@@ -3999,7 +4013,7 @@ _No keyword matches in this index._
 {"k":"GSShipwreckBossWaveDamage","n":"GSShipwreckBossWaveDamage","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 84. GSSkeletonSnakeBossFlameBlast
+### 85. GSSkeletonSnakeBossFlameBlast
 
 - Match score: `80`
 - `k`: GSSkeletonSnakeBossFlameBlast
@@ -4012,7 +4026,7 @@ _No keyword matches in this index._
 {"k":"GSSkeletonSnakeBossFlameBlast","n":"GSSkeletonSnakeBossFlameBlast","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 85. GSSkeletonSnakeBossRibCageBarrageImpact
+### 86. GSSkeletonSnakeBossRibCageBarrageImpact
 
 - Match score: `80`
 - `k`: GSSkeletonSnakeBossRibCageBarrageImpact
@@ -4025,7 +4039,7 @@ _No keyword matches in this index._
 {"k":"GSSkeletonSnakeBossRibCageBarrageImpact","n":"GSSkeletonSnakeBossRibCageBarrageImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 86. GTBearSpiritSummon
+### 87. GTBearSpiritSummon
 
 - Match score: `80`
 - `k`: GTBearSpiritSummon
@@ -4038,7 +4052,7 @@ _No keyword matches in this index._
 {"k":"GTBearSpiritSummon","n":"GTBearSpiritSummon","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 87. GTBearSpiritSummonPlayer
+### 88. GTBearSpiritSummonPlayer
 
 - Match score: `80`
 - `k`: GTBearSpiritSummonPlayer
@@ -4051,7 +4065,7 @@ _No keyword matches in this index._
 {"k":"GTBearSpiritSummonPlayer","n":"GTBearSpiritSummonPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 88. GTCorruptedEssenceDeliriumMinionSummon
+### 89. GTCorruptedEssenceDeliriumMinionSummon
 
 - Match score: `80`
 - `k`: GTCorruptedEssenceDeliriumMinionSummon
@@ -4064,7 +4078,7 @@ _No keyword matches in this index._
 {"k":"GTCorruptedEssenceDeliriumMinionSummon","n":"GTCorruptedEssenceDeliriumMinionSummon","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 89. GTDredgeFiendShamanBossZombieBullrush
+### 90. GTDredgeFiendShamanBossZombieBullrush
 
 - Match score: `80`
 - `k`: GTDredgeFiendShamanBossZombieBullrush
@@ -4077,7 +4091,7 @@ _No keyword matches in this index._
 {"k":"GTDredgeFiendShamanBossZombieBullrush","n":"GTDredgeFiendShamanBossZombieBullrush","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 90. GTDredgeFiendShamanBossZombieCircleDefensive
+### 91. GTDredgeFiendShamanBossZombieCircleDefensive
 
 - Match score: `80`
 - `k`: GTDredgeFiendShamanBossZombieCircleDefensive
@@ -4090,7 +4104,7 @@ _No keyword matches in this index._
 {"k":"GTDredgeFiendShamanBossZombieCircleDefensive","n":"GTDredgeFiendShamanBossZombieCircleDefensive","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 91. GTDredgeFiendShamanBossZombieCircleOffensive
+### 92. GTDredgeFiendShamanBossZombieCircleOffensive
 
 - Match score: `80`
 - `k`: GTDredgeFiendShamanBossZombieCircleOffensive
@@ -4103,7 +4117,7 @@ _No keyword matches in this index._
 {"k":"GTDredgeFiendShamanBossZombieCircleOffensive","n":"GTDredgeFiendShamanBossZombieCircleOffensive","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 92. GTDredgeFiendShamanBossZombieLeft
+### 93. GTDredgeFiendShamanBossZombieLeft
 
 - Match score: `80`
 - `k`: GTDredgeFiendShamanBossZombieLeft
@@ -4116,7 +4130,7 @@ _No keyword matches in this index._
 {"k":"GTDredgeFiendShamanBossZombieLeft","n":"GTDredgeFiendShamanBossZombieLeft","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 93. GTDredgeFiendShamanBossZombieRight
+### 94. GTDredgeFiendShamanBossZombieRight
 
 - Match score: `80`
 - `k`: GTDredgeFiendShamanBossZombieRight
@@ -4129,7 +4143,7 @@ _No keyword matches in this index._
 {"k":"GTDredgeFiendShamanBossZombieRight","n":"GTDredgeFiendShamanBossZombieRight","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 94. GTDredgeFiendShamanBossZombieWall
+### 95. GTDredgeFiendShamanBossZombieWall
 
 - Match score: `80`
 - `k`: GTDredgeFiendShamanBossZombieWall
@@ -4142,7 +4156,7 @@ _No keyword matches in this index._
 {"k":"GTDredgeFiendShamanBossZombieWall","n":"GTDredgeFiendShamanBossZombieWall","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 95. GTHellscapeFleshBossSummonTentacleField
+### 96. GTHellscapeFleshBossSummonTentacleField
 
 - Match score: `80`
 - `k`: GTHellscapeFleshBossSummonTentacleField
@@ -4155,7 +4169,7 @@ _No keyword matches in this index._
 {"k":"GTHellscapeFleshBossSummonTentacleField","n":"GTHellscapeFleshBossSummonTentacleField","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 96. GTOwlSpiritSummon
+### 97. GTOwlSpiritSummon
 
 - Match score: `80`
 - `k`: GTOwlSpiritSummon
@@ -4168,7 +4182,7 @@ _No keyword matches in this index._
 {"k":"GTOwlSpiritSummon","n":"GTOwlSpiritSummon","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 97. GTOwlSpiritSummonPlayer
+### 98. GTOwlSpiritSummonPlayer
 
 - Match score: `80`
 - `k`: GTOwlSpiritSummonPlayer
@@ -4181,7 +4195,7 @@ _No keyword matches in this index._
 {"k":"GTOwlSpiritSummonPlayer","n":"GTOwlSpiritSummonPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 98. GTPrimateSpiritsSummon
+### 99. GTPrimateSpiritsSummon
 
 - Match score: `80`
 - `k`: GTPrimateSpiritsSummon
@@ -4194,7 +4208,7 @@ _No keyword matches in this index._
 {"k":"GTPrimateSpiritsSummon","n":"GTPrimateSpiritsSummon","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 99. GTPrimateSpiritsSummonPlayer
+### 100. GTPrimateSpiritsSummonPlayer
 
 - Match score: `80`
 - `k`: GTPrimateSpiritsSummonPlayer
@@ -4207,7 +4221,7 @@ _No keyword matches in this index._
 {"k":"GTPrimateSpiritsSummonPlayer","n":"GTPrimateSpiritsSummonPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 100. GTSerpentClanCasterBossSummonSnakesSTANDALONE
+### 101. GTSerpentClanCasterBossSummonSnakesSTANDALONE
 
 - Match score: `80`
 - `k`: GTSerpentClanCasterBossSummonSnakesSTANDALONE
@@ -4220,7 +4234,7 @@ _No keyword matches in this index._
 {"k":"GTSerpentClanCasterBossSummonSnakesSTANDALONE","n":"GTSerpentClanCasterBossSummonSnakesSTANDALONE","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 101. GTSkeletonSnakeBossSoulerCoasterBarrage
+### 102. GTSkeletonSnakeBossSoulerCoasterBarrage
 
 - Match score: `80`
 - `k`: GTSkeletonSnakeBossSoulerCoasterBarrage
@@ -4233,7 +4247,7 @@ _No keyword matches in this index._
 {"k":"GTSkeletonSnakeBossSoulerCoasterBarrage","n":"GTSkeletonSnakeBossSoulerCoasterBarrage","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 102. GTSpiritOxSummon
+### 103. GTSpiritOxSummon
 
 - Match score: `80`
 - `k`: GTSpiritOxSummon
@@ -4246,7 +4260,7 @@ _No keyword matches in this index._
 {"k":"GTSpiritOxSummon","n":"GTSpiritOxSummon","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 103. GTSpiritOxSummonPlayer
+### 104. GTSpiritOxSummonPlayer
 
 - Match score: `80`
 - `k`: GTSpiritOxSummonPlayer
@@ -4259,7 +4273,7 @@ _No keyword matches in this index._
 {"k":"GTSpiritOxSummonPlayer","n":"GTSpiritOxSummonPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 104. GTSummonKaruiSpirits
+### 105. GTSummonKaruiSpirits
 
 - Match score: `80`
 - `k`: GTSummonKaruiSpirits
@@ -4272,7 +4286,7 @@ _No keyword matches in this index._
 {"k":"GTSummonKaruiSpirits","n":"GTSummonKaruiSpirits","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 105. GTSwollenMillerZombieSummon
+### 106. GTSwollenMillerZombieSummon
 
 - Match score: `80`
 - `k`: GTSwollenMillerZombieSummon
@@ -4285,7 +4299,7 @@ _No keyword matches in this index._
 {"k":"GTSwollenMillerZombieSummon","n":"GTSwollenMillerZombieSummon","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 106. HagBossSummonWolves
+### 107. HagBossSummonWolves
 
 - Match score: `80`
 - `k`: HagBossSummonWolves
@@ -4298,7 +4312,7 @@ _No keyword matches in this index._
 {"k":"HagBossSummonWolves","n":"HagBossSummonWolves","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 107. HealSkeletonClericMinion
+### 108. HealSkeletonClericMinion
 
 - Match score: `80`
 - `k`: HealSkeletonClericMinion
@@ -4311,7 +4325,7 @@ _No keyword matches in this index._
 {"k":"HealSkeletonClericMinion","n":"HealSkeletonClericMinion","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 108. IceArmourSkeletonMageMinion
+### 109. IceArmourSkeletonMageMinion
 
 - Match score: `80`
 - `k`: IceArmourSkeletonMageMinion
@@ -4324,7 +4338,7 @@ _No keyword matches in this index._
 {"k":"IceArmourSkeletonMageMinion","n":"IceArmourSkeletonMageMinion","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 109. IceBombSkeletonMageMinion
+### 110. IceBombSkeletonMageMinion
 
 - Match score: `80`
 - `k`: IceBombSkeletonMageMinion
@@ -4337,7 +4351,7 @@ _No keyword matches in this index._
 {"k":"IceBombSkeletonMageMinion","n":"IceBombSkeletonMageMinion","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 110. Metadata/Items/Gem/SupportGemCommandment
+### 111. Metadata/Items/Gem/SupportGemCommandment
 
 - Match score: `80`
 - `k`: Metadata/Items/Gem/SupportGemCommandment
@@ -4351,7 +4365,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SupportGemCommandment","n":"Metadata/Items/Gem/SupportGemCommandment","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Commandment","id":"Metadata/Items/Gem/SupportGemCommandment","release_state":"released"},"tags":["support","minion","command"]}
 ```
 
-### 111. Metadata/Items/Gem/SupportGemCrazedMinions
+### 112. Metadata/Items/Gem/SupportGemCrazedMinions
 
 - Match score: `80`
 - `k`: Metadata/Items/Gem/SupportGemCrazedMinions
@@ -4365,7 +4379,33 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SupportGemCrazedMinions","n":"Metadata/Items/Gem/SupportGemCrazedMinions","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Crazed Minions","id":"Metadata/Items/Gem/SupportGemCrazedMinions","release_state":"released"},"tags":["support","minion","persistent"]}
 ```
 
-### 112. MonsterModPhysicalDamageAura1
+### 113. Minion Damage
+
+- Match score: `80`
+- `k`: Metadata/Items/Gems/SkillGemSupportMinionDamage
+- `n`: Minion Damage
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"intelligence":true,"minion":true,"support":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemSupportMinionDamage","n":"Minion Damage","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"intelligence":true,"minion":true,"support":true}}
+```
+
+### 114. Minion Life
+
+- Match score: `80`
+- `k`: Metadata/Items/Gems/SkillGemSupportMinionLife
+- `n`: Minion Life
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"intelligence":true,"minion":true,"support":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemSupportMinionLife","n":"Minion Life","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"intelligence":true,"minion":true,"support":true}}
+```
+
+### 115. MonsterModPhysicalDamageAura1
 
 - Match score: `80`
 - `k`: MonsterModPhysicalDamageAura1
@@ -4378,7 +4418,7 @@ _No keyword matches in this index._
 {"k":"MonsterModPhysicalDamageAura1","n":"MonsterModPhysicalDamageAura1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 113. MonsterModResistanceAura1
+### 116. MonsterModResistanceAura1
 
 - Match score: `80`
 - `k`: MonsterModResistanceAura1
@@ -4391,7 +4431,7 @@ _No keyword matches in this index._
 {"k":"MonsterModResistanceAura1","n":"MonsterModResistanceAura1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 114. MPSSkeletonSnakeBossSoulerCoaster
+### 117. MPSSkeletonSnakeBossSoulerCoaster
 
 - Match score: `80`
 - `k`: MPSSkeletonSnakeBossSoulerCoaster
@@ -4404,7 +4444,7 @@ _No keyword matches in this index._
 {"k":"MPSSkeletonSnakeBossSoulerCoaster","n":"MPSSkeletonSnakeBossSoulerCoaster","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 115. NecromancerReviveSkeleton
+### 118. NecromancerReviveSkeleton
 
 - Match score: `80`
 - `k`: NecromancerReviveSkeleton
@@ -4417,7 +4457,7 @@ _No keyword matches in this index._
 {"k":"NecromancerReviveSkeleton","n":"NecromancerReviveSkeleton","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 116. NemesisDaemonSummonSkeleton
+### 119. NemesisDaemonSummonSkeleton
 
 - Match score: `80`
 - `k`: NemesisDaemonSummonSkeleton
@@ -4430,7 +4470,7 @@ _No keyword matches in this index._
 {"k":"NemesisDaemonSummonSkeleton","n":"NemesisDaemonSummonSkeleton","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 117. PlayerMonsterModEnergyShieldAuraMinion1
+### 120. PlayerMonsterModEnergyShieldAuraMinion1
 
 - Match score: `80`
 - `k`: PlayerMonsterModEnergyShieldAuraMinion1
@@ -4441,45 +4481,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"PlayerMonsterModEnergyShieldAuraMinion1","n":"PlayerMonsterModEnergyShieldAuraMinion1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
-```
-
-### 118. PlayerMonsterModIncreasedSpeedAuraMinion1
-
-- Match score: `80`
-- `k`: PlayerMonsterModIncreasedSpeedAuraMinion1
-- `n`: PlayerMonsterModIncreasedSpeedAuraMinion1
-- `cat`: repoe_skills
-- `src`: repoe_poe2/skills.json
-- `is_support`: False
-
-```json
-{"k":"PlayerMonsterModIncreasedSpeedAuraMinion1","n":"PlayerMonsterModIncreasedSpeedAuraMinion1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
-```
-
-### 119. PlayerMonsterModPhysicalDamageAura1
-
-- Match score: `80`
-- `k`: PlayerMonsterModPhysicalDamageAura1
-- `n`: PlayerMonsterModPhysicalDamageAura1
-- `cat`: repoe_skills
-- `src`: repoe_poe2/skills.json
-- `is_support`: False
-
-```json
-{"k":"PlayerMonsterModPhysicalDamageAura1","n":"PlayerMonsterModPhysicalDamageAura1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
-```
-
-### 120. PlayerMonsterModResistanceAura1
-
-- Match score: `80`
-- `k`: PlayerMonsterModResistanceAura1
-- `n`: PlayerMonsterModResistanceAura1
-- `cat`: repoe_skills
-- `src`: repoe_poe2/skills.json
-- `is_support`: False
-
-```json
-{"k":"PlayerMonsterModResistanceAura1","n":"PlayerMonsterModResistanceAura1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
 ## Item bases/classes
@@ -6092,19 +6093,7 @@ _No keyword matches in this index._
 {"k":"DisplaySocketedMinionGemsSupportedByLifeLeechUnique__1","n":"DisplaySocketedMinionGemsSupportedByLifeLeechUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"display_socketed_minion_gems_supported_by_level_X_life_leech","max":16,"min":16}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 4. GenesisTreeBeltMinionDamagePerDifferentCommandSkillUsedLast15SecondsCrafted
-
-- Match score: `105`
-- `k`: GenesisTreeBeltMinionDamagePerDifferentCommandSkillUsedLast15SecondsCrafted
-- `n`: GenesisTreeBeltMinionDamagePerDifferentCommandSkillUsedLast15SecondsCrafted
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"GenesisTreeBeltMinionDamagePerDifferentCommandSkillUsedLast15SecondsCrafted","n":"GenesisTreeBeltMinionDamagePerDifferentCommandSkillUsedLast15SecondsCrafted","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
-```
-
-### 5. MapLabyrinthHiddenDamageLifeBoss
+### 4. MapLabyrinthHiddenDamageLifeBoss
 
 - Match score: `105`
 - `k`: MapLabyrinthHiddenDamageLifeBoss
@@ -6120,79 +6109,103 @@ _No keyword matches in this index._
 {"k":"MapLabyrinthHiddenDamageLifeBoss","n":"MapLabyrinthHiddenDamageLifeBoss","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_hidden_monster_life_+%_final","max":220,"min":220},{"id":"map_hidden_monster_damage_+%_final","max":7,"min":7}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 6. MinionCommandSkillDamage1
+### 5. MinionDamageSupportedUber1
 
 - Match score: `105`
-- `k`: MinionCommandSkillDamage1
-- `n`: MinionCommandSkillDamage1
+- `k`: MinionDamageSupportedUber1
+- `n`: MinionDamageSupportedUber1
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"MinionCommandSkillDamage1","n":"MinionCommandSkillDamage1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":18}
+{"k":"MinionDamageSupportedUber1","n":"MinionDamageSupportedUber1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
 ```
 
-### 7. MinionCommandSkillDamage2
+### 6. MinionDamageSupportedUber2
 
 - Match score: `105`
-- `k`: MinionCommandSkillDamage2
-- `n`: MinionCommandSkillDamage2
+- `k`: MinionDamageSupportedUber2
+- `n`: MinionDamageSupportedUber2
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"MinionCommandSkillDamage2","n":"MinionCommandSkillDamage2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":35}
+{"k":"MinionDamageSupportedUber2","n":"MinionDamageSupportedUber2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 8. MinionCommandSkillDamage3
+### 7. MinionDamageSupportedUber3
 
 - Match score: `105`
-- `k`: MinionCommandSkillDamage3
-- `n`: MinionCommandSkillDamage3
+- `k`: MinionDamageSupportedUber3
+- `n`: MinionDamageSupportedUber3
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"MinionCommandSkillDamage3","n":"MinionCommandSkillDamage3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":44}
+{"k":"MinionDamageSupportedUber3","n":"MinionDamageSupportedUber3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":83}
 ```
 
-### 9. MinionCommandSkillDamage4
+### 8. MinionDamageSupportedUberMaven___
 
 - Match score: `105`
-- `k`: MinionCommandSkillDamage4
-- `n`: MinionCommandSkillDamage4
+- `k`: MinionDamageSupportedUberMaven___
+- `n`: MinionDamageSupportedUberMaven___
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"MinionCommandSkillDamage4","n":"MinionCommandSkillDamage4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":52}
+{"k":"MinionDamageSupportedUberMaven___","n":"MinionDamageSupportedUberMaven___","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":93}
 ```
 
-### 10. MinionCommandSkillDamage5
+### 9. MinionLifeSupportedUber1
 
 - Match score: `105`
-- `k`: MinionCommandSkillDamage5
-- `n`: MinionCommandSkillDamage5
+- `k`: MinionLifeSupportedUber1
+- `n`: MinionLifeSupportedUber1
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"MinionCommandSkillDamage5","n":"MinionCommandSkillDamage5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":63}
+{"k":"MinionLifeSupportedUber1","n":"MinionLifeSupportedUber1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
 ```
 
-### 11. MinionCommandSkillDamage6
+### 10. MinionLifeSupportedUber2
 
 - Match score: `105`
-- `k`: MinionCommandSkillDamage6
-- `n`: MinionCommandSkillDamage6
+- `k`: MinionLifeSupportedUber2
+- `n`: MinionLifeSupportedUber2
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"MinionCommandSkillDamage6","n":"MinionCommandSkillDamage6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":81}
+{"k":"MinionLifeSupportedUber2","n":"MinionLifeSupportedUber2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 12. MonsterAuraAddedFireDamageSkeletonArmy
+### 11. MinionLifeSupportedUber3
+
+- Match score: `105`
+- `k`: MinionLifeSupportedUber3
+- `n`: MinionLifeSupportedUber3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"MinionLifeSupportedUber3","n":"MinionLifeSupportedUber3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":80}
+```
+
+### 12. MinionLifeSupportedUberMaven_
+
+- Match score: `105`
+- `k`: MinionLifeSupportedUberMaven_
+- `n`: MinionLifeSupportedUberMaven_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"MinionLifeSupportedUberMaven_","n":"MinionLifeSupportedUberMaven_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":90}
+```
+
+### 13. MonsterAuraAddedFireDamageSkeletonArmy
 
 - Match score: `105`
 - `k`: MonsterAuraAddedFireDamageSkeletonArmy
@@ -6208,7 +6221,7 @@ _No keyword matches in this index._
 {"k":"MonsterAuraAddedFireDamageSkeletonArmy","n":"MonsterAuraAddedFireDamageSkeletonArmy","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"non_skill_base_physical_damage_%_to_gain_as_fire","max":10,"min":10}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 13. MonsterImplicitAuraLifeRegenBossStrIntMission
+### 14. MonsterImplicitAuraLifeRegenBossStrIntMission
 
 - Match score: `105`
 - `k`: MonsterImplicitAuraLifeRegenBossStrIntMission
@@ -6224,7 +6237,7 @@ _No keyword matches in this index._
 {"k":"MonsterImplicitAuraLifeRegenBossStrIntMission","n":"MonsterImplicitAuraLifeRegenBossStrIntMission","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_rate_per_minute_%","max":300,"min":300}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 14. UniqueMinionAddedColdDamageMaximumLife1
+### 15. UniqueMinionAddedColdDamageMaximumLife1
 
 - Match score: `105`
 - `k`: UniqueMinionAddedColdDamageMaximumLife1
@@ -6240,7 +6253,7 @@ _No keyword matches in this index._
 {"k":"UniqueMinionAddedColdDamageMaximumLife1","n":"UniqueMinionAddedColdDamageMaximumLife1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"minion_attack_added_cold_damage_as_%_parent_maximum_life","max":5,"min":5}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 15. TormentSpiritCharlatanDegenerationAura
+### 16. TormentSpiritCharlatanDegenerationAura
 
 - Match score: `90`
 - `k`: TormentSpiritCharlatanDegenerationAura
@@ -6256,7 +6269,7 @@ _No keyword matches in this index._
 {"k":"TormentSpiritCharlatanDegenerationAura","n":"TormentSpiritCharlatanDegenerationAura","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_physical_damage_%_of_maximum_life_taken_per_minute","max":240,"min":240}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":1}],"lvl":1}
 ```
 
-### 16. AuraEffectOnMinionsUnique__1_
+### 17. AuraEffectOnMinionsUnique__1_
 
 - Match score: `80`
 - `k`: AuraEffectOnMinionsUnique__1_
@@ -6272,7 +6285,7 @@ _No keyword matches in this index._
 {"k":"AuraEffectOnMinionsUnique__1_","n":"AuraEffectOnMinionsUnique__1_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"minions_have_non_curse_aura_effect_+%_from_parent_skills","max":20,"min":20}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 17. AuraEffectOnMinionsUniqueShieldInt2
+### 18. AuraEffectOnMinionsUniqueShieldInt2
 
 - Match score: `80`
 - `k`: AuraEffectOnMinionsUniqueShieldInt2
@@ -6288,7 +6301,7 @@ _No keyword matches in this index._
 {"k":"AuraEffectOnMinionsUniqueShieldInt2","n":"AuraEffectOnMinionsUniqueShieldInt2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"minions_have_non_curse_aura_effect_+%_from_parent_skills","max":20,"min":20}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 18. BestiarySpiritBossFerocity
+### 19. BestiarySpiritBossFerocity
 
 - Match score: `80`
 - `k`: BestiarySpiritBossFerocity
@@ -6304,7 +6317,7 @@ _No keyword matches in this index._
 {"k":"BestiarySpiritBossFerocity","n":"BestiarySpiritBossFerocity","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%","max":0,"min":0},{"id":"attack_speed_+%","max":20,"min":20},{"id":"base_movement_velocity_+%","max":40,"min":40},{"id":"base_damage_taken_+%","max":-25,"min":-25}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 19. ChaosResistanceOnLowLifeUniqueRing9
+### 20. ChaosResistanceOnLowLifeUniqueRing9
 
 - Match score: `80`
 - `k`: ChaosResistanceOnLowLifeUniqueRing9
@@ -6320,7 +6333,7 @@ _No keyword matches in this index._
 {"k":"ChaosResistanceOnLowLifeUniqueRing9","n":"ChaosResistanceOnLowLifeUniqueRing9","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"chaos_damage_resistance_%_when_on_low_life","max":25,"min":20}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 20. DarkSeaWitchReducedCurseEffect
+### 21. DarkSeaWitchReducedCurseEffect
 
 - Match score: `80`
 - `k`: DarkSeaWitchReducedCurseEffect
@@ -6336,7 +6349,7 @@ _No keyword matches in this index._
 {"k":"DarkSeaWitchReducedCurseEffect","n":"DarkSeaWitchReducedCurseEffect","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"unique_boss_curse_effect_on_self_+%_final","max":-10,"min":-10}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 21. DemonBossSideAreaEnrageOnLowLife
+### 22. DemonBossSideAreaEnrageOnLowLife
 
 - Match score: `80`
 - `k`: DemonBossSideAreaEnrageOnLowLife
@@ -6352,7 +6365,7 @@ _No keyword matches in this index._
 {"k":"DemonBossSideAreaEnrageOnLowLife","n":"DemonBossSideAreaEnrageOnLowLife","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"attack_speed_+%_when_on_low_life","max":60,"min":60},{"id":"cast_speed_+%_when_on_low_life","max":60,"min":60},{"id":"movement_velocity_+%_when_on_low_life","max":60,"min":60},{"id":"damage_+%_when_on_low_life","max":35,"min":35},{"id":"monster_enrages_on_low_life_text","max":1,"min":1}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 22. DexMissionRhoaBossMinionCausticCloudOnDeath
+### 23. DexMissionRhoaBossMinionCausticCloudOnDeath
 
 - Match score: `80`
 - `k`: DexMissionRhoaBossMinionCausticCloudOnDeath
@@ -6368,7 +6381,7 @@ _No keyword matches in this index._
 {"k":"DexMissionRhoaBossMinionCausticCloudOnDeath","n":"DexMissionRhoaBossMinionCausticCloudOnDeath","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_caustic_cloud_on_death_%_max_damage_to_deal_per_minute","max":800,"min":800},{"id":"monster_caustic_cloud_on_death_base_area_of_effect_radius","max":12,"min":12},{"id":"monster_ground_effect_on_death_base_duration_ms","max":3000,"min":3000}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 23. Energy Shield Aura
+### 24. Energy Shield Aura
 
 - Match score: `80`
 - `k`: MonsterAuraEnergyShield1
@@ -6384,7 +6397,7 @@ _No keyword matches in this index._
 {"k":"MonsterAuraEnergyShield1","n":"Energy Shield Aura","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_maximum_life_%_to_gain_as_total_energy_shield","max":30,"min":30}],"domain":"monster","gen":"unique","weights":[{"tag":"magic","weight":0},{"tag":"ward_armour","weight":0},{"tag":"default","weight":1}],"lvl":12}
 ```
 
-### 24. GemlingBossLifeLeechAgainstBleedingEnemies
+### 25. GemlingBossLifeLeechAgainstBleedingEnemies
 
 - Match score: `80`
 - `k`: GemlingBossLifeLeechAgainstBleedingEnemies
@@ -6400,7 +6413,7 @@ _No keyword matches in this index._
 {"k":"GemlingBossLifeLeechAgainstBleedingEnemies","n":"GemlingBossLifeLeechAgainstBleedingEnemies","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_life_leech_from_physical_attack_damage_permyriad_vs_bleeding_enemies","max":100,"min":100}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 25. MapBossesSpawnZombieGiant
+### 26. MapBossesSpawnZombieGiant
 
 - Match score: `80`
 - `k`: MapBossesSpawnZombieGiant
@@ -6416,7 +6429,7 @@ _No keyword matches in this index._
 {"k":"MapBossesSpawnZombieGiant","n":"MapBossesSpawnZombieGiant","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_bosses_have_summon_zombie_giant","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 26. MonsterAuraEnemyLifeDegen1
+### 27. MonsterAuraEnemyLifeDegen1
 
 - Match score: `80`
 - `k`: MonsterAuraEnemyLifeDegen1
@@ -6432,7 +6445,7 @@ _No keyword matches in this index._
 {"k":"MonsterAuraEnemyLifeDegen1","n":"MonsterAuraEnemyLifeDegen1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_chaos_damage_%_of_maximum_life_taken_per_minute","max":240,"min":240}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 27. MonsterAuraEnemyLifeDegen2_
+### 28. MonsterAuraEnemyLifeDegen2_
 
 - Match score: `80`
 - `k`: MonsterAuraEnemyLifeDegen2_
@@ -6448,7 +6461,7 @@ _No keyword matches in this index._
 {"k":"MonsterAuraEnemyLifeDegen2_","n":"MonsterAuraEnemyLifeDegen2_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_chaos_damage_%_of_maximum_life_taken_per_minute","max":360,"min":360}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 28. MonsterAuraEnemyLifeDegenCold
+### 29. MonsterAuraEnemyLifeDegenCold
 
 - Match score: `80`
 - `k`: MonsterAuraEnemyLifeDegenCold
@@ -6464,7 +6477,7 @@ _No keyword matches in this index._
 {"k":"MonsterAuraEnemyLifeDegenCold","n":"MonsterAuraEnemyLifeDegenCold","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_cold_damage_%_of_maximum_life_plus_maximum_ES_taken_per_minute","max":900,"min":900}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 29. MonsterAuraEnemyLifeDegenDexMission
+### 30. MonsterAuraEnemyLifeDegenDexMission
 
 - Match score: `80`
 - `k`: MonsterAuraEnemyLifeDegenDexMission
@@ -6480,7 +6493,7 @@ _No keyword matches in this index._
 {"k":"MonsterAuraEnemyLifeDegenDexMission","n":"MonsterAuraEnemyLifeDegenDexMission","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_chaos_damage_%_of_maximum_life_taken_per_minute","max":240,"min":240}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 30. MonsterAuraEnemyLifeDegenFire
+### 31. MonsterAuraEnemyLifeDegenFire
 
 - Match score: `80`
 - `k`: MonsterAuraEnemyLifeDegenFire
@@ -6496,7 +6509,7 @@ _No keyword matches in this index._
 {"k":"MonsterAuraEnemyLifeDegenFire","n":"MonsterAuraEnemyLifeDegenFire","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_fire_damage_%_of_maximum_life_plus_maximum_ES_taken_per_minute","max":900,"min":900}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 31. MonsterAuraEnemyLifeDegenLightning
+### 32. MonsterAuraEnemyLifeDegenLightning
 
 - Match score: `80`
 - `k`: MonsterAuraEnemyLifeDegenLightning
@@ -6512,7 +6525,7 @@ _No keyword matches in this index._
 {"k":"MonsterAuraEnemyLifeDegenLightning","n":"MonsterAuraEnemyLifeDegenLightning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_lightning_damage_%_of_maximum_life_plus_maximum_ES_taken_per_minute","max":900,"min":900}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 32. MonsterAuraEssenceEnemyLifeDegen1
+### 33. MonsterAuraEssenceEnemyLifeDegen1
 
 - Match score: `80`
 - `k`: MonsterAuraEssenceEnemyLifeDegen1
@@ -6528,7 +6541,7 @@ _No keyword matches in this index._
 {"k":"MonsterAuraEssenceEnemyLifeDegen1","n":"MonsterAuraEssenceEnemyLifeDegen1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_chaos_damage_%_of_maximum_life_taken_per_minute","max":240,"min":240}],"domain":"monster","gen":"essence","lvl":1}
 ```
 
-### 33. MonsterMinionsTakeLifeInsteadMinions1
+### 34. MonsterMinionsTakeLifeInsteadMinions1
 
 - Match score: `80`
 - `k`: MonsterMinionsTakeLifeInsteadMinions1
@@ -6544,7 +6557,7 @@ _No keyword matches in this index._
 {"k":"MonsterMinionsTakeLifeInsteadMinions1","n":"MonsterMinionsTakeLifeInsteadMinions1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_removed_from_pack_minions_before_life_or_es_%","max":0,"min":0}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 34. MonsterTotemAuraEnemyLifeDegen1
+### 35. MonsterTotemAuraEnemyLifeDegen1
 
 - Match score: `80`
 - `k`: MonsterTotemAuraEnemyLifeDegen1
@@ -6560,7 +6573,7 @@ _No keyword matches in this index._
 {"k":"MonsterTotemAuraEnemyLifeDegen1","n":"MonsterTotemAuraEnemyLifeDegen1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_chaos_damage_%_of_maximum_life_taken_per_minute","max":240,"min":240}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 35. NumberOfZombiesSummonedPercentageUniqueSceptre3
+### 36. NumberOfZombiesSummonedPercentageUniqueSceptre3
 
 - Match score: `80`
 - `k`: NumberOfZombiesSummonedPercentageUniqueSceptre3
@@ -6576,7 +6589,7 @@ _No keyword matches in this index._
 {"k":"NumberOfZombiesSummonedPercentageUniqueSceptre3","n":"NumberOfZombiesSummonedPercentageUniqueSceptre3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"number_of_zombies_allowed_+%","max":-50,"min":-50}],"domain":"item","gen":"unique","adds_tags":["minion_unique_weapon"],"lvl":1}
 ```
 
-### 36. PassageUniqueAmanamuYouAndAllyChaosResistance
+### 37. PassageUniqueAmanamuYouAndAllyChaosResistance
 
 - Match score: `80`
 - `k`: PassageUniqueAmanamuYouAndAllyChaosResistance
@@ -6592,7 +6605,7 @@ _No keyword matches in this index._
 {"k":"PassageUniqueAmanamuYouAndAllyChaosResistance","n":"PassageUniqueAmanamuYouAndAllyChaosResistance","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"you_and_allies_in_presence_chaos_damage_resistance_%","max":23,"min":17}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 37. SummonedWolfLifeLeech
+### 38. SummonedWolfLifeLeech
 
 - Match score: `80`
 - `k`: SummonedWolfLifeLeech
@@ -6608,7 +6621,7 @@ _No keyword matches in this index._
 {"k":"SummonedWolfLifeLeech","n":"SummonedWolfLifeLeech","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_life_leech_from_physical_attack_damage_permyriad","max":10000,"min":10000}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 38. SummonRagingSpiritOnKillUnique__1
+### 39. SummonRagingSpiritOnKillUnique__1
 
 - Match score: `80`
 - `k`: SummonRagingSpiritOnKillUnique__1
@@ -6624,7 +6637,7 @@ _No keyword matches in this index._
 {"k":"SummonRagingSpiritOnKillUnique__1","n":"SummonRagingSpiritOnKillUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_summon_raging_spirit_on_kill_%","max":25,"min":25}],"domain":"item","gen":"unique","adds_tags":["minion_unique_weapon"],"lvl":1}
 ```
 
-### 39. TormentSpiritCharlatanRegenerationAura
+### 40. TormentSpiritCharlatanRegenerationAura
 
 - Match score: `80`
 - `k`: TormentSpiritCharlatanRegenerationAura
@@ -6640,7 +6653,7 @@ _No keyword matches in this index._
 {"k":"TormentSpiritCharlatanRegenerationAura","n":"TormentSpiritCharlatanRegenerationAura","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_rate_per_minute_%","max":150,"min":150}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":1}],"lvl":1}
 ```
 
-### 40. UltimatumUniqueMapDealNoDamagePeriodically
+### 41. UltimatumUniqueMapDealNoDamagePeriodically
 
 - Match score: `80`
 - `k`: UltimatumUniqueMapDealNoDamagePeriodically
@@ -6656,7 +6669,7 @@ _No keyword matches in this index._
 {"k":"UltimatumUniqueMapDealNoDamagePeriodically","n":"UltimatumUniqueMapDealNoDamagePeriodically","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_ultimatum_unique_map_boss_deal_no_damage_periodically","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 41. UniqueHeartPrefixMinionReviveSpeed
+### 42. UniqueHeartPrefixMinionReviveSpeed
 
 - Match score: `80`
 - `k`: UniqueHeartPrefixMinionReviveSpeed
@@ -6672,7 +6685,7 @@ _No keyword matches in this index._
 {"k":"UniqueHeartPrefixMinionReviveSpeed","n":"UniqueHeartPrefixMinionReviveSpeed","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"minion_resummon_speed_+%","max":10,"min":5}],"domain":"desecrated","gen":"unique","weights":[{"tag":"heart_unique_jewel_prefix","weight":1},{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 42. UniqueKulemakChaosDamageCurseLowersChaosRes_1
+### 43. UniqueKulemakChaosDamageCurseLowersChaosRes_1
 
 - Match score: `80`
 - `k`: UniqueKulemakChaosDamageCurseLowersChaosRes_1
@@ -6688,7 +6701,7 @@ _No keyword matches in this index._
 {"k":"UniqueKulemakChaosDamageCurseLowersChaosRes_1","n":"UniqueKulemakChaosDamageCurseLowersChaosRes_1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"chaos_damage_+%","max":160,"min":100},{"id":"enemies_chaos_resistance_%_while_cursed","max":-5,"min":-8}],"domain":"desecrated","gen":"prefix","weights":[{"tag":"kulemak_abyss_special_prefix","weight":1},{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 43. UniqueMinionReviveSpeed1
+### 44. UniqueMinionReviveSpeed1
 
 - Match score: `80`
 - `k`: UniqueMinionReviveSpeed1
@@ -6704,7 +6717,7 @@ _No keyword matches in this index._
 {"k":"UniqueMinionReviveSpeed1","n":"UniqueMinionReviveSpeed1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"minion_resummon_speed_+%","max":50,"min":50}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 44. UniqueMinionReviveSpeed2
+### 45. UniqueMinionReviveSpeed2
 
 - Match score: `80`
 - `k`: UniqueMinionReviveSpeed2
@@ -6720,7 +6733,7 @@ _No keyword matches in this index._
 {"k":"UniqueMinionReviveSpeed2","n":"UniqueMinionReviveSpeed2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"minion_resummon_speed_+%","max":15,"min":10}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 45. UniqueMinionReviveSpeed3
+### 46. UniqueMinionReviveSpeed3
 
 - Match score: `80`
 - `k`: UniqueMinionReviveSpeed3
@@ -6736,7 +6749,7 @@ _No keyword matches in this index._
 {"k":"UniqueMinionReviveSpeed3","n":"UniqueMinionReviveSpeed3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"minion_resummon_speed_+%","max":-50,"min":-50}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 46. ZombieDamageUniqueSceptre3
+### 47. ZombieDamageUniqueSceptre3
 
 - Match score: `80`
 - `k`: ZombieDamageUniqueSceptre3
@@ -6752,7 +6765,7 @@ _No keyword matches in this index._
 {"k":"ZombieDamageUniqueSceptre3","n":"ZombieDamageUniqueSceptre3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"zombie_physical_damage_+%_final","max":125,"min":100}],"domain":"item","gen":"unique","adds_tags":["minion_unique_weapon"],"lvl":1}
 ```
 
-### 47. ZombieLifeUniqueSceptre3
+### 48. ZombieLifeUniqueSceptre3
 
 - Match score: `80`
 - `k`: ZombieLifeUniqueSceptre3
@@ -6768,7 +6781,7 @@ _No keyword matches in this index._
 {"k":"ZombieLifeUniqueSceptre3","n":"ZombieLifeUniqueSceptre3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"zombie_maximum_life_+","max":5000,"min":5000}],"domain":"item","gen":"unique","adds_tags":["minion_unique_weapon"],"lvl":1}
 ```
 
-### 48. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
+### 49. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{All Damage can Shock}
 <rgb(135,134,253)>{All Damage can Chill}
@@ -6794,7 +6807,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRunePrismatic","n":"<<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{All Damage can Shock}\r\n<rgb(135,134,253)>{All Damage can Chill}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{All Elemental Resistance}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 49. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
+### 50. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
 <rgb(135,134,253)>{All Damage can Shock}
 <rgb(135,134,253)>{All Damage can Chill}
 <rgb(135,134,253)>{All Damage can Ignite}
@@ -6820,7 +6833,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRunePrismaticPower","n":"<<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}\r\n<rgb(135,134,253)>{All Damage can Shock}\r\n<rgb(135,134,253)>{All Damage can Chill}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{All Elemental Resistance}\r\n<rgb(135,134,253)>{Damage gained as a Random Element}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_resist_all_elements_%","max":30,"min":30},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":20,"min":20},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 50. AddedChaosDamageToAttacksBeastialMinionUnique__1
+### 51. AddedChaosDamageToAttacksBeastialMinionUnique__1
 
 - Match score: `70`
 - `k`: AddedChaosDamageToAttacksBeastialMinionUnique__1
@@ -6836,7 +6849,7 @@ _No keyword matches in this index._
 {"k":"AddedChaosDamageToAttacksBeastialMinionUnique__1","n":"AddedChaosDamageToAttacksBeastialMinionUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"attack_minimum_added_chaos_damage_if_you_have_beast_minion","max":19,"min":13},{"id":"attack_maximum_added_chaos_damage_if_you_have_beast_minion","max":29,"min":23}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 51. AddedPhysicalDamageToAttacksBeastialMinionUnique__1
+### 52. AddedPhysicalDamageToAttacksBeastialMinionUnique__1
 
 - Match score: `70`
 - `k`: AddedPhysicalDamageToAttacksBeastialMinionUnique__1
@@ -6852,7 +6865,7 @@ _No keyword matches in this index._
 {"k":"AddedPhysicalDamageToAttacksBeastialMinionUnique__1","n":"AddedPhysicalDamageToAttacksBeastialMinionUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"attack_minimum_added_physical_damage_if_you_have_beast_minion","max":16,"min":11},{"id":"attack_maximum_added_physical_damage_if_you_have_beast_minion","max":25,"min":21}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 52. AdditionalCurseOnEnemiesMapBossGeofri_
+### 53. AdditionalCurseOnEnemiesMapBossGeofri_
 
 - Match score: `70`
 - `k`: AdditionalCurseOnEnemiesMapBossGeofri_
@@ -6868,7 +6881,55 @@ _No keyword matches in this index._
 {"k":"AdditionalCurseOnEnemiesMapBossGeofri_","n":"AdditionalCurseOnEnemiesMapBossGeofri_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"number_of_additional_curses_allowed","max":3,"min":3}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 53. AttackDamageLifeLeechAgainstBleedingEnemiesUnique_1
+### 54. AreaDamageSupportedUber1
+
+- Match score: `70`
+- `k`: AreaDamageSupportedUber1
+- `n`: AreaDamageSupportedUber1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"AreaDamageSupportedUber1","n":"AreaDamageSupportedUber1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
+```
+
+### 55. AreaDamageSupportedUber2_
+
+- Match score: `70`
+- `k`: AreaDamageSupportedUber2_
+- `n`: AreaDamageSupportedUber2_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"AreaDamageSupportedUber2_","n":"AreaDamageSupportedUber2_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 56. AreaDamageSupportedUber3
+
+- Match score: `70`
+- `k`: AreaDamageSupportedUber3
+- `n`: AreaDamageSupportedUber3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"AreaDamageSupportedUber3","n":"AreaDamageSupportedUber3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":82}
+```
+
+### 57. AreaDamageSupportedUberMaven
+
+- Match score: `70`
+- `k`: AreaDamageSupportedUberMaven
+- `n`: AreaDamageSupportedUberMaven
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"AreaDamageSupportedUberMaven","n":"AreaDamageSupportedUberMaven","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":92}
+```
+
+### 58. AttackDamageLifeLeechAgainstBleedingEnemiesUnique_1
 
 - Match score: `70`
 - `k`: AttackDamageLifeLeechAgainstBleedingEnemiesUnique_1
@@ -6884,7 +6945,7 @@ _No keyword matches in this index._
 {"k":"AttackDamageLifeLeechAgainstBleedingEnemiesUnique_1","n":"AttackDamageLifeLeechAgainstBleedingEnemiesUnique_1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_life_leech_from_physical_attack_damage_permyriad_vs_bleeding_enemies","max":100,"min":100}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 54. BeyondDemonVaalSummonSkeleton
+### 59. BeyondDemonVaalSummonSkeleton
 
 - Match score: `70`
 - `k`: BeyondDemonVaalSummonSkeleton
@@ -6900,7 +6961,7 @@ _No keyword matches in this index._
 {"k":"BeyondDemonVaalSummonSkeleton","n":"BeyondDemonVaalSummonSkeleton","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"display_monster_mod_nemesis_test","max":0,"min":0}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 55. BlackguardZombieBossSideAreaSpeedStance
+### 60. BlackguardZombieBossSideAreaSpeedStance
 
 - Match score: `70`
 - `k`: BlackguardZombieBossSideAreaSpeedStance
@@ -6916,7 +6977,7 @@ _No keyword matches in this index._
 {"k":"BlackguardZombieBossSideAreaSpeedStance","n":"BlackguardZombieBossSideAreaSpeedStance","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"stance_movement_speed_+%_final","max":600,"min":600},{"id":"attack_speed_+%","max":150,"min":150}],"domain":"monster","gen":"unique","lvl":0}
 ```
 
-### 56. BodyArmourImplicitDamageRemovedFromManaBeforeLife1
+### 61. BodyArmourImplicitDamageRemovedFromManaBeforeLife1
 
 - Match score: `70`
 - `k`: BodyArmourImplicitDamageRemovedFromManaBeforeLife1
@@ -6932,7 +6993,7 @@ _No keyword matches in this index._
 {"k":"BodyArmourImplicitDamageRemovedFromManaBeforeLife1","n":"BodyArmourImplicitDamageRemovedFromManaBeforeLife1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_damage_removed_from_mana_before_life_%","max":10,"min":5}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 57. BossMinionFlaskChargeIncrease100
+### 62. BossMinionFlaskChargeIncrease100
 
 - Match score: `70`
 - `k`: BossMinionFlaskChargeIncrease100
@@ -6948,7 +7009,7 @@ _No keyword matches in this index._
 {"k":"BossMinionFlaskChargeIncrease100","n":"BossMinionFlaskChargeIncrease100","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_slain_flask_charges_granted_+%","max":100,"min":100}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 58. BossMinionFlaskChargeIncrease150
+### 63. BossMinionFlaskChargeIncrease150
 
 - Match score: `70`
 - `k`: BossMinionFlaskChargeIncrease150
@@ -6964,7 +7025,7 @@ _No keyword matches in this index._
 {"k":"BossMinionFlaskChargeIncrease150","n":"BossMinionFlaskChargeIncrease150","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_slain_flask_charges_granted_+%","max":150,"min":150}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 59. BossMinionFlaskChargeIncrease200
+### 64. BossMinionFlaskChargeIncrease200
 
 - Match score: `70`
 - `k`: BossMinionFlaskChargeIncrease200
@@ -6980,7 +7041,7 @@ _No keyword matches in this index._
 {"k":"BossMinionFlaskChargeIncrease200","n":"BossMinionFlaskChargeIncrease200","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_slain_flask_charges_granted_+%","max":200,"min":200}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 60. BossMinionFlaskChargeIncrease250
+### 65. BossMinionFlaskChargeIncrease250
 
 - Match score: `70`
 - `k`: BossMinionFlaskChargeIncrease250
@@ -6996,7 +7057,7 @@ _No keyword matches in this index._
 {"k":"BossMinionFlaskChargeIncrease250","n":"BossMinionFlaskChargeIncrease250","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_slain_flask_charges_granted_+%","max":250,"min":250}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 61. BossMinionFlaskChargeIncrease300
+### 66. BossMinionFlaskChargeIncrease300
 
 - Match score: `70`
 - `k`: BossMinionFlaskChargeIncrease300
@@ -7012,7 +7073,7 @@ _No keyword matches in this index._
 {"k":"BossMinionFlaskChargeIncrease300","n":"BossMinionFlaskChargeIncrease300","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_slain_flask_charges_granted_+%","max":300,"min":300}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 62. BossMinionFlaskChargeIncrease350
+### 67. BossMinionFlaskChargeIncrease350
 
 - Match score: `70`
 - `k`: BossMinionFlaskChargeIncrease350
@@ -7028,7 +7089,7 @@ _No keyword matches in this index._
 {"k":"BossMinionFlaskChargeIncrease350","n":"BossMinionFlaskChargeIncrease350","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_slain_flask_charges_granted_+%","max":350,"min":350}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 63. BossMinionFlaskChargeIncrease400
+### 68. BossMinionFlaskChargeIncrease400
 
 - Match score: `70`
 - `k`: BossMinionFlaskChargeIncrease400
@@ -7044,7 +7105,7 @@ _No keyword matches in this index._
 {"k":"BossMinionFlaskChargeIncrease400","n":"BossMinionFlaskChargeIncrease400","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_slain_flask_charges_granted_+%","max":400,"min":400}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 64. BossMinionFlaskChargeIncrease50
+### 69. BossMinionFlaskChargeIncrease50
 
 - Match score: `70`
 - `k`: BossMinionFlaskChargeIncrease50
@@ -7060,7 +7121,19 @@ _No keyword matches in this index._
 {"k":"BossMinionFlaskChargeIncrease50","n":"BossMinionFlaskChargeIncrease50","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_slain_flask_charges_granted_+%","max":50,"min":50}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 65. ChaosDamageDoesNotBypassESNotLowLifeOrManaUnique__1
+### 70. BreachBodyChaosDamageDoesNotBypassESNotLowLifeOrMana1_
+
+- Match score: `70`
+- `k`: BreachBodyChaosDamageDoesNotBypassESNotLowLifeOrMana1_
+- `n`: BreachBodyChaosDamageDoesNotBypassESNotLowLifeOrMana1_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"BreachBodyChaosDamageDoesNotBypassESNotLowLifeOrMana1_","n":"BreachBodyChaosDamageDoesNotBypassESNotLowLifeOrMana1_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
+```
+
+### 71. ChaosDamageDoesNotBypassESNotLowLifeOrManaUnique__1
 
 - Match score: `70`
 - `k`: ChaosDamageDoesNotBypassESNotLowLifeOrManaUnique__1
@@ -7076,7 +7149,259 @@ _No keyword matches in this index._
 {"k":"ChaosDamageDoesNotBypassESNotLowLifeOrManaUnique__1","n":"ChaosDamageDoesNotBypassESNotLowLifeOrManaUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"chaos_damage_does_not_damage_energy_shield_extra_hard_while_not_low_life","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 66. ChestSummonVaalSideAreaBoss__
+### 72. ChaosDamageLifeLeechDelve
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechDelve
+- `n`: ChaosDamageLifeLeechDelve
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechDelve","n":"ChaosDamageLifeLeechDelve","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":60}
+```
+
+### 73. ChaosDamageLifeLeechDelveInverted
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechDelveInverted
+- `n`: ChaosDamageLifeLeechDelveInverted
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechDelveInverted","n":"ChaosDamageLifeLeechDelveInverted","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":60}
+```
+
+### 74. ChaosDamageLifeLeechEldritchImplicit1
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechEldritchImplicit1
+- `n`: ChaosDamageLifeLeechEldritchImplicit1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechEldritchImplicit1","n":"ChaosDamageLifeLeechEldritchImplicit1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 75. ChaosDamageLifeLeechEldritchImplicit2
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechEldritchImplicit2
+- `n`: ChaosDamageLifeLeechEldritchImplicit2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechEldritchImplicit2","n":"ChaosDamageLifeLeechEldritchImplicit2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 76. ChaosDamageLifeLeechEldritchImplicit3
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechEldritchImplicit3
+- `n`: ChaosDamageLifeLeechEldritchImplicit3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechEldritchImplicit3","n":"ChaosDamageLifeLeechEldritchImplicit3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 77. ChaosDamageLifeLeechEldritchImplicit4
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechEldritchImplicit4
+- `n`: ChaosDamageLifeLeechEldritchImplicit4
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechEldritchImplicit4","n":"ChaosDamageLifeLeechEldritchImplicit4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 78. ChaosDamageLifeLeechEldritchImplicit5
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechEldritchImplicit5
+- `n`: ChaosDamageLifeLeechEldritchImplicit5
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechEldritchImplicit5","n":"ChaosDamageLifeLeechEldritchImplicit5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 79. ChaosDamageLifeLeechEldritchImplicit6
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechEldritchImplicit6
+- `n`: ChaosDamageLifeLeechEldritchImplicit6
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechEldritchImplicit6","n":"ChaosDamageLifeLeechEldritchImplicit6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 80. ChaosDamageLifeLeechEldritchImplicitPinnaclePresence1
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechEldritchImplicitPinnaclePresence1
+- `n`: ChaosDamageLifeLeechEldritchImplicitPinnaclePresence1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechEldritchImplicitPinnaclePresence1","n":"ChaosDamageLifeLeechEldritchImplicitPinnaclePresence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 81. ChaosDamageLifeLeechEldritchImplicitPinnaclePresence2
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechEldritchImplicitPinnaclePresence2
+- `n`: ChaosDamageLifeLeechEldritchImplicitPinnaclePresence2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechEldritchImplicitPinnaclePresence2","n":"ChaosDamageLifeLeechEldritchImplicitPinnaclePresence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 82. ChaosDamageLifeLeechEldritchImplicitPinnaclePresence3
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechEldritchImplicitPinnaclePresence3
+- `n`: ChaosDamageLifeLeechEldritchImplicitPinnaclePresence3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechEldritchImplicitPinnaclePresence3","n":"ChaosDamageLifeLeechEldritchImplicitPinnaclePresence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 83. ChaosDamageLifeLeechEldritchImplicitPinnaclePresence4
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechEldritchImplicitPinnaclePresence4
+- `n`: ChaosDamageLifeLeechEldritchImplicitPinnaclePresence4
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechEldritchImplicitPinnaclePresence4","n":"ChaosDamageLifeLeechEldritchImplicitPinnaclePresence4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 84. ChaosDamageLifeLeechEldritchImplicitPinnaclePresence5
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechEldritchImplicitPinnaclePresence5
+- `n`: ChaosDamageLifeLeechEldritchImplicitPinnaclePresence5
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechEldritchImplicitPinnaclePresence5","n":"ChaosDamageLifeLeechEldritchImplicitPinnaclePresence5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 85. ChaosDamageLifeLeechEldritchImplicitPinnaclePresence6
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechEldritchImplicitPinnaclePresence6
+- `n`: ChaosDamageLifeLeechEldritchImplicitPinnaclePresence6
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechEldritchImplicitPinnaclePresence6","n":"ChaosDamageLifeLeechEldritchImplicitPinnaclePresence6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 86. ChaosDamageLifeLeechEldritchImplicitUniquePresence1
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechEldritchImplicitUniquePresence1
+- `n`: ChaosDamageLifeLeechEldritchImplicitUniquePresence1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechEldritchImplicitUniquePresence1","n":"ChaosDamageLifeLeechEldritchImplicitUniquePresence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 87. ChaosDamageLifeLeechEldritchImplicitUniquePresence2
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechEldritchImplicitUniquePresence2
+- `n`: ChaosDamageLifeLeechEldritchImplicitUniquePresence2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechEldritchImplicitUniquePresence2","n":"ChaosDamageLifeLeechEldritchImplicitUniquePresence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 88. ChaosDamageLifeLeechEldritchImplicitUniquePresence3
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechEldritchImplicitUniquePresence3
+- `n`: ChaosDamageLifeLeechEldritchImplicitUniquePresence3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechEldritchImplicitUniquePresence3","n":"ChaosDamageLifeLeechEldritchImplicitUniquePresence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 89. ChaosDamageLifeLeechEldritchImplicitUniquePresence4
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechEldritchImplicitUniquePresence4
+- `n`: ChaosDamageLifeLeechEldritchImplicitUniquePresence4
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechEldritchImplicitUniquePresence4","n":"ChaosDamageLifeLeechEldritchImplicitUniquePresence4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 90. ChaosDamageLifeLeechEldritchImplicitUniquePresence5
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechEldritchImplicitUniquePresence5
+- `n`: ChaosDamageLifeLeechEldritchImplicitUniquePresence5
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechEldritchImplicitUniquePresence5","n":"ChaosDamageLifeLeechEldritchImplicitUniquePresence5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 91. ChaosDamageLifeLeechEldritchImplicitUniquePresence6
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechEldritchImplicitUniquePresence6
+- `n`: ChaosDamageLifeLeechEldritchImplicitUniquePresence6
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechEldritchImplicitUniquePresence6","n":"ChaosDamageLifeLeechEldritchImplicitUniquePresence6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 92. ChaosDamageLifeLeechInfluence1_
+
+- Match score: `70`
+- `k`: ChaosDamageLifeLeechInfluence1_
+- `n`: ChaosDamageLifeLeechInfluence1_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChaosDamageLifeLeechInfluence1_","n":"ChaosDamageLifeLeechInfluence1_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
+```
+
+### 93. ChestSummonVaalSideAreaBoss__
 
 - Match score: `70`
 - `k`: ChestSummonVaalSideAreaBoss__
@@ -7092,7 +7417,283 @@ _No keyword matches in this index._
 {"k":"ChestSummonVaalSideAreaBoss__","n":"ChestSummonVaalSideAreaBoss__","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"chest_delay_drops_until_daemons_finish","max":1,"min":1},{"id":"summoned_monster_rarity","max":0,"min":0},{"id":"number_of_packs_to_summon","max":3,"min":3},{"id":"number_of_vaal_side_area_bosses_to_summon","max":1,"min":1}],"domain":"chest","gen":"unique","lvl":1}
 ```
 
-### 67. ColdDamagePerResistanceAbove75Unique__1
+### 94. ColdDamageLifeLeechDelve
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechDelve
+- `n`: ColdDamageLifeLeechDelve
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechDelve","n":"ColdDamageLifeLeechDelve","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":60}
+```
+
+### 95. ColdDamageLifeLeechDelveInverted
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechDelveInverted
+- `n`: ColdDamageLifeLeechDelveInverted
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechDelveInverted","n":"ColdDamageLifeLeechDelveInverted","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":60}
+```
+
+### 96. ColdDamageLifeLeechEldritchImplicit1
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechEldritchImplicit1
+- `n`: ColdDamageLifeLeechEldritchImplicit1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechEldritchImplicit1","n":"ColdDamageLifeLeechEldritchImplicit1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 97. ColdDamageLifeLeechEldritchImplicit2
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechEldritchImplicit2
+- `n`: ColdDamageLifeLeechEldritchImplicit2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechEldritchImplicit2","n":"ColdDamageLifeLeechEldritchImplicit2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 98. ColdDamageLifeLeechEldritchImplicit3
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechEldritchImplicit3
+- `n`: ColdDamageLifeLeechEldritchImplicit3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechEldritchImplicit3","n":"ColdDamageLifeLeechEldritchImplicit3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 99. ColdDamageLifeLeechEldritchImplicit4
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechEldritchImplicit4
+- `n`: ColdDamageLifeLeechEldritchImplicit4
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechEldritchImplicit4","n":"ColdDamageLifeLeechEldritchImplicit4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 100. ColdDamageLifeLeechEldritchImplicit5
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechEldritchImplicit5
+- `n`: ColdDamageLifeLeechEldritchImplicit5
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechEldritchImplicit5","n":"ColdDamageLifeLeechEldritchImplicit5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 101. ColdDamageLifeLeechEldritchImplicit6
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechEldritchImplicit6
+- `n`: ColdDamageLifeLeechEldritchImplicit6
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechEldritchImplicit6","n":"ColdDamageLifeLeechEldritchImplicit6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 102. ColdDamageLifeLeechEldritchImplicitPinnaclePresence1
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechEldritchImplicitPinnaclePresence1
+- `n`: ColdDamageLifeLeechEldritchImplicitPinnaclePresence1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechEldritchImplicitPinnaclePresence1","n":"ColdDamageLifeLeechEldritchImplicitPinnaclePresence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 103. ColdDamageLifeLeechEldritchImplicitPinnaclePresence2
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechEldritchImplicitPinnaclePresence2
+- `n`: ColdDamageLifeLeechEldritchImplicitPinnaclePresence2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechEldritchImplicitPinnaclePresence2","n":"ColdDamageLifeLeechEldritchImplicitPinnaclePresence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 104. ColdDamageLifeLeechEldritchImplicitPinnaclePresence3
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechEldritchImplicitPinnaclePresence3
+- `n`: ColdDamageLifeLeechEldritchImplicitPinnaclePresence3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechEldritchImplicitPinnaclePresence3","n":"ColdDamageLifeLeechEldritchImplicitPinnaclePresence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 105. ColdDamageLifeLeechEldritchImplicitPinnaclePresence4
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechEldritchImplicitPinnaclePresence4
+- `n`: ColdDamageLifeLeechEldritchImplicitPinnaclePresence4
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechEldritchImplicitPinnaclePresence4","n":"ColdDamageLifeLeechEldritchImplicitPinnaclePresence4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 106. ColdDamageLifeLeechEldritchImplicitPinnaclePresence5
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechEldritchImplicitPinnaclePresence5
+- `n`: ColdDamageLifeLeechEldritchImplicitPinnaclePresence5
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechEldritchImplicitPinnaclePresence5","n":"ColdDamageLifeLeechEldritchImplicitPinnaclePresence5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 107. ColdDamageLifeLeechEldritchImplicitPinnaclePresence6
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechEldritchImplicitPinnaclePresence6
+- `n`: ColdDamageLifeLeechEldritchImplicitPinnaclePresence6
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechEldritchImplicitPinnaclePresence6","n":"ColdDamageLifeLeechEldritchImplicitPinnaclePresence6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 108. ColdDamageLifeLeechEldritchImplicitUniquePresence1
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechEldritchImplicitUniquePresence1
+- `n`: ColdDamageLifeLeechEldritchImplicitUniquePresence1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechEldritchImplicitUniquePresence1","n":"ColdDamageLifeLeechEldritchImplicitUniquePresence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 109. ColdDamageLifeLeechEldritchImplicitUniquePresence2
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechEldritchImplicitUniquePresence2
+- `n`: ColdDamageLifeLeechEldritchImplicitUniquePresence2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechEldritchImplicitUniquePresence2","n":"ColdDamageLifeLeechEldritchImplicitUniquePresence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 110. ColdDamageLifeLeechEldritchImplicitUniquePresence3
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechEldritchImplicitUniquePresence3
+- `n`: ColdDamageLifeLeechEldritchImplicitUniquePresence3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechEldritchImplicitUniquePresence3","n":"ColdDamageLifeLeechEldritchImplicitUniquePresence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 111. ColdDamageLifeLeechEldritchImplicitUniquePresence4
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechEldritchImplicitUniquePresence4
+- `n`: ColdDamageLifeLeechEldritchImplicitUniquePresence4
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechEldritchImplicitUniquePresence4","n":"ColdDamageLifeLeechEldritchImplicitUniquePresence4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 112. ColdDamageLifeLeechEldritchImplicitUniquePresence5
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechEldritchImplicitUniquePresence5
+- `n`: ColdDamageLifeLeechEldritchImplicitUniquePresence5
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechEldritchImplicitUniquePresence5","n":"ColdDamageLifeLeechEldritchImplicitUniquePresence5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 113. ColdDamageLifeLeechEldritchImplicitUniquePresence6
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechEldritchImplicitUniquePresence6
+- `n`: ColdDamageLifeLeechEldritchImplicitUniquePresence6
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechEldritchImplicitUniquePresence6","n":"ColdDamageLifeLeechEldritchImplicitUniquePresence6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 114. ColdDamageLifeLeechInfluence1
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechInfluence1
+- `n`: ColdDamageLifeLeechInfluence1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechInfluence1","n":"ColdDamageLifeLeechInfluence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
+```
+
+### 115. ColdDamageLifeLeechPermyriadCorrupted
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechPermyriadCorrupted
+- `n`: ColdDamageLifeLeechPermyriadCorrupted
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechPermyriadCorrupted","n":"ColdDamageLifeLeechPermyriadCorrupted","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":50}
+```
+
+### 116. ColdDamageLifeLeechUber1_
+
+- Match score: `70`
+- `k`: ColdDamageLifeLeechUber1_
+- `n`: ColdDamageLifeLeechUber1_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ColdDamageLifeLeechUber1_","n":"ColdDamageLifeLeechUber1_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
+```
+
+### 117. ColdDamagePerResistanceAbove75Unique__1
 
 - Match score: `70`
 - `k`: ColdDamagePerResistanceAbove75Unique__1
@@ -7108,815 +7709,40 @@ _No keyword matches in this index._
 {"k":"ColdDamagePerResistanceAbove75Unique__1","n":"ColdDamagePerResistanceAbove75Unique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"cold_damage_+%_per_cold_resistance_above_75","max":20,"min":15}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 68. CorruptionDamageTakenGainedAsLife1
+### 118. ColdDamageTakenGainedAsLifeEldritchImplicit1
 
 - Match score: `70`
-- `k`: CorruptionDamageTakenGainedAsLife1
-- `n`: CorruptionDamageTakenGainedAsLife1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: corrupted
-- `domain`: item
-- `stats`: [{"id":"damage_taken_goes_to_life_over_4_seconds_%","max":20,"min":10}]
-
-```json
-{"k":"CorruptionDamageTakenGainedAsLife1","n":"CorruptionDamageTakenGainedAsLife1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_taken_goes_to_life_over_4_seconds_%","max":20,"min":10}],"domain":"item","gen":"corrupted","weights":[{"tag":"body_armour","weight":1},{"tag":"default","weight":0}],"lvl":1}
-```
-
-### 69. CorruptionUpgradeDamageRemovedFromManaBeforeLife
-
-- Match score: `70`
-- `k`: CorruptionUpgradeDamageRemovedFromManaBeforeLife
-- `n`: CorruptionUpgradeDamageRemovedFromManaBeforeLife
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"base_damage_removed_from_mana_before_life_%","max":20,"min":10}]
-
-```json
-{"k":"CorruptionUpgradeDamageRemovedFromManaBeforeLife","n":"CorruptionUpgradeDamageRemovedFromManaBeforeLife","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_damage_removed_from_mana_before_life_%","max":20,"min":10}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 70. CorruptionUpgradeDamageTakenGainedAsLife
-
-- Match score: `70`
-- `k`: CorruptionUpgradeDamageTakenGainedAsLife
-- `n`: CorruptionUpgradeDamageTakenGainedAsLife
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"damage_taken_goes_to_life_over_4_seconds_%","max":20,"min":10}]
-
-```json
-{"k":"CorruptionUpgradeDamageTakenGainedAsLife","n":"CorruptionUpgradeDamageTakenGainedAsLife","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_taken_goes_to_life_over_4_seconds_%","max":20,"min":10}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 71. CorruptionUpgradeDamageTakenGainedAsLife1
-
-- Match score: `70`
-- `k`: CorruptionUpgradeDamageTakenGainedAsLife1
-- `n`: CorruptionUpgradeDamageTakenGainedAsLife1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"damage_taken_goes_to_life_over_4_seconds_%","max":35,"min":25}]
-
-```json
-{"k":"CorruptionUpgradeDamageTakenGainedAsLife1","n":"CorruptionUpgradeDamageTakenGainedAsLife1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_taken_goes_to_life_over_4_seconds_%","max":35,"min":25}],"domain":"item","gen":"unique","weights":[{"tag":"body_armour","weight":1},{"tag":"default","weight":0}],"lvl":1}
-```
-
-### 72. CorruptionUpgradeDamageTakenGoesToLifeManaESPercent
-
-- Match score: `70`
-- `k`: CorruptionUpgradeDamageTakenGoesToLifeManaESPercent
-- `n`: CorruptionUpgradeDamageTakenGoesToLifeManaESPercent
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"damage_taken_goes_to_life_mana_es_over_4_seconds_%","max":20,"min":10}]
-
-```json
-{"k":"CorruptionUpgradeDamageTakenGoesToLifeManaESPercent","n":"CorruptionUpgradeDamageTakenGoesToLifeManaESPercent","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_taken_goes_to_life_mana_es_over_4_seconds_%","max":20,"min":10}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 73. CorruptionUpgradeDeflectDamageTakenRecoupedAsLife
-
-- Match score: `70`
-- `k`: CorruptionUpgradeDeflectDamageTakenRecoupedAsLife
-- `n`: CorruptionUpgradeDeflectDamageTakenRecoupedAsLife
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"deflected_hit_damage_taken_%_recouped_as_life","max":10,"min":5}]
-
-```json
-{"k":"CorruptionUpgradeDeflectDamageTakenRecoupedAsLife","n":"CorruptionUpgradeDeflectDamageTakenRecoupedAsLife","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"deflected_hit_damage_taken_%_recouped_as_life","max":10,"min":5}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 74. CorruptThresholdLifeLeechUsesChaosDamageUniqueCorruptedJewel10
-
-- Match score: `70`
-- `k`: CorruptThresholdLifeLeechUsesChaosDamageUniqueCorruptedJewel10
-- `n`: CorruptThresholdLifeLeechUsesChaosDamageUniqueCorruptedJewel10
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: misc
-- `stats`: [{"id":"dummy_stat_display_nothing","max":5,"min":5}]
-
-```json
-{"k":"CorruptThresholdLifeLeechUsesChaosDamageUniqueCorruptedJewel10","n":"CorruptThresholdLifeLeechUsesChaosDamageUniqueCorruptedJewel10","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"dummy_stat_display_nothing","max":5,"min":5}],"domain":"misc","gen":"unique","lvl":1}
-```
-
-### 75. DaemonAbyssCrystalMinionSummon_
-
-- Match score: `70`
-- `k`: DaemonAbyssCrystalMinionSummon_
-- `n`: DaemonAbyssCrystalMinionSummon_
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: monster
-- `stats`: [{"id":"display_monster_mod_nemesis_test","max":0,"min":0}]
-
-```json
-{"k":"DaemonAbyssCrystalMinionSummon_","n":"DaemonAbyssCrystalMinionSummon_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"display_monster_mod_nemesis_test","max":0,"min":0}],"domain":"monster","gen":"unique","lvl":1}
-```
-
-### 76. DaemonMapBossSummonKamikazeDemon_
-
-- Match score: `70`
-- `k`: DaemonMapBossSummonKamikazeDemon_
-- `n`: DaemonMapBossSummonKamikazeDemon_
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: monster
-- `stats`: [{"id":"display_monster_mod_nemesis_test","max":0,"min":0}]
-
-```json
-{"k":"DaemonMapBossSummonKamikazeDemon_","n":"DaemonMapBossSummonKamikazeDemon_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"display_monster_mod_nemesis_test","max":0,"min":0}],"domain":"monster","gen":"unique","lvl":1}
-```
-
-### 77. DamageAuraUniqueHelmetDexInt2
-
-- Match score: `70`
-- `k`: DamageAuraUniqueHelmetDexInt2
-- `n`: DamageAuraUniqueHelmetDexInt2
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"damage_+%","max":50,"min":50}]
-
-```json
-{"k":"DamageAuraUniqueHelmetDexInt2","n":"DamageAuraUniqueHelmetDexInt2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%","max":50,"min":50}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 78. DamageRemovedFromManaBeforeLife1
-
-- Match score: `70`
-- `k`: DamageRemovedFromManaBeforeLife1
-- `n`: DamageRemovedFromManaBeforeLife1
+- `k`: ColdDamageTakenGainedAsLifeEldritchImplicit1
+- `n`: ColdDamageTakenGainedAsLifeEldritchImplicit1
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"DamageRemovedFromManaBeforeLife1","n":"DamageRemovedFromManaBeforeLife1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":23}
+{"k":"ColdDamageTakenGainedAsLifeEldritchImplicit1","n":"ColdDamageTakenGainedAsLifeEldritchImplicit1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 79. DamageRemovedFromManaBeforeLife2
+### 119. ColdDamageTakenGainedAsLifeEldritchImplicit2
 
 - Match score: `70`
-- `k`: DamageRemovedFromManaBeforeLife2
-- `n`: DamageRemovedFromManaBeforeLife2
+- `k`: ColdDamageTakenGainedAsLifeEldritchImplicit2
+- `n`: ColdDamageTakenGainedAsLifeEldritchImplicit2
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"DamageRemovedFromManaBeforeLife2","n":"DamageRemovedFromManaBeforeLife2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":39}
+{"k":"ColdDamageTakenGainedAsLifeEldritchImplicit2","n":"ColdDamageTakenGainedAsLifeEldritchImplicit2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 80. DamageRemovedFromManaBeforeLife3
+### 120. ColdDamageTakenGainedAsLifeEldritchImplicit3
 
 - Match score: `70`
-- `k`: DamageRemovedFromManaBeforeLife3
-- `n`: DamageRemovedFromManaBeforeLife3
+- `k`: ColdDamageTakenGainedAsLifeEldritchImplicit3
+- `n`: ColdDamageTakenGainedAsLifeEldritchImplicit3
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"DamageRemovedFromManaBeforeLife3","n":"DamageRemovedFromManaBeforeLife3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":52}
-```
-
-### 81. DamageRemovedFromManaBeforeLife4
-
-- Match score: `70`
-- `k`: DamageRemovedFromManaBeforeLife4
-- `n`: DamageRemovedFromManaBeforeLife4
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"DamageRemovedFromManaBeforeLife4","n":"DamageRemovedFromManaBeforeLife4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":77}
-```
-
-### 82. DamageRemovedFromManaBeforeLifeTestMod
-
-- Match score: `70`
-- `k`: DamageRemovedFromManaBeforeLifeTestMod
-- `n`: DamageRemovedFromManaBeforeLifeTestMod
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"base_damage_removed_from_mana_before_life_%","max":30,"min":30}]
-
-```json
-{"k":"DamageRemovedFromManaBeforeLifeTestMod","n":"DamageRemovedFromManaBeforeLifeTestMod","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_damage_removed_from_mana_before_life_%","max":30,"min":30}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 83. DamageTakenFromSkeletonsUniqueOneHandSword12_
-
-- Match score: `70`
-- `k`: DamageTakenFromSkeletonsUniqueOneHandSword12_
-- `n`: DamageTakenFromSkeletonsUniqueOneHandSword12_
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"damage_taken_+%_from_skeletons","max":10,"min":10}]
-
-```json
-{"k":"DamageTakenFromSkeletonsUniqueOneHandSword12_","n":"DamageTakenFromSkeletonsUniqueOneHandSword12_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_taken_+%_from_skeletons","max":10,"min":10}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 84. DamageTakenGainedAsLife1___
-
-- Match score: `70`
-- `k`: DamageTakenGainedAsLife1___
-- `n`: DamageTakenGainedAsLife1___
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"DamageTakenGainedAsLife1___","n":"DamageTakenGainedAsLife1___","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":30}
-```
-
-### 85. DamageTakenGainedAsLife2
-
-- Match score: `70`
-- `k`: DamageTakenGainedAsLife2
-- `n`: DamageTakenGainedAsLife2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"DamageTakenGainedAsLife2","n":"DamageTakenGainedAsLife2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":44}
-```
-
-### 86. DamageTakenGainedAsLife3
-
-- Match score: `70`
-- `k`: DamageTakenGainedAsLife3
-- `n`: DamageTakenGainedAsLife3
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"DamageTakenGainedAsLife3","n":"DamageTakenGainedAsLife3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":56}
-```
-
-### 87. DamageTakenGainedAsLife4_
-
-- Match score: `70`
-- `k`: DamageTakenGainedAsLife4_
-- `n`: DamageTakenGainedAsLife4_
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"DamageTakenGainedAsLife4_","n":"DamageTakenGainedAsLife4_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
-```
-
-### 88. DamageTakenGainedAsLife5
-
-- Match score: `70`
-- `k`: DamageTakenGainedAsLife5
-- `n`: DamageTakenGainedAsLife5
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"DamageTakenGainedAsLife5","n":"DamageTakenGainedAsLife5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":79}
-```
-
-### 89. DarkExileWitchCurseDuration_
-
-- Match score: `70`
-- `k`: DarkExileWitchCurseDuration_
-- `n`: DarkExileWitchCurseDuration_
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: monster
-- `stats`: [{"id":"curses_never_expire","max":1,"min":1}]
-
-```json
-{"k":"DarkExileWitchCurseDuration_","n":"DarkExileWitchCurseDuration_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"curses_never_expire","max":1,"min":1}],"domain":"monster","gen":"unique","lvl":1}
-```
-
-### 90. DisplayDamageAuraUniqueHelmetDexInt2
-
-- Match score: `70`
-- `k`: DisplayDamageAuraUniqueHelmetDexInt2
-- `n`: DisplayDamageAuraUniqueHelmetDexInt2
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"local_display_aura_damage_+%","max":50,"min":50}]
-
-```json
-{"k":"DisplayDamageAuraUniqueHelmetDexInt2","n":"DisplayDamageAuraUniqueHelmetDexInt2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_aura_damage_+%","max":50,"min":50}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 91. DisplayLifeRegenerationAuraUniqueAmulet21
-
-- Match score: `70`
-- `k`: DisplayLifeRegenerationAuraUniqueAmulet21
-- `n`: DisplayLifeRegenerationAuraUniqueAmulet21
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"shapers_seed_unique_aura_life_regeneration_rate_per_minute_%","max":240,"min":240}]
-
-```json
-{"k":"DisplayLifeRegenerationAuraUniqueAmulet21","n":"DisplayLifeRegenerationAuraUniqueAmulet21","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"shapers_seed_unique_aura_life_regeneration_rate_per_minute_%","max":240,"min":240}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 92. DisplaySupportedByAddedColdDamageUnique__1
-
-- Match score: `70`
-- `k`: DisplaySupportedByAddedColdDamageUnique__1
-- `n`: DisplaySupportedByAddedColdDamageUnique__1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"local_display_socketed_gems_supported_by_x_added_cold_damage","max":15,"min":15}]
-
-```json
-{"k":"DisplaySupportedByAddedColdDamageUnique__1","n":"DisplaySupportedByAddedColdDamageUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_socketed_gems_supported_by_x_added_cold_damage","max":15,"min":15}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 93. DisplaySupportedByAddedColdDamageUnique__1Royale
-
-- Match score: `70`
-- `k`: DisplaySupportedByAddedColdDamageUnique__1Royale
-- `n`: DisplaySupportedByAddedColdDamageUnique__1Royale
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"local_display_socketed_gems_supported_by_x_added_cold_damage","max":1,"min":1}]
-
-```json
-{"k":"DisplaySupportedByAddedColdDamageUnique__1Royale","n":"DisplaySupportedByAddedColdDamageUnique__1Royale","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_socketed_gems_supported_by_x_added_cold_damage","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 94. ElementalDamageLeechedAsLifePermyriadUniqueSceptre7_
-
-- Match score: `70`
-- `k`: ElementalDamageLeechedAsLifePermyriadUniqueSceptre7_
-- `n`: ElementalDamageLeechedAsLifePermyriadUniqueSceptre7_
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"dummy_stat_display_nothing","max":20,"min":20}]
-
-```json
-{"k":"ElementalDamageLeechedAsLifePermyriadUniqueSceptre7_","n":"ElementalDamageLeechedAsLifePermyriadUniqueSceptre7_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"dummy_stat_display_nothing","max":20,"min":20}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 95. ElementalDamageLeechedAsLifeUniqueSceptre7
-
-- Match score: `70`
-- `k`: ElementalDamageLeechedAsLifeUniqueSceptre7
-- `n`: ElementalDamageLeechedAsLifeUniqueSceptre7
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"dummy_stat_display_nothing","max":100,"min":100}]
-
-```json
-{"k":"ElementalDamageLeechedAsLifeUniqueSceptre7","n":"ElementalDamageLeechedAsLifeUniqueSceptre7","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"dummy_stat_display_nothing","max":100,"min":100}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 96. EnemiesOnLowLifeTakeMoreDamagePerFrenzyChargeUniqueBootsDex4
-
-- Match score: `70`
-- `k`: EnemiesOnLowLifeTakeMoreDamagePerFrenzyChargeUniqueBootsDex4
-- `n`: EnemiesOnLowLifeTakeMoreDamagePerFrenzyChargeUniqueBootsDex4
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"damage_+%_vs_enemies_on_low_life_per_frenzy_charge","max":30,"min":20}]
-
-```json
-{"k":"EnemiesOnLowLifeTakeMoreDamagePerFrenzyChargeUniqueBootsDex4","n":"EnemiesOnLowLifeTakeMoreDamagePerFrenzyChargeUniqueBootsDex4","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%_vs_enemies_on_low_life_per_frenzy_charge","max":30,"min":20}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 97. EnemyExtraDamageRollsOnFullLifeUnique__1
-
-- Match score: `70`
-- `k`: EnemyExtraDamageRollsOnFullLifeUnique__1
-- `n`: EnemyExtraDamageRollsOnFullLifeUnique__1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 68
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"enemy_extra_damage_rolls_when_on_full_life","max":-1,"min":-1}]
-
-```json
-{"k":"EnemyExtraDamageRollsOnFullLifeUnique__1","n":"EnemyExtraDamageRollsOnFullLifeUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"enemy_extra_damage_rolls_when_on_full_life","max":-1,"min":-1}],"domain":"item","gen":"unique","lvl":68}
-```
-
-### 98. EnemyExtraDamageRollsOnFullLifeUnique__2
-
-- Match score: `70`
-- `k`: EnemyExtraDamageRollsOnFullLifeUnique__2
-- `n`: EnemyExtraDamageRollsOnFullLifeUnique__2
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"enemy_extra_damage_rolls_when_on_full_life","max":-1,"min":-1}]
-
-```json
-{"k":"EnemyExtraDamageRollsOnFullLifeUnique__2","n":"EnemyExtraDamageRollsOnFullLifeUnique__2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"enemy_extra_damage_rolls_when_on_full_life","max":-1,"min":-1}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 99. EnemyExtraDamageRollsOnLowLifeUniqueRing9
-
-- Match score: `70`
-- `k`: EnemyExtraDamageRollsOnLowLifeUniqueRing9
-- `n`: EnemyExtraDamageRollsOnLowLifeUniqueRing9
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"enemy_extra_damage_rolls_when_on_low_life","max":-1,"min":-1}]
-
-```json
-{"k":"EnemyExtraDamageRollsOnLowLifeUniqueRing9","n":"EnemyExtraDamageRollsOnLowLifeUniqueRing9","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"enemy_extra_damage_rolls_when_on_low_life","max":-1,"min":-1}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 100. EssenceDaemonModLifeAndDamageCorrupt
-
-- Match score: `70`
-- `k`: EssenceDaemonModLifeAndDamageCorrupt
-- `n`: EssenceDaemonModLifeAndDamageCorrupt
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: essence
-- `domain`: monster
-- `stats`: [{"id":"damage_+%","max":23,"min":23},{"id":"monster_life_+%_final_from_rarity","max":1150,"min":1150}]
-
-```json
-{"k":"EssenceDaemonModLifeAndDamageCorrupt","n":"EssenceDaemonModLifeAndDamageCorrupt","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%","max":23,"min":23},{"id":"monster_life_+%_final_from_rarity","max":1150,"min":1150}],"domain":"monster","gen":"essence","lvl":1}
-```
-
-### 101. EssenceDaemonModLifeAndDamageCorruptMemoryLine
-
-- Match score: `70`
-- `k`: EssenceDaemonModLifeAndDamageCorruptMemoryLine
-- `n`: EssenceDaemonModLifeAndDamageCorruptMemoryLine
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: essence
-- `domain`: monster
-- `stats`: [{"id":"damage_+%","max":23,"min":23},{"id":"monster_life_+%_final_from_rarity","max":507,"min":507}]
-
-```json
-{"k":"EssenceDaemonModLifeAndDamageCorruptMemoryLine","n":"EssenceDaemonModLifeAndDamageCorruptMemoryLine","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%","max":23,"min":23},{"id":"monster_life_+%_final_from_rarity","max":507,"min":507}],"domain":"monster","gen":"essence","lvl":1}
-```
-
-### 102. EssenceDaemonModLifeAndDamageLevel1
-
-- Match score: `70`
-- `k`: EssenceDaemonModLifeAndDamageLevel1
-- `n`: EssenceDaemonModLifeAndDamageLevel1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: essence
-- `domain`: monster
-- `stats`: [{"id":"damage_+%","max":11,"min":11},{"id":"monster_life_+%_final_from_rarity","max":80,"min":80}]
-
-```json
-{"k":"EssenceDaemonModLifeAndDamageLevel1","n":"EssenceDaemonModLifeAndDamageLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%","max":11,"min":11},{"id":"monster_life_+%_final_from_rarity","max":80,"min":80}],"domain":"monster","gen":"essence","lvl":1}
-```
-
-### 103. EssenceDaemonModLifeAndDamageLevel1MemoryLine
-
-- Match score: `70`
-- `k`: EssenceDaemonModLifeAndDamageLevel1MemoryLine
-- `n`: EssenceDaemonModLifeAndDamageLevel1MemoryLine
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: essence
-- `domain`: monster
-- `stats`: [{"id":"damage_+%","max":11,"min":11},{"id":"monster_life_+%_final_from_rarity","max":35,"min":35}]
-
-```json
-{"k":"EssenceDaemonModLifeAndDamageLevel1MemoryLine","n":"EssenceDaemonModLifeAndDamageLevel1MemoryLine","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%","max":11,"min":11},{"id":"monster_life_+%_final_from_rarity","max":35,"min":35}],"domain":"monster","gen":"essence","lvl":1}
-```
-
-### 104. EssenceDaemonModLifeAndDamageLevel2
-
-- Match score: `70`
-- `k`: EssenceDaemonModLifeAndDamageLevel2
-- `n`: EssenceDaemonModLifeAndDamageLevel2
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: essence
-- `domain`: monster
-- `stats`: [{"id":"damage_+%","max":13,"min":13},{"id":"monster_life_+%_final_from_rarity","max":200,"min":200}]
-
-```json
-{"k":"EssenceDaemonModLifeAndDamageLevel2","n":"EssenceDaemonModLifeAndDamageLevel2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%","max":13,"min":13},{"id":"monster_life_+%_final_from_rarity","max":200,"min":200}],"domain":"monster","gen":"essence","lvl":1}
-```
-
-### 105. EssenceDaemonModLifeAndDamageLevel2MemoryLine
-
-- Match score: `70`
-- `k`: EssenceDaemonModLifeAndDamageLevel2MemoryLine
-- `n`: EssenceDaemonModLifeAndDamageLevel2MemoryLine
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: essence
-- `domain`: monster
-- `stats`: [{"id":"damage_+%","max":13,"min":13},{"id":"monster_life_+%_final_from_rarity","max":87,"min":87}]
-
-```json
-{"k":"EssenceDaemonModLifeAndDamageLevel2MemoryLine","n":"EssenceDaemonModLifeAndDamageLevel2MemoryLine","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%","max":13,"min":13},{"id":"monster_life_+%_final_from_rarity","max":87,"min":87}],"domain":"monster","gen":"essence","lvl":1}
-```
-
-### 106. EssenceDaemonModLifeAndDamageLevel3
-
-- Match score: `70`
-- `k`: EssenceDaemonModLifeAndDamageLevel3
-- `n`: EssenceDaemonModLifeAndDamageLevel3
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: essence
-- `domain`: monster
-- `stats`: [{"id":"damage_+%","max":15,"min":15},{"id":"monster_life_+%_final_from_rarity","max":500,"min":500}]
-
-```json
-{"k":"EssenceDaemonModLifeAndDamageLevel3","n":"EssenceDaemonModLifeAndDamageLevel3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%","max":15,"min":15},{"id":"monster_life_+%_final_from_rarity","max":500,"min":500}],"domain":"monster","gen":"essence","lvl":1}
-```
-
-### 107. EssenceDaemonModLifeAndDamageLevel3MemoryLine
-
-- Match score: `70`
-- `k`: EssenceDaemonModLifeAndDamageLevel3MemoryLine
-- `n`: EssenceDaemonModLifeAndDamageLevel3MemoryLine
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: essence
-- `domain`: monster
-- `stats`: [{"id":"damage_+%","max":15,"min":15},{"id":"monster_life_+%_final_from_rarity","max":227,"min":227}]
-
-```json
-{"k":"EssenceDaemonModLifeAndDamageLevel3MemoryLine","n":"EssenceDaemonModLifeAndDamageLevel3MemoryLine","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%","max":15,"min":15},{"id":"monster_life_+%_final_from_rarity","max":227,"min":227}],"domain":"monster","gen":"essence","lvl":1}
-```
-
-### 108. EssenceDaemonModLifeAndDamageLevel4
-
-- Match score: `70`
-- `k`: EssenceDaemonModLifeAndDamageLevel4
-- `n`: EssenceDaemonModLifeAndDamageLevel4
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: essence
-- `domain`: monster
-- `stats`: [{"id":"damage_+%","max":19,"min":19},{"id":"monster_life_+%_final_from_rarity","max":700,"min":700}]
-
-```json
-{"k":"EssenceDaemonModLifeAndDamageLevel4","n":"EssenceDaemonModLifeAndDamageLevel4","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%","max":19,"min":19},{"id":"monster_life_+%_final_from_rarity","max":700,"min":700}],"domain":"monster","gen":"essence","lvl":1}
-```
-
-### 109. EssenceDaemonModLifeAndDamageLevel4MemoryLine
-
-- Match score: `70`
-- `k`: EssenceDaemonModLifeAndDamageLevel4MemoryLine
-- `n`: EssenceDaemonModLifeAndDamageLevel4MemoryLine
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: essence
-- `domain`: monster
-- `stats`: [{"id":"damage_+%","max":19,"min":19},{"id":"monster_life_+%_final_from_rarity","max":297,"min":297}]
-
-```json
-{"k":"EssenceDaemonModLifeAndDamageLevel4MemoryLine","n":"EssenceDaemonModLifeAndDamageLevel4MemoryLine","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%","max":19,"min":19},{"id":"monster_life_+%_final_from_rarity","max":297,"min":297}],"domain":"monster","gen":"essence","lvl":1}
-```
-
-### 110. EssenceDaemonModLifeAndDamageLevel5
-
-- Match score: `70`
-- `k`: EssenceDaemonModLifeAndDamageLevel5
-- `n`: EssenceDaemonModLifeAndDamageLevel5
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: essence
-- `domain`: monster
-- `stats`: [{"id":"damage_+%","max":21,"min":21},{"id":"monster_life_+%_final_from_rarity","max":900,"min":900}]
-
-```json
-{"k":"EssenceDaemonModLifeAndDamageLevel5","n":"EssenceDaemonModLifeAndDamageLevel5","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%","max":21,"min":21},{"id":"monster_life_+%_final_from_rarity","max":900,"min":900}],"domain":"monster","gen":"essence","lvl":1}
-```
-
-### 111. EssenceDaemonModLifeAndDamageLevel5MemoryLine
-
-- Match score: `70`
-- `k`: EssenceDaemonModLifeAndDamageLevel5MemoryLine
-- `n`: EssenceDaemonModLifeAndDamageLevel5MemoryLine
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: essence
-- `domain`: monster
-- `stats`: [{"id":"damage_+%","max":21,"min":21},{"id":"monster_life_+%_final_from_rarity","max":402,"min":402}]
-
-```json
-{"k":"EssenceDaemonModLifeAndDamageLevel5MemoryLine","n":"EssenceDaemonModLifeAndDamageLevel5MemoryLine","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%","max":21,"min":21},{"id":"monster_life_+%_final_from_rarity","max":402,"min":402}],"domain":"monster","gen":"essence","lvl":1}
-```
-
-### 112. EssenceDaemonModLifeAndDamageLevel6
-
-- Match score: `70`
-- `k`: EssenceDaemonModLifeAndDamageLevel6
-- `n`: EssenceDaemonModLifeAndDamageLevel6
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: essence
-- `domain`: monster
-- `stats`: [{"id":"damage_+%","max":25,"min":25},{"id":"monster_life_+%_final_from_rarity","max":1200,"min":1200}]
-
-```json
-{"k":"EssenceDaemonModLifeAndDamageLevel6","n":"EssenceDaemonModLifeAndDamageLevel6","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%","max":25,"min":25},{"id":"monster_life_+%_final_from_rarity","max":1200,"min":1200}],"domain":"monster","gen":"essence","lvl":1}
-```
-
-### 113. EssenceDaemonModLifeAndDamageLevel6MemoryLine
-
-- Match score: `70`
-- `k`: EssenceDaemonModLifeAndDamageLevel6MemoryLine
-- `n`: EssenceDaemonModLifeAndDamageLevel6MemoryLine
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: essence
-- `domain`: monster
-- `stats`: [{"id":"damage_+%","max":25,"min":25},{"id":"monster_life_+%_final_from_rarity","max":507,"min":507}]
-
-```json
-{"k":"EssenceDaemonModLifeAndDamageLevel6MemoryLine","n":"EssenceDaemonModLifeAndDamageLevel6MemoryLine","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%","max":25,"min":25},{"id":"monster_life_+%_final_from_rarity","max":507,"min":507}],"domain":"monster","gen":"essence","lvl":1}
-```
-
-### 114. EssenceDaemonModLifeAndDamageLevel7
-
-- Match score: `70`
-- `k`: EssenceDaemonModLifeAndDamageLevel7
-- `n`: EssenceDaemonModLifeAndDamageLevel7
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: essence
-- `domain`: monster
-- `stats`: [{"id":"damage_+%","max":33,"min":33},{"id":"monster_life_+%_final_from_rarity","max":1600,"min":1600}]
-
-```json
-{"k":"EssenceDaemonModLifeAndDamageLevel7","n":"EssenceDaemonModLifeAndDamageLevel7","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%","max":33,"min":33},{"id":"monster_life_+%_final_from_rarity","max":1600,"min":1600}],"domain":"monster","gen":"essence","lvl":1}
-```
-
-### 115. EssenceDaemonModLifeAndDamageLevel7MemoryLine
-
-- Match score: `70`
-- `k`: EssenceDaemonModLifeAndDamageLevel7MemoryLine
-- `n`: EssenceDaemonModLifeAndDamageLevel7MemoryLine
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: essence
-- `domain`: monster
-- `stats`: [{"id":"damage_+%","max":33,"min":33},{"id":"monster_life_+%_final_from_rarity","max":682,"min":682}]
-
-```json
-{"k":"EssenceDaemonModLifeAndDamageLevel7MemoryLine","n":"EssenceDaemonModLifeAndDamageLevel7MemoryLine","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_+%","max":33,"min":33},{"id":"monster_life_+%_final_from_rarity","max":682,"min":682}],"domain":"monster","gen":"essence","lvl":1}
-```
-
-### 116. ExpeditionRelicDownsideDamageAttackCastMovementSpeedLowLife
-
-- Match score: `70`
-- `k`: ExpeditionRelicDownsideDamageAttackCastMovementSpeedLowLife
-- `n`: ExpeditionRelicDownsideDamageAttackCastMovementSpeedLowLife
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: prefix
-- `domain`: expedition_relic
-- `stats`: [{"id":"attack_speed_+%_when_on_low_life","max":30,"min":30},{"id":"cast_speed_+%_when_on_low_life","max":40,"min":40},{"id":"movement_velocity_+%_when_on_low_life","max":25,"min":25},{"id":"damage_+%_when_on_low_life","max":0,"min":0}]
-
-```json
-{"k":"ExpeditionRelicDownsideDamageAttackCastMovementSpeedLowLife","n":"ExpeditionRelicDownsideDamageAttackCastMovementSpeedLowLife","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"attack_speed_+%_when_on_low_life","max":30,"min":30},{"id":"cast_speed_+%_when_on_low_life","max":40,"min":40},{"id":"movement_velocity_+%_when_on_low_life","max":25,"min":25},{"id":"damage_+%_when_on_low_life","max":0,"min":0}],"domain":"expedition_relic","gen":"prefix","weights":[{"tag":"expedition_atoll_remnant_logbook","weight":1},{"tag":"expedition_tundra_remnant_logbook","weight":1},{"tag":"default","weight":0}],"lvl":1}
-```
-
-### 117. FigureheadChestBossRagingSpiritDaemon
-
-- Match score: `70`
-- `k`: FigureheadChestBossRagingSpiritDaemon
-- `n`: FigureheadChestBossRagingSpiritDaemon
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: monster
-
-```json
-{"k":"FigureheadChestBossRagingSpiritDaemon","n":"FigureheadChestBossRagingSpiritDaemon","cat":"repoe_mods","src":"repoe_poe2/mods.json","domain":"monster","gen":"unique","lvl":1}
-```
-
-### 118. FireDamageLeechedAsLifeWhileIgnitedUnique__1
-
-- Match score: `70`
-- `k`: FireDamageLeechedAsLifeWhileIgnitedUnique__1
-- `n`: FireDamageLeechedAsLifeWhileIgnitedUnique__1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"dummy_stat_display_nothing","max":200,"min":200}]
-
-```json
-{"k":"FireDamageLeechedAsLifeWhileIgnitedUnique__1","n":"FireDamageLeechedAsLifeWhileIgnitedUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"dummy_stat_display_nothing","max":200,"min":200}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 119. FlaskTakeChaosDamagePercentageOfLifeUniqueFlask2
-
-- Match score: `70`
-- `k`: FlaskTakeChaosDamagePercentageOfLifeUniqueFlask2
-- `n`: FlaskTakeChaosDamagePercentageOfLifeUniqueFlask2
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: flask
-- `stats`: [{"id":"local_flask_deals_%_maximum_life_as_chaos_damage_on_use","max":50,"min":50}]
-
-```json
-{"k":"FlaskTakeChaosDamagePercentageOfLifeUniqueFlask2","n":"FlaskTakeChaosDamagePercentageOfLifeUniqueFlask2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_flask_deals_%_maximum_life_as_chaos_damage_on_use","max":50,"min":50}],"domain":"flask","gen":"unique","lvl":1}
-```
-
-### 120. GainLifeWhenSpiritChargeExpiresOrConsumedUnique__1_
-
-- Match score: `70`
-- `k`: GainLifeWhenSpiritChargeExpiresOrConsumedUnique__1_
-- `n`: GainLifeWhenSpiritChargeExpiresOrConsumedUnique__1_
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"gain_%_life_when_spirit_charge_expires_or_consumed","max":0,"min":0}]
-
-```json
-{"k":"GainLifeWhenSpiritChargeExpiresOrConsumedUnique__1_","n":"GainLifeWhenSpiritChargeExpiresOrConsumedUnique__1_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"gain_%_life_when_spirit_charge_expires_or_consumed","max":0,"min":0}],"domain":"item","gen":"unique","lvl":1}
+{"k":"ColdDamageTakenGainedAsLifeEldritchImplicit3","n":"ColdDamageTakenGainedAsLifeEldritchImplicit3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
 ## Rune mods

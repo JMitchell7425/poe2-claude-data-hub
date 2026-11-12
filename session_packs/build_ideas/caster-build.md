@@ -1,6 +1,6 @@
 # Build Idea Pack — Caster Build
 
-- Generated UTC: `2026-11-11T17:52:53+00:00`
+- Generated UTC: `2026-11-12T18:17:54+00:00`
 - Idea slug: `caster-build`
 - Purpose: Engineer a high-damage spellcaster with strong map clear, bossing, sustain, and PS5-friendly execution.
 - Keywords: `spell, caster, cast speed, critical, crit, mana, energy shield, spirit, lightning, cold, fire, chaos, projectile, area, aoe, exposure, penetration, shock, freeze, ignite, wand, staff, focus, sorceress, witch, chronomancer, stormweaver, blood mage`
@@ -2929,67 +2929,7 @@ _No keyword matches in this index._
 {"k":"all_damage_can_ignite_freeze_shock","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'FireCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags':...[trimmed]
 ```
 
-### 2. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}]
-
-- Match score: `140`
-- `k`: active_skill_all_elemental_exposure_magnitude
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"active_skill_all_elemental_exposure_magnitude","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FireExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}},{"flags":0,"keywordFlags":0,"name":"ColdExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}},{"flags":0,"keywordFlags":0,"name":"LightningExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}}]}
-```
-
-### 3. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}]
-
-- Match score: `140`
-- `k`: all_exposure_on_hit_magnitude
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"all_exposure_on_hit_magnitude","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FireExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}},{"flags":0,"keywordFlags":0,"name":"ColdExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}},{"flags":0,"keywordFlags":0,"name":"LightningExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}}]}
-```
-
-### 4. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}]
-
-- Match score: `140`
-- `k`: skill_base_oil_exposure_-_to_total_elemental_resistance
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"skill_base_oil_exposure_-_to_total_elemental_resistance","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FireExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}},{"flags":0,"keywordFlags":0,"name":"ColdExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}},{"flags":0,"keywordFlags":0,"name":"LightningExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}}]}
-```
-
-### 5. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposureEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposureEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposureEffect', 'type': 'INC'}]
-
-- Match score: `140`
-- `k`: exposure_effect_+%
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposureEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposureEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposureEffect', 'type': 'INC'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"exposure_effect_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposureEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposureEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposureEffect', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FireExposureEffect","type":"INC"},{"flags":0,"keywordFlags":0,"name":"ColdExposureEffect","type":"INC"},{"flags":0,"keywordFlags":0,"name":"LightningExposureEffect","type":"INC"}]}
-```
-
-### 6. [{'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposureChance', 'type': 'BASE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposureChance', 'type': 'BASE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'FireExposureChance', 'type': 'BASE'}]
-
-- Match score: `140`
-- `k`: inflict_exposure_on_hit_%_chance
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposureChance', 'type': 'BASE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposureChance', 'type': 'BASE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'FireExposureChance', 'type': 'BASE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"inflict_exposure_on_hit_%_chance","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposureChance', 'type': 'BASE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposureChance', 'type': 'BASE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'FireExposureChance', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"LightningExposureChance","type":"BASE"},{"flags":0,"keywordFlags":0,"name":"ColdExposureChance","type":"BASE"},{"flags":0,"keywordFlags":0,"name":"FireExposureChance","type":"BASE"}]}
-```
-
-### 7. [{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'FireCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanFreeze', 'type': 'FLAG', 'value': True}]
+### 2. [{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'FireCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanFreeze', 'type': 'FLAG', 'value': True}]
 
 - Match score: `140`
 - `k`: all_damage_can_freeze
@@ -3001,7 +2941,7 @@ _No keyword matches in this index._
 {"k":"all_damage_can_freeze","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'FireCanFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanFreeze', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"PhysicalCanFreeze","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"LightningCanFreeze","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"FireCanFreeze","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"ChaosCanFreeze","type":"FLAG","value":true}]}
 ```
 
-### 8. [{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanIgnite', 'type': 'FLAG', 'value': True}]
+### 3. [{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanIgnite', 'type': 'FLAG', 'value': True}]
 
 - Match score: `140`
 - `k`: all_damage_can_ignite
@@ -3013,7 +2953,7 @@ _No keyword matches in this index._
 {"k":"all_damage_can_ignite","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdCanIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanIgnite', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"PhysicalCanIgnite","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"LightningCanIgnite","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"ColdCanIgnite","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"ChaosCanIgnite","type":"FLAG","value":true}]}
 ```
 
-### 9. [{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdCanShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'FireCanShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanShock', 'type': 'FLAG', 'value': True}]
+### 4. [{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdCanShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'FireCanShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanShock', 'type': 'FLAG', 'value': True}]
 
 - Match score: `140`
 - `k`: all_damage_can_shock
@@ -3025,55 +2965,19 @@ _No keyword matches in this index._
 {"k":"all_damage_can_shock","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalCanShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdCanShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'FireCanShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanShock', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"PhysicalCanShock","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"ColdCanShock","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"FireCanShock","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"ChaosCanShock","type":"FLAG","value":true}]}
 ```
 
-### 10. [{'flags': 0, 'keywordFlags': 0, 'name': 'CannotFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotIgnite', 'type': 'FLAG', 'value': True}]
-
-- Match score: `105`
-- `k`: active_skill_never_freeze_shock_ignite
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'CannotFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotIgnite', 'type': 'FLAG', 'value': True}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"active_skill_never_freeze_shock_ignite","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CannotFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotIgnite', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CannotFreeze","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"CannotShock","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"CannotIgnite","type":"FLAG","value":true}]}
-```
-
-### 11. [{'flags': 0, 'keywordFlags': 0, 'name': 'CannotShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotChill', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotElectrocute', 'type': 'FLAG', 'value': True}]
-
-- Match score: `105`
-- `k`: cannot_inflict_elemental_ailments
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'CannotShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotChill', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotElectrocute', 'type': 'FLAG', 'value': True}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"cannot_inflict_elemental_ailments","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CannotShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotChill', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotElectrocute', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CannotShock","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"CannotChill","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"CannotFreeze","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"CannotIgnite","type":"FLAG","value":true},{"flags":0,"keywordFlags":0...[trimmed]
-```
-
-### 12. [{'flags': 0, 'keywordFlags': 0, 'name': 'CannotShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotChill', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotIgnite', 'type': 'FLAG', 'value': True}]
+### 5. [{'flags': 0, 'keywordFlags': 0, 'name': 'CannotShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotChill', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotScorch', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotBrittle', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotSap', 'type': 'FLAG', 'value': True}]
 
 - Match score: `105`
 - `k`: cannot_inflict_status_ailments
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'CannotShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotChill', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotIgnite', 'type': 'FLAG', 'value': True}]
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'CannotShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotChill', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotScorch', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotBrittle', 'typ...[trimmed]
 - `cat`: pob_skill_stat_map
 - `src`: pob_data_poe2/SkillStatMap.json
 
 ```json
-{"k":"cannot_inflict_status_ailments","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CannotShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotChill', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotIgnite', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CannotShock","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"CannotChill","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"CannotFreeze","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"CannotIgnite","type":"FLAG","value":true}]}
+{"k":"cannot_inflict_status_ailments","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CannotShock', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotChill', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotFreeze', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotIgnite', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotScorch', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotBrittle', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotSap', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CannotShock","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"CannotChill","type":"FLAG","value":true},{"flags":0,"keywo...[trimmed]
 ```
 
-### 13. [{'flags': 0, 'keywordFlags': 0, 'name': 'DamageGainAsFire', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'WhirlwindBuffFire'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'DamageGainAsCold', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'WhirlwindBuffCold'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'DamageGainAsLightning', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'WhirlwindBuffLightning'}}]
-
-- Match score: `105`
-- `k`: windstorm_gain_all_damage_%_as_corresponding_element_if_empowered
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'DamageGainAsFire', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'WhirlwindBuffFire'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'DamageGainAsCold', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'WhirlwindBuffCold'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'DamageGainAsLightning', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'WhirlwindBuffLightning'}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"windstorm_gain_all_damage_%_as_corresponding_element_if_empowered","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'DamageGainAsFire', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'WhirlwindBuffFire'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'DamageGainAsCold', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'WhirlwindBuffCold'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'DamageGainAsLightning', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'WhirlwindBuffLightning'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"DamageGainAsFire","type":"BASE","1":{"type":"Condition","var":"WhirlwindBuffFire"}},{"flags":0,"keywordFlags":0,"name":"DamageGainAsCold","type":"BASE","1":{"type":"Condition","var":"WhirlwindBuffCold"}},{"flags":0,"keywordFlags":0,"name":"DamageGainAsLightning","type":"BASE","1":{"type":"Condition","v...[trimmed]
-```
-
-### 14. [{'flags': 0, 'keywordFlags': 0, 'name': 'DealNoFire', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'DealNoCold', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'DealNoLightning', 'type': 'FLAG', 'value': True}]
+### 6. [{'flags': 0, 'keywordFlags': 0, 'name': 'DealNoFire', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'DealNoCold', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'DealNoLightning', 'type': 'FLAG', 'value': True}]
 
 - Match score: `105`
 - `k`: deal_no_elemental_damage
@@ -3085,7 +2989,7 @@ _No keyword matches in this index._
 {"k":"deal_no_elemental_damage","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'DealNoFire', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'DealNoCold', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'DealNoLightning', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"DealNoFire","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"DealNoCold","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"DealNoLightning","type":"FLAG","value":true}]}
 ```
 
-### 15. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyFreezeChance', 'type': 'BASE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyShockChance', 'type': 'BASE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyIgniteChance', 'type': 'BASE'}]
+### 7. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyFreezeChance', 'type': 'BASE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyShockChance', 'type': 'BASE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyIgniteChance', 'type': 'BASE'}]
 
 - Match score: `105`
 - `k`: chance_to_freeze_shock_ignite_%
@@ -3097,43 +3001,7 @@ _No keyword matches in this index._
 {"k":"chance_to_freeze_shock_ignite_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyFreezeChance', 'type': 'BASE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyShockChance', 'type': 'BASE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyIgniteChance', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"EnemyFreezeChance","type":"BASE"},{"flags":0,"keywordFlags":0,"name":"EnemyShockChance","type":"BASE"},{"flags":0,"keywordFlags":0,"name":"EnemyIgniteChance","type":"BASE"}]}
 ```
 
-### 16. [{'flags': 0, 'keywordFlags': 0, 'name': 'ExposureDuration', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CritInPast8Sec'}, '2': {'type': 'Condition', 'var': 'ColdHasDamage'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'InflictExposure', 'type': 'FLAG', 'value': True, '1': {'type': 'Condition', 'var': 'CritInPast8Sec'}, '2': {'type': 'Condition', 'var': 'ColdHasDamage'}}]
-
-- Match score: `105`
-- `k`: inflict_exposure_for_x_ms_on_cold_crit
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'ExposureDuration', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CritInPast8Sec'}, '2': {'type': 'Condition', 'var': 'ColdHasDamage'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'InflictExposure', 'type': 'FLAG', 'value': True, '1': {'type': 'Condition', 'var': 'CritInPast8Sec'}, '2': {'type': 'Condition', 'var': 'ColdHasDamage'}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"inflict_exposure_for_x_ms_on_cold_crit","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'ExposureDuration', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CritInPast8Sec'}, '2': {'type': 'Condition', 'var': 'ColdHasDamage'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'InflictExposure', 'type': 'FLAG', 'value': True, '1': {'type': 'Condition', 'var': 'CritInPast8Sec'}, '2': {'type': 'Condition', 'var': 'ColdHasDamage'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"ExposureDuration","type":"BASE","1":{"type":"Condition","var":"CritInPast8Sec"},"2":{"type":"Condition","var":"ColdHasDamage"}},{"flags":0,"keywordFlags":0,"name":"InflictExposure","type":"FLAG","value":true,"1":{"type":"Condition","var":"CritInPast8Sec"},"2":{"type":"Condition","var":"ColdHasDamage"}}]}
-```
-
-### 17. [{'flags': 0, 'keywordFlags': 0, 'name': 'SupportedGemProperty', 'type': 'LIST', 'value': {'key': 'level', 'keyword': 'grants_active_skill'}, '1': {'gemTagList': ['Lightning', 'Cold', 'Fire'], 'type': 'GemTag'}}]
-
-- Match score: `105`
-- `k`: supported_elemental_skill_gem_level_+
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SupportedGemProperty', 'type': 'LIST', 'value': {'key': 'level', 'keyword': 'grants_active_skill'}, '1': {'gemTagList': ['Lightning', 'Cold', 'Fire'], 'type': 'GemTag'}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"supported_elemental_skill_gem_level_+","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SupportedGemProperty', 'type': 'LIST', 'value': {'key': 'level', 'keyword': 'grants_active_skill'}, '1': {'gemTagList': ['Lightning', 'Cold', 'Fire'], 'type': 'GemTag'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SupportedGemProperty","type":"LIST","value":{"key":"level","keyword":"grants_active_skill"},"1":{"gemTagList":["Lightning","Cold","Fire"],"type":"GemTag"}}]}
-```
-
-### 18. [{'flags': 4, 'keywordFlags': 0, 'name': 'LightningExposureChance', 'type': 'BASE', 'value': 100, '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Shocked'}}]
-
-- Match score: `105`
-- `k`: inflict_lightning_exposure_for_x_ms_on_shock
-- `n`: [{'flags': 4, 'keywordFlags': 0, 'name': 'LightningExposureChance', 'type': 'BASE', 'value': 100, '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Shocked'}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"inflict_lightning_exposure_for_x_ms_on_shock","n":"[{'flags': 4, 'keywordFlags': 0, 'name': 'LightningExposureChance', 'type': 'BASE', 'value': 100, '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Shocked'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":4,"keywordFlags":0,"name":"LightningExposureChance","type":"BASE","value":100,"1":{"actor":"enemy","type":"ActorCondition","var":"Shocked"}}]}
-```
-
-### 19. MPSAncestralTotemSpiritSoulCasterProjectile
+### 8. MPSAncestralTotemSpiritSoulCasterProjectile
 
 - Match score: `105`
 - `k`: MPSAncestralTotemSpiritSoulCasterProjectile
@@ -3146,7 +3014,20 @@ _No keyword matches in this index._
 {"k":"MPSAncestralTotemSpiritSoulCasterProjectile","n":"MPSAncestralTotemSpiritSoulCasterProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 20. [{'flags': 0, 'keywordFlags': 0, 'name': 'CritChance', 'type': 'INC', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Shocked'}}]
+### 9. Artillery Ballista of Focus Fire
+
+- Match score: `90`
+- `k`: Metadata/Items/Gems/SkillGemArtilleryBallistaAltY
+- `n`: Artillery Ballista of Focus Fire
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"area":true,"attack":true,"bow":true,"dexterity":true,"fire":true,"grants_active_skill":true,"projectile":true,"totem":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemArtilleryBallistaAltY","n":"Artillery Ballista of Focus Fire","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"area":true,"attack":true,"bow":true,"dexterity":true,"fire":true,"grants_active_skill":true,"projectile":true,"totem":true}}
+```
+
+### 10. [{'flags': 0, 'keywordFlags': 0, 'name': 'CritChance', 'type': 'INC', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Shocked'}}]
 
 - Match score: `80`
 - `k`: critical_strike_chance_+%_vs_shocked_enemies
@@ -3158,7 +3039,7 @@ _No keyword matches in this index._
 {"k":"critical_strike_chance_+%_vs_shocked_enemies","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CritChance', 'type': 'INC', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Shocked'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CritChance","type":"INC","1":{"actor":"enemy","type":"ActorCondition","var":"Shocked"}}]}
 ```
 
-### 21. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillAttackTime', 'type': 'MORE', '1': {'type': 'Condition', 'varList': ['UsingBow', 'UsingWand']}, '2': {'stat': 'ProjectileCount', 'type': 'PerStat'}}]
+### 11. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillAttackTime', 'type': 'MORE', '1': {'type': 'Condition', 'varList': ['UsingBow', 'UsingWand']}, '2': {'stat': 'ProjectileCount', 'type': 'PerStat'}}]
 
 - Match score: `80`
 - `k`: support_barrage_attack_time_+%_per_projectile_fired
@@ -3170,7 +3051,7 @@ _No keyword matches in this index._
 {"k":"support_barrage_attack_time_+%_per_projectile_fired","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillAttackTime', 'type': 'MORE', '1': {'type': 'Condition', 'varList': ['UsingBow', 'UsingWand']}, '2': {'stat': 'ProjectileCount', 'type': 'PerStat'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillAttackTime","type":"MORE","1":{"type":"Condition","varList":["UsingBow","UsingWand"]},"2":{"stat":"ProjectileCount","type":"PerStat"}}]}
 ```
 
-### 22. [{'flags': 2, 'keywordFlags': 0, 'name': 'ImpaleChance', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CriticalStrike'}}]
+### 12. [{'flags': 2, 'keywordFlags': 0, 'name': 'ImpaleChance', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CriticalStrike'}}]
 
 - Match score: `80`
 - `k`: spell_impale_on_crit_%_chance
@@ -3182,20 +3063,33 @@ _No keyword matches in this index._
 {"k":"spell_impale_on_crit_%_chance","n":"[{'flags': 2, 'keywordFlags': 0, 'name': 'ImpaleChance', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CriticalStrike'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":2,"keywordFlags":0,"name":"ImpaleChance","type":"BASE","1":{"type":"Condition","var":"CriticalStrike"}}]}
 ```
 
-### 23. Blazing Critical
+### 13. Awakened Cast On Critical Strike
 
 - Match score: `80`
-- `k`: Metadata/Items/Gems/SkillGemBlazingCriticalSupport
-- `n`: Blazing Critical
+- `k`: Metadata/Items/Gems/SkillGemSupportAwakenedCastOnCriticalStrike
+- `n`: Awakened Cast On Critical Strike
 - `cat`: pob_gems
 - `src`: pob_data_poe2/Gems.json
-- `tags`: {"attack":true,"duration":true,"fire":true,"support":true}
+- `tags`: {"awakened":true,"critical":true,"dexterity":true,"spell":true,"support":true,"trigger":true}
 
 ```json
-{"k":"Metadata/Items/Gems/SkillGemBlazingCriticalSupport","n":"Blazing Critical","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"attack":true,"duration":true,"fire":true,"support":true}}
+{"k":"Metadata/Items/Gems/SkillGemSupportAwakenedCastOnCriticalStrike","n":"Awakened Cast On Critical Strike","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"awakened":true,"critical":true,"dexterity":true,"spell":true,"support":true,"trigger":true}}
 ```
 
-### 24. Metadata/Items/Gems/SupportGemBlazingCritical
+### 14. Cast On Critical Strike
+
+- Match score: `80`
+- `k`: Metadata/Items/Gems/SkillGemSupportCastOnCriticalStrike
+- `n`: Cast On Critical Strike
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"critical":true,"dexterity":true,"spell":true,"support":true,"trigger":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemSupportCastOnCriticalStrike","n":"Cast On Critical Strike","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"critical":true,"dexterity":true,"spell":true,"support":true,"trigger":true}}
+```
+
+### 15. Metadata/Items/Gems/SupportGemBlazingCritical
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemBlazingCritical
@@ -3209,7 +3103,85 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemBlazingCritical","n":"Metadata/Items/Gems/SupportGemBlazingCritical","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Blazing Critical","id":"Metadata/Items/Gems/SupportGemBlazingCritical","release_state":"released"},"tags":["support","attack","fire","duration"]}
 ```
 
-### 25. Metadata/Items/Gem/SkillGemColdSnap
+### 16. Cold Snap of Power
+
+- Match score: `75`
+- `k`: Metadata/Items/Gems/SkillGemColdSnapAltX
+- `n`: Cold Snap of Power
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"area":true,"cold":true,"critical":true,"grants_active_skill":true,"intelligence":true,"spell":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemColdSnapAltX","n":"Cold Snap of Power","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"area":true,"cold":true,"critical":true,"grants_active_skill":true,"intelligence":true,"spell":true}}
+```
+
+### 17. Lightning Spire Trap
+
+- Match score: `75`
+- `k`: Metadata/Items/Gems/SkillGemLightningSpireTrap
+- `n`: Lightning Spire Trap
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"area":true,"critical":true,"duration":true,"grants_active_skill":true,"intelligence":true,"lightning":true,"spell":true,"trap":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemLightningSpireTrap","n":"Lightning Spire Trap","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"area":true,"critical":true,"duration":true,"grants_active_skill":true,"intelligence":true,"lightning":true,"spell":true,"trap":true}}
+```
+
+### 18. Lightning Tendrils
+
+- Match score: `75`
+- `k`: Metadata/Items/Gems/SkillGemLightningTendrils
+- `n`: Lightning Tendrils
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"area":true,"channelling":true,"critical":true,"grants_active_skill":true,"intelligence":true,"lightning":true,"spell":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemLightningTendrils","n":"Lightning Tendrils","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"area":true,"channelling":true,"critical":true,"grants_active_skill":true,"intelligence":true,"lightning":true,"spell":true}}
+```
+
+### 19. Lightning Tendrils of Eccentricity
+
+- Match score: `75`
+- `k`: Metadata/Items/Gems/SkillGemLightningTendrilsAltX
+- `n`: Lightning Tendrils of Eccentricity
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"area":true,"channelling":true,"critical":true,"grants_active_skill":true,"intelligence":true,"lightning":true,"spell":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemLightningTendrilsAltX","n":"Lightning Tendrils of Eccentricity","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"area":true,"channelling":true,"critical":true,"grants_active_skill":true,"intelligence":true,"lightning":true,"spell":true}}
+```
+
+### 20. Lightning Trap
+
+- Match score: `75`
+- `k`: Metadata/Items/Gems/SkillGemLightningTrap
+- `n`: Lightning Trap
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"critical":true,"grants_active_skill":true,"intelligence":true,"lightning":true,"projectile":true,"spell":true,"trap":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemLightningTrap","n":"Lightning Trap","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"critical":true,"grants_active_skill":true,"intelligence":true,"lightning":true,"projectile":true,"spell":true,"trap":true}}
+```
+
+### 21. Lightning Trap of Sparking
+
+- Match score: `75`
+- `k`: Metadata/Items/Gems/SkillGemLightningTrapAltX
+- `n`: Lightning Trap of Sparking
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"critical":true,"grants_active_skill":true,"intelligence":true,"lightning":true,"projectile":true,"spell":true,"trap":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemLightningTrapAltX","n":"Lightning Trap of Sparking","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"critical":true,"grants_active_skill":true,"intelligence":true,"lightning":true,"projectile":true,"spell":true,"trap":true}}
+```
+
+### 22. Metadata/Items/Gem/SkillGemColdSnap
 
 - Match score: `75`
 - `k`: Metadata/Items/Gem/SkillGemColdSnap
@@ -3223,43 +3195,20 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemColdSnap","n":"Metadata/Items/Gem/SkillGemColdSnap","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Snap","id":"Metadata/Items/Gem/SkillGemColdSnap","release_state":"released"},"tags":["intelligence","grants_active_skill","spell","area","lightning","cold","fire","payoff","remnant","repeatable"]}
 ```
 
-### 26. [{'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanFreeze', 'type': 'FLAG', 'value': True}]
+### 23. Vaal Lightning Trap
 
-- Match score: `70`
-- `k`: chaos_damage_can_freeze
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanFreeze', 'type': 'FLAG', 'value': True}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"chaos_damage_can_freeze","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanFreeze', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"ChaosCanFreeze","type":"FLAG","value":true}]}
-```
-
-### 27. [{'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanIgnite', 'type': 'FLAG', 'value': True}]
-
-- Match score: `70`
-- `k`: base_chaos_damage_can_ignite
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanIgnite', 'type': 'FLAG', 'value': True}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
+- Match score: `75`
+- `k`: Metadata/Items/Gems/SkillGemVaalLightningTrap
+- `n`: Vaal Lightning Trap
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"critical":true,"duration":true,"grants_active_skill":true,"intelligence":true,"lightning":true,"projectile":true,"spell":true,"trap":true,"vaal":true}
 
 ```json
-{"k":"base_chaos_damage_can_ignite","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanIgnite', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"ChaosCanIgnite","type":"FLAG","value":true}]}
+{"k":"Metadata/Items/Gems/SkillGemVaalLightningTrap","n":"Vaal Lightning Trap","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"critical":true,"duration":true,"grants_active_skill":true,"intelligence":true,"lightning":true,"projectile":true,"spell":true,"trap":true,"vaal":true}}
 ```
 
-### 28. [{'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanShock', 'type': 'FLAG', 'value': True}]
-
-- Match score: `70`
-- `k`: chaos_damage_can_shock
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanShock', 'type': 'FLAG', 'value': True}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"chaos_damage_can_shock","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'ChaosCanShock', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"ChaosCanShock","type":"FLAG","value":true}]}
-```
-
-### 29. [{'flags': 0, 'keywordFlags': 0, 'name': 'ChaosPenetration', 'type': 'BASE'}]
+### 24. [{'flags': 0, 'keywordFlags': 0, 'name': 'ChaosPenetration', 'type': 'BASE'}]
 
 - Match score: `70`
 - `k`: reduce_enemy_chaos_resistance_%
@@ -3271,19 +3220,7 @@ _No keyword matches in this index._
 {"k":"reduce_enemy_chaos_resistance_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'ChaosPenetration', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"ChaosPenetration","type":"BASE"}]}
 ```
 
-### 30. [{'flags': 0, 'keywordFlags': 0, 'name': 'ColdDamageGainAsChaos', 'type': 'BASE'}]
-
-- Match score: `70`
-- `k`: non_skill_base_cold_damage_%_to_gain_as_chaos
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'ColdDamageGainAsChaos', 'type': 'BASE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"non_skill_base_cold_damage_%_to_gain_as_chaos","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'ColdDamageGainAsChaos', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"ColdDamageGainAsChaos","type":"BASE"}]}
-```
-
-### 31. [{'flags': 0, 'keywordFlags': 0, 'name': 'ColdDamageGainAsFire', 'type': 'BASE'}]
+### 25. [{'flags': 0, 'keywordFlags': 0, 'name': 'ColdDamageGainAsFire', 'type': 'BASE'}]
 
 - Match score: `70`
 - `k`: cold_damage_%_to_add_as_fire
@@ -3295,7 +3232,7 @@ _No keyword matches in this index._
 {"k":"cold_damage_%_to_add_as_fire","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'ColdDamageGainAsFire', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"ColdDamageGainAsFire","type":"BASE"}]}
 ```
 
-### 32. [{'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposureChance', 'type': 'BASE'}]
+### 26. [{'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposureChance', 'type': 'BASE'}]
 
 - Match score: `70`
 - `k`: base_inflict_cold_exposure_on_hit_%_chance
@@ -3307,7 +3244,7 @@ _No keyword matches in this index._
 {"k":"base_inflict_cold_exposure_on_hit_%_chance","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposureChance', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"ColdExposureChance","type":"BASE"}]}
 ```
 
-### 33. [{'flags': 0, 'keywordFlags': 0, 'name': 'ColdPenetration', 'type': 'BASE'}]
+### 27. [{'flags': 0, 'keywordFlags': 0, 'name': 'ColdPenetration', 'type': 'BASE'}]
 
 - Match score: `70`
 - `k`: base_reduce_enemy_cold_resistance_%
@@ -3319,7 +3256,7 @@ _No keyword matches in this index._
 {"k":"base_reduce_enemy_cold_resistance_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'ColdPenetration', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"ColdPenetration","type":"BASE"}]}
 ```
 
-### 34. [{'flags': 0, 'keywordFlags': 0, 'name': 'DotMultiplier', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CriticalStrike'}}]
+### 28. [{'flags': 0, 'keywordFlags': 0, 'name': 'DotMultiplier', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CriticalStrike'}}]
 
 - Match score: `70`
 - `k`: critical_ailment_dot_multiplier_+
@@ -3331,43 +3268,19 @@ _No keyword matches in this index._
 {"k":"critical_ailment_dot_multiplier_+","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'DotMultiplier', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CriticalStrike'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"DotMultiplier","type":"BASE","1":{"type":"Condition","var":"CriticalStrike"}}]}
 ```
 
-### 35. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyChillMagnitude', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyShockMagnitude', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyFreezeBuildup', 'type': 'INC'}]
+### 29. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyChillEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyShockEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyFreezeEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyScorchEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyBrittleEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemySapEffect', 'type': 'INC'}]
 
 - Match score: `70`
 - `k`: non_damaging_ailment_effect_+%
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyChillMagnitude', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyShockMagnitude', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyFreezeBuildup', 'type': 'INC'}]
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyChillEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyShockEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyFreezeEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyScorchEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyBrittleEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemySapEffect', 'type': 'INC'}]
 - `cat`: pob_skill_stat_map
 - `src`: pob_data_poe2/SkillStatMap.json
 
 ```json
-{"k":"non_damaging_ailment_effect_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyChillMagnitude', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyShockMagnitude', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyFreezeBuildup', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"EnemyChillMagnitude","type":"INC"},{"flags":0,"keywordFlags":0,"name":"EnemyShockMagnitude","type":"INC"},{"flags":0,"keywordFlags":0,"name":"EnemyFreezeBuildup","type":"INC"}]}
+{"k":"non_damaging_ailment_effect_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyChillEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyShockEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyFreezeEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyScorchEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemyBrittleEffect', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'EnemySapEffect', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"EnemyChillEffect","type":"INC"},{"flags":0,"keywordFlags":0,"name":"EnemyShockEffect","type":"INC"},{"flags":0,"keywordFlags":0,"name":"EnemyFreezeEffect","type":"INC"},{"flags":0,"keywordFlags":0,"name":"EnemyScorchEffect","type":"INC"},{"flags":0,"keywordFlags":0,"name":"EnemyBrittleEff...[trimmed]
 ```
 
-### 36. [{'flags': 0, 'keywordFlags': 0, 'name': 'ExposureDuration', 'type': 'BASE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Ignited'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'InflictExposure', 'type': 'FLAG', 'value': True, '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Ignited'}}]
-
-- Match score: `70`
-- `k`: inflict_exposure_for_x_ms_on_ignite
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'ExposureDuration', 'type': 'BASE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Ignited'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'InflictExposure', 'type': 'FLAG', 'value': True, '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Ignited'}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"inflict_exposure_for_x_ms_on_ignite","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'ExposureDuration', 'type': 'BASE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Ignited'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'InflictExposure', 'type': 'FLAG', 'value': True, '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Ignited'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"ExposureDuration","type":"BASE","1":{"actor":"enemy","type":"ActorCondition","var":"Ignited"}},{"flags":0,"keywordFlags":0,"name":"InflictExposure","type":"FLAG","value":true,"1":{"actor":"enemy","type":"ActorCondition","var":"Ignited"}}]}
-```
-
-### 37. [{'flags': 0, 'keywordFlags': 0, 'name': 'ExposureDuration', 'type': 'BASE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Shocked'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'InflictExposure', 'type': 'FLAG', 'value': True, '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Shocked'}}]
-
-- Match score: `70`
-- `k`: inflict_exposure_for_x_ms_on_shock
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'ExposureDuration', 'type': 'BASE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Shocked'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'InflictExposure', 'type': 'FLAG', 'value': True, '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Shocked'}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"inflict_exposure_for_x_ms_on_shock","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'ExposureDuration', 'type': 'BASE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Shocked'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'InflictExposure', 'type': 'FLAG', 'value': True, '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Shocked'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"ExposureDuration","type":"BASE","1":{"actor":"enemy","type":"ActorCondition","var":"Shocked"}},{"flags":0,"keywordFlags":0,"name":"InflictExposure","type":"FLAG","value":true,"1":{"actor":"enemy","type":"ActorCondition","var":"Shocked"}}]}
-```
-
-### 38. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireDamageGainAsChaos', 'type': 'BASE'}]
+### 30. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireDamageGainAsChaos', 'type': 'BASE'}]
 
 - Match score: `70`
 - `k`: fire_damage_%_to_add_as_chaos
@@ -3379,19 +3292,7 @@ _No keyword matches in this index._
 {"k":"fire_damage_%_to_add_as_chaos","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FireDamageGainAsChaos', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FireDamageGainAsChaos","type":"BASE"}]}
 ```
 
-### 39. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireDamageGainAsChaos', 'type': 'BASE'}]
-
-- Match score: `70`
-- `k`: non_skill_base_fire_damage_%_to_gain_as_chaos
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'FireDamageGainAsChaos', 'type': 'BASE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"non_skill_base_fire_damage_%_to_gain_as_chaos","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FireDamageGainAsChaos', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FireDamageGainAsChaos","type":"BASE"}]}
-```
-
-### 40. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposureChance', 'type': 'BASE'}]
+### 31. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposureChance', 'type': 'BASE'}]
 
 - Match score: `70`
 - `k`: base_inflict_fire_exposure_on_hit_%_chance
@@ -3403,7 +3304,7 @@ _No keyword matches in this index._
 {"k":"base_inflict_fire_exposure_on_hit_%_chance","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposureChance', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FireExposureChance","type":"BASE"}]}
 ```
 
-### 41. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireMax', 'type': 'BASE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Ignited'}}]
+### 32. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireMax', 'type': 'BASE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Ignited'}}]
 
 - Match score: `70`
 - `k`: maximum_added_fire_damage_vs_ignited_enemies
@@ -3415,7 +3316,7 @@ _No keyword matches in this index._
 {"k":"maximum_added_fire_damage_vs_ignited_enemies","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FireMax', 'type': 'BASE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Ignited'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FireMax","type":"BASE","1":{"actor":"enemy","type":"ActorCondition","var":"Ignited"}}]}
 ```
 
-### 42. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireMin', 'type': 'BASE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Ignited'}}]
+### 33. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireMin', 'type': 'BASE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Ignited'}}]
 
 - Match score: `70`
 - `k`: minimum_added_fire_damage_vs_ignited_enemies
@@ -3427,7 +3328,7 @@ _No keyword matches in this index._
 {"k":"minimum_added_fire_damage_vs_ignited_enemies","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FireMin', 'type': 'BASE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Ignited'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FireMin","type":"BASE","1":{"actor":"enemy","type":"ActorCondition","var":"Ignited"}}]}
 ```
 
-### 43. [{'flags': 0, 'keywordFlags': 0, 'name': 'FirePenetration', 'type': 'BASE'}]
+### 34. [{'flags': 0, 'keywordFlags': 0, 'name': 'FirePenetration', 'type': 'BASE'}]
 
 - Match score: `70`
 - `k`: base_reduce_enemy_fire_resistance_%
@@ -3439,7 +3340,7 @@ _No keyword matches in this index._
 {"k":"base_reduce_enemy_fire_resistance_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FirePenetration', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FirePenetration","type":"BASE"}]}
 ```
 
-### 44. [{'flags': 0, 'keywordFlags': 0, 'name': 'LightningCannotShock', 'type': 'FLAG', 'value': True}]
+### 35. [{'flags': 0, 'keywordFlags': 0, 'name': 'LightningCannotShock', 'type': 'FLAG', 'value': True}]
 
 - Match score: `70`
 - `k`: lightning_damage_cannot_shock
@@ -3451,7 +3352,7 @@ _No keyword matches in this index._
 {"k":"lightning_damage_cannot_shock","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'LightningCannotShock', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"LightningCannotShock","type":"FLAG","value":true}]}
 ```
 
-### 45. [{'flags': 0, 'keywordFlags': 0, 'name': 'LightningDamageGainAsChaos', 'type': 'BASE'}]
+### 36. [{'flags': 0, 'keywordFlags': 0, 'name': 'LightningDamageGainAsChaos', 'type': 'BASE'}]
 
 - Match score: `70`
 - `k`: lightning_damage_%_to_add_as_chaos
@@ -3463,19 +3364,7 @@ _No keyword matches in this index._
 {"k":"lightning_damage_%_to_add_as_chaos","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'LightningDamageGainAsChaos', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"LightningDamageGainAsChaos","type":"BASE"}]}
 ```
 
-### 46. [{'flags': 0, 'keywordFlags': 0, 'name': 'LightningDamageGainAsChaos', 'type': 'BASE'}]
-
-- Match score: `70`
-- `k`: non_skill_base_lightning_damage_%_to_gain_as_chaos
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'LightningDamageGainAsChaos', 'type': 'BASE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"non_skill_base_lightning_damage_%_to_gain_as_chaos","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'LightningDamageGainAsChaos', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"LightningDamageGainAsChaos","type":"BASE"}]}
-```
-
-### 47. [{'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposureChance', 'type': 'BASE'}]
+### 37. [{'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposureChance', 'type': 'BASE'}]
 
 - Match score: `70`
 - `k`: base_inflict_lightning_exposure_on_hit_%_chance
@@ -3487,7 +3376,7 @@ _No keyword matches in this index._
 {"k":"base_inflict_lightning_exposure_on_hit_%_chance","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposureChance', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"LightningExposureChance","type":"BASE"}]}
 ```
 
-### 48. [{'flags': 0, 'keywordFlags': 0, 'name': 'LightningPenetration', 'type': 'BASE'}]
+### 38. [{'flags': 0, 'keywordFlags': 0, 'name': 'LightningPenetration', 'type': 'BASE'}]
 
 - Match score: `70`
 - `k`: base_reduce_enemy_lightning_resistance_%
@@ -3499,31 +3388,7 @@ _No keyword matches in this index._
 {"k":"base_reduce_enemy_lightning_resistance_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'LightningPenetration', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"LightningPenetration","type":"BASE"}]}
 ```
 
-### 49. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Electrocuted'}}}}, {'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Frozen'}}}}, {'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Chilled'}}}}, {'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Ignited'}}}}, {'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Shocked'}}}}]
-
-- Match score: `70`
-- `k`: minion_damage_+%_final_per_different_elemental_ailment_on_target
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Electrocuted'}}}}, {'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Frozen'}}}}, {'flags': 0, 'keywordFlags': 0, 'name...[trimmed]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"minion_damage_+%_final_per_different_elemental_ailment_on_target","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Electrocuted'}}}}, {'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Frozen'}}}}, {'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Chilled'}}}}, {'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': ...[trimmed]
-```
-
-### 50. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillColdDamageConvertToChaos', 'type': 'BASE'}]
-
-- Match score: `70`
-- `k`: active_skill_base_cold_damage_%_to_convert_to_chaos
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillColdDamageConvertToChaos', 'type': 'BASE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"active_skill_base_cold_damage_%_to_convert_to_chaos","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillColdDamageConvertToChaos', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillColdDamageConvertToChaos","type":"BASE"}]}
-```
-
-### 51. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillColdDamageConvertToChaos', 'type': 'BASE'}]
+### 39. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillColdDamageConvertToChaos', 'type': 'BASE'}]
 
 - Match score: `70`
 - `k`: skill_cold_damage_%_to_convert_to_chaos
@@ -3535,19 +3400,7 @@ _No keyword matches in this index._
 {"k":"skill_cold_damage_%_to_convert_to_chaos","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillColdDamageConvertToChaos', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillColdDamageConvertToChaos","type":"BASE"}]}
 ```
 
-### 52. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillColdDamageConvertToFire', 'type': 'BASE'}]
-
-- Match score: `70`
-- `k`: active_skill_base_cold_damage_%_to_convert_to_fire
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillColdDamageConvertToFire', 'type': 'BASE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"active_skill_base_cold_damage_%_to_convert_to_fire","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillColdDamageConvertToFire', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillColdDamageConvertToFire","type":"BASE"}]}
-```
-
-### 53. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillColdDamageConvertToFire', 'type': 'BASE'}]
+### 40. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillColdDamageConvertToFire', 'type': 'BASE'}]
 
 - Match score: `70`
 - `k`: skill_cold_damage_%_to_convert_to_fire
@@ -3559,31 +3412,7 @@ _No keyword matches in this index._
 {"k":"skill_cold_damage_%_to_convert_to_fire","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillColdDamageConvertToFire', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillColdDamageConvertToFire","type":"BASE"}]}
 ```
 
-### 54. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillColdDamageConvertToLightning', 'type': 'BASE'}]
-
-- Match score: `70`
-- `k`: active_skill_base_cold_damage_%_to_convert_to_lightning
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillColdDamageConvertToLightning', 'type': 'BASE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"active_skill_base_cold_damage_%_to_convert_to_lightning","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillColdDamageConvertToLightning', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillColdDamageConvertToLightning","type":"BASE"}]}
-```
-
-### 55. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillFireDamageConvertToChaos', 'type': 'BASE'}]
-
-- Match score: `70`
-- `k`: active_skill_base_fire_damage_%_to_convert_to_chaos
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillFireDamageConvertToChaos', 'type': 'BASE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"active_skill_base_fire_damage_%_to_convert_to_chaos","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillFireDamageConvertToChaos', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillFireDamageConvertToChaos","type":"BASE"}]}
-```
-
-### 56. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillFireDamageConvertToChaos', 'type': 'BASE'}]
+### 41. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillFireDamageConvertToChaos', 'type': 'BASE'}]
 
 - Match score: `70`
 - `k`: skill_fire_damage_%_to_convert_to_chaos
@@ -3595,43 +3424,7 @@ _No keyword matches in this index._
 {"k":"skill_fire_damage_%_to_convert_to_chaos","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillFireDamageConvertToChaos', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillFireDamageConvertToChaos","type":"BASE"}]}
 ```
 
-### 57. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillFireDamageConvertToCold', 'type': 'BASE'}]
-
-- Match score: `70`
-- `k`: active_skill_base_fire_damage_%_to_convert_to_cold
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillFireDamageConvertToCold', 'type': 'BASE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"active_skill_base_fire_damage_%_to_convert_to_cold","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillFireDamageConvertToCold', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillFireDamageConvertToCold","type":"BASE"}]}
-```
-
-### 58. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillFireDamageConvertToLightning', 'type': 'BASE'}]
-
-- Match score: `70`
-- `k`: active_skill_base_fire_damage_%_to_convert_to_lightning
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillFireDamageConvertToLightning', 'type': 'BASE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"active_skill_base_fire_damage_%_to_convert_to_lightning","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillFireDamageConvertToLightning', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillFireDamageConvertToLightning","type":"BASE"}]}
-```
-
-### 59. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillLightningDamageConvertToChaos', 'type': 'BASE'}]
-
-- Match score: `70`
-- `k`: active_skill_base_lightning_damage_%_to_convert_to_chaos
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillLightningDamageConvertToChaos', 'type': 'BASE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"active_skill_base_lightning_damage_%_to_convert_to_chaos","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillLightningDamageConvertToChaos', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillLightningDamageConvertToChaos","type":"BASE"}]}
-```
-
-### 60. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillLightningDamageConvertToChaos', 'type': 'BASE'}]
+### 42. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillLightningDamageConvertToChaos', 'type': 'BASE'}]
 
 - Match score: `70`
 - `k`: skill_lightning_damage_%_to_convert_to_chaos
@@ -3643,19 +3436,7 @@ _No keyword matches in this index._
 {"k":"skill_lightning_damage_%_to_convert_to_chaos","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillLightningDamageConvertToChaos', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillLightningDamageConvertToChaos","type":"BASE"}]}
 ```
 
-### 61. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillLightningDamageConvertToCold', 'type': 'BASE'}]
-
-- Match score: `70`
-- `k`: active_skill_base_lightning_damage_%_to_convert_to_cold
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillLightningDamageConvertToCold', 'type': 'BASE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"active_skill_base_lightning_damage_%_to_convert_to_cold","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillLightningDamageConvertToCold', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillLightningDamageConvertToCold","type":"BASE"}]}
-```
-
-### 62. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillLightningDamageConvertToCold', 'type': 'BASE'}]
+### 43. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillLightningDamageConvertToCold', 'type': 'BASE'}]
 
 - Match score: `70`
 - `k`: skill_lightning_damage_%_to_convert_to_cold
@@ -3667,19 +3448,7 @@ _No keyword matches in this index._
 {"k":"skill_lightning_damage_%_to_convert_to_cold","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillLightningDamageConvertToCold', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillLightningDamageConvertToCold","type":"BASE"}]}
 ```
 
-### 63. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillLightningDamageConvertToFire', 'type': 'BASE'}]
-
-- Match score: `70`
-- `k`: active_skill_base_lightning_damage_%_to_convert_to_fire
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillLightningDamageConvertToFire', 'type': 'BASE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"active_skill_base_lightning_damage_%_to_convert_to_fire","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillLightningDamageConvertToFire', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillLightningDamageConvertToFire","type":"BASE"}]}
-```
-
-### 64. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillLightningDamageConvertToFire', 'type': 'BASE'}]
+### 44. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillLightningDamageConvertToFire', 'type': 'BASE'}]
 
 - Match score: `70`
 - `k`: skill_lightning_damage_%_to_convert_to_fire
@@ -3691,7 +3460,7 @@ _No keyword matches in this index._
 {"k":"skill_lightning_damage_%_to_convert_to_fire","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillLightningDamageConvertToFire', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillLightningDamageConvertToFire","type":"BASE"}]}
 ```
 
-### 65. [{'flags': 0, 'keywordFlags': 2097152, 'name': 'DotMultiplier', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CriticalStrike'}}]
+### 45. [{'flags': 0, 'keywordFlags': 2097152, 'name': 'DotMultiplier', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CriticalStrike'}}]
 
 - Match score: `70`
 - `k`: critical_poison_dot_multiplier_+
@@ -3703,7 +3472,7 @@ _No keyword matches in this index._
 {"k":"critical_poison_dot_multiplier_+","n":"[{'flags': 0, 'keywordFlags': 2097152, 'name': 'DotMultiplier', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'CriticalStrike'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":2097152,"name":"DotMultiplier","type":"BASE","1":{"type":"Condition","var":"CriticalStrike"}}]}
 ```
 
-### 66. [{'flags': 1, 'keywordFlags': 0, 'name': 'LightningMin', 'type': 'BASE', '1': {'percent': 1, 'stat': 'Mana', 'type': 'PercentStat'}}, {'flags': 1, 'keywordFlags': 0, 'name': 'LightningMax', 'type': 'BASE', '1': {'percent': 1, 'stat': 'Mana', 'type': 'PercentStat'}}]
+### 46. [{'flags': 1, 'keywordFlags': 0, 'name': 'LightningMin', 'type': 'BASE', '1': {'percent': 1, 'stat': 'Mana', 'type': 'PercentStat'}}, {'flags': 1, 'keywordFlags': 0, 'name': 'LightningMax', 'type': 'BASE', '1': {'percent': 1, 'stat': 'Mana', 'type': 'PercentStat'}}]
 
 - Match score: `70`
 - `k`: attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
@@ -3715,7 +3484,7 @@ _No keyword matches in this index._
 {"k":"attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana","n":"[{'flags': 1, 'keywordFlags': 0, 'name': 'LightningMin', 'type': 'BASE', '1': {'percent': 1, 'stat': 'Mana', 'type': 'PercentStat'}}, {'flags': 1, 'keywordFlags': 0, 'name': 'LightningMax', 'type': 'BASE', '1': {'percent': 1, 'stat': 'Mana', 'type': 'PercentStat'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":1,"keywordFlags":0,"name":"LightningMin","type":"BASE","1":{"percent":1,"stat":"Mana","type":"PercentStat"}},{"flags":1,"keywordFlags":0,"name":"LightningMax","type":"BASE","1":{"percent":1,"stat":"Mana","type":"PercentStat"}}]}
 ```
 
-### 67. additional_base_critical_strike_chance
+### 47. additional_base_critical_strike_chance
 
 - Match score: `70`
 - `k`: additional_base_critical_strike_chance
@@ -3727,7 +3496,7 @@ _No keyword matches in this index._
 {"k":"additional_base_critical_strike_chance","n":"additional_base_critical_strike_chance","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 68. additional_critical_strike_chance_per_10_shield_maximum_energy_shield_permyriad
+### 48. additional_critical_strike_chance_per_10_shield_maximum_energy_shield_permyriad
 
 - Match score: `70`
 - `k`: additional_critical_strike_chance_per_10_shield_maximum_energy_shield_permyriad
@@ -3739,7 +3508,7 @@ _No keyword matches in this index._
 {"k":"additional_critical_strike_chance_per_10_shield_maximum_energy_shield_permyriad","n":"additional_critical_strike_chance_per_10_shield_maximum_energy_shield_permyriad","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 69. additional_critical_strike_chance_permyriad_while_affected_by_elusive
+### 49. additional_critical_strike_chance_permyriad_while_affected_by_elusive
 
 - Match score: `70`
 - `k`: additional_critical_strike_chance_permyriad_while_affected_by_elusive
@@ -3751,7 +3520,7 @@ _No keyword matches in this index._
 {"k":"additional_critical_strike_chance_permyriad_while_affected_by_elusive","n":"additional_critical_strike_chance_permyriad_while_affected_by_elusive","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 70. AreaSpell
+### 50. AreaSpell
 
 - Match score: `70`
 - `k`: 71
@@ -3763,7 +3532,46 @@ _No keyword matches in this index._
 {"k":"71","n":"AreaSpell","cat":"repoe_active_skill_types","src":"repoe_poe2/active_skill_types.json","v":"AreaSpell"}
 ```
 
-### 71. BallLightningRogueExileSorceress2
+### 51. Awakened Cold Penetration
+
+- Match score: `70`
+- `k`: Metadata/Items/Gems/SkillGemSupportAwakenedColdPenetration
+- `n`: Awakened Cold Penetration
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"awakened":true,"cold":true,"dexterity":true,"support":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemSupportAwakenedColdPenetration","n":"Awakened Cold Penetration","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"awakened":true,"cold":true,"dexterity":true,"support":true}}
+```
+
+### 52. Awakened Fire Penetration
+
+- Match score: `70`
+- `k`: Metadata/Items/Gems/SkillGemSupportAwakenedFirePenetration
+- `n`: Awakened Fire Penetration
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"awakened":true,"fire":true,"strength":true,"support":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemSupportAwakenedFirePenetration","n":"Awakened Fire Penetration","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"awakened":true,"fire":true,"strength":true,"support":true}}
+```
+
+### 53. Awakened Lightning Penetration
+
+- Match score: `70`
+- `k`: Metadata/Items/Gems/SkillGemSupportAwakenedLightningPenetration
+- `n`: Awakened Lightning Penetration
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"awakened":true,"intelligence":true,"lightning":true,"support":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemSupportAwakenedLightningPenetration","n":"Awakened Lightning Penetration","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"awakened":true,"intelligence":true,"lightning":true,"support":true}}
+```
+
+### 54. BallLightningRogueExileSorceress2
 
 - Match score: `70`
 - `k`: BallLightningRogueExileSorceress2
@@ -3776,7 +3584,7 @@ _No keyword matches in this index._
 {"k":"BallLightningRogueExileSorceress2","n":"BallLightningRogueExileSorceress2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 72. base_self_critical_strike_multiplier_-%
+### 55. base_self_critical_strike_multiplier_-%
 
 - Match score: `70`
 - `k`: base_self_critical_strike_multiplier_-%
@@ -3788,20 +3596,7 @@ _No keyword matches in this index._
 {"k":"base_self_critical_strike_multiplier_-%","n":"base_self_critical_strike_multiplier_-%","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 73. Cast on Critical
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SkillGemCastOnCriticalStrike
-- `n`: Cast on Critical
-- `cat`: pob_gems
-- `src`: pob_data_poe2/Gems.json
-- `tags`: {"buff":true,"grants_active_skill":true,"intelligence":true,"meta":true,"persistent":true,"trigger":true}
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemCastOnCriticalStrike","n":"Cast on Critical","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"buff":true,"grants_active_skill":true,"intelligence":true,"meta":true,"persistent":true,"trigger":true}}
-```
-
-### 74. CGECasterEssenceShockedGround
+### 56. CGECasterEssenceShockedGround
 
 - Match score: `70`
 - `k`: CGECasterEssenceShockedGround
@@ -3814,7 +3609,7 @@ _No keyword matches in this index._
 {"k":"CGECasterEssenceShockedGround","n":"CGECasterEssenceShockedGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 75. CGEFallenGodBossChaosChargeFire
+### 57. CGEFallenGodBossChaosChargeFire
 
 - Match score: `70`
 - `k`: CGEFallenGodBossChaosChargeFire
@@ -3827,7 +3622,7 @@ _No keyword matches in this index._
 {"k":"CGEFallenGodBossChaosChargeFire","n":"CGEFallenGodBossChaosChargeFire","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 76. CGEFallenGodBossChaosChargeFireSanctified
+### 58. CGEFallenGodBossChaosChargeFireSanctified
 
 - Match score: `70`
 - `k`: CGEFallenGodBossChaosChargeFireSanctified
@@ -3840,7 +3635,7 @@ _No keyword matches in this index._
 {"k":"CGEFallenGodBossChaosChargeFireSanctified","n":"CGEFallenGodBossChaosChargeFireSanctified","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 77. CGEManaEssenceManaBlastTrapShockedGround
+### 59. CGEManaEssenceManaBlastTrapShockedGround
 
 - Match score: `70`
 - `k`: CGEManaEssenceManaBlastTrapShockedGround
@@ -3853,7 +3648,7 @@ _No keyword matches in this index._
 {"k":"CGEManaEssenceManaBlastTrapShockedGround","n":"CGEManaEssenceManaBlastTrapShockedGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 78. ChaosArchitectProjectileNova
+### 60. ChaosArchitectProjectileNova
 
 - Match score: `70`
 - `k`: ChaosArchitectProjectileNova
@@ -3866,7 +3661,7 @@ _No keyword matches in this index._
 {"k":"ChaosArchitectProjectileNova","n":"ChaosArchitectProjectileNova","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 79. ChaosGodOwlBossBallLightning
+### 61. ChaosGodOwlBossBallLightning
 
 - Match score: `70`
 - `k`: ChaosGodOwlBossBallLightning
@@ -3879,7 +3674,7 @@ _No keyword matches in this index._
 {"k":"ChaosGodOwlBossBallLightning","n":"ChaosGodOwlBossBallLightning","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 80. ChargedStaffShockwavePlayer
+### 62. ChargedStaffShockwavePlayer
 
 - Match score: `70`
 - `k`: ChargedStaffShockwavePlayer
@@ -3892,33 +3687,46 @@ _No keyword matches in this index._
 {"k":"ChargedStaffShockwavePlayer","n":"ChargedStaffShockwavePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 81. Cold Exposure
+### 63. Cold Penetration
 
 - Match score: `70`
-- `k`: Metadata/Items/Gems/SkillGemColdExposureSupport
-- `n`: Cold Exposure
-- `cat`: pob_gems
-- `src`: pob_data_poe2/Gems.json
-- `tags`: {"cold":true,"duration":true,"support":true}
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemColdExposureSupport","n":"Cold Exposure","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"cold":true,"duration":true,"support":true}}
-```
-
-### 82. Cold Penetration
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SkillGemColdPenetrationSupport
+- `k`: Metadata/Items/Gems/SkillGemSupportColdPenetration
 - `n`: Cold Penetration
 - `cat`: pob_gems
 - `src`: pob_data_poe2/Gems.json
-- `tags`: {"cold":true,"support":true}
+- `tags`: {"cold":true,"dexterity":true,"support":true}
 
 ```json
-{"k":"Metadata/Items/Gems/SkillGemColdPenetrationSupport","n":"Cold Penetration","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"cold":true,"support":true}}
+{"k":"Metadata/Items/Gems/SkillGemSupportColdPenetration","n":"Cold Penetration","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"cold":true,"dexterity":true,"support":true}}
 ```
 
-### 83. DarkEffigyProjectileRogueExileWitch2
+### 64. Cold to Fire
+
+- Match score: `70`
+- `k`: Metadata/Items/Gems/SkillGemSupportColdtoFire
+- `n`: Cold to Fire
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"cold":true,"fire":true,"strength":true,"support":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemSupportColdtoFire","n":"Cold to Fire","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"cold":true,"fire":true,"strength":true,"support":true}}
+```
+
+### 65. Critical Strike Affliction
+
+- Match score: `70`
+- `k`: Metadata/Items/Gems/SkillGemSupportCriticalStrikeAffliction
+- `n`: Critical Strike Affliction
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"critical":true,"dexterity":true,"support":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemSupportCriticalStrikeAffliction","n":"Critical Strike Affliction","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"critical":true,"dexterity":true,"support":true}}
+```
+
+### 66. DarkEffigyProjectileRogueExileWitch2
 
 - Match score: `70`
 - `k`: DarkEffigyProjectileRogueExileWitch2
@@ -3931,7 +3739,7 @@ _No keyword matches in this index._
 {"k":"DarkEffigyProjectileRogueExileWitch2","n":"DarkEffigyProjectileRogueExileWitch2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 84. DeliriumLightningDemonShockedGroundUnique
+### 67. DeliriumLightningDemonShockedGroundUnique
 
 - Match score: `70`
 - `k`: DeliriumLightningDemonShockedGroundUnique
@@ -3944,7 +3752,7 @@ _No keyword matches in this index._
 {"k":"DeliriumLightningDemonShockedGroundUnique","n":"DeliriumLightningDemonShockedGroundUnique","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 85. DelveLightningOrbProjectile
+### 68. DelveLightningOrbProjectile
 
 - Match score: `70`
 - `k`: DelveLightningOrbProjectile
@@ -3957,7 +3765,7 @@ _No keyword matches in this index._
 {"k":"DelveLightningOrbProjectile","n":"DelveLightningOrbProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 86. EASHeistMilitaryCasterBallLightning
+### 69. EASHeistMilitaryCasterBallLightning
 
 - Match score: `70`
 - `k`: EASHeistMilitaryCasterBallLightning
@@ -3970,7 +3778,7 @@ _No keyword matches in this index._
 {"k":"EASHeistMilitaryCasterBallLightning","n":"EASHeistMilitaryCasterBallLightning","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 87. EASKaruiSoulCasterMinionProjectile
+### 70. EASKaruiSoulCasterMinionProjectile
 
 - Match score: `70`
 - `k`: EASKaruiSoulCasterMinionProjectile
@@ -3983,7 +3791,7 @@ _No keyword matches in this index._
 {"k":"EASKaruiSoulCasterMinionProjectile","n":"EASKaruiSoulCasterMinionProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 88. EASVoranaColdOrbFire
+### 71. EASVoranaColdOrbFire
 
 - Match score: `70`
 - `k`: EASVoranaColdOrbFire
@@ -3996,7 +3804,7 @@ _No keyword matches in this index._
 {"k":"EASVoranaColdOrbFire","n":"EASVoranaColdOrbFire","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 89. EDSSpiritTurtleFireSprayLeft
+### 72. EDSSpiritTurtleFireSprayLeft
 
 - Match score: `70`
 - `k`: EDSSpiritTurtleFireSprayLeft
@@ -4009,7 +3817,7 @@ _No keyword matches in this index._
 {"k":"EDSSpiritTurtleFireSprayLeft","n":"EDSSpiritTurtleFireSprayLeft","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 90. EDSSpiritTurtleFireSprayRight
+### 73. EDSSpiritTurtleFireSprayRight
 
 - Match score: `70`
 - `k`: EDSSpiritTurtleFireSprayRight
@@ -4022,7 +3830,7 @@ _No keyword matches in this index._
 {"k":"EDSSpiritTurtleFireSprayRight","n":"EDSSpiritTurtleFireSprayRight","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 91. EGSerpentClanCasterRunemarkedBallLightningSlow
+### 74. EGSerpentClanCasterRunemarkedBallLightningSlow
 
 - Match score: `70`
 - `k`: EGSerpentClanCasterRunemarkedBallLightningSlow
@@ -4035,7 +3843,7 @@ _No keyword matches in this index._
 {"k":"EGSerpentClanCasterRunemarkedBallLightningSlow","n":"EGSerpentClanCasterRunemarkedBallLightningSlow","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 92. EmptyActionSpellDeliriumDemonColdGroundSpear
+### 75. EmptyActionSpellDeliriumDemonColdGroundSpear
 
 - Match score: `70`
 - `k`: EmptyActionSpellDeliriumDemonColdGroundSpear
@@ -4048,7 +3856,7 @@ _No keyword matches in this index._
 {"k":"EmptyActionSpellDeliriumDemonColdGroundSpear","n":"EmptyActionSpellDeliriumDemonColdGroundSpear","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 93. EmptyActionSpellDeliriumDemonColdSpearToss
+### 76. EmptyActionSpellDeliriumDemonColdSpearToss
 
 - Match score: `70`
 - `k`: EmptyActionSpellDeliriumDemonColdSpearToss
@@ -4061,7 +3869,7 @@ _No keyword matches in this index._
 {"k":"EmptyActionSpellDeliriumDemonColdSpearToss","n":"EmptyActionSpellDeliriumDemonColdSpearToss","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 94. EmptyActionSpellDeliriumSkillDaemonCold
+### 77. EmptyActionSpellDeliriumSkillDaemonCold
 
 - Match score: `70`
 - `k`: EmptyActionSpellDeliriumSkillDaemonCold
@@ -4074,7 +3882,7 @@ _No keyword matches in this index._
 {"k":"EmptyActionSpellDeliriumSkillDaemonCold","n":"EmptyActionSpellDeliriumSkillDaemonCold","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 95. EmptyActionSpellDeliriumSkillDaemonFire
+### 78. EmptyActionSpellDeliriumSkillDaemonFire
 
 - Match score: `70`
 - `k`: EmptyActionSpellDeliriumSkillDaemonFire
@@ -4087,7 +3895,7 @@ _No keyword matches in this index._
 {"k":"EmptyActionSpellDeliriumSkillDaemonFire","n":"EmptyActionSpellDeliriumSkillDaemonFire","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 96. EmptyActionSpellDeliriumSkillDaemonLightning
+### 79. EmptyActionSpellDeliriumSkillDaemonLightning
 
 - Match score: `70`
 - `k`: EmptyActionSpellDeliriumSkillDaemonLightning
@@ -4100,59 +3908,33 @@ _No keyword matches in this index._
 {"k":"EmptyActionSpellDeliriumSkillDaemonLightning","n":"EmptyActionSpellDeliriumSkillDaemonLightning","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 97. Fire Exposure
+### 80. Explosive Concoction of Destruction
 
 - Match score: `70`
-- `k`: Metadata/Items/Gems/SkillGemFireExposureSupport
-- `n`: Fire Exposure
+- `k`: Metadata/Items/Gems/SkillGemExplosiveConcoctionAltX
+- `n`: Explosive Concoction of Destruction
 - `cat`: pob_gems
 - `src`: pob_data_poe2/Gems.json
-- `tags`: {"duration":true,"fire":true,"support":true}
+- `tags`: {"area":true,"attack":true,"cold":true,"critical":true,"dexterity":true,"fire":true,"grants_active_skill":true,"lightning":true,"projectile":true}
 
 ```json
-{"k":"Metadata/Items/Gems/SkillGemFireExposureSupport","n":"Fire Exposure","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"duration":true,"fire":true,"support":true}}
+{"k":"Metadata/Items/Gems/SkillGemExplosiveConcoctionAltX","n":"Explosive Concoction of Destruction","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"area":true,"attack":true,"cold":true,"critical":true,"dexterity":true,"fire":true,"grants_active_skill":true,"lightning":true,"projectile":true}}
 ```
 
-### 98. Fire Penetration I
+### 81. Fire Penetration
 
 - Match score: `70`
-- `k`: Metadata/Items/Gems/SkillGemFirePenetrationSupport
-- `n`: Fire Penetration I
+- `k`: Metadata/Items/Gems/SkillGemSupportFirePenetration
+- `n`: Fire Penetration
 - `cat`: pob_gems
 - `src`: pob_data_poe2/Gems.json
-- `tags`: {"fire":true,"support":true}
+- `tags`: {"fire":true,"strength":true,"support":true}
 
 ```json
-{"k":"Metadata/Items/Gems/SkillGemFirePenetrationSupport","n":"Fire Penetration I","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"fire":true,"support":true}}
+{"k":"Metadata/Items/Gems/SkillGemSupportFirePenetration","n":"Fire Penetration","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"fire":true,"strength":true,"support":true}}
 ```
 
-### 99. Fire Penetration II
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SkillGemFirePenetrationSupportTwo
-- `n`: Fire Penetration II
-- `cat`: pob_gems
-- `src`: pob_data_poe2/Gems.json
-- `tags`: {"fire":true,"support":true}
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemFirePenetrationSupportTwo","n":"Fire Penetration II","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"fire":true,"support":true}}
-```
-
-### 100. Fire Spell on Hit
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SkillGemCastFireSpellOnHit
-- `n`: Fire Spell on Hit
-- `cat`: pob_gems
-- `src`: pob_data_poe2/Gems.json
-- `tags`: {"buff":true,"fire":true,"grants_active_skill":true,"meta":true,"persistent":true,"trigger":true}
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemCastFireSpellOnHit","n":"Fire Spell on Hit","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"buff":true,"fire":true,"grants_active_skill":true,"meta":true,"persistent":true,"trigger":true}}
-```
-
-### 101. FireballIncursionChaos
+### 82. FireballIncursionChaos
 
 - Match score: `70`
 - `k`: FireballIncursionChaos
@@ -4165,7 +3947,7 @@ _No keyword matches in this index._
 {"k":"FireballIncursionChaos","n":"FireballIncursionChaos","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 102. FireballIncusionLightning
+### 83. FireballIncusionLightning
 
 - Match score: `70`
 - `k`: FireballIncusionLightning
@@ -4178,7 +3960,7 @@ _No keyword matches in this index._
 {"k":"FireballIncusionLightning","n":"FireballIncusionLightning","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 103. FireboltRogueExileSorceress2
+### 84. FireboltRogueExileSorceress2
 
 - Match score: `70`
 - `k`: FireboltRogueExileSorceress2
@@ -4191,7 +3973,7 @@ _No keyword matches in this index._
 {"k":"FireboltRogueExileSorceress2","n":"FireboltRogueExileSorceress2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 104. FirestormRogueExileSorceress1
+### 85. FirestormRogueExileSorceress1
 
 - Match score: `70`
 - `k`: FirestormRogueExileSorceress1
@@ -4204,7 +3986,7 @@ _No keyword matches in this index._
 {"k":"FirestormRogueExileSorceress1","n":"FirestormRogueExileSorceress1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 105. GeometrySpellFireCombo
+### 86. GeometrySpellFireCombo
 
 - Match score: `70`
 - `k`: GeometrySpellFireCombo
@@ -4217,7 +3999,7 @@ _No keyword matches in this index._
 {"k":"GeometrySpellFireCombo","n":"GeometrySpellFireCombo","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 106. GPSBreachHandMageChaosVolatileProjectile
+### 87. GPSBreachHandMageChaosVolatileProjectile
 
 - Match score: `70`
 - `k`: GPSBreachHandMageChaosVolatileProjectile
@@ -4230,7 +4012,7 @@ _No keyword matches in this index._
 {"k":"GPSBreachHandMageChaosVolatileProjectile","n":"GPSBreachHandMageChaosVolatileProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 107. GPSBreachHandMageLightningVolatileProjectile
+### 88. GPSBreachHandMageLightningVolatileProjectile
 
 - Match score: `70`
 - `k`: GPSBreachHandMageLightningVolatileProjectile
@@ -4243,7 +4025,7 @@ _No keyword matches in this index._
 {"k":"GPSBreachHandMageLightningVolatileProjectile","n":"GPSBreachHandMageLightningVolatileProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 108. GPSColdEssenceProjectileNova
+### 89. GPSColdEssenceProjectileNova
 
 - Match score: `70`
 - `k`: GPSColdEssenceProjectileNova
@@ -4256,7 +4038,7 @@ _No keyword matches in this index._
 {"k":"GPSColdEssenceProjectileNova","n":"GPSColdEssenceProjectileNova","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 109. GPSKaruiSpiritMinionProjectile
+### 90. GPSKaruiSpiritMinionProjectile
 
 - Match score: `70`
 - `k`: GPSKaruiSpiritMinionProjectile
@@ -4269,7 +4051,7 @@ _No keyword matches in this index._
 {"k":"GPSKaruiSpiritMinionProjectile","n":"GPSKaruiSpiritMinionProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 110. GSChaosGodOwlBossLightningCascade
+### 91. GSChaosGodOwlBossLightningCascade
 
 - Match score: `70`
 - `k`: GSChaosGodOwlBossLightningCascade
@@ -4282,7 +4064,7 @@ _No keyword matches in this index._
 {"k":"GSChaosGodOwlBossLightningCascade","n":"GSChaosGodOwlBossLightningCascade","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 111. GSDeliriumDemonFlurryProjectileFireImpact
+### 92. GSDeliriumDemonFlurryProjectileFireImpact
 
 - Match score: `70`
 - `k`: GSDeliriumDemonFlurryProjectileFireImpact
@@ -4295,7 +4077,7 @@ _No keyword matches in this index._
 {"k":"GSDeliriumDemonFlurryProjectileFireImpact","n":"GSDeliriumDemonFlurryProjectileFireImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 112. GSDeliriumDemonProjectileLightningImpact
+### 93. GSDeliriumDemonProjectileLightningImpact
 
 - Match score: `70`
 - `k`: GSDeliriumDemonProjectileLightningImpact
@@ -4308,7 +4090,7 @@ _No keyword matches in this index._
 {"k":"GSDeliriumDemonProjectileLightningImpact","n":"GSDeliriumDemonProjectileLightningImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 113. GSHeistMilitaryCasterBallLightning
+### 94. GSHeistMilitaryCasterBallLightning
 
 - Match score: `70`
 - `k`: GSHeistMilitaryCasterBallLightning
@@ -4321,7 +4103,7 @@ _No keyword matches in this index._
 {"k":"GSHeistMilitaryCasterBallLightning","n":"GSHeistMilitaryCasterBallLightning","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 114. GSMonsterModLightningMirageAOE
+### 95. GSMonsterModLightningMirageAOE
 
 - Match score: `70`
 - `k`: GSMonsterModLightningMirageAOE
@@ -4334,7 +4116,7 @@ _No keyword matches in this index._
 {"k":"GSMonsterModLightningMirageAOE","n":"GSMonsterModLightningMirageAOE","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 115. GSMonsterModLightningMirageAOE2
+### 96. GSMonsterModLightningMirageAOE2
 
 - Match score: `70`
 - `k`: GSMonsterModLightningMirageAOE2
@@ -4347,7 +4129,7 @@ _No keyword matches in this index._
 {"k":"GSMonsterModLightningMirageAOE2","n":"GSMonsterModLightningMirageAOE2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 116. GSRagingFireSpiritsVolatileSanctum
+### 97. GSRagingFireSpiritsVolatileSanctum
 
 - Match score: `70`
 - `k`: GSRagingFireSpiritsVolatileSanctum
@@ -4360,7 +4142,7 @@ _No keyword matches in this index._
 {"k":"GSRagingFireSpiritsVolatileSanctum","n":"GSRagingFireSpiritsVolatileSanctum","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 117. GSSerpentClanCasterRunemarkedBallLightningImpact
+### 98. GSSerpentClanCasterRunemarkedBallLightningImpact
 
 - Match score: `70`
 - `k`: GSSerpentClanCasterRunemarkedBallLightningImpact
@@ -4373,7 +4155,7 @@ _No keyword matches in this index._
 {"k":"GSSerpentClanCasterRunemarkedBallLightningImpact","n":"GSSerpentClanCasterRunemarkedBallLightningImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 118. GSSpiritOfTheStagLightningStrike
+### 99. GSSpiritOfTheStagLightningStrike
 
 - Match score: `70`
 - `k`: GSSpiritOfTheStagLightningStrike
@@ -4386,7 +4168,7 @@ _No keyword matches in this index._
 {"k":"GSSpiritOfTheStagLightningStrike","n":"GSSpiritOfTheStagLightningStrike","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 119. GSSpiritOfTheStagLightningStrikePlayer
+### 100. GSSpiritOfTheStagLightningStrikePlayer
 
 - Match score: `70`
 - `k`: GSSpiritOfTheStagLightningStrikePlayer
@@ -4399,7 +4181,7 @@ _No keyword matches in this index._
 {"k":"GSSpiritOfTheStagLightningStrikePlayer","n":"GSSpiritOfTheStagLightningStrikePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 120. GSTrialMasterBossFirecrackerProjectileExplode
+### 101. GSTrialMasterBossFirecrackerProjectileExplode
 
 - Match score: `70`
 - `k`: GSTrialMasterBossFirecrackerProjectileExplode
@@ -4410,6 +4192,253 @@ _No keyword matches in this index._
 
 ```json
 {"k":"GSTrialMasterBossFirecrackerProjectileExplode","n":"GSTrialMasterBossFirecrackerProjectileExplode","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 102. GSWraithSpookyRunemarkedIceLightningProjectileImpact
+
+- Match score: `70`
+- `k`: GSWraithSpookyRunemarkedIceLightningProjectileImpact
+- `n`: GSWraithSpookyRunemarkedIceLightningProjectileImpact
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"GSWraithSpookyRunemarkedIceLightningProjectileImpact","n":"GSWraithSpookyRunemarkedIceLightningProjectileImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 103. GTChaosGodOwlBossLightningCascade
+
+- Match score: `70`
+- `k`: GTChaosGodOwlBossLightningCascade
+- `n`: GTChaosGodOwlBossLightningCascade
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"GTChaosGodOwlBossLightningCascade","n":"GTChaosGodOwlBossLightningCascade","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 104. GTDeliriumFinalBossFireProjectileSpam
+
+- Match score: `70`
+- `k`: GTDeliriumFinalBossFireProjectileSpam
+- `n`: GTDeliriumFinalBossFireProjectileSpam
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"GTDeliriumFinalBossFireProjectileSpam","n":"GTDeliriumFinalBossFireProjectileSpam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 105. GTDeliriumFinalBossLightningProjectileSpam
+
+- Match score: `70`
+- `k`: GTDeliriumFinalBossLightningProjectileSpam
+- `n`: GTDeliriumFinalBossLightningProjectileSpam
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"GTDeliriumFinalBossLightningProjectileSpam","n":"GTDeliriumFinalBossLightningProjectileSpam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 106. GTHeistMilitaryCasterBallLightning
+
+- Match score: `70`
+- `k`: GTHeistMilitaryCasterBallLightning
+- `n`: GTHeistMilitaryCasterBallLightning
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"GTHeistMilitaryCasterBallLightning","n":"GTHeistMilitaryCasterBallLightning","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 107. GTRagingFireSpiritsSanctum
+
+- Match score: `70`
+- `k`: GTRagingFireSpiritsSanctum
+- `n`: GTRagingFireSpiritsSanctum
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"GTRagingFireSpiritsSanctum","n":"GTRagingFireSpiritsSanctum","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 108. HeistCultistWandProjectile
+
+- Match score: `70`
+- `k`: HeistCultistWandProjectile
+- `n`: HeistCultistWandProjectile
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"HeistCultistWandProjectile","n":"HeistCultistWandProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 109. HeistScientistWandProjectile
+
+- Match score: `70`
+- `k`: HeistScientistWandProjectile
+- `n`: HeistScientistWandProjectile
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"HeistScientistWandProjectile","n":"HeistScientistWandProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 110. Increased Critical Damage
+
+- Match score: `70`
+- `k`: Metadata/Items/Gems/SkillGemSupportIncreasedCriticalDamage
+- `n`: Increased Critical Damage
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"critical":true,"intelligence":true,"support":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemSupportIncreasedCriticalDamage","n":"Increased Critical Damage","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"critical":true,"intelligence":true,"support":true}}
+```
+
+### 111. Increased Critical Strikes
+
+- Match score: `70`
+- `k`: Metadata/Items/Gems/SkillGemSupportIncreasedCriticalStrikes
+- `n`: Increased Critical Strikes
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"critical":true,"intelligence":true,"support":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemSupportIncreasedCriticalStrikes","n":"Increased Critical Strikes","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"critical":true,"intelligence":true,"support":true}}
+```
+
+### 112. IncursionChaosArchitectProjectile1
+
+- Match score: `70`
+- `k`: IncursionChaosArchitectProjectile1
+- `n`: IncursionChaosArchitectProjectile1
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"IncursionChaosArchitectProjectile1","n":"IncursionChaosArchitectProjectile1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 113. IncursionChaosArchitectProjectile2
+
+- Match score: `70`
+- `k`: IncursionChaosArchitectProjectile2
+- `n`: IncursionChaosArchitectProjectile2
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"IncursionChaosArchitectProjectile2","n":"IncursionChaosArchitectProjectile2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 114. IncursionChaosArchitectProjectile3
+
+- Match score: `70`
+- `k`: IncursionChaosArchitectProjectile3
+- `n`: IncursionChaosArchitectProjectile3
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"IncursionChaosArchitectProjectile3","n":"IncursionChaosArchitectProjectile3","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 115. IncursionChaosArchitectProjectile4
+
+- Match score: `70`
+- `k`: IncursionChaosArchitectProjectile4
+- `n`: IncursionChaosArchitectProjectile4
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"IncursionChaosArchitectProjectile4","n":"IncursionChaosArchitectProjectile4","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 116. IncursionChaosArchitectProjectile5
+
+- Match score: `70`
+- `k`: IncursionChaosArchitectProjectile5
+- `n`: IncursionChaosArchitectProjectile5
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"IncursionChaosArchitectProjectile5","n":"IncursionChaosArchitectProjectile5","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 117. IncursionChaosArchitectProjectile6
+
+- Match score: `70`
+- `k`: IncursionChaosArchitectProjectile6
+- `n`: IncursionChaosArchitectProjectile6
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"IncursionChaosArchitectProjectile6","n":"IncursionChaosArchitectProjectile6","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 118. Lightning Penetration
+
+- Match score: `70`
+- `k`: Metadata/Items/Gems/SkillGemSupportLightningPenetration
+- `n`: Lightning Penetration
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"intelligence":true,"lightning":true,"support":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemSupportLightningPenetration","n":"Lightning Penetration","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"intelligence":true,"lightning":true,"support":true}}
+```
+
+### 119. LightningBoltRogueExileSorceress2
+
+- Match score: `70`
+- `k`: LightningBoltRogueExileSorceress2
+- `n`: LightningBoltRogueExileSorceress2
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"LightningBoltRogueExileSorceress2","n":"LightningBoltRogueExileSorceress2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
+```
+
+### 120. LightningWarpRogueExileSorceress2
+
+- Match score: `70`
+- `k`: LightningWarpRogueExileSorceress2
+- `n`: LightningWarpRogueExileSorceress2
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `is_support`: False
+
+```json
+{"k":"LightningWarpRogueExileSorceress2","n":"LightningWarpRogueExileSorceress2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
 ## Item bases/classes
@@ -6007,19 +6036,55 @@ _No keyword matches in this index._
 - Source: `build_knowledge/compact/mod_index.json`
 - Matches included: `120`
 
-### 1. GenesisTreeFireSpellBaseCriticalChanceCrafted
+### 1. SynthesisImplicitSpellCriticalChanceWithStaffJewel1
 
 - Match score: `140`
-- `k`: GenesisTreeFireSpellBaseCriticalChanceCrafted
-- `n`: GenesisTreeFireSpellBaseCriticalChanceCrafted
+- `k`: SynthesisImplicitSpellCriticalChanceWithStaffJewel1
+- `n`: SynthesisImplicitSpellCriticalChanceWithStaffJewel1
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"GenesisTreeFireSpellBaseCriticalChanceCrafted","n":"GenesisTreeFireSpellBaseCriticalChanceCrafted","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
+{"k":"SynthesisImplicitSpellCriticalChanceWithStaffJewel1","n":"SynthesisImplicitSpellCriticalChanceWithStaffJewel1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
 ```
 
-### 2. UniqueMutatedVaalSpellCriticalChancePerMana
+### 2. SynthesisImplicitSpellCriticalChanceWithStaffJewel2__
+
+- Match score: `140`
+- `k`: SynthesisImplicitSpellCriticalChanceWithStaffJewel2__
+- `n`: SynthesisImplicitSpellCriticalChanceWithStaffJewel2__
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SynthesisImplicitSpellCriticalChanceWithStaffJewel2__","n":"SynthesisImplicitSpellCriticalChanceWithStaffJewel2__","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
+```
+
+### 3. SynthesisImplicitSpellCriticalMultiplierWithStaffJewel1
+
+- Match score: `140`
+- `k`: SynthesisImplicitSpellCriticalMultiplierWithStaffJewel1
+- `n`: SynthesisImplicitSpellCriticalMultiplierWithStaffJewel1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SynthesisImplicitSpellCriticalMultiplierWithStaffJewel1","n":"SynthesisImplicitSpellCriticalMultiplierWithStaffJewel1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
+```
+
+### 4. SynthesisImplicitSpellCriticalMultiplierWithStaffJewel2_
+
+- Match score: `140`
+- `k`: SynthesisImplicitSpellCriticalMultiplierWithStaffJewel2_
+- `n`: SynthesisImplicitSpellCriticalMultiplierWithStaffJewel2_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SynthesisImplicitSpellCriticalMultiplierWithStaffJewel2_","n":"SynthesisImplicitSpellCriticalMultiplierWithStaffJewel2_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
+```
+
+### 5. UniqueMutatedVaalSpellCriticalChancePerMana
 
 - Match score: `140`
 - `k`: UniqueMutatedVaalSpellCriticalChancePerMana
@@ -6035,7 +6100,7 @@ _No keyword matches in this index._
 {"k":"UniqueMutatedVaalSpellCriticalChancePerMana","n":"UniqueMutatedVaalSpellCriticalChancePerMana","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_critical_strike_chance_+%_per_100_max_mana_with_non_channelling_skills","max":3,"min":3}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 3. CorruptionSpellCriticalStrikeChance1
+### 6. CorruptionSpellCriticalStrikeChance1
 
 - Match score: `125`
 - `k`: CorruptionSpellCriticalStrikeChance1
@@ -6051,7 +6116,7 @@ _No keyword matches in this index._
 {"k":"CorruptionSpellCriticalStrikeChance1","n":"CorruptionSpellCriticalStrikeChance1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_critical_strike_chance_+%","max":30,"min":20}],"domain":"item","gen":"corrupted","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 4. CorruptionUpgradeSpellCriticalStrikeChance1
+### 7. CorruptionUpgradeSpellCriticalStrikeChance1
 
 - Match score: `125`
 - `k`: CorruptionUpgradeSpellCriticalStrikeChance1
@@ -6067,7 +6132,7 @@ _No keyword matches in this index._
 {"k":"CorruptionUpgradeSpellCriticalStrikeChance1","n":"CorruptionUpgradeSpellCriticalStrikeChance1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_critical_strike_chance_+%","max":75,"min":50}],"domain":"item","gen":"unique","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 5. CorruptionGlobalChaosSpellGemsLevel1
+### 8. CorruptionGlobalChaosSpellGemsLevel1
 
 - Match score: `120`
 - `k`: CorruptionGlobalChaosSpellGemsLevel1
@@ -6083,7 +6148,7 @@ _No keyword matches in this index._
 {"k":"CorruptionGlobalChaosSpellGemsLevel1","n":"CorruptionGlobalChaosSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"chaos_spell_skill_gem_level_+","max":1,"min":1}],"domain":"item","gen":"corrupted","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"lvl":1}
 ```
 
-### 6. CorruptionGlobalColdSpellGemsLevel1
+### 9. CorruptionGlobalColdSpellGemsLevel1
 
 - Match score: `120`
 - `k`: CorruptionGlobalColdSpellGemsLevel1
@@ -6099,7 +6164,7 @@ _No keyword matches in this index._
 {"k":"CorruptionGlobalColdSpellGemsLevel1","n":"CorruptionGlobalColdSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"cold_spell_skill_gem_level_+","max":1,"min":1}],"domain":"item","gen":"corrupted","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"lvl":1}
 ```
 
-### 7. CorruptionGlobalFireSpellGemsLevel1
+### 10. CorruptionGlobalFireSpellGemsLevel1
 
 - Match score: `120`
 - `k`: CorruptionGlobalFireSpellGemsLevel1
@@ -6115,7 +6180,7 @@ _No keyword matches in this index._
 {"k":"CorruptionGlobalFireSpellGemsLevel1","n":"CorruptionGlobalFireSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"fire_spell_skill_gem_level_+","max":1,"min":1}],"domain":"item","gen":"corrupted","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"lvl":1}
 ```
 
-### 8. CorruptionGlobalLightningSpellGemsLevel1
+### 11. CorruptionGlobalLightningSpellGemsLevel1
 
 - Match score: `120`
 - `k`: CorruptionGlobalLightningSpellGemsLevel1
@@ -6131,7 +6196,7 @@ _No keyword matches in this index._
 {"k":"CorruptionGlobalLightningSpellGemsLevel1","n":"CorruptionGlobalLightningSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"lightning_spell_skill_gem_level_+","max":1,"min":1}],"domain":"item","gen":"corrupted","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"lvl":1}
 ```
 
-### 9. CorruptionUpgradeGlobalChaosSpellGemsLevel1
+### 12. CorruptionUpgradeGlobalChaosSpellGemsLevel1
 
 - Match score: `120`
 - `k`: CorruptionUpgradeGlobalChaosSpellGemsLevel1
@@ -6147,7 +6212,7 @@ _No keyword matches in this index._
 {"k":"CorruptionUpgradeGlobalChaosSpellGemsLevel1","n":"CorruptionUpgradeGlobalChaosSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"chaos_spell_skill_gem_level_+","max":2,"min":2}],"domain":"item","gen":"unique","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"lvl":1}
 ```
 
-### 10. CorruptionUpgradeGlobalColdSpellGemsLevel1
+### 13. CorruptionUpgradeGlobalColdSpellGemsLevel1
 
 - Match score: `120`
 - `k`: CorruptionUpgradeGlobalColdSpellGemsLevel1
@@ -6163,7 +6228,7 @@ _No keyword matches in this index._
 {"k":"CorruptionUpgradeGlobalColdSpellGemsLevel1","n":"CorruptionUpgradeGlobalColdSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"cold_spell_skill_gem_level_+","max":2,"min":2}],"domain":"item","gen":"unique","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"lvl":1}
 ```
 
-### 11. CorruptionUpgradeGlobalFireSpellGemsLevel1
+### 14. CorruptionUpgradeGlobalFireSpellGemsLevel1
 
 - Match score: `120`
 - `k`: CorruptionUpgradeGlobalFireSpellGemsLevel1
@@ -6179,7 +6244,7 @@ _No keyword matches in this index._
 {"k":"CorruptionUpgradeGlobalFireSpellGemsLevel1","n":"CorruptionUpgradeGlobalFireSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"fire_spell_skill_gem_level_+","max":2,"min":2}],"domain":"item","gen":"unique","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"lvl":1}
 ```
 
-### 12. CorruptionUpgradeGlobalLightningSpellGemsLevel1
+### 15. CorruptionUpgradeGlobalLightningSpellGemsLevel1
 
 - Match score: `120`
 - `k`: CorruptionUpgradeGlobalLightningSpellGemsLevel1
@@ -6195,7 +6260,7 @@ _No keyword matches in this index._
 {"k":"CorruptionUpgradeGlobalLightningSpellGemsLevel1","n":"CorruptionUpgradeGlobalLightningSpellGemsLevel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"lightning_spell_skill_gem_level_+","max":2,"min":2}],"domain":"item","gen":"unique","weights":[{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"lvl":1}
 ```
 
-### 13. CastSocketedColdSkillsOnCriticalStrikeUnique__1
+### 16. CastSocketedColdSkillsOnCriticalStrikeUnique__1
 
 - Match score: `115`
 - `k`: CastSocketedColdSkillsOnCriticalStrikeUnique__1
@@ -6211,7 +6276,59 @@ _No keyword matches in this index._
 {"k":"CastSocketedColdSkillsOnCriticalStrikeUnique__1","n":"CastSocketedColdSkillsOnCriticalStrikeUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_unique_cast_socketed_cold_skills_on_melee_critical_strike","max":1,"min":1}],"domain":"item","gen":"unique","adds_tags":["caster_unique_weapon"],"lvl":1}
 ```
 
-### 14. <<ExpedRuneCelestial>><rgb(219,217,206)>{Celestial Rune}
+### 17. CriticalStrikeChanceSpellsSupportedUber1
+
+- Match score: `115`
+- `k`: CriticalStrikeChanceSpellsSupportedUber1
+- `n`: CriticalStrikeChanceSpellsSupportedUber1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["has_caster_mod","grants_crit_chance_support"]
+
+```json
+{"k":"CriticalStrikeChanceSpellsSupportedUber1","n":"CriticalStrikeChanceSpellsSupportedUber1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["has_caster_mod","grants_crit_chance_support"],"level":68}
+```
+
+### 18. CriticalStrikeChanceSpellsSupportedUber2__
+
+- Match score: `115`
+- `k`: CriticalStrikeChanceSpellsSupportedUber2__
+- `n`: CriticalStrikeChanceSpellsSupportedUber2__
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["has_caster_mod","grants_crit_chance_support"]
+
+```json
+{"k":"CriticalStrikeChanceSpellsSupportedUber2__","n":"CriticalStrikeChanceSpellsSupportedUber2__","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["has_caster_mod","grants_crit_chance_support"],"level":75}
+```
+
+### 19. CriticalStrikeChanceSpellsTwoHandedPowerChargeUber1
+
+- Match score: `115`
+- `k`: CriticalStrikeChanceSpellsTwoHandedPowerChargeUber1
+- `n`: CriticalStrikeChanceSpellsTwoHandedPowerChargeUber1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["has_caster_mod"]
+
+```json
+{"k":"CriticalStrikeChanceSpellsTwoHandedPowerChargeUber1","n":"CriticalStrikeChanceSpellsTwoHandedPowerChargeUber1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["has_caster_mod"],"level":68}
+```
+
+### 20. CriticalStrikeChanceSpellsTwoHandedPowerChargeUber2
+
+- Match score: `115`
+- `k`: CriticalStrikeChanceSpellsTwoHandedPowerChargeUber2
+- `n`: CriticalStrikeChanceSpellsTwoHandedPowerChargeUber2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+- `tags`: ["has_caster_mod"]
+
+```json
+{"k":"CriticalStrikeChanceSpellsTwoHandedPowerChargeUber2","n":"CriticalStrikeChanceSpellsTwoHandedPowerChargeUber2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["has_caster_mod"],"level":75}
+```
+
+### 21. <<ExpedRuneCelestial>><rgb(219,217,206)>{Celestial Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Chance for a Fire Explosion on Death}
 <rgb(135,134,253)>{Chance for a Cold Explosion on Death}
@@ -6235,7 +6352,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRuneCelestial","n":"<<ExpedRuneCelestial>><rgb(219,217,206)>{Celestial Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Chance for a Fire Explosion on Death}\r\n<rgb(135,134,253)>{Chance for a Cold Explosion on Death}\r\n<rgb(135,134,253)>{Chance for a Lightning Explosion on Death}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"dummy_expedition_rune_celestial","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 15. <<ExpedRuneCelestial>><rgb(219,217,206)>{Celestial Rune}
+### 22. <<ExpedRuneCelestial>><rgb(219,217,206)>{Celestial Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Chance for a Fire Explosion on Death}
 <rgb(135,134,253)>{Chance for a Cold Explosion on Death}
@@ -6259,7 +6376,103 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRuneCelestialPower","n":"<<ExpedRuneCelestial>><rgb(219,217,206)>{Celestial Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Chance for a Fire Explosion on Death}\r\n<rgb(135,134,253)>{Chance for a Cold Explosion on Death}\r\n<rgb(135,134,253)>{Chance for a Lightning Explosion on Death}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"dummy_expedition_rune_celestial","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 16. CorruptionUpgradeSpellChanceToFireTwoAdditionalProjectiles
+### 23. AdditionalCriticalStrikeChanceWithSpellsUber1_
+
+- Match score: `105`
+- `k`: AdditionalCriticalStrikeChanceWithSpellsUber1_
+- `n`: AdditionalCriticalStrikeChanceWithSpellsUber1_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"AdditionalCriticalStrikeChanceWithSpellsUber1_","n":"AdditionalCriticalStrikeChanceWithSpellsUber1_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
+```
+
+### 24. AdditionalCriticalStrikeChanceWithSpellsUber2_
+
+- Match score: `105`
+- `k`: AdditionalCriticalStrikeChanceWithSpellsUber2_
+- `n`: AdditionalCriticalStrikeChanceWithSpellsUber2_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"AdditionalCriticalStrikeChanceWithSpellsUber2_","n":"AdditionalCriticalStrikeChanceWithSpellsUber2_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":84}
+```
+
+### 25. AdditionalCriticalStrikeChanceWithSpellsUberMaven
+
+- Match score: `105`
+- `k`: AdditionalCriticalStrikeChanceWithSpellsUberMaven
+- `n`: AdditionalCriticalStrikeChanceWithSpellsUberMaven
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"AdditionalCriticalStrikeChanceWithSpellsUberMaven","n":"AdditionalCriticalStrikeChanceWithSpellsUberMaven","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":94}
+```
+
+### 26. BreachBodyCriticalChanceIncreasedByUncappedLightningResistance1
+
+- Match score: `105`
+- `k`: BreachBodyCriticalChanceIncreasedByUncappedLightningResistance1
+- `n`: BreachBodyCriticalChanceIncreasedByUncappedLightningResistance1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"BreachBodyCriticalChanceIncreasedByUncappedLightningResistance1","n":"BreachBodyCriticalChanceIncreasedByUncappedLightningResistance1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
+```
+
+### 27. ChanceToFreezeShockIgniteProliferationUber1
+
+- Match score: `105`
+- `k`: ChanceToFreezeShockIgniteProliferationUber1
+- `n`: ChanceToFreezeShockIgniteProliferationUber1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChanceToFreezeShockIgniteProliferationUber1","n":"ChanceToFreezeShockIgniteProliferationUber1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
+```
+
+### 28. ChanceToFreezeShockIgniteProliferationUber2
+
+- Match score: `105`
+- `k`: ChanceToFreezeShockIgniteProliferationUber2
+- `n`: ChanceToFreezeShockIgniteProliferationUber2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChanceToFreezeShockIgniteProliferationUber2","n":"ChanceToFreezeShockIgniteProliferationUber2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 29. ChanceToFreezeShockIgniteUnboundAilmentsUber1
+
+- Match score: `105`
+- `k`: ChanceToFreezeShockIgniteUnboundAilmentsUber1
+- `n`: ChanceToFreezeShockIgniteUnboundAilmentsUber1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChanceToFreezeShockIgniteUnboundAilmentsUber1","n":"ChanceToFreezeShockIgniteUnboundAilmentsUber1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
+```
+
+### 30. ChanceToFreezeShockIgniteUnboundAilmentsUber2
+
+- Match score: `105`
+- `k`: ChanceToFreezeShockIgniteUnboundAilmentsUber2
+- `n`: ChanceToFreezeShockIgniteUnboundAilmentsUber2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"ChanceToFreezeShockIgniteUnboundAilmentsUber2","n":"ChanceToFreezeShockIgniteUnboundAilmentsUber2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 31. CorruptionUpgradeSpellChanceToFireTwoAdditionalProjectiles
 
 - Match score: `105`
 - `k`: CorruptionUpgradeSpellChanceToFireTwoAdditionalProjectiles
@@ -6275,7 +6488,7 @@ _No keyword matches in this index._
 {"k":"CorruptionUpgradeSpellChanceToFireTwoAdditionalProjectiles","n":"CorruptionUpgradeSpellChanceToFireTwoAdditionalProjectiles","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_skills_fire_2_additional_projectiles_final_chance_%","max":35,"min":25}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 17. CorruptionUpgradeSpellCriticalStrikeMultiplier
+### 32. CorruptionUpgradeSpellCriticalStrikeMultiplier
 
 - Match score: `105`
 - `k`: CorruptionUpgradeSpellCriticalStrikeMultiplier
@@ -6291,7 +6504,7 @@ _No keyword matches in this index._
 {"k":"CorruptionUpgradeSpellCriticalStrikeMultiplier","n":"CorruptionUpgradeSpellCriticalStrikeMultiplier","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_spell_critical_strike_multiplier_+","max":90,"min":60}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 18. CriticalChanceIncreasedByUncappedLightningResistanceUnique__1
+### 33. CriticalChanceIncreasedByUncappedLightningResistanceUnique__1
 
 - Match score: `105`
 - `k`: CriticalChanceIncreasedByUncappedLightningResistanceUnique__1
@@ -6307,7 +6520,43 @@ _No keyword matches in this index._
 {"k":"CriticalChanceIncreasedByUncappedLightningResistanceUnique__1","n":"CriticalChanceIncreasedByUncappedLightningResistanceUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"critical_strike_chance_increased_by_overcapped_lightning_resistance","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 19. CriticalStrikesDealIncreasedLightningDamageUnique__1
+### 34. CriticalStrikeChanceShockedEnemiesInfluence1
+
+- Match score: `105`
+- `k`: CriticalStrikeChanceShockedEnemiesInfluence1
+- `n`: CriticalStrikeChanceShockedEnemiesInfluence1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"CriticalStrikeChanceShockedEnemiesInfluence1","n":"CriticalStrikeChanceShockedEnemiesInfluence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
+```
+
+### 35. CriticalStrikeChanceShockedEnemiesInfluence2
+
+- Match score: `105`
+- `k`: CriticalStrikeChanceShockedEnemiesInfluence2
+- `n`: CriticalStrikeChanceShockedEnemiesInfluence2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"CriticalStrikeChanceShockedEnemiesInfluence2","n":"CriticalStrikeChanceShockedEnemiesInfluence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 36. CriticalStrikeChanceShockedEnemiesInfluence3__
+
+- Match score: `105`
+- `k`: CriticalStrikeChanceShockedEnemiesInfluence3__
+- `n`: CriticalStrikeChanceShockedEnemiesInfluence3__
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"CriticalStrikeChanceShockedEnemiesInfluence3__","n":"CriticalStrikeChanceShockedEnemiesInfluence3__","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":80}
+```
+
+### 37. CriticalStrikesDealIncreasedLightningDamageUnique__1
 
 - Match score: `105`
 - `k`: CriticalStrikesDealIncreasedLightningDamageUnique__1
@@ -6323,7 +6572,7 @@ _No keyword matches in this index._
 {"k":"CriticalStrikesDealIncreasedLightningDamageUnique__1","n":"CriticalStrikesDealIncreasedLightningDamageUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"lightning_damage_+%","max":50,"min":50}],"domain":"item","gen":"unique","lvl":87}
 ```
 
-### 20. CriticalStrikesDealIncreasedLightningDamageUnique__1Royale_
+### 38. CriticalStrikesDealIncreasedLightningDamageUnique__1Royale_
 
 - Match score: `105`
 - `k`: CriticalStrikesDealIncreasedLightningDamageUnique__1Royale_
@@ -6339,7 +6588,7 @@ _No keyword matches in this index._
 {"k":"CriticalStrikesDealIncreasedLightningDamageUnique__1Royale_","n":"CriticalStrikesDealIncreasedLightningDamageUnique__1Royale_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"lightning_damage_+%","max":20,"min":20}],"domain":"item","gen":"unique","lvl":87}
 ```
 
-### 21. CriticalStrikesDoNotFreezeUnique___1
+### 39. CriticalStrikesDoNotFreezeUnique___1
 
 - Match score: `105`
 - `k`: CriticalStrikesDoNotFreezeUnique___1
@@ -6355,19 +6604,7 @@ _No keyword matches in this index._
 {"k":"CriticalStrikesDoNotFreezeUnique___1","n":"CriticalStrikesDoNotFreezeUnique___1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"dummy_stat_display_nothing","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 22. HandWrapsAbyssModArmourJewelleryAmanamuSuffixFireChaosResistance
-
-- Match score: `105`
-- `k`: HandWrapsAbyssModArmourJewelleryAmanamuSuffixFireChaosResistance
-- `n`: HandWrapsAbyssModArmourJewelleryAmanamuSuffixFireChaosResistance
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"HandWrapsAbyssModArmourJewelleryAmanamuSuffixFireChaosResistance","n":"HandWrapsAbyssModArmourJewelleryAmanamuSuffixFireChaosResistance","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
-```
-
-### 23. ItemActsAsColdToFireSupportUniqueStaff13
+### 40. ItemActsAsColdToFireSupportUniqueStaff13
 
 - Match score: `105`
 - `k`: ItemActsAsColdToFireSupportUniqueStaff13
@@ -6383,7 +6620,7 @@ _No keyword matches in this index._
 {"k":"ItemActsAsColdToFireSupportUniqueStaff13","n":"ItemActsAsColdToFireSupportUniqueStaff13","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_socketed_gems_get_cold_to_fire_level","max":5,"min":5}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 24. LightningPenetrationUniqueStaff8
+### 41. LightningPenetrationUniqueStaff8
 
 - Match score: `105`
 - `k`: LightningPenetrationUniqueStaff8
@@ -6399,7 +6636,7 @@ _No keyword matches in this index._
 {"k":"LightningPenetrationUniqueStaff8","n":"LightningPenetrationUniqueStaff8","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_reduce_enemy_lightning_resistance_%","max":20,"min":20}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 25. ManaLeechFromLightningDamageUniqueStaff8
+### 42. ManaLeechFromLightningDamageUniqueStaff8
 
 - Match score: `105`
 - `k`: ManaLeechFromLightningDamageUniqueStaff8
@@ -6415,7 +6652,7 @@ _No keyword matches in this index._
 {"k":"ManaLeechFromLightningDamageUniqueStaff8","n":"ManaLeechFromLightningDamageUniqueStaff8","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"dummy_stat_display_nothing","max":200,"min":200}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 26. ManaLeechPermyriadFromLightningDamageUniqueStaff8
+### 43. ManaLeechPermyriadFromLightningDamageUniqueStaff8
 
 - Match score: `105`
 - `k`: ManaLeechPermyriadFromLightningDamageUniqueStaff8
@@ -6431,7 +6668,7 @@ _No keyword matches in this index._
 {"k":"ManaLeechPermyriadFromLightningDamageUniqueStaff8","n":"ManaLeechPermyriadFromLightningDamageUniqueStaff8","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"dummy_stat_display_nothing","max":40,"min":40}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 27. of Shocking
+### 44. of Shocking
 
 - Match score: `105`
 - `k`: ShockChanceIncrease1
@@ -6447,7 +6684,7 @@ _No keyword matches in this index._
 {"k":"ShockChanceIncrease1","n":"of Shocking","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"shock_chance_+%","max":60,"min":51}],"domain":"item","gen":"suffix","weights":[{"tag":"no_lightning_spell_mods","weight":0},{"tag":"wand","weight":1},{"tag":"staff","weight":1},{"tag":"trap","weight":1},{"tag":"default","weight":0}],"adds_tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods"],"lvl":15}
 ```
 
-### 28. PassageUniqueAmanamuReducedIncomingCriticalBonus
+### 45. PassageUniqueAmanamuReducedIncomingCriticalBonus
 
 - Match score: `105`
 - `k`: PassageUniqueAmanamuReducedIncomingCriticalBonus
@@ -6463,7 +6700,7 @@ _No keyword matches in this index._
 {"k":"PassageUniqueAmanamuReducedIncomingCriticalBonus","n":"PassageUniqueAmanamuReducedIncomingCriticalBonus","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_self_critical_strike_multiplier_-%","max":30,"min":20}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 29. ProjectileAttackCriticalStrikeChanceUnique__1
+### 46. ProjectileAttackCriticalStrikeChanceUnique__1
 
 - Match score: `105`
 - `k`: ProjectileAttackCriticalStrikeChanceUnique__1
@@ -6479,7 +6716,103 @@ _No keyword matches in this index._
 {"k":"ProjectileAttackCriticalStrikeChanceUnique__1","n":"ProjectileAttackCriticalStrikeChanceUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"projectile_attack_skill_critical_strike_chance_+%","max":60,"min":40}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 30. SpellAddedChaosDamageUniqueWand7
+### 47. SocketedSpellCriticalMultiplierUber1
+
+- Match score: `105`
+- `k`: SocketedSpellCriticalMultiplierUber1
+- `n`: SocketedSpellCriticalMultiplierUber1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SocketedSpellCriticalMultiplierUber1","n":"SocketedSpellCriticalMultiplierUber1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
+```
+
+### 48. SocketedSpellCriticalMultiplierUber2
+
+- Match score: `105`
+- `k`: SocketedSpellCriticalMultiplierUber2
+- `n`: SocketedSpellCriticalMultiplierUber2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SocketedSpellCriticalMultiplierUber2","n":"SocketedSpellCriticalMultiplierUber2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 49. SocketedSpellCriticalMultiplierUber3
+
+- Match score: `105`
+- `k`: SocketedSpellCriticalMultiplierUber3
+- `n`: SocketedSpellCriticalMultiplierUber3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SocketedSpellCriticalMultiplierUber3","n":"SocketedSpellCriticalMultiplierUber3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":83}
+```
+
+### 50. SocketedSpellCriticalMultiplierUberMaven
+
+- Match score: `105`
+- `k`: SocketedSpellCriticalMultiplierUberMaven
+- `n`: SocketedSpellCriticalMultiplierUberMaven
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SocketedSpellCriticalMultiplierUberMaven","n":"SocketedSpellCriticalMultiplierUberMaven","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":93}
+```
+
+### 51. SocketedSpellCriticalStrikeChanceUber1_
+
+- Match score: `105`
+- `k`: SocketedSpellCriticalStrikeChanceUber1_
+- `n`: SocketedSpellCriticalStrikeChanceUber1_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SocketedSpellCriticalStrikeChanceUber1_","n":"SocketedSpellCriticalStrikeChanceUber1_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
+```
+
+### 52. SocketedSpellCriticalStrikeChanceUber2
+
+- Match score: `105`
+- `k`: SocketedSpellCriticalStrikeChanceUber2
+- `n`: SocketedSpellCriticalStrikeChanceUber2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SocketedSpellCriticalStrikeChanceUber2","n":"SocketedSpellCriticalStrikeChanceUber2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
+```
+
+### 53. SocketedSpellCriticalStrikeChanceUber3
+
+- Match score: `105`
+- `k`: SocketedSpellCriticalStrikeChanceUber3
+- `n`: SocketedSpellCriticalStrikeChanceUber3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SocketedSpellCriticalStrikeChanceUber3","n":"SocketedSpellCriticalStrikeChanceUber3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":84}
+```
+
+### 54. SocketedSpellCriticalStrikeChanceUberMaven
+
+- Match score: `105`
+- `k`: SocketedSpellCriticalStrikeChanceUberMaven
+- `n`: SocketedSpellCriticalStrikeChanceUberMaven
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SocketedSpellCriticalStrikeChanceUberMaven","n":"SocketedSpellCriticalStrikeChanceUberMaven","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":94}
+```
+
+### 55. SpellAddedChaosDamageUniqueWand7
 
 - Match score: `105`
 - `k`: SpellAddedChaosDamageUniqueWand7
@@ -6495,7 +6828,247 @@ _No keyword matches in this index._
 {"k":"SpellAddedChaosDamageUniqueWand7","n":"SpellAddedChaosDamageUniqueWand7","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_minimum_added_chaos_damage","max":130,"min":90},{"id":"spell_maximum_added_chaos_damage","max":190,"min":140}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 31. SpellAddedFireDamageUniqueWand10
+### 56. SpellAddedColdDamagePenetrationInfluence1
+
+- Match score: `105`
+- `k`: SpellAddedColdDamagePenetrationInfluence1
+- `n`: SpellAddedColdDamagePenetrationInfluence1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedColdDamagePenetrationInfluence1","n":"SpellAddedColdDamagePenetrationInfluence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
+```
+
+### 57. SpellAddedColdDamagePenetrationInfluence2_
+
+- Match score: `105`
+- `k`: SpellAddedColdDamagePenetrationInfluence2_
+- `n`: SpellAddedColdDamagePenetrationInfluence2_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedColdDamagePenetrationInfluence2_","n":"SpellAddedColdDamagePenetrationInfluence2_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":71}
+```
+
+### 58. SpellAddedColdDamagePenetrationInfluence3
+
+- Match score: `105`
+- `k`: SpellAddedColdDamagePenetrationInfluence3
+- `n`: SpellAddedColdDamagePenetrationInfluence3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedColdDamagePenetrationInfluence3","n":"SpellAddedColdDamagePenetrationInfluence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":74}
+```
+
+### 59. SpellAddedColdDamagePenetrationInfluence4
+
+- Match score: `105`
+- `k`: SpellAddedColdDamagePenetrationInfluence4
+- `n`: SpellAddedColdDamagePenetrationInfluence4
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedColdDamagePenetrationInfluence4","n":"SpellAddedColdDamagePenetrationInfluence4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":77}
+```
+
+### 60. SpellAddedColdDamagePenetrationInfluence5
+
+- Match score: `105`
+- `k`: SpellAddedColdDamagePenetrationInfluence5
+- `n`: SpellAddedColdDamagePenetrationInfluence5
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedColdDamagePenetrationInfluence5","n":"SpellAddedColdDamagePenetrationInfluence5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":80}
+```
+
+### 61. SpellAddedColdDamagePenetrationTwoHandInfluence1
+
+- Match score: `105`
+- `k`: SpellAddedColdDamagePenetrationTwoHandInfluence1
+- `n`: SpellAddedColdDamagePenetrationTwoHandInfluence1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedColdDamagePenetrationTwoHandInfluence1","n":"SpellAddedColdDamagePenetrationTwoHandInfluence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
+```
+
+### 62. SpellAddedColdDamagePenetrationTwoHandInfluence2
+
+- Match score: `105`
+- `k`: SpellAddedColdDamagePenetrationTwoHandInfluence2
+- `n`: SpellAddedColdDamagePenetrationTwoHandInfluence2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedColdDamagePenetrationTwoHandInfluence2","n":"SpellAddedColdDamagePenetrationTwoHandInfluence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":71}
+```
+
+### 63. SpellAddedColdDamagePenetrationTwoHandInfluence3
+
+- Match score: `105`
+- `k`: SpellAddedColdDamagePenetrationTwoHandInfluence3
+- `n`: SpellAddedColdDamagePenetrationTwoHandInfluence3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedColdDamagePenetrationTwoHandInfluence3","n":"SpellAddedColdDamagePenetrationTwoHandInfluence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":74}
+```
+
+### 64. SpellAddedColdDamagePenetrationTwoHandInfluence4_
+
+- Match score: `105`
+- `k`: SpellAddedColdDamagePenetrationTwoHandInfluence4_
+- `n`: SpellAddedColdDamagePenetrationTwoHandInfluence4_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedColdDamagePenetrationTwoHandInfluence4_","n":"SpellAddedColdDamagePenetrationTwoHandInfluence4_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":77}
+```
+
+### 65. SpellAddedColdDamagePenetrationTwoHandInfluence5
+
+- Match score: `105`
+- `k`: SpellAddedColdDamagePenetrationTwoHandInfluence5
+- `n`: SpellAddedColdDamagePenetrationTwoHandInfluence5
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedColdDamagePenetrationTwoHandInfluence5","n":"SpellAddedColdDamagePenetrationTwoHandInfluence5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":80}
+```
+
+### 66. SpellAddedFireDamagePenetrationInfluence1_
+
+- Match score: `105`
+- `k`: SpellAddedFireDamagePenetrationInfluence1_
+- `n`: SpellAddedFireDamagePenetrationInfluence1_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedFireDamagePenetrationInfluence1_","n":"SpellAddedFireDamagePenetrationInfluence1_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
+```
+
+### 67. SpellAddedFireDamagePenetrationInfluence2
+
+- Match score: `105`
+- `k`: SpellAddedFireDamagePenetrationInfluence2
+- `n`: SpellAddedFireDamagePenetrationInfluence2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedFireDamagePenetrationInfluence2","n":"SpellAddedFireDamagePenetrationInfluence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":71}
+```
+
+### 68. SpellAddedFireDamagePenetrationInfluence3
+
+- Match score: `105`
+- `k`: SpellAddedFireDamagePenetrationInfluence3
+- `n`: SpellAddedFireDamagePenetrationInfluence3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedFireDamagePenetrationInfluence3","n":"SpellAddedFireDamagePenetrationInfluence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":74}
+```
+
+### 69. SpellAddedFireDamagePenetrationInfluence4
+
+- Match score: `105`
+- `k`: SpellAddedFireDamagePenetrationInfluence4
+- `n`: SpellAddedFireDamagePenetrationInfluence4
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedFireDamagePenetrationInfluence4","n":"SpellAddedFireDamagePenetrationInfluence4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":77}
+```
+
+### 70. SpellAddedFireDamagePenetrationInfluence5
+
+- Match score: `105`
+- `k`: SpellAddedFireDamagePenetrationInfluence5
+- `n`: SpellAddedFireDamagePenetrationInfluence5
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedFireDamagePenetrationInfluence5","n":"SpellAddedFireDamagePenetrationInfluence5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":80}
+```
+
+### 71. SpellAddedFireDamagePenetrationTwoHandInfluence1_
+
+- Match score: `105`
+- `k`: SpellAddedFireDamagePenetrationTwoHandInfluence1_
+- `n`: SpellAddedFireDamagePenetrationTwoHandInfluence1_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedFireDamagePenetrationTwoHandInfluence1_","n":"SpellAddedFireDamagePenetrationTwoHandInfluence1_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
+```
+
+### 72. SpellAddedFireDamagePenetrationTwoHandInfluence2
+
+- Match score: `105`
+- `k`: SpellAddedFireDamagePenetrationTwoHandInfluence2
+- `n`: SpellAddedFireDamagePenetrationTwoHandInfluence2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedFireDamagePenetrationTwoHandInfluence2","n":"SpellAddedFireDamagePenetrationTwoHandInfluence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":71}
+```
+
+### 73. SpellAddedFireDamagePenetrationTwoHandInfluence3_
+
+- Match score: `105`
+- `k`: SpellAddedFireDamagePenetrationTwoHandInfluence3_
+- `n`: SpellAddedFireDamagePenetrationTwoHandInfluence3_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedFireDamagePenetrationTwoHandInfluence3_","n":"SpellAddedFireDamagePenetrationTwoHandInfluence3_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":74}
+```
+
+### 74. SpellAddedFireDamagePenetrationTwoHandInfluence4
+
+- Match score: `105`
+- `k`: SpellAddedFireDamagePenetrationTwoHandInfluence4
+- `n`: SpellAddedFireDamagePenetrationTwoHandInfluence4
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedFireDamagePenetrationTwoHandInfluence4","n":"SpellAddedFireDamagePenetrationTwoHandInfluence4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":77}
+```
+
+### 75. SpellAddedFireDamagePenetrationTwoHandInfluence5_
+
+- Match score: `105`
+- `k`: SpellAddedFireDamagePenetrationTwoHandInfluence5_
+- `n`: SpellAddedFireDamagePenetrationTwoHandInfluence5_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedFireDamagePenetrationTwoHandInfluence5_","n":"SpellAddedFireDamagePenetrationTwoHandInfluence5_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":80}
+```
+
+### 76. SpellAddedFireDamageUniqueWand10
 
 - Match score: `105`
 - `k`: SpellAddedFireDamageUniqueWand10
@@ -6511,7 +7084,127 @@ _No keyword matches in this index._
 {"k":"SpellAddedFireDamageUniqueWand10","n":"SpellAddedFireDamageUniqueWand10","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_minimum_added_fire_damage","max":6,"min":4},{"id":"spell_maximum_added_fire_damage","max":12,"min":8}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 32. SpellAddedLightningDamageTwoHandUniqueStaff8d
+### 77. SpellAddedLightningDamagePenetrationInfluence1___
+
+- Match score: `105`
+- `k`: SpellAddedLightningDamagePenetrationInfluence1___
+- `n`: SpellAddedLightningDamagePenetrationInfluence1___
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedLightningDamagePenetrationInfluence1___","n":"SpellAddedLightningDamagePenetrationInfluence1___","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
+```
+
+### 78. SpellAddedLightningDamagePenetrationInfluence2_
+
+- Match score: `105`
+- `k`: SpellAddedLightningDamagePenetrationInfluence2_
+- `n`: SpellAddedLightningDamagePenetrationInfluence2_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedLightningDamagePenetrationInfluence2_","n":"SpellAddedLightningDamagePenetrationInfluence2_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":71}
+```
+
+### 79. SpellAddedLightningDamagePenetrationInfluence3
+
+- Match score: `105`
+- `k`: SpellAddedLightningDamagePenetrationInfluence3
+- `n`: SpellAddedLightningDamagePenetrationInfluence3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedLightningDamagePenetrationInfluence3","n":"SpellAddedLightningDamagePenetrationInfluence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":74}
+```
+
+### 80. SpellAddedLightningDamagePenetrationInfluence4_
+
+- Match score: `105`
+- `k`: SpellAddedLightningDamagePenetrationInfluence4_
+- `n`: SpellAddedLightningDamagePenetrationInfluence4_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedLightningDamagePenetrationInfluence4_","n":"SpellAddedLightningDamagePenetrationInfluence4_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":77}
+```
+
+### 81. SpellAddedLightningDamagePenetrationInfluence5
+
+- Match score: `105`
+- `k`: SpellAddedLightningDamagePenetrationInfluence5
+- `n`: SpellAddedLightningDamagePenetrationInfluence5
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedLightningDamagePenetrationInfluence5","n":"SpellAddedLightningDamagePenetrationInfluence5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":80}
+```
+
+### 82. SpellAddedLightningDamagePenetrationTwoHandInfluence1
+
+- Match score: `105`
+- `k`: SpellAddedLightningDamagePenetrationTwoHandInfluence1
+- `n`: SpellAddedLightningDamagePenetrationTwoHandInfluence1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedLightningDamagePenetrationTwoHandInfluence1","n":"SpellAddedLightningDamagePenetrationTwoHandInfluence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
+```
+
+### 83. SpellAddedLightningDamagePenetrationTwoHandInfluence2
+
+- Match score: `105`
+- `k`: SpellAddedLightningDamagePenetrationTwoHandInfluence2
+- `n`: SpellAddedLightningDamagePenetrationTwoHandInfluence2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedLightningDamagePenetrationTwoHandInfluence2","n":"SpellAddedLightningDamagePenetrationTwoHandInfluence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":71}
+```
+
+### 84. SpellAddedLightningDamagePenetrationTwoHandInfluence3
+
+- Match score: `105`
+- `k`: SpellAddedLightningDamagePenetrationTwoHandInfluence3
+- `n`: SpellAddedLightningDamagePenetrationTwoHandInfluence3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedLightningDamagePenetrationTwoHandInfluence3","n":"SpellAddedLightningDamagePenetrationTwoHandInfluence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":74}
+```
+
+### 85. SpellAddedLightningDamagePenetrationTwoHandInfluence4__
+
+- Match score: `105`
+- `k`: SpellAddedLightningDamagePenetrationTwoHandInfluence4__
+- `n`: SpellAddedLightningDamagePenetrationTwoHandInfluence4__
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedLightningDamagePenetrationTwoHandInfluence4__","n":"SpellAddedLightningDamagePenetrationTwoHandInfluence4__","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":77}
+```
+
+### 86. SpellAddedLightningDamagePenetrationTwoHandInfluence5_
+
+- Match score: `105`
+- `k`: SpellAddedLightningDamagePenetrationTwoHandInfluence5_
+- `n`: SpellAddedLightningDamagePenetrationTwoHandInfluence5_
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"SpellAddedLightningDamagePenetrationTwoHandInfluence5_","n":"SpellAddedLightningDamagePenetrationTwoHandInfluence5_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":80}
+```
+
+### 87. SpellAddedLightningDamageTwoHandUniqueStaff8d
 
 - Match score: `105`
 - `k`: SpellAddedLightningDamageTwoHandUniqueStaff8d
@@ -6527,7 +7220,7 @@ _No keyword matches in this index._
 {"k":"SpellAddedLightningDamageTwoHandUniqueStaff8d","n":"SpellAddedLightningDamageTwoHandUniqueStaff8d","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_minimum_added_lightning_damage","max":15,"min":5},{"id":"spell_maximum_added_lightning_damage","max":140,"min":100}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 33. SpellCriticalStrikeChance1
+### 88. SpellCriticalStrikeChance1
 
 - Match score: `105`
 - `k`: SpellCriticalStrikeChance1
@@ -6539,7 +7232,7 @@ _No keyword matches in this index._
 {"k":"SpellCriticalStrikeChance1","n":"SpellCriticalStrikeChance1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":11}
 ```
 
-### 34. SpellCriticalStrikeChance2
+### 89. SpellCriticalStrikeChance2
 
 - Match score: `105`
 - `k`: SpellCriticalStrikeChance2
@@ -6551,7 +7244,7 @@ _No keyword matches in this index._
 {"k":"SpellCriticalStrikeChance2","n":"SpellCriticalStrikeChance2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":21}
 ```
 
-### 35. SpellCriticalStrikeChance3
+### 90. SpellCriticalStrikeChance3
 
 - Match score: `105`
 - `k`: SpellCriticalStrikeChance3
@@ -6563,7 +7256,7 @@ _No keyword matches in this index._
 {"k":"SpellCriticalStrikeChance3","n":"SpellCriticalStrikeChance3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":28}
 ```
 
-### 36. SpellCriticalStrikeChance4
+### 91. SpellCriticalStrikeChance4
 
 - Match score: `105`
 - `k`: SpellCriticalStrikeChance4
@@ -6575,7 +7268,7 @@ _No keyword matches in this index._
 {"k":"SpellCriticalStrikeChance4","n":"SpellCriticalStrikeChance4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":41}
 ```
 
-### 37. SpellCriticalStrikeChance5
+### 92. SpellCriticalStrikeChance5
 
 - Match score: `105`
 - `k`: SpellCriticalStrikeChance5
@@ -6587,7 +7280,7 @@ _No keyword matches in this index._
 {"k":"SpellCriticalStrikeChance5","n":"SpellCriticalStrikeChance5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":59}
 ```
 
-### 38. SpellCriticalStrikeChance6_
+### 93. SpellCriticalStrikeChance6_
 
 - Match score: `105`
 - `k`: SpellCriticalStrikeChance6_
@@ -6599,1121 +7292,328 @@ _No keyword matches in this index._
 {"k":"SpellCriticalStrikeChance6_","n":"SpellCriticalStrikeChance6_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":76}
 ```
 
-### 39. SpellCriticalStrikeChanceRing1
+### 94. SpellCriticalStrikeChanceEldritchImplicit1
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeChanceRing1
-- `n`: SpellCriticalStrikeChanceRing1
+- `k`: SpellCriticalStrikeChanceEldritchImplicit1
+- `n`: SpellCriticalStrikeChanceEldritchImplicit1
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeChanceRing1","n":"SpellCriticalStrikeChanceRing1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":18}
+{"k":"SpellCriticalStrikeChanceEldritchImplicit1","n":"SpellCriticalStrikeChanceEldritchImplicit1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 40. SpellCriticalStrikeChanceRing2
+### 95. SpellCriticalStrikeChanceEldritchImplicit2
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeChanceRing2
-- `n`: SpellCriticalStrikeChanceRing2
+- `k`: SpellCriticalStrikeChanceEldritchImplicit2
+- `n`: SpellCriticalStrikeChanceEldritchImplicit2
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeChanceRing2","n":"SpellCriticalStrikeChanceRing2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":32}
+{"k":"SpellCriticalStrikeChanceEldritchImplicit2","n":"SpellCriticalStrikeChanceEldritchImplicit2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 41. SpellCriticalStrikeChanceRing3
+### 96. SpellCriticalStrikeChanceEldritchImplicit3
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeChanceRing3
-- `n`: SpellCriticalStrikeChanceRing3
+- `k`: SpellCriticalStrikeChanceEldritchImplicit3
+- `n`: SpellCriticalStrikeChanceEldritchImplicit3
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeChanceRing3","n":"SpellCriticalStrikeChanceRing3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":45}
+{"k":"SpellCriticalStrikeChanceEldritchImplicit3","n":"SpellCriticalStrikeChanceEldritchImplicit3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 42. SpellCriticalStrikeChanceRing4
+### 97. SpellCriticalStrikeChanceEldritchImplicit4
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeChanceRing4
-- `n`: SpellCriticalStrikeChanceRing4
+- `k`: SpellCriticalStrikeChanceEldritchImplicit4
+- `n`: SpellCriticalStrikeChanceEldritchImplicit4
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeChanceRing4","n":"SpellCriticalStrikeChanceRing4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":58}
+{"k":"SpellCriticalStrikeChanceEldritchImplicit4","n":"SpellCriticalStrikeChanceEldritchImplicit4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 43. SpellCriticalStrikeChanceRing5
+### 98. SpellCriticalStrikeChanceEldritchImplicit5
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeChanceRing5
-- `n`: SpellCriticalStrikeChanceRing5
+- `k`: SpellCriticalStrikeChanceEldritchImplicit5
+- `n`: SpellCriticalStrikeChanceEldritchImplicit5
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeChanceRing5","n":"SpellCriticalStrikeChanceRing5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":70}
+{"k":"SpellCriticalStrikeChanceEldritchImplicit5","n":"SpellCriticalStrikeChanceEldritchImplicit5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 44. SpellCriticalStrikeChanceRing6
+### 99. SpellCriticalStrikeChanceEldritchImplicit6
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeChanceRing6
-- `n`: SpellCriticalStrikeChanceRing6
+- `k`: SpellCriticalStrikeChanceEldritchImplicit6
+- `n`: SpellCriticalStrikeChanceEldritchImplicit6
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeChanceRing6","n":"SpellCriticalStrikeChanceRing6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":81}
+{"k":"SpellCriticalStrikeChanceEldritchImplicit6","n":"SpellCriticalStrikeChanceEldritchImplicit6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 45. SpellCriticalStrikeChanceTwoHand1
+### 100. SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence1
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeChanceTwoHand1
-- `n`: SpellCriticalStrikeChanceTwoHand1
+- `k`: SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence1
+- `n`: SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence1
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeChanceTwoHand1","n":"SpellCriticalStrikeChanceTwoHand1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":11}
+{"k":"SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence1","n":"SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 46. SpellCriticalStrikeChanceTwoHand2
+### 101. SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence2
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeChanceTwoHand2
-- `n`: SpellCriticalStrikeChanceTwoHand2
+- `k`: SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence2
+- `n`: SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence2
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeChanceTwoHand2","n":"SpellCriticalStrikeChanceTwoHand2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":21}
+{"k":"SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence2","n":"SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 47. SpellCriticalStrikeChanceTwoHand3
+### 102. SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence3
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeChanceTwoHand3
-- `n`: SpellCriticalStrikeChanceTwoHand3
+- `k`: SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence3
+- `n`: SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence3
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeChanceTwoHand3","n":"SpellCriticalStrikeChanceTwoHand3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":28}
+{"k":"SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence3","n":"SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 48. SpellCriticalStrikeChanceTwoHand4
+### 103. SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence4
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeChanceTwoHand4
-- `n`: SpellCriticalStrikeChanceTwoHand4
+- `k`: SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence4
+- `n`: SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence4
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeChanceTwoHand4","n":"SpellCriticalStrikeChanceTwoHand4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":41}
+{"k":"SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence4","n":"SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 49. SpellCriticalStrikeChanceTwoHand5
+### 104. SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence5
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeChanceTwoHand5
-- `n`: SpellCriticalStrikeChanceTwoHand5
+- `k`: SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence5
+- `n`: SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence5
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeChanceTwoHand5","n":"SpellCriticalStrikeChanceTwoHand5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":59}
+{"k":"SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence5","n":"SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 50. SpellCriticalStrikeChanceTwoHand6
+### 105. SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence6
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeChanceTwoHand6
-- `n`: SpellCriticalStrikeChanceTwoHand6
+- `k`: SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence6
+- `n`: SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence6
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeChanceTwoHand6","n":"SpellCriticalStrikeChanceTwoHand6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":76}
+{"k":"SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence6","n":"SpellCriticalStrikeChanceEldritchImplicitPinnaclePresence6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 51. SpellCriticalStrikeMultiplier1
+### 106. SpellCriticalStrikeChanceEldritchImplicitUniquePresence1
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeMultiplier1
-- `n`: SpellCriticalStrikeMultiplier1
+- `k`: SpellCriticalStrikeChanceEldritchImplicitUniquePresence1
+- `n`: SpellCriticalStrikeChanceEldritchImplicitUniquePresence1
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeMultiplier1","n":"SpellCriticalStrikeMultiplier1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":8}
+{"k":"SpellCriticalStrikeChanceEldritchImplicitUniquePresence1","n":"SpellCriticalStrikeChanceEldritchImplicitUniquePresence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 52. SpellCriticalStrikeMultiplier2
+### 107. SpellCriticalStrikeChanceEldritchImplicitUniquePresence2
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeMultiplier2
-- `n`: SpellCriticalStrikeMultiplier2
+- `k`: SpellCriticalStrikeChanceEldritchImplicitUniquePresence2
+- `n`: SpellCriticalStrikeChanceEldritchImplicitUniquePresence2
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeMultiplier2","n":"SpellCriticalStrikeMultiplier2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":21}
+{"k":"SpellCriticalStrikeChanceEldritchImplicitUniquePresence2","n":"SpellCriticalStrikeChanceEldritchImplicitUniquePresence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 53. SpellCriticalStrikeMultiplier3
+### 108. SpellCriticalStrikeChanceEldritchImplicitUniquePresence3
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeMultiplier3
-- `n`: SpellCriticalStrikeMultiplier3
+- `k`: SpellCriticalStrikeChanceEldritchImplicitUniquePresence3
+- `n`: SpellCriticalStrikeChanceEldritchImplicitUniquePresence3
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeMultiplier3","n":"SpellCriticalStrikeMultiplier3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":30}
+{"k":"SpellCriticalStrikeChanceEldritchImplicitUniquePresence3","n":"SpellCriticalStrikeChanceEldritchImplicitUniquePresence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 54. SpellCriticalStrikeMultiplier4
+### 109. SpellCriticalStrikeChanceEldritchImplicitUniquePresence4
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeMultiplier4
-- `n`: SpellCriticalStrikeMultiplier4
+- `k`: SpellCriticalStrikeChanceEldritchImplicitUniquePresence4
+- `n`: SpellCriticalStrikeChanceEldritchImplicitUniquePresence4
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeMultiplier4","n":"SpellCriticalStrikeMultiplier4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":44}
+{"k":"SpellCriticalStrikeChanceEldritchImplicitUniquePresence4","n":"SpellCriticalStrikeChanceEldritchImplicitUniquePresence4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 55. SpellCriticalStrikeMultiplier5
+### 110. SpellCriticalStrikeChanceEldritchImplicitUniquePresence5
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeMultiplier5
-- `n`: SpellCriticalStrikeMultiplier5
+- `k`: SpellCriticalStrikeChanceEldritchImplicitUniquePresence5
+- `n`: SpellCriticalStrikeChanceEldritchImplicitUniquePresence5
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeMultiplier5","n":"SpellCriticalStrikeMultiplier5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":59}
+{"k":"SpellCriticalStrikeChanceEldritchImplicitUniquePresence5","n":"SpellCriticalStrikeChanceEldritchImplicitUniquePresence5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 56. SpellCriticalStrikeMultiplier6
+### 111. SpellCriticalStrikeChanceEldritchImplicitUniquePresence6
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeMultiplier6
-- `n`: SpellCriticalStrikeMultiplier6
+- `k`: SpellCriticalStrikeChanceEldritchImplicitUniquePresence6
+- `n`: SpellCriticalStrikeChanceEldritchImplicitUniquePresence6
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeMultiplier6","n":"SpellCriticalStrikeMultiplier6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":73}
+{"k":"SpellCriticalStrikeChanceEldritchImplicitUniquePresence6","n":"SpellCriticalStrikeChanceEldritchImplicitUniquePresence6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 57. SpellCriticalStrikeMultiplierRing1
+### 112. SpellCriticalStrikeChanceEssence7
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeMultiplierRing1
-- `n`: SpellCriticalStrikeMultiplierRing1
+- `k`: SpellCriticalStrikeChanceEssence7
+- `n`: SpellCriticalStrikeChanceEssence7
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeMultiplierRing1","n":"SpellCriticalStrikeMultiplierRing1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":17}
+{"k":"SpellCriticalStrikeChanceEssence7","n":"SpellCriticalStrikeChanceEssence7","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":82}
 ```
 
-### 58. SpellCriticalStrikeMultiplierRing2
+### 113. SpellCriticalStrikeMultiplierEldritchImplicit1
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeMultiplierRing2
-- `n`: SpellCriticalStrikeMultiplierRing2
+- `k`: SpellCriticalStrikeMultiplierEldritchImplicit1
+- `n`: SpellCriticalStrikeMultiplierEldritchImplicit1
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeMultiplierRing2","n":"SpellCriticalStrikeMultiplierRing2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":30}
+{"k":"SpellCriticalStrikeMultiplierEldritchImplicit1","n":"SpellCriticalStrikeMultiplierEldritchImplicit1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 59. SpellCriticalStrikeMultiplierRing3
+### 114. SpellCriticalStrikeMultiplierEldritchImplicit2
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeMultiplierRing3
-- `n`: SpellCriticalStrikeMultiplierRing3
+- `k`: SpellCriticalStrikeMultiplierEldritchImplicit2
+- `n`: SpellCriticalStrikeMultiplierEldritchImplicit2
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeMultiplierRing3","n":"SpellCriticalStrikeMultiplierRing3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":44}
+{"k":"SpellCriticalStrikeMultiplierEldritchImplicit2","n":"SpellCriticalStrikeMultiplierEldritchImplicit2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 60. SpellCriticalStrikeMultiplierRing4
+### 115. SpellCriticalStrikeMultiplierEldritchImplicit3
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeMultiplierRing4
-- `n`: SpellCriticalStrikeMultiplierRing4
+- `k`: SpellCriticalStrikeMultiplierEldritchImplicit3
+- `n`: SpellCriticalStrikeMultiplierEldritchImplicit3
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeMultiplierRing4","n":"SpellCriticalStrikeMultiplierRing4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":57}
+{"k":"SpellCriticalStrikeMultiplierEldritchImplicit3","n":"SpellCriticalStrikeMultiplierEldritchImplicit3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 61. SpellCriticalStrikeMultiplierRing5
+### 116. SpellCriticalStrikeMultiplierEldritchImplicit4
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeMultiplierRing5
-- `n`: SpellCriticalStrikeMultiplierRing5
+- `k`: SpellCriticalStrikeMultiplierEldritchImplicit4
+- `n`: SpellCriticalStrikeMultiplierEldritchImplicit4
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeMultiplierRing5","n":"SpellCriticalStrikeMultiplierRing5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":69}
+{"k":"SpellCriticalStrikeMultiplierEldritchImplicit4","n":"SpellCriticalStrikeMultiplierEldritchImplicit4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 62. SpellCriticalStrikeMultiplierRing6
+### 117. SpellCriticalStrikeMultiplierEldritchImplicit5
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeMultiplierRing6
-- `n`: SpellCriticalStrikeMultiplierRing6
+- `k`: SpellCriticalStrikeMultiplierEldritchImplicit5
+- `n`: SpellCriticalStrikeMultiplierEldritchImplicit5
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeMultiplierRing6","n":"SpellCriticalStrikeMultiplierRing6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":80}
+{"k":"SpellCriticalStrikeMultiplierEldritchImplicit5","n":"SpellCriticalStrikeMultiplierEldritchImplicit5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 63. SpellCriticalStrikeMultiplierTwoHand1
+### 118. SpellCriticalStrikeMultiplierEldritchImplicit6
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeMultiplierTwoHand1
-- `n`: SpellCriticalStrikeMultiplierTwoHand1
+- `k`: SpellCriticalStrikeMultiplierEldritchImplicit6
+- `n`: SpellCriticalStrikeMultiplierEldritchImplicit6
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeMultiplierTwoHand1","n":"SpellCriticalStrikeMultiplierTwoHand1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":8}
+{"k":"SpellCriticalStrikeMultiplierEldritchImplicit6","n":"SpellCriticalStrikeMultiplierEldritchImplicit6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 64. SpellCriticalStrikeMultiplierTwoHand2
+### 119. SpellCriticalStrikeMultiplierEldritchImplicitPinnaclePresence1
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeMultiplierTwoHand2
-- `n`: SpellCriticalStrikeMultiplierTwoHand2
+- `k`: SpellCriticalStrikeMultiplierEldritchImplicitPinnaclePresence1
+- `n`: SpellCriticalStrikeMultiplierEldritchImplicitPinnaclePresence1
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeMultiplierTwoHand2","n":"SpellCriticalStrikeMultiplierTwoHand2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":21}
+{"k":"SpellCriticalStrikeMultiplierEldritchImplicitPinnaclePresence1","n":"SpellCriticalStrikeMultiplierEldritchImplicitPinnaclePresence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
-### 65. SpellCriticalStrikeMultiplierTwoHand3
+### 120. SpellCriticalStrikeMultiplierEldritchImplicitPinnaclePresence2
 
 - Match score: `105`
-- `k`: SpellCriticalStrikeMultiplierTwoHand3
-- `n`: SpellCriticalStrikeMultiplierTwoHand3
+- `k`: SpellCriticalStrikeMultiplierEldritchImplicitPinnaclePresence2
+- `n`: SpellCriticalStrikeMultiplierEldritchImplicitPinnaclePresence2
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"SpellCriticalStrikeMultiplierTwoHand3","n":"SpellCriticalStrikeMultiplierTwoHand3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":30}
-```
-
-### 66. SpellCriticalStrikeMultiplierTwoHand4
-
-- Match score: `105`
-- `k`: SpellCriticalStrikeMultiplierTwoHand4
-- `n`: SpellCriticalStrikeMultiplierTwoHand4
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"SpellCriticalStrikeMultiplierTwoHand4","n":"SpellCriticalStrikeMultiplierTwoHand4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":44}
-```
-
-### 67. SpellCriticalStrikeMultiplierTwoHand5
-
-- Match score: `105`
-- `k`: SpellCriticalStrikeMultiplierTwoHand5
-- `n`: SpellCriticalStrikeMultiplierTwoHand5
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"SpellCriticalStrikeMultiplierTwoHand5","n":"SpellCriticalStrikeMultiplierTwoHand5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":59}
-```
-
-### 68. SpellCriticalStrikeMultiplierTwoHand6
-
-- Match score: `105`
-- `k`: SpellCriticalStrikeMultiplierTwoHand6
-- `n`: SpellCriticalStrikeMultiplierTwoHand6
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"SpellCriticalStrikeMultiplierTwoHand6","n":"SpellCriticalStrikeMultiplierTwoHand6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":73}
-```
-
-### 69. UniqueChanceForSpellCriticalHitsToBeLucky1
-
-- Match score: `105`
-- `k`: UniqueChanceForSpellCriticalHitsToBeLucky1
-- `n`: UniqueChanceForSpellCriticalHitsToBeLucky1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"spell_critical_hit_chance_%_for_lucky_damage","max":30,"min":15}]
-
-```json
-{"k":"UniqueChanceForSpellCriticalHitsToBeLucky1","n":"UniqueChanceForSpellCriticalHitsToBeLucky1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_critical_hit_chance_%_for_lucky_damage","max":30,"min":15}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 70. UniqueColdAndLightningResPerFireResItem1
-
-- Match score: `105`
-- `k`: UniqueColdAndLightningResPerFireResItem1
-- `n`: UniqueColdAndLightningResPerFireResItem1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"cold_and_lightning_resist_+_per_equipped_item_with_a_fire_resistance_mod","max":10,"min":5}]
-
-```json
-{"k":"UniqueColdAndLightningResPerFireResItem1","n":"UniqueColdAndLightningResPerFireResItem1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"cold_and_lightning_resist_+_per_equipped_item_with_a_fire_resistance_mod","max":10,"min":5}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 71. UniqueColdExposureOnIgnite1
-
-- Match score: `105`
-- `k`: UniqueColdExposureOnIgnite1
-- `n`: UniqueColdExposureOnIgnite1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"inflict_cold_exposure_on_ignite","max":1,"min":1}]
-
-```json
-{"k":"UniqueColdExposureOnIgnite1","n":"UniqueColdExposureOnIgnite1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"inflict_cold_exposure_on_ignite","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 72. UniqueCriticalDamageBonusWhileShocked1
-
-- Match score: `105`
-- `k`: UniqueCriticalDamageBonusWhileShocked1
-- `n`: UniqueCriticalDamageBonusWhileShocked1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"critical_bonus_+%_final_while_shocked","max":25,"min":15}]
-
-```json
-{"k":"UniqueCriticalDamageBonusWhileShocked1","n":"UniqueCriticalDamageBonusWhileShocked1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"critical_bonus_+%_final_while_shocked","max":25,"min":15}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 73. UniqueCriticalStrikesIgnoreLightningResistance1
-
-- Match score: `105`
-- `k`: UniqueCriticalStrikesIgnoreLightningResistance1
-- `n`: UniqueCriticalStrikesIgnoreLightningResistance1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 69
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"critical_strikes_ignore_lightning_resistance","max":1,"min":1}]
-
-```json
-{"k":"UniqueCriticalStrikesIgnoreLightningResistance1","n":"UniqueCriticalStrikesIgnoreLightningResistance1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"critical_strikes_ignore_lightning_resistance","max":1,"min":1}],"domain":"item","gen":"unique","lvl":69}
-```
-
-### 74. UniqueCriticalWeaknessOnSpellCrit1
-
-- Match score: `105`
-- `k`: UniqueCriticalWeaknessOnSpellCrit1
-- `n`: UniqueCriticalWeaknessOnSpellCrit1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"apply_X_stacks_of_critical_weakness_on_critical_hit_with_spells","max":3,"min":1}]
-
-```json
-{"k":"UniqueCriticalWeaknessOnSpellCrit1","n":"UniqueCriticalWeaknessOnSpellCrit1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"apply_X_stacks_of_critical_weakness_on_critical_hit_with_spells","max":3,"min":1}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 75. UniqueFireAndColdResPerLightningResItem1
-
-- Match score: `105`
-- `k`: UniqueFireAndColdResPerLightningResItem1
-- `n`: UniqueFireAndColdResPerLightningResItem1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"fire_and_cold_resist_+_per_equipped_item_with_a_lightning_resistance_mod","max":10,"min":5}]
-
-```json
-{"k":"UniqueFireAndColdResPerLightningResItem1","n":"UniqueFireAndColdResPerLightningResItem1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"fire_and_cold_resist_+_per_equipped_item_with_a_lightning_resistance_mod","max":10,"min":5}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 76. UniqueFireAndLightningRestPerColdResItem1
-
-- Match score: `105`
-- `k`: UniqueFireAndLightningRestPerColdResItem1
-- `n`: UniqueFireAndLightningRestPerColdResItem1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"fire_and_lightning_resist_+_per_equipped_item_with_a_cold_resistance_mod","max":10,"min":5}]
-
-```json
-{"k":"UniqueFireAndLightningRestPerColdResItem1","n":"UniqueFireAndLightningRestPerColdResItem1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"fire_and_lightning_resist_+_per_equipped_item_with_a_cold_resistance_mod","max":10,"min":5}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 77. UniqueFireExposureOnShock1
-
-- Match score: `105`
-- `k`: UniqueFireExposureOnShock1
-- `n`: UniqueFireExposureOnShock1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"inflict_fire_exposure_on_shock","max":1,"min":1}]
-
-```json
-{"k":"UniqueFireExposureOnShock1","n":"UniqueFireExposureOnShock1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"inflict_fire_exposure_on_shock","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 78. UniqueHeartSuffixSpellCriticalStrikeChance
-
-- Match score: `105`
-- `k`: UniqueHeartSuffixSpellCriticalStrikeChance
-- `n`: UniqueHeartSuffixSpellCriticalStrikeChance
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: desecrated
-- `stats`: [{"id":"spell_critical_strike_chance_+%","max":8,"min":4}]
-
-```json
-{"k":"UniqueHeartSuffixSpellCriticalStrikeChance","n":"UniqueHeartSuffixSpellCriticalStrikeChance","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_critical_strike_chance_+%","max":8,"min":4}],"domain":"desecrated","gen":"unique","weights":[{"tag":"heart_unique_jewel_suffix","weight":1},{"tag":"default","weight":0}],"lvl":1}
-```
-
-### 79. UniqueLightningExposureOnCrit1
-
-- Match score: `105`
-- `k`: UniqueLightningExposureOnCrit1
-- `n`: UniqueLightningExposureOnCrit1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"inflict_lightning_exposure_on_crit","max":1,"min":1}]
-
-```json
-{"k":"UniqueLightningExposureOnCrit1","n":"UniqueLightningExposureOnCrit1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"inflict_lightning_exposure_on_crit","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 80. UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles
-
-- Match score: `105`
-- `k`: UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles
-- `n`: UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"spell_skills_fire_2_additional_projectiles_final_chance_%","max":10,"min":5}]
-
-```json
-{"k":"UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles","n":"UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_skills_fire_2_additional_projectiles_final_chance_%","max":10,"min":5}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 81. UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles1
-
-- Match score: `105`
-- `k`: UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles1
-- `n`: UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"spell_skills_fire_2_additional_projectiles_final_chance_%","max":25,"min":10}]
-
-```json
-{"k":"UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles1","n":"UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_skills_fire_2_additional_projectiles_final_chance_%","max":25,"min":10}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 82. UniqueMutatedVaalSpellsFire8AdditionalProjectileChance
-
-- Match score: `105`
-- `k`: UniqueMutatedVaalSpellsFire8AdditionalProjectileChance
-- `n`: UniqueMutatedVaalSpellsFire8AdditionalProjectileChance
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"spell_skill_%_chance_to_fire_8_additional_projectiles_in_nova","max":10,"min":5}]
-
-```json
-{"k":"UniqueMutatedVaalSpellsFire8AdditionalProjectileChance","n":"UniqueMutatedVaalSpellsFire8AdditionalProjectileChance","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_skill_%_chance_to_fire_8_additional_projectiles_in_nova","max":10,"min":5}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 83. UniqueNonChannellingSpellCriticalChance1
-
-- Match score: `105`
-- `k`: UniqueNonChannellingSpellCriticalChance1
-- `n`: UniqueNonChannellingSpellCriticalChance1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"spell_critical_strike_chance_+%_per_100_max_life_with_non_channelling_skills","max":3,"min":3},{"id":"rathpith_surge","max":1,"min":1}]
-
-```json
-{"k":"UniqueNonChannellingSpellCriticalChance1","n":"UniqueNonChannellingSpellCriticalChance1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_critical_strike_chance_+%_per_100_max_life_with_non_channelling_skills","max":3,"min":3},{"id":"rathpith_surge","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 84. UniqueNonChannellingSpellsDoubleManaAndCrit1
-
-- Match score: `105`
-- `k`: UniqueNonChannellingSpellsDoubleManaAndCrit1
-- `n`: UniqueNonChannellingSpellsDoubleManaAndCrit1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"non_channelling_spells_x%_chance_to_double_mana_cost_and_always_crit","max":25,"min":25}]
-
-```json
-{"k":"UniqueNonChannellingSpellsDoubleManaAndCrit1","n":"UniqueNonChannellingSpellsDoubleManaAndCrit1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"non_channelling_spells_x%_chance_to_double_mana_cost_and_always_crit","max":25,"min":25}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 85. UniqueProjectileIncreasedCriticalHitChancePerPierce1
-
-- Match score: `105`
-- `k`: UniqueProjectileIncreasedCriticalHitChancePerPierce1
-- `n`: UniqueProjectileIncreasedCriticalHitChancePerPierce1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"projectiles_crit_chance_+%_for_each_time_they_have_pierced","max":64,"min":42}]
-
-```json
-{"k":"UniqueProjectileIncreasedCriticalHitChancePerPierce1","n":"UniqueProjectileIncreasedCriticalHitChancePerPierce1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"projectiles_crit_chance_+%_for_each_time_they_have_pierced","max":64,"min":42}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 86. UniqueSpellCriticalStrikeChance1
-
-- Match score: `105`
-- `k`: UniqueSpellCriticalStrikeChance1
-- `n`: UniqueSpellCriticalStrikeChance1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"spell_critical_strike_chance_+%","max":40,"min":20}]
-
-```json
-{"k":"UniqueSpellCriticalStrikeChance1","n":"UniqueSpellCriticalStrikeChance1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_critical_strike_chance_+%","max":40,"min":20}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 87. UniqueSpellCriticalStrikeChance2
-
-- Match score: `105`
-- `k`: UniqueSpellCriticalStrikeChance2
-- `n`: UniqueSpellCriticalStrikeChance2
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"spell_critical_strike_chance_+%","max":50,"min":30}]
-
-```json
-{"k":"UniqueSpellCriticalStrikeChance2","n":"UniqueSpellCriticalStrikeChance2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_critical_strike_chance_+%","max":50,"min":30}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 88. UniqueSpellCriticalStrikeChance3
-
-- Match score: `105`
-- `k`: UniqueSpellCriticalStrikeChance3
-- `n`: UniqueSpellCriticalStrikeChance3
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"spell_critical_strike_chance_+%","max":50,"min":30}]
-
-```json
-{"k":"UniqueSpellCriticalStrikeChance3","n":"UniqueSpellCriticalStrikeChance3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_critical_strike_chance_+%","max":50,"min":30}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 89. UniqueSpellCriticalStrikeMultiplier1
-
-- Match score: `105`
-- `k`: UniqueSpellCriticalStrikeMultiplier1
-- `n`: UniqueSpellCriticalStrikeMultiplier1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"base_spell_critical_strike_multiplier_+","max":50,"min":30}]
-
-```json
-{"k":"UniqueSpellCriticalStrikeMultiplier1","n":"UniqueSpellCriticalStrikeMultiplier1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_spell_critical_strike_multiplier_+","max":50,"min":30}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 90. UniqueSpellCriticalStrikeMultiplier2
-
-- Match score: `105`
-- `k`: UniqueSpellCriticalStrikeMultiplier2
-- `n`: UniqueSpellCriticalStrikeMultiplier2
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"base_spell_critical_strike_multiplier_+","max":30,"min":20}]
-
-```json
-{"k":"UniqueSpellCriticalStrikeMultiplier2","n":"UniqueSpellCriticalStrikeMultiplier2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_spell_critical_strike_multiplier_+","max":30,"min":20}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 91. UniqueSpellCriticalStrikeMultiplierPerSpellCritRecently1
-
-- Match score: `105`
-- `k`: UniqueSpellCriticalStrikeMultiplierPerSpellCritRecently1
-- `n`: UniqueSpellCriticalStrikeMultiplierPerSpellCritRecently1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"spell_crit_bonus_+%_per_spell_crit_recently","max":-5,"min":-5}]
-
-```json
-{"k":"UniqueSpellCriticalStrikeMultiplierPerSpellCritRecently1","n":"UniqueSpellCriticalStrikeMultiplierPerSpellCritRecently1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_crit_bonus_+%_per_spell_crit_recently","max":-5,"min":-5}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 92. UniqueTriggerLightningBoltOnCriticalStrike1
-
-- Match score: `105`
-- `k`: UniqueTriggerLightningBoltOnCriticalStrike1
-- `n`: UniqueTriggerLightningBoltOnCriticalStrike1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 69
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"local_display_triggers_level_x_lightning_bolt_on_critical_strike","max":1,"min":1}]
-
-```json
-{"k":"UniqueTriggerLightningBoltOnCriticalStrike1","n":"UniqueTriggerLightningBoltOnCriticalStrike1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_triggers_level_x_lightning_bolt_on_critical_strike","max":1,"min":1}],"domain":"item","gen":"unique","lvl":69}
-```
-
-### 93. CorruptionUpgradeGlobalIncreaseColdSpellSkillGemLevel
-
-- Match score: `100`
-- `k`: CorruptionUpgradeGlobalIncreaseColdSpellSkillGemLevel
-- `n`: CorruptionUpgradeGlobalIncreaseColdSpellSkillGemLevel
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"cold_spell_skill_gem_level_+","max":3,"min":2}]
-
-```json
-{"k":"CorruptionUpgradeGlobalIncreaseColdSpellSkillGemLevel","n":"CorruptionUpgradeGlobalIncreaseColdSpellSkillGemLevel","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"cold_spell_skill_gem_level_+","max":3,"min":2}],"domain":"item","gen":"unique","adds_tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"lvl":1}
-```
-
-### 94. CorruptionUpgradeGlobalIncreaseFireSpellSkillGemLevel
-
-- Match score: `100`
-- `k`: CorruptionUpgradeGlobalIncreaseFireSpellSkillGemLevel
-- `n`: CorruptionUpgradeGlobalIncreaseFireSpellSkillGemLevel
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"fire_spell_skill_gem_level_+","max":3,"min":2}]
-
-```json
-{"k":"CorruptionUpgradeGlobalIncreaseFireSpellSkillGemLevel","n":"CorruptionUpgradeGlobalIncreaseFireSpellSkillGemLevel","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"fire_spell_skill_gem_level_+","max":3,"min":2}],"domain":"item","gen":"unique","adds_tags":["no_cold_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"lvl":1}
-```
-
-### 95. CorruptionUpgradeGlobalIncreaseLightningSpellSkillGemLevel
-
-- Match score: `100`
-- `k`: CorruptionUpgradeGlobalIncreaseLightningSpellSkillGemLevel
-- `n`: CorruptionUpgradeGlobalIncreaseLightningSpellSkillGemLevel
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"lightning_spell_skill_gem_level_+","max":3,"min":2}]
-
-```json
-{"k":"CorruptionUpgradeGlobalIncreaseLightningSpellSkillGemLevel","n":"CorruptionUpgradeGlobalIncreaseLightningSpellSkillGemLevel","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"lightning_spell_skill_gem_level_+","max":3,"min":2}],"domain":"item","gen":"unique","adds_tags":["no_fire_spell_mods","no_cold_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"lvl":1}
-```
-
-### 96. GlobalChaosSpellGemsLevel1
-
-- Match score: `100`
-- `k`: GlobalChaosSpellGemsLevel1
-- `n`: GlobalChaosSpellGemsLevel1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalChaosSpellGemsLevel1","n":"GlobalChaosSpellGemsLevel1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":5}
-```
-
-### 97. GlobalChaosSpellGemsLevel2
-
-- Match score: `100`
-- `k`: GlobalChaosSpellGemsLevel2
-- `n`: GlobalChaosSpellGemsLevel2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalChaosSpellGemsLevel2","n":"GlobalChaosSpellGemsLevel2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":41}
-```
-
-### 98. GlobalChaosSpellGemsLevel3
-
-- Match score: `100`
-- `k`: GlobalChaosSpellGemsLevel3
-- `n`: GlobalChaosSpellGemsLevel3
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalChaosSpellGemsLevel3","n":"GlobalChaosSpellGemsLevel3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":75}
-```
-
-### 99. GlobalChaosSpellGemsLevelTwoHandWeapon1
-
-- Match score: `100`
-- `k`: GlobalChaosSpellGemsLevelTwoHandWeapon1
-- `n`: GlobalChaosSpellGemsLevelTwoHandWeapon1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalChaosSpellGemsLevelTwoHandWeapon1","n":"GlobalChaosSpellGemsLevelTwoHandWeapon1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":2}
-```
-
-### 100. GlobalChaosSpellGemsLevelTwoHandWeapon2
-
-- Match score: `100`
-- `k`: GlobalChaosSpellGemsLevelTwoHandWeapon2
-- `n`: GlobalChaosSpellGemsLevelTwoHandWeapon2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalChaosSpellGemsLevelTwoHandWeapon2","n":"GlobalChaosSpellGemsLevelTwoHandWeapon2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":18}
-```
-
-### 101. GlobalChaosSpellGemsLevelTwoHandWeapon3
-
-- Match score: `100`
-- `k`: GlobalChaosSpellGemsLevelTwoHandWeapon3
-- `n`: GlobalChaosSpellGemsLevelTwoHandWeapon3
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalChaosSpellGemsLevelTwoHandWeapon3","n":"GlobalChaosSpellGemsLevelTwoHandWeapon3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":36}
-```
-
-### 102. GlobalChaosSpellGemsLevelTwoHandWeapon4
-
-- Match score: `100`
-- `k`: GlobalChaosSpellGemsLevelTwoHandWeapon4
-- `n`: GlobalChaosSpellGemsLevelTwoHandWeapon4
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalChaosSpellGemsLevelTwoHandWeapon4","n":"GlobalChaosSpellGemsLevelTwoHandWeapon4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":55}
-```
-
-### 103. GlobalChaosSpellGemsLevelTwoHandWeapon5
-
-- Match score: `100`
-- `k`: GlobalChaosSpellGemsLevelTwoHandWeapon5
-- `n`: GlobalChaosSpellGemsLevelTwoHandWeapon5
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalChaosSpellGemsLevelTwoHandWeapon5","n":"GlobalChaosSpellGemsLevelTwoHandWeapon5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":81}
-```
-
-### 104. GlobalChaosSpellGemsLevelWeapon1
-
-- Match score: `100`
-- `k`: GlobalChaosSpellGemsLevelWeapon1
-- `n`: GlobalChaosSpellGemsLevelWeapon1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalChaosSpellGemsLevelWeapon1","n":"GlobalChaosSpellGemsLevelWeapon1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":2}
-```
-
-### 105. GlobalChaosSpellGemsLevelWeapon2
-
-- Match score: `100`
-- `k`: GlobalChaosSpellGemsLevelWeapon2
-- `n`: GlobalChaosSpellGemsLevelWeapon2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalChaosSpellGemsLevelWeapon2","n":"GlobalChaosSpellGemsLevelWeapon2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":18}
-```
-
-### 106. GlobalChaosSpellGemsLevelWeapon3
-
-- Match score: `100`
-- `k`: GlobalChaosSpellGemsLevelWeapon3
-- `n`: GlobalChaosSpellGemsLevelWeapon3
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalChaosSpellGemsLevelWeapon3","n":"GlobalChaosSpellGemsLevelWeapon3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":36}
-```
-
-### 107. GlobalChaosSpellGemsLevelWeapon4
-
-- Match score: `100`
-- `k`: GlobalChaosSpellGemsLevelWeapon4
-- `n`: GlobalChaosSpellGemsLevelWeapon4
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalChaosSpellGemsLevelWeapon4","n":"GlobalChaosSpellGemsLevelWeapon4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":55}
-```
-
-### 108. GlobalChaosSpellGemsLevelWeapon5
-
-- Match score: `100`
-- `k`: GlobalChaosSpellGemsLevelWeapon5
-- `n`: GlobalChaosSpellGemsLevelWeapon5
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalChaosSpellGemsLevelWeapon5","n":"GlobalChaosSpellGemsLevelWeapon5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_cold_spell_mods","no_lightning_spell_mods","no_physical_spell_mods"],"level":81}
-```
-
-### 109. GlobalColdSpellGemsLevel1_
-
-- Match score: `100`
-- `k`: GlobalColdSpellGemsLevel1_
-- `n`: GlobalColdSpellGemsLevel1_
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalColdSpellGemsLevel1_","n":"GlobalColdSpellGemsLevel1_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":5}
-```
-
-### 110. GlobalColdSpellGemsLevel2
-
-- Match score: `100`
-- `k`: GlobalColdSpellGemsLevel2
-- `n`: GlobalColdSpellGemsLevel2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalColdSpellGemsLevel2","n":"GlobalColdSpellGemsLevel2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":41}
-```
-
-### 111. GlobalColdSpellGemsLevel3
-
-- Match score: `100`
-- `k`: GlobalColdSpellGemsLevel3
-- `n`: GlobalColdSpellGemsLevel3
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalColdSpellGemsLevel3","n":"GlobalColdSpellGemsLevel3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":75}
-```
-
-### 112. GlobalColdSpellGemsLevelTwoHandWeapon1
-
-- Match score: `100`
-- `k`: GlobalColdSpellGemsLevelTwoHandWeapon1
-- `n`: GlobalColdSpellGemsLevelTwoHandWeapon1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalColdSpellGemsLevelTwoHandWeapon1","n":"GlobalColdSpellGemsLevelTwoHandWeapon1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":2}
-```
-
-### 113. GlobalColdSpellGemsLevelTwoHandWeapon2
-
-- Match score: `100`
-- `k`: GlobalColdSpellGemsLevelTwoHandWeapon2
-- `n`: GlobalColdSpellGemsLevelTwoHandWeapon2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalColdSpellGemsLevelTwoHandWeapon2","n":"GlobalColdSpellGemsLevelTwoHandWeapon2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":18}
-```
-
-### 114. GlobalColdSpellGemsLevelTwoHandWeapon3
-
-- Match score: `100`
-- `k`: GlobalColdSpellGemsLevelTwoHandWeapon3
-- `n`: GlobalColdSpellGemsLevelTwoHandWeapon3
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalColdSpellGemsLevelTwoHandWeapon3","n":"GlobalColdSpellGemsLevelTwoHandWeapon3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":36}
-```
-
-### 115. GlobalColdSpellGemsLevelTwoHandWeapon4
-
-- Match score: `100`
-- `k`: GlobalColdSpellGemsLevelTwoHandWeapon4
-- `n`: GlobalColdSpellGemsLevelTwoHandWeapon4
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalColdSpellGemsLevelTwoHandWeapon4","n":"GlobalColdSpellGemsLevelTwoHandWeapon4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":55}
-```
-
-### 116. GlobalColdSpellGemsLevelTwoHandWeapon5
-
-- Match score: `100`
-- `k`: GlobalColdSpellGemsLevelTwoHandWeapon5
-- `n`: GlobalColdSpellGemsLevelTwoHandWeapon5
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalColdSpellGemsLevelTwoHandWeapon5","n":"GlobalColdSpellGemsLevelTwoHandWeapon5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":81}
-```
-
-### 117. GlobalColdSpellGemsLevelWeapon1
-
-- Match score: `100`
-- `k`: GlobalColdSpellGemsLevelWeapon1
-- `n`: GlobalColdSpellGemsLevelWeapon1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalColdSpellGemsLevelWeapon1","n":"GlobalColdSpellGemsLevelWeapon1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":2}
-```
-
-### 118. GlobalColdSpellGemsLevelWeapon2
-
-- Match score: `100`
-- `k`: GlobalColdSpellGemsLevelWeapon2
-- `n`: GlobalColdSpellGemsLevelWeapon2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalColdSpellGemsLevelWeapon2","n":"GlobalColdSpellGemsLevelWeapon2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":18}
-```
-
-### 119. GlobalColdSpellGemsLevelWeapon3
-
-- Match score: `100`
-- `k`: GlobalColdSpellGemsLevelWeapon3
-- `n`: GlobalColdSpellGemsLevelWeapon3
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalColdSpellGemsLevelWeapon3","n":"GlobalColdSpellGemsLevelWeapon3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":36}
-```
-
-### 120. GlobalColdSpellGemsLevelWeapon4
-
-- Match score: `100`
-- `k`: GlobalColdSpellGemsLevelWeapon4
-- `n`: GlobalColdSpellGemsLevelWeapon4
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"]
-
-```json
-{"k":"GlobalColdSpellGemsLevelWeapon4","n":"GlobalColdSpellGemsLevelWeapon4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["no_fire_spell_mods","no_lightning_spell_mods","no_chaos_spell_mods","no_physical_spell_mods"],"level":55}
+{"k":"SpellCriticalStrikeMultiplierEldritchImplicitPinnaclePresence2","n":"SpellCriticalStrikeMultiplierEldritchImplicitPinnaclePresence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
 ```
 
 ## Rune mods
@@ -9699,7 +9599,55 @@ Create [Fire] [ElementalInfusion|Infusion] [Remnant|Remnants] instead of [Cold]
 {"k":"Fireball Projectiles gain Area as they travel farther, up to {0}% reduced Area of Effect","n":"Fireball Projectiles gain Area as they travel farther, up to {0}% reduced Area of Effect","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 116. Gain {0}% of Physical Damage as Extra Fire Damage if you've dealt a [Critical|Critical Hit] [Recently]
+### 116. FlaskBuffFreezeShockIgniteChanceWhileHealing1_
+
+- Match score: `105`
+- `k`: FlaskBuffFreezeShockIgniteChanceWhileHealing1_
+- `n`: FlaskBuffFreezeShockIgniteChanceWhileHealing1_
+- `cat`: pob_mod_flask
+- `src`: pob_data_poe2/ModFlask.json
+
+```json
+{"k":"FlaskBuffFreezeShockIgniteChanceWhileHealing1_","n":"FlaskBuffFreezeShockIgniteChanceWhileHealing1_","cat":"pob_mod_flask","src":"pob_data_poe2/ModFlask.json","level":12}
+```
+
+### 117. FlaskBuffFreezeShockIgniteChanceWhileHealing2____
+
+- Match score: `105`
+- `k`: FlaskBuffFreezeShockIgniteChanceWhileHealing2____
+- `n`: FlaskBuffFreezeShockIgniteChanceWhileHealing2____
+- `cat`: pob_mod_flask
+- `src`: pob_data_poe2/ModFlask.json
+
+```json
+{"k":"FlaskBuffFreezeShockIgniteChanceWhileHealing2____","n":"FlaskBuffFreezeShockIgniteChanceWhileHealing2____","cat":"pob_mod_flask","src":"pob_data_poe2/ModFlask.json","level":32}
+```
+
+### 118. FlaskBuffFreezeShockIgniteChanceWhileHealing3
+
+- Match score: `105`
+- `k`: FlaskBuffFreezeShockIgniteChanceWhileHealing3
+- `n`: FlaskBuffFreezeShockIgniteChanceWhileHealing3
+- `cat`: pob_mod_flask
+- `src`: pob_data_poe2/ModFlask.json
+
+```json
+{"k":"FlaskBuffFreezeShockIgniteChanceWhileHealing3","n":"FlaskBuffFreezeShockIgniteChanceWhileHealing3","cat":"pob_mod_flask","src":"pob_data_poe2/ModFlask.json","level":52}
+```
+
+### 119. FlaskBuffFreezeShockIgniteChanceWhileHealing4_
+
+- Match score: `105`
+- `k`: FlaskBuffFreezeShockIgniteChanceWhileHealing4_
+- `n`: FlaskBuffFreezeShockIgniteChanceWhileHealing4_
+- `cat`: pob_mod_flask
+- `src`: pob_data_poe2/ModFlask.json
+
+```json
+{"k":"FlaskBuffFreezeShockIgniteChanceWhileHealing4_","n":"FlaskBuffFreezeShockIgniteChanceWhileHealing4_","cat":"pob_mod_flask","src":"pob_data_poe2/ModFlask.json","level":72}
+```
+
+### 120. Gain {0}% of Physical Damage as Extra Fire Damage if you've dealt a [Critical|Critical Hit] [Recently]
 
 - Match score: `105`
 - `k`: Gain {0}% of Physical Damage as Extra Fire Damage if you've dealt a [Critical|Critical Hit] [Recently]
@@ -9709,54 +9657,6 @@ Create [Fire] [ElementalInfusion|Infusion] [Remnant|Remnants] instead of [Cold]
 
 ```json
 {"k":"Gain {0}% of Physical Damage as Extra Fire Damage if you've dealt a [Critical|Critical Hit] [Recently]","n":"Gain {0}% of Physical Damage as Extra Fire Damage if you've dealt a [Critical|Critical Hit] [Recently]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 117. Gain {0}% to [Critical|Critical Hit] Chance for 2 seconds after Spending a total of 800 Mana
-
-- Match score: `105`
-- `k`: Gain {0}% to [Critical|Critical Hit] Chance for 2 seconds after Spending a total of 800 Mana
-- `n`: Gain {0}% to [Critical|Critical Hit] Chance for 2 seconds after Spending a total of 800 Mana
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Gain {0}% to [Critical|Critical Hit] Chance for 2 seconds after Spending a total of 800 Mana","n":"Gain {0}% to [Critical|Critical Hit] Chance for 2 seconds after Spending a total of 800 Mana","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 118. Hits against Enemies Unnerved by you have {0}% increased Spell [Critical|Critical Hit] Chance
-
-- Match score: `105`
-- `k`: Hits against Enemies Unnerved by you have {0}% increased Spell [Critical|Critical Hit] Chance
-- `n`: Hits against Enemies Unnerved by you have {0}% increased Spell [Critical|Critical Hit] Chance
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Hits against Enemies Unnerved by you have {0}% increased Spell [Critical|Critical Hit] Chance","n":"Hits against Enemies Unnerved by you have {0}% increased Spell [Critical|Critical Hit] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 119. Hits against Enemies Unnerved by you have {0}% reduced Spell [Critical|Critical Hit] Chance
-
-- Match score: `105`
-- `k`: Hits against Enemies Unnerved by you have {0}% reduced Spell [Critical|Critical Hit] Chance
-- `n`: Hits against Enemies Unnerved by you have {0}% reduced Spell [Critical|Critical Hit] Chance
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Hits against Enemies Unnerved by you have {0}% reduced Spell [Critical|Critical Hit] Chance","n":"Hits against Enemies Unnerved by you have {0}% reduced Spell [Critical|Critical Hit] Chance","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 120. Hits with this Weapon always Ignite, Freeze, and Shock
-
-- Match score: `105`
-- `k`: Hits with this Weapon always Ignite, Freeze, and Shock
-- `n`: Hits with this Weapon always Ignite, Freeze, and Shock
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Hits with this Weapon always Ignite, Freeze, and Shock","n":"Hits with this Weapon always Ignite, Freeze, and Shock","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ## Index match summary

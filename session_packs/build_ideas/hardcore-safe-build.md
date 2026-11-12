@@ -1,6 +1,6 @@
 # Build Idea Pack — Hardcore-Safe Build
 
-- Generated UTC: `2026-11-11T17:53:02+00:00`
+- Generated UTC: `2026-11-12T18:18:06+00:00`
 - Idea slug: `hardcore-safe-build`
 - Purpose: Engineer a conservative survival-first build with reliable damage and minimal mechanical risk.
 - Keywords: `hardcore, safe, survival, defense, life, maximum life, energy shield, armour, evasion, block, resistance, chaos resistance, recovery, regen, leech, recoup, ailment, stun, guard, boss, map, controller, ps5`
@@ -2893,19 +2893,7 @@ _No keyword matches in this index._
 - Source: `build_knowledge/compact/gem_index.json`
 - Matches included: `120`
 
-### 1. [{'flags': 0, 'keywordFlags': 0, 'name': 'BreachFlameLifeLeech', 'type': 'BASE'}]
-
-- Match score: `80`
-- `k`: breach_flame_life_leech_%
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'BreachFlameLifeLeech', 'type': 'BASE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"breach_flame_life_leech_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'BreachFlameLifeLeech', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"BreachFlameLifeLeech","type":"BASE"}]}
-```
-
-### 2. [{'flags': 0, 'keywordFlags': 0, 'name': 'CanLeechLifeOnFullLife', 'type': 'FLAG', 'value': True}]
+### 1. [{'flags': 0, 'keywordFlags': 0, 'name': 'CanLeechLifeOnFullLife', 'type': 'FLAG', 'value': True}]
 
 - Match score: `80`
 - `k`: life_leech_does_not_stop_at_full_life
@@ -2917,7 +2905,7 @@ _No keyword matches in this index._
 {"k":"life_leech_does_not_stop_at_full_life","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CanLeechLifeOnFullLife', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CanLeechLifeOnFullLife","type":"FLAG","value":true}]}
 ```
 
-### 3. [{'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'LeechingLife'}}]
+### 2. [{'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'LeechingLife'}}]
 
 - Match score: `80`
 - `k`: damage_+%_while_life_leeching
@@ -2929,7 +2917,7 @@ _No keyword matches in this index._
 {"k":"damage_+%_while_life_leeching","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'LeechingLife'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"Damage","type":"INC","1":{"type":"Condition","var":"LeechingLife"}}]}
 ```
 
-### 4. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyStunDuration', 'type': 'INC', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'FullLife'}}]
+### 3. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyStunDuration', 'type': 'INC', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'FullLife'}}]
 
 - Match score: `80`
 - `k`: stun_duration_+%_vs_enemies_that_are_on_full_life
@@ -2941,7 +2929,7 @@ _No keyword matches in this index._
 {"k":"stun_duration_+%_vs_enemies_that_are_on_full_life","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyStunDuration', 'type': 'INC', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'FullLife'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"EnemyStunDuration","type":"INC","1":{"actor":"enemy","type":"ActorCondition","var":"FullLife"}}]}
 ```
 
-### 5. [{'flags': 0, 'keywordFlags': 0, 'name': 'MaxLifeLeechRate', 'type': 'INC'}]
+### 4. [{'flags': 0, 'keywordFlags': 0, 'name': 'MaxLifeLeechRate', 'type': 'INC'}]
 
 - Match score: `80`
 - `k`: maximum_life_leech_amount_per_leech_+%
@@ -2953,7 +2941,7 @@ _No keyword matches in this index._
 {"k":"maximum_life_leech_amount_per_leech_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MaxLifeLeechRate', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MaxLifeLeechRate","type":"INC"}]}
 ```
 
-### 6. [{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalMax', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'statList': ['ArmourOnWeapon 2', 'EvasionOnWeapon 2'], 'type': 'PerStat'}}]
+### 5. [{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalMax', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'statList': ['ArmourOnWeapon 2', 'EvasionOnWeapon 2'], 'type': 'PerStat'}}]
 
 - Match score: `80`
 - `k`: off_hand_maximum_added_physical_damage_per_15_shield_armour_and_evasion_rating
@@ -2965,7 +2953,7 @@ _No keyword matches in this index._
 {"k":"off_hand_maximum_added_physical_damage_per_15_shield_armour_and_evasion_rating","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalMax', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'statList': ['ArmourOnWeapon 2', 'EvasionOnWeapon 2'], 'type': 'PerStat'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"PhysicalMax","type":"BASE","1":{"type":"Condition","var":"OffHandAttack"},"2":{"div":15,"statList":["ArmourOnWeapon 2","EvasionOnWeapon 2"],"type":"PerStat"}}]}
 ```
 
-### 7. [{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalMin', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'statList': ['ArmourOnWeapon 2', 'EvasionOnWeapon 2'], 'type': 'PerStat'}}]
+### 6. [{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalMin', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'statList': ['ArmourOnWeapon 2', 'EvasionOnWeapon 2'], 'type': 'PerStat'}}]
 
 - Match score: `80`
 - `k`: off_hand_minimum_added_physical_damage_per_15_shield_armour_and_evasion_rating
@@ -2977,7 +2965,7 @@ _No keyword matches in this index._
 {"k":"off_hand_minimum_added_physical_damage_per_15_shield_armour_and_evasion_rating","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'PhysicalMin', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'statList': ['ArmourOnWeapon 2', 'EvasionOnWeapon 2'], 'type': 'PerStat'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"PhysicalMin","type":"BASE","1":{"type":"Condition","var":"OffHandAttack"},"2":{"div":15,"statList":["ArmourOnWeapon 2","EvasionOnWeapon 2"],"type":"PerStat"}}]}
 ```
 
-### 8. [{'flags': 0, 'keywordFlags': 0, 'name': 'SelfDamageLifeLeech', 'type': 'BASE'}]
+### 7. [{'flags': 0, 'keywordFlags': 0, 'name': 'SelfDamageLifeLeech', 'type': 'BASE'}]
 
 - Match score: `80`
 - `k`: life_leech_on_any_damage_when_hit_permyriad
@@ -2989,7 +2977,7 @@ _No keyword matches in this index._
 {"k":"life_leech_on_any_damage_when_hit_permyriad","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SelfDamageLifeLeech', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SelfDamageLifeLeech","type":"BASE"}]}
 ```
 
-### 9. [{'flags': 0, 'keywordFlags': 0, 'name': 'StunRecovery', 'type': 'INC'}]
+### 8. [{'flags': 0, 'keywordFlags': 0, 'name': 'StunRecovery', 'type': 'INC'}]
 
 - Match score: `80`
 - `k`: base_stun_recovery_+%
@@ -3001,7 +2989,7 @@ _No keyword matches in this index._
 {"k":"base_stun_recovery_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'StunRecovery', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"StunRecovery","type":"INC"}]}
 ```
 
-### 10. [{'flags': {'type': 'Condition', 'var': 'Leeching'}, 'keywordFlags': 0, 'name': 'AvoidStun', 'type': 'BASE', 'value': 100}]
+### 9. [{'flags': {'type': 'Condition', 'var': 'Leeching'}, 'keywordFlags': 0, 'name': 'AvoidStun', 'type': 'BASE', 'value': 100}]
 
 - Match score: `80`
 - `k`: cannot_be_stunned_while_leeching
@@ -3013,7 +3001,7 @@ _No keyword matches in this index._
 {"k":"cannot_be_stunned_while_leeching","n":"[{'flags': {'type': 'Condition', 'var': 'Leeching'}, 'keywordFlags': 0, 'name': 'AvoidStun', 'type': 'BASE', 'value': 100}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":{"type":"Condition","var":"Leeching"},"keywordFlags":0,"name":"AvoidStun","type":"BASE","value":100}]}
 ```
 
-### 11. base_life_leech_from_attack_damage_permyriad
+### 10. base_life_leech_from_attack_damage_permyriad
 
 - Match score: `80`
 - `k`: base_life_leech_from_attack_damage_permyriad
@@ -3025,7 +3013,7 @@ _No keyword matches in this index._
 {"k":"base_life_leech_from_attack_damage_permyriad","n":"base_life_leech_from_attack_damage_permyriad","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 12. base_life_leech_from_chaos_damage_permyriad
+### 11. base_life_leech_from_chaos_damage_permyriad
 
 - Match score: `80`
 - `k`: base_life_leech_from_chaos_damage_permyriad
@@ -3037,19 +3025,7 @@ _No keyword matches in this index._
 {"k":"base_life_leech_from_chaos_damage_permyriad","n":"base_life_leech_from_chaos_damage_permyriad","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 13. base_life_leech_from_physical_attack_damage_permyriad
-
-- Match score: `80`
-- `k`: base_life_leech_from_physical_attack_damage_permyriad
-- `n`: base_life_leech_from_physical_attack_damage_permyriad
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"base_life_leech_from_physical_attack_damage_permyriad","n":"base_life_leech_from_physical_attack_damage_permyriad","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
-```
-
-### 14. base_life_regeneration_rate_per_minute
+### 12. base_life_regeneration_rate_per_minute
 
 - Match score: `80`
 - `k`: base_life_regeneration_rate_per_minute
@@ -3061,7 +3037,7 @@ _No keyword matches in this index._
 {"k":"base_life_regeneration_rate_per_minute","n":"base_life_regeneration_rate_per_minute","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 15. life_leech_from_any_damage_permyriad
+### 13. life_leech_from_any_damage_permyriad
 
 - Match score: `80`
 - `k`: life_leech_from_any_damage_permyriad
@@ -3073,7 +3049,19 @@ _No keyword matches in this index._
 {"k":"life_leech_from_any_damage_permyriad","n":"life_leech_from_any_damage_permyriad","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 16. life_regeneration_rate_per_minute_%
+### 14. life_leech_from_physical_attack_damage_permyriad
+
+- Match score: `80`
+- `k`: life_leech_from_physical_attack_damage_permyriad
+- `n`: life_leech_from_physical_attack_damage_permyriad
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"life_leech_from_physical_attack_damage_permyriad","n":"life_leech_from_physical_attack_damage_permyriad","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
+```
+
+### 15. life_regeneration_rate_per_minute_%
 
 - Match score: `80`
 - `k`: life_regeneration_rate_per_minute_%
@@ -3085,7 +3073,7 @@ _No keyword matches in this index._
 {"k":"life_regeneration_rate_per_minute_%","n":"life_regeneration_rate_per_minute_%","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 17. minion_life_leech_from_elemental_damage_permyriad
+### 16. minion_life_leech_from_elemental_damage_permyriad
 
 - Match score: `80`
 - `k`: minion_life_leech_from_elemental_damage_permyriad
@@ -3097,7 +3085,7 @@ _No keyword matches in this index._
 {"k":"minion_life_leech_from_elemental_damage_permyriad","n":"minion_life_leech_from_elemental_damage_permyriad","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 18. minion_life_regeneration_rate_per_minute_%
+### 17. minion_life_regeneration_rate_per_minute_%
 
 - Match score: `80`
 - `k`: minion_life_regeneration_rate_per_minute_%
@@ -3109,7 +3097,7 @@ _No keyword matches in this index._
 {"k":"minion_life_regeneration_rate_per_minute_%","n":"minion_life_regeneration_rate_per_minute_%","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 19. totems_regenerate_%_life_per_minute
+### 18. totems_regenerate_%_life_per_minute
 
 - Match score: `80`
 - `k`: totems_regenerate_%_life_per_minute
@@ -3121,7 +3109,7 @@ _No keyword matches in this index._
 {"k":"totems_regenerate_%_life_per_minute","n":"totems_regenerate_%_life_per_minute","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json"}
 ```
 
-### 20. ABTTTwilightOrderGuardBossSkyBeam
+### 19. ABTTTwilightOrderGuardBossSkyBeam
 
 - Match score: `70`
 - `k`: ABTTTwilightOrderGuardBossSkyBeam
@@ -3134,7 +3122,7 @@ _No keyword matches in this index._
 {"k":"ABTTTwilightOrderGuardBossSkyBeam","n":"ABTTTwilightOrderGuardBossSkyBeam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 21. BaronBossMapShapeShiftFromWolf
+### 20. BaronBossMapShapeShiftFromWolf
 
 - Match score: `70`
 - `k`: BaronBossMapShapeShiftFromWolf
@@ -3147,7 +3135,7 @@ _No keyword matches in this index._
 {"k":"BaronBossMapShapeShiftFromWolf","n":"BaronBossMapShapeShiftFromWolf","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 22. BaronBossMapShapeShiftToWolf
+### 21. BaronBossMapShapeShiftToWolf
 
 - Match score: `70`
 - `k`: BaronBossMapShapeShiftToWolf
@@ -3160,7 +3148,7 @@ _No keyword matches in this index._
 {"k":"BaronBossMapShapeShiftToWolf","n":"BaronBossMapShapeShiftToWolf","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 23. DTTTwilightGuardBossLeap
+### 22. DTTTwilightGuardBossLeap
 
 - Match score: `70`
 - `k`: DTTTwilightGuardBossLeap
@@ -3173,7 +3161,7 @@ _No keyword matches in this index._
 {"k":"DTTTwilightGuardBossLeap","n":"DTTTwilightGuardBossLeap","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 24. DTTTwilightGuardBossLeapHoly
+### 23. DTTTwilightGuardBossLeapHoly
 
 - Match score: `70`
 - `k`: DTTTwilightGuardBossLeapHoly
@@ -3186,7 +3174,7 @@ _No keyword matches in this index._
 {"k":"DTTTwilightGuardBossLeapHoly","n":"DTTTwilightGuardBossLeapHoly","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 25. EASKaruiCaptainBoss2AkoyaStun
+### 24. EASKaruiCaptainBoss2AkoyaStun
 
 - Match score: `70`
 - `k`: EASKaruiCaptainBoss2AkoyaStun
@@ -3199,7 +3187,7 @@ _No keyword matches in this index._
 {"k":"EASKaruiCaptainBoss2AkoyaStun","n":"EASKaruiCaptainBoss2AkoyaStun","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 26. EASTwilightGuardBossAxeToss
+### 25. EASTwilightGuardBossAxeToss
 
 - Match score: `70`
 - `k`: EASTwilightGuardBossAxeToss
@@ -3212,7 +3200,7 @@ _No keyword matches in this index._
 {"k":"EASTwilightGuardBossAxeToss","n":"EASTwilightGuardBossAxeToss","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 27. EASTwilightGuardBossBoulderToss
+### 26. EASTwilightGuardBossBoulderToss
 
 - Match score: `70`
 - `k`: EASTwilightGuardBossBoulderToss
@@ -3225,7 +3213,7 @@ _No keyword matches in this index._
 {"k":"EASTwilightGuardBossBoulderToss","n":"EASTwilightGuardBossBoulderToss","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 28. EASTwilightOrderGuardBossSkybeam
+### 27. EASTwilightOrderGuardBossSkybeam
 
 - Match score: `70`
 - `k`: EASTwilightOrderGuardBossSkybeam
@@ -3238,7 +3226,7 @@ _No keyword matches in this index._
 {"k":"EASTwilightOrderGuardBossSkybeam","n":"EASTwilightOrderGuardBossSkybeam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 29. GAScorpionBossLeapDiveMap
+### 28. GAScorpionBossLeapDiveMap
 
 - Match score: `70`
 - `k`: GAScorpionBossLeapDiveMap
@@ -3251,7 +3239,7 @@ _No keyword matches in this index._
 {"k":"GAScorpionBossLeapDiveMap","n":"GAScorpionBossLeapDiveMap","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 30. GATwilightGuardBossAxeTossImpact
+### 29. GATwilightGuardBossAxeTossImpact
 
 - Match score: `70`
 - `k`: GATwilightGuardBossAxeTossImpact
@@ -3264,7 +3252,7 @@ _No keyword matches in this index._
 {"k":"GATwilightGuardBossAxeTossImpact","n":"GATwilightGuardBossAxeTossImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 31. GATwilightGuardBossAxeTossMegaSpike
+### 30. GATwilightGuardBossAxeTossMegaSpike
 
 - Match score: `70`
 - `k`: GATwilightGuardBossAxeTossMegaSpike
@@ -3277,7 +3265,7 @@ _No keyword matches in this index._
 {"k":"GATwilightGuardBossAxeTossMegaSpike","n":"GATwilightGuardBossAxeTossMegaSpike","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 32. GATwilightGuardBossAxeTossMiniSpike
+### 31. GATwilightGuardBossAxeTossMiniSpike
 
 - Match score: `70`
 - `k`: GATwilightGuardBossAxeTossMiniSpike
@@ -3290,7 +3278,7 @@ _No keyword matches in this index._
 {"k":"GATwilightGuardBossAxeTossMiniSpike","n":"GATwilightGuardBossAxeTossMiniSpike","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 33. GATwilightGuardBossAxeTossPillarExplode
+### 32. GATwilightGuardBossAxeTossPillarExplode
 
 - Match score: `70`
 - `k`: GATwilightGuardBossAxeTossPillarExplode
@@ -3303,7 +3291,7 @@ _No keyword matches in this index._
 {"k":"GATwilightGuardBossAxeTossPillarExplode","n":"GATwilightGuardBossAxeTossPillarExplode","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 34. GATwilightGuardBossBoulderImpact
+### 33. GATwilightGuardBossBoulderImpact
 
 - Match score: `70`
 - `k`: GATwilightGuardBossBoulderImpact
@@ -3316,7 +3304,7 @@ _No keyword matches in this index._
 {"k":"GATwilightGuardBossBoulderImpact","n":"GATwilightGuardBossBoulderImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 35. GATwilightGuardBossLeapDelayedImpact
+### 34. GATwilightGuardBossLeapDelayedImpact
 
 - Match score: `70`
 - `k`: GATwilightGuardBossLeapDelayedImpact
@@ -3329,7 +3317,7 @@ _No keyword matches in this index._
 {"k":"GATwilightGuardBossLeapDelayedImpact","n":"GATwilightGuardBossLeapDelayedImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 36. GATwilightGuardBossLeapImpact
+### 35. GATwilightGuardBossLeapImpact
 
 - Match score: `70`
 - `k`: GATwilightGuardBossLeapImpact
@@ -3342,7 +3330,7 @@ _No keyword matches in this index._
 {"k":"GATwilightGuardBossLeapImpact","n":"GATwilightGuardBossLeapImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 37. GATwilightOrderGuardBossAxeShockwave1
+### 36. GATwilightOrderGuardBossAxeShockwave1
 
 - Match score: `70`
 - `k`: GATwilightOrderGuardBossAxeShockwave1
@@ -3355,7 +3343,7 @@ _No keyword matches in this index._
 {"k":"GATwilightOrderGuardBossAxeShockwave1","n":"GATwilightOrderGuardBossAxeShockwave1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 38. GATwilightOrderGuardBossAxeShockwave2
+### 37. GATwilightOrderGuardBossAxeShockwave2
 
 - Match score: `70`
 - `k`: GATwilightOrderGuardBossAxeShockwave2
@@ -3368,7 +3356,7 @@ _No keyword matches in this index._
 {"k":"GATwilightOrderGuardBossAxeShockwave2","n":"GATwilightOrderGuardBossAxeShockwave2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 39. GATwilightOrderGuardBossAxeShockwave3
+### 38. GATwilightOrderGuardBossAxeShockwave3
 
 - Match score: `70`
 - `k`: GATwilightOrderGuardBossAxeShockwave3
@@ -3381,7 +3369,7 @@ _No keyword matches in this index._
 {"k":"GATwilightOrderGuardBossAxeShockwave3","n":"GATwilightOrderGuardBossAxeShockwave3","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 40. GATwilightOrderGuardBossComboAftershock
+### 39. GATwilightOrderGuardBossComboAftershock
 
 - Match score: `70`
 - `k`: GATwilightOrderGuardBossComboAftershock
@@ -3394,7 +3382,7 @@ _No keyword matches in this index._
 {"k":"GATwilightOrderGuardBossComboAftershock","n":"GATwilightOrderGuardBossComboAftershock","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 41. GATwilightOrderGuardBossHolyBoulderExplosion
+### 40. GATwilightOrderGuardBossHolyBoulderExplosion
 
 - Match score: `70`
 - `k`: GATwilightOrderGuardBossHolyBoulderExplosion
@@ -3407,7 +3395,7 @@ _No keyword matches in this index._
 {"k":"GATwilightOrderGuardBossHolyBoulderExplosion","n":"GATwilightOrderGuardBossHolyBoulderExplosion","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 42. GTTwilightGuardBossAxeTossSpikes
+### 41. GTTwilightGuardBossAxeTossSpikes
 
 - Match score: `70`
 - `k`: GTTwilightGuardBossAxeTossSpikes
@@ -3420,7 +3408,7 @@ _No keyword matches in this index._
 {"k":"GTTwilightGuardBossAxeTossSpikes","n":"GTTwilightGuardBossAxeTossSpikes","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 43. GTTwilightOrderGuardBossWallCreation
+### 42. GTTwilightOrderGuardBossWallCreation
 
 - Match score: `70`
 - `k`: GTTwilightOrderGuardBossWallCreation
@@ -3433,46 +3421,20 @@ _No keyword matches in this index._
 {"k":"GTTwilightOrderGuardBossWallCreation","n":"GTTwilightOrderGuardBossWallCreation","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 44. Life Leech I
+### 43. Life Leech
 
 - Match score: `70`
-- `k`: Metadata/Items/Gems/SkillGemLifeLeechSupport
-- `n`: Life Leech I
+- `k`: Metadata/Items/Gems/SkillGemSupportLifeLeech
+- `n`: Life Leech
 - `cat`: pob_gems
 - `src`: pob_data_poe2/Gems.json
-- `tags`: {"attack":true,"physical":true,"support":true}
+- `tags`: {"strength":true,"support":true}
 
 ```json
-{"k":"Metadata/Items/Gems/SkillGemLifeLeechSupport","n":"Life Leech I","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"attack":true,"physical":true,"support":true}}
+{"k":"Metadata/Items/Gems/SkillGemSupportLifeLeech","n":"Life Leech","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"strength":true,"support":true}}
 ```
 
-### 45. Life Leech II
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SkillGemLifeLeechSupportTwo
-- `n`: Life Leech II
-- `cat`: pob_gems
-- `src`: pob_data_poe2/Gems.json
-- `tags`: {"attack":true,"physical":true,"support":true}
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemLifeLeechSupportTwo","n":"Life Leech II","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"attack":true,"physical":true,"support":true}}
-```
-
-### 46. Life Leech III
-
-- Match score: `70`
-- `k`: Metadata/Items/Gems/SkillGemLifeLeechSupportThree
-- `n`: Life Leech III
-- `cat`: pob_gems
-- `src`: pob_data_poe2/Gems.json
-- `tags`: {"attack":true,"physical":true,"support":true}
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemLifeLeechSupportThree","n":"Life Leech III","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"attack":true,"physical":true,"support":true}}
-```
-
-### 47. MAASTwilightGuardBossCombo
+### 44. MAASTwilightGuardBossCombo
 
 - Match score: `70`
 - `k`: MAASTwilightGuardBossCombo
@@ -3485,7 +3447,7 @@ _No keyword matches in this index._
 {"k":"MAASTwilightGuardBossCombo","n":"MAASTwilightGuardBossCombo","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 48. MAASTwilightGuardBossComboHoly
+### 45. MAASTwilightGuardBossComboHoly
 
 - Match score: `70`
 - `k`: MAASTwilightGuardBossComboHoly
@@ -3498,7 +3460,7 @@ _No keyword matches in this index._
 {"k":"MAASTwilightGuardBossComboHoly","n":"MAASTwilightGuardBossComboHoly","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 49. MAASTwilightOrderGuardBossCyclone
+### 46. MAASTwilightOrderGuardBossCyclone
 
 - Match score: `70`
 - `k`: MAASTwilightOrderGuardBossCyclone
@@ -3511,7 +3473,7 @@ _No keyword matches in this index._
 {"k":"MAASTwilightOrderGuardBossCyclone","n":"MAASTwilightOrderGuardBossCyclone","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 50. MPSHarborGuardBossShieldProj
+### 47. MPSHarborGuardBossShieldProj
 
 - Match score: `70`
 - `k`: MPSHarborGuardBossShieldProj
@@ -3524,7 +3486,7 @@ _No keyword matches in this index._
 {"k":"MPSHarborGuardBossShieldProj","n":"MPSHarborGuardBossShieldProj","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 51. MPWTwilightGuardBossAxe
+### 48. MPWTwilightGuardBossAxe
 
 - Match score: `70`
 - `k`: MPWTwilightGuardBossAxe
@@ -3537,7 +3499,7 @@ _No keyword matches in this index._
 {"k":"MPWTwilightGuardBossAxe","n":"MPWTwilightGuardBossAxe","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 52. MPWTwilightGuardBossAxeHoly
+### 49. MPWTwilightGuardBossAxeHoly
 
 - Match score: `70`
 - `k`: MPWTwilightGuardBossAxeHoly
@@ -3550,7 +3512,7 @@ _No keyword matches in this index._
 {"k":"MPWTwilightGuardBossAxeHoly","n":"MPWTwilightGuardBossAxeHoly","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 53. MPWTwilightGuardBossAxeHolyTriggered
+### 50. MPWTwilightGuardBossAxeHolyTriggered
 
 - Match score: `70`
 - `k`: MPWTwilightGuardBossAxeHolyTriggered
@@ -3563,7 +3525,7 @@ _No keyword matches in this index._
 {"k":"MPWTwilightGuardBossAxeHolyTriggered","n":"MPWTwilightGuardBossAxeHolyTriggered","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 54. MPWTwilightGuardBossBoulder
+### 51. MPWTwilightGuardBossBoulder
 
 - Match score: `70`
 - `k`: MPWTwilightGuardBossBoulder
@@ -3576,7 +3538,7 @@ _No keyword matches in this index._
 {"k":"MPWTwilightGuardBossBoulder","n":"MPWTwilightGuardBossBoulder","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 55. MPWTwilightGuardBossBoulderHoly
+### 52. MPWTwilightGuardBossBoulderHoly
 
 - Match score: `70`
 - `k`: MPWTwilightGuardBossBoulderHoly
@@ -3589,7 +3551,7 @@ _No keyword matches in this index._
 {"k":"MPWTwilightGuardBossBoulderHoly","n":"MPWTwilightGuardBossBoulderHoly","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 56. MPWTwilightOrderGuardBossTwinAxe
+### 53. MPWTwilightOrderGuardBossTwinAxe
 
 - Match score: `70`
 - `k`: MPWTwilightOrderGuardBossTwinAxe
@@ -3602,7 +3564,7 @@ _No keyword matches in this index._
 {"k":"MPWTwilightOrderGuardBossTwinAxe","n":"MPWTwilightOrderGuardBossTwinAxe","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 57. ProtoVaalMapBossProjectileSanctum
+### 54. ProtoVaalMapBossProjectileSanctum
 
 - Match score: `70`
 - `k`: ProtoVaalMapBossProjectileSanctum
@@ -3615,7 +3577,7 @@ _No keyword matches in this index._
 {"k":"ProtoVaalMapBossProjectileSanctum","n":"ProtoVaalMapBossProjectileSanctum","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 58. ProtoVaalMapBossVolatileExplodeSanctum
+### 55. ProtoVaalMapBossVolatileExplodeSanctum
 
 - Match score: `70`
 - `k`: ProtoVaalMapBossVolatileExplodeSanctum
@@ -3628,7 +3590,7 @@ _No keyword matches in this index._
 {"k":"ProtoVaalMapBossVolatileExplodeSanctum","n":"ProtoVaalMapBossVolatileExplodeSanctum","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 59. ProtoVaalMapBossVolatileProjectileSanctum
+### 56. ProtoVaalMapBossVolatileProjectileSanctum
 
 - Match score: `70`
 - `k`: ProtoVaalMapBossVolatileProjectileSanctum
@@ -3641,7 +3603,7 @@ _No keyword matches in this index._
 {"k":"ProtoVaalMapBossVolatileProjectileSanctum","n":"ProtoVaalMapBossVolatileProjectileSanctum","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 60. ProtoVaalMapBossVolatileSummonSanctum
+### 57. ProtoVaalMapBossVolatileSummonSanctum
 
 - Match score: `70`
 - `k`: ProtoVaalMapBossVolatileSummonSanctum
@@ -3654,7 +3616,7 @@ _No keyword matches in this index._
 {"k":"ProtoVaalMapBossVolatileSummonSanctum","n":"ProtoVaalMapBossVolatileSummonSanctum","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 61. SOTwilightOrderGuardBossHolyWall
+### 58. SOTwilightOrderGuardBossHolyWall
 
 - Match score: `70`
 - `k`: SOTwilightOrderGuardBossHolyWall
@@ -3667,7 +3629,7 @@ _No keyword matches in this index._
 {"k":"SOTwilightOrderGuardBossHolyWall","n":"SOTwilightOrderGuardBossHolyWall","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 62. SSMDredgeFiendShamanBossZombieDefense
+### 59. SSMDredgeFiendShamanBossZombieDefense
 
 - Match score: `70`
 - `k`: SSMDredgeFiendShamanBossZombieDefense
@@ -3680,7 +3642,7 @@ _No keyword matches in this index._
 {"k":"SSMDredgeFiendShamanBossZombieDefense","n":"SSMDredgeFiendShamanBossZombieDefense","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 63. SSMTwilightOrderGuardBossSkyBeam
+### 60. SSMTwilightOrderGuardBossSkyBeam
 
 - Match score: `70`
 - `k`: SSMTwilightOrderGuardBossSkyBeam
@@ -3693,7 +3655,20 @@ _No keyword matches in this index._
 {"k":"SSMTwilightOrderGuardBossSkyBeam","n":"SSMTwilightOrderGuardBossSkyBeam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 64. SupportLifeLeechPlayer
+### 61. Summon Stone Golem of Safeguarding
+
+- Match score: `70`
+- `k`: Metadata/Items/Gems/SkillGemSummonStoneGolemAltY
+- `n`: Summon Stone Golem of Safeguarding
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"golem":true,"grants_active_skill":true,"minion":true,"physical":true,"spell":true,"strength":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemSummonStoneGolemAltY","n":"Summon Stone Golem of Safeguarding","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"golem":true,"grants_active_skill":true,"minion":true,"physical":true,"spell":true,"strength":true}}
+```
+
+### 62. SupportLifeLeechPlayer
 
 - Match score: `70`
 - `k`: SupportLifeLeechPlayer
@@ -3707,7 +3682,7 @@ _No keyword matches in this index._
 {"k":"SupportLifeLeechPlayer","n":"SupportLifeLeechPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 65. SupportLifeLeechPlayerThree
+### 63. SupportLifeLeechPlayerThree
 
 - Match score: `70`
 - `k`: SupportLifeLeechPlayerThree
@@ -3721,7 +3696,7 @@ _No keyword matches in this index._
 {"k":"SupportLifeLeechPlayerThree","n":"SupportLifeLeechPlayerThree","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 66. SupportLifeLeechPlayerTwo
+### 64. SupportLifeLeechPlayerTwo
 
 - Match score: `70`
 - `k`: SupportLifeLeechPlayerTwo
@@ -3735,7 +3710,7 @@ _No keyword matches in this index._
 {"k":"SupportLifeLeechPlayerTwo","n":"SupportLifeLeechPlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 67. [{'flags': 0, 'keywordFlags': 0, 'name': 'Accuracy', 'type': 'INC', '1': {'type': 'Condition', 'var': 'LowLife'}}]
+### 65. [{'flags': 0, 'keywordFlags': 0, 'name': 'Accuracy', 'type': 'INC', '1': {'type': 'Condition', 'var': 'LowLife'}}]
 
 - Match score: `45`
 - `k`: accuracy_rating_+%_when_on_low_life
@@ -3747,19 +3722,7 @@ _No keyword matches in this index._
 {"k":"accuracy_rating_+%_when_on_low_life","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'Accuracy', 'type': 'INC', '1': {'type': 'Condition', 'var': 'LowLife'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"Accuracy","type":"INC","1":{"type":"Condition","var":"LowLife"}}]}
 ```
 
-### 68. [{'flags': 0, 'keywordFlags': 0, 'name': 'AilmentEffect', 'type': 'INC'}]
-
-- Match score: `45`
-- `k`: base_poison_effect_+%
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'AilmentEffect', 'type': 'INC'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"base_poison_effect_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'AilmentEffect', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"AilmentEffect","type":"INC"}]}
-```
-
-### 69. [{'flags': 0, 'keywordFlags': 0, 'name': 'Armour', 'type': 'BASE'}]
+### 66. [{'flags': 0, 'keywordFlags': 0, 'name': 'Armour', 'type': 'BASE'}]
 
 - Match score: `45`
 - `k`: base_physical_damage_reduction_rating
@@ -3771,7 +3734,7 @@ _No keyword matches in this index._
 {"k":"base_physical_damage_reduction_rating","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'Armour', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"Armour","type":"BASE"}]}
 ```
 
-### 70. [{'flags': 0, 'keywordFlags': 0, 'name': 'Armour', 'type': 'INC'}]
+### 67. [{'flags': 0, 'keywordFlags': 0, 'name': 'Armour', 'type': 'INC'}]
 
 - Match score: `45`
 - `k`: physical_damage_reduction_rating_+%
@@ -3783,7 +3746,7 @@ _No keyword matches in this index._
 {"k":"physical_damage_reduction_rating_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'Armour', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"Armour","type":"INC"}]}
 ```
 
-### 71. [{'flags': 0, 'keywordFlags': 0, 'name': 'AvoidInterruptStun', 'type': 'BASE'}]
+### 68. [{'flags': 0, 'keywordFlags': 0, 'name': 'AvoidInterruptStun', 'type': 'BASE'}]
 
 - Match score: `45`
 - `k`: avoid_interruption_while_using_this_skill_%
@@ -3795,7 +3758,7 @@ _No keyword matches in this index._
 {"k":"avoid_interruption_while_using_this_skill_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'AvoidInterruptStun', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"AvoidInterruptStun","type":"BASE"}]}
 ```
 
-### 72. [{'flags': 0, 'keywordFlags': 0, 'name': 'AvoidStun', 'type': 'BASE'}]
+### 69. [{'flags': 0, 'keywordFlags': 0, 'name': 'AvoidStun', 'type': 'BASE'}]
 
 - Match score: `45`
 - `k`: base_avoid_stun_%
@@ -3807,19 +3770,7 @@ _No keyword matches in this index._
 {"k":"base_avoid_stun_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'AvoidStun', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"AvoidStun","type":"BASE"}]}
 ```
 
-### 73. [{'flags': 0, 'keywordFlags': 0, 'name': 'BleedChance', 'type': 'INC', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'FullLife'}}]
-
-- Match score: `45`
-- `k`: bleed_chance_+%_vs_full_life_enemy
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'BleedChance', 'type': 'INC', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'FullLife'}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"bleed_chance_+%_vs_full_life_enemy","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'BleedChance', 'type': 'INC', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'FullLife'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"BleedChance","type":"INC","1":{"actor":"enemy","type":"ActorCondition","var":"FullLife"}}]}
-```
-
-### 74. [{'flags': 0, 'keywordFlags': 0, 'name': 'BlockChance', 'type': 'BASE'}]
+### 70. [{'flags': 0, 'keywordFlags': 0, 'name': 'BlockChance', 'type': 'BASE'}]
 
 - Match score: `45`
 - `k`: monster_base_block_%
@@ -3831,19 +3782,7 @@ _No keyword matches in this index._
 {"k":"monster_base_block_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'BlockChance', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"BlockChance","type":"BASE"}]}
 ```
 
-### 75. [{'flags': 0, 'keywordFlags': 0, 'name': 'BlockChanceMax', 'type': 'BASE'}]
-
-- Match score: `45`
-- `k`: additional_maximum_block_%
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'BlockChanceMax', 'type': 'BASE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"additional_maximum_block_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'BlockChanceMax', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"BlockChanceMax","type":"BASE"}]}
-```
-
-### 76. [{'flags': 0, 'keywordFlags': 0, 'name': 'BlockEffect', 'type': 'BASE'}]
+### 71. [{'flags': 0, 'keywordFlags': 0, 'name': 'BlockEffect', 'type': 'BASE'}]
 
 - Match score: `45`
 - `k`: base_block_%_damage_taken
@@ -3855,43 +3794,7 @@ _No keyword matches in this index._
 {"k":"base_block_%_damage_taken","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'BlockEffect', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"BlockEffect","type":"BASE"}]}
 ```
 
-### 77. [{'flags': 0, 'keywordFlags': 0, 'name': 'BreachFlameManaLeech', 'type': 'BASE'}]
-
-- Match score: `45`
-- `k`: breach_flame_mana_leech_%
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'BreachFlameManaLeech', 'type': 'BASE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"breach_flame_mana_leech_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'BreachFlameManaLeech', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"BreachFlameManaLeech","type":"BASE"}]}
-```
-
-### 78. [{'flags': 0, 'keywordFlags': 0, 'name': 'CannotArmourBreak', 'type': 'FLAG', 'value': True}]
-
-- Match score: `45`
-- `k`: cannot_break_armour
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'CannotArmourBreak', 'type': 'FLAG', 'value': True}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"cannot_break_armour","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CannotArmourBreak', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CannotArmourBreak","type":"FLAG","value":true}]}
-```
-
-### 79. [{'flags': 0, 'keywordFlags': 0, 'name': 'CannotHeavyStun', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotStun', 'type': 'FLAG', 'value': True}]
-
-- Match score: `45`
-- `k`: cannot_stun
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'CannotHeavyStun', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotStun', 'type': 'FLAG', 'value': True}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"cannot_stun","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CannotHeavyStun', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'CannotStun', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CannotHeavyStun","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"CannotStun","type":"FLAG","value":true}]}
-```
-
-### 80. [{'flags': 0, 'keywordFlags': 0, 'name': 'ColdMax', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'stat': 'EvasionOnWeapon 2', 'type': 'PerStat'}}]
+### 72. [{'flags': 0, 'keywordFlags': 0, 'name': 'ColdMax', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'stat': 'EvasionOnWeapon 2', 'type': 'PerStat'}}]
 
 - Match score: `45`
 - `k`: off_hand_maximum_added_cold_damage_per_15_shield_evasion
@@ -3903,7 +3806,7 @@ _No keyword matches in this index._
 {"k":"off_hand_maximum_added_cold_damage_per_15_shield_evasion","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'ColdMax', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'stat': 'EvasionOnWeapon 2', 'type': 'PerStat'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"ColdMax","type":"BASE","1":{"type":"Condition","var":"OffHandAttack"},"2":{"div":15,"stat":"EvasionOnWeapon 2","type":"PerStat"}}]}
 ```
 
-### 81. [{'flags': 0, 'keywordFlags': 0, 'name': 'ColdMin', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'stat': 'EvasionOnWeapon 2', 'type': 'PerStat'}}]
+### 73. [{'flags': 0, 'keywordFlags': 0, 'name': 'ColdMin', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'stat': 'EvasionOnWeapon 2', 'type': 'PerStat'}}]
 
 - Match score: `45`
 - `k`: off_hand_minimum_added_cold_damage_per_15_shield_evasion
@@ -3915,67 +3818,7 @@ _No keyword matches in this index._
 {"k":"off_hand_minimum_added_cold_damage_per_15_shield_evasion","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'ColdMin', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'stat': 'EvasionOnWeapon 2', 'type': 'PerStat'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"ColdMin","type":"BASE","1":{"type":"Condition","var":"OffHandAttack"},"2":{"div":15,"stat":"EvasionOnWeapon 2","type":"PerStat"}}]}
 ```
 
-### 82. [{'flags': 0, 'keywordFlags': 0, 'name': 'Condition:CanArmourBreak', 'type': 'FLAG', 'value': True, '1': {'effectName': 'ArmourBreak', 'effectType': 'Buff', 'type': 'GlobalEffect'}, '2': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Crushed'}}]
-
-- Match score: `45`
-- `k`: crushed_target_%_physical_damage_taken_as_armour_break
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'Condition:CanArmourBreak', 'type': 'FLAG', 'value': True, '1': {'effectName': 'ArmourBreak', 'effectType': 'Buff', 'type': 'GlobalEffect'}, '2': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Crushed'}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"crushed_target_%_physical_damage_taken_as_armour_break","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'Condition:CanArmourBreak', 'type': 'FLAG', 'value': True, '1': {'effectName': 'ArmourBreak', 'effectType': 'Buff', 'type': 'GlobalEffect'}, '2': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Crushed'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"Condition:CanArmourBreak","type":"FLAG","value":true,"1":{"effectName":"ArmourBreak","effectType":"Buff","type":"GlobalEffect"},"2":{"actor":"enemy","type":"ActorCondition","var":"Crushed"}}]}
-```
-
-### 83. [{'flags': 0, 'keywordFlags': 0, 'name': 'Condition:CanArmourBreak', 'type': 'FLAG', 'value': True, '1': {'effectName': 'ArmourBreak', 'effectType': 'Buff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ArmourBreakPerHit', 'type': 'BASE'}]
-
-- Match score: `45`
-- `k`: apply_X_armour_break_on_hit
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'Condition:CanArmourBreak', 'type': 'FLAG', 'value': True, '1': {'effectName': 'ArmourBreak', 'effectType': 'Buff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ArmourBreakPerHit', 'type': 'BASE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"apply_X_armour_break_on_hit","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'Condition:CanArmourBreak', 'type': 'FLAG', 'value': True, '1': {'effectName': 'ArmourBreak', 'effectType': 'Buff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ArmourBreakPerHit', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"Condition:CanArmourBreak","type":"FLAG","value":true,"1":{"effectName":"ArmourBreak","effectType":"Buff","type":"GlobalEffect"}},{"flags":0,"keywordFlags":0,"name":"ArmourBreakPerHit","type":"BASE"}]}
-```
-
-### 84. [{'flags': 0, 'keywordFlags': 0, 'name': 'Condition:CanArmourBreak', 'type': 'FLAG', 'value': True, '1': {'effectName': 'ArmourBreak', 'effectType': 'Buff', 'type': 'GlobalEffect'}}]
-
-- Match score: `45`
-- `k`: armour_break_fire_damage_%_dealt_as_armour_break
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'Condition:CanArmourBreak', 'type': 'FLAG', 'value': True, '1': {'effectName': 'ArmourBreak', 'effectType': 'Buff', 'type': 'GlobalEffect'}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"armour_break_fire_damage_%_dealt_as_armour_break","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'Condition:CanArmourBreak', 'type': 'FLAG', 'value': True, '1': {'effectName': 'ArmourBreak', 'effectType': 'Buff', 'type': 'GlobalEffect'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"Condition:CanArmourBreak","type":"FLAG","value":true,"1":{"effectName":"ArmourBreak","effectType":"Buff","type":"GlobalEffect"}}]}
-```
-
-### 85. [{'flags': 0, 'keywordFlags': 0, 'name': 'Condition:CanArmourBreak', 'type': 'FLAG', 'value': True, '1': {'effectName': 'ArmourBreak', 'effectType': 'Buff', 'type': 'GlobalEffect'}}]
-
-- Match score: `45`
-- `k`: armour_break_physical_damage_%_dealt_as_armour_break
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'Condition:CanArmourBreak', 'type': 'FLAG', 'value': True, '1': {'effectName': 'ArmourBreak', 'effectType': 'Buff', 'type': 'GlobalEffect'}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"armour_break_physical_damage_%_dealt_as_armour_break","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'Condition:CanArmourBreak', 'type': 'FLAG', 'value': True, '1': {'effectName': 'ArmourBreak', 'effectType': 'Buff', 'type': 'GlobalEffect'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"Condition:CanArmourBreak","type":"FLAG","value":true,"1":{"effectName":"ArmourBreak","effectType":"Buff","type":"GlobalEffect"}}]}
-```
-
-### 86. [{'flags': 0, 'keywordFlags': 0, 'name': 'Condition:CanArmourBreak', 'type': 'FLAG', 'value': True, '1': {'effectName': 'ArmourBreak', 'effectType': 'Buff', 'type': 'GlobalEffect'}}]
-
-- Match score: `45`
-- `k`: chaos_damage_%_dealt_as_armour_break
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'Condition:CanArmourBreak', 'type': 'FLAG', 'value': True, '1': {'effectName': 'ArmourBreak', 'effectType': 'Buff', 'type': 'GlobalEffect'}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"chaos_damage_%_dealt_as_armour_break","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'Condition:CanArmourBreak', 'type': 'FLAG', 'value': True, '1': {'effectName': 'ArmourBreak', 'effectType': 'Buff', 'type': 'GlobalEffect'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"Condition:CanArmourBreak","type":"FLAG","value":true,"1":{"effectName":"ArmourBreak","effectType":"Buff","type":"GlobalEffect"}}]}
-```
-
-### 87. [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]
+### 74. [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]
 
 - Match score: `45`
 - `k`: base_cooldown_speed_+%
@@ -3987,7 +3830,7 @@ _No keyword matches in this index._
 {"k":"base_cooldown_speed_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CooldownRecovery","type":"INC"}]}
 ```
 
-### 88. [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]
+### 75. [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]
 
 - Match score: `45`
 - `k`: base_spell_cooldown_speed_+%
@@ -3999,43 +3842,7 @@ _No keyword matches in this index._
 {"k":"base_spell_cooldown_speed_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CooldownRecovery","type":"INC"}]}
 ```
 
-### 89. [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]
-
-- Match score: `45`
-- `k`: grenade_skill_cooldown_speed_+%
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"grenade_skill_cooldown_speed_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CooldownRecovery","type":"INC"}]}
-```
-
-### 90. [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]
-
-- Match score: `45`
-- `k`: support_cooldown_reduction_cooldown_recovery_+%
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"support_cooldown_reduction_cooldown_recovery_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CooldownRecovery","type":"INC"}]}
-```
-
-### 91. [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'MORE'}]
-
-- Match score: `45`
-- `k`: base_cooldown_speed_+%_final
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'MORE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"base_cooldown_speed_+%_final","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'MORE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CooldownRecovery","type":"MORE"}]}
-```
-
-### 92. [{'flags': 0, 'keywordFlags': 0, 'name': 'CorpseLife', 'type': 'INC'}]
+### 76. [{'flags': 0, 'keywordFlags': 0, 'name': 'CorpseLife', 'type': 'INC'}]
 
 - Match score: `45`
 - `k`: maximum_life_+%_for_corpses_you_create
@@ -4047,7 +3854,7 @@ _No keyword matches in this index._
 {"k":"maximum_life_+%_for_corpses_you_create","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CorpseLife', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CorpseLife","type":"INC"}]}
 ```
 
-### 93. [{'flags': 0, 'keywordFlags': 0, 'name': 'CostLifeInsteadOfMana', 'type': 'FLAG', 'value': True}]
+### 77. [{'flags': 0, 'keywordFlags': 0, 'name': 'CostLifeInsteadOfMana', 'type': 'FLAG', 'value': True}]
 
 - Match score: `45`
 - `k`: base_skill_cost_life_instead_of_mana
@@ -4059,7 +3866,7 @@ _No keyword matches in this index._
 {"k":"base_skill_cost_life_instead_of_mana","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CostLifeInsteadOfMana', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CostLifeInsteadOfMana","type":"FLAG","value":true}]}
 ```
 
-### 94. [{'flags': 0, 'keywordFlags': 0, 'name': 'CritChance', 'type': 'INC', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'FullLife'}}]
+### 78. [{'flags': 0, 'keywordFlags': 0, 'name': 'CritChance', 'type': 'INC', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'FullLife'}}]
 
 - Match score: `45`
 - `k`: critical_strike_chance_against_enemies_on_full_life_+%
@@ -4071,7 +3878,7 @@ _No keyword matches in this index._
 {"k":"critical_strike_chance_against_enemies_on_full_life_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'CritChance', 'type': 'INC', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'FullLife'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"CritChance","type":"INC","1":{"actor":"enemy","type":"ActorCondition","var":"FullLife"}}]}
 ```
 
-### 95. [{'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'FullLife'}}]
+### 79. [{'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'FullLife'}}]
 
 - Match score: `45`
 - `k`: damage_+%_when_on_full_life
@@ -4083,7 +3890,7 @@ _No keyword matches in this index._
 {"k":"damage_+%_when_on_full_life","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'FullLife'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"Damage","type":"INC","1":{"type":"Condition","var":"FullLife"}}]}
 ```
 
-### 96. [{'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'LeechingEnergyShield'}}]
+### 80. [{'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'LeechingEnergyShield'}}]
 
 - Match score: `45`
 - `k`: damage_+%_while_es_leeching
@@ -4095,7 +3902,7 @@ _No keyword matches in this index._
 {"k":"damage_+%_while_es_leeching","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'LeechingEnergyShield'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"Damage","type":"INC","1":{"type":"Condition","var":"LeechingEnergyShield"}}]}
 ```
 
-### 97. [{'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'LeechingMana'}}]
+### 81. [{'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'LeechingMana'}}]
 
 - Match score: `45`
 - `k`: damage_+%_while_mana_leeching
@@ -4107,7 +3914,7 @@ _No keyword matches in this index._
 {"k":"damage_+%_while_mana_leeching","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'LeechingMana'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"Damage","type":"INC","1":{"type":"Condition","var":"LeechingMana"}}]}
 ```
 
-### 98. [{'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'LowLife'}}]
+### 82. [{'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'LowLife'}}]
 
 - Match score: `45`
 - `k`: damage_+%_when_on_low_life
@@ -4119,19 +3926,7 @@ _No keyword matches in this index._
 {"k":"damage_+%_when_on_low_life","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'LowLife'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"Damage","type":"INC","1":{"type":"Condition","var":"LowLife"}}]}
 ```
 
-### 99. [{'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'HeavyStunned'}}]
-
-- Match score: `45`
-- `k`: active_skill_damage_+%_final_against_heavy_stunned_enemies
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'HeavyStunned'}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"active_skill_damage_+%_final_against_heavy_stunned_enemies","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'MORE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'HeavyStunned'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"Damage","type":"MORE","1":{"actor":"enemy","type":"ActorCondition","var":"HeavyStunned"}}]}
-```
-
-### 100. [{'flags': 0, 'keywordFlags': 0, 'name': 'DoubleEnemyStunDurationChance', 'type': 'BASE'}]
+### 83. [{'flags': 0, 'keywordFlags': 0, 'name': 'DoubleEnemyStunDurationChance', 'type': 'BASE'}]
 
 - Match score: `45`
 - `k`: chance_to_double_stun_duration_%
@@ -4143,19 +3938,7 @@ _No keyword matches in this index._
 {"k":"chance_to_double_stun_duration_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'DoubleEnemyStunDurationChance', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"DoubleEnemyStunDurationChance","type":"BASE"}]}
 ```
 
-### 101. [{'flags': 0, 'keywordFlags': 0, 'name': 'Duration', 'type': 'MORE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'DamagingAilmentDuration', 'type': 'MORE'}]
-
-- Match score: `45`
-- `k`: support_swift_affliction_skill_effect_and_damaging_ailment_duration_+%_final
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'Duration', 'type': 'MORE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'DamagingAilmentDuration', 'type': 'MORE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"support_swift_affliction_skill_effect_and_damaging_ailment_duration_+%_final","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'Duration', 'type': 'MORE'}, {'flags': 0, 'keywordFlags': 0, 'name': 'DamagingAilmentDuration', 'type': 'MORE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"Duration","type":"MORE"},{"flags":0,"keywordFlags":0,"name":"DamagingAilmentDuration","type":"MORE"}]}
-```
-
-### 102. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyAilmentDuration', 'type': 'INC'}]
+### 84. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyAilmentDuration', 'type': 'INC'}]
 
 - Match score: `45`
 - `k`: base_all_ailment_duration_+%
@@ -4167,19 +3950,7 @@ _No keyword matches in this index._
 {"k":"base_all_ailment_duration_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyAilmentDuration', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"EnemyAilmentDuration","type":"INC"}]}
 ```
 
-### 103. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyAilmentThreshold', 'type': 'INC', '1': {'effectName': 'Overwhelming Presence', 'effectType': 'AuraDebuff', 'type': 'GlobalEffect'}, '2': {'limit': 90, 'neg': True, 'type': 'Limit'}}]
-
-- Match score: `45`
-- `k`: skill_overwhelming_pressure_aura_enemy_ailment_threshold_+%
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyAilmentThreshold', 'type': 'INC', '1': {'effectName': 'Overwhelming Presence', 'effectType': 'AuraDebuff', 'type': 'GlobalEffect'}, '2': {'limit': 90, 'neg': True, 'type': 'Limit'}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"skill_overwhelming_pressure_aura_enemy_ailment_threshold_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyAilmentThreshold', 'type': 'INC', '1': {'effectName': 'Overwhelming Presence', 'effectType': 'AuraDebuff', 'type': 'GlobalEffect'}, '2': {'limit': 90, 'neg': True, 'type': 'Limit'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"EnemyAilmentThreshold","type":"INC","1":{"effectName":"Overwhelming Presence","effectType":"AuraDebuff","type":"GlobalEffect"},"2":{"limit":90,"neg":true,"type":"Limit"}}]}
-```
-
-### 104. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyElementalAilmentDuration', 'type': 'INC'}]
+### 85. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyElementalAilmentDuration', 'type': 'INC'}]
 
 - Match score: `45`
 - `k`: base_elemental_status_ailment_duration_+%
@@ -4191,31 +3962,7 @@ _No keyword matches in this index._
 {"k":"base_elemental_status_ailment_duration_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyElementalAilmentDuration', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"EnemyElementalAilmentDuration","type":"INC"}]}
 ```
 
-### 105. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyHeavyStunBuildup', 'type': 'MORE'}]
-
-- Match score: `45`
-- `k`: active_skill_hit_damage_stun_multiplier_+%_final
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyHeavyStunBuildup', 'type': 'MORE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"active_skill_hit_damage_stun_multiplier_+%_final","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyHeavyStunBuildup', 'type': 'MORE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"EnemyHeavyStunBuildup","type":"MORE"}]}
-```
-
-### 106. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyHeavyStunBuildup', 'type': 'MORE'}]
-
-- Match score: `45`
-- `k`: support_brink_hit_damage_stun_multiplier_+%_final
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyHeavyStunBuildup', 'type': 'MORE'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"support_brink_hit_damage_stun_multiplier_+%_final","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyHeavyStunBuildup', 'type': 'MORE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"EnemyHeavyStunBuildup","type":"MORE"}]}
-```
-
-### 107. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyStunDuration', 'type': 'INC'}]
+### 86. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyStunDuration', 'type': 'INC'}]
 
 - Match score: `45`
 - `k`: base_stun_duration_+%
@@ -4227,19 +3974,7 @@ _No keyword matches in this index._
 {"k":"base_stun_duration_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyStunDuration', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"EnemyStunDuration","type":"INC"}]}
 ```
 
-### 108. [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyStunThreshold', 'type': 'INC', '1': {'effectName': 'Overwhelming Presence', 'effectType': 'AuraDebuff', 'type': 'GlobalEffect'}, '2': {'limit': 90, 'neg': True, 'type': 'Limit'}}]
-
-- Match score: `45`
-- `k`: skill_overwhelming_pressure_aura_enemy_stun_threshold_+%
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyStunThreshold', 'type': 'INC', '1': {'effectName': 'Overwhelming Presence', 'effectType': 'AuraDebuff', 'type': 'GlobalEffect'}, '2': {'limit': 90, 'neg': True, 'type': 'Limit'}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"skill_overwhelming_pressure_aura_enemy_stun_threshold_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'EnemyStunThreshold', 'type': 'INC', '1': {'effectName': 'Overwhelming Presence', 'effectType': 'AuraDebuff', 'type': 'GlobalEffect'}, '2': {'limit': 90, 'neg': True, 'type': 'Limit'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"EnemyStunThreshold","type":"INC","1":{"effectName":"Overwhelming Presence","effectType":"AuraDebuff","type":"GlobalEffect"},"2":{"limit":90,"neg":true,"type":"Limit"}}]}
-```
-
-### 109. [{'flags': 0, 'keywordFlags': 0, 'name': 'Evasion', 'type': 'BASE'}]
+### 87. [{'flags': 0, 'keywordFlags': 0, 'name': 'Evasion', 'type': 'BASE'}]
 
 - Match score: `45`
 - `k`: base_evasion_rating
@@ -4251,7 +3986,7 @@ _No keyword matches in this index._
 {"k":"base_evasion_rating","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'Evasion', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"Evasion","type":"BASE"}]}
 ```
 
-### 110. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireMax', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'stat': 'ArmourOnWeapon 2', 'type': 'PerStat'}}]
+### 88. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireMax', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'stat': 'ArmourOnWeapon 2', 'type': 'PerStat'}}]
 
 - Match score: `45`
 - `k`: off_hand_maximum_added_fire_damage_per_15_shield_armour
@@ -4263,19 +3998,7 @@ _No keyword matches in this index._
 {"k":"off_hand_maximum_added_fire_damage_per_15_shield_armour","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FireMax', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'stat': 'ArmourOnWeapon 2', 'type': 'PerStat'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FireMax","type":"BASE","1":{"type":"Condition","var":"OffHandAttack"},"2":{"div":15,"stat":"ArmourOnWeapon 2","type":"PerStat"}}]}
 ```
 
-### 111. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireMax', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'stat': 'EvasionOnWeapon 2', 'type': 'PerStat'}}]
-
-- Match score: `45`
-- `k`: off_hand_maximum_added_fire_damage_per_15_shield_evasion
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'FireMax', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'stat': 'EvasionOnWeapon 2', 'type': 'PerStat'}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"off_hand_maximum_added_fire_damage_per_15_shield_evasion","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FireMax', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'stat': 'EvasionOnWeapon 2', 'type': 'PerStat'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FireMax","type":"BASE","1":{"type":"Condition","var":"OffHandAttack"},"2":{"div":15,"stat":"EvasionOnWeapon 2","type":"PerStat"}}]}
-```
-
-### 112. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireMin', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'stat': 'ArmourOnWeapon 2', 'type': 'PerStat'}}]
+### 89. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireMin', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'stat': 'ArmourOnWeapon 2', 'type': 'PerStat'}}]
 
 - Match score: `45`
 - `k`: off_hand_minimum_added_fire_damage_per_15_shield_armour
@@ -4287,19 +4010,7 @@ _No keyword matches in this index._
 {"k":"off_hand_minimum_added_fire_damage_per_15_shield_armour","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FireMin', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'stat': 'ArmourOnWeapon 2', 'type': 'PerStat'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FireMin","type":"BASE","1":{"type":"Condition","var":"OffHandAttack"},"2":{"div":15,"stat":"ArmourOnWeapon 2","type":"PerStat"}}]}
 ```
 
-### 113. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireMin', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'stat': 'EvasionOnWeapon 2', 'type': 'PerStat'}}]
-
-- Match score: `45`
-- `k`: off_hand_minimum_added_fire_damage_per_15_shield_evasion
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'FireMin', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'stat': 'EvasionOnWeapon 2', 'type': 'PerStat'}}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"off_hand_minimum_added_fire_damage_per_15_shield_evasion","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FireMin', 'type': 'BASE', '1': {'type': 'Condition', 'var': 'OffHandAttack'}, '2': {'div': 15, 'stat': 'EvasionOnWeapon 2', 'type': 'PerStat'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FireMin","type":"BASE","1":{"type":"Condition","var":"OffHandAttack"},"2":{"div":15,"stat":"EvasionOnWeapon 2","type":"PerStat"}}]}
-```
-
-### 114. [{'flags': 0, 'keywordFlags': 0, 'name': 'FlaskManaRecovery', 'type': 'INC'}]
+### 90. [{'flags': 0, 'keywordFlags': 0, 'name': 'FlaskManaRecovery', 'type': 'INC'}]
 
 - Match score: `45`
 - `k`: flask_mana_to_recover_+%
@@ -4311,7 +4022,7 @@ _No keyword matches in this index._
 {"k":"flask_mana_to_recover_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FlaskManaRecovery', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FlaskManaRecovery","type":"INC"}]}
 ```
 
-### 115. [{'flags': 0, 'keywordFlags': 0, 'name': 'HybridManaAndLifeCost_Life', 'type': 'BASE'}]
+### 91. [{'flags': 0, 'keywordFlags': 0, 'name': 'HybridManaAndLifeCost_Life', 'type': 'BASE'}]
 
 - Match score: `45`
 - `k`: base_skill_cost_life_instead_of_mana_%
@@ -4323,64 +4034,352 @@ _No keyword matches in this index._
 {"k":"base_skill_cost_life_instead_of_mana_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'HybridManaAndLifeCost_Life', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"HybridManaAndLifeCost_Life","type":"BASE"}]}
 ```
 
-### 116. [{'flags': 0, 'keywordFlags': 0, 'name': 'IceCrystalLife', 'type': 'INC'}]
+### 92. [{'flags': 0, 'keywordFlags': 0, 'name': 'LifeCost', 'type': 'INC'}]
 
 - Match score: `45`
-- `k`: ice_crystal_maximum_life_+%
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'IceCrystalLife', 'type': 'INC'}]
+- `k`: base_life_cost_+%
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'LifeCost', 'type': 'INC'}]
 - `cat`: pob_skill_stat_map
 - `src`: pob_data_poe2/SkillStatMap.json
 
 ```json
-{"k":"ice_crystal_maximum_life_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'IceCrystalLife', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"IceCrystalLife","type":"INC"}]}
+{"k":"base_life_cost_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'LifeCost', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"LifeCost","type":"INC"}]}
 ```
 
-### 117. [{'flags': 0, 'keywordFlags': 0, 'name': 'IceCrystalLifeBase', 'type': 'BASE'}]
+### 93. [{'flags': 0, 'keywordFlags': 0, 'name': 'LifeReservationEfficiency', 'type': 'INC'}]
 
 - Match score: `45`
-- `k`: frost_wall_maximum_life
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'IceCrystalLifeBase', 'type': 'BASE'}]
+- `k`: base_life_reservation_efficiency_+%
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'LifeReservationEfficiency', 'type': 'INC'}]
 - `cat`: pob_skill_stat_map
 - `src`: pob_data_poe2/SkillStatMap.json
 
 ```json
-{"k":"frost_wall_maximum_life","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'IceCrystalLifeBase', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"IceCrystalLifeBase","type":"BASE"}]}
+{"k":"base_life_reservation_efficiency_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'LifeReservationEfficiency', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"LifeReservationEfficiency","type":"INC"}]}
 ```
 
-### 118. [{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreColdResistance', 'type': 'FLAG', 'value': True}]
+### 94. [{'flags': 0, 'keywordFlags': 0, 'name': 'LifeReserved', 'type': 'INC'}]
 
 - Match score: `45`
-- `k`: hits_ignore_enemy_cold_resistance
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreColdResistance', 'type': 'FLAG', 'value': True}]
+- `k`: base_life_reservation_+%
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'LifeReserved', 'type': 'INC'}]
 - `cat`: pob_skill_stat_map
 - `src`: pob_data_poe2/SkillStatMap.json
 
 ```json
-{"k":"hits_ignore_enemy_cold_resistance","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreColdResistance', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"IgnoreColdResistance","type":"FLAG","value":true}]}
+{"k":"base_life_reservation_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'LifeReserved', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"LifeReserved","type":"INC"}]}
 ```
 
-### 119. [{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreFireResistance', 'type': 'FLAG', 'value': True}]
+### 95. [{'flags': 0, 'keywordFlags': 0, 'name': 'ManaCostGainAsReservation', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'LifeCostGainAsReservation', 'type': 'FLAG', 'value': True}]
 
 - Match score: `45`
-- `k`: hits_ignore_enemy_fire_resistance
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreFireResistance', 'type': 'FLAG', 'value': True}]
+- `k`: remote_mined_by_support
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'ManaCostGainAsReservation', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'LifeCostGainAsReservation', 'type': 'FLAG', 'value': True}]
 - `cat`: pob_skill_stat_map
 - `src`: pob_data_poe2/SkillStatMap.json
 
 ```json
-{"k":"hits_ignore_enemy_fire_resistance","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreFireResistance', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"IgnoreFireResistance","type":"FLAG","value":true}]}
+{"k":"remote_mined_by_support","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'ManaCostGainAsReservation', 'type': 'FLAG', 'value': True}, {'flags': 0, 'keywordFlags': 0, 'name': 'LifeCostGainAsReservation', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"ManaCostGainAsReservation","type":"FLAG","value":true},{"flags":0,"keywordFlags":0,"name":"LifeCostGainAsReservation","type":"FLAG","value":true}]}
 ```
 
-### 120. [{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreLightningResistance', 'type': 'FLAG', 'value': True}]
+### 96. [{'flags': 0, 'keywordFlags': 0, 'name': 'MaxEnergyShieldLeechRate', 'type': 'INC'}]
 
 - Match score: `45`
-- `k`: hits_ignore_enemy_lightning_resistance
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreLightningResistance', 'type': 'FLAG', 'value': True}]
+- `k`: maximum_energy_shield_leech_amount_per_leech_+%
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'MaxEnergyShieldLeechRate', 'type': 'INC'}]
 - `cat`: pob_skill_stat_map
 - `src`: pob_data_poe2/SkillStatMap.json
 
 ```json
-{"k":"hits_ignore_enemy_lightning_resistance","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'IgnoreLightningResistance', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"IgnoreLightningResistance","type":"FLAG","value":true}]}
+{"k":"maximum_energy_shield_leech_amount_per_leech_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MaxEnergyShieldLeechRate', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MaxEnergyShieldLeechRate","type":"INC"}]}
+```
+
+### 97. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}}}]
+
+- Match score: `45`
+- `k`: golem_cooldown_recovery_+%
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}}}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"golem_cooldown_recovery_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"CooldownRecovery","type":"INC"}}}]}
+```
+
+### 98. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}}}]
+
+- Match score: `45`
+- `k`: minion_cooldown_recovery_+%
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}}}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"minion_cooldown_recovery_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'CooldownRecovery', 'type': 'INC'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"CooldownRecovery","type":"INC"}}}]}
+```
+
+### 99. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'FullLife'}}}}]
+
+- Match score: `45`
+- `k`: minion_damage_+%_on_full_life
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'FullLife'}}}}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"minion_damage_+%_on_full_life","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'type': 'Condition', 'var': 'FullLife'}}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"Damage","type":"INC","1":{"type":"Condition","var":"FullLife"}}}}]}
+```
+
+### 100. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Life', 'type': 'INC'}}}]
+
+- Match score: `45`
+- `k`: minion_maximum_life_+%
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Life', 'type': 'INC'}}}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"minion_maximum_life_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Life', 'type': 'INC'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"Life","type":"INC"}}}]}
+```
+
+### 101. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Life', 'type': 'MORE'}}}]
+
+- Match score: `45`
+- `k`: active_skill_minion_life_+%_final
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Life', 'type': 'MORE'}}}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"active_skill_minion_life_+%_final","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Life', 'type': 'MORE'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"Life","type":"MORE"}}}]}
+```
+
+### 102. [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Life', 'type': 'MORE'}}}]
+
+- Match score: `45`
+- `k`: support_minion_damage_minion_life_+%_final
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Life', 'type': 'MORE'}}}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"support_minion_damage_minion_life_+%_final","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'MinionModifier', 'type': 'LIST', 'value': {'mod': {'flags': 0, 'keywordFlags': 0, 'name': 'Life', 'type': 'MORE'}}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"MinionModifier","type":"LIST","value":{"mod":{"flags":0,"keywordFlags":0,"name":"Life","type":"MORE"}}}]}
+```
+
+### 103. [{'flags': 0, 'keywordFlags': 0, 'name': 'NoCooldownRecoveryInDuration', 'type': 'FLAG', 'value': True}]
+
+- Match score: `45`
+- `k`: display_this_skill_cooldown_does_not_recover_during_buff
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'NoCooldownRecoveryInDuration', 'type': 'FLAG', 'value': True}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"display_this_skill_cooldown_does_not_recover_during_buff","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'NoCooldownRecoveryInDuration', 'type': 'FLAG', 'value': True}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"NoCooldownRecoveryInDuration","type":"FLAG","value":true}]}
+```
+
+### 104. [{'flags': 0, 'keywordFlags': 0, 'name': 'SelfDamageManaLeech', 'type': 'BASE'}]
+
+- Match score: `45`
+- `k`: mana_leech_on_any_damage_when_hit_permyriad
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SelfDamageManaLeech', 'type': 'BASE'}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"mana_leech_on_any_damage_when_hit_permyriad","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SelfDamageManaLeech', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SelfDamageManaLeech","type":"BASE"}]}
+```
+
+### 105. [{'flags': 0, 'keywordFlags': 0, 'name': 'SelfLifeOnKill', 'type': 'BASE'}]
+
+- Match score: `45`
+- `k`: life_granted_when_killed
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SelfLifeOnKill', 'type': 'BASE'}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"life_granted_when_killed","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SelfLifeOnKill', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SelfLifeOnKill","type":"BASE"}]}
+```
+
+### 106. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillAndDamagingAilmentDuration', 'type': 'MORE'}]
+
+- Match score: `45`
+- `k`: support_swift_affliction_skill_effect_and_damaging_ailment_duration_+%_final
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillAndDamagingAilmentDuration', 'type': 'MORE'}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"support_swift_affliction_skill_effect_and_damaging_ailment_duration_+%_final","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillAndDamagingAilmentDuration', 'type': 'MORE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillAndDamagingAilmentDuration","type":"MORE"}]}
+```
+
+### 107. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'chanceToTriggerCounterattackOnBlock'}, '1': {'skillType': 1, 'type': 'SkillType'}, '2': {'skillType': 35, 'type': 'SkillType'}}]
+
+- Match score: `45`
+- `k`: melee_counterattack_trigger_on_block_%
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'chanceToTriggerCounterattackOnBlock'}, '1': {'skillType': 1, 'type': 'SkillType'}, '2': {'skillType': 35, 'type': 'SkillType'}}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"melee_counterattack_trigger_on_block_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'chanceToTriggerCounterattackOnBlock'}, '1': {'skillType': 1, 'type': 'SkillType'}, '2': {'skillType': 35, 'type': 'SkillType'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillData","type":"LIST","value":{"key":"chanceToTriggerCounterattackOnBlock"},"1":{"skillType":1,"type":"SkillType"},"2":{"skillType":35,"type":"SkillType"}}]}
+```
+
+### 108. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'chanceToTriggerOnStun'}, '1': {'skillType': 35, 'type': 'SkillType'}, '2': {'skillType': 2, 'type': 'SkillType'}}]
+
+- Match score: `45`
+- `k`: cast_on_stunned_%
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'chanceToTriggerOnStun'}, '1': {'skillType': 35, 'type': 'SkillType'}, '2': {'skillType': 2, 'type': 'SkillType'}}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"cast_on_stunned_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillData', 'type': 'LIST', 'value': {'key': 'chanceToTriggerOnStun'}, '1': {'skillType': 35, 'type': 'SkillType'}, '2': {'skillType': 2, 'type': 'SkillType'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillData","type":"LIST","value":{"key":"chanceToTriggerOnStun"},"1":{"skillType":35,"type":"SkillType"},"2":{"skillType":2,"type":"SkillType"}}]}
+```
+
+### 109. [{'flags': 0, 'keywordFlags': 0, 'name': 'snipeAilmentMulti', 'type': 'BASE'}]
+
+- Match score: `45`
+- `k`: snipe_triggered_skill_ailment_damage_+%_final_per_stage
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'snipeAilmentMulti', 'type': 'BASE'}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"snipe_triggered_skill_ailment_damage_+%_final_per_stage","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'snipeAilmentMulti', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"snipeAilmentMulti","type":"BASE"}]}
+```
+
+### 110. [{'flags': 0, 'keywordFlags': 0, 'name': 'SpellBlockChance', 'type': 'BASE'}]
+
+- Match score: `45`
+- `k`: base_spell_block_%
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SpellBlockChance', 'type': 'BASE'}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"base_spell_block_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SpellBlockChance', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SpellBlockChance","type":"BASE"}]}
+```
+
+### 111. [{'flags': 0, 'keywordFlags': 0, 'name': 'StunThreshold', 'type': 'INC'}]
+
+- Match score: `45`
+- `k`: stun_threshold_+%
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'StunThreshold', 'type': 'INC'}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"stun_threshold_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'StunThreshold', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"StunThreshold","type":"INC"}]}
+```
+
+### 112. [{'flags': 0, 'keywordFlags': 0, 'name': 'TotemLife', 'type': 'INC'}]
+
+- Match score: `45`
+- `k`: totem_life_+%
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'TotemLife', 'type': 'INC'}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"totem_life_+%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'TotemLife', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"TotemLife","type":"INC"}]}
+```
+
+### 113. [{'flags': 0, 'keywordFlags': 0, 'name': 'TotemLife', 'type': 'MORE'}]
+
+- Match score: `45`
+- `k`: totem_life_+%_final
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'TotemLife', 'type': 'MORE'}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"totem_life_+%_final","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'TotemLife', 'type': 'MORE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"TotemLife","type":"MORE"}]}
+```
+
+### 114. [{'flags': 0, 'keywordFlags': 0, 'name': 'TraumaSelfDamageTakenLife', 'type': 'BASE'}]
+
+- Match score: `45`
+- `k`: trauma_strike_self_damage_per_trauma
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'TraumaSelfDamageTakenLife', 'type': 'BASE'}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"trauma_strike_self_damage_per_trauma","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'TraumaSelfDamageTakenLife', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"TraumaSelfDamageTakenLife","type":"BASE"}]}
+```
+
+### 115. [{'flags': 0, 'keywordFlags': 4096, 'name': 'CooldownRecovery', 'type': 'INC'}]
+
+- Match score: `45`
+- `k`: placing_traps_cooldown_recovery_+%
+- `n`: [{'flags': 0, 'keywordFlags': 4096, 'name': 'CooldownRecovery', 'type': 'INC'}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"placing_traps_cooldown_recovery_+%","n":"[{'flags': 0, 'keywordFlags': 4096, 'name': 'CooldownRecovery', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":4096,"name":"CooldownRecovery","type":"INC"}]}
+```
+
+### 116. [{'flags': 0, 'keywordFlags': 786432, 'name': 'Damage', 'type': 'INC', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'FullLife'}}]
+
+- Match score: `45`
+- `k`: damage_+%_vs_enemies_on_full_life
+- `n`: [{'flags': 0, 'keywordFlags': 786432, 'name': 'Damage', 'type': 'INC', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'FullLife'}}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"damage_+%_vs_enemies_on_full_life","n":"[{'flags': 0, 'keywordFlags': 786432, 'name': 'Damage', 'type': 'INC', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'FullLife'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":786432,"name":"Damage","type":"INC","1":{"actor":"enemy","type":"ActorCondition","var":"FullLife"}}]}
+```
+
+### 117. [{'flags': 1, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'div': 450, 'stat': 'Armour', 'type': 'PerStat'}}]
+
+- Match score: `45`
+- `k`: attack_damage_+%_per_450_physical_damage_reduction_rating
+- `n`: [{'flags': 1, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'div': 450, 'stat': 'Armour', 'type': 'PerStat'}}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"attack_damage_+%_per_450_physical_damage_reduction_rating","n":"[{'flags': 1, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'div': 450, 'stat': 'Armour', 'type': 'PerStat'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":1,"keywordFlags":0,"name":"Damage","type":"INC","1":{"div":450,"stat":"Armour","type":"PerStat"}}]}
+```
+
+### 118. [{'flags': 1, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'div': 450, 'stat': 'Evasion', 'type': 'PerStat'}}]
+
+- Match score: `45`
+- `k`: attack_damage_+%_per_450_evasion
+- `n`: [{'flags': 1, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'div': 450, 'stat': 'Evasion', 'type': 'PerStat'}}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"attack_damage_+%_per_450_evasion","n":"[{'flags': 1, 'keywordFlags': 0, 'name': 'Damage', 'type': 'INC', '1': {'div': 450, 'stat': 'Evasion', 'type': 'PerStat'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":1,"keywordFlags":0,"name":"Damage","type":"INC","1":{"div":450,"stat":"Evasion","type":"PerStat"}}]}
+```
+
+### 119. [{'flags': 1, 'keywordFlags': 0, 'name': 'LifeOnHit', 'type': 'BASE'}]
+
+- Match score: `45`
+- `k`: base_life_gain_per_target
+- `n`: [{'flags': 1, 'keywordFlags': 0, 'name': 'LifeOnHit', 'type': 'BASE'}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"base_life_gain_per_target","n":"[{'flags': 1, 'keywordFlags': 0, 'name': 'LifeOnHit', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":1,"keywordFlags":0,"name":"LifeOnHit","type":"BASE"}]}
+```
+
+### 120. [{'flags': 1, 'keywordFlags': 0, 'name': 'SelfLifeOnHit', 'type': 'BASE'}]
+
+- Match score: `45`
+- `k`: life_granted_when_hit_by_attacks
+- `n`: [{'flags': 1, 'keywordFlags': 0, 'name': 'SelfLifeOnHit', 'type': 'BASE'}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"life_granted_when_hit_by_attacks","n":"[{'flags': 1, 'keywordFlags': 0, 'name': 'SelfLifeOnHit', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":1,"keywordFlags":0,"name":"SelfLifeOnHit","type":"BASE"}]}
 ```
 
 ## Item bases/classes
@@ -5929,7 +5928,151 @@ _No keyword matches in this index._
 - Source: `build_knowledge/compact/mod_index.json`
 - Matches included: `120`
 
-### 1. ArmourAsLifeRegnerationOnBlockUniqueShieldStrInt6
+### 1. LocalIncreasedArmourAndEvasionAndStunRecovery1
+
+- Match score: `140`
+- `k`: LocalIncreasedArmourAndEvasionAndStunRecovery1
+- `n`: LocalIncreasedArmourAndEvasionAndStunRecovery1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedArmourAndEvasionAndStunRecovery1","n":"LocalIncreasedArmourAndEvasionAndStunRecovery1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":2}
+```
+
+### 2. LocalIncreasedArmourAndEvasionAndStunRecovery2
+
+- Match score: `140`
+- `k`: LocalIncreasedArmourAndEvasionAndStunRecovery2
+- `n`: LocalIncreasedArmourAndEvasionAndStunRecovery2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedArmourAndEvasionAndStunRecovery2","n":"LocalIncreasedArmourAndEvasionAndStunRecovery2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":19}
+```
+
+### 3. LocalIncreasedArmourAndEvasionAndStunRecovery3
+
+- Match score: `140`
+- `k`: LocalIncreasedArmourAndEvasionAndStunRecovery3
+- `n`: LocalIncreasedArmourAndEvasionAndStunRecovery3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedArmourAndEvasionAndStunRecovery3","n":"LocalIncreasedArmourAndEvasionAndStunRecovery3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":30}
+```
+
+### 4. LocalIncreasedArmourAndEvasionAndStunRecovery4
+
+- Match score: `140`
+- `k`: LocalIncreasedArmourAndEvasionAndStunRecovery4
+- `n`: LocalIncreasedArmourAndEvasionAndStunRecovery4
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedArmourAndEvasionAndStunRecovery4","n":"LocalIncreasedArmourAndEvasionAndStunRecovery4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":44}
+```
+
+### 5. LocalIncreasedArmourAndEvasionAndStunRecovery5
+
+- Match score: `140`
+- `k`: LocalIncreasedArmourAndEvasionAndStunRecovery5
+- `n`: LocalIncreasedArmourAndEvasionAndStunRecovery5
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedArmourAndEvasionAndStunRecovery5","n":"LocalIncreasedArmourAndEvasionAndStunRecovery5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":60}
+```
+
+### 6. LocalIncreasedArmourAndEvasionAndStunRecovery6
+
+- Match score: `140`
+- `k`: LocalIncreasedArmourAndEvasionAndStunRecovery6
+- `n`: LocalIncreasedArmourAndEvasionAndStunRecovery6
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedArmourAndEvasionAndStunRecovery6","n":"LocalIncreasedArmourAndEvasionAndStunRecovery6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":78}
+```
+
+### 7. LocalIncreasedArmourEvasionEnergyShieldStunRecovery1
+
+- Match score: `140`
+- `k`: LocalIncreasedArmourEvasionEnergyShieldStunRecovery1
+- `n`: LocalIncreasedArmourEvasionEnergyShieldStunRecovery1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedArmourEvasionEnergyShieldStunRecovery1","n":"LocalIncreasedArmourEvasionEnergyShieldStunRecovery1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":2}
+```
+
+### 8. LocalIncreasedArmourEvasionEnergyShieldStunRecovery2
+
+- Match score: `140`
+- `k`: LocalIncreasedArmourEvasionEnergyShieldStunRecovery2
+- `n`: LocalIncreasedArmourEvasionEnergyShieldStunRecovery2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedArmourEvasionEnergyShieldStunRecovery2","n":"LocalIncreasedArmourEvasionEnergyShieldStunRecovery2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":19}
+```
+
+### 9. LocalIncreasedArmourEvasionEnergyShieldStunRecovery3
+
+- Match score: `140`
+- `k`: LocalIncreasedArmourEvasionEnergyShieldStunRecovery3
+- `n`: LocalIncreasedArmourEvasionEnergyShieldStunRecovery3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedArmourEvasionEnergyShieldStunRecovery3","n":"LocalIncreasedArmourEvasionEnergyShieldStunRecovery3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":30}
+```
+
+### 10. LocalIncreasedArmourEvasionEnergyShieldStunRecovery4
+
+- Match score: `140`
+- `k`: LocalIncreasedArmourEvasionEnergyShieldStunRecovery4
+- `n`: LocalIncreasedArmourEvasionEnergyShieldStunRecovery4
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedArmourEvasionEnergyShieldStunRecovery4","n":"LocalIncreasedArmourEvasionEnergyShieldStunRecovery4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":44}
+```
+
+### 11. LocalIncreasedArmourEvasionEnergyShieldStunRecovery5
+
+- Match score: `140`
+- `k`: LocalIncreasedArmourEvasionEnergyShieldStunRecovery5
+- `n`: LocalIncreasedArmourEvasionEnergyShieldStunRecovery5
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedArmourEvasionEnergyShieldStunRecovery5","n":"LocalIncreasedArmourEvasionEnergyShieldStunRecovery5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":60}
+```
+
+### 12. LocalIncreasedArmourEvasionEnergyShieldStunRecovery6
+
+- Match score: `140`
+- `k`: LocalIncreasedArmourEvasionEnergyShieldStunRecovery6
+- `n`: LocalIncreasedArmourEvasionEnergyShieldStunRecovery6
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedArmourEvasionEnergyShieldStunRecovery6","n":"LocalIncreasedArmourEvasionEnergyShieldStunRecovery6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":78}
+```
+
+### 13. ArmourAsLifeRegnerationOnBlockUniqueShieldStrInt6
 
 - Match score: `115`
 - `k`: ArmourAsLifeRegnerationOnBlockUniqueShieldStrInt6
@@ -5945,7 +6088,7 @@ _No keyword matches in this index._
 {"k":"ArmourAsLifeRegnerationOnBlockUniqueShieldStrInt6","n":"ArmourAsLifeRegnerationOnBlockUniqueShieldStrInt6","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"regenerate_%_armour_as_life_over_1_second_on_block","max":2,"min":2}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 2. MapAtlasBossDropsElderGuardianMap
+### 14. MapAtlasBossDropsElderGuardianMap
 
 - Match score: `115`
 - `k`: MapAtlasBossDropsElderGuardianMap
@@ -5961,7 +6104,7 @@ _No keyword matches in this index._
 {"k":"MapAtlasBossDropsElderGuardianMap","n":"MapAtlasBossDropsElderGuardianMap","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"sextant_uses_remaining","max":3,"min":3},{"id":"map_boss_drops_additional_elder_guardian_map","max":1,"min":1},{"id":"map_boss_life_+%_final_from_boss_drops_guardian_map_sextant","max":200,"min":200},{"id":"map_boss_damage_+%_final_from_boss_drops_guardian_map_sextant","max":100,"min":100}],"domain":"atlas","gen":"prefix","weights":[{"tag":"no_boss","weight":0},{"tag":"default","weight":1}],"lvl":1}
 ```
 
-### 3. MapAtlasBossDropsElderGuardianMapMaven
+### 15. MapAtlasBossDropsElderGuardianMapMaven
 
 - Match score: `115`
 - `k`: MapAtlasBossDropsElderGuardianMapMaven
@@ -5977,7 +6120,7 @@ _No keyword matches in this index._
 {"k":"MapAtlasBossDropsElderGuardianMapMaven","n":"MapAtlasBossDropsElderGuardianMapMaven","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"sextant_uses_remaining","max":15,"min":15},{"id":"map_boss_drops_additional_elder_guardian_map","max":1,"min":1},{"id":"map_boss_life_+%_final_from_boss_drops_guardian_map_sextant","max":200,"min":200},{"id":"map_boss_damage_+%_final_from_boss_drops_guardian_map_sextant","max":100,"min":100}],"domain":"atlas","gen":"prefix","weights":[{"tag":"no_boss","weight":0},{"tag":"default","weight":1}],"lvl":1}
 ```
 
-### 4. MapAtlasBossDropsShaperGuardianMap
+### 16. MapAtlasBossDropsShaperGuardianMap
 
 - Match score: `115`
 - `k`: MapAtlasBossDropsShaperGuardianMap
@@ -5993,7 +6136,7 @@ _No keyword matches in this index._
 {"k":"MapAtlasBossDropsShaperGuardianMap","n":"MapAtlasBossDropsShaperGuardianMap","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"sextant_uses_remaining","max":3,"min":3},{"id":"map_boss_drops_additional_shaper_guardian_map","max":1,"min":1},{"id":"map_boss_life_+%_final_from_boss_drops_guardian_map_sextant","max":200,"min":200},{"id":"map_boss_damage_+%_final_from_boss_drops_guardian_map_sextant","max":100,"min":100}],"domain":"atlas","gen":"prefix","weights":[{"tag":"no_boss","weight":0},{"tag":"default","weight":1}],"lvl":1}
 ```
 
-### 5. MapAtlasBossDropsShaperGuardianMapMaven
+### 17. MapAtlasBossDropsShaperGuardianMapMaven
 
 - Match score: `115`
 - `k`: MapAtlasBossDropsShaperGuardianMapMaven
@@ -6009,7 +6152,7 @@ _No keyword matches in this index._
 {"k":"MapAtlasBossDropsShaperGuardianMapMaven","n":"MapAtlasBossDropsShaperGuardianMapMaven","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"sextant_uses_remaining","max":15,"min":15},{"id":"map_boss_drops_additional_shaper_guardian_map","max":1,"min":1},{"id":"map_boss_life_+%_final_from_boss_drops_guardian_map_sextant","max":200,"min":200},{"id":"map_boss_damage_+%_final_from_boss_drops_guardian_map_sextant","max":100,"min":100}],"domain":"atlas","gen":"prefix","weights":[{"tag":"no_boss","weight":0},{"tag":"default","weight":1}],"lvl":1}
 ```
 
-### 6. BodyArmourImplicitLifeRecoupForJewel1
+### 18. BodyArmourImplicitLifeRecoupForJewel1
 
 - Match score: `105`
 - `k`: BodyArmourImplicitLifeRecoupForJewel1
@@ -6025,7 +6168,7 @@ _No keyword matches in this index._
 {"k":"BodyArmourImplicitLifeRecoupForJewel1","n":"BodyArmourImplicitLifeRecoupForJewel1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"damage_taken_goes_to_life_over_4_seconds_%","max":14,"min":8}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 7. BodyArmourImplicitLifeRegenerationPercent1
+### 19. BodyArmourImplicitLifeRegenerationPercent1
 
 - Match score: `105`
 - `k`: BodyArmourImplicitLifeRegenerationPercent1
@@ -6041,7 +6184,31 @@ _No keyword matches in this index._
 {"k":"BodyArmourImplicitLifeRegenerationPercent1","n":"BodyArmourImplicitLifeRegenerationPercent1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_rate_per_minute_%","max":150,"min":90}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 8. GemlingBossLifeLeechAgainstBleedingEnemies
+### 20. DelveArmourEvasionOnFullLife
+
+- Match score: `105`
+- `k`: DelveArmourEvasionOnFullLife
+- `n`: DelveArmourEvasionOnFullLife
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"DelveArmourEvasionOnFullLife","n":"DelveArmourEvasionOnFullLife","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
+```
+
+### 21. DelveArmourLifeRegen1
+
+- Match score: `105`
+- `k`: DelveArmourLifeRegen1
+- `n`: DelveArmourLifeRegen1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"DelveArmourLifeRegen1","n":"DelveArmourLifeRegen1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
+```
+
+### 22. GemlingBossLifeLeechAgainstBleedingEnemies
 
 - Match score: `105`
 - `k`: GemlingBossLifeLeechAgainstBleedingEnemies
@@ -6057,79 +6224,43 @@ _No keyword matches in this index._
 {"k":"GemlingBossLifeLeechAgainstBleedingEnemies","n":"GemlingBossLifeLeechAgainstBleedingEnemies","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_life_leech_from_physical_attack_damage_permyriad_vs_bleeding_enemies","max":100,"min":100}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 9. HandWrapsLocalIncreasedArmourAndEvasionAndLife1
+### 23. HellscapeUpsideStunAndBlockRecovery2
 
 - Match score: `105`
-- `k`: HandWrapsLocalIncreasedArmourAndEvasionAndLife1
-- `n`: HandWrapsLocalIncreasedArmourAndEvasionAndLife1
+- `k`: HellscapeUpsideStunAndBlockRecovery2
+- `n`: HellscapeUpsideStunAndBlockRecovery2
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"HandWrapsLocalIncreasedArmourAndEvasionAndLife1","n":"HandWrapsLocalIncreasedArmourAndEvasionAndLife1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
+{"k":"HellscapeUpsideStunAndBlockRecovery2","n":"HellscapeUpsideStunAndBlockRecovery2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":45}
 ```
 
-### 10. HandWrapsLocalIncreasedArmourAndEvasionAndLife2
+### 24. HellscapeUpsideStunAndBlockRecovery3
 
 - Match score: `105`
-- `k`: HandWrapsLocalIncreasedArmourAndEvasionAndLife2
-- `n`: HandWrapsLocalIncreasedArmourAndEvasionAndLife2
+- `k`: HellscapeUpsideStunAndBlockRecovery3
+- `n`: HellscapeUpsideStunAndBlockRecovery3
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"HandWrapsLocalIncreasedArmourAndEvasionAndLife2","n":"HandWrapsLocalIncreasedArmourAndEvasionAndLife2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
+{"k":"HellscapeUpsideStunAndBlockRecovery3","n":"HellscapeUpsideStunAndBlockRecovery3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
 ```
 
-### 11. HandWrapsLocalIncreasedArmourAndEvasionAndLife3
+### 25. HellscapeUpsideStunAndBlockRecovery4__
 
 - Match score: `105`
-- `k`: HandWrapsLocalIncreasedArmourAndEvasionAndLife3
-- `n`: HandWrapsLocalIncreasedArmourAndEvasionAndLife3
+- `k`: HellscapeUpsideStunAndBlockRecovery4__
+- `n`: HellscapeUpsideStunAndBlockRecovery4__
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"HandWrapsLocalIncreasedArmourAndEvasionAndLife3","n":"HandWrapsLocalIncreasedArmourAndEvasionAndLife3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
+{"k":"HellscapeUpsideStunAndBlockRecovery4__","n":"HellscapeUpsideStunAndBlockRecovery4__","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
 ```
 
-### 12. HandWrapsLocalIncreasedArmourAndEvasionAndLife4
-
-- Match score: `105`
-- `k`: HandWrapsLocalIncreasedArmourAndEvasionAndLife4
-- `n`: HandWrapsLocalIncreasedArmourAndEvasionAndLife4
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"HandWrapsLocalIncreasedArmourAndEvasionAndLife4","n":"HandWrapsLocalIncreasedArmourAndEvasionAndLife4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
-```
-
-### 13. HandWrapsLocalIncreasedArmourAndEvasionAndLife5
-
-- Match score: `105`
-- `k`: HandWrapsLocalIncreasedArmourAndEvasionAndLife5
-- `n`: HandWrapsLocalIncreasedArmourAndEvasionAndLife5
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"HandWrapsLocalIncreasedArmourAndEvasionAndLife5","n":"HandWrapsLocalIncreasedArmourAndEvasionAndLife5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
-```
-
-### 14. HandWrapsLocalIncreasedArmourAndEvasionAndLife6
-
-- Match score: `105`
-- `k`: HandWrapsLocalIncreasedArmourAndEvasionAndLife6
-- `n`: HandWrapsLocalIncreasedArmourAndEvasionAndLife6
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"HandWrapsLocalIncreasedArmourAndEvasionAndLife6","n":"HandWrapsLocalIncreasedArmourAndEvasionAndLife6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
-```
-
-### 15. LanternBossLifeRegenerationOnLowLife
+### 26. LanternBossLifeRegenerationOnLowLife
 
 - Match score: `105`
 - `k`: LanternBossLifeRegenerationOnLowLife
@@ -6145,151 +6276,271 @@ _No keyword matches in this index._
 {"k":"LanternBossLifeRegenerationOnLowLife","n":"LanternBossLifeRegenerationOnLowLife","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_rate_per_minute_%_when_on_low_life","max":75,"min":75}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 16. LocalArmourAndEvasionAndStunThreshold1
+### 27. LocalBaseArmourAndEvasionRatingAndLife1
 
 - Match score: `105`
-- `k`: LocalArmourAndEvasionAndStunThreshold1
-- `n`: LocalArmourAndEvasionAndStunThreshold1
+- `k`: LocalBaseArmourAndEvasionRatingAndLife1
+- `n`: LocalBaseArmourAndEvasionRatingAndLife1
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"LocalArmourAndEvasionAndStunThreshold1","n":"LocalArmourAndEvasionAndStunThreshold1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":10}
+{"k":"LocalBaseArmourAndEvasionRatingAndLife1","n":"LocalBaseArmourAndEvasionRatingAndLife1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":30}
 ```
 
-### 17. LocalArmourAndEvasionAndStunThreshold2
+### 28. LocalBaseArmourAndEvasionRatingAndLife2
 
 - Match score: `105`
-- `k`: LocalArmourAndEvasionAndStunThreshold2
-- `n`: LocalArmourAndEvasionAndStunThreshold2
+- `k`: LocalBaseArmourAndEvasionRatingAndLife2
+- `n`: LocalBaseArmourAndEvasionRatingAndLife2
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"LocalArmourAndEvasionAndStunThreshold2","n":"LocalArmourAndEvasionAndStunThreshold2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":19}
+{"k":"LocalBaseArmourAndEvasionRatingAndLife2","n":"LocalBaseArmourAndEvasionRatingAndLife2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":46}
 ```
 
-### 18. LocalArmourAndEvasionAndStunThreshold3
+### 29. LocalBaseArmourAndEvasionRatingAndLife3
 
 - Match score: `105`
-- `k`: LocalArmourAndEvasionAndStunThreshold3
-- `n`: LocalArmourAndEvasionAndStunThreshold3
+- `k`: LocalBaseArmourAndEvasionRatingAndLife3
+- `n`: LocalBaseArmourAndEvasionRatingAndLife3
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"LocalArmourAndEvasionAndStunThreshold3","n":"LocalArmourAndEvasionAndStunThreshold3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":38}
+{"k":"LocalBaseArmourAndEvasionRatingAndLife3","n":"LocalBaseArmourAndEvasionRatingAndLife3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":62}
 ```
 
-### 19. LocalArmourAndEvasionAndStunThreshold4
+### 30. LocalBaseArmourAndEvasionRatingAndLife4
 
 - Match score: `105`
-- `k`: LocalArmourAndEvasionAndStunThreshold4
-- `n`: LocalArmourAndEvasionAndStunThreshold4
+- `k`: LocalBaseArmourAndEvasionRatingAndLife4
+- `n`: LocalBaseArmourAndEvasionRatingAndLife4
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"LocalArmourAndEvasionAndStunThreshold4","n":"LocalArmourAndEvasionAndStunThreshold4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":48}
+{"k":"LocalBaseArmourAndEvasionRatingAndLife4","n":"LocalBaseArmourAndEvasionRatingAndLife4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":78}
 ```
 
-### 20. LocalArmourAndEvasionAndStunThreshold5
+### 31. LocalIncreasedArmourAndEnergyShieldAndStunRecovery1
 
 - Match score: `105`
-- `k`: LocalArmourAndEvasionAndStunThreshold5
-- `n`: LocalArmourAndEvasionAndStunThreshold5
+- `k`: LocalIncreasedArmourAndEnergyShieldAndStunRecovery1
+- `n`: LocalIncreasedArmourAndEnergyShieldAndStunRecovery1
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"LocalArmourAndEvasionAndStunThreshold5","n":"LocalArmourAndEvasionAndStunThreshold5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":63}
+{"k":"LocalIncreasedArmourAndEnergyShieldAndStunRecovery1","n":"LocalIncreasedArmourAndEnergyShieldAndStunRecovery1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":2}
 ```
 
-### 21. LocalArmourAndEvasionAndStunThreshold6
+### 32. LocalIncreasedArmourAndEnergyShieldAndStunRecovery2
 
 - Match score: `105`
-- `k`: LocalArmourAndEvasionAndStunThreshold6
-- `n`: LocalArmourAndEvasionAndStunThreshold6
+- `k`: LocalIncreasedArmourAndEnergyShieldAndStunRecovery2
+- `n`: LocalIncreasedArmourAndEnergyShieldAndStunRecovery2
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"LocalArmourAndEvasionAndStunThreshold6","n":"LocalArmourAndEvasionAndStunThreshold6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":74}
+{"k":"LocalIncreasedArmourAndEnergyShieldAndStunRecovery2","n":"LocalIncreasedArmourAndEnergyShieldAndStunRecovery2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":19}
 ```
 
-### 22. LocalIncreasedArmourAndEvasionAndLife1
+### 33. LocalIncreasedArmourAndEnergyShieldAndStunRecovery3
 
 - Match score: `105`
-- `k`: LocalIncreasedArmourAndEvasionAndLife1
-- `n`: LocalIncreasedArmourAndEvasionAndLife1
+- `k`: LocalIncreasedArmourAndEnergyShieldAndStunRecovery3
+- `n`: LocalIncreasedArmourAndEnergyShieldAndStunRecovery3
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"LocalIncreasedArmourAndEvasionAndLife1","n":"LocalIncreasedArmourAndEvasionAndLife1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":8}
+{"k":"LocalIncreasedArmourAndEnergyShieldAndStunRecovery3","n":"LocalIncreasedArmourAndEnergyShieldAndStunRecovery3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":30}
 ```
 
-### 23. LocalIncreasedArmourAndEvasionAndLife2
+### 34. LocalIncreasedArmourAndEnergyShieldAndStunRecovery4
 
 - Match score: `105`
-- `k`: LocalIncreasedArmourAndEvasionAndLife2
-- `n`: LocalIncreasedArmourAndEvasionAndLife2
+- `k`: LocalIncreasedArmourAndEnergyShieldAndStunRecovery4
+- `n`: LocalIncreasedArmourAndEnergyShieldAndStunRecovery4
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"LocalIncreasedArmourAndEvasionAndLife2","n":"LocalIncreasedArmourAndEvasionAndLife2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":16}
+{"k":"LocalIncreasedArmourAndEnergyShieldAndStunRecovery4","n":"LocalIncreasedArmourAndEnergyShieldAndStunRecovery4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":44}
 ```
 
-### 24. LocalIncreasedArmourAndEvasionAndLife3
+### 35. LocalIncreasedArmourAndEnergyShieldAndStunRecovery5
 
 - Match score: `105`
-- `k`: LocalIncreasedArmourAndEvasionAndLife3
-- `n`: LocalIncreasedArmourAndEvasionAndLife3
+- `k`: LocalIncreasedArmourAndEnergyShieldAndStunRecovery5
+- `n`: LocalIncreasedArmourAndEnergyShieldAndStunRecovery5
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"LocalIncreasedArmourAndEvasionAndLife3","n":"LocalIncreasedArmourAndEvasionAndLife3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":33}
+{"k":"LocalIncreasedArmourAndEnergyShieldAndStunRecovery5","n":"LocalIncreasedArmourAndEnergyShieldAndStunRecovery5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":60}
 ```
 
-### 25. LocalIncreasedArmourAndEvasionAndLife4
+### 36. LocalIncreasedArmourAndEnergyShieldAndStunRecovery6
 
 - Match score: `105`
-- `k`: LocalIncreasedArmourAndEvasionAndLife4
-- `n`: LocalIncreasedArmourAndEvasionAndLife4
+- `k`: LocalIncreasedArmourAndEnergyShieldAndStunRecovery6
+- `n`: LocalIncreasedArmourAndEnergyShieldAndStunRecovery6
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"LocalIncreasedArmourAndEvasionAndLife4","n":"LocalIncreasedArmourAndEvasionAndLife4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":46}
+{"k":"LocalIncreasedArmourAndEnergyShieldAndStunRecovery6","n":"LocalIncreasedArmourAndEnergyShieldAndStunRecovery6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":78}
 ```
 
-### 26. LocalIncreasedArmourAndEvasionAndLife5
+### 37. LocalIncreasedEvasionAndEnergyShieldAndStunRecovery1
 
 - Match score: `105`
-- `k`: LocalIncreasedArmourAndEvasionAndLife5
-- `n`: LocalIncreasedArmourAndEvasionAndLife5
+- `k`: LocalIncreasedEvasionAndEnergyShieldAndStunRecovery1
+- `n`: LocalIncreasedEvasionAndEnergyShieldAndStunRecovery1
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"LocalIncreasedArmourAndEvasionAndLife5","n":"LocalIncreasedArmourAndEvasionAndLife5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":60}
+{"k":"LocalIncreasedEvasionAndEnergyShieldAndStunRecovery1","n":"LocalIncreasedEvasionAndEnergyShieldAndStunRecovery1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":2}
 ```
 
-### 27. LocalIncreasedArmourAndEvasionAndLife6
+### 38. LocalIncreasedEvasionAndEnergyShieldAndStunRecovery2
 
 - Match score: `105`
-- `k`: LocalIncreasedArmourAndEvasionAndLife6
-- `n`: LocalIncreasedArmourAndEvasionAndLife6
+- `k`: LocalIncreasedEvasionAndEnergyShieldAndStunRecovery2
+- `n`: LocalIncreasedEvasionAndEnergyShieldAndStunRecovery2
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"LocalIncreasedArmourAndEvasionAndLife6","n":"LocalIncreasedArmourAndEvasionAndLife6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":78}
+{"k":"LocalIncreasedEvasionAndEnergyShieldAndStunRecovery2","n":"LocalIncreasedEvasionAndEnergyShieldAndStunRecovery2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":19}
 ```
 
-### 28. MapAtlasBodyguardsAndBossMapDrops2
+### 39. LocalIncreasedEvasionAndEnergyShieldAndStunRecovery3
+
+- Match score: `105`
+- `k`: LocalIncreasedEvasionAndEnergyShieldAndStunRecovery3
+- `n`: LocalIncreasedEvasionAndEnergyShieldAndStunRecovery3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedEvasionAndEnergyShieldAndStunRecovery3","n":"LocalIncreasedEvasionAndEnergyShieldAndStunRecovery3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":30}
+```
+
+### 40. LocalIncreasedEvasionAndEnergyShieldAndStunRecovery4
+
+- Match score: `105`
+- `k`: LocalIncreasedEvasionAndEnergyShieldAndStunRecovery4
+- `n`: LocalIncreasedEvasionAndEnergyShieldAndStunRecovery4
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedEvasionAndEnergyShieldAndStunRecovery4","n":"LocalIncreasedEvasionAndEnergyShieldAndStunRecovery4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":44}
+```
+
+### 41. LocalIncreasedEvasionAndEnergyShieldAndStunRecovery5
+
+- Match score: `105`
+- `k`: LocalIncreasedEvasionAndEnergyShieldAndStunRecovery5
+- `n`: LocalIncreasedEvasionAndEnergyShieldAndStunRecovery5
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedEvasionAndEnergyShieldAndStunRecovery5","n":"LocalIncreasedEvasionAndEnergyShieldAndStunRecovery5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":60}
+```
+
+### 42. LocalIncreasedEvasionAndEnergyShieldAndStunRecovery6
+
+- Match score: `105`
+- `k`: LocalIncreasedEvasionAndEnergyShieldAndStunRecovery6
+- `n`: LocalIncreasedEvasionAndEnergyShieldAndStunRecovery6
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedEvasionAndEnergyShieldAndStunRecovery6","n":"LocalIncreasedEvasionAndEnergyShieldAndStunRecovery6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":78}
+```
+
+### 43. LocalIncreasedEvasionRatingPercentAndStunRecovery1
+
+- Match score: `105`
+- `k`: LocalIncreasedEvasionRatingPercentAndStunRecovery1
+- `n`: LocalIncreasedEvasionRatingPercentAndStunRecovery1
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedEvasionRatingPercentAndStunRecovery1","n":"LocalIncreasedEvasionRatingPercentAndStunRecovery1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":2}
+```
+
+### 44. LocalIncreasedEvasionRatingPercentAndStunRecovery2
+
+- Match score: `105`
+- `k`: LocalIncreasedEvasionRatingPercentAndStunRecovery2
+- `n`: LocalIncreasedEvasionRatingPercentAndStunRecovery2
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedEvasionRatingPercentAndStunRecovery2","n":"LocalIncreasedEvasionRatingPercentAndStunRecovery2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":19}
+```
+
+### 45. LocalIncreasedEvasionRatingPercentAndStunRecovery3
+
+- Match score: `105`
+- `k`: LocalIncreasedEvasionRatingPercentAndStunRecovery3
+- `n`: LocalIncreasedEvasionRatingPercentAndStunRecovery3
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedEvasionRatingPercentAndStunRecovery3","n":"LocalIncreasedEvasionRatingPercentAndStunRecovery3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":30}
+```
+
+### 46. LocalIncreasedEvasionRatingPercentAndStunRecovery4
+
+- Match score: `105`
+- `k`: LocalIncreasedEvasionRatingPercentAndStunRecovery4
+- `n`: LocalIncreasedEvasionRatingPercentAndStunRecovery4
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedEvasionRatingPercentAndStunRecovery4","n":"LocalIncreasedEvasionRatingPercentAndStunRecovery4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":44}
+```
+
+### 47. LocalIncreasedEvasionRatingPercentAndStunRecovery5
+
+- Match score: `105`
+- `k`: LocalIncreasedEvasionRatingPercentAndStunRecovery5
+- `n`: LocalIncreasedEvasionRatingPercentAndStunRecovery5
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedEvasionRatingPercentAndStunRecovery5","n":"LocalIncreasedEvasionRatingPercentAndStunRecovery5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":60}
+```
+
+### 48. LocalIncreasedEvasionRatingPercentAndStunRecovery6
+
+- Match score: `105`
+- `k`: LocalIncreasedEvasionRatingPercentAndStunRecovery6
+- `n`: LocalIncreasedEvasionRatingPercentAndStunRecovery6
+- `cat`: pob_mod_item
+- `src`: pob_data_poe2/ModItem.json
+
+```json
+{"k":"LocalIncreasedEvasionRatingPercentAndStunRecovery6","n":"LocalIncreasedEvasionRatingPercentAndStunRecovery6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":78}
+```
+
+### 49. MapAtlasBodyguardsAndBossMapDrops2
 
 - Match score: `105`
 - `k`: MapAtlasBodyguardsAndBossMapDrops2
@@ -6305,7 +6556,7 @@ _No keyword matches in this index._
 {"k":"MapAtlasBodyguardsAndBossMapDrops2","n":"MapAtlasBodyguardsAndBossMapDrops2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"sextant_uses_remaining","max":3,"min":3},{"id":"map_boss_accompanied_by_bodyguards","max":1,"min":1},{"id":"map_on_complete_drop_x_additional_maps","max":1,"min":1}],"domain":"atlas","gen":"prefix","weights":[{"tag":"no_boss","weight":0},{"tag":"default","weight":1}],"lvl":1}
 ```
 
-### 29. MapAtlasBodyguardsAndBossMapDropsMaven__
+### 50. MapAtlasBodyguardsAndBossMapDropsMaven__
 
 - Match score: `105`
 - `k`: MapAtlasBodyguardsAndBossMapDropsMaven__
@@ -6321,7 +6572,7 @@ _No keyword matches in this index._
 {"k":"MapAtlasBodyguardsAndBossMapDropsMaven__","n":"MapAtlasBodyguardsAndBossMapDropsMaven__","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"sextant_uses_remaining","max":15,"min":15},{"id":"map_boss_accompanied_by_bodyguards","max":1,"min":1},{"id":"map_on_complete_drop_x_additional_maps","max":2,"min":2}],"domain":"atlas","gen":"prefix","weights":[{"tag":"no_boss","weight":0},{"tag":"default","weight":1}],"lvl":1}
 ```
 
-### 30. MapBlockBossRituals
+### 51. MapBlockBossRituals
 
 - Match score: `105`
 - `k`: MapBlockBossRituals
@@ -6337,7 +6588,7 @@ _No keyword matches in this index._
 {"k":"MapBlockBossRituals","n":"MapBlockBossRituals","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_block_ritual_at_boss_area","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 31. MapLabyrinthHiddenDamageLifeBoss
+### 52. MapLabyrinthHiddenDamageLifeBoss
 
 - Match score: `105`
 - `k`: MapLabyrinthHiddenDamageLifeBoss
@@ -6353,7 +6604,7 @@ _No keyword matches in this index._
 {"k":"MapLabyrinthHiddenDamageLifeBoss","n":"MapLabyrinthHiddenDamageLifeBoss","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_hidden_monster_life_+%_final","max":220,"min":220},{"id":"map_hidden_monster_damage_+%_final","max":7,"min":7}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 32. MapMonstersImmuneRandomStatusAilmentStunUniqueMap15
+### 53. MapMonstersImmuneRandomStatusAilmentStunUniqueMap15
 
 - Match score: `105`
 - `k`: MapMonstersImmuneRandomStatusAilmentStunUniqueMap15
@@ -6369,7 +6620,7 @@ _No keyword matches in this index._
 {"k":"MapMonstersImmuneRandomStatusAilmentStunUniqueMap15","n":"MapMonstersImmuneRandomStatusAilmentStunUniqueMap15","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_immune_to_a_random_status_ailment_or_stun","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 33. MapMonstersImmuneRandomStatusAilmentStunUniqueMap2
+### 54. MapMonstersImmuneRandomStatusAilmentStunUniqueMap2
 
 - Match score: `105`
 - `k`: MapMonstersImmuneRandomStatusAilmentStunUniqueMap2
@@ -6385,7 +6636,7 @@ _No keyword matches in this index._
 {"k":"MapMonstersImmuneRandomStatusAilmentStunUniqueMap2","n":"MapMonstersImmuneRandomStatusAilmentStunUniqueMap2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_immune_to_a_random_status_ailment_or_stun","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 34. MapPlayersBlockAndArmourPathOfEndurance
+### 55. MapPlayersBlockAndArmourPathOfEndurance
 
 - Match score: `105`
 - `k`: MapPlayersBlockAndArmourPathOfEndurance
@@ -6401,7 +6652,7 @@ _No keyword matches in this index._
 {"k":"MapPlayersBlockAndArmourPathOfEndurance","n":"MapPlayersBlockAndArmourPathOfEndurance","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_pack_size_+%","max":0,"min":0},{"id":"map_players_block_chance_+%","max":-40,"min":-40},{"id":"map_players_armour_+%_final","max":-50,"min":-50}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 35. MapSimulacrumInflictAilmentsAndAilmentResistance1
+### 56. MapSimulacrumInflictAilmentsAndAilmentResistance1
 
 - Match score: `105`
 - `k`: MapSimulacrumInflictAilmentsAndAilmentResistance1
@@ -6417,7 +6668,7 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumInflictAilmentsAndAilmentResistance1","n":"MapSimulacrumInflictAilmentsAndAilmentResistance1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_chance_to_inflict_status_ailments","max":15,"min":15},{"id":"map_monster_non_damaging_ailment_effect_+%_on_self","max":-33,"min":-33}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 36. MapSimulacrumInflictAilmentsAndAilmentResistance2
+### 57. MapSimulacrumInflictAilmentsAndAilmentResistance2
 
 - Match score: `105`
 - `k`: MapSimulacrumInflictAilmentsAndAilmentResistance2
@@ -6433,7 +6684,7 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumInflictAilmentsAndAilmentResistance2","n":"MapSimulacrumInflictAilmentsAndAilmentResistance2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_chance_to_inflict_status_ailments","max":20,"min":20},{"id":"map_monster_non_damaging_ailment_effect_+%_on_self","max":-50,"min":-50}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 37. MapSimulacrumInflictAilmentsAndAilmentResistance3__
+### 58. MapSimulacrumInflictAilmentsAndAilmentResistance3__
 
 - Match score: `105`
 - `k`: MapSimulacrumInflictAilmentsAndAilmentResistance3__
@@ -6449,7 +6700,7 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumInflictAilmentsAndAilmentResistance3__","n":"MapSimulacrumInflictAilmentsAndAilmentResistance3__","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_chance_to_inflict_status_ailments","max":30,"min":30},{"id":"map_monster_non_damaging_ailment_effect_+%_on_self","max":-66,"min":-66}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 38. MapSimulacrumStunAilmentThreshold
+### 59. MapSimulacrumStunAilmentThreshold
 
 - Match score: `105`
 - `k`: MapSimulacrumStunAilmentThreshold
@@ -6465,7 +6716,7 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumStunAilmentThreshold","n":"MapSimulacrumStunAilmentThreshold","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_stun_threshold_+%","max":100,"min":80},{"id":"map_monsters_ailment_threshold_+%","max":100,"min":80}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 39. MapSimulacrumStunAilmentThresholdExperience
+### 60. MapSimulacrumStunAilmentThresholdExperience
 
 - Match score: `105`
 - `k`: MapSimulacrumStunAilmentThresholdExperience
@@ -6481,7 +6732,7 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumStunAilmentThresholdExperience","n":"MapSimulacrumStunAilmentThresholdExperience","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_stun_threshold_+%","max":50,"min":50},{"id":"map_monsters_ailment_threshold_+%","max":50,"min":50},{"id":"map_monster_slain_experience_+%","max":60,"min":60}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 40. MinionLifeRecoveryOnBlockUnique__1
+### 61. MinionLifeRecoveryOnBlockUnique__1
 
 - Match score: `105`
 - `k`: MinionLifeRecoveryOnBlockUnique__1
@@ -6497,7 +6748,7 @@ _No keyword matches in this index._
 {"k":"MinionLifeRecoveryOnBlockUnique__1","n":"MinionLifeRecoveryOnBlockUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"minion_recover_%_of_maximum_life_on_block","max":10,"min":10}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 41. MinionLifeRecoveryOnBlockUniqueJewel18
+### 62. MinionLifeRecoveryOnBlockUniqueJewel18
 
 - Match score: `105`
 - `k`: MinionLifeRecoveryOnBlockUniqueJewel18
@@ -6513,7 +6764,7 @@ _No keyword matches in this index._
 {"k":"MinionLifeRecoveryOnBlockUniqueJewel18","n":"MinionLifeRecoveryOnBlockUniqueJewel18","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"minion_recover_%_of_maximum_life_on_block","max":2,"min":2}],"domain":"misc","gen":"unique","lvl":1}
 ```
 
-### 42. MonsterImplicitAuraLifeRegenBossStrIntMission
+### 63. MonsterImplicitAuraLifeRegenBossStrIntMission
 
 - Match score: `105`
 - `k`: MonsterImplicitAuraLifeRegenBossStrIntMission
@@ -6529,7 +6780,7 @@ _No keyword matches in this index._
 {"k":"MonsterImplicitAuraLifeRegenBossStrIntMission","n":"MonsterImplicitAuraLifeRegenBossStrIntMission","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_rate_per_minute_%","max":300,"min":300}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 43. MonsterTotemLifeMapBoss
+### 64. MonsterTotemLifeMapBoss
 
 - Match score: `105`
 - `k`: MonsterTotemLifeMapBoss
@@ -6545,7 +6796,7 @@ _No keyword matches in this index._
 {"k":"MonsterTotemLifeMapBoss","n":"MonsterTotemLifeMapBoss","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"totem_life_+%","max":857,"min":857}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 44. RegenerateLifeOnCastUniqueWand4
+### 65. RegenerateLifeOnCastUniqueWand4
 
 - Match score: `105`
 - `k`: RegenerateLifeOnCastUniqueWand4
@@ -6561,7 +6812,7 @@ _No keyword matches in this index._
 {"k":"RegenerateLifeOnCastUniqueWand4","n":"RegenerateLifeOnCastUniqueWand4","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"regenerate_X_life_over_1_second_on_cast","max":8,"min":6}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 45. StunRepeatImmunityMapBoss_
+### 66. StunRepeatImmunityMapBoss_
 
 - Match score: `105`
 - `k`: StunRepeatImmunityMapBoss_
@@ -6577,7 +6828,7 @@ _No keyword matches in this index._
 {"k":"StunRepeatImmunityMapBoss_","n":"StunRepeatImmunityMapBoss_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"cannot_be_stunned_while_stunned","max":1,"min":1},{"id":"cannot_be_stunned_for_ms_after_stun_finished","max":2000,"min":2000}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 46. StunRepeatImmunityMapBossSuper
+### 67. StunRepeatImmunityMapBossSuper
 
 - Match score: `105`
 - `k`: StunRepeatImmunityMapBossSuper
@@ -6593,7 +6844,7 @@ _No keyword matches in this index._
 {"k":"StunRepeatImmunityMapBossSuper","n":"StunRepeatImmunityMapBossSuper","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"cannot_be_stunned_while_stunned","max":1,"min":1},{"id":"cannot_be_stunned_for_ms_after_stun_finished","max":4000,"min":4000}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 47. UniqueLifeRegenerationFromLifeFlaskRecovery1
+### 68. UniqueLifeRegenerationFromLifeFlaskRecovery1
 
 - Match score: `105`
 - `k`: UniqueLifeRegenerationFromLifeFlaskRecovery1
@@ -6609,7 +6860,7 @@ _No keyword matches in this index._
 {"k":"UniqueLifeRegenerationFromLifeFlaskRecovery1","n":"UniqueLifeRegenerationFromLifeFlaskRecovery1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"non_unique_life_flasks_always_applied_with_no_instant_recovery_only_to_you","max":12,"min":8}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 48. UniqueMaxLifeToConvertToArmourPerChaosResistance1
+### 69. UniqueMaxLifeToConvertToArmourPerChaosResistance1
 
 - Match score: `105`
 - `k`: UniqueMaxLifeToConvertToArmourPerChaosResistance1
@@ -6625,7 +6876,7 @@ _No keyword matches in this index._
 {"k":"UniqueMaxLifeToConvertToArmourPerChaosResistance1","n":"UniqueMaxLifeToConvertToArmourPerChaosResistance1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"maximum_life_%_to_convert_to_twice_as_much_armour_per_1%_chaos_resistance","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 49. MapAtlasBossDropsConquerorMap
+### 70. MapAtlasBossDropsConquerorMap
 
 - Match score: `90`
 - `k`: MapAtlasBossDropsConquerorMap
@@ -6641,7 +6892,7 @@ _No keyword matches in this index._
 {"k":"MapAtlasBossDropsConquerorMap","n":"MapAtlasBossDropsConquerorMap","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"sextant_uses_remaining","max":3,"min":3},{"id":"map_boss_drops_additional_conqueror_map","max":1,"min":1},{"id":"map_boss_life_+%_final_from_boss_drops_guardian_map_sextant","max":200,"min":200},{"id":"map_boss_damage_+%_final_from_boss_drops_guardian_map_sextant","max":100,"min":100}],"domain":"atlas","gen":"prefix","weights":[{"tag":"no_boss","weight":0},{"tag":"default","weight":1}],"lvl":1}
 ```
 
-### 50. MapAtlasBossDropsConquerorMapMaven
+### 71. MapAtlasBossDropsConquerorMapMaven
 
 - Match score: `90`
 - `k`: MapAtlasBossDropsConquerorMapMaven
@@ -6657,7 +6908,7 @@ _No keyword matches in this index._
 {"k":"MapAtlasBossDropsConquerorMapMaven","n":"MapAtlasBossDropsConquerorMapMaven","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"sextant_uses_remaining","max":15,"min":15},{"id":"map_boss_drops_additional_conqueror_map","max":1,"min":1},{"id":"map_boss_life_+%_final_from_boss_drops_guardian_map_sextant","max":200,"min":200},{"id":"map_boss_damage_+%_final_from_boss_drops_guardian_map_sextant","max":100,"min":100}],"domain":"atlas","gen":"prefix","weights":[{"tag":"no_boss","weight":0},{"tag":"default","weight":1}],"lvl":1}
 ```
 
-### 51. MapPlayerReducedRegen3Breachstone
+### 72. MapPlayerReducedRegen3Breachstone
 
 - Match score: `90`
 - `k`: MapPlayerReducedRegen3Breachstone
@@ -6673,7 +6924,7 @@ _No keyword matches in this index._
 {"k":"MapPlayerReducedRegen3Breachstone","n":"MapPlayerReducedRegen3Breachstone","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_pack_size_+%","max":0,"min":0},{"id":"map_player_life_and_es_recovery_speed_+%_final","max":-50,"min":-50}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 52. MapPlayerReducedRegenLabyrinth1
+### 73. MapPlayerReducedRegenLabyrinth1
 
 - Match score: `90`
 - `k`: MapPlayerReducedRegenLabyrinth1
@@ -6689,7 +6940,7 @@ _No keyword matches in this index._
 {"k":"MapPlayerReducedRegenLabyrinth1","n":"MapPlayerReducedRegenLabyrinth1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":20,"min":20},{"id":"map_item_drop_rarity_+%","max":40,"min":40},{"id":"map_player_life_and_es_recovery_speed_+%_final","max":-20,"min":-20},{"id":"map_pack_size_+%","max":0,"min":0}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 53. MapPlayerReducedRegenLabyrinth2__
+### 74. MapPlayerReducedRegenLabyrinth2__
 
 - Match score: `90`
 - `k`: MapPlayerReducedRegenLabyrinth2__
@@ -6705,7 +6956,7 @@ _No keyword matches in this index._
 {"k":"MapPlayerReducedRegenLabyrinth2__","n":"MapPlayerReducedRegenLabyrinth2__","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":20,"min":20},{"id":"map_item_drop_rarity_+%","max":40,"min":40},{"id":"map_player_life_and_es_recovery_speed_+%_final","max":-40,"min":-40},{"id":"map_pack_size_+%","max":0,"min":0}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 54. MapPlayerReducedRegenLabyrinth3
+### 75. MapPlayerReducedRegenLabyrinth3
 
 - Match score: `90`
 - `k`: MapPlayerReducedRegenLabyrinth3
@@ -6721,7 +6972,7 @@ _No keyword matches in this index._
 {"k":"MapPlayerReducedRegenLabyrinth3","n":"MapPlayerReducedRegenLabyrinth3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":20,"min":20},{"id":"map_item_drop_rarity_+%","max":40,"min":40},{"id":"map_player_life_and_es_recovery_speed_+%_final","max":-60,"min":-60},{"id":"map_pack_size_+%","max":0,"min":0}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 55. <<ExpedRuneArcane>><rgb(219,217,206)>{Arcane Rune}
+### 76. <<ExpedRuneArcane>><rgb(219,217,206)>{Arcane Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Extra Energy Shield}
 <rgb(135,134,253)>{Trigger a Stunning nova when Energy Shield is depleted}
@@ -6743,7 +6994,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRuneArcane","n":"<<ExpedRuneArcane>><rgb(219,217,206)>{Arcane Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Extra Energy Shield}\r\n<rgb(135,134,253)>{Trigger a Stunning nova when Energy Shield is depleted}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_maximum_life_%_to_gain_as_total_energy_shield","max":30,"min":30}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 56. <<ExpedRuneArcane>><rgb(219,217,206)>{Arcane Rune}
+### 77. <<ExpedRuneArcane>><rgb(219,217,206)>{Arcane Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Extra Energy Shield}
 <rgb(135,134,253)>{Trigger a Stunning nova when Energy Shield is depleted}
@@ -6765,7 +7016,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRuneArcanePower","n":"<<ExpedRuneArcane>><rgb(219,217,206)>{Arcane Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Extra Energy Shield}\r\n<rgb(135,134,253)>{Trigger a Stunning nova when Energy Shield is depleted}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_maximum_life_%_to_gain_as_total_energy_shield","max":60,"min":60}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 57. ExpeditionRelicDownsideRegenerateLifeEveryFourSeconds
+### 78. ExpeditionRelicDownsideRegenerateLifeEveryFourSeconds
 
 - Match score: `80`
 - `k`: ExpeditionRelicDownsideRegenerateLifeEveryFourSeconds
@@ -6781,7 +7032,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionRelicDownsideRegenerateLifeEveryFourSeconds","n":"ExpeditionRelicDownsideRegenerateLifeEveryFourSeconds","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"guardian_gain_life_regeneration_per_minute_%_for_1_second_every_10_seconds","max":900,"min":900}],"domain":"expedition_relic","gen":"prefix","weights":[{"tag":"expedition_atoll_remnant_logbook","weight":1},{"tag":"expedition_tundra_remnant_logbook","weight":1},{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 58. HandWrapsUniqueLeechEnergyShieldInsteadofLife1
+### 79. HandWrapsUniqueLeechEnergyShieldInsteadofLife1
 
 - Match score: `80`
 - `k`: HandWrapsUniqueLeechEnergyShieldInsteadofLife1
@@ -6797,7 +7048,7 @@ _No keyword matches in this index._
 {"k":"HandWrapsUniqueLeechEnergyShieldInsteadofLife1","n":"HandWrapsUniqueLeechEnergyShieldInsteadofLife1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"mana_leech_applies_recovery_to_energy_shield_also","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 59. MapMassiveBossIncursionTemple1
+### 80. MapMassiveBossIncursionTemple1
 
 - Match score: `80`
 - `k`: MapMassiveBossIncursionTemple1
@@ -6813,7 +7064,7 @@ _No keyword matches in this index._
 {"k":"MapMassiveBossIncursionTemple1","n":"MapMassiveBossIncursionTemple1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":20,"min":20},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_pack_size_+%","max":0,"min":0},{"id":"map_boss_maximum_life_+%","max":15,"min":15},{"id":"map_packs_are_mechanical_totems","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 60. MapMassiveBossIncursionTemple2
+### 81. MapMassiveBossIncursionTemple2
 
 - Match score: `80`
 - `k`: MapMassiveBossIncursionTemple2
@@ -6829,7 +7080,7 @@ _No keyword matches in this index._
 {"k":"MapMassiveBossIncursionTemple2","n":"MapMassiveBossIncursionTemple2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":40,"min":40},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_pack_size_+%","max":0,"min":0},{"id":"map_boss_maximum_life_+%","max":25,"min":25},{"id":"map_packs_are_mechanical_totems","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 61. MapMassiveBossIncursionTemple3
+### 82. MapMassiveBossIncursionTemple3
 
 - Match score: `80`
 - `k`: MapMassiveBossIncursionTemple3
@@ -6845,7 +7096,7 @@ _No keyword matches in this index._
 {"k":"MapMassiveBossIncursionTemple3","n":"MapMassiveBossIncursionTemple3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":60,"min":60},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_pack_size_+%","max":0,"min":0},{"id":"map_boss_maximum_life_+%","max":35,"min":35},{"id":"map_packs_are_mechanical_totems","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 62. MapMonsterCannotBeStunnedDelve_
+### 83. MapMonsterCannotBeStunnedDelve_
 
 - Match score: `80`
 - `k`: MapMonsterCannotBeStunnedDelve_
@@ -6861,7 +7112,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCannotBeStunnedDelve_","n":"MapMonsterCannotBeStunnedDelve_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":10,"min":5},{"id":"map_item_drop_rarity_+%","max":6,"min":3},{"id":"map_pack_size_+%","max":6,"min":3},{"id":"map_monsters_cannot_be_stunned","max":1,"min":1},{"id":"map_monsters_life_+%","max":0,"min":0}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":1}
 ```
 
-### 63. MapMonsterCannotBeStunnedLabyrinth1
+### 84. MapMonsterCannotBeStunnedLabyrinth1
 
 - Match score: `80`
 - `k`: MapMonsterCannotBeStunnedLabyrinth1
@@ -6877,7 +7128,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCannotBeStunnedLabyrinth1","n":"MapMonsterCannotBeStunnedLabyrinth1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":20,"min":20},{"id":"map_monsters_cannot_be_stunned","max":1,"min":1},{"id":"map_monsters_life_+%","max":17,"min":17}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 64. MapMonsterCannotBeStunnedLabyrinth2
+### 85. MapMonsterCannotBeStunnedLabyrinth2
 
 - Match score: `80`
 - `k`: MapMonsterCannotBeStunnedLabyrinth2
@@ -6893,7 +7144,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCannotBeStunnedLabyrinth2","n":"MapMonsterCannotBeStunnedLabyrinth2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":20,"min":20},{"id":"map_monsters_cannot_be_stunned","max":1,"min":1},{"id":"map_monsters_life_+%","max":22,"min":22}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 65. MapMonsterCannotBeStunnedLabyrinth3
+### 86. MapMonsterCannotBeStunnedLabyrinth3
 
 - Match score: `80`
 - `k`: MapMonsterCannotBeStunnedLabyrinth3
@@ -6909,7 +7160,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCannotBeStunnedLabyrinth3","n":"MapMonsterCannotBeStunnedLabyrinth3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":20,"min":20},{"id":"map_monsters_cannot_be_stunned","max":1,"min":1},{"id":"map_monsters_life_+%","max":28,"min":28}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 66. MapMonsterCannotBeStunnedPathOfEndurance
+### 87. MapMonsterCannotBeStunnedPathOfEndurance
 
 - Match score: `80`
 - `k`: MapMonsterCannotBeStunnedPathOfEndurance
@@ -6925,7 +7176,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCannotBeStunnedPathOfEndurance","n":"MapMonsterCannotBeStunnedPathOfEndurance","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_monsters_cannot_be_stunned","max":1,"min":1},{"id":"map_monsters_life_+%","max":30,"min":30}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 67. MapMonsterCannotBeStunnedSynthesis_
+### 88. MapMonsterCannotBeStunnedSynthesis_
 
 - Match score: `80`
 - `k`: MapMonsterCannotBeStunnedSynthesis_
@@ -6941,7 +7192,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterCannotBeStunnedSynthesis_","n":"MapMonsterCannotBeStunnedSynthesis_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":13,"min":13},{"id":"map_item_drop_rarity_+%","max":8,"min":8},{"id":"map_pack_size_+%","max":5,"min":5},{"id":"map_monsters_cannot_be_stunned","max":1,"min":1},{"id":"map_monsters_life_+%","max":0,"min":0}],"domain":"synthesis_a","gen":"synthesis_a","weights":[{"tag":"default","weight":1}],"lvl":1}
 ```
 
-### 68. MapMonsterLightningResistUnique__1
+### 89. MapMonsterLightningResistUnique__1
 
 - Match score: `80`
 - `k`: MapMonsterLightningResistUnique__1
@@ -6957,7 +7208,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterLightningResistUnique__1","n":"MapMonsterLightningResistUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_monsters_additional_lightning_resistance","max":35,"min":35}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 69. MapMonsterUnwaveringLife
+### 90. MapMonsterUnwaveringLife
 
 - Match score: `80`
 - `k`: MapMonsterUnwaveringLife
@@ -6973,7 +7224,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterUnwaveringLife","n":"MapMonsterUnwaveringLife","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_cannot_be_stunned","max":1,"min":1},{"id":"map_monsters_life_+%","max":35,"min":35}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 70. MapPathOfEnduranceBoss1_
+### 91. MapPathOfEnduranceBoss1_
 
 - Match score: `80`
 - `k`: MapPathOfEnduranceBoss1_
@@ -6989,7 +7240,7 @@ _No keyword matches in this index._
 {"k":"MapPathOfEnduranceBoss1_","n":"MapPathOfEnduranceBoss1_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_boss_maximum_life_+%","max":50,"min":50},{"id":"map_boss_damage_+%","max":10,"min":10},{"id":"map_boss_attack_and_cast_speed_+%","max":5,"min":5},{"id":"map_boss_area_of_effect_+%","max":0,"min":0}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 71. MapPathOfEnduranceBoss2
+### 92. MapPathOfEnduranceBoss2
 
 - Match score: `80`
 - `k`: MapPathOfEnduranceBoss2
@@ -7005,7 +7256,7 @@ _No keyword matches in this index._
 {"k":"MapPathOfEnduranceBoss2","n":"MapPathOfEnduranceBoss2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_boss_maximum_life_+%","max":75,"min":75},{"id":"map_boss_damage_+%","max":20,"min":20},{"id":"map_boss_attack_and_cast_speed_+%","max":10,"min":10},{"id":"map_boss_area_of_effect_+%","max":20,"min":20}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 72. MapPathOfEnduranceBoss3
+### 93. MapPathOfEnduranceBoss3
 
 - Match score: `80`
 - `k`: MapPathOfEnduranceBoss3
@@ -7021,7 +7272,7 @@ _No keyword matches in this index._
 {"k":"MapPathOfEnduranceBoss3","n":"MapPathOfEnduranceBoss3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_boss_maximum_life_+%","max":100,"min":100},{"id":"map_boss_damage_+%","max":30,"min":30},{"id":"map_boss_attack_and_cast_speed_+%","max":15,"min":15},{"id":"map_boss_area_of_effect_+%","max":45,"min":45}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 73. MapSimulacrumInflictAilmentsAndPenetration1_
+### 94. MapSimulacrumInflictAilmentsAndPenetration1_
 
 - Match score: `80`
 - `k`: MapSimulacrumInflictAilmentsAndPenetration1_
@@ -7037,7 +7288,7 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumInflictAilmentsAndPenetration1_","n":"MapSimulacrumInflictAilmentsAndPenetration1_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_chance_to_inflict_status_ailments","max":15,"min":15},{"id":"map_monsters_penetrate_elemental_resistances_%","max":5,"min":5}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 74. MapSimulacrumInflictAilmentsAndPenetration2
+### 95. MapSimulacrumInflictAilmentsAndPenetration2
 
 - Match score: `80`
 - `k`: MapSimulacrumInflictAilmentsAndPenetration2
@@ -7053,7 +7304,7 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumInflictAilmentsAndPenetration2","n":"MapSimulacrumInflictAilmentsAndPenetration2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_chance_to_inflict_status_ailments","max":20,"min":20},{"id":"map_monsters_penetrate_elemental_resistances_%","max":7,"min":7}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 75. MapSimulacrumInflictAilmentsAndPenetration3
+### 96. MapSimulacrumInflictAilmentsAndPenetration3
 
 - Match score: `80`
 - `k`: MapSimulacrumInflictAilmentsAndPenetration3
@@ -7069,7 +7320,7 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumInflictAilmentsAndPenetration3","n":"MapSimulacrumInflictAilmentsAndPenetration3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_chance_to_inflict_status_ailments","max":30,"min":30},{"id":"map_monsters_penetrate_elemental_resistances_%","max":10,"min":10}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 76. MonsterInvasionBossMap
+### 97. MonsterInvasionBossMap
 
 - Match score: `80`
 - `k`: MonsterInvasionBossMap
@@ -7085,7 +7336,7 @@ _No keyword matches in this index._
 {"k":"MonsterInvasionBossMap","n":"MonsterInvasionBossMap","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"maximum_life_+%","max":50,"min":50}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 77. SentinelTagUniqueDroneMapBossUnique1
+### 98. SentinelTagUniqueDroneMapBossUnique1
 
 - Match score: `80`
 - `k`: SentinelTagUniqueDroneMapBossUnique1
@@ -7101,7 +7352,7 @@ _No keyword matches in this index._
 {"k":"SentinelTagUniqueDroneMapBossUnique1","n":"SentinelTagUniqueDroneMapBossUnique1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_actor_scale_+%","max":25,"min":25},{"id":"tagged_by_sentinel","max":1,"min":1},{"id":"tagged_by_sentinel_unique","max":1,"min":1},{"id":"monster_sentinel_experience_+%","max":500,"min":500},{"id":"archnemesis_monster_life_+%_final","max":150,"min":150}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 78. StrongboxConstructHas_MonsterLifeRegenerationRatePercentage1
+### 99. StrongboxConstructHas_MonsterLifeRegenerationRatePercentage1
 
 - Match score: `80`
 - `k`: StrongboxConstructHas_MonsterLifeRegenerationRatePercentage1
@@ -7117,7 +7368,7 @@ _No keyword matches in this index._
 {"k":"StrongboxConstructHas_MonsterLifeRegenerationRatePercentage1","n":"StrongboxConstructHas_MonsterLifeRegenerationRatePercentage1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"strongbox_construct_has_monsterliferegenerationratepercentage1","max":1,"min":1}],"domain":"strongbox","gen":"suffix","weights":[{"tag":"strongbox_robot_rare_guard","weight":1},{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 79. UltimatumUniqueMapRecoveryReduction
+### 100. UltimatumUniqueMapRecoveryReduction
 
 - Match score: `80`
 - `k`: UltimatumUniqueMapRecoveryReduction
@@ -7133,7 +7384,7 @@ _No keyword matches in this index._
 {"k":"UltimatumUniqueMapRecoveryReduction","n":"UltimatumUniqueMapRecoveryReduction","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_ultimatum_unique_map_boss_recovery_reduction","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 80. UltimatumUniqueMapReflectAilmentsAndCurses
+### 101. UltimatumUniqueMapReflectAilmentsAndCurses
 
 - Match score: `80`
 - `k`: UltimatumUniqueMapReflectAilmentsAndCurses
@@ -7149,7 +7400,7 @@ _No keyword matches in this index._
 {"k":"UltimatumUniqueMapReflectAilmentsAndCurses","n":"UltimatumUniqueMapReflectAilmentsAndCurses","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_ultimatum_unique_map_boss_reflect_ailments_and_curses","max":1,"min":1}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 81. UniqueLifeFlaskRecoveryAmount1
+### 102. UniqueLifeFlaskRecoveryAmount1
 
 - Match score: `80`
 - `k`: UniqueLifeFlaskRecoveryAmount1
@@ -7165,7 +7416,7 @@ _No keyword matches in this index._
 {"k":"UniqueLifeFlaskRecoveryAmount1","n":"UniqueLifeFlaskRecoveryAmount1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"unique_body_armour_life_flask_life_recovery_+%_final","max":-40,"min":-60}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 82. UniqueLifeRegenerationNotApplied1
+### 103. UniqueLifeRegenerationNotApplied1
 
 - Match score: `80`
 - `k`: UniqueLifeRegenerationNotApplied1
@@ -7181,7 +7432,7 @@ _No keyword matches in this index._
 {"k":"UniqueLifeRegenerationNotApplied1","n":"UniqueLifeRegenerationNotApplied1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_recovery_from_regeneration_is_not_applied","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 83. <<ExpedRuneBloodletting>><rgb(219,217,206)>{Bloodletting Rune}
+### 104. <<ExpedRuneBloodletting>><rgb(219,217,206)>{Bloodletting Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Life Leech}
 <rgb(135,134,253)>{Cannot have Life Leeched from}
@@ -7205,7 +7456,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRuneBloodletting","n":"<<ExpedRuneBloodletting>><rgb(219,217,206)>{Bloodletting Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Life Leech}\r\n<rgb(135,134,253)>{Cannot have Life Leeched from}\r\n<rgb(135,134,253)>{Inflicts Corrupted Blood on Hit}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_life_leech_from_physical_attack_damage_permyriad","max":19000,"min":19000},{"id":"corrupted_blood_on_hit_%_average_damage_to_deal_per_minute_per_stack","max":15,"min":15},{"id":"corrupted_blood_on_hit_duration","max":4000,"min":4000},{"id":"corrupted_blood_on_hit_num_stacks","max":1,"min":1},{"id":"base_cannot_have_life_leeched_from","max":1,"min":1},{"id":"base_cannot_have_energy_shield_leeched_from","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 84. <<ExpedRuneBloodletting>><rgb(219,217,206)>{Bloodletting Rune}
+### 105. <<ExpedRuneBloodletting>><rgb(219,217,206)>{Bloodletting Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{Life Leech}
 <rgb(135,134,253)>{Cannot have Life Leeched from}
@@ -7229,7 +7480,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRuneBloodlettingPower","n":"<<ExpedRuneBloodletting>><rgb(219,217,206)>{Bloodletting Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{Life Leech}\r\n<rgb(135,134,253)>{Cannot have Life Leeched from}\r\n<rgb(135,134,253)>{Inflicts Corrupted Blood on Hit}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_life_leech_from_physical_attack_damage_permyriad","max":26000,"min":26000},{"id":"corrupted_blood_on_hit_%_average_damage_to_deal_per_minute_per_stack","max":30,"min":30},{"id":"corrupted_blood_on_hit_duration","max":4000,"min":4000},{"id":"corrupted_blood_on_hit_num_stacks","max":1,"min":1},{"id":"base_cannot_have_life_leeched_from","max":1,"min":1},{"id":"base_cannot_have_energy_shield_leeched_from","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 85. <<ExpedRuneStone>><rgb(219,217,206)>{Stone Rune}
+### 106. <<ExpedRuneStone>><rgb(219,217,206)>{Stone Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{[Armour|Armoured]}
 <rgb(135,134,253)>{Increased Stun Threshold}
@@ -7253,7 +7504,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRuneStone","n":"<<ExpedRuneStone>><rgb(219,217,206)>{Stone Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{[Armour|Armoured]}\r\n<rgb(135,134,253)>{Increased Stun Threshold}\r\n<rgb(135,134,253)>{Earthly Prison}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_additional_strength_ratio_%_for_armour","max":50,"min":50},{"id":"stun_threshold_+%","max":100,"min":100}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 86. <<ExpedRuneStone>><rgb(219,217,206)>{Stone Rune}
+### 107. <<ExpedRuneStone>><rgb(219,217,206)>{Stone Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{[Armour|Armoured]}
 <rgb(135,134,253)>{Increased Stun Threshold}
@@ -7277,7 +7528,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRuneStonePower","n":"<<ExpedRuneStone>><rgb(219,217,206)>{Stone Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{[Armour|Armoured]}\r\n<rgb(135,134,253)>{Increased Stun Threshold}\r\n<rgb(135,134,253)>{Earthly Prison}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_additional_strength_ratio_%_for_armour","max":100,"min":100},{"id":"stun_threshold_+%","max":200,"min":200}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 87. AdditionalCurseOnEnemiesMapBossGeofri_
+### 108. AdditionalCurseOnEnemiesMapBossGeofri_
 
 - Match score: `70`
 - `k`: AdditionalCurseOnEnemiesMapBossGeofri_
@@ -7293,7 +7544,7 @@ _No keyword matches in this index._
 {"k":"AdditionalCurseOnEnemiesMapBossGeofri_","n":"AdditionalCurseOnEnemiesMapBossGeofri_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"number_of_additional_curses_allowed","max":3,"min":3}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 88. AmuletImplicitLifeRegeneration1
+### 109. AmuletImplicitLifeRegeneration1
 
 - Match score: `70`
 - `k`: AmuletImplicitLifeRegeneration1
@@ -7309,7 +7560,7 @@ _No keyword matches in this index._
 {"k":"AmuletImplicitLifeRegeneration1","n":"AmuletImplicitLifeRegeneration1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_life_regeneration_rate_per_minute","max":240,"min":120}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 89. ArcticArmourReservationCostUnique__1
+### 110. ArcticArmourReservationCostUnique__1
 
 - Match score: `70`
 - `k`: ArcticArmourReservationCostUnique__1
@@ -7325,7 +7576,7 @@ _No keyword matches in this index._
 {"k":"ArcticArmourReservationCostUnique__1","n":"ArcticArmourReservationCostUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"arctic_armour_no_reservation","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 90. ArmourAndEvasionPercentCrafted
+### 111. ArmourAndEvasionPercentCrafted
 
 - Match score: `70`
 - `k`: ArmourAndEvasionPercentCrafted
@@ -7341,7 +7592,7 @@ _No keyword matches in this index._
 {"k":"ArmourAndEvasionPercentCrafted","n":"ArmourAndEvasionPercentCrafted","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_armour_and_evasion_+%","max":78,"min":70}],"domain":"crafted","gen":"unique","lvl":1}
 ```
 
-### 91. ArmourIncreasedByUncappedFireResistanceUnique__1
+### 112. ArmourIncreasedByUncappedFireResistanceUnique__1
 
 - Match score: `70`
 - `k`: ArmourIncreasedByUncappedFireResistanceUnique__1
@@ -7357,7 +7608,7 @@ _No keyword matches in this index._
 {"k":"ArmourIncreasedByUncappedFireResistanceUnique__1","n":"ArmourIncreasedByUncappedFireResistanceUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"armour_increased_by_uncapped_fire_resistance","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 92. AttackDamageLifeLeechAgainstBleedingEnemiesUnique_1
+### 113. AttackDamageLifeLeechAgainstBleedingEnemiesUnique_1
 
 - Match score: `70`
 - `k`: AttackDamageLifeLeechAgainstBleedingEnemiesUnique_1
@@ -7373,7 +7624,7 @@ _No keyword matches in this index._
 {"k":"AttackDamageLifeLeechAgainstBleedingEnemiesUnique_1","n":"AttackDamageLifeLeechAgainstBleedingEnemiesUnique_1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_life_leech_from_physical_attack_damage_permyriad_vs_bleeding_enemies","max":100,"min":100}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 93. AttackDamagePerLowestArmourOrEvasionUnique__1
+### 114. AttackDamagePerLowestArmourOrEvasionUnique__1
 
 - Match score: `70`
 - `k`: AttackDamagePerLowestArmourOrEvasionUnique__1
@@ -7389,7 +7640,7 @@ _No keyword matches in this index._
 {"k":"AttackDamagePerLowestArmourOrEvasionUnique__1","n":"AttackDamagePerLowestArmourOrEvasionUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"attack_damage_+1%_per_300_of_min_of_armour_or_evasion","max":1,"min":1}],"domain":"item","gen":"unique","lvl":98}
 ```
 
-### 94. AviansFlightLifeRegenerationUnique__1
+### 115. AviansFlightLifeRegenerationUnique__1
 
 - Match score: `70`
 - `k`: AviansFlightLifeRegenerationUnique__1
@@ -7405,7 +7656,7 @@ _No keyword matches in this index._
 {"k":"AviansFlightLifeRegenerationUnique__1","n":"AviansFlightLifeRegenerationUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"life_regeneration_per_minute_while_you_have_avians_flight","max":6000,"min":6000}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 95. BeltFlaskLifeRecoveryRate1
+### 116. BeltFlaskLifeRecoveryRate1
 
 - Match score: `70`
 - `k`: BeltFlaskLifeRecoveryRate1
@@ -7414,10 +7665,10 @@ _No keyword matches in this index._
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"BeltFlaskLifeRecoveryRate1","n":"BeltFlaskLifeRecoveryRate1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
+{"k":"BeltFlaskLifeRecoveryRate1","n":"BeltFlaskLifeRecoveryRate1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":5}
 ```
 
-### 96. BeltFlaskLifeRecoveryRate2
+### 117. BeltFlaskLifeRecoveryRate2
 
 - Match score: `70`
 - `k`: BeltFlaskLifeRecoveryRate2
@@ -7426,10 +7677,10 @@ _No keyword matches in this index._
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"BeltFlaskLifeRecoveryRate2","n":"BeltFlaskLifeRecoveryRate2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":16}
+{"k":"BeltFlaskLifeRecoveryRate2","n":"BeltFlaskLifeRecoveryRate2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":21}
 ```
 
-### 97. BeltFlaskLifeRecoveryRate3_
+### 118. BeltFlaskLifeRecoveryRate3_
 
 - Match score: `70`
 - `k`: BeltFlaskLifeRecoveryRate3_
@@ -7438,10 +7689,10 @@ _No keyword matches in this index._
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"BeltFlaskLifeRecoveryRate3_","n":"BeltFlaskLifeRecoveryRate3_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":33}
+{"k":"BeltFlaskLifeRecoveryRate3_","n":"BeltFlaskLifeRecoveryRate3_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":35}
 ```
 
-### 98. BeltFlaskLifeRecoveryRate4
+### 119. BeltFlaskLifeRecoveryRate4
 
 - Match score: `70`
 - `k`: BeltFlaskLifeRecoveryRate4
@@ -7450,10 +7701,10 @@ _No keyword matches in this index._
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"BeltFlaskLifeRecoveryRate4","n":"BeltFlaskLifeRecoveryRate4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":46}
+{"k":"BeltFlaskLifeRecoveryRate4","n":"BeltFlaskLifeRecoveryRate4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":49}
 ```
 
-### 99. BeltFlaskLifeRecoveryRate5
+### 120. BeltFlaskLifeRecoveryRate5
 
 - Match score: `70`
 - `k`: BeltFlaskLifeRecoveryRate5
@@ -7462,303 +7713,7 @@ _No keyword matches in this index._
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"BeltFlaskLifeRecoveryRate5","n":"BeltFlaskLifeRecoveryRate5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":60}
-```
-
-### 100. BeltFlaskLifeRecoveryRate6
-
-- Match score: `70`
-- `k`: BeltFlaskLifeRecoveryRate6
-- `n`: BeltFlaskLifeRecoveryRate6
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"BeltFlaskLifeRecoveryRate6","n":"BeltFlaskLifeRecoveryRate6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 101. BeltFlaskLifeRecoveryRateEssence1
-
-- Match score: `70`
-- `k`: BeltFlaskLifeRecoveryRateEssence1
-- `n`: BeltFlaskLifeRecoveryRateEssence1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"BeltFlaskLifeRecoveryRateEssence1","n":"BeltFlaskLifeRecoveryRateEssence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
-```
-
-### 102. BeltFlaskLifeRecoveryRateEssence2
-
-- Match score: `70`
-- `k`: BeltFlaskLifeRecoveryRateEssence2
-- `n`: BeltFlaskLifeRecoveryRateEssence2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"BeltFlaskLifeRecoveryRateEssence2","n":"BeltFlaskLifeRecoveryRateEssence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":10}
-```
-
-### 103. BeltFlaskLifeRecoveryRateEssence3
-
-- Match score: `70`
-- `k`: BeltFlaskLifeRecoveryRateEssence3
-- `n`: BeltFlaskLifeRecoveryRateEssence3
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"BeltFlaskLifeRecoveryRateEssence3","n":"BeltFlaskLifeRecoveryRateEssence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":26}
-```
-
-### 104. BeltFlaskLifeRecoveryRateEssence4
-
-- Match score: `70`
-- `k`: BeltFlaskLifeRecoveryRateEssence4
-- `n`: BeltFlaskLifeRecoveryRateEssence4
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"BeltFlaskLifeRecoveryRateEssence4","n":"BeltFlaskLifeRecoveryRateEssence4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":42}
-```
-
-### 105. BeltFlaskLifeRecoveryRateEssence5
-
-- Match score: `70`
-- `k`: BeltFlaskLifeRecoveryRateEssence5
-- `n`: BeltFlaskLifeRecoveryRateEssence5
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"BeltFlaskLifeRecoveryRateEssence5","n":"BeltFlaskLifeRecoveryRateEssence5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":58}
-```
-
-### 106. BeltFlaskLifeRecoveryRateEssence6
-
-- Match score: `70`
-- `k`: BeltFlaskLifeRecoveryRateEssence6
-- `n`: BeltFlaskLifeRecoveryRateEssence6
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"BeltFlaskLifeRecoveryRateEssence6","n":"BeltFlaskLifeRecoveryRateEssence6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":74}
-```
-
-### 107. BeltFlaskLifeRecoveryRateEssence7
-
-- Match score: `70`
-- `k`: BeltFlaskLifeRecoveryRateEssence7
-- `n`: BeltFlaskLifeRecoveryRateEssence7
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"BeltFlaskLifeRecoveryRateEssence7","n":"BeltFlaskLifeRecoveryRateEssence7","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":82}
-```
-
-### 108. BeltFlaskLifeRecoveryRateUniqueBelt4
-
-- Match score: `70`
-- `k`: BeltFlaskLifeRecoveryRateUniqueBelt4
-- `n`: BeltFlaskLifeRecoveryRateUniqueBelt4
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"flask_life_recovery_rate_+%","max":25,"min":25}]
-
-```json
-{"k":"BeltFlaskLifeRecoveryRateUniqueBelt4","n":"BeltFlaskLifeRecoveryRateUniqueBelt4","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"flask_life_recovery_rate_+%","max":25,"min":25}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 109. BeltFlaskLifeRecoveryUnique__1
-
-- Match score: `70`
-- `k`: BeltFlaskLifeRecoveryUnique__1
-- `n`: BeltFlaskLifeRecoveryUnique__1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"flask_life_to_recover_+%","max":40,"min":30}]
-
-```json
-{"k":"BeltFlaskLifeRecoveryUnique__1","n":"BeltFlaskLifeRecoveryUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"flask_life_to_recover_+%","max":40,"min":30}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 110. BeltFlaskLifeRecoveryUniqueDescentBelt1
-
-- Match score: `70`
-- `k`: BeltFlaskLifeRecoveryUniqueDescentBelt1
-- `n`: BeltFlaskLifeRecoveryUniqueDescentBelt1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"flask_life_to_recover_+%","max":30,"min":30}]
-
-```json
-{"k":"BeltFlaskLifeRecoveryUniqueDescentBelt1","n":"BeltFlaskLifeRecoveryUniqueDescentBelt1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"flask_life_to_recover_+%","max":30,"min":30}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 111. BeltImplicitFlaskLifeRecovery1
-
-- Match score: `70`
-- `k`: BeltImplicitFlaskLifeRecovery1
-- `n`: BeltImplicitFlaskLifeRecovery1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"flask_life_to_recover_+%","max":30,"min":20}]
-
-```json
-{"k":"BeltImplicitFlaskLifeRecovery1","n":"BeltImplicitFlaskLifeRecovery1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"flask_life_to_recover_+%","max":30,"min":20}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 112. BerserkInfluenceWarcryLifeRecovery1
-
-- Match score: `70`
-- `k`: BerserkInfluenceWarcryLifeRecovery1
-- `n`: BerserkInfluenceWarcryLifeRecovery1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"BerserkInfluenceWarcryLifeRecovery1","n":"BerserkInfluenceWarcryLifeRecovery1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":45}
-```
-
-### 113. BerserkInfluenceWarcryLifeRecovery2
-
-- Match score: `70`
-- `k`: BerserkInfluenceWarcryLifeRecovery2
-- `n`: BerserkInfluenceWarcryLifeRecovery2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"BerserkInfluenceWarcryLifeRecovery2","n":"BerserkInfluenceWarcryLifeRecovery2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 114. BetrayalUpgradeMonsterLifeLeech
-
-- Match score: `70`
-- `k`: BetrayalUpgradeMonsterLifeLeech
-- `n`: BetrayalUpgradeMonsterLifeLeech
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: monster
-- `stats`: [{"id":"base_life_leech_from_physical_attack_damage_permyriad","max":1000,"min":1000}]
-
-```json
-{"k":"BetrayalUpgradeMonsterLifeLeech","n":"BetrayalUpgradeMonsterLifeLeech","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_life_leech_from_physical_attack_damage_permyriad","max":1000,"min":1000}],"domain":"monster","gen":"unique","lvl":1}
-```
-
-### 115. BlackguardZombieBossSideAreaSpeedStance
-
-- Match score: `70`
-- `k`: BlackguardZombieBossSideAreaSpeedStance
-- `n`: BlackguardZombieBossSideAreaSpeedStance
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 0
-- `gen`: unique
-- `domain`: monster
-- `stats`: [{"id":"stance_movement_speed_+%_final","max":600,"min":600},{"id":"attack_speed_+%","max":150,"min":150}]
-
-```json
-{"k":"BlackguardZombieBossSideAreaSpeedStance","n":"BlackguardZombieBossSideAreaSpeedStance","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"stance_movement_speed_+%_final","max":600,"min":600},{"id":"attack_speed_+%","max":150,"min":150}],"domain":"monster","gen":"unique","lvl":0}
-```
-
-### 116. BodyArmourImplicitChaosResistance1
-
-- Match score: `70`
-- `k`: BodyArmourImplicitChaosResistance1
-- `n`: BodyArmourImplicitChaosResistance1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"base_chaos_damage_resistance_%","max":13,"min":7}]
-
-```json
-{"k":"BodyArmourImplicitChaosResistance1","n":"BodyArmourImplicitChaosResistance1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_chaos_damage_resistance_%","max":13,"min":7}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 117. BodyArmourImplicitColdResistance1
-
-- Match score: `70`
-- `k`: BodyArmourImplicitColdResistance1
-- `n`: BodyArmourImplicitColdResistance1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"base_cold_damage_resistance_%","max":25,"min":20}]
-
-```json
-{"k":"BodyArmourImplicitColdResistance1","n":"BodyArmourImplicitColdResistance1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_cold_damage_resistance_%","max":25,"min":20}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 118. BodyArmourImplicitDamageRemovedFromManaBeforeLife1
-
-- Match score: `70`
-- `k`: BodyArmourImplicitDamageRemovedFromManaBeforeLife1
-- `n`: BodyArmourImplicitDamageRemovedFromManaBeforeLife1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"base_damage_removed_from_mana_before_life_%","max":10,"min":5}]
-
-```json
-{"k":"BodyArmourImplicitDamageRemovedFromManaBeforeLife1","n":"BodyArmourImplicitDamageRemovedFromManaBeforeLife1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_damage_removed_from_mana_before_life_%","max":10,"min":5}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 119. BodyArmourImplicitFireResistance1
-
-- Match score: `70`
-- `k`: BodyArmourImplicitFireResistance1
-- `n`: BodyArmourImplicitFireResistance1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"base_fire_damage_resistance_%","max":25,"min":20}]
-
-```json
-{"k":"BodyArmourImplicitFireResistance1","n":"BodyArmourImplicitFireResistance1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_fire_damage_resistance_%","max":25,"min":20}],"domain":"item","gen":"unique","lvl":1}
-```
-
-### 120. BodyArmourImplicitIncreasedAilmentThreshold1
-
-- Match score: `70`
-- `k`: BodyArmourImplicitIncreasedAilmentThreshold1
-- `n`: BodyArmourImplicitIncreasedAilmentThreshold1
-- `cat`: repoe_mods
-- `src`: repoe_poe2/mods.json
-- `lvl`: 1
-- `gen`: unique
-- `domain`: item
-- `stats`: [{"id":"ailment_threshold_+%","max":40,"min":30}]
-
-```json
-{"k":"BodyArmourImplicitIncreasedAilmentThreshold1","n":"BodyArmourImplicitIncreasedAilmentThreshold1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"ailment_threshold_+%","max":40,"min":30}],"domain":"item","gen":"unique","lvl":1}
+{"k":"BeltFlaskLifeRecoveryRate5","n":"BeltFlaskLifeRecoveryRate5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":63}
 ```
 
 ## Rune mods
@@ -9694,7 +9649,31 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Damage taken [Recoup|Recouped] as Life is also [Recoup|Recouped] as [EnergyShield|Energy Shield]","n":"Damage taken [Recoup|Recouped] as Life is also [Recoup|Recouped] as [EnergyShield|Energy Shield]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 70. Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% increased Life regeneration rate
+### 70. DelveArmourEvasionOnFullLife
+
+- Match score: `105`
+- `k`: DelveArmourEvasionOnFullLife
+- `n`: DelveArmourEvasionOnFullLife
+- `cat`: pob_mod_jewel
+- `src`: pob_data_poe2/ModJewel.json
+
+```json
+{"k":"DelveArmourEvasionOnFullLife","n":"DelveArmourEvasionOnFullLife","cat":"pob_mod_jewel","src":"pob_data_poe2/ModJewel.json","level":1}
+```
+
+### 71. DelveArmourLifeRegen1
+
+- Match score: `105`
+- `k`: DelveArmourLifeRegen1
+- `n`: DelveArmourLifeRegen1
+- `cat`: pob_mod_jewel
+- `src`: pob_data_poe2/ModJewel.json
+
+```json
+{"k":"DelveArmourLifeRegen1","n":"DelveArmourLifeRegen1","cat":"pob_mod_jewel","src":"pob_data_poe2/ModJewel.json","level":1}
+```
+
+### 72. Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% increased Life regeneration rate
 
 - Match score: `105`
 - `k`: Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% increased Life regeneration rate
@@ -9706,7 +9685,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% increased Life regeneration rate","n":"Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% increased Life regeneration rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 71. Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% reduced Life regeneration rate
+### 73. Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% reduced Life regeneration rate
 
 - Match score: `105`
 - `k`: Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% reduced Life regeneration rate
@@ -9718,7 +9697,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% reduced Life regeneration rate","n":"Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% reduced Life regeneration rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 72. Enemies you [ArmourBreak|Fully Armour Break] cannot Regenerate Life
+### 74. Enemies you [ArmourBreak|Fully Armour Break] cannot Regenerate Life
 
 - Match score: `105`
 - `k`: Enemies you [ArmourBreak|Fully Armour Break] cannot Regenerate Life
@@ -9730,7 +9709,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Enemies you [ArmourBreak|Fully Armour Break] cannot Regenerate Life","n":"Enemies you [ArmourBreak|Fully Armour Break] cannot Regenerate Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 73. Every 4 seconds, [Runic] Monsters Regenerate {0}% of maximum Life over one second
+### 75. Every 4 seconds, [Runic] Monsters Regenerate {0}% of maximum Life over one second
 
 - Match score: `105`
 - `k`: Every 4 seconds, [Runic] Monsters Regenerate {0}% of maximum Life over one second
@@ -9742,7 +9721,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Every 4 seconds, [Runic] Monsters Regenerate {0}% of maximum Life over one second","n":"Every 4 seconds, [Runic] Monsters Regenerate {0}% of maximum Life over one second","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 74. Every 4 seconds, Recover 1 Life for every {0} Life Recovery per second from Regeneration
+### 76. Every 4 seconds, Recover 1 Life for every {0} Life Recovery per second from Regeneration
 
 - Match score: `105`
 - `k`: Every 4 seconds, Recover 1 Life for every {0} Life Recovery per second from Regeneration
@@ -9754,7 +9733,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Every 4 seconds, Recover 1 Life for every {0} Life Recovery per second from Regeneration","n":"Every 4 seconds, Recover 1 Life for every {0} Life Recovery per second from Regeneration","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 75. Every 4 seconds, Regenerate [EnergyShield|Energy Shield] equal to {0}% of [Evasion] Rating over 1 second
+### 77. Every 4 seconds, Regenerate [EnergyShield|Energy Shield] equal to {0}% of [Evasion] Rating over 1 second
 
 - Match score: `105`
 - `k`: Every 4 seconds, Regenerate [EnergyShield|Energy Shield] equal to {0}% of [Evasion] Rating over 1 second
@@ -9766,7 +9745,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Every 4 seconds, Regenerate [EnergyShield|Energy Shield] equal to {0}% of [Evasion] Rating over 1 second","n":"Every 4 seconds, Regenerate [EnergyShield|Energy Shield] equal to {0}% of [Evasion] Rating over 1 second","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 76. Every 4 seconds, Regenerate {0}% of maximum Life over one second
+### 78. Every 4 seconds, Regenerate {0}% of maximum Life over one second
 
 - Match score: `105`
 - `k`: Every 4 seconds, Regenerate {0}% of maximum Life over one second
@@ -9778,7 +9757,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Every 4 seconds, Regenerate {0}% of maximum Life over one second","n":"Every 4 seconds, Regenerate {0}% of maximum Life over one second","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 77. Excess Life Recovery added as [Guard] for {0} seconds
+### 79. Excess Life Recovery added as [Guard] for {0} seconds
 
 - Match score: `105`
 - `k`: Excess Life Recovery added as [Guard] for {0} seconds
@@ -9790,7 +9769,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Excess Life Recovery added as [Guard] for {0} seconds","n":"Excess Life Recovery added as [Guard] for {0} seconds","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 78. Final Area Boss drops an additional Elder Guardian Map (Tier 14+)
+### 80. Final Area Boss drops an additional Elder Guardian Map (Tier 14+)
 
 - Match score: `105`
 - `k`: Final Area Boss drops an additional Elder Guardian Map (Tier 14+)
@@ -9802,7 +9781,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Final Area Boss drops an additional Elder Guardian Map (Tier 14+)","n":"Final Area Boss drops an additional Elder Guardian Map (Tier 14+)","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 79. Final Area Boss drops an additional Shaper Guardian Map (Tier 14+)
+### 81. Final Area Boss drops an additional Shaper Guardian Map (Tier 14+)
 
 - Match score: `105`
 - `k`: Final Area Boss drops an additional Shaper Guardian Map (Tier 14+)
@@ -9814,7 +9793,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Final Area Boss drops an additional Shaper Guardian Map (Tier 14+)","n":"Final Area Boss drops an additional Shaper Guardian Map (Tier 14+)","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 80. Final Map Boss in each Map drops an additional Elder Guardian Map (Tier 14+)
+### 82. Final Map Boss in each Map drops an additional Elder Guardian Map (Tier 14+)
 
 - Match score: `105`
 - `k`: Final Map Boss in each Map drops an additional Elder Guardian Map (Tier 14+)
@@ -9826,7 +9805,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Final Map Boss in each Map drops an additional Elder Guardian Map (Tier 14+)","n":"Final Map Boss in each Map drops an additional Elder Guardian Map (Tier 14+)","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 81. Final Map Boss in each Map drops an additional Shaper Guardian Map (Tier 14+)
+### 83. Final Map Boss in each Map drops an additional Shaper Guardian Map (Tier 14+)
 
 - Match score: `105`
 - `k`: Final Map Boss in each Map drops an additional Shaper Guardian Map (Tier 14+)
@@ -9838,7 +9817,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Final Map Boss in each Map drops an additional Shaper Guardian Map (Tier 14+)","n":"Final Map Boss in each Map drops an additional Shaper Guardian Map (Tier 14+)","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 82. Final Map Boss in each Map has {0}% chance to drop a Shaper Guardian Map (Tier 14+)
+### 84. Final Map Boss in each Map has {0}% chance to drop a Shaper Guardian Map (Tier 14+)
 
 - Match score: `105`
 - `k`: Final Map Boss in each Map has {0}% chance to drop a Shaper Guardian Map (Tier 14+)
@@ -9850,7 +9829,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Final Map Boss in each Map has {0}% chance to drop a Shaper Guardian Map (Tier 14+)","n":"Final Map Boss in each Map has {0}% chance to drop a Shaper Guardian Map (Tier 14+)","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 83. Final Map Boss in each Map has {0}% chance to drop an Elder Guardian Map (Tier 14+)
+### 85. Final Map Boss in each Map has {0}% chance to drop an Elder Guardian Map (Tier 14+)
 
 - Match score: `105`
 - `k`: Final Map Boss in each Map has {0}% chance to drop an Elder Guardian Map (Tier 14+)
@@ -9862,7 +9841,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Final Map Boss in each Map has {0}% chance to drop an Elder Guardian Map (Tier 14+)","n":"Final Map Boss in each Map has {0}% chance to drop an Elder Guardian Map (Tier 14+)","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 84. For each nearby corpse, Regenerate {0}% maximum Life per second, up to 3%
+### 86. For each nearby corpse, Regenerate {0}% maximum Life per second, up to 3%
 
 - Match score: `105`
 - `k`: For each nearby corpse, Regenerate {0}% maximum Life per second, up to 3%
@@ -9874,7 +9853,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"For each nearby corpse, Regenerate {0}% maximum Life per second, up to 3%","n":"For each nearby corpse, Regenerate {0}% maximum Life per second, up to 3%","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 85. Frost Shield Regenerates {0}% of its maximum Life per second
+### 87. Frost Shield Regenerates {0}% of its maximum Life per second
 
 - Match score: `105`
 - `k`: Frost Shield Regenerates {0}% of its maximum Life per second
@@ -9886,7 +9865,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Frost Shield Regenerates {0}% of its maximum Life per second","n":"Frost Shield Regenerates {0}% of its maximum Life per second","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 86. Gain [AilmentThreshold|Ailment Threshold] equal to the lowest of [Evasion|Evasion] and [Armour|Armour] on your Boots
+### 88. Gain [AilmentThreshold|Ailment Threshold] equal to the lowest of [Evasion|Evasion] and [Armour|Armour] on your Boots
 
 - Match score: `105`
 - `k`: Gain [AilmentThreshold|Ailment Threshold] equal to the lowest of [Evasion|Evasion] and [Armour|Armour] on your Boots
@@ -9898,7 +9877,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Gain [AilmentThreshold|Ailment Threshold] equal to the lowest of [Evasion|Evasion] and [Armour|Armour] on your Boots","n":"Gain [AilmentThreshold|Ailment Threshold] equal to the lowest of [Evasion|Evasion] and [Armour|Armour] on your Boots","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 87. Gain [Guard] equal to {0}% of maximum Life for 4 seconds on taking [SavageHit|Savage Hit]
+### 89. Gain [Guard] equal to {0}% of maximum Life for 4 seconds on taking [SavageHit|Savage Hit]
 
 - Match score: `105`
 - `k`: Gain [Guard] equal to {0}% of maximum Life for 4 seconds on taking [SavageHit|Savage Hit]
@@ -9910,7 +9889,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Gain [Guard] equal to {0}% of maximum Life for 4 seconds on taking [SavageHit|Savage Hit]","n":"Gain [Guard] equal to {0}% of maximum Life for 4 seconds on taking [SavageHit|Savage Hit]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 88. Gain [Guard] equal to {0}% of your maximum life per [Jade] consumed
+### 90. Gain [Guard] equal to {0}% of your maximum life per [Jade] consumed
 
 - Match score: `105`
 - `k`: Gain [Guard] equal to {0}% of your maximum life per [Jade] consumed
@@ -9922,7 +9901,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Gain [Guard] equal to {0}% of your maximum life per [Jade] consumed","n":"Gain [Guard] equal to {0}% of your maximum life per [Jade] consumed","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 89. Gain [StunThreshold|Stun Threshold] equal to the lowest of [Evasion|Evasion] and [Armour|Armour] on your Helmet
+### 91. Gain [StunThreshold|Stun Threshold] equal to the lowest of [Evasion|Evasion] and [Armour|Armour] on your Helmet
 
 - Match score: `105`
 - `k`: Gain [StunThreshold|Stun Threshold] equal to the lowest of [Evasion|Evasion] and [Armour|Armour] on your Helmet
@@ -9934,7 +9913,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Gain [StunThreshold|Stun Threshold] equal to the lowest of [Evasion|Evasion] and [Armour|Armour] on your Helmet","n":"Gain [StunThreshold|Stun Threshold] equal to the lowest of [Evasion|Evasion] and [Armour|Armour] on your Helmet","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 90. Gain {0}% of maximum Life as [Armour|Armour]
+### 92. Gain {0}% of maximum Life as [Armour|Armour]
 
 - Match score: `105`
 - `k`: Gain {0}% of maximum Life as [Armour|Armour]
@@ -9946,7 +9925,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"Gain {0}% of maximum Life as [Armour|Armour]","n":"Gain {0}% of maximum Life as [Armour|Armour]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 91. If you Consumed a corpse Recently, you and nearby Allies Regenerate {0}% of maximum Life per second
+### 93. If you Consumed a corpse Recently, you and nearby Allies Regenerate {0}% of maximum Life per second
 
 - Match score: `105`
 - `k`: If you Consumed a corpse Recently, you and nearby Allies Regenerate {0}% of maximum Life per second
@@ -9958,7 +9937,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"If you Consumed a corpse Recently, you and nearby Allies Regenerate {0}% of maximum Life per second","n":"If you Consumed a corpse Recently, you and nearby Allies Regenerate {0}% of maximum Life per second","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 92. If you've Hit an Enemy Recently, you and nearby Allies Regenerate {0}% of maximum Life per second
+### 94. If you've Hit an Enemy Recently, you and nearby Allies Regenerate {0}% of maximum Life per second
 
 - Match score: `105`
 - `k`: If you've Hit an Enemy Recently, you and nearby Allies Regenerate {0}% of maximum Life per second
@@ -9970,7 +9949,7 @@ also Recover [EnergyShield|Energy Shield] for you and Allies
 {"k":"If you've Hit an Enemy Recently, you and nearby Allies Regenerate {0}% of maximum Life per second","n":"If you've Hit an Enemy Recently, you and nearby Allies Regenerate {0}% of maximum Life per second","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 93. Inflict [CorruptedBlood|Corrupted Blood] for {1} second on [Block|Block], dealing {2}% of
+### 95. Inflict [CorruptedBlood|Corrupted Blood] for {1} second on [Block|Block], dealing {2}% of
 your maximum Life as [Physical] damage per second
 
 - Match score: `105`
@@ -9985,7 +9964,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Inflict [CorruptedBlood|Corrupted Blood] for {1} second on [Block|Block], dealing {2}% of\nyour maximum Life as [Physical] damage per second","n":"Inflict [CorruptedBlood|Corrupted Blood] for {1} second on [Block|Block], dealing {2}% of\nyour maximum Life as [Physical] damage per second","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 94. Inflict [CorruptedBlood|Corrupted Blood] for {1} seconds on [Block|Block], dealing {2}% of
+### 96. Inflict [CorruptedBlood|Corrupted Blood] for {1} seconds on [Block|Block], dealing {2}% of
 your maximum Life as [Physical] damage per second
 
 - Match score: `105`
@@ -10000,7 +9979,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Inflict [CorruptedBlood|Corrupted Blood] for {1} seconds on [Block|Block], dealing {2}% of\nyour maximum Life as [Physical] damage per second","n":"Inflict [CorruptedBlood|Corrupted Blood] for {1} seconds on [Block|Block], dealing {2}% of\nyour maximum Life as [Physical] damage per second","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 95. Inflict {0} [CorruptedBlood|Corrupted Blood] Debuffs for {1} second on [Block|Block], dealing {2}% of
+### 97. Inflict {0} [CorruptedBlood|Corrupted Blood] Debuffs for {1} second on [Block|Block], dealing {2}% of
 your maximum Life as [Physical] damage per second
 
 - Match score: `105`
@@ -10015,7 +9994,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Inflict {0} [CorruptedBlood|Corrupted Blood] Debuffs for {1} second on [Block|Block], dealing {2}% of\nyour maximum Life as [Physical] damage per second","n":"Inflict {0} [CorruptedBlood|Corrupted Blood] Debuffs for {1} second on [Block|Block], dealing {2}% of\nyour maximum Life as [Physical] damage per second","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 96. Inflict {0} [CorruptedBlood|Corrupted Blood] Debuffs for {1} seconds on [Block|Block], dealing {2}% of
+### 98. Inflict {0} [CorruptedBlood|Corrupted Blood] Debuffs for {1} seconds on [Block|Block], dealing {2}% of
 your maximum Life as [Physical] damage per second
 
 - Match score: `105`
@@ -10030,7 +10009,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Inflict {0} [CorruptedBlood|Corrupted Blood] Debuffs for {1} seconds on [Block|Block], dealing {2}% of\nyour maximum Life as [Physical] damage per second","n":"Inflict {0} [CorruptedBlood|Corrupted Blood] Debuffs for {1} seconds on [Block|Block], dealing {2}% of\nyour maximum Life as [Physical] damage per second","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 97. Infusion grants {0}% of maximum Life Regenerated per second
+### 99. Infusion grants {0}% of maximum Life Regenerated per second
 
 - Match score: `105`
 - `k`: Infusion grants {0}% of maximum Life Regenerated per second
@@ -10042,7 +10021,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Infusion grants {0}% of maximum Life Regenerated per second","n":"Infusion grants {0}% of maximum Life Regenerated per second","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 98. Life [Flask|Flasks] applied to you grant [Guard] for 4 seconds equal to {0}% of the Life Recovery per Second they apply
+### 100. Life [Flask|Flasks] applied to you grant [Guard] for 4 seconds equal to {0}% of the Life Recovery per Second they apply
 
 - Match score: `105`
 - `k`: Life [Flask|Flasks] applied to you grant [Guard] for 4 seconds equal to {0}% of the Life Recovery per Second they apply
@@ -10054,7 +10033,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Life [Flask|Flasks] applied to you grant [Guard] for 4 seconds equal to {0}% of the Life Recovery per Second they apply","n":"Life [Flask|Flasks] applied to you grant [Guard] for 4 seconds equal to {0}% of the Life Recovery per Second they apply","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 99. Life [LifeRecharge|Recharges] instead of [ESRecharge|Energy Shield]
+### 101. Life [LifeRecharge|Recharges] instead of [ESRecharge|Energy Shield]
 50% less Life Recovery from [Flask|Flasks]
 
 - Match score: `105`
@@ -10069,7 +10048,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Life [LifeRecharge|Recharges] instead of [ESRecharge|Energy Shield]\n50% less Life Recovery from [Flask|Flasks]","n":"Life [LifeRecharge|Recharges] instead of [ESRecharge|Energy Shield]\n50% less Life Recovery from [Flask|Flasks]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 100. Life [Recoup] Recovers [EnergyShield|Energy Shield] instead
+### 102. Life [Recoup] Recovers [EnergyShield|Energy Shield] instead
 
 - Match score: `105`
 - `k`: Life [Recoup] Recovers [EnergyShield|Energy Shield] instead
@@ -10081,7 +10060,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Life [Recoup] Recovers [EnergyShield|Energy Shield] instead","n":"Life [Recoup] Recovers [EnergyShield|Energy Shield] instead","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 101. Life Recovery from [Flask|Flasks] also applies to [EnergyShield|Energy Shield]
+### 103. Life Recovery from [Flask|Flasks] also applies to [EnergyShield|Energy Shield]
 
 - Match score: `105`
 - `k`: Life Recovery from [Flask|Flasks] also applies to [EnergyShield|Energy Shield]
@@ -10093,7 +10072,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Life Recovery from [Flask|Flasks] also applies to [EnergyShield|Energy Shield]","n":"Life Recovery from [Flask|Flasks] also applies to [EnergyShield|Energy Shield]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 102. Life Recovery from [Flask|Flasks] also applies to [EnergyShield|Energy Shield] during Effect
+### 104. Life Recovery from [Flask|Flasks] also applies to [EnergyShield|Energy Shield] during Effect
 
 - Match score: `105`
 - `k`: Life Recovery from [Flask|Flasks] also applies to [EnergyShield|Energy Shield] during Effect
@@ -10105,7 +10084,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Life Recovery from [Flask|Flasks] also applies to [EnergyShield|Energy Shield] during Effect","n":"Life Recovery from [Flask|Flasks] also applies to [EnergyShield|Energy Shield] during Effect","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 103. Life Recovery from [Flask|Flasks] also applies to Energy Shield
+### 105. Life Recovery from [Flask|Flasks] also applies to Energy Shield
 30% less Life Recovery from [Flask|Flasks]
 
 - Match score: `105`
@@ -10120,7 +10099,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Life Recovery from [Flask|Flasks] also applies to Energy Shield\n30% less Life Recovery from [Flask|Flasks]","n":"Life Recovery from [Flask|Flasks] also applies to Energy Shield\n30% less Life Recovery from [Flask|Flasks]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 104. Life Recovery from [Flask|Flasks] can [Overflow|Overflow] Maximum Life
+### 106. Life Recovery from [Flask|Flasks] can [Overflow|Overflow] Maximum Life
 
 - Match score: `105`
 - `k`: Life Recovery from [Flask|Flasks] can [Overflow|Overflow] Maximum Life
@@ -10132,7 +10111,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Life Recovery from [Flask|Flasks] can [Overflow|Overflow] Maximum Life","n":"Life Recovery from [Flask|Flasks] can [Overflow|Overflow] Maximum Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 105. Life Recovery from Regeneration is not applied
+### 107. Life Recovery from Regeneration is not applied
 
 - Match score: `105`
 - `k`: Life Recovery from Regeneration is not applied
@@ -10144,7 +10123,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Life Recovery from Regeneration is not applied","n":"Life Recovery from Regeneration is not applied","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 106. Life Regeneration also Recovers [EnergyShield|Energy Shield]
+### 108. Life Regeneration also Recovers [EnergyShield|Energy Shield]
 
 - Match score: `105`
 - `k`: Life Regeneration also Recovers [EnergyShield|Energy Shield]
@@ -10156,7 +10135,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Life Regeneration also Recovers [EnergyShield|Energy Shield]","n":"Life Regeneration also Recovers [EnergyShield|Energy Shield]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 107. Life Regeneration is applied to [EnergyShield|Energy Shield] instead
+### 109. Life Regeneration is applied to [EnergyShield|Energy Shield] instead
 
 - Match score: `105`
 - `k`: Life Regeneration is applied to [EnergyShield|Energy Shield] instead
@@ -10168,7 +10147,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Life Regeneration is applied to [EnergyShield|Energy Shield] instead","n":"Life Regeneration is applied to [EnergyShield|Energy Shield] instead","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 108. Lose {0}% of maximum Life when you [Block]
+### 110. Lose {0}% of maximum Life when you [Block]
 
 - Match score: `105`
 - `k`: Lose {0}% of maximum Life when you [Block]
@@ -10180,7 +10159,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Lose {0}% of maximum Life when you [Block]","n":"Lose {0}% of maximum Life when you [Block]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 109. Lose {0}% of maximum Life, Mana, and [EnergyShield|Energy Shield] when you use Supported Skills
+### 111. Lose {0}% of maximum Life, Mana, and [EnergyShield|Energy Shield] when you use Supported Skills
 
 - Match score: `105`
 - `k`: Lose {0}% of maximum Life, Mana, and [EnergyShield|Energy Shield] when you use Supported Skills
@@ -10192,7 +10171,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Lose {0}% of maximum Life, Mana, and [EnergyShield|Energy Shield] when you use Supported Skills","n":"Lose {0}% of maximum Life, Mana, and [EnergyShield|Energy Shield] when you use Supported Skills","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 110. Magic Monsters in this Area Regenerate {0}% of maximum Life per second
+### 112. Magic Monsters in this Area Regenerate {0}% of maximum Life per second
 
 - Match score: `105`
 - `k`: Magic Monsters in this Area Regenerate {0}% of maximum Life per second
@@ -10204,7 +10183,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Magic Monsters in this Area Regenerate {0}% of maximum Life per second","n":"Magic Monsters in this Area Regenerate {0}% of maximum Life per second","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 111. Map Bosses are accompanied by Bodyguards
+### 113. Map Bosses are accompanied by Bodyguards
 
 - Match score: `105`
 - `k`: Map Bosses are accompanied by Bodyguards
@@ -10216,7 +10195,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Map Bosses are accompanied by Bodyguards","n":"Map Bosses are accompanied by Bodyguards","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 112. Map Bosses have {0}% chance to be accompanied by two Rogue Exile Bodyguards
+### 114. Map Bosses have {0}% chance to be accompanied by two Rogue Exile Bodyguards
 
 - Match score: `105`
 - `k`: Map Bosses have {0}% chance to be accompanied by two Rogue Exile Bodyguards
@@ -10228,7 +10207,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Map Bosses have {0}% chance to be accompanied by two Rogue Exile Bodyguards","n":"Map Bosses have {0}% chance to be accompanied by two Rogue Exile Bodyguards","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 113. Map Bosses have {0}% increased Life
+### 115. Map Bosses have {0}% increased Life
 
 - Match score: `105`
 - `k`: Map Bosses have {0}% increased Life
@@ -10240,7 +10219,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Map Bosses have {0}% increased Life","n":"Map Bosses have {0}% increased Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 114. Map Bosses have {0}% less Life
+### 116. Map Bosses have {0}% less Life
 
 - Match score: `105`
 - `k`: Map Bosses have {0}% less Life
@@ -10252,7 +10231,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Map Bosses have {0}% less Life","n":"Map Bosses have {0}% less Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 115. Map Bosses have {0}% more Life
+### 117. Map Bosses have {0}% more Life
 
 - Match score: `105`
 - `k`: Map Bosses have {0}% more Life
@@ -10264,7 +10243,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Map Bosses have {0}% more Life","n":"Map Bosses have {0}% more Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 116. Map Bosses have {0}% reduced Life
+### 118. Map Bosses have {0}% reduced Life
 
 - Match score: `105`
 - `k`: Map Bosses have {0}% reduced Life
@@ -10276,7 +10255,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Map Bosses have {0}% reduced Life","n":"Map Bosses have {0}% reduced Life","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 117. Minions Recover {0}% of their maximum Life when they Block
+### 119. Minions Recover {0}% of their maximum Life when they Block
 
 - Match score: `105`
 - `k`: Minions Recover {0}% of their maximum Life when they Block
@@ -10288,7 +10267,7 @@ your maximum Life as [Physical] damage per second
 {"k":"Minions Recover {0}% of their maximum Life when they Block","n":"Minions Recover {0}% of their maximum Life when they Block","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 118. Minions Regenerate {0}% of maximum Life per second
+### 120. Minions Regenerate {0}% of maximum Life per second
 
 - Match score: `105`
 - `k`: Minions Regenerate {0}% of maximum Life per second
@@ -10298,30 +10277,6 @@ your maximum Life as [Physical] damage per second
 
 ```json
 {"k":"Minions Regenerate {0}% of maximum Life per second","n":"Minions Regenerate {0}% of maximum Life per second","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 119. Monsters gain {0}% of maximum Life as Extra maximum [EnergyShield|Energy Shield]
-
-- Match score: `105`
-- `k`: Monsters gain {0}% of maximum Life as Extra maximum [EnergyShield|Energy Shield]
-- `n`: Monsters gain {0}% of maximum Life as Extra maximum [EnergyShield|Energy Shield]
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Monsters gain {0}% of maximum Life as Extra maximum [EnergyShield|Energy Shield]","n":"Monsters gain {0}% of maximum Life as Extra maximum [EnergyShield|Energy Shield]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
-```
-
-### 120. Monsters have {0}% increased [Armour], [Evasion] and [EnergyShield|Energy Shield]
-
-- Match score: `105`
-- `k`: Monsters have {0}% increased [Armour], [Evasion] and [EnergyShield|Energy Shield]
-- `n`: Monsters have {0}% increased [Armour], [Evasion] and [EnergyShield|Energy Shield]
-- `cat`: repoe_stats_by_file
-- `src`: repoe_poe2/stats_by_file.json
-
-```json
-{"k":"Monsters have {0}% increased [Armour], [Evasion] and [EnergyShield|Energy Shield]","n":"Monsters have {0}% increased [Armour], [Evasion] and [EnergyShield|Energy Shield]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ## Index match summary
