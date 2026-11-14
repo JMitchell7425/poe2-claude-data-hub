@@ -1,6 +1,6 @@
 # PoE2 Data Manifest Summary
 
-- Generated UTC: `2026-11-13T17:42:43+00:00`
+- Generated UTC: `2026-11-14T16:35:16+00:00`
 - Source priority: GGG passive tree -> RePoE PoE2 -> PoB-data PoE2 -> community sources only as benchmarks
 
 ## Download results
@@ -9,7 +9,7 @@
 |---|---|---:|---:|---|
 | OK | `sources/ggg/passive_tree_data.json` | 11 | 5,140,821 | https://raw.githubusercontent.com/grindinggear/poe2-skilltree-export/main/data.json |
 | OK | `sources/repoe_poe2/skill_gems.json` | 1,191 | 1,353,199 | https://repoe-fork.github.io/poe2/skill_gems.json |
-| OK | `sources/repoe_poe2/skills.json` | 8,350 | 27,972,323 | https://repoe-fork.github.io/poe2/skills.json |
+| OK | `sources/repoe_poe2/skills.json` | 8,350 | 27,969,892 | https://repoe-fork.github.io/poe2/skills.json |
 | OK | `sources/repoe_poe2/gem_tags.json` | 67 | 1,711 | https://repoe-fork.github.io/poe2/gem_tags.json |
 | OK | `sources/repoe_poe2/active_skill_types.json` | 290 | 6,285 | https://repoe-fork.github.io/poe2/active_skill_types.json |
 | OK | `sources/repoe_poe2/cost_types.json` | 18 | 1,769 | https://repoe-fork.github.io/poe2/cost_types.json |
@@ -18,13 +18,13 @@
 | OK | `sources/repoe_poe2/item_classes.json` | 118 | 15,998 | https://repoe-fork.github.io/poe2/item_classes.json |
 | OK | `sources/repoe_poe2/tags.json` | 1,339 | 29,102 | https://repoe-fork.github.io/poe2/tags.json |
 | OK | `sources/repoe_poe2/tag_details.json` | 1,339 | 100,198 | https://repoe-fork.github.io/poe2/tag_details.json |
-| OK | `sources/repoe_poe2/mods.json` | 16,911 | 13,085,106 | https://repoe-fork.github.io/poe2/mods.json |
+| OK | `sources/repoe_poe2/mods.json` | 16,911 | 13,579,237 | https://repoe-fork.github.io/poe2/mods.json |
 | OK | `sources/repoe_poe2/mods_by_base.json` | 82 | 5,615,572 | https://repoe-fork.github.io/poe2/mods_by_base.json |
 | OK | `sources/repoe_poe2/characters.json` | 12 | 7,233 | https://repoe-fork.github.io/poe2/characters.json |
 | OK | `sources/repoe_poe2/ascendancies.json` | 37 | 5,573,321 | https://repoe-fork.github.io/poe2/ascendancies.json |
 | OK | `sources/repoe_poe2/uniques.json` | 449 | 171,109 | https://repoe-fork.github.io/poe2/uniques.json |
 | OK | `sources/repoe_poe2/stats_by_file.json` | 26,185 | 14,352,736 | https://repoe-fork.github.io/poe2/stats_by_file.json |
-| OK | `sources/repoe_poe2/stat_value_handlers.json` | 74 | 375,676 | https://repoe-fork.github.io/poe2/stat_value_handlers.json |
+| OK | `sources/repoe_poe2/stat_value_handlers.json` | 84 | 376,216 | https://repoe-fork.github.io/poe2/stat_value_handlers.json |
 | OK | `sources/pob_data_poe2/Gems.json` | 725 | 387,916 | https://repoe-fork.github.io/pob-data/poe2/Gems.json |
 | OK | `sources/pob_data_poe2/ModItem.json` | 11,366 | 4,603,544 | https://repoe-fork.github.io/pob-data/poe2/ModItem.json |
 | OK | `sources/pob_data_poe2/ModRunes.json` | 305 | 328,860 | https://repoe-fork.github.io/pob-data/poe2/ModRunes.json |
@@ -46,7 +46,7 @@
 | `gem_index.json` | 11,272 | 2,115,618 | YES |
 | `item_base_index.json` | 8,292 | 1,729,795 | YES |
 | `manifest_summary.md` | 1 | 5,607 | YES |
-| `misc_index.json` | 28,149 | 5,597,022 | OPTIONAL |
+| `misc_index.json` | 28,159 | 5,598,402 | OPTIONAL |
 | `mod_index.json` | 28,377 | 6,950,043 | YES, if size allows |
 | `passive_tree_edges.json` | 5,131 | 236,430 | ONLY when exact pathing is needed |
 | `passive_tree_full_compact.json` | 5,153 | 696,323 | ONLY when exact small-node routing is needed |
