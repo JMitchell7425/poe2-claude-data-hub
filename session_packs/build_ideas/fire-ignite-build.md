@@ -1,6 +1,6 @@
 # Build Idea Pack — Fire Ignite Build
 
-- Generated UTC: `2026-11-17T19:10:07+00:00`
+- Generated UTC: `2026-11-18T18:50:38+00:00`
 - Idea slug: `fire-ignite-build`
 - Purpose: Engineer a fire/ignite build with strong map clear and boss damage-over-time scaling.
 - Keywords: `fire, ignite, burn, burning, flammability, exposure, penetration, ailment, elemental, damage over time, dot, area, aoe, spell, attack, projectile, spirit, support, resistance, infernalist, sorceress`
@@ -2931,7 +2931,19 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemBurningInscription","n":"Metadata/Items/Gems/SupportGemBurningInscription","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Burning Inscription","id":"Metadata/Items/Gems/SupportGemBurningInscription","release_state":"released"},"tags":["support","grants_active_skill","area","trigger","fire"]}
 ```
 
-### 2. CGEExpeditionHermitSpiderFireballBurningGround
+### 2. [{'flags': 0, 'keywordFlags': 0, 'name': 'DamageGainAsFire', 'type': 'BASE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Burning'}}]
+
+- Match score: `115`
+- `k`: non_skill_base_all_damage_%_to_gain_as_fire_with_attacks_vs_burning_enemies
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'DamageGainAsFire', 'type': 'BASE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Burning'}}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"non_skill_base_all_damage_%_to_gain_as_fire_with_attacks_vs_burning_enemies","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'DamageGainAsFire', 'type': 'BASE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Burning'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"DamageGainAsFire","type":"BASE","1":{"actor":"enemy","type":"ActorCondition","var":"Burning"}}]}
+```
+
+### 3. CGEExpeditionHermitSpiderFireballBurningGround
 
 - Match score: `115`
 - `k`: CGEExpeditionHermitSpiderFireballBurningGround
@@ -2944,7 +2956,7 @@ _No keyword matches in this index._
 {"k":"CGEExpeditionHermitSpiderFireballBurningGround","n":"CGEExpeditionHermitSpiderFireballBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 3. DeliriumFireTornadoBurningGround
+### 4. DeliriumFireTornadoBurningGround
 
 - Match score: `115`
 - `k`: DeliriumFireTornadoBurningGround
@@ -2957,7 +2969,7 @@ _No keyword matches in this index._
 {"k":"DeliriumFireTornadoBurningGround","n":"DeliriumFireTornadoBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 4. SupportFireExposurePlayer
+### 5. SupportFireExposurePlayer
 
 - Match score: `115`
 - `k`: SupportFireExposurePlayer
@@ -2971,7 +2983,7 @@ _No keyword matches in this index._
 {"k":"SupportFireExposurePlayer","n":"SupportFireExposurePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Duration"],"allowed_types":["Attack","Damage","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 5. SupportFirePenetrationPlayer
+### 6. SupportFirePenetrationPlayer
 
 - Match score: `115`
 - `k`: SupportFirePenetrationPlayer
@@ -2985,7 +2997,7 @@ _No keyword matches in this index._
 {"k":"SupportFirePenetrationPlayer","n":"SupportFirePenetrationPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 6. SupportFirePenetrationPlayerTwo
+### 7. SupportFirePenetrationPlayerTwo
 
 - Match score: `115`
 - `k`: SupportFirePenetrationPlayerTwo
@@ -2999,7 +3011,7 @@ _No keyword matches in this index._
 {"k":"SupportFirePenetrationPlayerTwo","n":"SupportFirePenetrationPlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 7. SupportMetaCastOnElementalAilmentPlayer
+### 8. SupportMetaCastOnElementalAilmentPlayer
 
 - Match score: `115`
 - `k`: SupportMetaCastOnElementalAilmentPlayer
@@ -3013,7 +3025,7 @@ _No keyword matches in this index._
 {"k":"SupportMetaCastOnElementalAilmentPlayer","n":"SupportMetaCastOnElementalAilmentPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Triggered"],"allowed_types":["Spell","Triggerable","AND"],"excluded_types":["InbuiltTrigger"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 8. TriggeredBurningRunesRogueExileSorceress1
+### 9. TriggeredBurningRunesRogueExileSorceress1
 
 - Match score: `115`
 - `k`: TriggeredBurningRunesRogueExileSorceress1
@@ -3024,19 +3036,6 @@ _No keyword matches in this index._
 
 ```json
 {"k":"TriggeredBurningRunesRogueExileSorceress1","n":"TriggeredBurningRunesRogueExileSorceress1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
-```
-
-### 9. Vaal Burning Arrow
-
-- Match score: `110`
-- `k`: Metadata/Items/Gems/SkillGemVaalBurningArrow
-- `n`: Vaal Burning Arrow
-- `cat`: pob_gems
-- `src`: pob_data_poe2/Gems.json
-- `tags`: {"area":true,"attack":true,"bow":true,"dexterity":true,"fire":true,"grants_active_skill":true,"projectile":true,"vaal":true}
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemVaalBurningArrow","n":"Vaal Burning Arrow","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"area":true,"attack":true,"bow":true,"dexterity":true,"fire":true,"grants_active_skill":true,"projectile":true,"vaal":true}}
 ```
 
 ### 10. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireMax', 'type': 'BASE', '1': {'actor': 'enemy', 'type': 'ActorCondition', 'var': 'Burning'}}]
@@ -3147,33 +3146,20 @@ _No keyword matches in this index._
 {"k":"SupportMetaRangedAttackOnIgnitePlayer","n":"SupportMetaRangedAttackOnIgnitePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":null,"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 18. Burning Arrow
+### 18. Burning Inscription
 
 - Match score: `100`
-- `k`: Metadata/Items/Gems/SkillGemBurningArrow
-- `n`: Burning Arrow
+- `k`: Metadata/Items/Gems/SkillGemBurningRunesSupport
+- `n`: Burning Inscription
 - `cat`: pob_gems
 - `src`: pob_data_poe2/Gems.json
-- `tags`: {"attack":true,"bow":true,"dexterity":true,"fire":true,"grants_active_skill":true,"projectile":true}
+- `tags`: {"area":true,"fire":true,"grants_active_skill":true,"support":true,"trigger":true}
 
 ```json
-{"k":"Metadata/Items/Gems/SkillGemBurningArrow","n":"Burning Arrow","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"attack":true,"bow":true,"dexterity":true,"fire":true,"grants_active_skill":true,"projectile":true}}
+{"k":"Metadata/Items/Gems/SkillGemBurningRunesSupport","n":"Burning Inscription","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"area":true,"fire":true,"grants_active_skill":true,"support":true,"trigger":true}}
 ```
 
-### 19. Burning Arrow of Vigour
-
-- Match score: `100`
-- `k`: Metadata/Items/Gems/SkillGemBurningArrowAltX
-- `n`: Burning Arrow of Vigour
-- `cat`: pob_gems
-- `src`: pob_data_poe2/Gems.json
-- `tags`: {"attack":true,"bow":true,"dexterity":true,"fire":true,"grants_active_skill":true,"projectile":true}
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemBurningArrowAltX","n":"Burning Arrow of Vigour","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"attack":true,"bow":true,"dexterity":true,"fire":true,"grants_active_skill":true,"projectile":true}}
-```
-
-### 20. Metadata/Items/Gems/SupportGemElementalDischarge
+### 19. Metadata/Items/Gems/SupportGemElementalDischarge
 
 - Match score: `100`
 - `k`: Metadata/Items/Gems/SupportGemElementalDischarge
@@ -3185,6 +3171,18 @@ _No keyword matches in this index._
 
 ```json
 {"k":"Metadata/Items/Gems/SupportGemElementalDischarge","n":"Metadata/Items/Gems/SupportGemElementalDischarge","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Elemental Discharge","id":"Metadata/Items/Gems/SupportGemElementalDischarge","release_state":"released"},"tags":["support","grants_active_skill","spell","area","trigger","lightning","cold","fire","payoff"]}
+```
+
+### 20. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}]
+
+- Match score: `90`
+- `k`: skill_base_oil_exposure_-_to_total_elemental_resistance
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"skill_base_oil_exposure_-_to_total_elemental_resistance","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FireExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}},{"flags":0,"keywordFlags":0,"name":"ColdExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}},{"flags":0,"keywordFlags":0,"name":"LightningExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}}]}
 ```
 
 ### 21. [{'flags': 0, 'keywordFlags': 0, 'name': 'SkillAttackTime', 'type': 'MORE', '1': {'type': 'Condition', 'varList': ['UsingBow', 'UsingWand']}, '2': {'stat': 'ProjectileCount', 'type': 'PerStat'}}]
@@ -3199,33 +3197,7 @@ _No keyword matches in this index._
 {"k":"support_barrage_attack_time_+%_per_projectile_fired","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SkillAttackTime', 'type': 'MORE', '1': {'type': 'Condition', 'varList': ['UsingBow', 'UsingWand']}, '2': {'stat': 'ProjectileCount', 'type': 'PerStat'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SkillAttackTime","type":"MORE","1":{"type":"Condition","varList":["UsingBow","UsingWand"]},"2":{"stat":"ProjectileCount","type":"PerStat"}}]}
 ```
 
-### 22. Awakened Burning Damage
-
-- Match score: `90`
-- `k`: Metadata/Items/Gems/SkillGemSupportAwakenedBurningDamage
-- `n`: Awakened Burning Damage
-- `cat`: pob_gems
-- `src`: pob_data_poe2/Gems.json
-- `tags`: {"awakened":true,"fire":true,"strength":true,"support":true}
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemSupportAwakenedBurningDamage","n":"Awakened Burning Damage","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"awakened":true,"fire":true,"strength":true,"support":true}}
-```
-
-### 23. Burning Damage
-
-- Match score: `90`
-- `k`: Metadata/Items/Gems/SkillGemSupportBurningDamage
-- `n`: Burning Damage
-- `cat`: pob_gems
-- `src`: pob_data_poe2/Gems.json
-- `tags`: {"fire":true,"strength":true,"support":true}
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemSupportBurningDamage","n":"Burning Damage","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"fire":true,"strength":true,"support":true}}
-```
-
-### 24. SupportDrainedAilmentPlayer
+### 22. SupportDrainedAilmentPlayer
 
 - Match score: `90`
 - `k`: SupportDrainedAilmentPlayer
@@ -3239,7 +3211,7 @@ _No keyword matches in this index._
 {"k":"SupportDrainedAilmentPlayer","n":"SupportDrainedAilmentPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["SkillConsumesFreeze","SkillConsumesIgnite","SkillConsumesShock","SkillConsumesBleeding","SkillConsumesPoison","SupportedByDrainedAilment"],"allowed_types":["Spell","DamageOverTime","AND"],"excluded_types":["SkillConsumesFreeze","SkillConsumesIgnite","OR","SkillConsumesShock","OR","SkillConsumesBleeding","OR","SkillConsumesPoison","OR","SupportedByDrainedAilment","NOT","AND"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 25. SupportElementalDischargePlayer
+### 23. SupportElementalDischargePlayer
 
 - Match score: `90`
 - `k`: SupportElementalDischargePlayer
@@ -3253,7 +3225,7 @@ _No keyword matches in this index._
 {"k":"SupportElementalDischargePlayer","n":"SupportElementalDischargePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["SkillConsumesFreeze","SkillConsumesIgnite","SkillConsumesShock","SupportedByElementalDischarge"],"allowed_types":["Spell","Damage","AND"],"excluded_types":["SkillConsumesFreeze","SkillConsumesIgnite","OR","SkillConsumesShock","OR","SupportedByElementalDischarge","NOT","AND"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 26. SupportFrostfirePlayer
+### 24. SupportFrostfirePlayer
 
 - Match score: `90`
 - `k`: SupportFrostfirePlayer
@@ -3267,7 +3239,7 @@ _No keyword matches in this index._
 {"k":"SupportFrostfirePlayer","n":"SupportFrostfirePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["SkillConsumesFreeze","SupportedByFrostfire"],"allowed_types":["Attack","Damage","CrossbowAmmoSkill"],"excluded_types":["SkillConsumesIgnite","SkillConsumesFreeze","SupportedByFrostfire","NOT","AND"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 27. SupportPotentExposurePlayer
+### 25. SupportPotentExposurePlayer
 
 - Match score: `90`
 - `k`: SupportPotentExposurePlayer
@@ -3281,7 +3253,7 @@ _No keyword matches in this index._
 {"k":"SupportPotentExposurePlayer","n":"SupportPotentExposurePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Spell","DegenOnlySpellDamage","CrossbowAmmoSkill","Attack"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 28. SupportWildfirePlayer
+### 26. SupportWildfirePlayer
 
 - Match score: `90`
 - `k`: SupportWildfirePlayer
@@ -3295,19 +3267,7 @@ _No keyword matches in this index._
 {"k":"SupportWildfirePlayer","n":"SupportWildfirePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Area"],"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 29. [{'flags': 0, 'keywordFlags': 0, 'name': 'BleedFaster', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'PoisonFaster', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'IgniteBurnFaster', 'type': 'INC'}]
-
-- Match score: `80`
-- `k`: damaging_ailments_deal_damage_+%_faster
-- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'BleedFaster', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'PoisonFaster', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'IgniteBurnFaster', 'type': 'INC'}]
-- `cat`: pob_skill_stat_map
-- `src`: pob_data_poe2/SkillStatMap.json
-
-```json
-{"k":"damaging_ailments_deal_damage_+%_faster","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'BleedFaster', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'PoisonFaster', 'type': 'INC'}, {'flags': 0, 'keywordFlags': 0, 'name': 'IgniteBurnFaster', 'type': 'INC'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"BleedFaster","type":"INC"},{"flags":0,"keywordFlags":0,"name":"PoisonFaster","type":"INC"},{"flags":0,"keywordFlags":0,"name":"IgniteBurnFaster","type":"INC"}]}
-```
-
-### 30. [{'flags': 0, 'keywordFlags': 0, 'name': 'ElementalPenetration', 'type': 'BASE'}]
+### 27. [{'flags': 0, 'keywordFlags': 0, 'name': 'ElementalPenetration', 'type': 'BASE'}]
 
 - Match score: `80`
 - `k`: base_penetrate_elemental_resistances_%
@@ -3319,7 +3279,7 @@ _No keyword matches in this index._
 {"k":"base_penetrate_elemental_resistances_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'ElementalPenetration', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"ElementalPenetration","type":"BASE"}]}
 ```
 
-### 31. [{'flags': 0, 'keywordFlags': 0, 'name': 'ElementalPenetration', 'type': 'BASE'}]
+### 28. [{'flags': 0, 'keywordFlags': 0, 'name': 'ElementalPenetration', 'type': 'BASE'}]
 
 - Match score: `80`
 - `k`: reduce_enemy_elemental_resistance_%
@@ -3331,7 +3291,19 @@ _No keyword matches in this index._
 {"k":"reduce_enemy_elemental_resistance_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'ElementalPenetration', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"ElementalPenetration","type":"BASE"}]}
 ```
 
-### 32. [{'flags': 0, 'keywordFlags': 0, 'name': 'FirePenetration', 'type': 'BASE'}]
+### 29. [{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}]
+
+- Match score: `80`
+- `k`: active_skill_all_elemental_exposure_magnitude
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
+
+```json
+{"k":"active_skill_all_elemental_exposure_magnitude","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FireExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'ColdExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}, {'flags': 0, 'keywordFlags': 0, 'name': 'LightningExposure', 'type': 'BASE', '1': {'effectType': 'Debuff', 'type': 'GlobalEffect'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FireExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}},{"flags":0,"keywordFlags":0,"name":"ColdExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}},{"flags":0,"keywordFlags":0,"name":"LightningExposure","type":"BASE","1":{"effectType":"Debuff","type":"GlobalEffect"}}]}
+```
+
+### 30. [{'flags': 0, 'keywordFlags': 0, 'name': 'FirePenetration', 'type': 'BASE'}]
 
 - Match score: `80`
 - `k`: base_reduce_enemy_fire_resistance_%
@@ -3343,33 +3315,19 @@ _No keyword matches in this index._
 {"k":"base_reduce_enemy_fire_resistance_%","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'FirePenetration', 'type': 'BASE'}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"FirePenetration","type":"BASE"}]}
 ```
 
-### 33. Awakened Elemental Damage with Attacks
+### 31. [{'flags': 0, 'keywordFlags': 0, 'name': 'SupportedGemProperty', 'type': 'LIST', 'value': {'key': 'level', 'keyword': 'grants_active_skill'}, '1': {'gemTagList': ['Lightning', 'Cold', 'Fire'], 'type': 'GemTag'}}]
 
 - Match score: `80`
-- `k`: Metadata/Items/Gems/SkillGemSupportAwakenedElementalDamageWithAttacks
-- `n`: Awakened Elemental Damage with Attacks
-- `cat`: pob_gems
-- `src`: pob_data_poe2/Gems.json
-- `tags`: {"attack":true,"awakened":true,"strength":true,"support":true}
+- `k`: supported_elemental_skill_gem_level_+
+- `n`: [{'flags': 0, 'keywordFlags': 0, 'name': 'SupportedGemProperty', 'type': 'LIST', 'value': {'key': 'level', 'keyword': 'grants_active_skill'}, '1': {'gemTagList': ['Lightning', 'Cold', 'Fire'], 'type': 'GemTag'}}]
+- `cat`: pob_skill_stat_map
+- `src`: pob_data_poe2/SkillStatMap.json
 
 ```json
-{"k":"Metadata/Items/Gems/SkillGemSupportAwakenedElementalDamageWithAttacks","n":"Awakened Elemental Damage with Attacks","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"attack":true,"awakened":true,"strength":true,"support":true}}
+{"k":"supported_elemental_skill_gem_level_+","n":"[{'flags': 0, 'keywordFlags': 0, 'name': 'SupportedGemProperty', 'type': 'LIST', 'value': {'key': 'level', 'keyword': 'grants_active_skill'}, '1': {'gemTagList': ['Lightning', 'Cold', 'Fire'], 'type': 'GemTag'}}]","cat":"pob_skill_stat_map","src":"pob_data_poe2/SkillStatMap.json","v":[{"flags":0,"keywordFlags":0,"name":"SupportedGemProperty","type":"LIST","value":{"key":"level","keyword":"grants_active_skill"},"1":{"gemTagList":["Lightning","Cold","Fire"],"type":"GemTag"}}]}
 ```
 
-### 34. Awakened Fire Penetration
-
-- Match score: `80`
-- `k`: Metadata/Items/Gems/SkillGemSupportAwakenedFirePenetration
-- `n`: Awakened Fire Penetration
-- `cat`: pob_gems
-- `src`: pob_data_poe2/Gems.json
-- `tags`: {"awakened":true,"fire":true,"strength":true,"support":true}
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemSupportAwakenedFirePenetration","n":"Awakened Fire Penetration","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"awakened":true,"fire":true,"strength":true,"support":true}}
-```
-
-### 35. BarrelCastGroundEffectBurningGroundSmall
+### 32. BarrelCastGroundEffectBurningGroundSmall
 
 - Match score: `80`
 - `k`: BarrelCastGroundEffectBurningGroundSmall
@@ -3382,7 +3340,20 @@ _No keyword matches in this index._
 {"k":"BarrelCastGroundEffectBurningGroundSmall","n":"BarrelCastGroundEffectBurningGroundSmall","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 36. CGEArchnemesisBurningGround
+### 33. Cast on Elemental Ailment
+
+- Match score: `80`
+- `k`: Metadata/Items/Gems/SkillGemCastOnElementalAilment
+- `n`: Cast on Elemental Ailment
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"buff":true,"cold":true,"fire":true,"grants_active_skill":true,"intelligence":true,"lightning":true,"meta":true,"persistent":true,"trigger":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemCastOnElementalAilment","n":"Cast on Elemental Ailment","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"buff":true,"cold":true,"fire":true,"grants_active_skill":true,"intelligence":true,"lightning":true,"meta":true,"persistent":true,"trigger":true}}
+```
+
+### 34. CGEArchnemesisBurningGround
 
 - Match score: `80`
 - `k`: CGEArchnemesisBurningGround
@@ -3395,7 +3366,7 @@ _No keyword matches in this index._
 {"k":"CGEArchnemesisBurningGround","n":"CGEArchnemesisBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 37. CGEArchnemesisBurningGroundParent
+### 35. CGEArchnemesisBurningGroundParent
 
 - Match score: `80`
 - `k`: CGEArchnemesisBurningGroundParent
@@ -3408,7 +3379,7 @@ _No keyword matches in this index._
 {"k":"CGEArchnemesisBurningGroundParent","n":"CGEArchnemesisBurningGroundParent","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 38. CGECasterEssenceBurningGround
+### 36. CGECasterEssenceBurningGround
 
 - Match score: `80`
 - `k`: CGECasterEssenceBurningGround
@@ -3421,7 +3392,7 @@ _No keyword matches in this index._
 {"k":"CGECasterEssenceBurningGround","n":"CGECasterEssenceBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 39. CGECentipedeReactorGuardianBurningGround
+### 37. CGECentipedeReactorGuardianBurningGround
 
 - Match score: `80`
 - `k`: CGECentipedeReactorGuardianBurningGround
@@ -3434,7 +3405,7 @@ _No keyword matches in this index._
 {"k":"CGECentipedeReactorGuardianBurningGround","n":"CGECentipedeReactorGuardianBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 40. CGEForsakenBurningGround
+### 38. CGEForsakenBurningGround
 
 - Match score: `80`
 - `k`: CGEForsakenBurningGround
@@ -3447,7 +3418,7 @@ _No keyword matches in this index._
 {"k":"CGEForsakenBurningGround","n":"CGEForsakenBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 41. CGEForsakenSonBurningGround
+### 39. CGEForsakenSonBurningGround
 
 - Match score: `80`
 - `k`: CGEForsakenSonBurningGround
@@ -3460,7 +3431,7 @@ _No keyword matches in this index._
 {"k":"CGEForsakenSonBurningGround","n":"CGEForsakenSonBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 42. CGEHeistRobotGolemBurningGround
+### 40. CGEHeistRobotGolemBurningGround
 
 - Match score: `80`
 - `k`: CGEHeistRobotGolemBurningGround
@@ -3473,7 +3444,7 @@ _No keyword matches in this index._
 {"k":"CGEHeistRobotGolemBurningGround","n":"CGEHeistRobotGolemBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 43. CGEMarakethSanctumSentinelsStatueDaemonBurningGround
+### 41. CGEMarakethSanctumSentinelsStatueDaemonBurningGround
 
 - Match score: `80`
 - `k`: CGEMarakethSanctumSentinelsStatueDaemonBurningGround
@@ -3486,7 +3457,7 @@ _No keyword matches in this index._
 {"k":"CGEMarakethSanctumSentinelsStatueDaemonBurningGround","n":"CGEMarakethSanctumSentinelsStatueDaemonBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 44. CGEMonsterModAbyssVolatileRockBurningGround
+### 42. CGEMonsterModAbyssVolatileRockBurningGround
 
 - Match score: `80`
 - `k`: CGEMonsterModAbyssVolatileRockBurningGround
@@ -3499,7 +3470,7 @@ _No keyword matches in this index._
 {"k":"CGEMonsterModAbyssVolatileRockBurningGround","n":"CGEMonsterModAbyssVolatileRockBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 45. CGEMonsterModAbyssVolatileRockBurningGroundPlayer
+### 43. CGEMonsterModAbyssVolatileRockBurningGroundPlayer
 
 - Match score: `80`
 - `k`: CGEMonsterModAbyssVolatileRockBurningGroundPlayer
@@ -3512,7 +3483,7 @@ _No keyword matches in this index._
 {"k":"CGEMonsterModAbyssVolatileRockBurningGroundPlayer","n":"CGEMonsterModAbyssVolatileRockBurningGroundPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 46. CGEWifeGhostflameBurning
+### 44. CGEWifeGhostflameBurning
 
 - Match score: `80`
 - `k`: CGEWifeGhostflameBurning
@@ -3525,7 +3496,7 @@ _No keyword matches in this index._
 {"k":"CGEWifeGhostflameBurning","n":"CGEWifeGhostflameBurning","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 47. DeliriumFireTornadoTick
+### 45. DeliriumFireTornadoTick
 
 - Match score: `80`
 - `k`: DeliriumFireTornadoTick
@@ -3538,7 +3509,7 @@ _No keyword matches in this index._
 {"k":"DeliriumFireTornadoTick","n":"DeliriumFireTornadoTick","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 48. EASFlammabilityRogueExileSorceress1
+### 46. EASFlammabilityRogueExileSorceress1
 
 - Match score: `80`
 - `k`: EASFlammabilityRogueExileSorceress1
@@ -3551,7 +3522,7 @@ _No keyword matches in this index._
 {"k":"EASFlammabilityRogueExileSorceress1","n":"EASFlammabilityRogueExileSorceress1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 49. EASTheTrialMasterElementalProjectiles
+### 47. EASTheTrialMasterElementalProjectiles
 
 - Match score: `80`
 - `k`: EASTheTrialMasterElementalProjectiles
@@ -3564,7 +3535,7 @@ _No keyword matches in this index._
 {"k":"EASTheTrialMasterElementalProjectiles","n":"EASTheTrialMasterElementalProjectiles","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 50. EDSSpiritTurtleFireSprayLeft
+### 48. EDSSpiritTurtleFireSprayLeft
 
 - Match score: `80`
 - `k`: EDSSpiritTurtleFireSprayLeft
@@ -3577,7 +3548,7 @@ _No keyword matches in this index._
 {"k":"EDSSpiritTurtleFireSprayLeft","n":"EDSSpiritTurtleFireSprayLeft","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 51. EDSSpiritTurtleFireSprayRight
+### 49. EDSSpiritTurtleFireSprayRight
 
 - Match score: `80`
 - `k`: EDSSpiritTurtleFireSprayRight
@@ -3590,7 +3561,7 @@ _No keyword matches in this index._
 {"k":"EDSSpiritTurtleFireSprayRight","n":"EDSSpiritTurtleFireSprayRight","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 52. EGFireBeastProximityBurnCorpse
+### 50. EGFireBeastProximityBurnCorpse
 
 - Match score: `80`
 - `k`: EGFireBeastProximityBurnCorpse
@@ -3603,7 +3574,7 @@ _No keyword matches in this index._
 {"k":"EGFireBeastProximityBurnCorpse","n":"EGFireBeastProximityBurnCorpse","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 53. EGForsakenBurningGround
+### 51. EGForsakenBurningGround
 
 - Match score: `80`
 - `k`: EGForsakenBurningGround
@@ -3616,33 +3587,7 @@ _No keyword matches in this index._
 {"k":"EGForsakenBurningGround","n":"EGForsakenBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 54. Elemental Damage with Attacks
-
-- Match score: `80`
-- `k`: Metadata/Items/Gems/SkillGemSupportElementalDamageWithAttacks
-- `n`: Elemental Damage with Attacks
-- `cat`: pob_gems
-- `src`: pob_data_poe2/Gems.json
-- `tags`: {"attack":true,"strength":true,"support":true}
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemSupportElementalDamageWithAttacks","n":"Elemental Damage with Attacks","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"attack":true,"strength":true,"support":true}}
-```
-
-### 55. Elemental Penetration
-
-- Match score: `80`
-- `k`: Metadata/Items/Gems/SkillGemSupportElementalPenetration
-- `n`: Elemental Penetration
-- `cat`: pob_gems
-- `src`: pob_data_poe2/Gems.json
-- `tags`: {"intelligence":true,"support":true}
-
-```json
-{"k":"Metadata/Items/Gems/SkillGemSupportElementalPenetration","n":"Elemental Penetration","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"intelligence":true,"support":true}}
-```
-
-### 56. EmptyActionSpellDeliriumSkillDaemonFire
+### 52. EmptyActionSpellDeliriumSkillDaemonFire
 
 - Match score: `80`
 - `k`: EmptyActionSpellDeliriumSkillDaemonFire
@@ -3655,20 +3600,46 @@ _No keyword matches in this index._
 {"k":"EmptyActionSpellDeliriumSkillDaemonFire","n":"EmptyActionSpellDeliriumSkillDaemonFire","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 57. Fire Penetration
+### 53. Fire Exposure
 
 - Match score: `80`
-- `k`: Metadata/Items/Gems/SkillGemSupportFirePenetration
-- `n`: Fire Penetration
+- `k`: Metadata/Items/Gems/SkillGemFireExposureSupport
+- `n`: Fire Exposure
 - `cat`: pob_gems
 - `src`: pob_data_poe2/Gems.json
-- `tags`: {"fire":true,"strength":true,"support":true}
+- `tags`: {"duration":true,"fire":true,"support":true}
 
 ```json
-{"k":"Metadata/Items/Gems/SkillGemSupportFirePenetration","n":"Fire Penetration","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"fire":true,"strength":true,"support":true}}
+{"k":"Metadata/Items/Gems/SkillGemFireExposureSupport","n":"Fire Exposure","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"duration":true,"fire":true,"support":true}}
 ```
 
-### 58. FireboltRogueExileSorceress2
+### 54. Fire Penetration I
+
+- Match score: `80`
+- `k`: Metadata/Items/Gems/SkillGemFirePenetrationSupport
+- `n`: Fire Penetration I
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"fire":true,"support":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemFirePenetrationSupport","n":"Fire Penetration I","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"fire":true,"support":true}}
+```
+
+### 55. Fire Penetration II
+
+- Match score: `80`
+- `k`: Metadata/Items/Gems/SkillGemFirePenetrationSupportTwo
+- `n`: Fire Penetration II
+- `cat`: pob_gems
+- `src`: pob_data_poe2/Gems.json
+- `tags`: {"fire":true,"support":true}
+
+```json
+{"k":"Metadata/Items/Gems/SkillGemFirePenetrationSupportTwo","n":"Fire Penetration II","cat":"pob_gems","src":"pob_data_poe2/Gems.json","tags":{"fire":true,"support":true}}
+```
+
+### 56. FireboltRogueExileSorceress2
 
 - Match score: `80`
 - `k`: FireboltRogueExileSorceress2
@@ -3681,7 +3652,7 @@ _No keyword matches in this index._
 {"k":"FireboltRogueExileSorceress2","n":"FireboltRogueExileSorceress2","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 59. FirestormRogueExileSorceress1
+### 57. FirestormRogueExileSorceress1
 
 - Match score: `80`
 - `k`: FirestormRogueExileSorceress1
@@ -3694,7 +3665,7 @@ _No keyword matches in this index._
 {"k":"FirestormRogueExileSorceress1","n":"FirestormRogueExileSorceress1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 60. FlammabilityRogueExileSorceress1
+### 58. FlammabilityRogueExileSorceress1
 
 - Match score: `80`
 - `k`: FlammabilityRogueExileSorceress1
@@ -3707,7 +3678,7 @@ _No keyword matches in this index._
 {"k":"FlammabilityRogueExileSorceress1","n":"FlammabilityRogueExileSorceress1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 61. GCEGiantSnakeBossBurningGround
+### 59. GCEGiantSnakeBossBurningGround
 
 - Match score: `80`
 - `k`: GCEGiantSnakeBossBurningGround
@@ -3720,7 +3691,7 @@ _No keyword matches in this index._
 {"k":"GCEGiantSnakeBossBurningGround","n":"GCEGiantSnakeBossBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 62. GCEGiantSnakeBossHeadSlamBurningGround
+### 60. GCEGiantSnakeBossHeadSlamBurningGround
 
 - Match score: `80`
 - `k`: GCEGiantSnakeBossHeadSlamBurningGround
@@ -3733,7 +3704,7 @@ _No keyword matches in this index._
 {"k":"GCEGiantSnakeBossHeadSlamBurningGround","n":"GCEGiantSnakeBossHeadSlamBurningGround","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 63. GeometrySpellFireCombo
+### 61. GeometrySpellFireCombo
 
 - Match score: `80`
 - `k`: GeometrySpellFireCombo
@@ -3746,7 +3717,7 @@ _No keyword matches in this index._
 {"k":"GeometrySpellFireCombo","n":"GeometrySpellFireCombo","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 64. GPSKaruiSpiritMinionProjectile
+### 62. GPSKaruiSpiritMinionProjectile
 
 - Match score: `80`
 - `k`: GPSKaruiSpiritMinionProjectile
@@ -3759,7 +3730,7 @@ _No keyword matches in this index._
 {"k":"GPSKaruiSpiritMinionProjectile","n":"GPSKaruiSpiritMinionProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 65. GSBlackbarkDemolisherBurningNova
+### 63. GSBlackbarkDemolisherBurningNova
 
 - Match score: `80`
 - `k`: GSBlackbarkDemolisherBurningNova
@@ -3772,7 +3743,7 @@ _No keyword matches in this index._
 {"k":"GSBlackbarkDemolisherBurningNova","n":"GSBlackbarkDemolisherBurningNova","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 66. GSDeliriumDemonFlurryProjectileFireImpact
+### 64. GSDeliriumDemonFlurryProjectileFireImpact
 
 - Match score: `80`
 - `k`: GSDeliriumDemonFlurryProjectileFireImpact
@@ -3785,7 +3756,7 @@ _No keyword matches in this index._
 {"k":"GSDeliriumDemonFlurryProjectileFireImpact","n":"GSDeliriumDemonFlurryProjectileFireImpact","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 67. GSMonsterModBurningGroundNova
+### 65. GSMonsterModBurningGroundNova
 
 - Match score: `80`
 - `k`: GSMonsterModBurningGroundNova
@@ -3798,7 +3769,7 @@ _No keyword matches in this index._
 {"k":"GSMonsterModBurningGroundNova","n":"GSMonsterModBurningGroundNova","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 68. GSMonsterModBurningGroundNovaOnDeath
+### 66. GSMonsterModBurningGroundNovaOnDeath
 
 - Match score: `80`
 - `k`: GSMonsterModBurningGroundNovaOnDeath
@@ -3811,7 +3782,7 @@ _No keyword matches in this index._
 {"k":"GSMonsterModBurningGroundNovaOnDeath","n":"GSMonsterModBurningGroundNovaOnDeath","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 69. GSPlayerMonsterModBurningGroundNova
+### 67. GSPlayerMonsterModBurningGroundNova
 
 - Match score: `80`
 - `k`: GSPlayerMonsterModBurningGroundNova
@@ -3824,7 +3795,7 @@ _No keyword matches in this index._
 {"k":"GSPlayerMonsterModBurningGroundNova","n":"GSPlayerMonsterModBurningGroundNova","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 70. GSRagingFireSpiritsVolatileSanctum
+### 68. GSRagingFireSpiritsVolatileSanctum
 
 - Match score: `80`
 - `k`: GSRagingFireSpiritsVolatileSanctum
@@ -3837,7 +3808,7 @@ _No keyword matches in this index._
 {"k":"GSRagingFireSpiritsVolatileSanctum","n":"GSRagingFireSpiritsVolatileSanctum","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 71. GSTrialMasterBossFirecrackerProjectileExplode
+### 69. GSTrialMasterBossFirecrackerProjectileExplode
 
 - Match score: `80`
 - `k`: GSTrialMasterBossFirecrackerProjectileExplode
@@ -3850,7 +3821,7 @@ _No keyword matches in this index._
 {"k":"GSTrialMasterBossFirecrackerProjectileExplode","n":"GSTrialMasterBossFirecrackerProjectileExplode","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 72. GTDeliriumFinalBossFireProjectileSpam
+### 70. GTDeliriumFinalBossFireProjectileSpam
 
 - Match score: `80`
 - `k`: GTDeliriumFinalBossFireProjectileSpam
@@ -3863,7 +3834,7 @@ _No keyword matches in this index._
 {"k":"GTDeliriumFinalBossFireProjectileSpam","n":"GTDeliriumFinalBossFireProjectileSpam","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 73. GTRagingFireSpiritsSanctum
+### 71. GTRagingFireSpiritsSanctum
 
 - Match score: `80`
 - `k`: GTRagingFireSpiritsSanctum
@@ -3876,7 +3847,7 @@ _No keyword matches in this index._
 {"k":"GTRagingFireSpiritsSanctum","n":"GTRagingFireSpiritsSanctum","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 74. MeleeThrustAttackIncursionFire
+### 72. MeleeThrustAttackIncursionFire
 
 - Match score: `80`
 - `k`: MeleeThrustAttackIncursionFire
@@ -3889,7 +3860,7 @@ _No keyword matches in this index._
 {"k":"MeleeThrustAttackIncursionFire","n":"MeleeThrustAttackIncursionFire","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 75. MetaCastFireSpellOnHitPlayer
+### 73. MetaCastFireSpellOnHitPlayer
 
 - Match score: `80`
 - `k`: MetaCastFireSpellOnHitPlayer
@@ -3902,7 +3873,7 @@ _No keyword matches in this index._
 {"k":"MetaCastFireSpellOnHitPlayer","n":"MetaCastFireSpellOnHitPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 76. MetaCastOnElementalAilmentPlayer
+### 74. MetaCastOnElementalAilmentPlayer
 
 - Match score: `80`
 - `k`: MetaCastOnElementalAilmentPlayer
@@ -3915,7 +3886,7 @@ _No keyword matches in this index._
 {"k":"MetaCastOnElementalAilmentPlayer","n":"MetaCastOnElementalAilmentPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 77. Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnIgnite
+### 75. Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnIgnite
 
 - Match score: `80`
 - `k`: Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnIgnite
@@ -3929,7 +3900,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnIgnite","n":"Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnIgnite","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"[DNT] Meta Ranged Attack on Ignite","id":"Metadata/Items/Gem/SkillGemAscendancyMetaRangedAttackOnIgnite","release_state":"released"},"tags":["grants_active_skill","buff","persistent","fire","meta"]}
 ```
 
-### 78. Metadata/Items/Gem/SupportGemSpellCascade
+### 76. Metadata/Items/Gem/SupportGemSpellCascade
 
 - Match score: `80`
 - `k`: Metadata/Items/Gem/SupportGemSpellCascade
@@ -3943,7 +3914,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gem/SupportGemSpellCascade","n":"Metadata/Items/Gem/SupportGemSpellCascade","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Spell Cascade","id":"Metadata/Items/Gem/SupportGemSpellCascade","release_state":"released"},"tags":["support","area"]}
 ```
 
-### 79. Metadata/Items/Gems/SkillGemCastOnElementalAilment
+### 77. Metadata/Items/Gems/SkillGemCastOnElementalAilment
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SkillGemCastOnElementalAilment
@@ -3957,7 +3928,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SkillGemCastOnElementalAilment","n":"Metadata/Items/Gems/SkillGemCastOnElementalAilment","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Cast on Elemental Ailment","id":"Metadata/Items/Gems/SkillGemCastOnElementalAilment","release_state":"released"},"tags":["intelligence","grants_active_skill","buff","persistent","trigger","lightning","cold","fire","meta"]}
 ```
 
-### 80. Metadata/Items/Gems/SupportGemCrescendoThree
+### 78. Metadata/Items/Gems/SupportGemCrescendoThree
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemCrescendoThree
@@ -3971,7 +3942,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemCrescendoThree","n":"Metadata/Items/Gems/SupportGemCrescendoThree","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Crescendo III","id":"Metadata/Items/Gems/SupportGemCrescendoThree","release_state":"released"},"tags":["support","attack","melee","strike"]}
 ```
 
-### 81. Metadata/Items/Gems/SupportGemCrescendoTwo
+### 79. Metadata/Items/Gems/SupportGemCrescendoTwo
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemCrescendoTwo
@@ -3985,7 +3956,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemCrescendoTwo","n":"Metadata/Items/Gems/SupportGemCrescendoTwo","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Crescendo II","id":"Metadata/Items/Gems/SupportGemCrescendoTwo","release_state":"released"},"tags":["support","attack","melee","strike"]}
 ```
 
-### 82. Metadata/Items/Gems/SupportGemDrainAilments
+### 80. Metadata/Items/Gems/SupportGemDrainAilments
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemDrainAilments
@@ -3999,7 +3970,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemDrainAilments","n":"Metadata/Items/Gems/SupportGemDrainAilments","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Drain Ailments","id":"Metadata/Items/Gems/SupportGemDrainAilments","release_state":"released"},"tags":["support","spell"]}
 ```
 
-### 83. Metadata/Items/Gems/SupportGemSpellEcho
+### 81. Metadata/Items/Gems/SupportGemSpellEcho
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemSpellEcho
@@ -4013,7 +3984,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemSpellEcho","n":"Metadata/Items/Gems/SupportGemSpellEcho","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Spell Echo","id":"Metadata/Items/Gems/SupportGemSpellEcho","release_state":"released"},"tags":["support","spell","area"]}
 ```
 
-### 84. Metadata/Items/Gems/SupportGemWildfire
+### 82. Metadata/Items/Gems/SupportGemWildfire
 
 - Match score: `80`
 - `k`: Metadata/Items/Gems/SupportGemWildfire
@@ -4027,7 +3998,7 @@ _No keyword matches in this index._
 {"k":"Metadata/Items/Gems/SupportGemWildfire","n":"Metadata/Items/Gems/SupportGemWildfire","cat":"repoe_skill_gems","src":"repoe_poe2/skill_gems.json","base":{"display_name":"Wildfire","id":"Metadata/Items/Gems/SupportGemWildfire","release_state":"released"},"tags":["support","area","fire"]}
 ```
 
-### 85. MetaRangedAttackOnIgnitePlayer
+### 83. MetaRangedAttackOnIgnitePlayer
 
 - Match score: `80`
 - `k`: MetaRangedAttackOnIgnitePlayer
@@ -4040,7 +4011,7 @@ _No keyword matches in this index._
 {"k":"MetaRangedAttackOnIgnitePlayer","n":"MetaRangedAttackOnIgnitePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 86. MonsterBurningArrow
+### 84. MonsterBurningArrow
 
 - Match score: `80`
 - `k`: MonsterBurningArrow
@@ -4053,7 +4024,7 @@ _No keyword matches in this index._
 {"k":"MonsterBurningArrow","n":"MonsterBurningArrow","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 87. MPSAncestralTotemSpiritSoulCasterProjectile
+### 85. MPSAncestralTotemSpiritSoulCasterProjectile
 
 - Match score: `80`
 - `k`: MPSAncestralTotemSpiritSoulCasterProjectile
@@ -4066,7 +4037,7 @@ _No keyword matches in this index._
 {"k":"MPSAncestralTotemSpiritSoulCasterProjectile","n":"MPSAncestralTotemSpiritSoulCasterProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 88. MPSBasicSkeletonProjectileFire
+### 86. MPSBasicSkeletonProjectileFire
 
 - Match score: `80`
 - `k`: MPSBasicSkeletonProjectileFire
@@ -4079,7 +4050,7 @@ _No keyword matches in this index._
 {"k":"MPSBasicSkeletonProjectileFire","n":"MPSBasicSkeletonProjectileFire","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 89. MPSBoneRabbleBurningArrow
+### 87. MPSBoneRabbleBurningArrow
 
 - Match score: `80`
 - `k`: MPSBoneRabbleBurningArrow
@@ -4092,7 +4063,7 @@ _No keyword matches in this index._
 {"k":"MPSBoneRabbleBurningArrow","n":"MPSBoneRabbleBurningArrow","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 90. MPSDeliriumDemonFlurryProjectileFire
+### 88. MPSDeliriumDemonFlurryProjectileFire
 
 - Match score: `80`
 - `k`: MPSDeliriumDemonFlurryProjectileFire
@@ -4105,7 +4076,7 @@ _No keyword matches in this index._
 {"k":"MPSDeliriumDemonFlurryProjectileFire","n":"MPSDeliriumDemonFlurryProjectileFire","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 91. MPSDeliriumDemonFlurryProjectileFireSmall
+### 89. MPSDeliriumDemonFlurryProjectileFireSmall
 
 - Match score: `80`
 - `k`: MPSDeliriumDemonFlurryProjectileFireSmall
@@ -4118,7 +4089,7 @@ _No keyword matches in this index._
 {"k":"MPSDeliriumDemonFlurryProjectileFireSmall","n":"MPSDeliriumDemonFlurryProjectileFireSmall","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 92. MPSDeliriumDemonProjectileSpammableFire
+### 90. MPSDeliriumDemonProjectileSpammableFire
 
 - Match score: `80`
 - `k`: MPSDeliriumDemonProjectileSpammableFire
@@ -4131,7 +4102,7 @@ _No keyword matches in this index._
 {"k":"MPSDeliriumDemonProjectileSpammableFire","n":"MPSDeliriumDemonProjectileSpammableFire","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 93. MPSFallenCrawlerFireProjectile
+### 91. MPSFallenCrawlerFireProjectile
 
 - Match score: `80`
 - `k`: MPSFallenCrawlerFireProjectile
@@ -4144,7 +4115,7 @@ _No keyword matches in this index._
 {"k":"MPSFallenCrawlerFireProjectile","n":"MPSFallenCrawlerFireProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 94. MPSKaruiSpiritProjectile
+### 92. MPSKaruiSpiritProjectile
 
 - Match score: `80`
 - `k`: MPSKaruiSpiritProjectile
@@ -4157,7 +4128,7 @@ _No keyword matches in this index._
 {"k":"MPSKaruiSpiritProjectile","n":"MPSKaruiSpiritProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 95. MPSTheTrialMasterFireProjectile
+### 93. MPSTheTrialMasterFireProjectile
 
 - Match score: `80`
 - `k`: MPSTheTrialMasterFireProjectile
@@ -4170,7 +4141,7 @@ _No keyword matches in this index._
 {"k":"MPSTheTrialMasterFireProjectile","n":"MPSTheTrialMasterFireProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 96. MPSUltimatumTurretFireProjectile
+### 94. MPSUltimatumTurretFireProjectile
 
 - Match score: `80`
 - `k`: MPSUltimatumTurretFireProjectile
@@ -4183,7 +4154,7 @@ _No keyword matches in this index._
 {"k":"MPSUltimatumTurretFireProjectile","n":"MPSUltimatumTurretFireProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 97. MPSVaalZealotFireProjectile
+### 95. MPSVaalZealotFireProjectile
 
 - Match score: `80`
 - `k`: MPSVaalZealotFireProjectile
@@ -4196,7 +4167,7 @@ _No keyword matches in this index._
 {"k":"MPSVaalZealotFireProjectile","n":"MPSVaalZealotFireProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 98. MPSVoodooKing2SpellProjectile
+### 96. MPSVoodooKing2SpellProjectile
 
 - Match score: `80`
 - `k`: MPSVoodooKing2SpellProjectile
@@ -4209,7 +4180,7 @@ _No keyword matches in this index._
 {"k":"MPSVoodooKing2SpellProjectile","n":"MPSVoodooKing2SpellProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 99. MPSVoodooKing3SpellProjectile
+### 97. MPSVoodooKing3SpellProjectile
 
 - Match score: `80`
 - `k`: MPSVoodooKing3SpellProjectile
@@ -4222,7 +4193,7 @@ _No keyword matches in this index._
 {"k":"MPSVoodooKing3SpellProjectile","n":"MPSVoodooKing3SpellProjectile","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 100. MPWHeistThugRangedBurningArrow
+### 98. MPWHeistThugRangedBurningArrow
 
 - Match score: `80`
 - `k`: MPWHeistThugRangedBurningArrow
@@ -4235,7 +4206,7 @@ _No keyword matches in this index._
 {"k":"MPWHeistThugRangedBurningArrow","n":"MPWHeistThugRangedBurningArrow","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 101. RagingSpiritsRogueExileSorceress1
+### 99. RagingSpiritsRogueExileSorceress1
 
 - Match score: `80`
 - `k`: RagingSpiritsRogueExileSorceress1
@@ -4248,7 +4219,7 @@ _No keyword matches in this index._
 {"k":"RagingSpiritsRogueExileSorceress1","n":"RagingSpiritsRogueExileSorceress1","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 102. SkeletonProjectileFire
+### 100. SkeletonProjectileFire
 
 - Match score: `80`
 - `k`: SkeletonProjectileFire
@@ -4261,7 +4232,7 @@ _No keyword matches in this index._
 {"k":"SkeletonProjectileFire","n":"SkeletonProjectileFire","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 103. SSMRagingFireSpiritsSanctum
+### 101. SSMRagingFireSpiritsSanctum
 
 - Match score: `80`
 - `k`: SSMRagingFireSpiritsSanctum
@@ -4274,7 +4245,7 @@ _No keyword matches in this index._
 {"k":"SSMRagingFireSpiritsSanctum","n":"SSMRagingFireSpiritsSanctum","cat":"repoe_skills","src":"repoe_poe2/skills.json","is_support":false}
 ```
 
-### 104. SupportAddedFireDamagePlayer
+### 102. SupportAddedFireDamagePlayer
 
 - Match score: `80`
 - `k`: SupportAddedFireDamagePlayer
@@ -4288,7 +4259,7 @@ _No keyword matches in this index._
 {"k":"SupportAddedFireDamagePlayer","n":"SupportAddedFireDamagePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Attack","CrossbowAmmoSkill","Damage"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 105. SupportColdExposurePlayer
+### 103. SupportColdExposurePlayer
 
 - Match score: `80`
 - `k`: SupportColdExposurePlayer
@@ -4302,7 +4273,7 @@ _No keyword matches in this index._
 {"k":"SupportColdExposurePlayer","n":"SupportColdExposurePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Duration"],"allowed_types":["Attack","Damage","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 106. SupportColdPenetrationPlayer
+### 104. SupportColdPenetrationPlayer
 
 - Match score: `80`
 - `k`: SupportColdPenetrationPlayer
@@ -4316,7 +4287,7 @@ _No keyword matches in this index._
 {"k":"SupportColdPenetrationPlayer","n":"SupportColdPenetrationPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 107. SupportDeadlyIgnitesPlayer
+### 105. SupportDeadlyIgnitesPlayer
 
 - Match score: `80`
 - `k`: SupportDeadlyIgnitesPlayer
@@ -4330,7 +4301,7 @@ _No keyword matches in this index._
 {"k":"SupportDeadlyIgnitesPlayer","n":"SupportDeadlyIgnitesPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 108. SupportDeadlyIgnitesPlayerTwo
+### 106. SupportDeadlyIgnitesPlayerTwo
 
 - Match score: `80`
 - `k`: SupportDeadlyIgnitesPlayerTwo
@@ -4344,7 +4315,7 @@ _No keyword matches in this index._
 {"k":"SupportDeadlyIgnitesPlayerTwo","n":"SupportDeadlyIgnitesPlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 109. SupportElementalArmamentPlayer
+### 107. SupportElementalArmamentPlayer
 
 - Match score: `80`
 - `k`: SupportElementalArmamentPlayer
@@ -4358,7 +4329,7 @@ _No keyword matches in this index._
 {"k":"SupportElementalArmamentPlayer","n":"SupportElementalArmamentPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 110. SupportElementalArmamentPlayerThree
+### 108. SupportElementalArmamentPlayerThree
 
 - Match score: `80`
 - `k`: SupportElementalArmamentPlayerThree
@@ -4372,7 +4343,7 @@ _No keyword matches in this index._
 {"k":"SupportElementalArmamentPlayerThree","n":"SupportElementalArmamentPlayerThree","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 111. SupportElementalArmamentPlayerTwo
+### 109. SupportElementalArmamentPlayerTwo
 
 - Match score: `80`
 - `k`: SupportElementalArmamentPlayerTwo
@@ -4386,7 +4357,7 @@ _No keyword matches in this index._
 {"k":"SupportElementalArmamentPlayerTwo","n":"SupportElementalArmamentPlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 112. SupportElementalFocusPlayer
+### 110. SupportElementalFocusPlayer
 
 - Match score: `80`
 - `k`: SupportElementalFocusPlayer
@@ -4400,7 +4371,7 @@ _No keyword matches in this index._
 {"k":"SupportElementalFocusPlayer","n":"SupportElementalFocusPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 113. SupportElementalInvocationPlayer
+### 111. SupportElementalInvocationPlayer
 
 - Match score: `80`
 - `k`: SupportElementalInvocationPlayer
@@ -4414,7 +4385,7 @@ _No keyword matches in this index._
 {"k":"SupportElementalInvocationPlayer","n":"SupportElementalInvocationPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Triggered"],"allowed_types":["Spell","Triggerable","AND"],"excluded_types":["InbuiltTrigger"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 114. SupportIgniteDurationPlayer
+### 112. SupportIgniteDurationPlayer
 
 - Match score: `80`
 - `k`: SupportIgniteDurationPlayer
@@ -4428,7 +4399,7 @@ _No keyword matches in this index._
 {"k":"SupportIgniteDurationPlayer","n":"SupportIgniteDurationPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 115. SupportIgniteDurationPlayerThree
+### 113. SupportIgniteDurationPlayerThree
 
 - Match score: `80`
 - `k`: SupportIgniteDurationPlayerThree
@@ -4442,7 +4413,7 @@ _No keyword matches in this index._
 {"k":"SupportIgniteDurationPlayerThree","n":"SupportIgniteDurationPlayerThree","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 116. SupportIgniteDurationPlayerTwo
+### 114. SupportIgniteDurationPlayerTwo
 
 - Match score: `80`
 - `k`: SupportIgniteDurationPlayerTwo
@@ -4456,7 +4427,7 @@ _No keyword matches in this index._
 {"k":"SupportIgniteDurationPlayerTwo","n":"SupportIgniteDurationPlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 117. SupportIgnitePlayer
+### 115. SupportIgnitePlayer
 
 - Match score: `80`
 - `k`: SupportIgnitePlayer
@@ -4470,7 +4441,7 @@ _No keyword matches in this index._
 {"k":"SupportIgnitePlayer","n":"SupportIgnitePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 118. SupportIgnitePlayerThree
+### 116. SupportIgnitePlayerThree
 
 - Match score: `80`
 - `k`: SupportIgnitePlayerThree
@@ -4484,7 +4455,7 @@ _No keyword matches in this index._
 {"k":"SupportIgnitePlayerThree","n":"SupportIgnitePlayerThree","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 119. SupportIgnitePlayerTwo
+### 117. SupportIgnitePlayerTwo
 
 - Match score: `80`
 - `k`: SupportIgnitePlayerTwo
@@ -4498,7 +4469,7 @@ _No keyword matches in this index._
 {"k":"SupportIgnitePlayerTwo","n":"SupportIgnitePlayerTwo","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
-### 120. SupportLightningExposurePlayer
+### 118. SupportLightningExposurePlayer
 
 - Match score: `80`
 - `k`: SupportLightningExposurePlayer
@@ -4510,6 +4481,34 @@ _No keyword matches in this index._
 
 ```json
 {"k":"SupportLightningExposurePlayer","n":"SupportLightningExposurePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Duration"],"allowed_types":["Attack","Damage","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
+```
+
+### 119. SupportLightningPenetrationPlayer
+
+- Match score: `80`
+- `k`: SupportLightningPenetrationPlayer
+- `n`: SupportLightningPenetrationPlayer
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `support`: {"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false}
+- `is_support`: True
+
+```json
+{"k":"SupportLightningPenetrationPlayer","n":"SupportLightningPenetrationPlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":null,"allowed_types":["Damage","Attack","CrossbowAmmoSkill"],"excluded_types":null,"letter":"","supports_gems_only":false},"is_support":true}
+```
+
+### 120. SupportMetaCastOnIgnitePlayer
+
+- Match score: `80`
+- `k`: SupportMetaCastOnIgnitePlayer
+- `n`: SupportMetaCastOnIgnitePlayer
+- `cat`: repoe_skills
+- `src`: repoe_poe2/skills.json
+- `support`: {"added_minion_types":null,"added_types":["Triggered"],"allowed_types":["Spell","Triggerable","AND"],"excluded_types":["InbuiltTrigger"],"letter":"","supports_gems_only":false}
+- `is_support`: True
+
+```json
+{"k":"SupportMetaCastOnIgnitePlayer","n":"SupportMetaCastOnIgnitePlayer","cat":"repoe_skills","src":"repoe_poe2/skills.json","support":{"added_minion_types":null,"added_types":["Triggered"],"allowed_types":["Spell","Triggerable","AND"],"excluded_types":["InbuiltTrigger"],"letter":"","supports_gems_only":false},"is_support":true}
 ```
 
 ## Item bases/classes
@@ -6086,46 +6085,7 @@ _No keyword matches in this index._
 {"k":"MonsterGroundFireOnDeathBurningMenace","n":"MonsterGroundFireOnDeathBurningMenace","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_ground_fire_on_death_%_max_damage_to_deal_per_minute","max":1000,"min":1000},{"id":"monster_ground_fire_on_death_base_area_of_effect_radius","max":32,"min":32},{"id":"monster_ground_effect_on_death_base_duration_ms","max":12000,"min":12000}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 2. SupportedBySpiritStrikeAreaUber1_
-
-- Match score: `115`
-- `k`: SupportedBySpiritStrikeAreaUber1_
-- `n`: SupportedBySpiritStrikeAreaUber1_
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["has_attack_mod"]
-
-```json
-{"k":"SupportedBySpiritStrikeAreaUber1_","n":"SupportedBySpiritStrikeAreaUber1_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["has_attack_mod"],"level":68}
-```
-
-### 3. SupportedBySpiritStrikeAreaUber2
-
-- Match score: `115`
-- `k`: SupportedBySpiritStrikeAreaUber2
-- `n`: SupportedBySpiritStrikeAreaUber2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["has_attack_mod"]
-
-```json
-{"k":"SupportedBySpiritStrikeAreaUber2","n":"SupportedBySpiritStrikeAreaUber2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["has_attack_mod"],"level":75}
-```
-
-### 4. SupportedBySpiritStrikeAreaUber3
-
-- Match score: `115`
-- `k`: SupportedBySpiritStrikeAreaUber3
-- `n`: SupportedBySpiritStrikeAreaUber3
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["has_attack_mod"]
-
-```json
-{"k":"SupportedBySpiritStrikeAreaUber3","n":"SupportedBySpiritStrikeAreaUber3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["has_attack_mod"],"level":80}
-```
-
-### 5. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
+### 2. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
 <font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}
 <rgb(135,134,253)>{All Damage can Shock}
 <rgb(135,134,253)>{All Damage can Chill}
@@ -6151,7 +6111,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRunePrismatic","n":"<<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}\r\n<font:'fontin'>{<italic>{<rgb(110,87,66)>{Monsters gain:}}}\r\n<rgb(135,134,253)>{All Damage can Shock}\r\n<rgb(135,134,253)>{All Damage can Chill}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{All Elemental Resistance}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_resist_all_elements_%","max":15,"min":15},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":0,"min":0},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 6. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
+### 3. <<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}
 <rgb(135,134,253)>{All Damage can Shock}
 <rgb(135,134,253)>{All Damage can Chill}
 <rgb(135,134,253)>{All Damage can Ignite}
@@ -6177,31 +6137,7 @@ _No keyword matches in this index._
 {"k":"ExpeditionMonsterModRunePrismaticPower","n":"<<ExpedRunePrismatic>><rgb(219,217,206)>{Prismatic Rune}\r\n<rgb(135,134,253)>{All Damage can Shock}\r\n<rgb(135,134,253)>{All Damage can Chill}\r\n<rgb(135,134,253)>{All Damage can Ignite}\r\n<rgb(135,134,253)>{All Elemental Resistance}\r\n<rgb(135,134,253)>{Damage gained as a Random Element}","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_resist_all_elements_%","max":30,"min":30},{"id":"non_skill_base_all_damage_%_to_gain_as_random_element","max":20,"min":20},{"id":"all_damage_can_chill","max":1,"min":1},{"id":"all_damage_can_shock","max":1,"min":1},{"id":"all_damage_can_ignite","max":1,"min":1}],"domain":"monster","gen":"unique","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 7. AddedFireDamageToSpellsAndAttacksUber1
-
-- Match score: `105`
-- `k`: AddedFireDamageToSpellsAndAttacksUber1
-- `n`: AddedFireDamageToSpellsAndAttacksUber1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"AddedFireDamageToSpellsAndAttacksUber1","n":"AddedFireDamageToSpellsAndAttacksUber1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
-```
-
-### 8. AddedFireDamageToSpellsAndAttacksUber2
-
-- Match score: `105`
-- `k`: AddedFireDamageToSpellsAndAttacksUber2
-- `n`: AddedFireDamageToSpellsAndAttacksUber2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"AddedFireDamageToSpellsAndAttacksUber2","n":"AddedFireDamageToSpellsAndAttacksUber2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 9. AlwaysIgniteWhileBurningUnique__1
+### 4. AlwaysIgniteWhileBurningUnique__1
 
 - Match score: `105`
 - `k`: AlwaysIgniteWhileBurningUnique__1
@@ -6217,7 +6153,7 @@ _No keyword matches in this index._
 {"k":"AlwaysIgniteWhileBurningUnique__1","n":"AlwaysIgniteWhileBurningUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"always_ignite_while_burning","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 10. CorruptionUpgradeSpellChanceToFireTwoAdditionalProjectiles
+### 5. CorruptionUpgradeSpellChanceToFireTwoAdditionalProjectiles
 
 - Match score: `105`
 - `k`: CorruptionUpgradeSpellChanceToFireTwoAdditionalProjectiles
@@ -6233,19 +6169,7 @@ _No keyword matches in this index._
 {"k":"CorruptionUpgradeSpellChanceToFireTwoAdditionalProjectiles","n":"CorruptionUpgradeSpellChanceToFireTwoAdditionalProjectiles","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_skills_fire_2_additional_projectiles_final_chance_%","max":35,"min":25}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 11. DelveWeaponLocalAttackReduceEnemyElementalResistance1h1
-
-- Match score: `105`
-- `k`: DelveWeaponLocalAttackReduceEnemyElementalResistance1h1
-- `n`: DelveWeaponLocalAttackReduceEnemyElementalResistance1h1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"DelveWeaponLocalAttackReduceEnemyElementalResistance1h1","n":"DelveWeaponLocalAttackReduceEnemyElementalResistance1h1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
-```
-
-### 12. DisplaySupportedByElementalPenetrationUnique__1
+### 6. DisplaySupportedByElementalPenetrationUnique__1
 
 - Match score: `105`
 - `k`: DisplaySupportedByElementalPenetrationUnique__1
@@ -6261,7 +6185,7 @@ _No keyword matches in this index._
 {"k":"DisplaySupportedByElementalPenetrationUnique__1","n":"DisplaySupportedByElementalPenetrationUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_socketed_gems_supported_by_level_x_elemental_penetration","max":25,"min":25}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 13. DisplaySupportedByElementalPenetrationUnique__2
+### 7. DisplaySupportedByElementalPenetrationUnique__2
 
 - Match score: `105`
 - `k`: DisplaySupportedByElementalPenetrationUnique__2
@@ -6277,331 +6201,7 @@ _No keyword matches in this index._
 {"k":"DisplaySupportedByElementalPenetrationUnique__2","n":"DisplaySupportedByElementalPenetrationUnique__2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_socketed_gems_supported_by_level_x_elemental_penetration","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 14. ElementalResistancePenetrationInfluence1
-
-- Match score: `105`
-- `k`: ElementalResistancePenetrationInfluence1
-- `n`: ElementalResistancePenetrationInfluence1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"ElementalResistancePenetrationInfluence1","n":"ElementalResistancePenetrationInfluence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
-```
-
-### 15. ElementalResistancePenetrationInfluence2_
-
-- Match score: `105`
-- `k`: ElementalResistancePenetrationInfluence2_
-- `n`: ElementalResistancePenetrationInfluence2_
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"ElementalResistancePenetrationInfluence2_","n":"ElementalResistancePenetrationInfluence2_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":73}
-```
-
-### 16. ElementalResistancePenetrationInfluence3
-
-- Match score: `105`
-- `k`: ElementalResistancePenetrationInfluence3
-- `n`: ElementalResistancePenetrationInfluence3
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"ElementalResistancePenetrationInfluence3","n":"ElementalResistancePenetrationInfluence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":78}
-```
-
-### 17. ElementalResistancePenetrationTwoHandInfluence1
-
-- Match score: `105`
-- `k`: ElementalResistancePenetrationTwoHandInfluence1
-- `n`: ElementalResistancePenetrationTwoHandInfluence1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"ElementalResistancePenetrationTwoHandInfluence1","n":"ElementalResistancePenetrationTwoHandInfluence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
-```
-
-### 18. ElementalResistancePenetrationTwoHandInfluence2
-
-- Match score: `105`
-- `k`: ElementalResistancePenetrationTwoHandInfluence2
-- `n`: ElementalResistancePenetrationTwoHandInfluence2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"ElementalResistancePenetrationTwoHandInfluence2","n":"ElementalResistancePenetrationTwoHandInfluence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":73}
-```
-
-### 19. ElementalResistancePenetrationTwoHandInfluence3
-
-- Match score: `105`
-- `k`: ElementalResistancePenetrationTwoHandInfluence3
-- `n`: ElementalResistancePenetrationTwoHandInfluence3
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"ElementalResistancePenetrationTwoHandInfluence3","n":"ElementalResistancePenetrationTwoHandInfluence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":78}
-```
-
-### 20. FireDamageBurningEnemiesInfluence1
-
-- Match score: `105`
-- `k`: FireDamageBurningEnemiesInfluence1
-- `n`: FireDamageBurningEnemiesInfluence1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireDamageBurningEnemiesInfluence1","n":"FireDamageBurningEnemiesInfluence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
-```
-
-### 21. FireDamageBurningEnemiesInfluence2
-
-- Match score: `105`
-- `k`: FireDamageBurningEnemiesInfluence2
-- `n`: FireDamageBurningEnemiesInfluence2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireDamageBurningEnemiesInfluence2","n":"FireDamageBurningEnemiesInfluence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 22. FireDamageBurningEnemiesInfluence3
-
-- Match score: `105`
-- `k`: FireDamageBurningEnemiesInfluence3
-- `n`: FireDamageBurningEnemiesInfluence3
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireDamageBurningEnemiesInfluence3","n":"FireDamageBurningEnemiesInfluence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":80}
-```
-
-### 23. FireResistancePenetrationEldritchImplicit1
-
-- Match score: `105`
-- `k`: FireResistancePenetrationEldritchImplicit1
-- `n`: FireResistancePenetrationEldritchImplicit1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationEldritchImplicit1","n":"FireResistancePenetrationEldritchImplicit1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 24. FireResistancePenetrationEldritchImplicit2
-
-- Match score: `105`
-- `k`: FireResistancePenetrationEldritchImplicit2
-- `n`: FireResistancePenetrationEldritchImplicit2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationEldritchImplicit2","n":"FireResistancePenetrationEldritchImplicit2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 25. FireResistancePenetrationEldritchImplicit3
-
-- Match score: `105`
-- `k`: FireResistancePenetrationEldritchImplicit3
-- `n`: FireResistancePenetrationEldritchImplicit3
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationEldritchImplicit3","n":"FireResistancePenetrationEldritchImplicit3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 26. FireResistancePenetrationEldritchImplicit4
-
-- Match score: `105`
-- `k`: FireResistancePenetrationEldritchImplicit4
-- `n`: FireResistancePenetrationEldritchImplicit4
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationEldritchImplicit4","n":"FireResistancePenetrationEldritchImplicit4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 27. FireResistancePenetrationEldritchImplicit5
-
-- Match score: `105`
-- `k`: FireResistancePenetrationEldritchImplicit5
-- `n`: FireResistancePenetrationEldritchImplicit5
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationEldritchImplicit5","n":"FireResistancePenetrationEldritchImplicit5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 28. FireResistancePenetrationEldritchImplicit6
-
-- Match score: `105`
-- `k`: FireResistancePenetrationEldritchImplicit6
-- `n`: FireResistancePenetrationEldritchImplicit6
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationEldritchImplicit6","n":"FireResistancePenetrationEldritchImplicit6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 29. FireResistancePenetrationEldritchImplicitPinnaclePresence1
-
-- Match score: `105`
-- `k`: FireResistancePenetrationEldritchImplicitPinnaclePresence1
-- `n`: FireResistancePenetrationEldritchImplicitPinnaclePresence1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationEldritchImplicitPinnaclePresence1","n":"FireResistancePenetrationEldritchImplicitPinnaclePresence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 30. FireResistancePenetrationEldritchImplicitPinnaclePresence2
-
-- Match score: `105`
-- `k`: FireResistancePenetrationEldritchImplicitPinnaclePresence2
-- `n`: FireResistancePenetrationEldritchImplicitPinnaclePresence2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationEldritchImplicitPinnaclePresence2","n":"FireResistancePenetrationEldritchImplicitPinnaclePresence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 31. FireResistancePenetrationEldritchImplicitPinnaclePresence3
-
-- Match score: `105`
-- `k`: FireResistancePenetrationEldritchImplicitPinnaclePresence3
-- `n`: FireResistancePenetrationEldritchImplicitPinnaclePresence3
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationEldritchImplicitPinnaclePresence3","n":"FireResistancePenetrationEldritchImplicitPinnaclePresence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 32. FireResistancePenetrationEldritchImplicitPinnaclePresence4
-
-- Match score: `105`
-- `k`: FireResistancePenetrationEldritchImplicitPinnaclePresence4
-- `n`: FireResistancePenetrationEldritchImplicitPinnaclePresence4
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationEldritchImplicitPinnaclePresence4","n":"FireResistancePenetrationEldritchImplicitPinnaclePresence4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 33. FireResistancePenetrationEldritchImplicitPinnaclePresence5
-
-- Match score: `105`
-- `k`: FireResistancePenetrationEldritchImplicitPinnaclePresence5
-- `n`: FireResistancePenetrationEldritchImplicitPinnaclePresence5
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationEldritchImplicitPinnaclePresence5","n":"FireResistancePenetrationEldritchImplicitPinnaclePresence5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 34. FireResistancePenetrationEldritchImplicitPinnaclePresence6
-
-- Match score: `105`
-- `k`: FireResistancePenetrationEldritchImplicitPinnaclePresence6
-- `n`: FireResistancePenetrationEldritchImplicitPinnaclePresence6
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationEldritchImplicitPinnaclePresence6","n":"FireResistancePenetrationEldritchImplicitPinnaclePresence6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 35. FireResistancePenetrationEldritchImplicitUniquePresence1
-
-- Match score: `105`
-- `k`: FireResistancePenetrationEldritchImplicitUniquePresence1
-- `n`: FireResistancePenetrationEldritchImplicitUniquePresence1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationEldritchImplicitUniquePresence1","n":"FireResistancePenetrationEldritchImplicitUniquePresence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 36. FireResistancePenetrationEldritchImplicitUniquePresence2
-
-- Match score: `105`
-- `k`: FireResistancePenetrationEldritchImplicitUniquePresence2
-- `n`: FireResistancePenetrationEldritchImplicitUniquePresence2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationEldritchImplicitUniquePresence2","n":"FireResistancePenetrationEldritchImplicitUniquePresence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 37. FireResistancePenetrationEldritchImplicitUniquePresence3
-
-- Match score: `105`
-- `k`: FireResistancePenetrationEldritchImplicitUniquePresence3
-- `n`: FireResistancePenetrationEldritchImplicitUniquePresence3
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationEldritchImplicitUniquePresence3","n":"FireResistancePenetrationEldritchImplicitUniquePresence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 38. FireResistancePenetrationEldritchImplicitUniquePresence4
-
-- Match score: `105`
-- `k`: FireResistancePenetrationEldritchImplicitUniquePresence4
-- `n`: FireResistancePenetrationEldritchImplicitUniquePresence4
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationEldritchImplicitUniquePresence4","n":"FireResistancePenetrationEldritchImplicitUniquePresence4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 39. FireResistancePenetrationEldritchImplicitUniquePresence5
-
-- Match score: `105`
-- `k`: FireResistancePenetrationEldritchImplicitUniquePresence5
-- `n`: FireResistancePenetrationEldritchImplicitUniquePresence5
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationEldritchImplicitUniquePresence5","n":"FireResistancePenetrationEldritchImplicitUniquePresence5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 40. FireResistancePenetrationEldritchImplicitUniquePresence6
-
-- Match score: `105`
-- `k`: FireResistancePenetrationEldritchImplicitUniquePresence6
-- `n`: FireResistancePenetrationEldritchImplicitUniquePresence6
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationEldritchImplicitUniquePresence6","n":"FireResistancePenetrationEldritchImplicitUniquePresence6","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 41. FireResistancePenetrationEssence1
+### 8. FireResistancePenetrationEssence1
 
 - Match score: `105`
 - `k`: FireResistancePenetrationEssence1
@@ -6613,7 +6213,7 @@ _No keyword matches in this index._
 {"k":"FireResistancePenetrationEssence1","n":"FireResistancePenetrationEssence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":26}
 ```
 
-### 42. FireResistancePenetrationEssence2
+### 9. FireResistancePenetrationEssence2
 
 - Match score: `105`
 - `k`: FireResistancePenetrationEssence2
@@ -6625,7 +6225,7 @@ _No keyword matches in this index._
 {"k":"FireResistancePenetrationEssence2","n":"FireResistancePenetrationEssence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":42}
 ```
 
-### 43. FireResistancePenetrationEssence3
+### 10. FireResistancePenetrationEssence3
 
 - Match score: `105`
 - `k`: FireResistancePenetrationEssence3
@@ -6637,7 +6237,7 @@ _No keyword matches in this index._
 {"k":"FireResistancePenetrationEssence3","n":"FireResistancePenetrationEssence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":58}
 ```
 
-### 44. FireResistancePenetrationEssence4___
+### 11. FireResistancePenetrationEssence4___
 
 - Match score: `105`
 - `k`: FireResistancePenetrationEssence4___
@@ -6649,7 +6249,7 @@ _No keyword matches in this index._
 {"k":"FireResistancePenetrationEssence4___","n":"FireResistancePenetrationEssence4___","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":74}
 ```
 
-### 45. FireResistancePenetrationEssence5
+### 12. FireResistancePenetrationEssence5
 
 - Match score: `105`
 - `k`: FireResistancePenetrationEssence5
@@ -6661,43 +6261,7 @@ _No keyword matches in this index._
 {"k":"FireResistancePenetrationEssence5","n":"FireResistancePenetrationEssence5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":82}
 ```
 
-### 46. FireResistancePenetrationInfluence1
-
-- Match score: `105`
-- `k`: FireResistancePenetrationInfluence1
-- `n`: FireResistancePenetrationInfluence1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationInfluence1","n":"FireResistancePenetrationInfluence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
-```
-
-### 47. FireResistancePenetrationInfluence2
-
-- Match score: `105`
-- `k`: FireResistancePenetrationInfluence2
-- `n`: FireResistancePenetrationInfluence2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationInfluence2","n":"FireResistancePenetrationInfluence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":73}
-```
-
-### 48. FireResistancePenetrationInfluence3_
-
-- Match score: `105`
-- `k`: FireResistancePenetrationInfluence3_
-- `n`: FireResistancePenetrationInfluence3_
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationInfluence3_","n":"FireResistancePenetrationInfluence3_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":78}
-```
-
-### 49. FireResistancePenetrationTwoHandEssence1
+### 13. FireResistancePenetrationTwoHandEssence1
 
 - Match score: `105`
 - `k`: FireResistancePenetrationTwoHandEssence1
@@ -6709,7 +6273,7 @@ _No keyword matches in this index._
 {"k":"FireResistancePenetrationTwoHandEssence1","n":"FireResistancePenetrationTwoHandEssence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":26}
 ```
 
-### 50. FireResistancePenetrationTwoHandEssence2_
+### 14. FireResistancePenetrationTwoHandEssence2_
 
 - Match score: `105`
 - `k`: FireResistancePenetrationTwoHandEssence2_
@@ -6721,7 +6285,7 @@ _No keyword matches in this index._
 {"k":"FireResistancePenetrationTwoHandEssence2_","n":"FireResistancePenetrationTwoHandEssence2_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":42}
 ```
 
-### 51. FireResistancePenetrationTwoHandEssence3
+### 15. FireResistancePenetrationTwoHandEssence3
 
 - Match score: `105`
 - `k`: FireResistancePenetrationTwoHandEssence3
@@ -6733,7 +6297,7 @@ _No keyword matches in this index._
 {"k":"FireResistancePenetrationTwoHandEssence3","n":"FireResistancePenetrationTwoHandEssence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":58}
 ```
 
-### 52. FireResistancePenetrationTwoHandEssence4
+### 16. FireResistancePenetrationTwoHandEssence4
 
 - Match score: `105`
 - `k`: FireResistancePenetrationTwoHandEssence4
@@ -6745,7 +6309,7 @@ _No keyword matches in this index._
 {"k":"FireResistancePenetrationTwoHandEssence4","n":"FireResistancePenetrationTwoHandEssence4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":74}
 ```
 
-### 53. FireResistancePenetrationTwoHandEssence5
+### 17. FireResistancePenetrationTwoHandEssence5
 
 - Match score: `105`
 - `k`: FireResistancePenetrationTwoHandEssence5
@@ -6757,43 +6321,7 @@ _No keyword matches in this index._
 {"k":"FireResistancePenetrationTwoHandEssence5","n":"FireResistancePenetrationTwoHandEssence5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":82}
 ```
 
-### 54. FireResistancePenetrationTwoHandInfluence1
-
-- Match score: `105`
-- `k`: FireResistancePenetrationTwoHandInfluence1
-- `n`: FireResistancePenetrationTwoHandInfluence1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationTwoHandInfluence1","n":"FireResistancePenetrationTwoHandInfluence1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
-```
-
-### 55. FireResistancePenetrationTwoHandInfluence2
-
-- Match score: `105`
-- `k`: FireResistancePenetrationTwoHandInfluence2
-- `n`: FireResistancePenetrationTwoHandInfluence2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationTwoHandInfluence2","n":"FireResistancePenetrationTwoHandInfluence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":73}
-```
-
-### 56. FireResistancePenetrationTwoHandInfluence3
-
-- Match score: `105`
-- `k`: FireResistancePenetrationTwoHandInfluence3
-- `n`: FireResistancePenetrationTwoHandInfluence3
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"FireResistancePenetrationTwoHandInfluence3","n":"FireResistancePenetrationTwoHandInfluence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":78}
-```
-
-### 57. FireResistancePenetrationWarbands
+### 18. FireResistancePenetrationWarbands
 
 - Match score: `105`
 - `k`: FireResistancePenetrationWarbands
@@ -6805,43 +6333,19 @@ _No keyword matches in this index._
 {"k":"FireResistancePenetrationWarbands","n":"FireResistancePenetrationWarbands","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":60}
 ```
 
-### 58. HellscapeUpsideChanceToAvoidIgniteAndBurning2
+### 19. GenesisTreeBeltSpellElementalAilmentMagnitudeCrafted
 
 - Match score: `105`
-- `k`: HellscapeUpsideChanceToAvoidIgniteAndBurning2
-- `n`: HellscapeUpsideChanceToAvoidIgniteAndBurning2
+- `k`: GenesisTreeBeltSpellElementalAilmentMagnitudeCrafted
+- `n`: GenesisTreeBeltSpellElementalAilmentMagnitudeCrafted
 - `cat`: pob_mod_item
 - `src`: pob_data_poe2/ModItem.json
 
 ```json
-{"k":"HellscapeUpsideChanceToAvoidIgniteAndBurning2","n":"HellscapeUpsideChanceToAvoidIgniteAndBurning2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":45}
+{"k":"GenesisTreeBeltSpellElementalAilmentMagnitudeCrafted","n":"GenesisTreeBeltSpellElementalAilmentMagnitudeCrafted","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":1}
 ```
 
-### 59. HellscapeUpsideChanceToAvoidIgniteAndBurning3
-
-- Match score: `105`
-- `k`: HellscapeUpsideChanceToAvoidIgniteAndBurning3
-- `n`: HellscapeUpsideChanceToAvoidIgniteAndBurning3
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"HellscapeUpsideChanceToAvoidIgniteAndBurning3","n":"HellscapeUpsideChanceToAvoidIgniteAndBurning3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
-```
-
-### 60. HellscapeUpsideChanceToAvoidIgniteAndBurning4
-
-- Match score: `105`
-- `k`: HellscapeUpsideChanceToAvoidIgniteAndBurning4
-- `n`: HellscapeUpsideChanceToAvoidIgniteAndBurning4
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"HellscapeUpsideChanceToAvoidIgniteAndBurning4","n":"HellscapeUpsideChanceToAvoidIgniteAndBurning4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
-```
-
-### 61. IncreasedBurningDamageIfYouHaveIgnitedRecentlyUnique__1
+### 20. IncreasedBurningDamageIfYouHaveIgnitedRecentlyUnique__1
 
 - Match score: `105`
 - `k`: IncreasedBurningDamageIfYouHaveIgnitedRecentlyUnique__1
@@ -6857,55 +6361,7 @@ _No keyword matches in this index._
 {"k":"IncreasedBurningDamageIfYouHaveIgnitedRecentlyUnique__1","n":"IncreasedBurningDamageIfYouHaveIgnitedRecentlyUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"burning_damage_+%_if_ignited_an_enemy_recently","max":100,"min":100}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 62. IncreasedBurningDamageSupportedUber1
-
-- Match score: `105`
-- `k`: IncreasedBurningDamageSupportedUber1
-- `n`: IncreasedBurningDamageSupportedUber1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"IncreasedBurningDamageSupportedUber1","n":"IncreasedBurningDamageSupportedUber1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
-```
-
-### 63. IncreasedBurningDamageSupportedUber2
-
-- Match score: `105`
-- `k`: IncreasedBurningDamageSupportedUber2
-- `n`: IncreasedBurningDamageSupportedUber2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"IncreasedBurningDamageSupportedUber2","n":"IncreasedBurningDamageSupportedUber2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":75}
-```
-
-### 64. IncreasedBurningDamageSupportedUber3
-
-- Match score: `105`
-- `k`: IncreasedBurningDamageSupportedUber3
-- `n`: IncreasedBurningDamageSupportedUber3
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"IncreasedBurningDamageSupportedUber3","n":"IncreasedBurningDamageSupportedUber3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":82}
-```
-
-### 65. IncreasedBurningDamageSupportedUberMaven
-
-- Match score: `105`
-- `k`: IncreasedBurningDamageSupportedUberMaven
-- `n`: IncreasedBurningDamageSupportedUberMaven
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"IncreasedBurningDamageSupportedUberMaven","n":"IncreasedBurningDamageSupportedUberMaven","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":92}
-```
-
-### 66. ItemActsAsFirePenetrationSupportUniqueSceptre2
+### 21. ItemActsAsFirePenetrationSupportUniqueSceptre2
 
 - Match score: `105`
 - `k`: ItemActsAsFirePenetrationSupportUniqueSceptre2
@@ -6921,7 +6377,7 @@ _No keyword matches in this index._
 {"k":"ItemActsAsFirePenetrationSupportUniqueSceptre2","n":"ItemActsAsFirePenetrationSupportUniqueSceptre2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_socketed_gems_get_fire_penetration_level","max":10,"min":10}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 67. MonsterChanceToIgniteBurningMenace
+### 22. MonsterChanceToIgniteBurningMenace
 
 - Match score: `105`
 - `k`: MonsterChanceToIgniteBurningMenace
@@ -6937,7 +6393,7 @@ _No keyword matches in this index._
 {"k":"MonsterChanceToIgniteBurningMenace","n":"MonsterChanceToIgniteBurningMenace","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_chance_to_ignite_%","max":100,"min":100}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 68. MonsterConvertToFireDamageBurningMenace
+### 23. MonsterConvertToFireDamageBurningMenace
 
 - Match score: `105`
 - `k`: MonsterConvertToFireDamageBurningMenace
@@ -6953,7 +6409,7 @@ _No keyword matches in this index._
 {"k":"MonsterConvertToFireDamageBurningMenace","n":"MonsterConvertToFireDamageBurningMenace","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"non_skill_base_physical_damage_%_to_convert_to_fire","max":100,"min":100}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 69. MonsterFiresBurningArrowsText
+### 24. MonsterFiresBurningArrowsText
 
 - Match score: `105`
 - `k`: MonsterFiresBurningArrowsText
@@ -6969,7 +6425,7 @@ _No keyword matches in this index._
 {"k":"MonsterFiresBurningArrowsText","n":"MonsterFiresBurningArrowsText","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"monster_fires_burning_arrows_text","max":1,"min":1}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 70. MonsterFiresVaalBurningArrowText
+### 25. MonsterFiresVaalBurningArrowText
 
 - Match score: `105`
 - `k`: MonsterFiresVaalBurningArrowText
@@ -6985,166 +6441,7 @@ _No keyword matches in this index._
 {"k":"MonsterFiresVaalBurningArrowText","n":"MonsterFiresVaalBurningArrowText","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"display_monster_uses_vaal_burning_arrow","max":1,"min":1}],"domain":"monster","gen":"unique","lvl":1}
 ```
 
-### 71. SpellAddedFireDamagePenetrationInfluence1_
-
-- Match score: `105`
-- `k`: SpellAddedFireDamagePenetrationInfluence1_
-- `n`: SpellAddedFireDamagePenetrationInfluence1_
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"SpellAddedFireDamagePenetrationInfluence1_","n":"SpellAddedFireDamagePenetrationInfluence1_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
-```
-
-### 72. SpellAddedFireDamagePenetrationInfluence2
-
-- Match score: `105`
-- `k`: SpellAddedFireDamagePenetrationInfluence2
-- `n`: SpellAddedFireDamagePenetrationInfluence2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"SpellAddedFireDamagePenetrationInfluence2","n":"SpellAddedFireDamagePenetrationInfluence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":71}
-```
-
-### 73. SpellAddedFireDamagePenetrationInfluence3
-
-- Match score: `105`
-- `k`: SpellAddedFireDamagePenetrationInfluence3
-- `n`: SpellAddedFireDamagePenetrationInfluence3
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"SpellAddedFireDamagePenetrationInfluence3","n":"SpellAddedFireDamagePenetrationInfluence3","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":74}
-```
-
-### 74. SpellAddedFireDamagePenetrationInfluence4
-
-- Match score: `105`
-- `k`: SpellAddedFireDamagePenetrationInfluence4
-- `n`: SpellAddedFireDamagePenetrationInfluence4
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"SpellAddedFireDamagePenetrationInfluence4","n":"SpellAddedFireDamagePenetrationInfluence4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":77}
-```
-
-### 75. SpellAddedFireDamagePenetrationInfluence5
-
-- Match score: `105`
-- `k`: SpellAddedFireDamagePenetrationInfluence5
-- `n`: SpellAddedFireDamagePenetrationInfluence5
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"SpellAddedFireDamagePenetrationInfluence5","n":"SpellAddedFireDamagePenetrationInfluence5","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":80}
-```
-
-### 76. SpellAddedFireDamagePenetrationTwoHandInfluence1_
-
-- Match score: `105`
-- `k`: SpellAddedFireDamagePenetrationTwoHandInfluence1_
-- `n`: SpellAddedFireDamagePenetrationTwoHandInfluence1_
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"SpellAddedFireDamagePenetrationTwoHandInfluence1_","n":"SpellAddedFireDamagePenetrationTwoHandInfluence1_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":68}
-```
-
-### 77. SpellAddedFireDamagePenetrationTwoHandInfluence2
-
-- Match score: `105`
-- `k`: SpellAddedFireDamagePenetrationTwoHandInfluence2
-- `n`: SpellAddedFireDamagePenetrationTwoHandInfluence2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"SpellAddedFireDamagePenetrationTwoHandInfluence2","n":"SpellAddedFireDamagePenetrationTwoHandInfluence2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":71}
-```
-
-### 78. SpellAddedFireDamagePenetrationTwoHandInfluence3_
-
-- Match score: `105`
-- `k`: SpellAddedFireDamagePenetrationTwoHandInfluence3_
-- `n`: SpellAddedFireDamagePenetrationTwoHandInfluence3_
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"SpellAddedFireDamagePenetrationTwoHandInfluence3_","n":"SpellAddedFireDamagePenetrationTwoHandInfluence3_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":74}
-```
-
-### 79. SpellAddedFireDamagePenetrationTwoHandInfluence4
-
-- Match score: `105`
-- `k`: SpellAddedFireDamagePenetrationTwoHandInfluence4
-- `n`: SpellAddedFireDamagePenetrationTwoHandInfluence4
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"SpellAddedFireDamagePenetrationTwoHandInfluence4","n":"SpellAddedFireDamagePenetrationTwoHandInfluence4","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":77}
-```
-
-### 80. SpellAddedFireDamagePenetrationTwoHandInfluence5_
-
-- Match score: `105`
-- `k`: SpellAddedFireDamagePenetrationTwoHandInfluence5_
-- `n`: SpellAddedFireDamagePenetrationTwoHandInfluence5_
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-
-```json
-{"k":"SpellAddedFireDamagePenetrationTwoHandInfluence5_","n":"SpellAddedFireDamagePenetrationTwoHandInfluence5_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","level":80}
-```
-
-### 81. SupportedBySpellCascadeAreaUber1
-
-- Match score: `105`
-- `k`: SupportedBySpellCascadeAreaUber1
-- `n`: SupportedBySpellCascadeAreaUber1
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["has_caster_mod"]
-
-```json
-{"k":"SupportedBySpellCascadeAreaUber1","n":"SupportedBySpellCascadeAreaUber1","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["has_caster_mod"],"level":68}
-```
-
-### 82. SupportedBySpellCascadeAreaUber2
-
-- Match score: `105`
-- `k`: SupportedBySpellCascadeAreaUber2
-- `n`: SupportedBySpellCascadeAreaUber2
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["has_caster_mod"]
-
-```json
-{"k":"SupportedBySpellCascadeAreaUber2","n":"SupportedBySpellCascadeAreaUber2","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["has_caster_mod"],"level":75}
-```
-
-### 83. SupportedBySpellCascadeAreaUber3_
-
-- Match score: `105`
-- `k`: SupportedBySpellCascadeAreaUber3_
-- `n`: SupportedBySpellCascadeAreaUber3_
-- `cat`: pob_mod_item
-- `src`: pob_data_poe2/ModItem.json
-- `tags`: ["has_caster_mod"]
-
-```json
-{"k":"SupportedBySpellCascadeAreaUber3_","n":"SupportedBySpellCascadeAreaUber3_","cat":"pob_mod_item","src":"pob_data_poe2/ModItem.json","tags":["has_caster_mod"],"level":80}
-```
-
-### 84. UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles
+### 26. UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles
 
 - Match score: `105`
 - `k`: UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles
@@ -7160,7 +6457,7 @@ _No keyword matches in this index._
 {"k":"UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles","n":"UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_skills_fire_2_additional_projectiles_final_chance_%","max":10,"min":5}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 85. UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles1
+### 27. UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles1
 
 - Match score: `105`
 - `k`: UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles1
@@ -7176,7 +6473,7 @@ _No keyword matches in this index._
 {"k":"UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles1","n":"UniqueMutatedVaalSpellChanceToFireTwoAdditionalProjectiles1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_skills_fire_2_additional_projectiles_final_chance_%","max":25,"min":10}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 86. UniqueMutatedVaalSpellsFire8AdditionalProjectileChance
+### 28. UniqueMutatedVaalSpellsFire8AdditionalProjectileChance
 
 - Match score: `105`
 - `k`: UniqueMutatedVaalSpellsFire8AdditionalProjectileChance
@@ -7192,7 +6489,7 @@ _No keyword matches in this index._
 {"k":"UniqueMutatedVaalSpellsFire8AdditionalProjectileChance","n":"UniqueMutatedVaalSpellsFire8AdditionalProjectileChance","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_skill_%_chance_to_fire_8_additional_projectiles_in_nova","max":10,"min":5}],"domain":"item","gen":"unique","lvl":1}
 ```
 
-### 87. MapSimulacrumInflictAilmentsAndPenetration1_
+### 29. MapSimulacrumInflictAilmentsAndPenetration1_
 
 - Match score: `100`
 - `k`: MapSimulacrumInflictAilmentsAndPenetration1_
@@ -7208,7 +6505,7 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumInflictAilmentsAndPenetration1_","n":"MapSimulacrumInflictAilmentsAndPenetration1_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_chance_to_inflict_status_ailments","max":15,"min":15},{"id":"map_monsters_penetrate_elemental_resistances_%","max":5,"min":5}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 88. MapSimulacrumInflictAilmentsAndPenetration2
+### 30. MapSimulacrumInflictAilmentsAndPenetration2
 
 - Match score: `100`
 - `k`: MapSimulacrumInflictAilmentsAndPenetration2
@@ -7224,7 +6521,7 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumInflictAilmentsAndPenetration2","n":"MapSimulacrumInflictAilmentsAndPenetration2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_chance_to_inflict_status_ailments","max":20,"min":20},{"id":"map_monsters_penetrate_elemental_resistances_%","max":7,"min":7}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 89. MapSimulacrumInflictAilmentsAndPenetration3
+### 31. MapSimulacrumInflictAilmentsAndPenetration3
 
 - Match score: `100`
 - `k`: MapSimulacrumInflictAilmentsAndPenetration3
@@ -7240,7 +6537,7 @@ _No keyword matches in this index._
 {"k":"MapSimulacrumInflictAilmentsAndPenetration3","n":"MapSimulacrumInflictAilmentsAndPenetration3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_chance_to_inflict_status_ailments","max":30,"min":30},{"id":"map_monsters_penetrate_elemental_resistances_%","max":10,"min":10}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 90. Burning
+### 32. Burning
 
 - Match score: `90`
 - `k`: AddedFireDamage4
@@ -7256,7 +6553,7 @@ _No keyword matches in this index._
 {"k":"AddedFireDamage4","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"attack_minimum_added_fire_damage","max":11,"min":9},{"id":"attack_maximum_added_fire_damage","max":17,"min":14}],"domain":"item","gen":"prefix","weights":[{"tag":"ring","weight":1},{"tag":"gloves","weight":1},{"tag":"quiver","weight":1},{"tag":"default","weight":0}],"lvl":33}
 ```
 
-### 91. Burning
+### 33. Burning
 
 - Match score: `90`
 - `k`: CorruptedSideAreaFireDamage
@@ -7272,7 +6569,7 @@ _No keyword matches in this index._
 {"k":"CorruptedSideAreaFireDamage","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":12,"min":12},{"id":"map_monsters_%_physical_damage_to_convert_to_fire","max":0,"min":0},{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":35,"min":35}],"domain":"area","gen":"unique","weights":[{"tag":"secret_area","weight":1},{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 92. Burning
+### 34. Burning
 
 - Match score: `90`
 - `k`: HandWrapsAddedFireDamage4
@@ -7288,7 +6585,7 @@ _No keyword matches in this index._
 {"k":"HandWrapsAddedFireDamage4","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"non_skill_base_all_damage_%_to_gain_as_fire_with_attacks","max":13,"min":13}],"domain":"item","gen":"prefix","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 93. Burning
+### 35. Burning
 
 - Match score: `90`
 - `k`: HeistContractMonsterFireDamage1
@@ -7304,7 +6601,7 @@ _No keyword matches in this index._
 {"k":"HeistContractMonsterFireDamage1","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":29,"min":10},{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"heist_monster_spawner_alive_limit_+%","max":6,"min":6},{"id":"heist_contract_alert_level_+%_final","max":-6,"min":-6},{"id":"heist_contract_lockdown_timer_+%","max":6,"min":6}],"domain":"heist_area","gen":"prefix","weights":[{"tag":"default","weight":1}],"lvl":1}
 ```
 
-### 94. Burning
+### 36. Burning
 
 - Match score: `90`
 - `k`: HeistContractMonsterFireDamage2
@@ -7320,7 +6617,7 @@ _No keyword matches in this index._
 {"k":"HeistContractMonsterFireDamage2","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":49,"min":30},{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"heist_monster_spawner_alive_limit_+%","max":6,"min":6},{"id":"heist_contract_alert_level_+%_final","max":-6,"min":-6},{"id":"heist_contract_lockdown_timer_+%","max":6,"min":6}],"domain":"heist_area","gen":"prefix","weights":[{"tag":"default","weight":1}],"lvl":46}
 ```
 
-### 95. Burning
+### 37. Burning
 
 - Match score: `90`
 - `k`: HeistContractMonsterFireDamage3
@@ -7336,7 +6633,7 @@ _No keyword matches in this index._
 {"k":"HeistContractMonsterFireDamage3","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":69,"min":50},{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"heist_monster_spawner_alive_limit_+%","max":6,"min":6},{"id":"heist_contract_alert_level_+%_final","max":-6,"min":-6},{"id":"heist_contract_lockdown_timer_+%","max":6,"min":6}],"domain":"heist_area","gen":"prefix","weights":[{"tag":"default","weight":1}],"lvl":68}
 ```
 
-### 96. Burning
+### 38. Burning
 
 - Match score: `90`
 - `k`: HeistContractMonsterFireDamage4_
@@ -7352,7 +6649,7 @@ _No keyword matches in this index._
 {"k":"HeistContractMonsterFireDamage4_","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":89,"min":70},{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"heist_monster_spawner_alive_limit_+%","max":6,"min":6},{"id":"heist_contract_alert_level_+%_final","max":-6,"min":-6},{"id":"heist_contract_lockdown_timer_+%","max":6,"min":6}],"domain":"heist_area","gen":"prefix","weights":[{"tag":"default","weight":1}],"lvl":73}
 ```
 
-### 97. Burning
+### 39. Burning
 
 - Match score: `90`
 - `k`: HeistContractMonsterFireDamage5
@@ -7368,7 +6665,7 @@ _No keyword matches in this index._
 {"k":"HeistContractMonsterFireDamage5","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":110,"min":90},{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"heist_monster_spawner_alive_limit_+%","max":6,"min":6},{"id":"heist_contract_alert_level_+%_final","max":-6,"min":-6},{"id":"heist_contract_lockdown_timer_+%","max":6,"min":6}],"domain":"heist_area","gen":"prefix","weights":[{"tag":"default","weight":1}],"lvl":78}
 ```
 
-### 98. Burning
+### 40. Burning
 
 - Match score: `90`
 - `k`: MapCorruptedSideAreaFireDamage
@@ -7384,7 +6681,7 @@ _No keyword matches in this index._
 {"k":"MapCorruptedSideAreaFireDamage","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":12,"min":12},{"id":"map_items_drop_corrupted_%","max":3,"min":1},{"id":"map_contains_additional_packs_of_vaal_monsters","max":1,"min":1},{"id":"map_monsters_%_physical_damage_to_convert_to_fire","max":0,"min":0},{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":89,"min":70}],"domain":"area","gen":"unique","weights":[{"tag":"secret_area","weight":1},{"tag":"default","weight":0}],"lvl":69}
 ```
 
-### 99. Burning
+### 41. Burning
 
 - Match score: `90`
 - `k`: MapMonsterFireDamage
@@ -7400,7 +6697,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterFireDamage","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":12,"min":12},{"id":"map_monsters_%_physical_damage_to_convert_to_fire","max":0,"min":0},{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":100,"min":80}],"domain":"area","gen":"unique","weights":[{"tag":"secret_area","weight":0},{"tag":"old_map","weight":0},{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 100. Burning
+### 42. Burning
 
 - Match score: `90`
 - `k`: MapMonsterFireDamage1MapWorldsExpedition
@@ -7416,7 +6713,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterFireDamage1MapWorldsExpedition","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":69,"min":50}],"domain":"area","gen":"unique","weights":[{"tag":"top_tier_map","weight":0},{"tag":"expedition_logbook","weight":1},{"tag":"default","weight":0}],"lvl":68}
 ```
 
-### 101. Burning
+### 43. Burning
 
 - Match score: `90`
 - `k`: MapMonsterFireDamage2Map2Tier
@@ -7432,7 +6729,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterFireDamage2Map2Tier","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":15,"min":15},{"id":"map_item_drop_rarity_+%","max":8,"min":8},{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":89,"min":70}],"domain":"area","gen":"unique","weights":[{"tag":"mid_tier_map","weight":0},{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 102. Burning
+### 44. Burning
 
 - Match score: `90`
 - `k`: MapMonsterFireDamage2MapWorlds
@@ -7448,7 +6745,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterFireDamage2MapWorlds","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":89,"min":70}],"domain":"area","gen":"unique","weights":[{"tag":"mid_tier_map","weight":1},{"tag":"expedition_logbook","weight":0},{"tag":"primordial_map","weight":0},{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 103. Burning
+### 45. Burning
 
 - Match score: `90`
 - `k`: MapMonsterFireDamage2MapWorldsExpedition
@@ -7464,7 +6761,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterFireDamage2MapWorldsExpedition","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":89,"min":70}],"domain":"area","gen":"unique","weights":[{"tag":"top_tier_map","weight":0},{"tag":"expedition_logbook","weight":1},{"tag":"default","weight":0}],"lvl":73}
 ```
 
-### 104. Burning
+### 46. Burning
 
 - Match score: `90`
 - `k`: MapMonsterFireDamage3Map2Tier_
@@ -7480,7 +6777,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterFireDamage3Map2Tier_","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":15,"min":15},{"id":"map_item_drop_rarity_+%","max":8,"min":8},{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":110,"min":90}],"domain":"area","gen":"unique","weights":[{"tag":"top_tier_map","weight":0},{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 105. Burning
+### 47. Burning
 
 - Match score: `90`
 - `k`: MapMonsterFireDamage3MapWorlds
@@ -7496,7 +6793,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterFireDamage3MapWorlds","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":110,"min":90}],"domain":"area","gen":"unique","weights":[{"tag":"top_tier_map","weight":1},{"tag":"maven_map","weight":0},{"tag":"expedition_logbook","weight":0},{"tag":"primordial_map","weight":0},{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 106. Burning
+### 48. Burning
 
 - Match score: `90`
 - `k`: MapMonsterFireDamage3MapWorldsExpedition
@@ -7512,7 +6809,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterFireDamage3MapWorldsExpedition","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":110,"min":90}],"domain":"area","gen":"unique","weights":[{"tag":"top_tier_map","weight":0},{"tag":"expedition_logbook","weight":1},{"tag":"default","weight":0}],"lvl":78}
 ```
 
-### 107. Burning
+### 49. Burning
 
 - Match score: `90`
 - `k`: MapMonsterFireDamage3MapWorldsMaven_
@@ -7528,7 +6825,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterFireDamage3MapWorldsMaven_","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":0,"min":0},{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":110,"min":90}],"domain":"area","gen":"unique","weights":[{"tag":"top_tier_map","weight":0},{"tag":"maven_map","weight":1},{"tag":"primordial_map","weight":1},{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 108. Burning
+### 50. Burning
 
 - Match score: `90`
 - `k`: MapMonsterFireDamageMap2Tier
@@ -7544,7 +6841,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterFireDamageMap2Tier","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":15,"min":15},{"id":"map_item_drop_rarity_+%","max":8,"min":8},{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":69,"min":50}],"domain":"area","gen":"unique","weights":[{"tag":"low_tier_map","weight":0},{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 109. Burning
+### 51. Burning
 
 - Match score: `90`
 - `k`: MapMonsterFireDamageMapWorlds
@@ -7560,7 +6857,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterFireDamageMapWorlds","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":69,"min":50}],"domain":"area","gen":"unique","weights":[{"tag":"low_tier_map","weight":1},{"tag":"expedition_logbook","weight":0},{"tag":"primordial_map","weight":0},{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 110. Burning
+### 52. Burning
 
 - Match score: `90`
 - `k`: MapMonsterFireDamageMapWorldsExpedition
@@ -7576,7 +6873,7 @@ _No keyword matches in this index._
 {"k":"MapMonsterFireDamageMapWorldsExpedition","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":16,"min":16},{"id":"map_item_drop_rarity_+%","max":9,"min":9},{"id":"map_pack_size_+%","max":6,"min":6},{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":49,"min":30}],"domain":"area","gen":"unique","weights":[{"tag":"top_tier_map","weight":0},{"tag":"expedition_logbook","weight":1},{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 111. Burning
+### 53. Burning
 
 - Match score: `90`
 - `k`: NearbyAlliesAddedFireDamage4
@@ -7592,7 +6889,7 @@ _No keyword matches in this index._
 {"k":"NearbyAlliesAddedFireDamage4","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"allies_in_presence_attack_minimum_added_fire_damage","max":11,"min":9},{"id":"allies_in_presence_attack_maximum_added_fire_damage","max":17,"min":14}],"domain":"item","gen":"prefix","weights":[{"tag":"sceptre","weight":1},{"tag":"default","weight":0}],"lvl":33}
 ```
 
-### 112. Burning
+### 54. Burning
 
 - Match score: `90`
 - `k`: SpellAddedFireDamage4
@@ -7608,7 +6905,7 @@ _No keyword matches in this index._
 {"k":"SpellAddedFireDamage4","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_minimum_added_fire_damage","max":18,"min":13},{"id":"spell_maximum_added_fire_damage","max":31,"min":27}],"domain":"item","gen":"prefix","weights":[{"tag":"default","weight":0}],"lvl":26}
 ```
 
-### 113. Burning
+### 55. Burning
 
 - Match score: `90`
 - `k`: SpellAddedFireDamageTwoHand4
@@ -7624,7 +6921,7 @@ _No keyword matches in this index._
 {"k":"SpellAddedFireDamageTwoHand4","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"spell_minimum_added_fire_damage","max":23,"min":18},{"id":"spell_maximum_added_fire_damage","max":42,"min":36}],"domain":"item","gen":"prefix","weights":[{"tag":"default","weight":0}],"lvl":26}
 ```
 
-### 114. BurningArrowThresholdJewelUnique__1
+### 56. BurningArrowThresholdJewelUnique__1
 
 - Match score: `90`
 - `k`: BurningArrowThresholdJewelUnique__1
@@ -7640,7 +6937,7 @@ _No keyword matches in this index._
 {"k":"BurningArrowThresholdJewelUnique__1","n":"BurningArrowThresholdJewelUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"fire_dot_multiplier_+","max":10,"min":10},{"id":"dummy_stat_display_nothing","max":0,"min":0},{"id":"dummy_stat_display_nothing","max":0,"min":0}],"domain":"misc","gen":"unique","lvl":1}
 ```
 
-### 115. MapBurningGroundDelve
+### 57. MapBurningGroundDelve
 
 - Match score: `90`
 - `k`: MapBurningGroundDelve
@@ -7656,7 +6953,7 @@ _No keyword matches in this index._
 {"k":"MapBurningGroundDelve","n":"MapBurningGroundDelve","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":6,"min":6},{"id":"map_pack_size_+%","max":4,"min":4},{"id":"map_base_ground_fire_damage_to_deal_per_10_seconds","max":8000,"min":8000},{"id":"map_ground_effect_patches_per_100_tiles","max":20,"min":20},{"id":"map_ground_effect_radius","max":14,"min":14}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":0}],"lvl":1}
 ```
 
-### 116. MapBurningGroundDelve2
+### 58. MapBurningGroundDelve2
 
 - Match score: `90`
 - `k`: MapBurningGroundDelve2
@@ -7672,7 +6969,7 @@ _No keyword matches in this index._
 {"k":"MapBurningGroundDelve2","n":"MapBurningGroundDelve2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":6,"min":6},{"id":"map_pack_size_+%","max":4,"min":4},{"id":"map_base_ground_fire_damage_to_deal_per_10_seconds","max":12000,"min":12000},{"id":"map_ground_effect_patches_per_100_tiles","max":24,"min":24},{"id":"map_ground_effect_radius","max":16,"min":16}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":52}
 ```
 
-### 117. MapBurningGroundDelve3
+### 59. MapBurningGroundDelve3
 
 - Match score: `90`
 - `k`: MapBurningGroundDelve3
@@ -7688,7 +6985,7 @@ _No keyword matches in this index._
 {"k":"MapBurningGroundDelve3","n":"MapBurningGroundDelve3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":6,"min":6},{"id":"map_pack_size_+%","max":4,"min":4},{"id":"map_base_ground_fire_damage_to_deal_per_10_seconds","max":16000,"min":16000},{"id":"map_ground_effect_patches_per_100_tiles","max":28,"min":28},{"id":"map_ground_effect_radius","max":18,"min":18}],"domain":"delve_area","gen":"delve_area","weights":[{"tag":"default","weight":1}],"lvl":173}
 ```
 
-### 118. MapBurningGroundDescent2
+### 60. MapBurningGroundDescent2
 
 - Match score: `90`
 - `k`: MapBurningGroundDescent2
@@ -7704,7 +7001,7 @@ _No keyword matches in this index._
 {"k":"MapBurningGroundDescent2","n":"MapBurningGroundDescent2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_base_ground_fire_damage_to_deal_per_10_seconds","max":1200,"min":1200},{"id":"map_ground_effect_patches_per_100_tiles","max":20,"min":20},{"id":"map_ground_effect_radius","max":14,"min":14}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 119. MapBurningGroundStrDexIntMission
+### 61. MapBurningGroundStrDexIntMission
 
 - Match score: `90`
 - `k`: MapBurningGroundStrDexIntMission
@@ -7720,7 +7017,7 @@ _No keyword matches in this index._
 {"k":"MapBurningGroundStrDexIntMission","n":"MapBurningGroundStrDexIntMission","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":40,"min":30},{"id":"map_item_drop_rarity_+%","max":40,"min":30},{"id":"map_base_ground_fire_damage_to_deal_per_minute","max":16000,"min":16000},{"id":"map_ground_effect_patches_per_100_tiles","max":4,"min":4},{"id":"map_ground_effect_radius","max":20,"min":20}],"domain":"area","gen":"unique","lvl":1}
 ```
 
-### 120. MapSimulacrumExtraFireAndPenetration1
+### 62. MapSimulacrumExtraFireAndPenetration1
 
 - Match score: `90`
 - `k`: MapSimulacrumExtraFireAndPenetration1
@@ -7734,6 +7031,934 @@ _No keyword matches in this index._
 
 ```json
 {"k":"MapSimulacrumExtraFireAndPenetration1","n":"MapSimulacrumExtraFireAndPenetration1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":69,"min":60},{"id":"map_monsters_reduce_enemy_fire_resistance_%","max":5,"min":5}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 63. MapSimulacrumExtraFireAndPenetration2_
+
+- Match score: `90`
+- `k`: MapSimulacrumExtraFireAndPenetration2_
+- `n`: MapSimulacrumExtraFireAndPenetration2_
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":79,"min":70},{"id":"map_monsters_reduce_enemy_fire_resistance_%","max":7,"min":7}]
+
+```json
+{"k":"MapSimulacrumExtraFireAndPenetration2_","n":"MapSimulacrumExtraFireAndPenetration2_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":79,"min":70},{"id":"map_monsters_reduce_enemy_fire_resistance_%","max":7,"min":7}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 64. MapSimulacrumExtraFireAndPenetration3_
+
+- Match score: `90`
+- `k`: MapSimulacrumExtraFireAndPenetration3_
+- `n`: MapSimulacrumExtraFireAndPenetration3_
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":100,"min":80},{"id":"map_monsters_reduce_enemy_fire_resistance_%","max":10,"min":10}]
+
+```json
+{"k":"MapSimulacrumExtraFireAndPenetration3_","n":"MapSimulacrumExtraFireAndPenetration3_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":100,"min":80},{"id":"map_monsters_reduce_enemy_fire_resistance_%","max":10,"min":10}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 65. MapUniqueBurningGround
+
+- Match score: `90`
+- `k`: MapUniqueBurningGround
+- `n`: MapUniqueBurningGround
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_base_ground_fire_damage_to_deal_per_10_seconds","max":16000,"min":16000},{"id":"map_ground_effect_patches_per_100_tiles","max":20,"min":20},{"id":"map_ground_effect_radius","max":14,"min":14}]
+
+```json
+{"k":"MapUniqueBurningGround","n":"MapUniqueBurningGround","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_base_ground_fire_damage_to_deal_per_10_seconds","max":16000,"min":16000},{"id":"map_ground_effect_patches_per_100_tiles","max":20,"min":20},{"id":"map_ground_effect_radius","max":14,"min":14}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 66. UniqueBurningGroundWhileMovingMaximumLife1
+
+- Match score: `90`
+- `k`: UniqueBurningGroundWhileMovingMaximumLife1
+- `n`: UniqueBurningGroundWhileMovingMaximumLife1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"unique_boots_secondary_ground_ignite_while_moving_base_fire_damage_%_of_life","max":10,"min":10}]
+
+```json
+{"k":"UniqueBurningGroundWhileMovingMaximumLife1","n":"UniqueBurningGroundWhileMovingMaximumLife1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"unique_boots_secondary_ground_ignite_while_moving_base_fire_damage_%_of_life","max":10,"min":10}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 67. UniqueElementalDamageFromHitsContributesToCoreEleAilments1
+
+- Match score: `90`
+- `k`: UniqueElementalDamageFromHitsContributesToCoreEleAilments1
+- `n`: UniqueElementalDamageFromHitsContributesToCoreEleAilments1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"elemental_damage_also_contributes_to_flammability_ignite_chill_freeze_and_shock","max":1,"min":1}]
+
+```json
+{"k":"UniqueElementalDamageFromHitsContributesToCoreEleAilments1","n":"UniqueElementalDamageFromHitsContributesToCoreEleAilments1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"elemental_damage_also_contributes_to_flammability_ignite_chill_freeze_and_shock","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 68. Burning
+
+- Match score: `80`
+- `k`: HeistNPCGlobalAddedFireDamage4
+- `n`: Burning
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 83
+- `gen`: prefix
+- `domain`: heist_npc
+- `stats`: [{"id":"player_and_minion_global_minimum_added_fire_damage","max":30,"min":26},{"id":"player_and_minion_global_maximum_added_fire_damage","max":42,"min":36}]
+
+```json
+{"k":"HeistNPCGlobalAddedFireDamage4","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"player_and_minion_global_minimum_added_fire_damage","max":30,"min":26},{"id":"player_and_minion_global_maximum_added_fire_damage","max":42,"min":36}],"domain":"heist_npc","gen":"prefix","weights":[{"tag":"heist_equipment_weapon","weight":1},{"tag":"default","weight":0}],"lvl":83}
+```
+
+### 69. Burning
+
+- Match score: `80`
+- `k`: JewelIgniteEffect
+- `n`: Burning
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: prefix
+- `domain`: misc
+- `stats`: [{"id":"base_ignite_effect_+%","max":15,"min":5}]
+
+```json
+{"k":"JewelIgniteEffect","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_ignite_effect_+%","max":15,"min":5}],"domain":"misc","gen":"prefix","weights":[{"tag":"strjewel","weight":1},{"tag":"intjewel","weight":1},{"tag":"default","weight":0}],"lvl":1}
+```
+
+### 70. Burning
+
+- Match score: `80`
+- `k`: JewelRadiusIgniteEffect
+- `n`: Burning
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: prefix
+- `domain`: misc
+- `stats`: [{"id":"base_ignite_effect_+%","max":7,"min":3}]
+
+```json
+{"k":"JewelRadiusIgniteEffect","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_ignite_effect_+%","max":7,"min":3}],"domain":"misc","gen":"prefix","weights":[{"tag":"str_radius_jewel","weight":1},{"tag":"int_radius_jewel","weight":1},{"tag":"default","weight":0}],"lvl":1}
+```
+
+### 71. Burning
+
+- Match score: `80`
+- `k`: LocalAddedFireDamage4
+- `n`: Burning
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 33
+- `gen`: prefix
+- `domain`: item
+- `stats`: [{"id":"local_minimum_added_fire_damage","max":19,"min":13},{"id":"local_maximum_added_fire_damage","max":29,"min":21}]
+
+```json
+{"k":"LocalAddedFireDamage4","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_minimum_added_fire_damage","max":19,"min":13},{"id":"local_maximum_added_fire_damage","max":29,"min":21}],"domain":"item","gen":"prefix","weights":[{"tag":"bow","weight":1},{"tag":"two_hand_weapon","weight":0},{"tag":"sword","weight":1},{"tag":"axe","weight":1},{"tag":"mace","weight":1},{"tag":"spear","weight":1},{"tag":"claw","weight":1},{"tag":"dagger","weight":1},{"tag":"flail","weight":1},{"tag":"default","weight":0}],"lvl":33}
+```
+
+### 72. Burning
+
+- Match score: `80`
+- `k`: LocalAddedFireDamageTwoHand4
+- `n`: Burning
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 33
+- `gen`: prefix
+- `domain`: item
+- `stats`: [{"id":"local_minimum_added_fire_damage","max":27,"min":19},{"id":"local_maximum_added_fire_damage","max":42,"min":30}]
+
+```json
+{"k":"LocalAddedFireDamageTwoHand4","n":"Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_minimum_added_fire_damage","max":27,"min":19},{"id":"local_maximum_added_fire_damage","max":42,"min":30}],"domain":"item","gen":"prefix","weights":[{"tag":"one_hand_weapon","weight":0},{"tag":"crossbow","weight":1},{"tag":"sword","weight":1},{"tag":"axe","weight":1},{"tag":"mace","weight":1},{"tag":"warstaff","weight":1},{"tag":"talisman","weight":1},{"tag":"default","weight":0}],"lvl":33}
+```
+
+### 73. CorruptionFirePenetration1
+
+- Match score: `80`
+- `k`: CorruptionFirePenetration1
+- `n`: CorruptionFirePenetration1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: corrupted
+- `domain`: item
+- `stats`: [{"id":"base_reduce_enemy_fire_resistance_%","max":15,"min":10}]
+
+```json
+{"k":"CorruptionFirePenetration1","n":"CorruptionFirePenetration1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_reduce_enemy_fire_resistance_%","max":15,"min":10}],"domain":"item","gen":"corrupted","weights":[{"tag":"gloves","weight":1},{"tag":"default","weight":0}],"lvl":1}
+```
+
+### 74. CorruptionUpgradeFirePenetration1
+
+- Match score: `80`
+- `k`: CorruptionUpgradeFirePenetration1
+- `n`: CorruptionUpgradeFirePenetration1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"base_reduce_enemy_fire_resistance_%","max":40,"min":25}]
+
+```json
+{"k":"CorruptionUpgradeFirePenetration1","n":"CorruptionUpgradeFirePenetration1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_reduce_enemy_fire_resistance_%","max":40,"min":25}],"domain":"item","gen":"unique","weights":[{"tag":"gloves","weight":1},{"tag":"default","weight":0}],"lvl":1}
+```
+
+### 75. ElementalPenetrationMarakethSceptreImplicit1
+
+- Match score: `80`
+- `k`: ElementalPenetrationMarakethSceptreImplicit1
+- `n`: ElementalPenetrationMarakethSceptreImplicit1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"reduce_enemy_elemental_resistance_%","max":4,"min":4}]
+
+```json
+{"k":"ElementalPenetrationMarakethSceptreImplicit1","n":"ElementalPenetrationMarakethSceptreImplicit1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"reduce_enemy_elemental_resistance_%","max":4,"min":4}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 76. ElementalPenetrationMarakethSceptreImplicit2
+
+- Match score: `80`
+- `k`: ElementalPenetrationMarakethSceptreImplicit2
+- `n`: ElementalPenetrationMarakethSceptreImplicit2
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"reduce_enemy_elemental_resistance_%","max":6,"min":6}]
+
+```json
+{"k":"ElementalPenetrationMarakethSceptreImplicit2","n":"ElementalPenetrationMarakethSceptreImplicit2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"reduce_enemy_elemental_resistance_%","max":6,"min":6}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 77. ElementalPenetrationPerFrenzyChargeUniqueGlovesStrDex6
+
+- Match score: `80`
+- `k`: ElementalPenetrationPerFrenzyChargeUniqueGlovesStrDex6
+- `n`: ElementalPenetrationPerFrenzyChargeUniqueGlovesStrDex6
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"penetrate_elemental_resistance_per_frenzy_charge_%","max":1,"min":1}]
+
+```json
+{"k":"ElementalPenetrationPerFrenzyChargeUniqueGlovesStrDex6","n":"ElementalPenetrationPerFrenzyChargeUniqueGlovesStrDex6","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"penetrate_elemental_resistance_per_frenzy_charge_%","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 78. ExpeditionRelicDownsideElementalAilmentChance
+
+- Match score: `80`
+- `k`: ExpeditionRelicDownsideElementalAilmentChance
+- `n`: ExpeditionRelicDownsideElementalAilmentChance
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: prefix
+- `domain`: expedition_relic
+- `stats`: [{"id":"ignite_chance_+%","max":100,"min":100},{"id":"hit_damage_freeze_multiplier_+%","max":100,"min":100},{"id":"shock_chance_+%","max":100,"min":100}]
+
+```json
+{"k":"ExpeditionRelicDownsideElementalAilmentChance","n":"ExpeditionRelicDownsideElementalAilmentChance","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"ignite_chance_+%","max":100,"min":100},{"id":"hit_damage_freeze_multiplier_+%","max":100,"min":100},{"id":"shock_chance_+%","max":100,"min":100}],"domain":"expedition_relic","gen":"prefix","weights":[{"tag":"expedition_atoll_remnant_logbook","weight":1},{"tag":"expedition_tundra_remnant_logbook","weight":1},{"tag":"default","weight":0}],"lvl":1}
+```
+
+### 79. ExpeditionRelicDownsideFirePenetration
+
+- Match score: `80`
+- `k`: ExpeditionRelicDownsideFirePenetration
+- `n`: ExpeditionRelicDownsideFirePenetration
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: prefix
+- `domain`: expedition_relic
+- `stats`: [{"id":"base_reduce_enemy_fire_resistance_%","max":30,"min":30}]
+
+```json
+{"k":"ExpeditionRelicDownsideFirePenetration","n":"ExpeditionRelicDownsideFirePenetration","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_reduce_enemy_fire_resistance_%","max":30,"min":30}],"domain":"expedition_relic","gen":"prefix","weights":[{"tag":"expedition_atoll_remnant_logbook","weight":1},{"tag":"expedition_tundra_remnant_logbook","weight":1},{"tag":"default","weight":0}],"lvl":1}
+```
+
+### 80. FirePenetrationUnique__1
+
+- Match score: `80`
+- `k`: FirePenetrationUnique__1
+- `n`: FirePenetrationUnique__1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 81
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"base_reduce_enemy_fire_resistance_%","max":10,"min":10}]
+
+```json
+{"k":"FirePenetrationUnique__1","n":"FirePenetrationUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_reduce_enemy_fire_resistance_%","max":10,"min":10}],"domain":"item","gen":"unique","lvl":81}
+```
+
+### 81. FlaskElementalPenetrationOfHighestResistUnique__1
+
+- Match score: `80`
+- `k`: FlaskElementalPenetrationOfHighestResistUnique__1
+- `n`: FlaskElementalPenetrationOfHighestResistUnique__1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: flask
+- `stats`: [{"id":"local_unique_flask_elemental_penetration_%_of_highest_uncapped_resistance_type","max":8,"min":5}]
+
+```json
+{"k":"FlaskElementalPenetrationOfHighestResistUnique__1","n":"FlaskElementalPenetrationOfHighestResistUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_unique_flask_elemental_penetration_%_of_highest_uncapped_resistance_type","max":8,"min":5}],"domain":"flask","gen":"unique","lvl":1}
+```
+
+### 82. HandWrapsUniqueElementalDamageConvertToFire1
+
+- Match score: `80`
+- `k`: HandWrapsUniqueElementalDamageConvertToFire1
+- `n`: HandWrapsUniqueElementalDamageConvertToFire1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"physical_damage_can_ignite_freeze_shock","max":1,"min":1}]
+
+```json
+{"k":"HandWrapsUniqueElementalDamageConvertToFire1","n":"HandWrapsUniqueElementalDamageConvertToFire1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"physical_damage_can_ignite_freeze_shock","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 83. HandWrapsUniqueElementalPenetrationBelowZero1
+
+- Match score: `80`
+- `k`: HandWrapsUniqueElementalPenetrationBelowZero1
+- `n`: HandWrapsUniqueElementalPenetrationBelowZero1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"elemental_damage_resisted_by_lowest_elemental_resistance","max":1,"min":1}]
+
+```json
+{"k":"HandWrapsUniqueElementalPenetrationBelowZero1","n":"HandWrapsUniqueElementalPenetrationBelowZero1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"elemental_damage_resisted_by_lowest_elemental_resistance","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 84. ImmuneToElementalAilmentsWhileLifeAndManaCloseUnique__1
+
+- Match score: `80`
+- `k`: ImmuneToElementalAilmentsWhileLifeAndManaCloseUnique__1
+- `n`: ImmuneToElementalAilmentsWhileLifeAndManaCloseUnique__1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"unaffected_by_ignite_and_shock_while_max_life_mana_within_500","max":1,"min":1}]
+
+```json
+{"k":"ImmuneToElementalAilmentsWhileLifeAndManaCloseUnique__1","n":"ImmuneToElementalAilmentsWhileLifeAndManaCloseUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"unaffected_by_ignite_and_shock_while_max_life_mana_within_500","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 85. ItemActsAsConcentratedAOESupportUnique__1
+
+- Match score: `80`
+- `k`: ItemActsAsConcentratedAOESupportUnique__1
+- `n`: ItemActsAsConcentratedAOESupportUnique__1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"local_display_socketed_gems_get_concentrated_area_level","max":5,"min":5}]
+
+```json
+{"k":"ItemActsAsConcentratedAOESupportUnique__1","n":"ItemActsAsConcentratedAOESupportUnique__1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_socketed_gems_get_concentrated_area_level","max":5,"min":5}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 86. ItemActsAsConcentratedAOESupportUniqueDagger5
+
+- Match score: `80`
+- `k`: ItemActsAsConcentratedAOESupportUniqueDagger5
+- `n`: ItemActsAsConcentratedAOESupportUniqueDagger5
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"local_display_socketed_gems_get_concentrated_area_level","max":10,"min":10}]
+
+```json
+{"k":"ItemActsAsConcentratedAOESupportUniqueDagger5","n":"ItemActsAsConcentratedAOESupportUniqueDagger5","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_socketed_gems_get_concentrated_area_level","max":10,"min":10}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 87. ItemActsAsConcentratedAOESupportUniqueHelmetInt4
+
+- Match score: `80`
+- `k`: ItemActsAsConcentratedAOESupportUniqueHelmetInt4
+- `n`: ItemActsAsConcentratedAOESupportUniqueHelmetInt4
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"local_display_socketed_gems_get_concentrated_area_level","max":20,"min":20}]
+
+```json
+{"k":"ItemActsAsConcentratedAOESupportUniqueHelmetInt4","n":"ItemActsAsConcentratedAOESupportUniqueHelmetInt4","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_socketed_gems_get_concentrated_area_level","max":20,"min":20}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 88. ItemActsAsConcentratedAOESupportUniqueRing35
+
+- Match score: `80`
+- `k`: ItemActsAsConcentratedAOESupportUniqueRing35
+- `n`: ItemActsAsConcentratedAOESupportUniqueRing35
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"local_display_socketed_gems_get_concentrated_area_level","max":15,"min":15}]
+
+```json
+{"k":"ItemActsAsConcentratedAOESupportUniqueRing35","n":"ItemActsAsConcentratedAOESupportUniqueRing35","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_display_socketed_gems_get_concentrated_area_level","max":15,"min":15}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 89. MapBurningGroundSynthesis
+
+- Match score: `80`
+- `k`: MapBurningGroundSynthesis
+- `n`: MapBurningGroundSynthesis
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 50
+- `gen`: synthesis_a
+- `domain`: synthesis_a
+- `stats`: [{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":6,"min":6},{"id":"map_pack_size_+%","max":4,"min":4},{"id":"map_base_ground_fire_damage_to_deal_per_10_seconds","max":8000,"min":8000},{"id":"map_ground_effect_patches_per_100_tiles","max":20,"min":20},{"id":"map_ground_effect_radius","max":14,"min":14}]
+
+```json
+{"k":"MapBurningGroundSynthesis","n":"MapBurningGroundSynthesis","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":6,"min":6},{"id":"map_pack_size_+%","max":4,"min":4},{"id":"map_base_ground_fire_damage_to_deal_per_10_seconds","max":8000,"min":8000},{"id":"map_ground_effect_patches_per_100_tiles","max":20,"min":20},{"id":"map_ground_effect_radius","max":14,"min":14}],"domain":"synthesis_a","gen":"synthesis_a","weights":[{"tag":"default","weight":1}],"lvl":50}
+```
+
+### 90. MapBurningGroundSynthesis2
+
+- Match score: `80`
+- `k`: MapBurningGroundSynthesis2
+- `n`: MapBurningGroundSynthesis2
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 68
+- `gen`: synthesis_a
+- `domain`: synthesis_a
+- `stats`: [{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":6,"min":6},{"id":"map_pack_size_+%","max":4,"min":4},{"id":"map_base_ground_fire_damage_to_deal_per_10_seconds","max":12000,"min":12000},{"id":"map_ground_effect_patches_per_100_tiles","max":24,"min":24},{"id":"map_ground_effect_radius","max":16,"min":16}]
+
+```json
+{"k":"MapBurningGroundSynthesis2","n":"MapBurningGroundSynthesis2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":6,"min":6},{"id":"map_pack_size_+%","max":4,"min":4},{"id":"map_base_ground_fire_damage_to_deal_per_10_seconds","max":12000,"min":12000},{"id":"map_ground_effect_patches_per_100_tiles","max":24,"min":24},{"id":"map_ground_effect_radius","max":16,"min":16}],"domain":"synthesis_a","gen":"synthesis_a","weights":[{"tag":"default","weight":1}],"lvl":68}
+```
+
+### 91. MapBurningGroundSynthesis3
+
+- Match score: `80`
+- `k`: MapBurningGroundSynthesis3
+- `n`: MapBurningGroundSynthesis3
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 79
+- `gen`: synthesis_a
+- `domain`: synthesis_a
+- `stats`: [{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":6,"min":6},{"id":"map_pack_size_+%","max":4,"min":4},{"id":"map_base_ground_fire_damage_to_deal_per_10_seconds","max":16000,"min":16000},{"id":"map_ground_effect_patches_per_100_tiles","max":28,"min":28},{"id":"map_ground_effect_radius","max":18,"min":18}]
+
+```json
+{"k":"MapBurningGroundSynthesis3","n":"MapBurningGroundSynthesis3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":10,"min":10},{"id":"map_item_drop_rarity_+%","max":6,"min":6},{"id":"map_pack_size_+%","max":4,"min":4},{"id":"map_base_ground_fire_damage_to_deal_per_10_seconds","max":16000,"min":16000},{"id":"map_ground_effect_patches_per_100_tiles","max":28,"min":28},{"id":"map_ground_effect_radius","max":18,"min":18}],"domain":"synthesis_a","gen":"synthesis_a","weights":[{"tag":"default","weight":1}],"lvl":79}
+```
+
+### 92. MapFireResistanceStrDexIntMission
+
+- Match score: `80`
+- `k`: MapFireResistanceStrDexIntMission
+- `n`: MapFireResistanceStrDexIntMission
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_monsters_additional_fire_resistance","max":40,"min":40}]
+
+```json
+{"k":"MapFireResistanceStrDexIntMission","n":"MapFireResistanceStrDexIntMission","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":0,"min":0},{"id":"map_item_drop_rarity_+%","max":0,"min":0},{"id":"map_monsters_additional_fire_resistance","max":40,"min":40}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 93. MapMonsterFireResistanceLabyrinth1
+
+- Match score: `80`
+- `k`: MapMonsterFireResistanceLabyrinth1
+- `n`: MapMonsterFireResistanceLabyrinth1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_item_drop_quantity_+%","max":7,"min":7},{"id":"map_item_drop_rarity_+%","max":15,"min":15},{"id":"map_monsters_additional_fire_resistance","max":40,"min":40}]
+
+```json
+{"k":"MapMonsterFireResistanceLabyrinth1","n":"MapMonsterFireResistanceLabyrinth1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":7,"min":7},{"id":"map_item_drop_rarity_+%","max":15,"min":15},{"id":"map_monsters_additional_fire_resistance","max":40,"min":40}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 94. MapMonsterFireResistanceLabyrinth2
+
+- Match score: `80`
+- `k`: MapMonsterFireResistanceLabyrinth2
+- `n`: MapMonsterFireResistanceLabyrinth2
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_item_drop_quantity_+%","max":7,"min":7},{"id":"map_item_drop_rarity_+%","max":15,"min":15},{"id":"map_monsters_additional_fire_resistance","max":60,"min":60}]
+
+```json
+{"k":"MapMonsterFireResistanceLabyrinth2","n":"MapMonsterFireResistanceLabyrinth2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":7,"min":7},{"id":"map_item_drop_rarity_+%","max":15,"min":15},{"id":"map_monsters_additional_fire_resistance","max":60,"min":60}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 95. MapMonsterFireResistanceLabyrinth3
+
+- Match score: `80`
+- `k`: MapMonsterFireResistanceLabyrinth3
+- `n`: MapMonsterFireResistanceLabyrinth3
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_item_drop_quantity_+%","max":7,"min":7},{"id":"map_item_drop_rarity_+%","max":15,"min":15},{"id":"map_monsters_additional_fire_resistance","max":80,"min":80}]
+
+```json
+{"k":"MapMonsterFireResistanceLabyrinth3","n":"MapMonsterFireResistanceLabyrinth3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_item_drop_quantity_+%","max":7,"min":7},{"id":"map_item_drop_rarity_+%","max":15,"min":15},{"id":"map_monsters_additional_fire_resistance","max":80,"min":80}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 96. MapSimulacrumElementalPenetration
+
+- Match score: `80`
+- `k`: MapSimulacrumElementalPenetration
+- `n`: MapSimulacrumElementalPenetration
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: monster
+- `stats`: [{"id":"map_monsters_penetrate_elemental_resistances_%","max":25,"min":15}]
+
+```json
+{"k":"MapSimulacrumElementalPenetration","n":"MapSimulacrumElementalPenetration","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_penetrate_elemental_resistances_%","max":25,"min":15}],"domain":"monster","gen":"unique","lvl":1}
+```
+
+### 97. MapSimulacrumExtraFireAndAilment1
+
+- Match score: `80`
+- `k`: MapSimulacrumExtraFireAndAilment1
+- `n`: MapSimulacrumExtraFireAndAilment1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":69,"min":60},{"id":"map_monsters_chance_to_scorch_%","max":33,"min":33}]
+
+```json
+{"k":"MapSimulacrumExtraFireAndAilment1","n":"MapSimulacrumExtraFireAndAilment1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":69,"min":60},{"id":"map_monsters_chance_to_scorch_%","max":33,"min":33}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 98. MapSimulacrumExtraFireAndAilment2_
+
+- Match score: `80`
+- `k`: MapSimulacrumExtraFireAndAilment2_
+- `n`: MapSimulacrumExtraFireAndAilment2_
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":79,"min":70},{"id":"map_monsters_chance_to_scorch_%","max":66,"min":66}]
+
+```json
+{"k":"MapSimulacrumExtraFireAndAilment2_","n":"MapSimulacrumExtraFireAndAilment2_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":79,"min":70},{"id":"map_monsters_chance_to_scorch_%","max":66,"min":66}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 99. MapSimulacrumExtraFireAndAilment3
+
+- Match score: `80`
+- `k`: MapSimulacrumExtraFireAndAilment3
+- `n`: MapSimulacrumExtraFireAndAilment3
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":100,"min":80},{"id":"map_monsters_chance_to_scorch_%","max":100,"min":100}]
+
+```json
+{"k":"MapSimulacrumExtraFireAndAilment3","n":"MapSimulacrumExtraFireAndAilment3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":100,"min":80},{"id":"map_monsters_chance_to_scorch_%","max":100,"min":100}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 100. MapSimulacrumExtraFireAndResistance1
+
+- Match score: `80`
+- `k`: MapSimulacrumExtraFireAndResistance1
+- `n`: MapSimulacrumExtraFireAndResistance1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":69,"min":60},{"id":"map_monsters_additional_fire_resistance","max":30,"min":30}]
+
+```json
+{"k":"MapSimulacrumExtraFireAndResistance1","n":"MapSimulacrumExtraFireAndResistance1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":69,"min":60},{"id":"map_monsters_additional_fire_resistance","max":30,"min":30}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 101. MapSimulacrumExtraFireAndResistance2
+
+- Match score: `80`
+- `k`: MapSimulacrumExtraFireAndResistance2
+- `n`: MapSimulacrumExtraFireAndResistance2
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":79,"min":70},{"id":"map_monsters_additional_fire_resistance","max":40,"min":40}]
+
+```json
+{"k":"MapSimulacrumExtraFireAndResistance2","n":"MapSimulacrumExtraFireAndResistance2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":79,"min":70},{"id":"map_monsters_additional_fire_resistance","max":40,"min":40}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 102. MapSimulacrumExtraFireAndResistance3
+
+- Match score: `80`
+- `k`: MapSimulacrumExtraFireAndResistance3
+- `n`: MapSimulacrumExtraFireAndResistance3
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":100,"min":80},{"id":"map_monsters_additional_fire_resistance","max":50,"min":50}]
+
+```json
+{"k":"MapSimulacrumExtraFireAndResistance3","n":"MapSimulacrumExtraFireAndResistance3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":100,"min":80},{"id":"map_monsters_additional_fire_resistance","max":50,"min":50}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 103. MapSimulacrumInflictAilmentsAndAilmentResistance1
+
+- Match score: `80`
+- `k`: MapSimulacrumInflictAilmentsAndAilmentResistance1
+- `n`: MapSimulacrumInflictAilmentsAndAilmentResistance1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_monsters_%_chance_to_inflict_status_ailments","max":15,"min":15},{"id":"map_monster_non_damaging_ailment_effect_+%_on_self","max":-33,"min":-33}]
+
+```json
+{"k":"MapSimulacrumInflictAilmentsAndAilmentResistance1","n":"MapSimulacrumInflictAilmentsAndAilmentResistance1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_chance_to_inflict_status_ailments","max":15,"min":15},{"id":"map_monster_non_damaging_ailment_effect_+%_on_self","max":-33,"min":-33}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 104. MapSimulacrumInflictAilmentsAndAilmentResistance2
+
+- Match score: `80`
+- `k`: MapSimulacrumInflictAilmentsAndAilmentResistance2
+- `n`: MapSimulacrumInflictAilmentsAndAilmentResistance2
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_monsters_%_chance_to_inflict_status_ailments","max":20,"min":20},{"id":"map_monster_non_damaging_ailment_effect_+%_on_self","max":-50,"min":-50}]
+
+```json
+{"k":"MapSimulacrumInflictAilmentsAndAilmentResistance2","n":"MapSimulacrumInflictAilmentsAndAilmentResistance2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_chance_to_inflict_status_ailments","max":20,"min":20},{"id":"map_monster_non_damaging_ailment_effect_+%_on_self","max":-50,"min":-50}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 105. MapSimulacrumInflictAilmentsAndAilmentResistance3__
+
+- Match score: `80`
+- `k`: MapSimulacrumInflictAilmentsAndAilmentResistance3__
+- `n`: MapSimulacrumInflictAilmentsAndAilmentResistance3__
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_monsters_%_chance_to_inflict_status_ailments","max":30,"min":30},{"id":"map_monster_non_damaging_ailment_effect_+%_on_self","max":-66,"min":-66}]
+
+```json
+{"k":"MapSimulacrumInflictAilmentsAndAilmentResistance3__","n":"MapSimulacrumInflictAilmentsAndAilmentResistance3__","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_chance_to_inflict_status_ailments","max":30,"min":30},{"id":"map_monster_non_damaging_ailment_effect_+%_on_self","max":-66,"min":-66}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 106. MapSimulacrumPhysicalPenetrationAndResistance1
+
+- Match score: `80`
+- `k`: MapSimulacrumPhysicalPenetrationAndResistance1
+- `n`: MapSimulacrumPhysicalPenetrationAndResistance1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_monsters_enemy_phys_reduction_%_penalty_vs_hit","max":5,"min":5},{"id":"map_monsters_additional_physical_damage_reduction","max":10,"min":10}]
+
+```json
+{"k":"MapSimulacrumPhysicalPenetrationAndResistance1","n":"MapSimulacrumPhysicalPenetrationAndResistance1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_enemy_phys_reduction_%_penalty_vs_hit","max":5,"min":5},{"id":"map_monsters_additional_physical_damage_reduction","max":10,"min":10}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 107. MapSimulacrumPhysicalPenetrationAndResistance2__
+
+- Match score: `80`
+- `k`: MapSimulacrumPhysicalPenetrationAndResistance2__
+- `n`: MapSimulacrumPhysicalPenetrationAndResistance2__
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_monsters_enemy_phys_reduction_%_penalty_vs_hit","max":7,"min":7},{"id":"map_monsters_additional_physical_damage_reduction","max":15,"min":15}]
+
+```json
+{"k":"MapSimulacrumPhysicalPenetrationAndResistance2__","n":"MapSimulacrumPhysicalPenetrationAndResistance2__","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_enemy_phys_reduction_%_penalty_vs_hit","max":7,"min":7},{"id":"map_monsters_additional_physical_damage_reduction","max":15,"min":15}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 108. MapSimulacrumPhysicalPenetrationAndResistance3
+
+- Match score: `80`
+- `k`: MapSimulacrumPhysicalPenetrationAndResistance3
+- `n`: MapSimulacrumPhysicalPenetrationAndResistance3
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_monsters_enemy_phys_reduction_%_penalty_vs_hit","max":10,"min":10},{"id":"map_monsters_additional_physical_damage_reduction","max":25,"min":25}]
+
+```json
+{"k":"MapSimulacrumPhysicalPenetrationAndResistance3","n":"MapSimulacrumPhysicalPenetrationAndResistance3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_enemy_phys_reduction_%_penalty_vs_hit","max":10,"min":10},{"id":"map_monsters_additional_physical_damage_reduction","max":25,"min":25}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 109. of Burning
+
+- Match score: `80`
+- `k`: IgniteChanceAndDurationJewel
+- `n`: of Burning
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: misc
+- `stats`: [{"id":"base_chance_to_ignite_%","max":5,"min":3},{"id":"ignite_duration_+%","max":8,"min":6}]
+
+```json
+{"k":"IgniteChanceAndDurationJewel","n":"of Burning","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_chance_to_ignite_%","max":5,"min":3},{"id":"ignite_duration_+%","max":8,"min":6}],"domain":"misc","gen":"unique","weights":[{"tag":"not_str","weight":1},{"tag":"default","weight":1}],"lvl":1}
+```
+
+### 110. TalismanImplicitFireDamageAndFlammability1
+
+- Match score: `80`
+- `k`: TalismanImplicitFireDamageAndFlammability1
+- `n`: TalismanImplicitFireDamageAndFlammability1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"local_weapon_implicit_hidden_%_base_damage_is_fire","max":30,"min":30},{"id":"ignite_chance_+%","max":80,"min":50}]
+
+```json
+{"k":"TalismanImplicitFireDamageAndFlammability1","n":"TalismanImplicitFireDamageAndFlammability1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_weapon_implicit_hidden_%_base_damage_is_fire","max":30,"min":30},{"id":"ignite_chance_+%","max":80,"min":50}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 111. UberSimulacrumExtraFireAndResistance1_
+
+- Match score: `80`
+- `k`: UberSimulacrumExtraFireAndResistance1_
+- `n`: UberSimulacrumExtraFireAndResistance1_
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":110,"min":101},{"id":"map_monsters_additional_fire_resistance","max":80,"min":51}]
+
+```json
+{"k":"UberSimulacrumExtraFireAndResistance1_","n":"UberSimulacrumExtraFireAndResistance1_","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_%_physical_damage_to_gain_as_fire","max":110,"min":101},{"id":"map_monsters_additional_fire_resistance","max":80,"min":51}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 112. UberSimulacrumPhysicalPenetrationAndResistance1
+
+- Match score: `80`
+- `k`: UberSimulacrumPhysicalPenetrationAndResistance1
+- `n`: UberSimulacrumPhysicalPenetrationAndResistance1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: area
+- `stats`: [{"id":"map_monsters_enemy_phys_reduction_%_penalty_vs_hit","max":15,"min":15},{"id":"map_monsters_additional_physical_damage_reduction","max":40,"min":40}]
+
+```json
+{"k":"UberSimulacrumPhysicalPenetrationAndResistance1","n":"UberSimulacrumPhysicalPenetrationAndResistance1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"map_monsters_enemy_phys_reduction_%_penalty_vs_hit","max":15,"min":15},{"id":"map_monsters_additional_physical_damage_reduction","max":40,"min":40}],"domain":"area","gen":"unique","lvl":1}
+```
+
+### 113. UniqueElementalAilmentDuration1
+
+- Match score: `80`
+- `k`: UniqueElementalAilmentDuration1
+- `n`: UniqueElementalAilmentDuration1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"ignite_shock_chill_duration_+%","max":-30,"min":-40}]
+
+```json
+{"k":"UniqueElementalAilmentDuration1","n":"UniqueElementalAilmentDuration1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"ignite_shock_chill_duration_+%","max":-30,"min":-40}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 114. UniqueElementalPenetration1
+
+- Match score: `80`
+- `k`: UniqueElementalPenetration1
+- `n`: UniqueElementalPenetration1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"reduce_enemy_elemental_resistance_%","max":10,"min":10}]
+
+```json
+{"k":"UniqueElementalPenetration1","n":"UniqueElementalPenetration1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"reduce_enemy_elemental_resistance_%","max":10,"min":10}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 115. UniqueEnemiesInPresenceFireExposure1
+
+- Match score: `80`
+- `k`: UniqueEnemiesInPresenceFireExposure1
+- `n`: UniqueEnemiesInPresenceFireExposure1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 66
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"enemies_in_presence_have_fire_resistance_%","max":-25,"min":-25}]
+
+```json
+{"k":"UniqueEnemiesInPresenceFireExposure1","n":"UniqueEnemiesInPresenceFireExposure1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"enemies_in_presence_have_fire_resistance_%","max":-25,"min":-25}],"domain":"item","gen":"unique","lvl":66}
+```
+
+### 116. UniqueFireResistanceNoPenalty1
+
+- Match score: `80`
+- `k`: UniqueFireResistanceNoPenalty1
+- `n`: UniqueFireResistanceNoPenalty1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"fire_resist_unaffected_by_area_penalties","max":1,"min":1}]
+
+```json
+{"k":"UniqueFireResistanceNoPenalty1","n":"UniqueFireResistanceNoPenalty1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"fire_resist_unaffected_by_area_penalties","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 117. UniqueLocalFireExposureOnArmourBreak1
+
+- Match score: `80`
+- `k`: UniqueLocalFireExposureOnArmourBreak1
+- `n`: UniqueLocalFireExposureOnArmourBreak1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"local_apply_elemental_exposure_on_full_armour_break","max":1,"min":1}]
+
+```json
+{"k":"UniqueLocalFireExposureOnArmourBreak1","n":"UniqueLocalFireExposureOnArmourBreak1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"local_apply_elemental_exposure_on_full_armour_break","max":1,"min":1}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 118. UniqueMaximumElementalResistances1
+
+- Match score: `80`
+- `k`: UniqueMaximumElementalResistances1
+- `n`: UniqueMaximumElementalResistances1
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"base_maximum_fire_damage_resistance_%","max":1,"min":1},{"id":"base_maximum_cold_damage_resistance_%","max":2,"min":2},{"id":"base_maximum_lightning_damage_resistance_%","max":3,"min":3}]
+
+```json
+{"k":"UniqueMaximumElementalResistances1","n":"UniqueMaximumElementalResistances1","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_maximum_fire_damage_resistance_%","max":1,"min":1},{"id":"base_maximum_cold_damage_resistance_%","max":2,"min":2},{"id":"base_maximum_lightning_damage_resistance_%","max":3,"min":3}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 119. UniqueMaximumElementalResistances2
+
+- Match score: `80`
+- `k`: UniqueMaximumElementalResistances2
+- `n`: UniqueMaximumElementalResistances2
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"base_maximum_fire_damage_resistance_%","max":1,"min":1},{"id":"base_maximum_cold_damage_resistance_%","max":3,"min":3},{"id":"base_maximum_lightning_damage_resistance_%","max":2,"min":2}]
+
+```json
+{"k":"UniqueMaximumElementalResistances2","n":"UniqueMaximumElementalResistances2","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_maximum_fire_damage_resistance_%","max":1,"min":1},{"id":"base_maximum_cold_damage_resistance_%","max":3,"min":3},{"id":"base_maximum_lightning_damage_resistance_%","max":2,"min":2}],"domain":"item","gen":"unique","lvl":1}
+```
+
+### 120. UniqueMaximumElementalResistances3
+
+- Match score: `80`
+- `k`: UniqueMaximumElementalResistances3
+- `n`: UniqueMaximumElementalResistances3
+- `cat`: repoe_mods
+- `src`: repoe_poe2/mods.json
+- `lvl`: 1
+- `gen`: unique
+- `domain`: item
+- `stats`: [{"id":"base_maximum_fire_damage_resistance_%","max":2,"min":2},{"id":"base_maximum_cold_damage_resistance_%","max":1,"min":1},{"id":"base_maximum_lightning_damage_resistance_%","max":3,"min":3}]
+
+```json
+{"k":"UniqueMaximumElementalResistances3","n":"UniqueMaximumElementalResistances3","cat":"repoe_mods","src":"repoe_poe2/mods.json","stats":[{"id":"base_maximum_fire_damage_resistance_%","max":2,"min":2},{"id":"base_maximum_cold_damage_resistance_%","max":1,"min":1},{"id":"base_maximum_lightning_damage_resistance_%","max":3,"min":3}],"domain":"item","gen":"unique","lvl":1}
 ```
 
 ## Rune mods
@@ -8983,19 +9208,7 @@ fired in random directions
 {"k":"Damage over time with non-[Ailments|Ailment] [Debuff|Debuffs] inflicted on full-life enemies by Supported Skills deal {0}% more damage","n":"Damage over time with non-[Ailments|Ailment] [Debuff|Debuffs] inflicted on full-life enemies by Supported Skills deal {0}% more damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 96. DelveWeaponLocalAttackReduceEnemyElementalResistance1h1
-
-- Match score: `105`
-- `k`: DelveWeaponLocalAttackReduceEnemyElementalResistance1h1
-- `n`: DelveWeaponLocalAttackReduceEnemyElementalResistance1h1
-- `cat`: pob_mod_jewel
-- `src`: pob_data_poe2/ModJewel.json
-
-```json
-{"k":"DelveWeaponLocalAttackReduceEnemyElementalResistance1h1","n":"DelveWeaponLocalAttackReduceEnemyElementalResistance1h1","cat":"pob_mod_jewel","src":"pob_data_poe2/ModJewel.json","level":1}
-```
-
-### 97. Drops Burning Ground while moving, dealing {0} Fire Damage per second for {1} second
+### 96. Drops Burning Ground while moving, dealing {0} Fire Damage per second for {1} second
 
 - Match score: `105`
 - `k`: Drops Burning Ground while moving, dealing {0} Fire Damage per second for {1} second
@@ -9007,7 +9220,7 @@ fired in random directions
 {"k":"Drops Burning Ground while moving, dealing {0} Fire Damage per second for {1} second","n":"Drops Burning Ground while moving, dealing {0} Fire Damage per second for {1} second","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 98. Drops Burning Ground while moving, dealing {0} Fire Damage per second for {1} seconds
+### 97. Drops Burning Ground while moving, dealing {0} Fire Damage per second for {1} seconds
 
 - Match score: `105`
 - `k`: Drops Burning Ground while moving, dealing {0} Fire Damage per second for {1} seconds
@@ -9019,7 +9232,7 @@ fired in random directions
 {"k":"Drops Burning Ground while moving, dealing {0} Fire Damage per second for {1} seconds","n":"Drops Burning Ground while moving, dealing {0} Fire Damage per second for {1} seconds","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 99. Echoes from Supported [Spell|Spells] have {0}% increased Area of Effect
+### 98. Echoes from Supported [Spell|Spells] have {0}% increased Area of Effect
 
 - Match score: `105`
 - `k`: Echoes from Supported [Spell|Spells] have {0}% increased Area of Effect
@@ -9031,7 +9244,7 @@ fired in random directions
 {"k":"Echoes from Supported [Spell|Spells] have {0}% increased Area of Effect","n":"Echoes from Supported [Spell|Spells] have {0}% increased Area of Effect","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 100. Echoes from Supported [Spell|Spells] have {0}% reduced Area of Effect
+### 99. Echoes from Supported [Spell|Spells] have {0}% reduced Area of Effect
 
 - Match score: `105`
 - `k`: Echoes from Supported [Spell|Spells] have {0}% reduced Area of Effect
@@ -9043,7 +9256,7 @@ fired in random directions
 {"k":"Echoes from Supported [Spell|Spells] have {0}% reduced Area of Effect","n":"Echoes from Supported [Spell|Spells] have {0}% reduced Area of Effect","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 101. Enemies [Ignite|Ignited] by this Skill have {0}% to Fire [Resistances|Resistance]
+### 100. Enemies [Ignite|Ignited] by this Skill have {0}% to Fire [Resistances|Resistance]
 
 - Match score: `105`
 - `k`: Enemies [Ignite|Ignited] by this Skill have {0}% to Fire [Resistances|Resistance]
@@ -9055,7 +9268,7 @@ fired in random directions
 {"k":"Enemies [Ignite|Ignited] by this Skill have {0}% to Fire [Resistances|Resistance]","n":"Enemies [Ignite|Ignited] by this Skill have {0}% to Fire [Resistances|Resistance]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 102. Enemies [Ignite|Ignited] by you have {0}% to Fire [Resistances|Resistance]
+### 101. Enemies [Ignite|Ignited] by you have {0}% to Fire [Resistances|Resistance]
 
 - Match score: `105`
 - `k`: Enemies [Ignite|Ignited] by you have {0}% to Fire [Resistances|Resistance]
@@ -9067,7 +9280,7 @@ fired in random directions
 {"k":"Enemies [Ignite|Ignited] by you have {0}% to Fire [Resistances|Resistance]","n":"Enemies [Ignite|Ignited] by you have {0}% to Fire [Resistances|Resistance]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 103. Enemies [Ignite|Ignited] or [Chill|Chilled] by you have {0}% to [Resistances|Elemental Resistances]
+### 102. Enemies [Ignite|Ignited] or [Chill|Chilled] by you have {0}% to [Resistances|Elemental Resistances]
 
 - Match score: `105`
 - `k`: Enemies [Ignite|Ignited] or [Chill|Chilled] by you have {0}% to [Resistances|Elemental Resistances]
@@ -9079,7 +9292,7 @@ fired in random directions
 {"k":"Enemies [Ignite|Ignited] or [Chill|Chilled] by you have {0}% to [Resistances|Elemental Resistances]","n":"Enemies [Ignite|Ignited] or [Chill|Chilled] by you have {0}% to [Resistances|Elemental Resistances]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 104. Enemies [Shock|Shocked] by Supported Skills take {0}% of damage from [Ignite] as [Lightning] damage as well as [Fire] damage
+### 103. Enemies [Shock|Shocked] by Supported Skills take {0}% of damage from [Ignite] as [Lightning] damage as well as [Fire] damage
 
 - Match score: `105`
 - `k`: Enemies [Shock|Shocked] by Supported Skills take {0}% of damage from [Ignite] as [Lightning] damage as well as [Fire] damage
@@ -9091,7 +9304,7 @@ fired in random directions
 {"k":"Enemies [Shock|Shocked] by Supported Skills take {0}% of damage from [Ignite] as [Lightning] damage as well as [Fire] damage","n":"Enemies [Shock|Shocked] by Supported Skills take {0}% of damage from [Ignite] as [Lightning] damage as well as [Fire] damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 105. Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% increased Life regeneration rate
+### 104. Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% increased Life regeneration rate
 
 - Match score: `105`
 - `k`: Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% increased Life regeneration rate
@@ -9103,7 +9316,7 @@ fired in random directions
 {"k":"Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% increased Life regeneration rate","n":"Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% increased Life regeneration rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 106. Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% reduced Life regeneration rate
+### 105. Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% reduced Life regeneration rate
 
 - Match score: `105`
 - `k`: Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% reduced Life regeneration rate
@@ -9115,7 +9328,7 @@ fired in random directions
 {"k":"Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% reduced Life regeneration rate","n":"Enemies affected by non-[DamagingAilments|Ailment] Damage over time from Supported Skills have {0}% reduced Life regeneration rate","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 107. Enemies Killed with [Attack] or Spell Hits Explode, dealing {0}% of their Life as Fire Damage
+### 106. Enemies Killed with [Attack] or Spell Hits Explode, dealing {0}% of their Life as Fire Damage
 
 - Match score: `105`
 - `k`: Enemies Killed with [Attack] or Spell Hits Explode, dealing {0}% of their Life as Fire Damage
@@ -9127,7 +9340,7 @@ fired in random directions
 {"k":"Enemies Killed with [Attack] or Spell Hits Explode, dealing {0}% of their Life as Fire Damage","n":"Enemies Killed with [Attack] or Spell Hits Explode, dealing {0}% of their Life as Fire Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 108. Exerted [Attack|Attacks] Trigger a Supported Spell with their first [Melee] Hit
+### 107. Exerted [Attack|Attacks] Trigger a Supported Spell with their first [Melee] Hit
 
 - Match score: `105`
 - `k`: Exerted [Attack|Attacks] Trigger a Supported Spell with their first [Melee] Hit
@@ -9139,7 +9352,7 @@ fired in random directions
 {"k":"Exerted [Attack|Attacks] Trigger a Supported Spell with their first [Melee] Hit","n":"Exerted [Attack|Attacks] Trigger a Supported Spell with their first [Melee] Hit","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 109. Exposure lowers the Total Elemental Resistance matching highest Damage taken by {0}%
+### 108. Exposure lowers the Total Elemental Resistance matching highest Damage taken by {0}%
 
 - Match score: `105`
 - `k`: Exposure lowers the Total Elemental Resistance matching highest Damage taken by {0}%
@@ -9151,7 +9364,7 @@ fired in random directions
 {"k":"Exposure lowers the Total Elemental Resistance matching highest Damage taken by {0}%","n":"Exposure lowers the Total Elemental Resistance matching highest Damage taken by {0}%","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 110. Fire Resistance and Cold Resistance in Radius are Transformed to increased Spell Damage
+### 109. Fire Resistance and Cold Resistance in Radius are Transformed to increased Spell Damage
 
 - Match score: `105`
 - `k`: Fire Resistance and Cold Resistance in Radius are Transformed to increased Spell Damage
@@ -9163,7 +9376,7 @@ fired in random directions
 {"k":"Fire Resistance and Cold Resistance in Radius are Transformed to increased Spell Damage","n":"Fire Resistance and Cold Resistance in Radius are Transformed to increased Spell Damage","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 111. Fireball Projectiles gain Area as they travel farther, up to {0}% increased Area of Effect
+### 110. Fireball Projectiles gain Area as they travel farther, up to {0}% increased Area of Effect
 
 - Match score: `105`
 - `k`: Fireball Projectiles gain Area as they travel farther, up to {0}% increased Area of Effect
@@ -9175,7 +9388,7 @@ fired in random directions
 {"k":"Fireball Projectiles gain Area as they travel farther, up to {0}% increased Area of Effect","n":"Fireball Projectiles gain Area as they travel farther, up to {0}% increased Area of Effect","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 112. Fireball Projectiles gain Area as they travel farther, up to {0}% reduced Area of Effect
+### 111. Fireball Projectiles gain Area as they travel farther, up to {0}% reduced Area of Effect
 
 - Match score: `105`
 - `k`: Fireball Projectiles gain Area as they travel farther, up to {0}% reduced Area of Effect
@@ -9187,7 +9400,7 @@ fired in random directions
 {"k":"Fireball Projectiles gain Area as they travel farther, up to {0}% reduced Area of Effect","n":"Fireball Projectiles gain Area as they travel farther, up to {0}% reduced Area of Effect","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 113. First Echo of Supported Spells has {0}% less Area of Effect
+### 112. First Echo of Supported Spells has {0}% less Area of Effect
 
 - Match score: `105`
 - `k`: First Echo of Supported Spells has {0}% less Area of Effect
@@ -9199,7 +9412,7 @@ fired in random directions
 {"k":"First Echo of Supported Spells has {0}% less Area of Effect","n":"First Echo of Supported Spells has {0}% less Area of Effect","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 114. First Echo of Supported Spells has {0}% more Area of Effect
+### 113. First Echo of Supported Spells has {0}% more Area of Effect
 
 - Match score: `105`
 - `k`: First Echo of Supported Spells has {0}% more Area of Effect
@@ -9211,19 +9424,7 @@ fired in random directions
 {"k":"First Echo of Supported Spells has {0}% more Area of Effect","n":"First Echo of Supported Spells has {0}% more Area of Effect","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 115. FlaskDispellsBurning1
-
-- Match score: `105`
-- `k`: FlaskDispellsBurning1
-- `n`: FlaskDispellsBurning1
-- `cat`: pob_mod_flask
-- `src`: pob_data_poe2/ModFlask.json
-
-```json
-{"k":"FlaskDispellsBurning1","n":"FlaskDispellsBurning1","cat":"pob_mod_flask","src":"pob_data_poe2/ModFlask.json","level":6}
-```
-
-### 116. Gain {0} Life per Elemental Ailment on Enemies Hit with [Attack|Attacks]
+### 114. Gain {0} Life per Elemental Ailment on Enemies Hit with [Attack|Attacks]
 
 - Match score: `105`
 - `k`: Gain {0} Life per Elemental Ailment on Enemies Hit with [Attack|Attacks]
@@ -9235,7 +9436,7 @@ fired in random directions
 {"k":"Gain {0} Life per Elemental Ailment on Enemies Hit with [Attack|Attacks]","n":"Gain {0} Life per Elemental Ailment on Enemies Hit with [Attack|Attacks]","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 117. Gain {0} Life per Elemental Ailment on Enemies Hit with Spells
+### 115. Gain {0} Life per Elemental Ailment on Enemies Hit with Spells
 
 - Match score: `105`
 - `k`: Gain {0} Life per Elemental Ailment on Enemies Hit with Spells
@@ -9247,7 +9448,7 @@ fired in random directions
 {"k":"Gain {0} Life per Elemental Ailment on Enemies Hit with Spells","n":"Gain {0} Life per Elemental Ailment on Enemies Hit with Spells","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 118. GenesisTreeBeltSpellElementalAilmentMagnitudeCrafted
+### 116. GenesisTreeBeltSpellElementalAilmentMagnitudeCrafted
 
 - Match score: `105`
 - `k`: GenesisTreeBeltSpellElementalAilmentMagnitudeCrafted
@@ -9259,7 +9460,7 @@ fired in random directions
 {"k":"GenesisTreeBeltSpellElementalAilmentMagnitudeCrafted","n":"GenesisTreeBeltSpellElementalAilmentMagnitudeCrafted","cat":"repoe_keywords","src":"repoe_poe2/keywords.json"}
 ```
 
-### 119. Grants Immunity to Ignite for 4 seconds if used while Ignited
+### 117. Grants Immunity to Ignite for 4 seconds if used while Ignited
 Removes all Burning when used
 
 - Match score: `105`
@@ -9274,7 +9475,7 @@ Removes all Burning when used
 {"k":"Grants Immunity to Ignite for 4 seconds if used while Ignited\nRemoves all Burning when used","n":"Grants Immunity to Ignite for 4 seconds if used while Ignited\nRemoves all Burning when used","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
-### 120. Grants Immunity to Ignite for {0} seconds if used while Ignited
+### 118. Grants Immunity to Ignite for {0} seconds if used while Ignited
 Removes all Burning when used
 
 - Match score: `105`
@@ -9287,6 +9488,30 @@ Removes all Burning when used
 
 ```json
 {"k":"Grants Immunity to Ignite for {0} seconds if used while Ignited\nRemoves all Burning when used","n":"Grants Immunity to Ignite for {0} seconds if used while Ignited\nRemoves all Burning when used","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 119. Hits ignore Enemy Monster Fire Resistance while you are Ignited
+
+- Match score: `105`
+- `k`: Hits ignore Enemy Monster Fire Resistance while you are Ignited
+- `n`: Hits ignore Enemy Monster Fire Resistance while you are Ignited
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"Hits ignore Enemy Monster Fire Resistance while you are Ignited","n":"Hits ignore Enemy Monster Fire Resistance while you are Ignited","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
+```
+
+### 120. Hits on Ignited Enemies create Burning Ground, no more than once every {0} seconds
+
+- Match score: `105`
+- `k`: Hits on Ignited Enemies create Burning Ground, no more than once every {0} seconds
+- `n`: Hits on Ignited Enemies create Burning Ground, no more than once every {0} seconds
+- `cat`: repoe_stats_by_file
+- `src`: repoe_poe2/stats_by_file.json
+
+```json
+{"k":"Hits on Ignited Enemies create Burning Ground, no more than once every {0} seconds","n":"Hits on Ignited Enemies create Burning Ground, no more than once every {0} seconds","cat":"repoe_stats_by_file","src":"repoe_poe2/stats_by_file.json"}
 ```
 
 ## Index match summary
