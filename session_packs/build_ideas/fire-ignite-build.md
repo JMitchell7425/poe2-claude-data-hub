@@ -1,6 +1,6 @@
 # Build Idea Pack — Fire Ignite Build
 
-- Generated UTC: `2026-11-26T19:36:35+00:00`
+- Generated UTC: `2026-11-27T19:28:20+00:00`
 - Idea slug: `fire-ignite-build`
 - Purpose: Engineer a fire/ignite build with strong map clear and boss damage-over-time scaling.
 - Keywords: `fire, ignite, burn, burning, flammability, exposure, penetration, ailment, elemental, damage over time, dot, area, aoe, spell, attack, projectile, spirit, support, resistance, infernalist, sorceress`
